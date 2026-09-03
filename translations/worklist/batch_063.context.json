@@ -1,0 +1,3788 @@
+{
+ "batch": "batch_063.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "We're very grateful.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　どうも",
+   "occurrences": 3
+  },
+  "Thank you so much.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "毎度おおきに",
+   "occurrences": 2
+  },
+  "Pardon me.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すんません",
+   "occurrences": 2
+  },
+  "Welcome, welcome.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 5
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おいでやす",
+   "occurrences": 5
+  },
+  "How can I help you?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "何にいたしましょ",
+   "occurrences": 3
+  },
+  "This here—about the price... Anything you can do?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これ……　ちょっと……　まかりませんやろか",
+   "occurrences": 1
+  },
+  "Oh. Nice, isn't it? Unfortunately, I can't cut any deals.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あぁ……　それええですやろ？　上もんなんでね　ちょっと難しいですわ",
+   "occurrences": 1
+  },
+  "What if I buy two of these, too? Could you make a deal then?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そうなんや　ほなこっちのも２つ買うてくから　それでちょっと安うなりまへんか？",
+   "occurrences": 1
+  },
+  "Hmm, all right... But just this once, got it?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "んー　はい　ほんならええですよ　せやけど今日だけやで",
+   "occurrences": 1
+  },
+  "Great, thank you so much!": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに　ほんま助かりますわぁ",
+   "occurrences": 1
+  },
+  "Here you go.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 4
+    },
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (11 จุด)",
+   "chapters": [],
+   "ja": "ああ。確かめてくれ。",
+   "occurrences": 17
+  },
+  "I look forward to your next visit... kind of.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅう",
+   "occurrences": 1
+  },
+  "Let's see, now...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "せやなぁ",
+   "occurrences": 2
+  },
+  "Anything you would recommend?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんか人気やったりお勧めやったりするもんあります？",
+   "occurrences": 1
+  },
+  "Yeah, these are all good.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あぁ　ほんならこれがええですよ",
+   "occurrences": 1
+  },
+  "Ooh, they look good. I'll take one.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ええですねぇ　それください",
+   "occurrences": 1
+  },
+  "And one of these.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "それとー　こっちのも",
+   "occurrences": 1
+  },
+  "Sure thing.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "はい　どうも",
+   "occurrences": 4,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Thanks for choosing us.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきに",
+   "occurrences": 1
+  },
+  "Hi there.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "あぁ　どうも",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hello there, welcome.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 4
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "はい　いらっしゃい",
+   "occurrences": 5,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "What can I do for you?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 6
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (4 จุด)",
+   "chapters": [],
+   "ja": "はい、何用でございましょうか？",
+   "occurrences": 10
+  },
+  "Anything you can do about this price?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これ　もうちょい安なったりしまへんか？",
+   "occurrences": 1
+  },
+  "Hmm... Well, if it were a bigger sale, maybe...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "せやなぁ……　他にも買ぅてもろたら　考えてもええんですけど……",
+   "occurrences": 1
+  },
+  "Then I'll buy that one too, how's that?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　それも買いますから　どうです？",
+   "occurrences": 1
+  },
+  "Not bad. You've got yourself a deal.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "わかりました　勉強させてもらいます",
+   "occurrences": 1
+  },
+  "Thanks! Y'know, you're alright! I'll be sure to come back again.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに！　あんたええ人やなぁ　また寄らせてもらうで",
+   "occurrences": 1
+  },
+  "Here you are.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 10
+    },
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら　これ",
+   "occurrences": 13
+  },
+  "Looking forward to our next haggle!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅう頼んます",
+   "occurrences": 2
+  },
+  "What should I get...?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "悩むなぁ",
+   "occurrences": 1
+  },
+  "So, what would you recommend? Something real impressive.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あの　なんかええもんあります？　話のネタになるようなんとか",
+   "occurrences": 1
+  },
+  "Hmm, how about this? It's quite unique.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "んー　せやなぁ　これなんかどうです？　珍しいで",
+   "occurrences": 1
+  },
+  "Ooh, that's good. I'll take it.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おぉ　ええですねぇ　それください",
+   "occurrences": 1
+  },
+  "And this too, since it's on sale.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとコレももらおかな　安ぅなっとるし",
+   "occurrences": 1
+  },
+  "'Preciate the kind words.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　どうも",
+   "occurrences": 1
+  },
+  "We're grateful for your patronage.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきに",
+   "occurrences": 1
+  },
+  "Hi there...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すんまへん",
+   "occurrences": 1
+  },
+  "Could you lower the price on this one any? Budget's been tight...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これ　もうちょっと安ぅならへん？　最近うち家計が厳しいんやわぁ",
+   "occurrences": 1
+  },
+  "Oof, that's a tough ask.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやー　厳しいこと言わはるなぁ",
+   "occurrences": 1
+  },
+  "I see... Oh! What if I got that too? Fair deal?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あかんかぁ……　あっ！　あれも一緒に買うから　な？　それでどう？",
+   "occurrences": 1
+  },
+  "Fine, but just this once, alright?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "しゃあないなぁ　今日だけ　特別ですよ",
+   "occurrences": 1
+  },
+  "Thanks a bunch! Yer my new favorite shop.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんまおおきに　いつもひいきにしてますんで",
+   "occurrences": 1
+  },
+  "Here's your money.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 4
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　これで",
+   "occurrences": 4
+  },
+  "Don't forget to come back!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅう",
+   "occurrences": 3
+  },
+  "Alrighty...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "せやなぁ……",
+   "occurrences": 1
+  },
+  "Any recommendations?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "何かおすすめとかある？",
+   "occurrences": 1
+  },
+  "This one's pretty good.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これとかええですよ",
+   "occurrences": 1
+  },
+  "Ah, yeah. I'll get that then.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おぉ　ええな　それもらいますわ",
+   "occurrences": 1
+  },
+  "And this here, too.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとこっちの　これもついでに",
+   "occurrences": 1
+  },
+  "Great. Thanks for paying the exact amount.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　丁度で",
+   "occurrences": 2
+  },
+  "We appreciate your patronage.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきに",
+   "occurrences": 2
+  },
+  "Pardon me...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すんまへん",
+   "occurrences": 3
+  },
+  "I'm likin' this, but the price, woof! Any way you could cut that back?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これもうちょっと安なるんなら買おうと思うんですけど　ちょっとまかりませんか？",
+   "occurrences": 1
+  },
+  "Ooh, sorry. That's gonna be a no.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやぁ　すんまへん　それはちょっと難しいですわ",
+   "occurrences": 1
+  },
+  "Well, what if I get one o' these too?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　それ買いますさかいに　それで安ぅなりまへんか？",
+   "occurrences": 1
+  },
+  "Hmm, I guess I can do that.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "せやなぁ　せやったらええですよ",
+   "occurrences": 1
+  },
+  "Thanks a bunch! I really appreciate it.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんまおおきに　ひいきにしてますさかい　よろしゅうな",
+   "occurrences": 1
+  },
+  "Don't forget to come again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅう頼んます",
+   "occurrences": 2
+  },
+  "Hmmmm...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そやなぁ",
+   "occurrences": 2
+  },
+  "I'm looking for a gift. Any recommendations?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかお土産にしたいんやけど　ええもんあります？",
+   "occurrences": 1
+  },
+  "How about these? They make good gifts.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "それやったら　これがええと思いますよ",
+   "occurrences": 1
+  },
+  "Then I'll take two of those.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　これにしますわ２つください",
+   "occurrences": 1
+  },
+  "Oh, you know what? Give me another, for myself.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あっ　やっぱり３つで　自分の分　忘れてましたわ",
+   "occurrences": 1
+  },
+  "Come back again!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "毎度おおきに",
+   "occurrences": 5
+  },
+  "Excuse me...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すんません",
+   "occurrences": 3
+  },
+  "Hi, welcome.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "よう　おこしやす",
+   "occurrences": 2
+  },
+  "What can I get you today?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日はなんにしましょか？",
+   "occurrences": 3
+  },
+  "This looks good, but I was hoping for a better deal.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これええなぁ思てたんですけど　もうちょっと安ぅなりまへん？",
+   "occurrences": 1
+  },
+  "Hmm, I'd consider it if you bought something else...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そやねぇ　他のも買うてくれたら　考えてもええんですけど……",
+   "occurrences": 1
+  },
+  "How about one of these? Would that do it?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら　こっちのも買うてきますから　それでどうですか？",
+   "occurrences": 1
+  },
+  "Sure, I'll give you a deal.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　ほな安ぅしましょ",
+   "occurrences": 1
+  },
+  "Thanks. I owe you one.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんま　たすかりますわ",
+   "occurrences": 1
+  },
+  "Come again soon.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 4
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅうたのんます",
+   "occurrences": 4
+  },
+  "Any specials today, sir? Or recommendations?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかええもんあります？　おすすめのとか",
+   "occurrences": 1
+  },
+  "How about this? I think you'll find it quite nice.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　これとかどうですやろ　気に入ってもらえると思うんですけど……",
+   "occurrences": 1
+  },
+  "Ooh, nice indeed! You've got a deal.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おお　ええやないですかほな　これください",
+   "occurrences": 1
+  },
+  "In fact, I'll have two of them.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あ　２つくださいね",
+   "occurrences": 1
+  },
+  "Thank you for your patronage.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 4
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきに",
+   "occurrences": 4
+  },
+  "And thank you.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも",
+   "occurrences": 1
+  },
+  "Could you... give me a discount on this?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これって……　安ぅなったりせんろうか？",
+   "occurrences": 1
+  },
+  "Mmm, not so sure about that...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやー　厳しいこと言うねぇ",
+   "occurrences": 1
+  },
+  "What if I were to buy one of these, too?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんならそれも買うき　どうじゃろ？",
+   "occurrences": 1
+  },
+  "Fine, but just the once.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "しょうがないね　今日だけ　特別やきね",
+   "occurrences": 1
+  },
+  "Thanks! You've earned yourself a regular.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに！　いつもひいきにしちゅうで",
+   "occurrences": 1
+  },
+  "Here's the payment...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほいたら　これ",
+   "occurrences": 1
+  },
+  "You got anything good?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかえいがあるろうか？",
+   "occurrences": 2
+  },
+  "Um, these are good.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "うーん　これとかどうやろ？",
+   "occurrences": 1
+  },
+  "Oh, really? Then I'll take it.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えいねぇ　それちょうだい",
+   "occurrences": 1
+  },
+  "Throw this on there too.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとコレももらおうかの",
+   "occurrences": 1
+  },
+  "Thank you very much.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 5
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (5 จุด)",
+   "chapters": [],
+   "ja": "はい　どうも",
+   "occurrences": 10
+  },
+  "And come back soon.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度あり",
+   "occurrences": 1
+  },
+  "'Scuuuse me.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すみません",
+   "occurrences": 2
+  },
+  "Hello, welcome.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　いらっしゃい",
+   "occurrences": 3
+  },
+  "What can I do for you today?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日はなんにしょうかね？",
+   "occurrences": 1
+  },
+  "This here... Any discounts available for it?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これって……　ちょっと安ぅならんろうか？",
+   "occurrences": 1
+  },
+  "Mm, I don't believe so...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやぁ　うーん難しいにゃあ　勘弁してつかあさい",
+   "occurrences": 1
+  },
+  "How about for this one?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これと　あとそれも買うき　どう？",
+   "occurrences": 1
+  },
+  "Ah, sure. Why not?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もぉ　わかったちや　えいわえ",
+   "occurrences": 1
+  },
+  "Ah, how nice of you! Thank you.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おぉ　おおきにさすが　気前えいのぅ",
+   "occurrences": 1
+  },
+  "This is for you.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　ほいたらこれ",
+   "occurrences": 1
+  },
+  "Hope to see you again soon.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅうお願いします",
+   "occurrences": 1
+  },
+  "Hello, hello.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そうやのぅ",
+   "occurrences": 1
+  },
+  "Got anything good today?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかえいが入っちゅうろうか？",
+   "occurrences": 1
+  },
+  "Yeah, how about these?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "うーん　そうやねぇ　これとか良うないろうか？",
+   "occurrences": 1
+  },
+  "Uh... Yeah, gimme one.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あぁ……　それにしょうかの",
+   "occurrences": 1
+  },
+  "Actually, gimme two.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ふたつちょうだい",
+   "occurrences": 1
+  },
+  "Greetings!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　いらっしゃいませ",
+   "occurrences": 2
+  },
+  "Could you give me a discount on this?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これって　もっと安なったりせぇへん？",
+   "occurrences": 1
+  },
+  "Of course not. It's already cheaper than what other stores sell it for.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやー　これでもほかの店に比べたら安いんですよ",
+   "occurrences": 1
+  },
+  "If I don't get a discount on stuff my wife yells at me. What if I buy two?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "安ぅならんとおかんに怒られてまうんよ　ほな２つ買うさかいなぁええやろ？",
+   "occurrences": 1
+  },
+  "Fine, fine. I'll give you a discount.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう　しょぉないなぁ　安ぅさせてもらいます",
+   "occurrences": 1
+  },
+  "Yes! Now I won't have to sleep by myself! Thanks.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これでおかんに怒られんですむわ　おおきにな",
+   "occurrences": 1
+  },
+  "So many choices.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どないしょかな",
+   "occurrences": 2
+  },
+  "You got a recommendation?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかおすすめとかある？",
+   "occurrences": 1
+  },
+  "What about this? It just came in.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これとかどうです？　ついさっき入ったもんやけど",
+   "occurrences": 1
+  },
+  "Cheap, too. Good enough for me!": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "結構安いやん　ほんならそれください",
+   "occurrences": 1
+  },
+  "With whatever's left over, I'll get something for my younger brother.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "残ったおかねで弟になんか買ぅてくつもりやねん",
+   "occurrences": 1
+  },
+  "It's a deal.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　丁度で",
+   "occurrences": 1
+  },
+  "Visit us again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきにね",
+   "occurrences": 2
+  },
+  "Thank ya.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも",
+   "occurrences": 1
+  },
+  "I want this, but it's a bit expensive...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これ欲しいんやけど　ちょっと高いなぁと思て……",
+   "occurrences": 1
+  },
+  "Seriously? This is already as cheap as it ever gets.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇ？　これはもう安ぅしてますさかい　これ以上は……",
+   "occurrences": 1
+  },
+  "Well, what if I buy this, too?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら　これも一緒に買うてくから　な？",
+   "occurrences": 1
+  },
+  "Ah, that's fine.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう　しょうないなぁ",
+   "occurrences": 1
+  },
+  "I shall remember your generosity! I'll be back.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "気前ええなぁ　また寄らせてもらうさかい",
+   "occurrences": 1
+  },
+  "Here's your well-deserved money.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　これな",
+   "occurrences": 1
+  },
+  "Come again...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅう",
+   "occurrences": 1
+  },
+  "Hm. Let's see, let's see...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "うーん　せやなぁ",
+   "occurrences": 1
+  },
+  "You got anything good today?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかええもん入ってへんか？",
+   "occurrences": 1
+  },
+  "Yes, we do! This right here is the best, I assure you.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これやこれ！　こんなかで一番やで　ほんまに",
+   "occurrences": 1
+  },
+  "Then I'll get it!": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら　それもらおか",
+   "occurrences": 1
+  },
+  "And this, too.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとコレも",
+   "occurrences": 1
+  },
+  "Perfect. And I always appreciate exact payment.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　どうも丁度で",
+   "occurrences": 1
+  },
+  "Great doing business with ya!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきに！",
+   "occurrences": 1
+  },
+  "Heya...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あのぉ……",
+   "occurrences": 1
+  },
+  "You willing to give me a discount on this?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これ　もうちょっとまかりまへんやろか？",
+   "occurrences": 1
+  },
+  "That's a bit of a hard ask.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いきなりキツイこと言わはるわぁ",
+   "occurrences": 1
+  },
+  "Not exactly flush with cash today... Well, what if I buy that, too?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日　持ち合わせ少ないんよぉ　ほなあれも買うてくから　どうです？",
+   "occurrences": 1
+  },
+  "Fine, but <i>only</i> this one time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう今日だけですえ",
+   "occurrences": 1
+  },
+  "Thanks a ton, I knew I could count on ya!": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんまおおきに　いつも頼りにしてますさかい",
+   "occurrences": 1
+  },
+  "Come back soon!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅうね",
+   "occurrences": 3
+  },
+  "Got anything particularly intriguing today?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかええのあります？",
+   "occurrences": 1
+  },
+  "Well, this here is pretty popular.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そうやねぇ　これなんか　今人気ですよ",
+   "occurrences": 1
+  },
+  "Then I want it!": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら　それください",
+   "occurrences": 1
+  },
+  "And also I'll get this.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとコレも一緒に",
+   "occurrences": 1
+  },
+  "Hello.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おこしやすぅ",
+   "occurrences": 2
+  },
+  "I want to buy this, but can you bring down the price some?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これ　欲しいんやけど　もうちょっと安ぅなりまへんか？",
+   "occurrences": 1
+  },
+  "Sorry, that's already as cheap as it gets.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これでも　ぎりぎりまで安ぅしてますさかい　勘弁してくださいー",
+   "occurrences": 1
+  },
+  "Even if I buy that thing, too?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほなあれも買うてくから　どうです？",
+   "occurrences": 1
+  },
+  "Fiiine. But just for today.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう　しょぉない　今日だけですえ",
+   "occurrences": 1
+  },
+  "You're always so generous, my friend! I love this store.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さすが気前ええわぁ　せやからここのお店すきやねん",
+   "occurrences": 1
+  },
+  "We look forward to seeing you again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "またよろしゅう頼みます",
+   "occurrences": 2
+  },
+  "Ooh, what should I buy?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どないしょうかなぁ",
+   "occurrences": 1
+  },
+  "Got anything interesting today?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかええのあります？",
+   "occurrences": 1
+  },
+  "Uh... How about this one? It's been selling pretty well...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "うーん　これなんかどうです？　売れてますよ",
+   "occurrences": 1
+  },
+  "Well, if everyone else likes it so much...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら……　それください",
+   "occurrences": 1
+  },
+  "I'll take that and this, too.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとコレも一緒に",
+   "occurrences": 1
+  },
+  "'Scuse me...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すんまへん",
+   "occurrences": 1
+  },
+  "What can I get for you?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "何にしましょ？",
+   "occurrences": 2
+  },
+  "I want this, but can't you do better on the price?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これほしいねんけど　安ぅしてもらえまへんやろか？",
+   "occurrences": 1
+  },
+  "Seriously? That thing couldn't be any cheaper already.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いきなりキツイこと言うねぇ　もうだいぶ安ぅしとりますよ",
+   "occurrences": 1
+  },
+  "Give me the discount and I'll buy that thing, too.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "安ぅしてくれたらあれも買えるんやけどなぁ",
+   "occurrences": 1
+  },
+  "Fine, fine. Just tell your neighbors how much you like the store, okay?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう　わかりました　ご近所さんにもええよう言うといてください",
+   "occurrences": 1
+  },
+  "Absolutely! You're always so kind.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに！　ほんまいつも助かってます",
+   "occurrences": 1
+  },
+  "Decisions, decisions...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どないしょかな",
+   "occurrences": 2
+  },
+  "What do you recommend?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかおすすめ教えてもらえまへん？",
+   "occurrences": 1
+  },
+  "I think this one's good, and it's been selling quite well.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これええと思いますよ　ようさん売れてますねん",
+   "occurrences": 1
+  },
+  "Yeah, I'll take it. Looks great!": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんならそれください　良さそやし",
+   "occurrences": 1
+  },
+  "You have such great stuff, you know that?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さすがええもん置いてますねぇ",
+   "occurrences": 1
+  },
+  "Thanks for stopping by.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきにね",
+   "occurrences": 2
+  },
+  "I want that, but only at a better price.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "それ欲しいねんけど　なんとか安ぅなったりしまへんか？",
+   "occurrences": 1
+  },
+  "Listen, cut me a deal and I'll buy that, too. Whaddya say?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほなあれも買うてくから……　な？　頼むわー",
+   "occurrences": 1
+  },
+  "Good prices are why I come here. You're the best, pal.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やっぱり気前ええわぁ　せやからこのお店いつもくるねんで",
+   "occurrences": 1
+  },
+  "And here's the money.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　これな",
+   "occurrences": 2
+  },
+  "What do you think I should get?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どないしょうかなぁ",
+   "occurrences": 1
+  },
+  "Is there anything that stands out?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんか　グッとくるやつあります？",
+   "occurrences": 1
+  },
+  "This is pretty good, I think.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あぁ　確かにええわ　これ",
+   "occurrences": 1
+  },
+  "Excellent. Ring it up!": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　それください",
+   "occurrences": 1
+  },
+  "Um...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (10 จุด)",
+   "chapters": [],
+   "ja": "あ……",
+   "occurrences": 11
+  },
+  "Yes, welcome.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　いらっしゃい",
+   "occurrences": 1
+  },
+  "Could you come down a bit on the price for this one?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これって……　まけてくれたりせんろうか？",
+   "occurrences": 1
+  },
+  "Uh, I don't think so...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやぁ　ちょっとそれは……",
+   "occurrences": 1
+  },
+  "What if I buy this, too?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんならあれも買うき　ねぇ　どうやろ？",
+   "occurrences": 1
+  },
+  "Fine, I'll cut you a deal. For today only!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう今日だけでぇ",
+   "occurrences": 1
+  },
+  "Much thanks! Consider me a loyal customer.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに！　これからもひいきにするき……",
+   "occurrences": 1
+  },
+  "Here's the money.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに　ほいたらこれ",
+   "occurrences": 1
+  },
+  "I'll be lookin' for that loyalty...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅう頼むきね",
+   "occurrences": 1
+  },
+  "Hmm.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "そうやねぇ",
+   "occurrences": 3
+  },
+  "What would you get if you were me?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかオススメある？",
+   "occurrences": 1
+  },
+  "Hm, this one's pretty popular right now.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そうやねぇ　これとか今人気で",
+   "occurrences": 1
+  },
+  "Then... I'll follow the wisdom of the crowd.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら……　それちょうだい",
+   "occurrences": 1
+  },
+  "And I'd like to get this, too.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとコレも一緒に",
+   "occurrences": 1
+  },
+  "Great choice.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　どうも",
+   "occurrences": 2
+  },
+  "See you next time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度あり",
+   "occurrences": 2
+  },
+  "How may I serve you?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんにしょうかね？",
+   "occurrences": 1
+  },
+  "By givin' me a discount on this here.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これ　まっとまけてもらえんろうか？",
+   "occurrences": 1
+  },
+  "But it's already priced very low.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやぁ　これでもだいぶ安うしちゅうがで",
+   "occurrences": 1
+  },
+  "Hey, it's my dad's birthday, can't you do something? I'll buy this, too.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日　お父さんのお祝いながよ　何とかならんろうか？　これも買うきよ",
+   "occurrences": 1
+  },
+  "Fine, but only since it's his birthday.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう　ほんなら今日だけ　特別やきね",
+   "occurrences": 1
+  },
+  "Thanks, this store is the best.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに　やっぱこのお店は頼りになるね",
+   "occurrences": 1
+  },
+  "Looking forward to seeing you again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅう頼むきね",
+   "occurrences": 1
+  },
+  "Right, right.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そうやねぇ",
+   "occurrences": 1
+  },
+  "Of course, plenty of good items. This one's popular...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "うーん　そうやねぇ　これ売れちゅうで",
+   "occurrences": 1
+  },
+  "Well... Guess I better get it.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほしたら……　それにしょうかな",
+   "occurrences": 1
+  },
+  "This, too.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとコレも",
+   "occurrences": 2
+  },
+  "All right, thank you.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　どうも",
+   "occurrences": 1
+  },
+  "I want this but... It's a little expensive. Might you be willing to reduce the price?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これほしいんですけど……　ちょっと高いな思いまして　ちょっとまかりまへんか？",
+   "occurrences": 1
+  },
+  "I'm afraid it's greatly reduced already. Let me assure you, it's excellent.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやぁ　これでもお安くしとるんどすえ　ええ品ですし　堪忍してくださいよ",
+   "occurrences": 1
+  },
+  "What if I told you I'll also buy that small one... if there's a price cut?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　そっちの小っちゃいのも買うさかい……　そんでどうどすか？",
+   "occurrences": 1
+  },
+  "Hmm, very well. You're a shrewd negotiator.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "んー　わかりました　ええどすえ　もうお客さん上手いんやから",
+   "occurrences": 1
+  },
+  "Thank you. I'll definitely be back.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに　ひいきにさしてもらいますわ……",
+   "occurrences": 1
+  },
+  "Here's the payment.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　これね",
+   "occurrences": 1
+  },
+  "Hm, let's see...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "んー　そやねぇ",
+   "occurrences": 1
+  },
+  "Surely there's something good here?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかええのないかな？",
+   "occurrences": 1
+  },
+  "Of course, what about this? I think it's very good myself...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これなんかどうどす？　ええと思うんですけど……",
+   "occurrences": 1
+  },
+  "Oh I like that. Yeah, I'll take it.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あ　ええやないですか　それください",
+   "occurrences": 1
+  },
+  "Good day.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どぅも",
+   "occurrences": 1
+  },
+  "I have a favor to ask... Could you procure me a discount on this?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっとお願いなんどすけど……　これ安ぅなりまへんか？",
+   "occurrences": 1
+  },
+  "Thaaat will be difficult.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そら厳しいですわ",
+   "occurrences": 1
+  },
+  "But I'd buy if only it were cheaper... Oh, what if I buy that one, too?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "安ぅなったら買えるんやけど……　ほなあれも買うから　なんとかなりまへん？",
+   "occurrences": 1
+  },
+  "Ugh, fine. As long as you keep shopping here regularly.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう　しょぉないなぁ　そんかわり　また買いに来てや",
+   "occurrences": 1
+  },
+  "You'll do it? Thank you, no wonder I love this store.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんまに？　おおきに　そやからここ好きなんよ",
+   "occurrences": 1
+  },
+  "I look forward to your continued visits.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅうたのみます",
+   "occurrences": 1
+  },
+  "So much to take in...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そうどすなぁ",
+   "occurrences": 1
+  },
+  "Do you have any recommendations?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかおすすめ教えてもらえまへんやろか",
+   "occurrences": 1
+  },
+  "This one's pretty popular, what do you think?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そうどすな　これとか人気あるんやけど　どうどすやろ？",
+   "occurrences": 1
+  },
+  "It's nice, I like it. I'll buy that.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ええどすなぁ　気に入りましたわそれください",
+   "occurrences": 1
+  },
+  "As well as that one.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あとあっちのも一緒に",
+   "occurrences": 1
+  },
+  "Thanks for stoppin' by.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきに",
+   "occurrences": 2
+  },
+  "Greetings.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも",
+   "occurrences": 1
+  },
+  "A warm welcome to you.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 4
+    },
+    {
+     "name": "id:bandai",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "いらっしゃいませ",
+   "occurrences": 5
+  },
+  "I'd like a favor. Could you give me a discount on this?": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっとお願いあるんやけど……　これもうちょい安ぅしてくれへん？",
+   "occurrences": 1
+  },
+  "That's going to be tough.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやーうちもなかなか厳しいんですわー",
+   "occurrences": 1
+  },
+  "Come on, I always come here. I'll buy that too, if you say yes.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いつもひいきにしてるやないの　あとあれも買うから　なぁどない？",
+   "occurrences": 1
+  },
+  "Well, how can I say no when you're so reasonable?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう　そないに言われたら　ええ言うしかないやないの",
+   "occurrences": 1
+  },
+  "Thanks! My favorite kind of businessperson.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに！　さすが気前ええわぁ",
+   "occurrences": 1
+  },
+  "I'll even give you exact payment.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら　これ丁度やさかい",
+   "occurrences": 1
+  },
+  "Works out for both of us!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またよろしゅうたのんますね",
+   "occurrences": 1
+  },
+  "Any good deals? I love good deals.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかお買い得なもんあります？　うち　お得なもんに目がないねん",
+   "occurrences": 1
+  },
+  "Well, what do you think about this?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これとかええんとちゃいます？",
+   "occurrences": 1
+  },
+  "Oh, it's nice. Very nice.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ええやんこれお得やないの",
+   "occurrences": 1
+  },
+  "You knew exactly what I needed.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さすが　よう分かってはるわ",
+   "occurrences": 1
+  },
+  "I'm here to help.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　どうもです",
+   "occurrences": 1
+  },
+  "Come on back soon.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきにー",
+   "occurrences": 2
+  },
+  "Ah, welcome.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あぁ　いらっしゃい",
+   "occurrences": 1
+  },
+  "I'd really appreciate it if you could cut me a deal on this.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これもうちょっと安ぅなったら嬉しいんやけど　まけてくれへん？",
+   "occurrences": 1
+  },
+  "Oh no, that's as cheap as it gets.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いやぁ　うちもギリギリでやらせてもろとるんやで　それは厳しいわぁ",
+   "occurrences": 1
+  },
+  "But what if I buy a second item? I already like that one. Come on...": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほな　他にも買うさかい　丁度あれもええなぁ思たんですよ　どやろか",
+   "occurrences": 1
+  },
+  "Okay, if you're purchasing multiple things... I'll give you the discount.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "もう　わかりました　いっぱい買ぅてくれるんやし　勉強しますよ",
+   "occurrences": 1
+  },
+  "Great! I'll gladly take both.": {
+   "speakers": [
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに！　ほなそっちのも買うわ",
+   "occurrences": 1
+  }
+ }
+}

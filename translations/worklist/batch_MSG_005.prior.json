@@ -1,0 +1,44 @@
+{
+ "batch": "MSG_005",
+ "readme": "คำที่ 'เคาะไปแล้ว' ในก้อนก่อนหน้า และโผล่อยู่ในสตริงของก้อนนี้ ดึงจาก master_th.json อัตโนมัติ",
+ "how_to_use": {
+  "locked_names_places": "คำล็อกจาก name_locks.json / place_locks.json — **บังคับ** ต้องสะกดตามนี้เป๊ะ",
+  "terms": "ชื่อเฉพาะ/วลี — ใช้รูปนี้เท่านั้น ห้ามตั้งใหม่ ถ้าเห็นว่ารูปเดิมผิดจริง ให้รายงาน lead อย่าเปลี่ยนเอง",
+  "single_words": "คำเดี่ยว — เป็นคำแปลของ **บริบทอื่น** อาจไม่ตรงบริบทก้อนนี้ (เช่น Result = 'ผลการซื้อขาย' มาจากหน้าร้านค้า) ให้ใช้เมื่อบริบทตรงกันเท่านั้น"
+ },
+ "locked_names_places": {
+  "East Shijo Street": "ถนนชิโจตะวันออก",
+  "Shijo Street": "ถนนชิโจ"
+ },
+ "terms": {
+  "All-Purpose Medicine": "ยาสารพัดประโยชน์",
+  "Tear of the Dragon": "น้ำตามังกร",
+  "Diligence Records": "ใบประกาศความพากเพียร",
+  "Oblivious Woman": "หญิงสะเพร่า",
+  "Vitality Pill": "ยาบำรุงกำลัง",
+  "Passion Pill": "ยาเลือดร้อน",
+  "Pause Menu": "เมนูหยุดเกม",
+  "Shogi King": "ราชาโชกิ",
+  "3 ryo": "3 เรียว"
+ },
+ "single_words": {
+  "*sigh*": "เฮ้อ...",
+  "All-Purpose": "อเนกประสงค์",
+  "Another": "Another",
+  "Default": "ค่าเริ่มต้น",
+  "East": "ตะวันออก",
+  "Ebisu": "เอบิสึ",
+  "Even": "คู่",
+  "Farewell": "อำลา",
+  "Good": "ดี",
+  "Great": "ดีเยี่ยม",
+  "Menu": "เมนู",
+  "Shogi": "โชกิ",
+  "Take": "รับ",
+  "Yes": "ใช่",
+  "mon": "มอน",
+  "place": "อันดับ",
+  "points": "แต้ม",
+  "ryo": "เรียว"
+ }
+}

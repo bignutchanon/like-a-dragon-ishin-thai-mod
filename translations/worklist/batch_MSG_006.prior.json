@@ -1,0 +1,53 @@
+{
+ "batch": "MSG_006",
+ "readme": "คำที่ 'เคาะไปแล้ว' ในก้อนก่อนหน้า และโผล่อยู่ในสตริงของก้อนนี้ ดึงจาก master_th.json อัตโนมัติ",
+ "how_to_use": {
+  "locked_names_places": "คำล็อกจาก name_locks.json / place_locks.json — **บังคับ** ต้องสะกดตามนี้เป๊ะ",
+  "terms": "ชื่อเฉพาะ/วลี — ใช้รูปนี้เท่านั้น ห้ามตั้งใหม่ ถ้าเห็นว่ารูปเดิมผิดจริง ให้รายงาน lead อย่าเปลี่ยนเอง",
+  "single_words": "คำเดี่ยว — เป็นคำแปลของ **บริบทอื่น** อาจไม่ตรงบริบทก้อนนี้ (เช่น Result = 'ผลการซื้อขาย' มาจากหน้าร้านค้า) ให้ใช้เมื่อบริบทตรงกันเท่านั้น"
+ },
+ "locked_names_places": {
+  "Otake Tea Parlor": "ร้านน้ำชาโอตาเกะ",
+  "Shogi Parlor": "ร้านโชกิ"
+ },
+ "terms": {
+  "Golden Medicine Case": "ตลับยาทองคำ",
+  "Shogi Parlor Owner": "เจ้าของร้านโชกิ",
+  "Diligence Records": "ใบประกาศความพากเพียร",
+  "I'm in love": "I'm in love",
+  "Gold Nugget": "ก้อนทองคำเล็ก",
+  "Pause Menu": "เมนูหยุดเกม",
+  "Iron Scrap": "เศษเหล็ก",
+  "Tea Parlor": "ร้านชา"
+ },
+ "single_words": {
+  "*sigh*": "เฮ้อ...",
+  "Bait": "เหยื่อล่อ",
+  "Boy": "เด็กชาย",
+  "Daikon": "ไชเท้า",
+  "Default": "ค่าเริ่มต้น",
+  "Even": "คู่",
+  "First": "หนึ่ง",
+  "Fishing": "ตกปลา",
+  "Five": "ห้า",
+  "Gold": "ทอง",
+  "Golden": "ทองคำ",
+  "Good": "ดี",
+  "Kabuki": "คาบูกิ",
+  "Menu": "เมนู",
+  "Next": "ถัดไป",
+  "None": "ไม่มี",
+  "Off": "ปิด",
+  "Otake": "โอตาเกะ",
+  "Shogi": "โชกิ",
+  "Sort": "จัดเรียง",
+  "Still,": "แต่ทว่า",
+  "Truth": "ความจริง",
+  "Yes": "ใช่",
+  "cooking": "cooking",
+  "fishing": "fishing",
+  "place": "อันดับ",
+  "points": "แต้ม",
+  "times": "ครั้ง"
+ }
+}

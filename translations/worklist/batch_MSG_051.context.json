@@ -1,0 +1,3396 @@
+{
+ "batch": "batch_MSG_051.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "...That's good advice, I think. I hope she gets my reply.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……こんなもんか。\r\n日記の持ち主に返事が届けばいいが。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(It's a diary...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（手帳が落ちているな……）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Some teenaged girl must've dropped it. Who else would carry a diary around?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（どうやら落とし物らしい。\r\n　見たところ女物のような色だが……）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(I'm not going to invade some poor girl's privacy. I'll just leave it here.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（さすがに人の手帳を勝手に見るのは悪いか……\r\n　このままにしておこう）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(I mean, if I want to return this diary to its owner, I <i>have</i> to read some of it. I feel bad about that, but what else can I do?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……落とした奴は困っているだろう。\r\n　持ち主の手がかりが書いてあるかもしれん。\r\n　悪いが、少しだけ中身を見せてもらおう）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "All right, let's see...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えーと、なになに……？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "\"Darkness surrounds me. There is nothing I can do to soothe this agony in my heart as I sink deeper into despair's cold embrace...\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「最近なんだかずっと、心の中が曇り空。\r\n　この胸の苦しみは、いったいどうすればいいの？\r\n　……切ないよ。」",
+   "occurrences": 1
+  },
+  "(Yeah, definitely the musings of a teenager. The youthful angst!)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……なんだこの文章は。\r\n　どうやら手帳の持ち主は年頃の娘のようだな）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "\"How can I find the strength to tell you how my thoughts center on you, even when I'm working, when I'm eating, when I'm bathing...\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「お仕事してる時も、ご飯を食べてる時も、\r\n　寝る時も……　お風呂に入ってる時だって、\r\n　いつだって君のこと考えちゃう。」",
+   "occurrences": 1
+  },
+  "\"I know this love will remain forever unrequited. I know I must give you up. But I can't! I only think of you! Can't you see that I love you!\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「叶わない恋だってわかってるけど……\r\n　諦めなきゃって、思うけど……　そんなの無理！\r\n　だって君以外、考えられない！　君が好き！」",
+   "occurrences": 1
+  },
+  "(This girl's got it bad...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……手帳の落とし主は恋をしているらしいな）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Even I'm starting to feel sorry for her, reading this. Poor lovelorn kid.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ずいぶん悩んでいるようだ……\r\n　読んでいるこっちまで、つらくなってきたぞ）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "\"The agony only grows as I write... No more! I'm done with this diary! Let it decay at the shrine, like my heart decays without your love!\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「気持ちを言葉にすればするほど、苦しくなる……\r\n　もうやめやめ！　この日記はこれでおしまい！\r\n　思い切って、神社とかに捨ててしまおう！」",
+   "occurrences": 1
+  },
+  "(Huh, so that explains how a diary ended up here at the shrine. I was wondering...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……この手帳、日記だったんだな。\r\n　そういった経緯でここに捨てられていたのか）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "\"My only fear is if someone might find this diary, and find out all my secrets. I wonder what that person would think of me...\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「でももしこの日記が誰かに拾われて、\r\n　私の気持ちを知ってしまった人が現れたら……\r\n　その人はいったい何を思うんだろう？」",
+   "occurrences": 1
+  },
+  "\"Would they call me a fool and laugh? Or... would they tell me they understand?\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「私のこと、馬鹿な奴だなって笑うのかな？\r\n　それとも、わかるよって言ってくれるかな？」",
+   "occurrences": 1
+  },
+  "\"I wish I was there to ask that person: is this torture I'm enduring normal? Or am I just stupid to be so in love?\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「……この日記を拾ったあなた。\r\n　私の悩みって、普通なことだと思う？\r\n　それとも……　やっぱり、馬鹿みたいかな？」",
+   "occurrences": 1
+  },
+  "(Not sure what to make of her question at the end. How would I answer that?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（この日記、妙な問いかけで終わっているが……\r\n　もしかして、返事を書けってことか？）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(I wish I <i>could</i> answer her. Maybe there's some way to get a message to the girl...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……本当に返事が届くかはわからんが、\r\n　なにか書きこんでおいてやるか）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(First of all, what do I think about unrequited love? What do I think about it, deep down...?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（日記の主は、叶わぬ恋に苦しんでいるんだったな。\r\n　そのことについて俺がどう思うかだが……）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "...That should do. I hope it finds its way to her.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……こんなもんか。\r\n日記の持ち主に返事が届けばいいが。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I'm just trying to be friendly, but maybe my offer to get to know each other was a little too much? Oh well, I hope she reads it anyway.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "日記の持ち主を元気づけるためとはいえ、\r\n少し調子に乗りすぎたか……？\r\nまぁいい。返事が届けばいいが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(What's that? Something's on the ground by the gate.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ん？　鳥居の下に何か落ちているな）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Made it... I better get some clothes on.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "無事銭湯までたどり着けたな……\r\nひとまず中で着替えさせてもらおう。",
+   "occurrences": 1
+  },
+  "Hey. How's your work coming along?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よう、新作の様子はどうだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "My good man, my books are selling like never before!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤さんのおかげで、\r\n新作、過去最高の売れ行きみたいです！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "That's impressive. It's kind of fun, sharing an inn with a popular author.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それは、すごいな。\r\n同じ旅館に人気の物書きが宿泊しているとは、\r\n俺も鼻が高いぜ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "We've done far more together than lodge at the same boardinghouse.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いえ、斎藤さんの力が大きいですよ。\r\nあなたの助言、大変助かりました。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "The world may well come to call me a literary giant, yet without your help I'd have written nary a word.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分の書きたいものを書ききって、\r\nそれが評価されるっていうのは、\r\n本当に嬉しいことなんですね。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I am satisfied, but embarrassed as well. Hah.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おかげさまで、世間では\r\n「文豪」なんて、呼ばれるようになってしまい、\r\n嬉しいやら恥ずかしいやら……　ははは。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hm. Don't worry about it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう、それはよかったな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Saito-san, thank you. Here, I'd like you to have this.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤さん、本当にありがとうございました。\r\nこれ、受け取ってください。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Obtained <Color:8>European Fabric<Color:Default>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「<Color:8>南蛮渡来の反物<Color:Default>」をもらった",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "These last three novels have taken a toll on me, I feel. I think I'd like to spend some time sightseeing in Kyo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最近は少し頑張りすぎていたので、\r\n今日からはしばらく休暇をとって\r\n京都観光でもすることにしますよ。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Heh. I'd say you've earned a break.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、お疲れだったな。\r\nゆっくり休むといい。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Indeed! And after that, I shall most assuredly sleep like the dead!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はい、ありがとうございました！\r\nよーし、死ぬ気で休養しますよ！",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Without your assistance, I could have never found success... Although, I admit, it's of a different form that I'd first imagined.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "しかし、本来自分が書きたい方向とはずいぶん\r\n違うところに来てしまった気がします……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "You see, I've become known as, well, a preeminent titan of smut.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今、私がなんて呼ばれてるか知ってますか？\r\n「風雲の淫猥文豪・夏見」ですよ。\r\n今では多くの若い男性に支持されています……！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Oh, I see... Still, that's an accomplishment in its own right.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、そうか。\r\nしかしそれはそれでめでたいことじゃないか……？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "That's true! After all, it's not for human beings to decide where their talents lie—only to put them to their best use!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうですね。自分の中にこんな、\r\n隠れた才能があるとは知りませんでした……！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "You helped me discover things about myself I might never have otherwise, Saito-san. Please, accept this.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新しい自分に気付けたのも斎藤さんのおかげですね。\r\nこれ、お礼です。受け取ってください。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Saito-san! I owe you a great deal of gratitude for your help.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、斎藤さんじゃないですか。\r\nこの前もありがとうございました。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I don't think I did all that much. How'd the new story go?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、俺は少し口をはさんだだけだ……\r\nそれより、新作の手ごたえはどうだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "It's selling very well, actually!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤さんのおかげで、\r\n新作も絶好調の売れ行きみたいです！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "That's good to hear. You finished it pretty quickly.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それはよかったが、もう書き上げたのか？\r\nしかももう売られているとは……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "What can I say? When inspiration takes hold of me, the words simply manifest.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "私、筆は早い方なんです。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I've received many letters from my readers again! The Great Gallivanting Disaster truly seems to have struck a chord with the audience.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新作「惨事郎」について、\r\nすでに読者から感想のお手紙も届いているんですよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Oh yeah? What are they saying?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう、感触はどうだ？",
+   "occurrences": 3,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hmm. Well, they like it quite a lot. Although, to be frank, most of their praise is for my, um, depictions of sexual catastrophe?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えーと、まぁ……　よかったんですけど、\r\n官能的な表現が大絶賛されてましてね……\r\n私はいったいどこへ向かっているのでしょう……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I see... I guess it's good to know where your talents as a writer are, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……新しい才能が発掘できてよかったじゃないか。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "That's one way of looking at it, yes. Thank you, Saito-san.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……それもそうですね。\r\n斎藤さんの助言のおかげですよ。\r\nありがとうございます。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Here, I'd like you to have this—a gift.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これ、お礼の気持ちです。\r\nよかったら受け取ってください。",
+   "occurrences": 6,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I've received many letters from my readers again! Botch-chan truly seems to have struck a chord with the audience.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新作「僕ちゃん」について、\r\nすでに読者から感想のお手紙も届いているんですよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "In so many words, it's a runaway success! People are especially charmed by the protagonist's simple, yet absurd nickname!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それが……　大好評なんですよ！\r\n小気味よい文章のおもしろさが絶賛されていて、\r\n私としても嬉しい限りです。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "That's great.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それはよかったな。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I couldn't have done it without you, Saito-san.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それもこれも、斎藤さんの助言のおかげですよ。\r\nありがとうございます。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I've received many letters from my readers again! The book—which I titled Peeping Tomcat—has struck a chord with the audience.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新作「失格人間」について、\r\nすでに読者から感想のお手紙も届いているんですよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Hmm. Well, they like it quite a lot. Although, to be frank, most of their praise is for my, um, depictions of sexual voyeurism?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えーと、まぁ……　よかったんですけど、\r\n官能的な表現が大絶賛されてましてね……\r\n私はいったいどこへ向かっているのでしょう……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Now, I confess, I've great urge to strike while the iron is hot and produce something new, quickly.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この流れに乗って、今季中にもう１作品くらい\r\n書き上げてしまいたいなぁ……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Heh. Already ready to work again, huh? Any ideas?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、もう次の作品の話か。\r\n具体的な構想はあるのか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Yes, indeed, my good man.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうですねぇ。\r\n今温めているのはこういう話です……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "In this tale, our narrator exchanges mail with an older mentor—whom he affectionately calls Sensei—ultimately receiving the man's written life story.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "主人公は、ある日自分の尊敬する先生から、\r\n遺書のような手紙をもらいます。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "He travels to visit this Sensei, but finds he's passed away. Our main character received his last testament posthumously.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "驚いた主人公は急いで先生に会いに行くのですが、\r\n彼は既にこの世にはいませんでした……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "That testament recounts Sensei's youth in the country and the relationships he developed as he grew older.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手紙を最後まで読むと、\r\n先生のこれまでの人生が事細かに書いてありました。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "For you see, Sensei had a beloved compatriot named Kei—yet Kei adored the woman whom Sensei eventually married.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手紙によると、先生は昔、\r\n圭という名の友人がいたそうです。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "This leads Kei to commit suicide. And, many years later, Sensei himself succumbs to grief and takes his own life as well.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "しかし、先生が友人である圭の好きな女性を\r\n奪って結婚してしまい……　その後、圭は自殺。\r\n先生もその罪悪感に苛まれて自殺してしまった……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hm. Interesting premise. So, is anything giving you trouble this time?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うーむ、興味をそそられる内容だ。\r\nもうあとは文字に起こすだけじゃないか。\r\nいったい何を悩んでいるんだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Of course. Once again, I am unable to think of a title.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今回も例によって題名が思いつかないんですよね……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Please, Saito-san, I need your advice one more time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤さん、また的確な助言を\r\nいただけないでしょうか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Hmm. A tangle of friendship and romance... Men who commit suicide due to the pain of losing the people they cherish...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふむ、友情と恋愛のもつれ……\r\nその結果、自殺した先生とその友人の話か……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "It's a story about relationships and emotions. You should call it...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "登場人物の感情や、人物同士の関係性、\r\nそういったものが軸になる話の題名となると……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Heart!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「気持ち」なんてどうだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Heart? It's simple... poetic...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "気持ち……　気持ちか……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I think it's wonderful! Heart! It evokes so much with so little!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それ……　とってもいいですよ！　気持ち！\r\nなるほど、一言で様々な想像をさせられる題名ですね！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "The yearning hearts of the protagonist, his mentor, and Kei—all witheringly isolated yet united by their humanity! Perfect!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "主人公の気持ち、先生の気持ち、\r\nそして先生の友人、圭の気持ち……\r\nそれらの移り行きを主軸に文章にしてみます！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Mm. I think you'll write something great.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうか、気に入ってもらえたならよかったぜ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Nothing scintillates my creativity like a good title! This will be my magnum opus! I'll earn the reprieve from death you granted me!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いい題名がつくと、創作意欲が湧いてきますね！\r\n今季最後の仕事！ 気合い入れて頑張りますよ！\r\n……もちろん死ぬ気で！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Cleavage!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「腕枕」なんてどうだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Eh, cleavage!? I'm sorry, what do you mean?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "腕枕……!?　どうしてそこで腕枕がでてくるんです？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "The mentor and Kei are cleft apart because they love the same woman. So are the mentor and the main character, after his death.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "その先生の苦悩は、友人の好きな人を\r\n寝取ったところから始まるんだろう？\r\nつまり……　腕枕からすべては始まったんだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Oh, so you mean for me to title the book Cleavage?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほど、うーん……\r\n意図はわかりましたけれど……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "It's a bit lewd, isn't it? I'd like to think this work has some greater meaning.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "少し生々しすぎる気がしますよ……\r\n友人の好きな人を奪い取るだけの話じゃないですし。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Oh, of course.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、そうか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hmm. I'm afraid calling my novel Cleavage would risk misleading people.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はい、腕枕っていう題名はやはり卑猥すぎです。\r\nそんな名前だといやらしい目的で買う人が……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Then again!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……ん！\r\nなんだか新しい案が浮かんできましたよ！",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "What is it? Did inspiration strike?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なに？　腕枕でか。\r\nそれはよかったな。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I'm imagining the mentor longingly staring at the woman's chest... Her breasts heaving with every heartbeat and... Wowza!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "腕枕をしている最中、感じるお互いの息遣い……\r\n官能で卑猥な２人の距離……\r\nそして……　うおぉぉぉ!!",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "It's not the story I'd originally envisioned, Saito-san, but it's a damn good one! Better, even!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "話の内容は当初のものから大分変わりそうですが、\r\n素晴らしい作品が書けそうな気がしてきました！\r\n斎藤さん、ありがとうございます！",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "This will be my magnum opus! I'll earn the reprieve from death you granted me!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よーし、今季最後の仕事！\r\n気合い入れて頑張りますよ！　もちろん死ぬ気で！",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Animal Barn!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「そこから」なんてどうだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Eh, Animal Barn? What does it mean?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そこから……!?　どういう意味なんです!?\r\nいったいどこからなんです!?",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "To be honest with you, I think your best work was still the animal book. I was pretty bored hearing about this one.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "人間関係のいざこざなんて、\r\nもとをたどればだいたい恋愛がらみだ。\r\nつまり、問題は「そこから」始まるってことだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Oh. I see. So, I should write a book called Animal Barn?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほど、うーん……\r\n意図はわかりましたけれど……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Hmm. What about a story set on a homestead where many animals dwell, perhaps each kind functioning as a type of allegory?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そこから、か……　でも私「そこ」と言われると、\r\nどうしてもいやらしい妄想をしてしまいますよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Maybe.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、そうか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "However, in a narrative entirely about the doings of animals, readers might be curious about the whereabouts of the humans...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それはもう。「そこ」って言われたら、\r\nどこのことなのか考えて、そこがあそこで……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "What if I satiate the readers' curiosity through digressions into the torrid, lascivious, <i>animalistic</i> relations of the nearby people... Wowza!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "男と女の「そこ」から始まるどん底物語。\r\nそこかしこで繰り広げられる、\r\nそこそこ破廉恥な宴……　うおぉぉぉ!!",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Heh. Don't mention it, about dying. Really—stop mentioning it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、死なない程度に頑張れ。夏見。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I don't think I did all that much.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、俺は特に何もしていない。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Nonsense. Without you, I never would have been able to finish my novel on time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いえいえ、斎藤さんが助言をくれなかったら、\r\n期限までに読本を作ること、できなかったですよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Oh, you made your deadline? I'm glad.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうか、仕事が間に合ったのならよかったな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Indeed. Which reminds me, I've received quite a number of letters from those who've read it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうそう、そういえばあの読本に対する感想。\r\n読者からお手紙で送られてきたんですよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Hm, that was fast. How's the response been?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう、そんなに早く反応が返ってくるものなんだな。\r\n感触はどうだった？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "The reception for I Am But a Cat has been...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「私めは猫でございます」の反応ですが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Astonishingly good! People love the idea of setting a novel from the perspective of a cat!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……すごくよかったんです！\r\nやはり猫目線で物語が進んでいくという\r\n斬新な設定が、評判が高かったですね！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "It's all thanks to you, Saito-san!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えぇ、斎藤さんのくれた助言のおかげですよ。\r\nありがとうございます。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "The reception for I Am But a Dog has been...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「私めは負け犬でございます」の反応ですが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Not bad. Although most of the praise has come from—shall we say—a certain type of young man?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……まぁよかったんですけれど、\r\nなんだか私の意図した方面でないところから\r\n絶賛されてましたね……　おもに若い男性から。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Oh. I see. Well, it's good that people like it, at least.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、そうか……\r\nしかし、人気がでているならよかったじゃないか。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I suppose so.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうですね……",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "The reception for I Am But a Pig has been...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「私めは卑しい豚でございます」の反応ですが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Now, as a result of its success, I've already accepted a commission for my next novel.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ところで、「私め～」ですが、\r\n今、怒涛の勢いで売れているらしくて、\r\nすぐに新しい作品の依頼を受けたんですよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Hm. You're becoming quite an accomplished author.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう、大人気作家じゃないか。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "How I wish that were so. I would have achieved nothing, however, without your intervention.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いえ、あれは斎藤さんの助言があったからこそ、\r\n書き上げられた作品なので……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I fear my next work will only disappoint.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……次の作品が今回ほど人気がでるとは\r\n到底思えないんですよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "If it's not too much trouble, I would welcome more of your perspicacious advice.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "また斎藤さんに助言をいただけたら\r\n嬉しいんですけど、お願いしてもいいでしょうか……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I've got no problem offering you suggestions, but I really don't know how helpful they'll be.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "助言くらいならいつでもいいぞ。\r\nうまくいくかどうかはわからんがな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "That is all I ask!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本当ですか！　助かります！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "So, once again, I've a basic idea for my tale.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今回も、物語の案だけは頭の中でぼんやりと\r\n形にはなっているんですけど……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "What kind of story is it this time?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それはどういう話なんだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Well, the main character is a schoolteacher, though he's a brash and reckless young man.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えーと……　主人公は学校の先生なんですけど、\r\nこれがまた血気盛んで無鉄砲な若い男なんです。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "And he, in his tenure, finds himself ensnared in a battle of wit and will by the strong personalities which surround him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "先生になったばかりの主人公ですが、\r\n彼の周りの人たちも個性的な人間ばかり。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "He falls prey again and again to adversity, either through happenstance or as consequence of his own intractable sense of morality.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "上司から目をつけられたり、教え子から\r\n嫌がらせを受けたり、自分で問題を起こしたり……\r\n主人公の周りではいつも騒動が起きています。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Ultimately, he resigns and finds a more peaceful life elsewhere—having at last outgrown his childish predilection for errors and botches.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんな彼が先生という仕事をやめるまでの\r\n物語を書こうと思っています。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Sounds interesting. What aren't you sure about?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なかなかおもしろそうな内容だと思うが……\r\nいったい何を迷っているんだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Well... he needs a nickname.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それが……　主人公のあだ名を何にするか\r\nずっと迷っているんです。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Eh? That's it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "主人公のあだ名？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "That's it, yes. I plan for the entire cast of characters to be known by sobriquets—their real names eschewed by the narrator.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えぇ、主人公の本名は作品中で、\r\n明確に出さない予定なんです。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Our protagonist should be called something familiar and evocative, and that will serve too as the novel's title.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でもどこか親しみのある呼び方で呼ばれていて……\r\nそれをそのまま題名にも使いたいんですけど……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hmm. The protagonist's nickname and also the title?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うーむ、本名の出ない主人公のあだ名か……\r\nそしてそれが題名にもなる、と。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Yes, indeed.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えぇ、この物語の主人公のあだ名、\r\nいったい何にすればいいんでしょう……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "What about calling him the Great Gallivanting Disaster?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「惨事郎」なんてどうだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Great... Gallivanting...? It's true, I've mostly characterized him as a tragic plaything of misfortune...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "惨事郎……!?",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "It's somewhat loquacious, though... Unless— Now, hold on! What if the disasters themselves became my focus?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "たしかに主人公の周りでは\r\n大惨事となる問題がたくさん起きますけど、\r\n親しみやすい呼び名とは言えない気がしますが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "And what's more—what if these gallivanting disasters took on a certain... erotic nature?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、待てよ。むしろ惨事の内容を\r\n親しみやすい破廉恥な内容に寄せればいいのか……？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Um, I wasn't necessarily thinking—": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、そういうもんなのか……？",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Erotic disasters... Erotic disasters...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "破廉恥な惨事……\r\n破廉恥な惨事……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "By George, I've found my inspiration!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……む！\r\nなんだか新しい案が浮かんできました！",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I'm happy for you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、それはよかったな。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "This is going to be ten times the novel that I'm a Something-or-Other was! Let's get writing before death claims me at last!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よーし、「私め～」に負けないように、\r\n今から死ぬ気で書き上げます！　頑張るぞー！",
+   "occurrences": 3,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Botch-chan! Sorry, that's... the first name that came to mind.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「僕ちゃん」なんてどうだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Botch-chan, you say? It's true, much of his misfortune is due to his own principles and the roughshod ways he applies them...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "僕ちゃん……!?　そ、それ、いいですよ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "And since the novel follows him from boyhood, something that reminds the reader of his youth throughout his journey is quite fitting!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本名の出ない主人公のあだ名として\r\n一人称を使うのは上手いですね！\r\n親しみも感じられるし、呼びやすいです！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Botch-chan is a splendid title! I'm rife with inspiration!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「僕ちゃん」という題名もいいな……\r\nなんだか書きたいことがどんどん浮かんできました！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Heh, glad I could help.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、役に立てたようでよかったぜ。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I think he should be an animal too.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「失格人間」なんてどうだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Eh, an animal? Like my last story? It's true, the device did resonate with readers. Dare I return once more to that well?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "失格人間……!?",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Unless... Now, hold on! What if, by being a four-legged creature, he could survey the humans at their most candid angles?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "たしかに主人公は、\r\nそこまでできた人間ではないと思いますが、\r\n少し言い過ぎじゃないですかね……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "And what's more—what if these angles took on a certain... erotic nature?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、待てよ。主人公の駄目な部分をもっと\r\n親しみやすい破廉恥な内容に寄せればいいのか……？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Erotic angles... Erotic angles...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "失格人間の起こす破廉恥な騒動……\r\n失格人間の起こす破廉恥な騒動……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Heh. All right. Work hard and... give the death thing a rest, yeah?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、死なない程度に頑張れよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Ugh! It's all over for me! There's nothing more to do but accept my death!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うぅ……　もう無理だ……\r\n死ぬしかない！　死ぬしかない！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hey, get ahold of yourself! What's going on?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お、おい。気をしっかり持て。\r\n何があった？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Eh? Wh—Who are you!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "へ……？　あ、あなた誰ですか!?",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I'm another guest of this inn. I heard you shouting through the wall.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お前と同じ、この旅館に泊まっている者だ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Was I so loud!? Agh, forgive me, sir! Please, accept my gruesome death as penance!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……も、もしかして私、うるさかったですか!?\r\nすいません！　すいません！　もう死ぬしかない！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I'd rather not. Can I ask you what's happened? You seem pretty fed up.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、死ななくていい。\r\n……それより何かあったのか？\r\nずいぶん追い詰められているようだが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Well, in truth, I'm trying to write a story.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それは……　物語の内容が決まらなくて……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "That's it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "物語？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Pardon me, my good man. I should have introduced myself earlier. My name is Natsumi Sosaku. I'm an author.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、申し遅れました。私、物書きをしてます、\r\n夏見創作（なつみそうさく）と申します。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Really? I've never met an author before.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう、物書きなのか。すごいな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Sadly, it's no great feat. Particularly as my nib pen has run utterly dry of inspiration's ink, so to speak.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いえ、本当にたいしたことはないんですよ。\r\n現に今、読本にするための物語を書いてるんですが、\r\n完璧に筆が止まってますからね……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Woe! The deadline for my novel fast approaches and I've yet to even decide on the story's very foundation!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あぁっ！　締め切りまで間もないと言うのに、\r\nまだどういう物語にするかすら決まっていない！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I submit! Death is my sole recourse! Please, send my apologies along with my obituary to the printing office!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はぁぁぁん！　もう死ぬしかない！\r\n死んで詫びるしかない！\r\n印刷屋さんごめんなさあぁぁぁい！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "So, that's why you were making all this noise? You have writer's block?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほど、それで大声を出していたのか。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Ugh. Never mind. Perhaps instead you would be so kind as to offer me some advice?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うぅ……　お願いです。\r\n何か助言をしてくれないでしょうか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Me? What good would my advice be to you?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お、俺がか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Well, if nothing else, you are a fellow guest of the esteemed Teradaya. That makes us colleagues of a sort. Mister...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もちろんですよ、えーと……　宿泊仲間さん。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Saito. Sorry, but I'm not really well-read.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤だ。あいにくだが俺は、\r\n物書きに助言できるほど文章に精通していないぞ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Please. I would sooner breathe my last than rely solely on the so-called wisdom of academics.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いえいえ、そんなに深く考えないでください。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "What I need comes not from the mind, but the soul. I seek inspiration for my story.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "物語の方向性を決めるきっかけのようなものが\r\nもらえたらなぁくらいに思ってるだけなので。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Inspiration, huh?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "きっかけか……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "For you see, I've a vague concept—but the words which might give it shape elude me.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えぇ、こういう物語にしようっていう案が、\r\n頭の中でぼんやりとは形になってるんですけど、\r\n文章にするとなると、決定打が足りなくて……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "What's your idea?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "その案っていうのは、どういうものなんだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Well... I envision a fanciful tale told from the perspective of a humble animal.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えーと……　この物語は、\r\n人間ではない動物が主人公で、\r\nそいつの一人称視点でお話が進行します。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "All right. So, an animal is your main character?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほど、動物が主人公の話なのか。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Exactly, my good man! I thought, perhaps this creature could observe our daily human activities with keen humor.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えぇ。動物の目線で人間の生活を見るので、\r\n普段私たちが当たり前のようにやっていることも、\r\n動物にとっては珍妙でおもしろく表現できるかと……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "However, I am at a loss as to what manner of beast would best suit this purpose.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "しかし、肝心の主人公を何の動物にするかで\r\nここ数日、ずーっと迷っているんです。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I imagine this title... I Am But a... <i>Something</i>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作品の題名は「私めは○○でございます」にしようと\r\n思ってるんですが……　肝心の○○に入る\r\n主人公にする動物が決まらなくて……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hm, and you need to decide what kind of animal the protagonist should be.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うーむ、主人公にする動物か……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Yes! One haughty in its own mind, yet lowly in human estimation! Have you any insight?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えぇ、主人公の動物を何にすればいいか、\r\n斎藤さん、思いつきませんかね？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Cats are funny!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "猫がいいんじゃないか。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "A cat? Yes, I find them amusing as well!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "猫……！　やっぱりあなたもそう思います!?",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Cats are not unlike humans, yet the ways in which they differ from us can be profound!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "人に近い存在である猫の目線から人の世界を覗く……\r\nそんな話がいいかなぁと考えてはいたんですよ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I Am But a Cat... It's perfect!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「私めは猫でございます」……　うん！\r\n題名もなんだかものすごくしっくりくる気がするぞ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "All that is left to do is put pen to paper! I believe the words will come easily now!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よーし、これから一気に書きあげねば！\r\n死ぬ気で頑張りますよ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "An underdog that's an actual dog!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "負け犬なんてどうだろう。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "An underdog? One whose foul fortunes have branded them a wastrel in the eyes of society, perhaps?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ま、負け犬ですか……!?　う、うーん……\r\nあえて負け犬を題材にもってくるとは……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "The title would be... I Am But a Dog. How melancholy. And yet...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……ということは題名は、\r\n「私めは負け犬でございます」になるのか。\r\nうーん、なんだか悲哀を感じますね……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Um, sure.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、そうだな……",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I sense a feverish bout of inspiration approaching! I must put pen to paper at once!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あぁ、もう迷ってる時間なんてない！\r\n当初のものとは少し話の内容が変わりそうですが、\r\n負け犬でいくしかない！",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "My story's theme may be slightly avant-garde, but I will write as though my life depends upon it!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "不安はありますが、これから一気に書きあげねば！\r\n死ぬ気で頑張りますよ！",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Nothing's lowlier than swine!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "卑しい豚しかないだろ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Swine? You mean to say, a pig? I see... I Am But a Pig? Hmm...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ぶ、豚……!?　う、うーん、なるほど。\r\nしかもただの豚ではなく卑しい豚ですか……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "I must confess... there's a certain erotic connotation to such a title. Obsequious gentlemen are wont to brand themselves pigs, are they not?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……ということは題名は、\r\n「私めは卑しい豚でございます」になるのか。\r\nなんだかとってもその……　破廉恥ですね。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Heh. All right. Work hard and... try not to keep begging for death.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、死なない程度に頑張れよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(It's that author's room, Natsumi. I wonder if he was able to finish his story.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（物書きである、夏見の部屋だな。\r\n　この前の話はうまくいったのだろうか……？）",
+   "occurrences": 1
+  },
+  "(I'll leave him be for now. Maybe some other time.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（結果を聞くのはまた今度でいいか……）",
+   "occurrences": 3
+  },
+  "Natsumi? Are you in there?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "夏見、部屋に入るぞ。",
+   "occurrences": 3
+  },
+  "Yes! Yes! Yeees! I'll write like my life depends upon it! This is the essence of literature!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うぉぉぉ！　死ぬ気で書き上げるぞぉぉぉ！",
+   "occurrences": 3
+  },
+  "(Hm. I should let him work. Maybe I'll come back later.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（邪魔をしては悪いな……\r\n　しばらく部屋に近づくのはやめておこう）",
+   "occurrences": 3
+  },
+  "(It's that author's room, Natsumi. I wonder if he was able to finish his new story.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（物書きである、夏見の部屋だな。\r\n　この前の話はうまくいったのだろうか……？）",
+   "occurrences": 2
+  },
+  "Ahhhhh! I'm finished! Sweet mistress of death, I beseech you—take me!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うぉぉぉ！　もう本当に駄目だ！\r\n死ぬしかない！　死ぬしかない！",
+   "occurrences": 1
+  },
+  "(Hm. Sounds serious. I should probably see what's happening.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ずいぶん物騒なことを言っているな。\r\n　部屋に入って様子を見てみようか……）",
+   "occurrences": 1
+  },
+  "(Whatever's happening in there, it's probably a private matter.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（たてこんでいるかもしれないな。\r\n　そっとしておこう……）",
+   "occurrences": 2
+  },
+  "(For all I know, something horrible's going down inside!)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ひょっとするとこの部屋の中で\r\n　何か大変なことが起きているかもしれない！）",
+   "occurrences": 2
+  },
+  "Hey, everything all right? I'm coming in!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、大丈夫か？\r\n部屋に入るぞ。",
+   "occurrences": 2
+  },
+  "Ahhhhh! I'm done for!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うわぁぁぁ！　も、もう駄目だぁぁ！",
+   "occurrences": 1
+  },
+  "(What!? That scream sounds like it came from this room.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（な、なんだ!?\r\n　この部屋の中から聞こえたようだが……）",
+   "occurrences": 1
+  },
+  "Why... Chikuwa...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なんでちくわなんだよ……\r\nチクショウ……　ガクッ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Daddy!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お父ちゃん！",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Oyuki! Oyuki!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お雪！　お雪ぃー！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I don't know how to thank you. What are you doing here?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。\r\n兄さんのおかげで助かりましたが……\r\nどうしてこんなところに？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "You and the other man were both carrying similar packages. When we all bumped into each other, they got switched.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "俺達がぶつかった時\r\nお前ともうひとりの男の荷物が入れ替わっていてな。\r\nそいつを取り替えに来たんだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Oh, I see! So, that's how a gun became a flavorful fishcake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、あぁ、あの時！\r\nなるほど、それで……　銃が、ちくわに。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "My name is Saiki. I'm a trader.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……ワイは貿易商をやってる、斉木といいます。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "A trader...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "貿易商……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Right. Those men were extorting me. They kidnapped my daughter so that I had no choice but to smuggle arms for them.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はい。あの男たちに脅されて、武器の密輸の協力を\r\nさせられそうになっとったんですが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Because of you, though, those criminals won't get their hands on any guns. You've done a lot of good today!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "悪事に手を染める一歩手前で、\r\nあんたが取引をぶちこわしてくれた……\r\nほんまにありがとうございます！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "There's still one thing left to do. I need to see both packages returned to their rightful owners.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひとまずあんたが持っていた荷物は返しておく。\r\nあるべき場所に返しておくんだな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Here's the one you gave me originally. Return it with my regards.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これ、ワイが持ってきてしもうた手荷物です。\r\nご本人に返してあげてください。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "You retrieved the swapped package.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "入れ替わった手荷物を取り戻した。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Thank you, samurai-san. Oyuki?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほんまにありがとうございます。\r\nほら、お雪もお礼、言ぃ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Thank you for saving me, mister.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おじちゃん、ありがと。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I'm glad things worked out.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あぁ、よかったな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(All right. Now to bring this back where it belongs.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（さて、あとは入れ替わった手荷物を\r\n　持ち帰るだけだな……）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(I'm surprised. After all his talk about how important the package was to him, it was just some chikuwa. Seems excessive.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（まさか大事な荷物の中身とやらが\r\n　ちくわだったとはな……　人騒がせなやつだ）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Hm... It does look pretty good...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（それにしてもうまそうなちくわだ。\r\n　包みの中にはちくわが５本もあるな。\r\n　……どうする？）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(This chikuwa means a lot to him. I shouldn't deprive him of it.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（あいつにとっては大事なちくわだ。\r\n　ちゃんと返してやらないとな）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(He'll understand if I help myself to one.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（１本くらいなら食べても問題ないだろう）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Damn. That's pretty good. Better than I'd have thought.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（む……　このちくわ、なかなかうまいな。\r\n　正直なめてた）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "You gained 200 experience.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "経験値　２００　を手に入れた。",
+   "occurrences": 5,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Hm. Four chikuwa left now...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（さて、ちくわはまだ４本あるな……　どうする？）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(What's one more chikuwa?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（もう１本くらいなら食べても問題ないだろう）",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(It actually tastes better the second time. I think I can understand now why he said these were so precious.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……食べるごとに旨味が増していく。\r\n　なるほど、命の次にちくわが大事だという\r\n　あの男の言葉も、少しわかる気がするな）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Three chikuwa left...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ちくわは３本ある……　どうする？）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(They're addictive! I don't think I can stop myself.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（こいつは癖になる味だな\r\n　手が止まらないぞ……）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Two chikuwa left...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ちくわはもう２本しかないが……　どうする？）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(All right. I can at least leave him one.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……１本くらい残しておけば大丈夫なはずだ）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Delicious!)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……うむ！）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Only one chikuwa left...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ちくわはあと１本しかないな……　どうする？）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(I'm eating every one of these damn chikuwa.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……こうなったらもう全部食べてしまおう）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(It's just too good!)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……うますぎる!!）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(I think... I might've gotten carried away...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（調子に乗って全部食べてしまった……\r\n　ひとまず持ち主の元へ戻ろう）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Well, I took some for myself, but I should give the rest back.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（数は減ってしまったが、\r\n　……ひとまずちくわを返しに戻ろう）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Hm?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ん？　あそこにいるのは……）",
+   "occurrences": 4
+  },
+  "You're late. Have you brought it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遅いぞ。……ちゃんとブツは持ってきただろうな？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "R-Right here...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "は、はい……　ちゃんと持ってきました。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "(That's him, the man whose package I accidentally swapped with someone else's.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（やはりそうだ、あいつは\r\n　入れ替わった手荷物を持って行った男！）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Heheheh, the latest in small arms, huh? Demand's gonna be high for this baby.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ククク、この包みに最新式の銃が入ってるんだな？\r\nさぞや高く売れるんだろうなぁ……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  }
+ }
+}

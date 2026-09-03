@@ -1,0 +1,4347 @@
+{
+ "batch": "batch_009.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Chief Kondo is alive and well.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    12
+   ],
+   "ja": "近藤局長は生きている",
+   "occurrences": 1
+  },
+  "A group's got to have money if they want to stay afloat.": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    12
+   ],
+   "ja": "金にならねえ組織に人は集まらねえ",
+   "occurrences": 1
+  },
+  "Suzuki.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    12
+   ],
+   "ja": "鈴木",
+   "occurrences": 1
+  },
+  "So, to you remaining captains...": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    12
+   ],
+   "ja": "隊長格４人……",
+   "occurrences": 1
+  },
+  "Following the other Sakamoto\nRyoma's orders,": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "“もう一人の坂本龍馬”の命を受けて",
+   "occurrences": 1
+  },
+  "Were they perhaps too late?": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "すべては手後れだったのか",
+   "occurrences": 1
+  },
+  "Despite his efforts, however, he is\ntoo late to save the fallen Kondo.": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "そこで目にしたのは\n志半ばにして倒れた近藤の姿",
+   "occurrences": 1
+  },
+  "The chaos continues...": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "そして",
+   "occurrences": 1
+  },
+  "Under Ito's leadership, a new enemy of\nthe Shinsengumi emerges, the Goryo Eji.": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "そして　新選組の敵\n「御陵衛士」となった伊東一派",
+   "occurrences": 1
+  },
+  "And standing among them is Todo Heisuke.": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "その中には藤堂平助の姿があった",
+   "occurrences": 1
+  },
+  "the conflict between Ito and Kondo's\nfactions finally comes to a head.": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "伊東甲子太郎一派と\n近藤派との対立は決定的なものとなる",
+   "occurrences": 1
+  },
+  "As dawn approaches,": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "夜は明け",
+   "occurrences": 1
+  },
+  "Ryoma and Okita had gained an\naudience with the Shogun,": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "将軍との謁見に成功した\n龍馬と沖田を待っていたのは",
+   "occurrences": 1
+  },
+  "Ryoma hurries, dashing through the flames.": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "灼熱の京を　龍馬は奔る",
+   "occurrences": 1
+  },
+  "but their return to Kyo was\nfar from peaceful.": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "燃え上がる京の町だった",
+   "occurrences": 1
+  },
+  "Okada Izo launches one\nfinal, desperate attack.": {
+   "speakers": [
+    {
+     "name": "Narrator",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "龍馬の前に立ちふさがる岡田以蔵の姿だった",
+   "occurrences": 1
+  },
+  "And as a result, the other Sakamoto\nRyoma was revealed.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "“もう一人の坂本龍馬”をあぶり出すことにある",
+   "occurrences": 1
+  },
+  "The \"other\" Sakamoto Ryoma?": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "“もう一人の坂本龍馬”を？",
+   "occurrences": 1
+  },
+  "No.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 2
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    7,
+    13
+   ],
+   "ja": "いや",
+   "occurrences": 2
+  },
+  "At this rate, there's not much\nwe can do, Shinsengumi or otherwise.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "こうなったらもう\n新選組としてできることはない",
+   "occurrences": 1
+  },
+  "Well then, just whaddaya suppose\nwe do now, Toshi-chan?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "さあて　これからどないするんや歳チャン",
+   "occurrences": 1
+  },
+  "Yeah, but who'da thought Heisuke\nof all people'd betray us?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "しかしまさか\nあの平助までが俺らを裏切るとはなあ",
+   "occurrences": 1
+  },
+  "Indeed, it was.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "そうだが",
+   "occurrences": 1
+  },
+  "Ito took the bait...": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "それは伊東を使い……",
+   "occurrences": 1
+  },
+  "Giving it away kinda early,\nhuh, Hijikata-san?": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ちょっと早くないすか土方さん",
+   "occurrences": 1
+  },
+  "Actually, I'm almost sure of it.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "とっくに見抜いていたんじゃねえかと思う",
+   "occurrences": 1
+  },
+  "Revealed how?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どういうことだ",
+   "occurrences": 1
+  },
+  "Well, what's the word, Toshi-chan?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どないやねん歳チャン",
+   "occurrences": 1
+  },
+  "What's wrong, Hajime-chan?\nSomethin' got ya down?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "なんや　一（はじめ）ちゃん\nなんか気になるんか？",
+   "occurrences": 1
+  },
+  "There's something I need to ask you.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ひとつ聞きたいことがある",
+   "occurrences": 1
+  },
+  "Yeah, I'd reckon yer right.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "まあ　それはそうやが",
+   "occurrences": 1
+  },
+  "Did he say anything else?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "まだ他にあるんじゃないのか？",
+   "occurrences": 1
+  },
+  "You could've stretched it out a bit.": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "もうちょっと\n引っ張ってくれてもよかったのに",
+   "occurrences": 1
+  },
+  "Ito was many things, but he wasn't\nthe type to hide his ambitions.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "伊東はもともと\n野心を隠そうともしていなかった男だ",
+   "occurrences": 1
+  },
+  "Yes?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    },
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "mixed",
+   "neutral": true,
+   "why_neutral": "ผู้พูดหลายคนคนละเพศใช้ข้อความเดียวกัน",
+   "chapters": [
+    4,
+    13
+   ],
+   "ja": "何だ",
+   "occurrences": 3
+  },
+  "Come in.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "入れ",
+   "occurrences": 1
+  },
+  "Hijikata.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "土方",
+   "occurrences": 1
+  },
+  "Heisuke!": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "平助",
+   "occurrences": 1
+  },
+  "I felt the best way to deceive the enemy\nwas from within. So with that...": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "敵を欺くには身内からと思っていたが\n致し方ない",
+   "occurrences": 1
+  },
+  "It's as Saito, or rather\nSakamoto-kun, said.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "斎藤　いや坂本君の読み通りだ",
+   "occurrences": 1
+  },
+  "That meeting was his doing, wasn't it?\nIt was to draw out the traitors.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "裏切り者をあぶり出した\nあの幹部会のことだったのか？",
+   "occurrences": 1
+  },
+  "The \"final move\" Kondo-san left\nwith you before he passed...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "近藤さんが\nあんたに残した“策”ってのは",
+   "occurrences": 1
+  },
+  "Kondo-san had likely seen\nthrough his betrayal...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "近藤さんなら伊東の裏切りくらい",
+   "occurrences": 1
+  },
+  "Regarding Kondo-san's plan...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "近藤さんの“最期の策”ってのは",
+   "occurrences": 1
+  },
+  "This is what Kondo-san wanted.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "近藤さんの最期の策",
+   "occurrences": 1
+  },
+  "Most of our troops left with Ito.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "隊士のほとんどは伊東に付いて行った",
+   "occurrences": 1
+  },
+  "You do realize what you're suggesting, yes?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "あなたは自分の言ってることの\n意味が分かっているのか？",
+   "occurrences": 1
+  },
+  "If that's your wish...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "あんたのその願い",
+   "occurrences": 1
+  },
+  "Then, it might be better to\njust have you burn it all down.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "いっそ　火でもつけて\n燃やしてもらった方がええくらいや",
+   "occurrences": 1
+  },
+  "Please. I hate seeing Kyo like this.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "うちは　そんな京を見てられへんのどす",
+   "occurrences": 1
+  },
+  "I feel the same way she does.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "うちも女将さんと同じ想いです",
+   "occurrences": 1
+  },
+  "Oryo.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 2
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    4,
+    13
+   ],
+   "ja": "おりょう",
+   "occurrences": 2
+  },
+  "Be my guest.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "お好きに",
+   "occurrences": 1
+  },
+  "Otose...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "お登勢",
+   "occurrences": 1
+  },
+  "You want them to meet here?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ここで三者会談を？",
+   "occurrences": 1
+  },
+  "Whoa...": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 2
+    },
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "おわっ……",
+   "occurrences": 4
+  },
+  "I don't care if it costs me everything I have.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "このお登勢\n私財の全てを失うても構いません",
+   "occurrences": 1
+  },
+  "My point is that you can use\nOmiya however you like.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "この近江屋\n煮るなり焼くなり好きにしてください",
+   "occurrences": 1
+  },
+  "I'll see this finally ends,\nright here at Omiya.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "この近江屋で全てを終わらせる",
+   "occurrences": 1
+  },
+  "And, well, I figured we could\nall use a fresh start.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "せやから　こうして新しい宿を\n作っとったわけどす",
+   "occurrences": 1
+  },
+  "Please, save this city.\nSave Kyo.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "せやから　この京の街をお救いください",
+   "occurrences": 1
+  },
+  "So, please, if there's anything\nI can do to help, just ask.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "せやさかい　うちにできることなら\n何でも言うてください",
+   "occurrences": 1
+  },
+  "And if that's the case, then I will\ngladly spare an inn or two.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "せやったら\n宿の一つや二つ惜しゅうありまへん",
+   "occurrences": 1
+  },
+  "As if I wasn't already aware.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "そないなことはもちろん分かってます",
+   "occurrences": 1
+  },
+  "You can quit bowing,\nand maybe try to smile.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "その顔をあげて　笑顔を見せてくれ",
+   "occurrences": 1
+  },
+  "It's...": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "それが",
+   "occurrences": 1
+  },
+  "So then, why bother bringing\na group like us here?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "それで　俺たちをここに\n連れ出してきてどうする気だ",
+   "occurrences": 1
+  },
+  "Then surely this nightmare\ncan finally end.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "それも全て終りになるんでっしゃろ？",
+   "occurrences": 1
+  },
+  "Please, for the sake of Kyo.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どうかこの京のため",
+   "occurrences": 1
+  },
+  "For starters...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "なら　まず……",
+   "occurrences": 1
+  },
+  "All right, then.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "わかった",
+   "occurrences": 2
+  },
+  "Customers aren't exactly keen on staying\nin a place with such a rough history.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一度騒動の起こった店に\nお客さんは寄り付きません",
+   "occurrences": 1
+  },
+  "That's the most important\nthing we've got.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一番かけがえのないものだ",
+   "occurrences": 1
+  },
+  "It's the only way to atone for\nwhat I did to you, Hajime-san.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一（はじめ）さんにできる\nせめてもの罪滅ぼしですから",
+   "occurrences": 1
+  },
+  "Hajime-han—no, Sakamoto-sama.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一（はじめ）はん　いや　坂本様",
+   "occurrences": 1
+  },
+  "But, if you're only planning\non doing things halfway...": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "中途半端に傷もんにするくらいやったら",
+   "occurrences": 1
+  },
+  "For all the people who call it home,\nput an end to this.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "京に生きる人間のため\n決着をつけてください",
+   "occurrences": 1
+  },
+  "Since then, blood's filled the streets.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "京の街は血で汚れ",
+   "occurrences": 1
+  },
+  "This isn't to exchange pleasantries.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "会合といってもただの会合ではない",
+   "occurrences": 1
+  },
+  "Why do all this, Otose?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "何を考えてるんだお登勢",
+   "occurrences": 1
+  },
+  "Consider it granted.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "俺が引き受けた",
+   "occurrences": 1
+  },
+  "The way I see it...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "俺にとってはそれが",
+   "occurrences": 1
+  },
+  "All of it.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "全てを",
+   "occurrences": 1
+  },
+  "Saves me the trouble of having to tear\nit down, and the rebuild'll be cheaper.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "取り壊す手間が省けて\n建て直しが安う上がりますさかい",
+   "occurrences": 1
+  },
+  "I call it Omiya.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "名は“近江屋”",
+   "occurrences": 1
+  },
+  "I thought it'd be just perfect for the Tosa,\nSatsuma, and Choshu to have a little chat.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "土佐と薩摩　長州の方がお会いするには\n絶好の場所と思いましてな",
+   "occurrences": 1
+  },
+  "Sakamoto-sama.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本様",
+   "occurrences": 1
+  },
+  "If we rid ourselves of this other\nSakamoto Ryoma and all that he's done...": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本様やない　その“もう一人の坂本龍馬”が\n居らんようになれば",
+   "occurrences": 1
+  },
+  "It's been a year since the\nMibu Wolves first arrived.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "壬生狼が京にやって来てから１年",
+   "occurrences": 1
+  },
+  "Ma'am.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "女将",
+   "occurrences": 1
+  },
+  "We plan to hit them fast and hard.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "我々の目的は襲撃なのだ",
+   "occurrences": 1
+  },
+  "It's a new inn they just finished\nbuilding a few days ago.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "数日前完成したばっかりの\n新築の宿屋どす",
+   "occurrences": 1
+  },
+  "Every day here's like a feast for the\ncrows, and it's only getting worse.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "斬り捨てられた人の肉を喰らわんとする\n鴉の鳴き声が止まない有様",
+   "occurrences": 1
+  },
+  "What if we wanna go buck wild\nand wreck the place?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "暴れて傷つけてもええっちゅうんか",
+   "occurrences": 1
+  },
+  "I'm sure you all remember what happened\nat Teradaya, no thanks to a select few...": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "誰かさんたちのせいで　寺田屋が\nあないなことになってしまいましたやろ？",
+   "occurrences": 1
+  },
+  "Omiya...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "近江屋……",
+   "occurrences": 1
+  },
+  "Omiya's up, sure, but it's nowhere near running.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "近江屋はまだ営業もしてへん無名の宿",
+   "occurrences": 1
+  },
+  "Lift your head, Otose.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "顔をあげてくれ　お登勢",
+   "occurrences": 1
+  },
+  "You head to the Shinsengumi.\nTell them Todo's here.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "あんたは新選組に藤堂のことを知らせてくれ",
+   "occurrences": 1
+  },
+  "Oryo, I'm leaving Todo to you!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "おりょう　藤堂を頼む！",
+   "occurrences": 1
+  },
+  "Th-The meeting...　": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "か　会合の件……　",
+   "occurrences": 1
+  },
+  "There's no time.": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "そ　そんな　ことより",
+   "occurrences": 1
+  },
+  "Not right now. We have to\nget you fixed up first.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "そうはいかない\n今はお前の治療の方が先決だ",
+   "occurrences": 1
+  },
+  "Takeda-san saw me, and I...": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "た　武田さんに　見られちゃって……",
+   "occurrences": 1
+  },
+  "Or else, I could never...\nface Kondo-san again...": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "でないと　俺……\n近藤さんに会わせる顔が……",
+   "occurrences": 1
+  },
+  "Please, stop him!": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "と　止めてください……！",
+   "occurrences": 1
+  },
+  "W-We have to hurry...\nbefore Takeda-san runs his mouth!": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "は　早く　武田さんの　口を塞がねえと……！",
+   "occurrences": 1
+  },
+  "Of course!": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    },
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "はい！",
+   "occurrences": 3
+  },
+  "Thank you...": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "よかった",
+   "occurrences": 2
+  },
+  "Nakaoka, you run over to the\nShinsengumi and tell Hijikata!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "中岡　あんたはすぐに新選組に行って\n土方に……",
+   "occurrences": 1
+  },
+  "Nakaoka, I'm going after Takeda.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "中岡　俺は武田を追う",
+   "occurrences": 1
+  },
+  "Like hell you're dying!\nKeep it together, Todo!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "何バカなことを言ってるんだ\nしっかりしろ藤堂！！",
+   "occurrences": 1
+  },
+  "I'll go... Just try not to talk any more.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "分かった……！\nだからもう喋るな！",
+   "occurrences": 1
+  },
+  "Got it!": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "分かった！",
+   "occurrences": 3
+  },
+  "Get a doctor!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "医者を呼んでくれ！",
+   "occurrences": 1
+  },
+  "Hurry...": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "急いで……",
+   "occurrences": 1
+  },
+  "You have to hurry! Once Takeda-san\nreports this to Ito-san...": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "急いで！\n武田さんが伊東さんに報告する前に……",
+   "occurrences": 1
+  },
+  "You have to go!": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "早く！！",
+   "occurrences": 1
+  },
+  "Ikumatsu-san said...\nKatsura-san's coming.": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "桂さんは来ると……　幾松さんから……",
+   "occurrences": 1
+  },
+  "Takeda-san is at Ikumatsu-san's place.": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "武田さんは　幾松さんの店にいます",
+   "occurrences": 1
+  },
+  "I can die easy now.": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "死ぬ前に伝えられて",
+   "occurrences": 1
+  },
+  "Todo.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "藤堂",
+   "occurrences": 1
+  },
+  "Todo! What happened!?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "藤堂　何があったんだ！",
+   "occurrences": 1
+  },
+  "Todo!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "藤堂！",
+   "occurrences": 1
+  },
+  "Now then, why don't we toss\na few cups back, you and me?": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "それより　一緒に酒でも飲まへんか？",
+   "occurrences": 1
+  },
+  "I figured Heisuke'd bleed himself\nover to Hijikata.": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "てっきり平助は土方んとこ\n行くと思うとったが",
+   "occurrences": 1
+  },
+  "What are you playing at?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どういうつもりだ",
+   "occurrences": 1
+  },
+  "Oho, all that waiting,\nand look who it is.": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ほう　誰が来るかと思うたらお前とはな",
+   "occurrences": 1
+  },
+  "No reason anyone's gotta know.": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ワシの胸にしまっとく",
+   "occurrences": 1
+  },
+  "I thought you were headed to Ito's.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "伊東の所へ向かったんじゃないのか",
+   "occurrences": 1
+  },
+  "What are you doing here?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "何をしている",
+   "occurrences": 1
+  },
+  "How about we make a little deal?": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "取引したいんやアンタらと",
+   "occurrences": 1
+  },
+  "Hey, slow down.\nHeisuke's little secret is safe with me...": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "安心せえや\n平助がお前らの間者やったっちゅうことは",
+   "occurrences": 1
+  },
+  "Takeda.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "武田",
+   "occurrences": 1
+  },
+  "Yeah. Tomorrow night...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ああ　明日の夜",
+   "occurrences": 1
+  },
+  "Even minutes from death...": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "あいつは最期まで",
+   "occurrences": 1
+  },
+  "Hey...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "お前ら",
+   "occurrences": 3,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "This setup was all his idea.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ここに遺体を運んでくれと",
+   "occurrences": 1
+  },
+  "But I swear, if you get mushy\nand end up switchin' sides...": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "せやけど\n万が一あんたが兄弟に情が移ったりした時は……",
+   "occurrences": 1
+  },
+  "Those were Heisuke's last words.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "それが平助の遺言や",
+   "occurrences": 1
+  },
+  "We clear?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "それでええな？",
+   "occurrences": 1
+  },
+  "I don't understand.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "どういうことなんだ",
+   "occurrences": 2
+  },
+  "Right. There's no goin' back now.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "もう　後戻りはできひんで",
+   "occurrences": 1
+  },
+  "Hajime-chan.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一（はじめ）ちゃん",
+   "occurrences": 1
+  },
+  "What's going on, Okita?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "何してるんだ　沖田！",
+   "occurrences": 1
+  },
+  "We'll settle everything.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "全てに決着をつける",
+   "occurrences": 1
+  },
+  "Sakamoto Ryoma's story": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本龍馬の歴史は",
+   "occurrences": 1
+  },
+  "This Sakamoto Ryoma charade's\nyours to handle.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本龍馬は一（はじめ）ちゃんに譲ったる",
+   "occurrences": 1
+  },
+  "He died a Goryo Eji alongside\nTakeda Kanryusai...": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "武田観柳斎と共に御陵衛士として……",
+   "occurrences": 1
+  },
+  "And that's the truth of it.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "死んだことにする",
+   "occurrences": 1
+  },
+  "No matter what.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "絶対に",
+   "occurrences": 1
+  },
+  "He gave his final moments to make\nsure Ito was kept in the dark.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "自分が新選組の間者やということを\n伊東に悟られんようにするため",
+   "occurrences": 1
+  },
+  "Todo Heisuke was attacked,\nright here at Aburakoji.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "藤堂平助はここ“油小路”で新選組に襲われ",
+   "occurrences": 1
+  },
+  "Then, real or fake, I won't\nhesitate to cut you both down.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "躊躇なくワシが“二人の”坂本龍馬を　斬る",
+   "occurrences": 1
+  },
+  "gets its conclusion at Omiya.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "近江屋で終わらせる",
+   "occurrences": 1
+  },
+  "He put Kondo-san's mission above all else.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "近藤さんから与えられた使命を守ったんや",
+   "occurrences": 1
+  },
+  "Sheesh. You sure you should be\ndrinking? Never know what'll happen...": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "……って　飲んで大丈夫なんですか\n何が起きるか分かりませんよ？",
+   "occurrences": 1
+  },
+  "Of course. How could I not be?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ええ　興味津々って感じで",
+   "occurrences": 1
+  },
+  "Oh, Saigo-san. You made it.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "お　西郷さんも来てたんですか",
+   "occurrences": 1
+  },
+  "So, yer him?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "お前が……",
+   "occurrences": 1
+  },
+  "Well, I doubt he'll be much longer.": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "さあな　だが来るとすれば",
+   "occurrences": 1
+  },
+  "Thanks, but I'm gonna pass.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "せっかくだけど遠慮しときます",
+   "occurrences": 1
+  },
+  "Well, c'mon, now. Don't tell me\nyer not interested.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "そういうお前も　興味あるんとちゃうか？",
+   "occurrences": 1
+  },
+  "If he shows at all, that is.": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "そろそろなはずなんだが",
+   "occurrences": 1
+  },
+  "What's the deal?\nIs Sakamoto Ryoma comin' or what?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どうなんや　“坂本龍馬”は来るんか",
+   "occurrences": 1
+  },
+  "Hey there.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    },
+    {
+     "name": "Customer",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "どうも",
+   "occurrences": 4
+  },
+  "Heh, all the more reason to drink.\nY'oughta join me.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "なら尚のこと飲まんとな\nお前も飲めや",
+   "occurrences": 1
+  },
+  "I was up to the crack of dawn taking care\nof her, so I'm not feeling too hot.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一晩中介抱していたもんだから　体調が悪くて",
+   "occurrences": 1
+  },
+  "So there's two Sakamoto Ryomas?\nSounds like a grand ol' time.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "二人の坂本龍馬　おもろそうな話やないか",
+   "occurrences": 1
+  },
+  "My lady got pulled into a bit\nof a tussle last night.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "昨日の晩に俺の女が\nちょっとした騒動に巻き込まれちゃいましてね",
+   "occurrences": 1
+  },
+  "It could be a trap, you know?\nNot like that'd ever stop you.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "罠かもしれないのに\nさっすが　怖いもの知らずですねえ",
+   "occurrences": 1
+  },
+  "Good, you're here.": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "集まってるな",
+   "occurrences": 1
+  },
+  "Right! I'm on it!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "ああ　分かった！",
+   "occurrences": 1
+  },
+  "That room there?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "あの部屋か",
+   "occurrences": 1
+  },
+  "Get movin'!": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "上の階や！",
+   "occurrences": 1
+  },
+  "Oh.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    },
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "あっ",
+   "occurrences": 5
+  },
+  "That's the signal.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "合図だ",
+   "occurrences": 1
+  },
+  "Sakamoto Ryoma's upstairs!": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本龍馬は",
+   "occurrences": 1
+  },
+  "It'll help cover the noise.\nConvenient for us.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "物音がごまかせる　好都合だ",
+   "occurrences": 1
+  },
+  "Time to move!": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "行くぞ！",
+   "occurrences": 1
+  },
+  "And they'll all be inside?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "連中がいる場所は",
+   "occurrences": 1
+  },
+  "It's rainin'.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "雨か",
+   "occurrences": 1
+  },
+  "Can't be the guy in the photograph.\nLooks too different.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "「ほとぐらふ」の男やない　全くの別人や",
+   "occurrences": 1
+  },
+  "Is that... Sakamoto Ryoma?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "あれが　坂本龍馬？",
+   "occurrences": 1
+  },
+  "I'm serious.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "あんた",
+   "occurrences": 1
+  },
+  "I'd made up my mind the moment\nI knew you were impersonating me.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "あんたが俺の名を騙っていると\n確信した時から決めていた",
+   "occurrences": 1
+  },
+  "Hey, Hajime-chan, what's goin' on?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "おい一（はじめ）ちゃん　どういうことや",
+   "occurrences": 1
+  },
+  "It was you.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "お前だったんだな",
+   "occurrences": 1
+  },
+  "The truth is, I still have one last\nthing I need you to do for me.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "お前には\n最後の仕事をしてもらう必要があるからな",
+   "occurrences": 1
+  },
+  "They turned every trap against us...\nEvery last one!": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "こっちの仕掛けた罠を\n逆手にとられた……！",
+   "occurrences": 1
+  },
+  "At this inn.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "この場所で",
+   "occurrences": 1
+  },
+  "You mean...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (3 จุด)",
+   "chapters": [
+    13
+   ],
+   "ja": "壺振り、おまえ……",
+   "occurrences": 4
+  },
+  "Hang on, Nakaoka!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "しっかりしろ中岡！",
+   "occurrences": 1
+  },
+  "Or how about...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "そして",
+   "occurrences": 1
+  },
+  "First, just tell me one thing.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "その前に一つ教えてくれ",
+   "occurrences": 1
+  },
+  "Foiling my plans to assassinate\nthe Emperor...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "それに　帝暗殺計画の阻止",
+   "occurrences": 1
+  },
+  "and I hate myself for it.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "そんな自分が悔しい",
+   "occurrences": 1
+  },
+  "And yet why do I feel this\nway all of a sudden?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "だが　何なんだこの気持ちは",
+   "occurrences": 1
+  },
+  "What's the matter?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 2
+    },
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 2
+    },
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "mixed",
+   "neutral": true,
+   "why_neutral": "ผู้พูดหลายคนคนละเพศใช้ข้อความเดียวกัน",
+   "chapters": [
+    13
+   ],
+   "ja": "どうした？",
+   "occurrences": 12
+  },
+  "Brother, what the hell has\nthe world done to you!?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どうしたらそんなになっちまうんだよ兄弟！！",
+   "occurrences": 1
+  },
+  "Or why, at that time, I chose to\ncall myself Sakamoto Ryoma?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どうしてその時俺は\n自らの名を坂本龍馬と名乗ったのか",
+   "occurrences": 1
+  },
+  "You don't want to know why\nI had Toyo-san killed?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どうして俺が東洋の親っさんを殺させたのか",
+   "occurrences": 1
+  },
+  "Why I abandoned the name Takechi\nHanpeita, only to replace it with yours?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "どうして俺は武市半平太の名を捨て\n坂本龍馬という人間になったのか",
+   "occurrences": 1
+  },
+  "That's the other Sakamoto Ryoma?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "もう一人の“坂本龍馬”　だと？",
+   "occurrences": 1
+  },
+  "I knew it.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "やっぱり",
+   "occurrences": 2
+  },
+  "What in the hell went down here?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一体ここで何があったんや",
+   "occurrences": 1
+  },
+  "What happened to you?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一体何があったんだよ",
+   "occurrences": 1
+  },
+  "Hajime-chan!　": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "一（はじめ）ちゃん！　",
+   "occurrences": 1
+  },
+  "Nakaoka!": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "中岡！",
+   "occurrences": 1
+  },
+  "Nakaoka! You okay?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "中岡！　大丈夫か！",
+   "occurrences": 1
+  },
+  "It's been a while, Ryoma.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "久しぶりだな　龍馬",
+   "occurrences": 1
+  },
+  "Am I... Am I supposed to\nbelieve you're him?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "今　俺の目の前にいるのは",
+   "occurrences": 1
+  },
+  "On this day, here at Omiya,\nthe man called Sakamoto Ryoma died...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "今日ここ近江屋で　“坂本龍馬”という男は死んだ",
+   "occurrences": 1
+  },
+  "On this day...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "今日この時間",
+   "occurrences": 1
+  },
+  "Go on.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "何だ",
+   "occurrences": 1
+  },
+  "Come again?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2,
+    13
+   ],
+   "ja": "何だと？",
+   "occurrences": 2
+  },
+  "Why did you have to show up,\nlooking like that?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "何でそんな姿で俺の前にやってきたんだよ……",
+   "occurrences": 1
+  },
+  "The hell do you mean!?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "何言ってんだお前……！",
+   "occurrences": 1
+  },
+  "Will you quit talking in riddles!?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "何訳のわかんねぇこと言ってんだ　おい！！",
+   "occurrences": 1
+  },
+  "But I despise you more.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "俺ぁアンタが憎いんだ",
+   "occurrences": 1
+  },
+  "This is where I strike you down.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "俺は今からあんたを斬る",
+   "occurrences": 1
+  },
+  "Preventing war against the Bakufu\nby restoring imperial rule...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "倒幕戦争を阻止する大政奉還",
+   "occurrences": 1
+  },
+  "I thought I was three steps ahead,\nbut it turns out I was three behind.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "先回りしたはずが　全部お前に食い止められた",
+   "occurrences": 1
+  },
+  "Only then will I tell you.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "全ては　そこで分かる",
+   "occurrences": 1
+  },
+  "They knew about everything.": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "全部　見抜かれていた",
+   "occurrences": 1
+  },
+  "Find me in Tosa.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "土佐で待つ",
+   "occurrences": 1
+  },
+  "Sakamoto Ryoma-san.": {
+   "speakers": [
+    {
+     "name": "Sasaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本龍馬さんよ",
+   "occurrences": 1
+  },
+  "The man called Sakamoto Ryoma died...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本龍馬という男は死んだんだ",
+   "occurrences": 1
+  },
+  "And his legend at long last came to an end.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本龍馬の伝説は幕を閉じたんだ",
+   "occurrences": 1
+  },
+  "Sakamoto Ryoma is gone.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "坂本龍馬は死んだ",
+   "occurrences": 1
+  },
+  "The Mimawarigumi surrounded the place.": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "外は見廻組で包囲されてる",
+   "occurrences": 1
+  },
+  "Wait! I said wait, dammit!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "待てよおい！　待てっつってんだ！",
+   "occurrences": 1
+  },
+  "The Goryo Eji and the Mimawarigumi up\nand disappeared. What happened?": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "急に御陵衛士も　見廻組の連中も姿を消した\nどないなっとるんや",
+   "occurrences": 1
+  },
+  "Brother or not, this ends now!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "憎いまま斬らせてくれよ兄弟！",
+   "occurrences": 1
+  },
+  "A man with his sights on the future\ngets gutted by a man stuck in the past.　": {
+   "speakers": [
+    {
+     "name": "Sasaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "時代を動かすはずの男が　時代遅れの男に斬られ死ぬ　",
+   "occurrences": 1
+  },
+  "Is it true?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "本当によ",
+   "occurrences": 1
+  },
+  "You really are something,\nyou know that?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "本当に凄い奴だよ　お前は",
+   "occurrences": 1
+  },
+  "Takechi.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 3
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13,
+    14
+   ],
+   "ja": "武市",
+   "occurrences": 3
+  },
+  "You're really Takechi Hanpeita?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "武市半平太なのかよ",
+   "occurrences": 1
+  },
+  "Takechi! Takechi!": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "武市！！　武市！！！！",
+   "occurrences": 1
+  },
+  "Sorry to say, but I'm afraid I\ncan't let you kill me just yet.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "残念だが　今お前に殺されるわけにはいかない",
+   "occurrences": 1
+  },
+  "It's useless.": {
+   "speakers": [
+    {
+     "name": "???",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "無駄だ",
+   "occurrences": 1
+  },
+  "Surely, you want answers, Ryoma.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "知りたいんじゃないのか　龍馬",
+   "occurrences": 1
+  },
+  "I managed to buy Saigo and Katsura\nenough time, but I wasn't so lucky.": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "西郷と桂は　何とか逃がしたが\n俺はこのザマだ",
+   "occurrences": 1
+  },
+  "From the look in your eyes, I can see\neverything you've suffered until now,": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "見ただけで　俺にはあんたがどんな思いで\nここにやって来たのかが全部分かっちまう",
+   "occurrences": 1
+  },
+  "I figured you'd have so many\nquestions for me.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "言いたいことがたくさんあるんじゃないのか？",
+   "occurrences": 1
+  },
+  "Spit it out, Hajime-chan!": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "説明せえ　一（はじめ）ちゃん！",
+   "occurrences": 1
+  },
+  "Who... are you?": {
+   "speakers": [
+    {
+     "name": "Sakamoto Ryoma?",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    13
+   ],
+   "ja": "誰ぜよ……　おまんは……？",
+   "occurrences": 1
+  },
+  "Have you even seen yourself lately?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13
+   ],
+   "ja": "鏡で自分の顔見てるか？",
+   "occurrences": 1
+  },
+  "Ryoma.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 2
+    },
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    13,
+    14
+   ],
+   "ja": "龍馬",
+   "occurrences": 3
+  }
+ }
+}

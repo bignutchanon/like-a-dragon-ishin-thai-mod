@@ -1,0 +1,59 @@
+{
+ "batch": "MSG_017",
+ "readme": "คำที่ 'เคาะไปแล้ว' ในก้อนก่อนหน้า และโผล่อยู่ในสตริงของก้อนนี้ ดึงจาก master_th.json อัตโนมัติ",
+ "how_to_use": {
+  "locked_names_places": "คำล็อกจาก name_locks.json / place_locks.json — **บังคับ** ต้องสะกดตามนี้เป๊ะ",
+  "terms": "ชื่อเฉพาะ/วลี — ใช้รูปนี้เท่านั้น ห้ามตั้งใหม่ ถ้าเห็นว่ารูปเดิมผิดจริง ให้รายงาน lead อย่าเปลี่ยนเอง",
+  "single_words": "คำเดี่ยว — เป็นคำแปลของ **บริบทอื่น** อาจไม่ตรงบริบทก้อนนี้ (เช่น Result = 'ผลการซื้อขาย' มาจากหน้าร้านค้า) ให้ใช้เมื่อบริบทตรงกันเท่านั้น"
+ },
+ "locked_names_places": {
+  "Tachibanagumi": "ทาจิบานางุมิ",
+  "Umekojicho": "อุเมะโคจิโจ",
+  "Mukurogai": "มุคุโรไก",
+  "Saito": "ไซโต",
+  "Kyo": "เกียวโต"
+ },
+ "terms": {
+  "Komaki Cat-Like Reflexes": "โคมากิ ไหวพริบแมว",
+  "Komaki Evade and Strike": "โคมากิ หลบสวน",
+  "Komaki Dharma Tumbler": "โคมากิ ท่าดารุมะ",
+  "Chivalrous Shinobi": "นินจาโจรใจบุญ",
+  "Komaki Shadow Bind": "โคมากิ ตรึงเงา",
+  "Komaki Knock Back": "โคมากิ ผลักกระเด็น",
+  "Komaki Tiger Drop": "โคมากิ ไทเกอร์ดรอป",
+  "Diligence Records": "ใบประกาศความพากเพียร",
+  "Ancient Amulet": "เครื่องรางโบราณ",
+  "Pause Menu": "เมนูหยุดเกม",
+  "Red Ninja": "นินจาสีแดง"
+ },
+ "single_words": {
+  "*sigh*": "เฮ้อ...",
+  "Abilities": "ความสามารถ",
+  "All": "ทั้งหมด",
+  "Back": "ย้อนกลับ",
+  "Begin": "เริ่ม",
+  "Boy": "เด็กชาย",
+  "Default": "ค่าเริ่มต้น",
+  "Evade": "หลบ",
+  "Even": "คู่",
+  "Fine": "ประณีต",
+  "Grab": "คว้า",
+  "Hard": "ยาก",
+  "However,": "แต่ทว่า",
+  "Menu": "เมนู",
+  "Music": "เพลง",
+  "Next": "ถัดไป",
+  "Ninja": "นินจา",
+  "Obtained": "ได้รับ",
+  "Out": "OUT",
+  "Pause": "หยุดชั่วคราว",
+  "Red": "แดง",
+  "Shinobi": "ชิโนบิ",
+  "Strike": "ตี",
+  "Take": "รับ",
+  "Yes": "ใช่",
+  "mon": "มอน",
+  "place": "อันดับ",
+  "times": "ครั้ง"
+ }
+}

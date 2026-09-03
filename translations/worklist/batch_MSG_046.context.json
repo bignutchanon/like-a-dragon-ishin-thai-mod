@@ -1,0 +1,2276 @@
+{
+ "batch": "batch_MSG_046.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Well, well, looks like you're out. See you next time, yeah?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありゃ、タネ切れみたいだね。\r\nまた来てよ。",
+   "occurrences": 1
+  },
+  "A banker's 1-3-5 earns a 3.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の奇の見は３になるからね。",
+   "occurrences": 1
+  },
+  "A 1-3-5 roll by the first player earns a 3.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最初の子が出した奇の見は\r\n３になるからね。",
+   "occurrences": 1
+  },
+  "A 1-3-5 matches the previous player's roll.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奇の見は一つ前の子と\r\n同じ出目になるからね。",
+   "occurrences": 1
+  },
+  "A banker's 2-4-6 earns a 4.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の偶の音は４になるからね。",
+   "occurrences": 1
+  },
+  "A 2-4-6 roll by the last player earns a 4.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最後の子が出した偶の音は\r\n４になるからね。",
+   "occurrences": 1
+  },
+  "A 2-4-6 matches the last player's roll.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音は、後ろの子と\r\n同じ出目になるからね。",
+   "occurrences": 1
+  },
+  "A 1-3-5 after a 2-4-6, huh?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音のあとに奇の見が出たよ。",
+   "occurrences": 1
+  },
+  "Wow! A 6-3-4!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "来たっ！　ムサシ！",
+   "occurrences": 1
+  },
+  "First, we pick the banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まずは親を決めるか。",
+   "occurrences": 1
+  },
+  "I'm the banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "俺が親だな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "(How much should I bet?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（いくらで勝負する？）",
+   "occurrences": 3
+  },
+  "Here goes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "始めるぜ。",
+   "occurrences": 1
+  },
+  "I'll roll again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一回振るぜ。",
+   "occurrences": 2
+  },
+  "(You're the banker.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（お前が親）",
+   "occurrences": 4
+  },
+  "(Play again?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（もう一丁？）",
+   "occurrences": 4
+  },
+  "(I'm broke.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（オケラ）",
+   "occurrences": 1
+  },
+  "(Better luck next time, I guess.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（出直して）",
+   "occurrences": 1
+  },
+  "So a banker's 1-3-5 gets a 3?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の奇の見は\r\n３に化けるんだったか。",
+   "occurrences": 1
+  },
+  "So 1-3-5 from the first player gets a 3?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最初の子が出した奇の見は\r\n３に化けるんだったか。",
+   "occurrences": 1
+  },
+  "A 1-3-5 roll earns whatever the player before that got.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奇の見は一つ前の子と\r\n同じ出目になるんだったな。",
+   "occurrences": 1
+  },
+  "So a banker's 2-4-6 gets a 4?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の偶の音は\r\n４に化けるんだったか。",
+   "occurrences": 1
+  },
+  "A 2-4-6 gets whatever the next player rolls.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音は一つ後の子と\r\n同じ出目になるんだったな。",
+   "occurrences": 1
+  },
+  "So a 2-4-6 from the last player gets a 4?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最後の子が出した偶の音は\r\n４に化けるんだったか。",
+   "occurrences": 1
+  },
+  "A 2-4-6 roll gets whatever the last player rolls.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音は、後ろの子と\r\n同じ出目になる。",
+   "occurrences": 1
+  },
+  "A 1-3-5 got rolled after a 2-4-6.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音のあとに奇の見が出た。",
+   "occurrences": 2
+  },
+  "Talk about luck.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "幸先いいぜ。",
+   "occurrences": 1
+  },
+  "First up, we pick a banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まずは親を決めようか。",
+   "occurrences": 1
+  },
+  "Let's get started, shall we?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さぁ、始めるよ。",
+   "occurrences": 1
+  },
+  "Ah, my turn.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お、俺の番だな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Time to settle it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "精算だ。",
+   "occurrences": 1
+  },
+  "How 'bout we change bankers.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親を交代しようか。",
+   "occurrences": 1
+  },
+  "(I got cleaned out.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（オケラ）",
+   "occurrences": 1
+  },
+  "(I'l have to try again next time.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（出直して）",
+   "occurrences": 1
+  },
+  "A banker's roll of 1-3-5 is a 3, I'm pretty sure.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の奇の見は３になるんだよねぇ。",
+   "occurrences": 1
+  },
+  "A 1-3-5 by the first player's a 3, yeah?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最初の子が出した奇の見は３になるんだよねぇ。",
+   "occurrences": 1
+  },
+  "A 1-3-5 matches the previous player's roll, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奇の見は一つ前の子と同じ出目になるんだよねぇ。",
+   "occurrences": 1
+  },
+  "A banker's 2-4-6 gets a 4, doesn't it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の偶の音は４になるんだよねぇ。",
+   "occurrences": 1
+  },
+  "A 2-4-6 matches the next player's roll, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音は一つ後の子と同じ出目になるんだよねぇ。",
+   "occurrences": 1
+  },
+  "A 2-4-6 from the last player is a 4, yeah?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最後の子が出した偶の音は４に化けるんだよねぇ。",
+   "occurrences": 1
+  },
+  "A 2-4-6 gets the whatever the last player rolls!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音は、後ろの子と同じ出目になる。",
+   "occurrences": 1
+  },
+  "A 6-3-4! Must be lucky, huh?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ムサシ！　ツイてるねぇ。",
+   "occurrences": 1
+  },
+  "First, we gotta pick a banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほな、親を決めよか。",
+   "occurrences": 1
+  },
+  "Looks like I'm banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わしが親やな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "(How much should I bet here?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（いくらで勝負する？）",
+   "occurrences": 1
+  },
+  "All right, here goes nothin'.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "始めるで。",
+   "occurrences": 1
+  },
+  "I'm rollin' again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一回振るで。",
+   "occurrences": 1
+  },
+  "Let's settle up.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "精算や。",
+   "occurrences": 1
+  },
+  "We're changin' banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親を交代するで。",
+   "occurrences": 1
+  },
+  "(Outta money.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（オケラ）",
+   "occurrences": 1
+  },
+  "(Maybe next time.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（出直して）",
+   "occurrences": 1
+  },
+  "A banker rollin' a 1-3-5 gets a 3.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の奇の見は３になるんやったな。",
+   "occurrences": 1
+  },
+  "A 1-3-5 from the first player gets a 3.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最初の子が出した奇の見は３になるんやったな。",
+   "occurrences": 1
+  },
+  "A 1-3-5 gets what the previous player rolled.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奇の見は一つ前の子と同じ出目になるんやったな。",
+   "occurrences": 1
+  },
+  "We got a 6-3-4!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ムサシや……！",
+   "occurrences": 1
+  },
+  "Let's decide who's banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親を決めるよ。",
+   "occurrences": 1
+  },
+  "Looks like I'm the banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "俺が親か。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Okay, let's play.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さあて、始めるぞー。",
+   "occurrences": 1
+  },
+  "I'll roll once more.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一回だ。",
+   "occurrences": 1
+  },
+  "Time we settle up.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "精算だ。",
+   "occurrences": 1
+  },
+  "Now we change the banker.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の交代だな。",
+   "occurrences": 1
+  },
+  "(I'm out of money.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（オケラ）",
+   "occurrences": 1
+  },
+  "(I'll have to try again sometime.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（出直して）",
+   "occurrences": 1
+  },
+  "A banker's 1-3-5 is a 3, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の奇の見は３になるんだっけ？",
+   "occurrences": 1
+  },
+  "A 1-3-5 from the first player's a 3, isn't it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最初の子が出した奇の見は３になるんだっけ？",
+   "occurrences": 1
+  },
+  "And 1-3-5 gets whatever the previous player rolled, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奇の見は一つ前の子と同じ出目になるんだっけ？",
+   "occurrences": 1
+  },
+  "A banker's 2-4-6 is a 4, isn't it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の偶の音は４になるんだっけ？",
+   "occurrences": 1
+  },
+  "Doesn't a 2-4-6 become whatever the next player rolls?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音は一つ後の子と同じ出目になるんだっけ？",
+   "occurrences": 1
+  },
+  "A 2-4-6 by the last player's a 4, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最後の子が出した偶の音は４になるんだっけ？",
+   "occurrences": 1
+  },
+  "A 2-4-6 becomes whatever the last player rolls, yeah?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音は、後ろの子と同じ出目になるんだよね。",
+   "occurrences": 1
+  },
+  "Hey, all right! A 6-3-4!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よぉっし！　ムサシ！",
+   "occurrences": 1
+  },
+  "ようこそ。\r\nバカラテーブルへ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ようこそ。\r\nバカラテーブルへ。",
+   "occurrences": 1
+  },
+  "それではゲームを開始します。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それではゲームを開始します。",
+   "occurrences": 4
+  },
+  "またの御越しをお待ちしております。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "またの御越しをお待ちしております。",
+   "occurrences": 3
+  },
+  "チップが足りないようですね、\r\nまたの御越しをお待ちしております。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "チップが足りないようですね、\r\nまたの御越しをお待ちしております。",
+   "occurrences": 3
+  },
+  "ＰＬＡＹＥＲかＢＡＮＫＥＲのどちらが勝つか、\r\nまたはＴＩＥ（引き分け）かを選んでください。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲかＢＡＮＫＥＲのどちらが勝つか、\r\nまたはＴＩＥ（引き分け）かを選んでください。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲかＢＡＮＫＥＲのどちらが勝つか、\r\nまたはＴＩＥ（引き分け）、ＰＡＩＲ、ＳＵＰＥＲ６\r\nかを選んでください。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲかＢＡＮＫＥＲのどちらが勝つか、\r\nまたはＴＩＥ（引き分け）、ＰＡＩＲ、ＳＵＰＥＲ６\r\nかを選んでください。",
+   "occurrences": 1
+  },
+  "ＢＥＴ　ＬＩＭＩＴを参考に、\r\nＭＩＮ～ＭＡＸまでのチップを賭けてください。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＥＴ　ＬＩＭＩＴを参考に、\r\nＭＩＮ～ＭＡＸまでのチップを賭けてください。",
+   "occurrences": 1
+  },
+  "カードを配ります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カードを配ります。",
+   "occurrences": 2
+  },
+  "では、ＰＬＡＹＥＲの\r\n１枚目のカードをオープンします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "では、ＰＬＡＹＥＲの\r\n１枚目のカードをオープンします。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲの\r\n２枚目のカードをオープンします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲの\r\n２枚目のカードをオープンします。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲは６でスタンドです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲは６でスタンドです。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲは７でスタンドです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲは７でスタンドです。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲは８でナチュラルです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲは８でナチュラルです。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲは９でナチュラルです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲは９でナチュラルです。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲが８か９でない場合は、\r\n３枚目が配られます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲが８か９でない場合は、\r\n３枚目が配られます。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲの\r\n１枚目のカードをオープンします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲの\r\n１枚目のカードをオープンします。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲの\r\n２枚目のカードをオープンします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲの\r\n２枚目のカードをオープンします。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲは６でスタンドです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲは６でスタンドです。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲは６でスタンドです。\r\nＰＬＡＹＥＲに３枚目のカードを配ります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲは６でスタンドです。\r\nＰＬＡＹＥＲに３枚目のカードを配ります。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲは７でスタンドです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲは７でスタンドです。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲは７でスタンドです。\r\nＰＬＡＹＥＲに３枚目のカードを配ります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲは７でスタンドです。\r\nＰＬＡＹＥＲに３枚目のカードを配ります。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲは８でナチュラルです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲは８でナチュラルです。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲは９でナチュラルです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲは９でナチュラルです。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲの３枚目をあわせた合計によって、\r\nＢＡＮＫＥＲに３枚目が配られるかが決まります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲの３枚目をあわせた合計によって、\r\nＢＡＮＫＥＲに３枚目が配られるかが決まります。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲはスタンドです。\r\nＢＡＮＫＥＲに３枚目のカードを配ります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲはスタンドです。\r\nＢＡＮＫＥＲに３枚目のカードを配ります。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲの\r\n３枚目のカードをオープンします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲの\r\n３枚目のカードをオープンします。",
+   "occurrences": 1
+  },
+  "条件により\r\nＢＡＮＫＥＲには３枚目のカードは配られません。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "条件により\r\nＢＡＮＫＥＲには３枚目のカードは配られません。",
+   "occurrences": 1
+  },
+  "条件により\r\nＢＡＮＫＥＲに３枚目のカードを配ります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "条件により\r\nＢＡＮＫＥＲに３枚目のカードを配ります。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲの\r\n３枚目のカードをオープンします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲの\r\n３枚目のカードをオープンします。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲの勝ちです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲの勝ちです。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲの勝ちです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲの勝ちです。",
+   "occurrences": 1
+  },
+  "ＴＩＥ（引き分け）ですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＴＩＥ（引き分け）ですね。",
+   "occurrences": 1
+  },
+  "おめでとうございます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おめでとうございます。",
+   "occurrences": 1
+  },
+  "残念でした。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "残念でした。",
+   "occurrences": 1
+  },
+  "続けますか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "続けますか？",
+   "occurrences": 2
+  },
+  "山札が残りわずかになったので、シャッフルします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山札が残りわずかになったので、シャッフルします。",
+   "occurrences": 1
+  },
+  "ＰＬＡＹＥＲがペアのようですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲがペアのようですね。",
+   "occurrences": 1
+  },
+  "ＢＡＮＫＥＲがペアのようですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＡＮＫＥＲがペアのようですね。",
+   "occurrences": 1
+  },
+  "ＳＵＰＥＲ６です。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＳＵＰＥＲ６です。",
+   "occurrences": 1
+  },
+  "お客様、波に乗っていますね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お客様、波に乗っていますね。",
+   "occurrences": 2
+  },
+  "いい調子ですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いい調子ですね。",
+   "occurrences": 2
+  },
+  "（アイテムの効果が切れたようだ……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（アイテムの効果が切れたようだ……）",
+   "occurrences": 2
+  },
+  "ＰＬＡＹＥＲとＢＡＮＫＥＲに\r\nそれぞれ３枚目のカードを配ります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＰＬＡＹＥＲとＢＡＮＫＥＲに\r\nそれぞれ３枚目のカードを配ります。",
+   "occurrences": 1
+  },
+  "ようこそ。\r\nブラックジャックテーブルへ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ようこそ。\r\nブラックジャックテーブルへ。",
+   "occurrences": 1
+  },
+  "ようこそ。　ブラックジャックテーブルへ。\r\nサシで勝負しましょうか。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ようこそ。　ブラックジャックテーブルへ。\r\nサシで勝負しましょうか。",
+   "occurrences": 1
+  },
+  "ＢＥＴ・ＲＥＢＥＴどちらかを選択して\r\nチップを賭けてください。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＥＴ・ＲＥＢＥＴどちらかを選択して\r\nチップを賭けてください。",
+   "occurrences": 1
+  },
+  "グリーンカードがでましたので、シャッフルします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "グリーンカードがでましたので、シャッフルします。",
+   "occurrences": 1
+  },
+  "チップが足りないようですね。\r\nまたのお越しをお待ちしてます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "チップが足りないようですね。\r\nまたのお越しをお待ちしてます。",
+   "occurrences": 1
+  },
+  "あなたの番です。どうされますか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あなたの番です。どうされますか？",
+   "occurrences": 1
+  },
+  "残念、ＢＵＳＴですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "残念、ＢＵＳＴですね。",
+   "occurrences": 1
+  },
+  "ディーラーのターンです。\r\nディーラーのカードをオープンします。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーのターンです。\r\nディーラーのカードをオープンします。",
+   "occurrences": 1
+  },
+  "カードの合計が１７未満なので\r\nカードを引きますね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カードの合計が１７未満なので\r\nカードを引きますね。",
+   "occurrences": 1
+  },
+  "ディーラーの合計は１７ですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーの合計は１７ですね。",
+   "occurrences": 1
+  },
+  "ディーラーの合計は１８ですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーの合計は１８ですね。",
+   "occurrences": 1
+  },
+  "ディーラーの合計は１９ですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーの合計は１９ですね。",
+   "occurrences": 1
+  },
+  "ディーラーの合計は２０ですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーの合計は２０ですね。",
+   "occurrences": 1
+  },
+  "ディーラーの合計は２１ですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーの合計は２１ですね。",
+   "occurrences": 1
+  },
+  "ディーラーはブラックジャックでした。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーはブラックジャックでした。",
+   "occurrences": 2
+  },
+  "ディーラーはＢＵＳＴでした。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーはＢＵＳＴでした。",
+   "occurrences": 1
+  },
+  "ディーラーのオープンカードがＡです。\r\nブラックジャックの可能性があります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーのオープンカードがＡです。\r\nブラックジャックの可能性があります。",
+   "occurrences": 1
+  },
+  "ブラックジャックではありませんでした。\r\nゲームを続けましょう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ブラックジャックではありませんでした。\r\nゲームを続けましょう。",
+   "occurrences": 1
+  },
+  "ブラックジャックですね！\r\nおめでとうございます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ブラックジャックですね！\r\nおめでとうございます。",
+   "occurrences": 1
+  },
+  "ですが、私もブラックジャックです。\r\n残念でしたね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ですが、私もブラックジャックです。\r\n残念でしたね。",
+   "occurrences": 1
+  },
+  "またの御越しお待ちしております。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "またの御越しお待ちしております。",
+   "occurrences": 1
+  },
+  "１勝中。\r\nＭＡＸ　ＢＥＴが３００に増えています。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１勝中。\r\nＭＡＸ　ＢＥＴが３００に増えています。",
+   "occurrences": 1
+  },
+  "２連勝中。\r\nＭＡＸ　ＢＥＴが５００に増えています。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "２連勝中。\r\nＭＡＸ　ＢＥＴが５００に増えています。",
+   "occurrences": 1
+  },
+  "３連勝中。\r\nＭＡＸ　ＢＥＴが１０００に増えています。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "３連勝中。\r\nＭＡＸ　ＢＥＴが１０００に増えています。",
+   "occurrences": 1
+  },
+  "１連勝中。\r\nＭＡＸ　ＢＥＴが３０００に増えています。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１連勝中。\r\nＭＡＸ　ＢＥＴが３０００に増えています。",
+   "occurrences": 1
+  },
+  "２連勝中。\r\nＭＡＸ　ＢＥＴが５０００に増えています。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "２連勝中。\r\nＭＡＸ　ＢＥＴが５０００に増えています。",
+   "occurrences": 1
+  },
+  "３連勝中。\r\nＭＡＸ　ＢＥＴが１００００に増えています。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "３連勝中。\r\nＭＡＸ　ＢＥＴが１００００に増えています。",
+   "occurrences": 1
+  },
+  "私の勝ちですね。\r\n次の勝負に行きましょう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "私の勝ちですね。\r\n次の勝負に行きましょう。",
+   "occurrences": 1
+  },
+  "今回の対戦は私の勝ちですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今回の対戦は私の勝ちですね。",
+   "occurrences": 2
+  },
+  "引き分けですね。\r\n次の勝負に行きましょう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "引き分けですね。\r\n次の勝負に行きましょう。",
+   "occurrences": 1
+  },
+  "引き分けですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "引き分けですね。",
+   "occurrences": 2
+  },
+  "一組引き分けのようですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一組引き分けのようですね。",
+   "occurrences": 1
+  },
+  "私の負けですね。\r\n次の勝負に行きましょう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "私の負けですね。\r\n次の勝負に行きましょう。",
+   "occurrences": 1
+  },
+  "今回の対戦は私の負けですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今回の対戦は私の負けですね。",
+   "occurrences": 2
+  },
+  "私の勝ちですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "私の勝ちですね。",
+   "occurrences": 1
+  },
+  "あなたの勝ちですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あなたの勝ちですね。",
+   "occurrences": 1
+  },
+  "一組あなたの勝ちですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一組あなたの勝ちですね。",
+   "occurrences": 1
+  },
+  "二組ともあなたの勝ちですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "二組ともあなたの勝ちですね。",
+   "occurrences": 1
+  },
+  "二組とも私の勝ちですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "二組とも私の勝ちですね。",
+   "occurrences": 1
+  },
+  "二組ともあなたの勝ちですね。\r\n一組シックスアンダーですね、すごい！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "二組ともあなたの勝ちですね。\r\n一組シックスアンダーですね、すごい！",
+   "occurrences": 1
+  },
+  "二組ともあなたの勝ちですね。\r\n二組ともシックスアンダーですかぁ～\r\nかなりの強運の持ち主ですね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "二組ともあなたの勝ちですね。\r\n二組ともシックスアンダーですかぁ～\r\nかなりの強運の持ち主ですね。",
+   "occurrences": 1
+  },
+  "一組あなたの勝ちですね。\r\nシックスアンダーおめでとうございます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一組あなたの勝ちですね。\r\nシックスアンダーおめでとうございます。",
+   "occurrences": 1
+  },
+  "６枚引かれて２１以下ですので\r\nシックスアンダーですね。\r\n無条件であなたの勝ちです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "６枚引かれて２１以下ですので\r\nシックスアンダーですね。\r\n無条件であなたの勝ちです。",
+   "occurrences": 1
+  },
+  "インシュアランス成功おめでとうございます。\r\n良い判断でした。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "インシュアランス成功おめでとうございます。\r\n良い判断でした。",
+   "occurrences": 1
+  },
+  "次のゲームでチップを５００枚賭けていただければ\r\n配当を３倍にいたします。　チャレンジされますか？\r\n（BJ時は５倍／DOUBLE DOWN時は２倍になります）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次のゲームでチップを５００枚賭けていただければ\r\n配当を３倍にいたします。　チャレンジされますか？\r\n（BJ時は５倍／DOUBLE DOWN時は２倍になります）",
+   "occurrences": 1
+  },
+  "次のゲームでチップを２０００枚賭けていただければ\r\n配当を３倍にいたします。　チャレンジされますか？\r\n（BJ時は５倍／DOUBLE DOWN時は２倍になります）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次のゲームでチップを２０００枚賭けていただければ\r\n配当を３倍にいたします。　チャレンジされますか？\r\n（BJ時は５倍／DOUBLE DOWN時は２倍になります）",
+   "occurrences": 1
+  },
+  "１枚カードを引きます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１枚カードを引きます。",
+   "occurrences": 1
+  },
+  "この手札で勝負します。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この手札で勝負します。",
+   "occurrences": 1
+  },
+  "ＢＥＴ額を２倍に出来ますが、あと１枚\r\nカードを強制的に引かされます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＥＴ額を２倍に出来ますが、あと１枚\r\nカードを強制的に引かされます。",
+   "occurrences": 1
+  },
+  "手札を２組に分けます。\r\nすでに賭けているチップと同額をＢＥＴします。\r\nＡのスプリットは各１枚しか配られません。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手札を２組に分けます。\r\nすでに賭けているチップと同額をＢＥＴします。\r\nＡのスプリットは各１枚しか配られません。",
+   "occurrences": 1
+  },
+  "この勝負を降りることで\r\nＢＥＴ額の半分が返却されます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この勝負を降りることで\r\nＢＥＴ額の半分が返却されます。",
+   "occurrences": 1
+  },
+  "ディーラーがブラックジャックの可能性に\r\nＢＥＴ額の半額の保険をかけます。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ディーラーがブラックジャックの可能性に\r\nＢＥＴ額の半額の保険をかけます。",
+   "occurrences": 1
+  },
+  "BET LIMITを参考にMIN～MAXまでのチップを賭けて、\r\nゲームに参加します。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "BET LIMITを参考にMIN～MAXまでのチップを賭けて、\r\nゲームに参加します。",
+   "occurrences": 1
+  },
+  "前回のゲームで賭けたチップを賭けて、\r\nゲームに参加します。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "前回のゲームで賭けたチップを賭けて、\r\nゲームに参加します。",
+   "occurrences": 1
+  },
+  "いつもどおりのブラックジャックです。\r\n報酬 ２０００枚。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いつもどおりのブラックジャックです。\r\n報酬 ２０００枚。",
+   "occurrences": 1
+  },
+  "「２」と「３」と「４」のカードが含まれていない\r\nデッキでブラックジャックをプレイします。\r\n報酬 ２５００枚。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「２」と「３」と「４」のカードが含まれていない\r\nデッキでブラックジャックをプレイします。\r\n報酬 ２５００枚。",
+   "occurrences": 1
+  },
+  "「７」と「８」と「９」のカードが含まれていない\r\nデッキでブラックジャックをプレイします。\r\n報酬 ２０００枚。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「７」と「８」と「９」のカードが含まれていない\r\nデッキでブラックジャックをプレイします。\r\n報酬 ２０００枚。",
+   "occurrences": 1
+  },
+  "「Ｊ」と「Ｑ」と「Ｋ」のカードが含まれていない\r\nデッキでブラックジャックをプレイします。\r\n報酬 ４０００枚。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「Ｊ」と「Ｑ」と「Ｋ」のカードが含まれていない\r\nデッキでブラックジャックをプレイします。\r\n報酬 ４０００枚。",
+   "occurrences": 1
+  },
+  "The banker got a 6, winning the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の出目が６なので、\r\n賭け点の同額払いです。",
+   "occurrences": 1
+  },
+  "The banker rolled trips, winning three times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親がアラシなので、\r\n賭け点の３倍払いです。",
+   "occurrences": 1
+  },
+  "The banker rolled ace out, winning five times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親がピンゾロなので、\r\n賭け点の５倍払いです。",
+   "occurrences": 1
+  },
+  "The banker rolled 4-5-6, winning two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親がシゴロなので、\r\n賭け点の２倍払いです。",
+   "occurrences": 1
+  },
+  "The banker earned a 1, meaning they'll lose the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の出目が１なので、\r\n賭け点の同額取りです。",
+   "occurrences": 1
+  },
+  "The banker missed the pot, losing the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親がションベンなので、\r\n賭け点の同額取りです。",
+   "occurrences": 1
+  },
+  "The banker failed to roll a point, losing the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親が出目なしなので、\r\n賭け点の同額取りです。",
+   "occurrences": 1
+  },
+  "The banker rolled a 1-2-3, losing two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親がヒフミなので、\r\n賭け点の２倍取りです。",
+   "occurrences": 1
+  },
+  "The banker rolled a 6-3-4, winning two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親がムサシなので、\r\n賭け点の２倍払いです。",
+   "occurrences": 1
+  },
+  "You got a 6 as the banker, winning the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親で出目が６なので、\r\n全員の賭け点を２倍取りです。",
+   "occurrences": 1
+  },
+  "You rolled trips as the banker, winning three times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親でアラシを出したので、\r\n全員の賭け点を３倍取りです。",
+   "occurrences": 1
+  },
+  "You rolled ace out as the banker, winning five times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親でピンゾロを出したので、\r\n全員の賭け点を５倍取りです。",
+   "occurrences": 1
+  },
+  "You rolled a 4-5-6 as the banker, winning two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親でシゴロを出したので、\r\n全員の賭け点を２倍取りです。",
+   "occurrences": 1
+  },
+  "You got a 1 as the banker, losing the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親で出目が１なので、\r\n全員に賭け点の同額払いです。",
+   "occurrences": 1
+  },
+  "You missed the pot as the banker, losing the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親でションベンなので、\r\n賭け点の同額払いです。",
+   "occurrences": 1
+  },
+  "You failed to roll a point as the banker and will therefore lose the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親で出目なしなので、\r\n全員に賭け点の同額払いです。",
+   "occurrences": 1
+  },
+  "You got a 1-2-3 as the banker, losing two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親でヒフミを出したので、\r\n全員に賭け点の２倍払いです。",
+   "occurrences": 1
+  },
+  "You rolled 6-3-4 as the banker, winning two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分が親でムサシなので、\r\n賭け点の２倍取りです。",
+   "occurrences": 1
+  },
+  "You rolled trips, winning three times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アラシを出したので、\r\n賭け点の３倍取りです。",
+   "occurrences": 1
+  },
+  "You rolled ace out, winning five times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ピンゾロを出したので、\r\n賭け点の５倍取りです。",
+   "occurrences": 1
+  },
+  "You rolled 4-5-6, winning two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "シゴロを出したので、\r\n賭け点の２倍取りです。",
+   "occurrences": 1
+  },
+  "You missed the pot, losing the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ションベンを出したので、\r\n賭け点の同額払いです。",
+   "occurrences": 1
+  },
+  "You did not roll a point, losing the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出目なしなので、\r\n賭け点の同額払いです。",
+   "occurrences": 1
+  },
+  "You rolled 1-2-3, losing two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒフミを出したので、\r\n賭け点の２倍払いです。",
+   "occurrences": 1
+  },
+  "You beat the banker's roll, winning the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の出目に勝ったので、\r\n賭け点の同額取りです。",
+   "occurrences": 1
+  },
+  "You failed to beat the banker's roll and will therefore lose the same amount as the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親の出目に負けたので、\r\n賭け点の同額払いです。",
+   "occurrences": 1
+  },
+  "You tied with the banker's roll, so there is no change in the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親と引きわけなので、\r\n賭け点は変動しません。",
+   "occurrences": 1
+  },
+  "You rolled 6-3-4, winning two times the bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ムサシを出したので、\r\n賭け点の２倍取りです。",
+   "occurrences": 1
+  },
+  "You beat all of the other players.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "子の全員に勝ちました。",
+   "occurrences": 1
+  },
+  "Based on the results of the match, the points will now increase.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勝負の結果、\r\n点数が増加します。",
+   "occurrences": 1
+  },
+  "Based on the results of the match, the points will now decrease.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勝負の結果、\r\n点数が減少します。",
+   "occurrences": 1
+  },
+  "You lost to all of the other players.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "子の全員に負けました。",
+   "occurrences": 1
+  },
+  "You tied with all of the other players.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "子の全員と引き分けました。",
+   "occurrences": 1
+  },
+  "(The item doesn't seem to work anymore.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アイテムの効果が切れたようだな。",
+   "occurrences": 6
+  },
+  "(The item don't seem to work anymore.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アイテムの効果が切れたようやな。",
+   "occurrences": 2
+  },
+  "Right, this is the important stuff—the true purpose of the Third.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これから、三番隊の任務に関するご説明をさせて\r\n頂きますので、よく聞いておいて下さい。",
+   "occurrences": 3
+  },
+  "If you miss any of what I'm about to explain, check How to Play in the menu to go over it again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なお、これからご説明させて頂くことは、\r\nこちらの遊び方か、もしくはメインメニューの\r\n備忘録からご確認いただけます。",
+   "occurrences": 3
+  },
+  "Now, without further ado.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それではさっそく始めましょう。",
+   "occurrences": 3
+  },
+  "As you know, the Shinsengumi's stated mission is to maintain the peace in Kyo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ご存じの通り新選組の通常任務は\r\n京都の治安維持となります。",
+   "occurrences": 3
+  },
+  "You'll be expected to lead your soldiers on missions.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これから斎藤隊長は三番隊を率いて\r\n任務を遂行することになります。",
+   "occurrences": 3
+  },
+  "For starters, allow me to introduce you to one man of the Third Division.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まずは三番隊に所属している\r\n隊士のうちの１人を紹介いたします。",
+   "occurrences": 3
+  },
+  "Hey, Tamura-kun! Come here!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、田村君！\r\nちょっとこっちに来なさい！",
+   "occurrences": 3
+  },
+  "This here's Captain Saito. I'm sure you've heard\r\nof him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "こちらが斎藤隊長だ。\r\nお前も話ぐらいは聞いているだろう。",
+   "occurrences": 3
+  },
+  "Oh, it's a pleasure to meet you, Captain! I'm Tamura Seizo, of the Third Division. It's great to meet you, sir!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、はじめまして！　斎藤隊長！\r\n三番隊の田村政造と申します。\r\n以後、お見知りおきください！",
+   "occurrences": 3
+  },
+  "The rest of the troops and I will accompany you on your mission, in the form of cards!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士は三番隊に編成することで\r\nカードとして隊長に同行します。",
+   "occurrences": 3
+  },
+  "We all have one Trooper Ability each. Once those are activated, we can assist you in various ways, Captain!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士はそれぞれ隊士能力と呼ばれる特殊な能力を\r\n持っており、能力を発動させることで隊長を援護、\r\n隊長自身が強くなります。",
+   "occurrences": 3
+  },
+  "Naturally, as we fight alongside you, we'll develop as soldiers, and our health and charge speed will increase.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士たちは隊長と共に戦うことで成長し、\r\n体力と充填速度が上昇します。",
+   "occurrences": 3
+  },
+  "The health of your troops gets added to your own during the mission, and charge speed is the time it takes for us to use our abilities.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士の体力は斎藤隊長の体力を増加させ、\r\n隊士の充填速度は隊士の能力使用までの\r\n時間を短縮します。",
+   "occurrences": 3
+  },
+  "We're all ready to help you keep the peace in Kyo, Captain!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士たちと力を合わせて、\r\n京都の治安維持に努めてください。",
+   "occurrences": 3
+  },
+  "With that, now seems like the best time to explain the operations. Of course, speak to me later if there's anything you need help with.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いい機会ですから、隊の運用についても説明します。\r\n今後三番隊の任務は、私が補佐しますので\r\n何なりとお申し付けください。",
+   "occurrences": 3
+  },
+  "For now, please select Formation.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それでは、編成を選択してください。",
+   "occurrences": 3
+  },
+  "You can form a squad of up to four troopers.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士は最大４人を１つの『組』として編成します。",
+   "occurrences": 3
+  },
+  "By coordinating the squad with your fighting style, the Third Division will offer powerful support to their captain.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "戦闘スタイルに合わせ『組』を連携させることで\r\n三番隊として斎藤隊長を強力に援護してくれます。",
+   "occurrences": 2
+  },
+  "Next, let's edit your squad.\r\nSelect Edit Troopers.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それでは、組を編成しますので\r\n隊士編成を選択してください。",
+   "occurrences": 2
+  },
+  "Select the empty Corporal slot, and choose a trooper to be the Corporal from the list. Why don't you have Tamura Seizo be the Corporal this time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "組の空き枠『伍長』を選択して、\r\n隊士一覧から伍長にする隊士を決めてください。\r\n今回は、田村政造を伍長にしましょう。",
+   "occurrences": 3
+  },
+  "Every trooper has separate Corporal Traits.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伍長特性は、伍長に任命された隊士のみが\r\n発動する能力です。",
+   "occurrences": 3
+  },
+  "Those skills are always in effect, which can render them vital to a mission's success!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "常に効果を発揮する能力なので、\r\n大切な要素の一つです。\r\nよく覚えておいてください。",
+   "occurrences": 3
+  },
+  "This concludes the explanation on how to use troops. You'll be leading your troopers on missions from now on.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これで隊の運用についての説明はおわりです。\r\nこれから隊を率いて任務を遂行する事になりますが、",
+   "occurrences": 2
+  },
+  "Eating together raises troop morale. Troopers with high morale will have an easier time using their abilities.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士は隊長と一緒に食事をとることで闘志が上がります。\r\n闘志の高い隊士は自身の能力を発揮しやすくなります。",
+   "occurrences": 2
+  },
+  "As a leader, keep an eye on morale and treat the men to a meal now and again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士を連れ歩く際は、隊士の様子を見ながら\r\nおいしいごはんを食べさせてあげてください。",
+   "occurrences": 2
+  },
+  "Now, let's return to the menu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それでは、メニューに戻りましょう。",
+   "occurrences": 3
+  },
+  "Lastly...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さて最後に……",
+   "occurrences": 3
+  },
+  "The Third Division also carries out secret orders given to us directly by the Imperial Court.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "我々三番隊は、新選組が御公儀から仰せつかった\r\n極秘任務も遂行しております。",
+   "occurrences": 2
+  },
+  "We must identify defeatist factions, all the while exterminating the bandits who use caves on the outskirts of Kyo as their stronghold.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京はずれの洞窟を根城とする盗賊の討伐をしつつ\r\n潜伏した討幕派勢力を洗い出す重大なお役目です。",
+   "occurrences": 2
+  },
+  "Captain, you've been tasked with taking out the bandits in the caves.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今回、隊長には極秘任務として\r\n盗賊の洞窟に討ち入っていただきたいと思います。",
+   "occurrences": 2
+  },
+  "This mission is top secret and highly dangerous. Even the previous captain Yamanami struggled with it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極秘任務は前任の山南隊長も苦戦されていた\r\n非常に危険な任務です。",
+   "occurrences": 2
+  },
+  "In fact, this mission is so grueling that some troopers may desert after too many failed attempts.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "過酷な任務ゆえ、失敗が続くと\r\n逃げ出す者も出ることがあります。",
+   "occurrences": 2
+  },
+  "I believe it would be wise to ask for the help of a careful selection of your available troopers.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "厳選した隊士達の力を借り\r\n任務の遂行をされるのが賢明かと思われます。",
+   "occurrences": 2
+  },
+  "Now then, to set out on a mission, select Dispatch.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それでは、極秘任務に出撃するために、\r\n出兵を選択してください。",
+   "occurrences": 2
+  },
+  "Select the Bandits' Cave as the Dispatch Location.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出兵先として、野盗の洞窟を選択してください。",
+   "occurrences": 3
+  },
+  "As you can see, we'll have many enemies to take care of, but for now, choose Defeat the Sword Squad.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ご覧になって分かるように、倒すべき敵は\r\nたくさんいますが、今回は「刀部隊を倒せ」\r\nを選択して、敵を倒しに行きましょう。",
+   "occurrences": 3
+  },
+  "And you're off. May you have good fortune on the battlefield.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それでは出発です。\r\nご武運をお祈りいたします。",
+   "occurrences": 3
+  },
+  "<kf:0>A trooper has leveled up!\r\nPress <symbol=button_sankaku> to see the trooper's details.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<kf:0>レベルが上がった隊士がいるようです。\r\n<symbol=button_sankaku>で、隊士の詳細情報を見ることが出来ます。",
+   "occurrences": 3
+  },
+  "Great work out there, Captain. You really beat those bandits back.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お疲れ様でした、隊長。\r\nどうやら無事に野盗を倒せたようですね。",
+   "occurrences": 6
+  },
+  "However, stronger foes are hiding deeper in those caves, so make sure not to let your guard down.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ですが、先に進むともっと強い輩が\r\nゴロゴロしているので、\r\n決して油断はされないようにお願いします。",
+   "occurrences": 3
+  },
+  "If there's anything you need help with, you can check how to play in the Notebook through the Pause Menu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "分からないことがあったら、\r\nメインメニューの備忘録でご確認いただけます。",
+   "occurrences": 3
+  },
+  "Now, let's head back to the barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それでは、一度屯所へ戻りましょう。",
+   "occurrences": 3
+  },
+  "However, that cave only held small-timers. There are much fiercer outlaws waiting further in.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "しかし、今回の洞窟にいたのは雑魚ばかりでした。\r\n先に進むともっと強い輩がゴロゴロしているので\r\n決して油断はされないようにお願いします。",
+   "occurrences": 3
+  }
+ }
+}

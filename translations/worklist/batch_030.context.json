@@ -1,0 +1,2256 @@
+{
+ "batch": "batch_030.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "You won't find top-grade bluefin tuna like this too often. Interestingly enough, those from Edo typically don't care for toro.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "滅多にお目にかかれない高級魚。\n江戸っ子はトロを嫌うらしい。",
+   "occurrences": 1
+  },
+  "A sword which gleams like the fabled lights upon the sea.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "火の神が宿ると言われる\n丈夫さと神聖さを兼ね備えた刀。",
+   "occurrences": 1
+  },
+  "A cannon that can shoot special shells which resemble fiery birds of myth.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "火の鳥を模した特殊な砲弾を\n打ち出すことができる大筒。",
+   "occurrences": 1
+  },
+  "A breastplate like those used by firemen. It boasts very high defensive capabilities.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "火消しが仕事で使うという胸当。\n高い防御力を誇る。",
+   "occurrences": 1
+  },
+  "Made from cooked rice that's been washed and dried. It's said to have been widely used as an emergency food ration during the Sengoku period.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炊いた米を洗って、干したものや。\n非常時の食料として戦国の世でも\n多く用いられたというで。",
+   "occurrences": 4
+  },
+  "A cloudy sake made from cooked then fermented rice. It's known to be quite strong.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炊いた米を発酵させて簡単に作られた酒だ。\n白く濁っており、悪酔いしやすい。",
+   "occurrences": 2
+  },
+  "Cooked mochi rice wrapped in red bean paste. Just one can fill you up.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炊いた餅米を、あんこで包んだものだ。\n１つでもかなり満腹感がある。",
+   "occurrences": 4
+  },
+  "A reforged Nameless Sword. Its white color gives it a high-class appearance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "無銘の刀を鍛え直した一振り。\n白刃の高級感のある刀。",
+   "occurrences": 1
+  },
+  "A reforged Nameless Sword. Its black color gives it a stoic appearance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "無銘の刀を黒鉄で鍛え直した一振り。\n厳格な見た目になっている。",
+   "occurrences": 1
+  },
+  "A vegetable that's great boiled or grilled. It's known to exist in a variety of shapes and sizes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "煮ても焼いてもうまい野菜だ。\n各地で色々な形のなすがあるという。",
+   "occurrences": 1
+  },
+  "Enjoy the full flavor of the hot, plump clams in this dish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "熱々のふっくらした身を味わえる、\nあさりの旨みを存分に引き出した逸品です。",
+   "occurrences": 2
+  },
+  "A Sanuki classic. Hot noodles served with a warm broth for dipping. The chewy texture of the noodles is second to none.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "熱々の麺を温かいつけだしにつけて頂く、\n讃岐の定番商品の一つ。\n熱々、モチモチな麺の食感がたまりません。",
+   "occurrences": 1
+  },
+  "A relatively small cannon that launches exploding shells. Can be carried by a single person, theoretically.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "爆発する砲弾を発射する小型の大砲。\n小脇に抱えて持ち運ぶことができる。",
+   "occurrences": 1
+  },
+  "An ominous odachi said to have freed itself from its own scabbard to slay a ghost.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "物の怪を自ら退治したとされる大太刀。\n禍々しい雰囲気を放っている。",
+   "occurrences": 1
+  },
+  "A pistol lacking in stability, yet able to fire two bullets in one pull of its trigger.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊な機構によって安定性は欠くものの\n２発の銃弾を同時発射できる拳銃。",
+   "occurrences": 1
+  },
+  "An abdomen binding that slowly secretes a special medicinal compound. It boasts an increased resistance to poison.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊な薬効成分が染み出すサラシ。\n毒に対して抵抗がある。。",
+   "occurrences": 1
+  },
+  "A pistol made via special manufacturing process that greatly increases the power of its bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊な製法によって拳銃弾の威力が\n大きく向上した拳銃。",
+   "occurrences": 1
+  },
+  "A mechanical cannon which fires special electrified shells.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊な雷撃弾を発射できる\n機械仕掛けの大筒。",
+   "occurrences": 1
+  },
+  "A pistol with a special mechanism that increases both its rate of fire and power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊機構で連射速度を高めた拳銃。\n威力と連射速度の両立を実現している。",
+   "occurrences": 1
+  },
+  "Special weapon crafting material. A tree branch like those you can find lying around anywhere.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊武器作成用の素材。\nどこにでも落ちていそうな木の枝だ。",
+   "occurrences": 1
+  },
+  "Special weapon crafting material. Gives off a rather refined vibe.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊武器作成用の素材。\nなんとなく風流な雰囲気がある。",
+   "occurrences": 1
+  },
+  "Special weapon crafting material. Many agree that this lumber is particularly easy to handle.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊武器作成用の素材。\n扱いやすいように加工された木材だ。",
+   "occurrences": 1
+  },
+  "Special weapon crafting material. A piece of wood that could be used in all sorts of ways.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊武器作成用の素材。\n様々なものに使えそうな木の欠片だ。",
+   "occurrences": 1
+  },
+  "Special weapon crafting material. You can feel a sacred power emanating from this lumber.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊武器作成用の素材。\n神秘的な力を感じる木材だ。",
+   "occurrences": 1
+  },
+  "Special weapon crafting material. A branch that was gingerly removed from a very old tree.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊武器作成用の素材。\n長い樹齢の木の枝が折れたもの。",
+   "occurrences": 2
+  },
+  "Special weapon crafting material. This lumber was cut from a very sturdy tree.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊武器作成用の素材。\n非常に硬い木から切りだされた木材だ。",
+   "occurrences": 1
+  },
+  "A supreme delicacy, carefully cooked so tender that it drips with the special clear broth.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特製の白だしが滴り落ちるほど\n柔らかく丁寧に焼き上げた至高の逸品です。",
+   "occurrences": 2
+  },
+  "Thirteen-piece assortment of nigiri, vegetables, and a giant bowl of soup. The choicest of ingredients are sure to please.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特選にぎり１３貫と、野菜、大名椀がついた\n盛り合わせになります。\n選び抜かれたねたに、きっとご満足頂けますよ。",
+   "occurrences": 2
+  },
+  "A pistol that allows one to shoot powerful charged shots.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "狙いを定める強力な一発を\n通常使用で実現した拳銃。",
+   "occurrences": 1
+  },
+  "Has a distinctive odor but great when stewed. Said to be very nutritious.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "独特の臭みがあるが、よく煮るとうまい。\n多くの栄養があり、体にいいという。",
+   "occurrences": 1
+  },
+  "Unique for its pungent taste and aroma. Handy for when you need to punch up the flavor of a dish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "独特の辛みと香りが特徴的だ。\n料理に風味を付けるのに便利だ。",
+   "occurrences": 2
+  },
+  "Alcohol allegedly invented by monkeys whose hoard of fruit fermented. The fruit selection changes with the season.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "猿が果実をため込んで出来たのが始まりという酒だ。\n手近な果物から作っているので\n季節によって味が違う。",
+   "occurrences": 1
+  },
+  "A toy-like gun that, through elaborate craftsmanship, can improve one's pistol handling.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "玩具のようだが拳銃の扱いが上達する\n精巧な細工がされた拳銃。",
+   "occurrences": 1
+  },
+  "A pleasant-smelling fruit. Sweet, tart, and apparently very nutritious.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "甘い香りのする果物だ。\n甘酸っぱくて栄養も豊富らしい。",
+   "occurrences": 1
+  },
+  "A dish of mochi and sweet red beans. Will warm you to your core on cold days.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "甘く煮た小豆に、餅を入れたものだ。\n寒い時には腹の底から暖まる。",
+   "occurrences": 2
+  },
+  "Pair your slurps of udon with bites of sweet fried tofu—this bowl will delight from start to finish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "甘く煮た油揚げが乗ったうどんだ。\nうどんの合間に甘い油揚げを食べる事で\n最後まで飽きずに食べられる。",
+   "occurrences": 2
+  },
+  "A type of sushi. Rice wrapped in sweet and spicy deep-fried tofu pockets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "甘辛く味付けされた油揚げに\n酢飯が詰められた寿司の１つだ。",
+   "occurrences": 3
+  },
+  "Using this in the fields will shorten the cultivation time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "畑で使用すると、\n栽培時間を短縮できる。",
+   "occurrences": 1
+  },
+  "A vegetable from a foreign country. Quite delicious when lightly pickled.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "異国から入ってきた野菜だ。\n浅漬けにするとうまい葉物だ。",
+   "occurrences": 1
+  },
+  "A vegetable from a foreign country. Sweet when boiled, and softens up quite nicely.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "異国から入ってきた野菜だ。\n煮ると甘く、柔らかくなる。",
+   "occurrences": 1
+  },
+  "A sword crafted with the determination to cut down foreign invaders.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "異国の船をも断ち切るという\n強い想いで打たれた一振り。",
+   "occurrences": 1
+  },
+  "Sake made in Nada, famous for its breweries. Newly popular, it's crafted from top-quality rice and water.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "畿内の灘で作られる清酒だ。\nいい米といい水を使い\n最近人気が高い酒だ。",
+   "occurrences": 3
+  },
+  "The hardened sugar looks like freshly fallen snow, making it a sentimentally sweet and savory tea snack.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "白く固まった砂糖が、まるで八ツ橋の上に降る\n霜のような、情緒あるお菓子だ。\n深い甘さと香ばしさで、茶請けにも最適だ。",
+   "occurrences": 2
+  },
+  "A blade whose swing is said to be like warm sake on a wintry day.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "白を基調とした雅な一本。\n酒を求めると言われる怪しい一振り。",
+   "occurrences": 2
+  },
+  "Black cod marinated in white miso, a Kyo specialty, grilled to perfection by our chefs. Enjoy its unmistakable aroma.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "白味噌につけ込んだ銀鱈を、\n当店の職人が絶妙に焼き上げました。\n焼けた味噌の香ばしさをご堪能頂けます。",
+   "occurrences": 1
+  },
+  "A mysterious, sturdy katana that emits a blinding glare.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "眩い光を放つ不思議な刀で\n丈夫さも兼ね備えている。",
+   "occurrences": 1
+  },
+  "Revolver ammunition that emits powerful electricity upon impact. Enemies hit will be paralyzed.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "着弾すると強力な雷を発する弾。\n当たった相手を痺れさせる。",
+   "occurrences": 1
+  },
+  "Revolver ammunition made from materials that catch fire upon impact. Enemies hit will be set on fire.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "着弾すると発火する素材で作られた弾。\n当たった相手を炎上させる。",
+   "occurrences": 1
+  },
+  "Revolver ammunition that emits a bright flash of light upon impact. Enemies hit will be blinded.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "着弾すると眩い閃光を放つ弾。\n当たった相手の目を眩ませる。",
+   "occurrences": 1
+  },
+  "A sword stubborn enough to cut stone. Tempering will likely increase its sharpness.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "石をも断つ強靭さを持つ刀。\n鍛えれば斬れ味が増しそうだ。",
+   "occurrences": 1
+  },
+  "A cannon made of bronze. The power of the shells has increased a bit.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "砲身が青銅でできている大筒。\n若干砲弾の威力が高くなっている。",
+   "occurrences": 1
+  },
+  "A hat that seems too good to be true. Make money just by walking around.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "確かなご利益のあるありがたい帽子。\n歩くだけで金が溜まる。",
+   "occurrences": 1
+  },
+  "The priest's questionable attempt at a rice ball. Kind of him to offer, but I'd sooner eat my sandals.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神主お手製の握り飯だ。\nお世辞にもうまそうに見えない。",
+   "occurrences": 1
+  },
+  "The priest's excellent attempt at a rice ball. Looks pretty good, honestly.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神主お手製の握り飯だ。\nなかなかうまそうだ。",
+   "occurrences": 1
+  },
+  "The priest's decent attempt at a rice ball. It doesn't look very tasty.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神主お手製の握り飯だ。\n不細工な見た目だ。",
+   "occurrences": 1
+  },
+  "The priest's masterful attempt at a rice ball. This thing's flawless. Makes me hungry just looking at it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神主お手製の握り飯だ。\n完璧な見た目で、食欲がわいてくる。",
+   "occurrences": 1
+  },
+  "The priest's earnest attempt at a rice ball. It's slightly misshapen.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神主お手製の握り飯だ。\n少し形が崩れている。",
+   "occurrences": 1
+  },
+  "The priest's noble attempt at a rice ball. Looks like any other rice ball out there, though.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神主お手製の握り飯だ。\n普通の見た目だ。",
+   "occurrences": 1
+  },
+  "A sword with a holy aura, now rusted. A blacksmith could possibly restore it to its former glory.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神聖な雰囲気の刀だが、錆びている。\n鍛冶屋で鍛えれば再び輝きそうだ。",
+   "occurrences": 1
+  },
+  "Apparently, this uses some kind of divine power to help one better befriend a store owner.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神通力とでも言えそうな力で\n主に店主とそこそこ仲良くなれるらしい。",
+   "occurrences": 1
+  },
+  "Apparently, this uses some kind of divine power to help one form a strong bond with a store owner.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神通力とでも言えそうな力で\n主に店主と仲良くなれるらしい。",
+   "occurrences": 1
+  },
+  "Apparently, this uses some kind of divine power to help one get more acquainted with a store owner.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神通力とでも言えそうな力で\n主に店主と少し仲良くなれるらしい。",
+   "occurrences": 1
+  },
+  "A dish common in Tosa during festival time. The plate is filled with a variety of food such as sashimi and sushi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祭などの時によく食べられる土佐料理だ。\n大きな皿の上に刺身や寿司など\n多くの料理が乗っている。",
+   "occurrences": 2
+  },
+  "A flamboyantly-colored headband normally worn during festivals. The wearer usually feels more spirited and their memory gradually improves.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祭りなどで使われる派手な色の鉢巻。\n気合がのってもの覚えが良くなる。",
+   "occurrences": 1
+  },
+  "A regional dish from northern Japan, where autumn salmon is dried in the sea breeze.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "秋鮭を潮風に当てて干した北の郷土料理です。\n炙る事によって旨味とこくと香ばしさが楽しめます。",
+   "occurrences": 2
+  },
+  "A freshly harvested mikan. Still looks a bit sour.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "穫れたての蜜柑だ。\nまだ少し酸っぱそうだ。",
+   "occurrences": 3
+  },
+  "This kit contains a Sacrifice Stone that will help Ryoma back to his feet should he fall in battle, as well as various other items to help him along his journey.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "窮地から復活できる「身代わり石」と\n成長を支援するアイテムのつめ合わせ。",
+   "occurrences": 2
+  },
+  "Blessed gauntlets made from sacred wood. They are particularly effective against bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "立派な木材でできたご利益ある籠手。\n銃弾による攻撃を防ぐことができる。",
+   "occurrences": 1
+  },
+  "Special gauntlets with blades hidden inside. Deals damage back to any opponent who harms the wearer.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "籠手の中に刃物が仕込んである暗器。\n攻撃を受けた際に相手を傷付ける。",
+   "occurrences": 1
+  },
+  "A confection made by mixing rice flour and other ingredients with syrup and sugar, then pressing them into a mold. It has a satisfying crunch and pairs well with tea.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "米の粉などに水飴や砂糖を混ぜて、\n型押しした菓子だ。\nこりこりとした食感で茶請けにいい。",
+   "occurrences": 2
+  },
+  "A confection made by combining rice flour and sugar then adding a few dashes of cinnamon. Reminiscent of Kyo and packaged in the store's own gift bag.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "米粉と砂糖を合わせ、肉桂で風味をつけた、\n京都を思い起こさせる美味しさの菓子だ。\n店独自の手提袋に入っている。",
+   "occurrences": 2
+  },
+  "A dango-shaped thing made out of sticky stuff. What the sticky stuff is, exactly, nobody knows.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "粘着質なものを丸めて団子状にしたものだ。\n何から作られたかはわからない。",
+   "occurrences": 1
+  },
+  "This is where all my virtuous deeds are recorded.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "精進目録だ。",
+   "occurrences": 1
+  },
+  "Sake said to be imbued with great spiritual power. Moderately increases Virtue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "精霊の力が宿ったという酒だ。\nそこそこの徳を得る事が出来るらしい。",
+   "occurrences": 1
+  },
+  "Special gauntlets covered in tiny spikes and silk. They are particularly effective against bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "細かいトゲと特殊な糸で覆われた籠手。\n銃弾による攻撃を防ぐことができる。",
+   "occurrences": 1
+  },
+  "A finely decorated katana with the power to stimulate the growth of your allies.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "細かな装飾が施されている刀で\n仲間の成長を促す力を秘めている。",
+   "occurrences": 1
+  },
+  "A blade that shines like gossamer itself, dazzling one's foes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "細かに輝く一本。\n一振りで相手の眼をくらませると言われる。",
+   "occurrences": 2
+  },
+  "A decorated headband with beautiful embroidery. It draws out the wearer's true abilities.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "綺麗な刺繍が入った柄物の鉢巻。\n使い手の能力を引き出してくれる。",
+   "occurrences": 1
+  },
+  "A mysterious green dango. Moderately increases experience points in the Wild Dancer style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "緑色をした不思議な団子だ。\n乱舞の型の経験値がそこそこ上昇する。",
+   "occurrences": 1
+  },
+  "A mysterious green daifuku. Greatly increases experience points in the Wild Dancer style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "緑色をした不思議な大福だ。\n乱舞の型の経験値が大きく上昇する。",
+   "occurrences": 1
+  },
+  "A beautiful green liquid. Slightly increases experience points in the Wild Dancer style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "緑色をした綺麗な液体だ。\n乱舞の型の経験値が少し上昇する。",
+   "occurrences": 1
+  },
+  "Beautiful gauntlets that hide an assassination tool. They are both defensively strong and well-suited for counterattacks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "美しい色合いに暗器が仕込まれた籠手。\n反撃能力と頑丈さを兼ね備えている。",
+   "occurrences": 1
+  },
+  "One of our more popular dishes. The spiciness boosts the taste of the meat and the soba, and boosts the appetite, too. ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肉とおそばの魅力を最大化する香辛料が\n食欲をかき立てる、旨辛仕立ての人気商品です。",
+   "occurrences": 1
+  },
+  "A traditional manju made with a hint of cinnamon and sprinkled with poppy seeds. Each bun is carefully baked to perfection.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肉桂をほんのりきかせた生地に、「けしの実」を\n散らしてある。ひとつひとつ丁寧にじっくりと\n焼き上げられた、伝統的なまんじゅうだ。",
+   "occurrences": 2
+  },
+  "A famous shippoku platter only available during lunchtime.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肥前で名物の卓袱料理の、\n昼にのみ注文出来るお得な膳だ。",
+   "occurrences": 1
+  },
+  "A famous shippoku platter of common quality, combining delicious aspects of Japanese, Chinese, and Western cuisine.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肥前で名物の卓袱料理の一般的な膳だ。\n",
+   "occurrences": 1
+  },
+  "A famous shippoku platter of the highest quality, combining delicious aspects of Japanese, Chinese, and Western cuisine.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肥前で名物の卓袱料理の最高級の膳だ。\n",
+   "occurrences": 1
+  },
+  "A famous shippoku platter of great quality, combining delicious aspects of Japanese, Chinese, and Western cuisine.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肥前で名物の卓袱料理の高級な膳だ。\n",
+   "occurrences": 1
+  },
+  "A headband with a mysterious aura that pushes its wearer to the edge.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自らを逆境に追い込む\n不思議な雰囲気をまとった鉢巻。",
+   "occurrences": 1
+  },
+  "A stimulant. Greatly charges up Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "興奮薬の「熱血丹　特選」だ。\nヒートゲージをかなり上げてくれる。",
+   "occurrences": 1
+  },
+  "A stimulant. Charges up some Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "興奮薬の「熱血丹　高級」だ。\nヒートゲージをある程度上げてくれる。",
+   "occurrences": 4
+  },
+  "A stimulant. Slightly charges up Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "興奮薬の「熱血丹」だ。\nヒートゲージを少し上げてくれる。",
+   "occurrences": 1
+  },
+  "A small potato that comes in many varieties. Great when stewed.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "色々な種類がある、小型の芋だ。\n煮物で食うとうまい。",
+   "occurrences": 1
+  },
+  "A potato that can be prepared many different ways. Don't see these in Japan too often.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "色々な食べ方が出来る芋だ。\n日本ではあまり見かけない。",
+   "occurrences": 1
+  },
+  "Fermented paste that uses a variety of fish. As the name implies, it will make the sake disappear like it's been stolen.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "色々な魚を使った塩辛だ。\nその名の通り、どんどん酒が進むので\n盗まれる様に酒がなくなっていく。",
+   "occurrences": 2
+  },
+  "A bento made for theatergoers. A plethora of side dishes helps give the bento some color.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "芝居を見ながら食べる用に作られた弁当だ。\n色々なおかずが入っており\n見た目にも楽しい。",
+   "occurrences": 2
+  },
+  "Made by boiling something brown and rubbery. It may not sound great, but it smells surprisingly good!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "茶色くてぶよぶよしたものを\n長い時間煮込んだものだそうだ。\n意外とうまそうなにおいがする。",
+   "occurrences": 1
+  },
+  "A spear said to have been struck by lightning.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "落雷を受け止めたという\n逸話を持ついわくつきの槍。",
+   "occurrences": 1
+  },
+  "Honey-topped noodles made from ground, then boiled kudzu root. Valued for its smooth texture and medicinal benefits.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "葛の根の粉を水で溶いて加熱したものだ。\n麺の様に切られて蜜が掛かっている。\nつるつるした食感と薬効で重宝される。",
+   "occurrences": 2
+  },
+  "A sword whose blade seems soft as konnyaku jelly. Looks like it couldn't cut anything, but it does indeed have an edge.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "蒟蒻のような柔らかい刀身の一振り。\n一見斬れなさそうだが刃はついている。",
+   "occurrences": 2
+  },
+  "A sake that's popular in Satsuma. Made from Satsuma sweet potatoes, it has a distinct smell and is known to be very strong.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薩摩の方で良く飲まれているという酒だ。\n薩摩芋から作られ、独特の匂いがある。\n非常に強い酒だ。",
+   "occurrences": 4
+  },
+  "A potato that's a specialty of Satsuma. Turns sweet and fluffy when baked.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薩摩特産の芋だ。\n焼くと甘くほくほくになる。",
+   "occurrences": 1
+  },
+  "A medicine created after taking part in the apothecary's experiments. Might've been hell, but I guess it was worth it. Failure is the mother of invention... or so they say.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薬屋の実験に付き合わされてできた薬だ。\n実にひどい目にあったがそのおかげで誕生した代物だな。\n失敗は成功の母、か。",
+   "occurrences": 1
+  },
+  "Can be used as a medicinal herb. Hard to harvest and difficult to find.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薬草としても使われる。\n栽培が難しく、大変貴重。",
+   "occurrences": 1
+  },
+  "A sugar candy with a unique shape brought in from the West. It's quite popular among children.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋から伝来したという、\n独特の形をした飴の一種だ。\n子供に人気のある、砂糖菓子だ。",
+   "occurrences": 2
+  },
+  "A popular drink in the West made from barley, which gives it a clean and refreshing taste.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋で好んで飲まれているお酒です。\n大麦を原料にしていて、すっきりとした\n独特ののどごしが楽しめます。",
+   "occurrences": 2
+  },
+  "A grape wine popular with Westerners. The flavor supposedly improves with age.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋で好んで飲まれているという酒だ。\n葡萄（ぶどう）から作られるもので、\n歳を重ねるほどうまくなるという。",
+   "occurrences": 3
+  },
+  "Supposedly a popular confection from the West. A luxurious treat made with sugar and eggs.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋の菓子だそうだ。\n砂糖と卵が使われた贅沢な甘味だ。",
+   "occurrences": 1
+  },
+  "Using the classic katsudon as a base, we add a healthy serving of a sauce made with spices recently introduced to us by the British.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋の調理法を取り入れた“かつ丼”を土台に\n西洋で流行りのカレーソースをあわせた逸品です。",
+   "occurrences": 1
+  },
+  "A truly unique soba dish with a Western flair. Enjoy the delightful combination of noodles, meat, and fried potato.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋の調理法を取り入れた当店独自のおそばです。\nおそばの上に乗せたジャガイモと肉の揚げ物と\nあわせてご賞味ください。",
+   "occurrences": 1
+  },
+  "Our signature bowl features fried pork on a bed of rice, topped with egg and special sauce. Prepared with a Western technique.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋の調理法を取り入れた当店独自の丼です。\n豚の一枚肉をからっと揚げたかつに\n特製だれと玉子でふんわり作られた看板商品です。",
+   "occurrences": 1
+  },
+  "First brought in from the West as a form of decoration, it has a wonderful sweetness when boiled.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "観賞用で西洋から入ってきたものだが\n煮ると甘みが出てうまい。",
+   "occurrences": 1
+  },
+  "A sword with an edge fine enough to shave one's throat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "試し切りで髭まで切れたという\n恐ろしい逸話を持つ刀。",
+   "occurrences": 1
+  },
+  "Katana with no maker's signature. Definitely on the cheap side.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "誰が打ったかもわからない刀。\n安物であることは間違いない。",
+   "occurrences": 1
+  },
+  "A pistol with a gleaming body that all would admire. Said to draw out its user's abilities.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "誰もが見とれる輝かしい銃身の拳銃。\n使い手の能力を引き出してくれる。",
+   "occurrences": 1
+  },
+  "A kitchen with a full range of appliances and tools. I can use a variety of cooking methods here.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "調理器具が充実している台所一式。\nさまざまな調理法の料理を作れる。",
+   "occurrences": 1
+  },
+  "A blade that shines like konnyaku jelly due to its mysterious power. Said to aid in its user's growth.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "謎の力が宿り輝きを放つ刀。\n使い手の成長を助ける力を持っている。",
+   "occurrences": 1
+  },
+  "A pistol specialized in self-defense. Its add-ons increase the survival rate of its user.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "護身に特化し、使い手の生存率を\n高める機構の拳銃。",
+   "occurrences": 1
+  },
+  "A pistol modified for self-defense which fills the user with power when held.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "護身用に改造されている拳銃。\n持つとどこからか力が湧いてくる。",
+   "occurrences": 1
+  },
+  "Miso over tofu, roasted. The scent of roasted miso is said to make sake more enjoyable.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "豆腐に味噌を付けて炙ったものです。\n焼き味噌の香ばしさでお酒が進みます。",
+   "occurrences": 3
+  },
+  "Poor quality paper. Could be used to jot something down, or to wipe.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "質の悪い紙だ。\nちょっとした書き物や、厠で使えるか。",
+   "occurrences": 1
+  },
+  "Exchange 10 points for 1,000 mon.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "賭け点１０点分を\n１０００文に換金します。",
+   "occurrences": 2
+  },
+  "Exchange 100 points for 1 ryo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "賭け点１００点分を\n１両に換金します。",
+   "occurrences": 2
+  },
+  "Wooden tags used for gambling. You currently have {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "賭場で使う木札。\n所持点 {s_value}",
+   "occurrences": 1
+  },
+  "A popular gift package. 48 pieces of the shop's own traditional yatsuhashi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "贈答用にも人気が高い商品だそうだ。\n店伝統のこだわりの八ツ橋が\n４８枚詰め合わせにされている。",
+   "occurrences": 2
+  },
+  "A mysterious red dango. Moderately increases experience points in the Brawler style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "赤い色をした不思議な団子だ。\n格闘の型の経験値がそこそこ上昇する。",
+   "occurrences": 1
+  },
+  "A mysterious red daifuku. Greatly increases experience points in the Brawler style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "赤い色をした不思議な大福だ。\n格闘の型の経験値が大きく上昇する。",
+   "occurrences": 1
+  },
+  "A beautiful red liquid. Slightly increases experience points in the Brawler style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "赤い色をした綺麗な液体だ。\n格闘の型の経験値が少し上昇する。",
+   "occurrences": 1
+  },
+  "A traditional abdomen binding that keeps both the mind and the body in tight shape.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "身につけると身も心も引き締まる\n伝統的なサラシ。",
+   "occurrences": 2
+  },
+  "A mysterious headband that allows energy to channel into its wearer.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "身に着けているだけで気力が\n溢れてくる不思議な鉢巻。",
+   "occurrences": 1
+  },
+  "A substitute for death itself. Has the power to save a person from death, but only once.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "身代わり石。\n死から一度だけ助かるご利益がある。",
+   "occurrences": 1
+  },
+  "A charm that reveals its true worth when its wearer is backed into a corner.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "追い込まれた際に真価を発揮する御札。\nもしもの時に備えるならこれだ。",
+   "occurrences": 1
+  },
+  "A headband that allows its wearer to utilize their power even when on the brink.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "逆境でも力を発揮することができ\n使い手の能力を引き出してくれる鉢巻。",
+   "occurrences": 1
+  },
+  "A mysterious transparent dango. Moderately increases experience points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "透き通った色の不思議な団子だ。\n経験値がそこそこ上昇する。",
+   "occurrences": 1
+  },
+  "A mysterious transparent daifuku. Greatly increases experience points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "透き通った色の不思議な大福だ。\n経験値が大きく上昇する。",
+   "occurrences": 1
+  },
+  "A beautiful transparent liquid. Slightly increases experience points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "透明で綺麗な液体だ。\n経験値が少し上昇する。",
+   "occurrences": 1
+  },
+  "Revolver ammunition that does more damage compared to standard rounds.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "通常の弾丸に比べて\n高い威力を発揮する弾。",
+   "occurrences": 1
+  },
+  "A gun that's been modified to increase both firepower and rate of fire.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "速射に重きを置いて改造され\n連射性能と威力の両立を実現した拳銃。",
+   "occurrences": 1
+  },
+  "A gun modified entirely in the pursuit of rapid fire.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "速射に重きを置いて改造され\n高い連射性能を実現した拳銃。",
+   "occurrences": 1
+  },
+  "A masterpiece crafted by an engineer who gave his soul to enhance its rate of fire.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "連射性能に拘った技師が\n魂を込めて作り上げた一品。",
+   "occurrences": 1
+  },
+  "An experimental pistol that has had its rate of fire increased.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "連射性能を上げる工夫がこらされた\n試験的な拳銃。",
+   "occurrences": 1
+  },
+  "A gun that's been tinkered with, increasing its rate of fire. Might perform even better with some more modifications.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "連射性能を高める細工がされている拳銃。\n改造すれば高い性能を発揮できそうだ。",
+   "occurrences": 1
+  },
+  "A pistol which seems to somehow embody the alluring and fascinating nature of the courtesan.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遊女が舞うような妖艶な雰囲気と\n欲望を形にしたような拳銃。",
+   "occurrences": 1
+  },
+  "A wooden sword used for training. It may not cut, but you can still lay someone out with it if you know what you're doing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "道場の稽古などで使う木刀だ。\n斬れはしないが、叩かれると結構痛い。",
+   "occurrences": 1
+  },
+  "A rice ball made by Haruka. You can tell there was a lot of love put into it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遥が作ってくれた握り飯だ。\n色々な思いがこもっている。",
+   "occurrences": 1
+  },
+  "The kitchen that came with Haruka's house. It doesn't have everything I need, and it's sort of run down...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遥の家に備え付けられた台所。\n道具が揃っておらず、やや使いづらい。",
+   "occurrences": 1
+  },
+  "Made by adding grated yam to sake. It's said to be nourishing and especially beneficial to the sick.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酒にすり下ろした山芋を入れたものだ。\n滋養にいいとされ、病に効くという。",
+   "occurrences": 2
+  },
+  "A drink made from the lees left over from brewing sake. It has a tender sweetness and is full of nutrients.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酒を造る時に出る酒粕から作られた飲み物です。\n優しい甘さがあって、栄養も豊富です。",
+   "occurrences": 4
+  },
+  "Sake made in Itami in Settsu Province, esteemed for its breweries. The most popular sake in Kyo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酒所で有名な摂津国で作られた酒だ。\n京では一番飲まれているという\n人気のある酒だ。",
+   "occurrences": 1
+  },
+  "Sake made in Settsu Province, esteemed for its breweries. A variety of excellent rices comes together in this popular sake that's both elegant and refined.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酒所の摂津国で、いい米を贅沢に使って作られた\n酒だ。淡麗で香り高い高級酒だ。",
+   "occurrences": 1
+  },
+  "An assortment of stewed taro and other vegetables. The variety of flavors and textures keeps things interesting.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "里芋を始め、雑多な野菜を煮込んだ料理だ。\nたくさんの食材が出す豊かな風味と食感で\n飽きのこない料理だ。",
+   "occurrences": 2
+  },
+  "A mass-produced pistol that has had some parts replaced to increase its firepower.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "量産品の拳銃の部品を一部交換し\n威力を高める工夫がされている一品。",
+   "occurrences": 1
+  },
+  "A hood with an unbelievable effect on its wearer's wallet. Make money just by walking around.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金が湧き出る夢のような頭巾。\n歩くだけで金が溜まる。",
+   "occurrences": 1
+  },
+  "A plate made of gold. It's certainly worth a lot.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金で作られた皿。\nかなり価値のある皿。",
+   "occurrences": 1
+  },
+  "A strong breastplate made of iron. Offers solid protection, but fairly heavy.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鉄でできた頑丈な胸当。\n守りは固いが、結構重たい。",
+   "occurrences": 1
+  },
+  "Strong gauntlets made of iron. They are particularly effective against blade attacks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鉄でできている非常に硬い籠手。\n刃物による攻撃を防ぐことができる。",
+   "occurrences": 1
+  },
+  "A plate made of iron. Nothing special, but it could probably be traded for a little something.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鉄で作られた皿です。\n価値は低いですが、売れば資金になるでしょう。",
+   "occurrences": 4
+  },
+  "A headband with an iron plate over the forehead. Provides a minimal amount of protection.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鉄の板で額を守る防具。\n最低限の守りは固められる。",
+   "occurrences": 1
+  },
+  "A sturdy sword that will never dull, even from slicing bullets in flight.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鉄砲の弾を切っても刃こぼれしない\nとても丈夫な刀。",
+   "occurrences": 1
+  },
+  "A plate made of silver. Probably fairly valuable.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銀で作られた皿。\n結構な価値がある。",
+   "occurrences": 1
+  },
+  "Ginkgo. Has a unique smell, but its subtle bitterness is the highlight. Could be used for cooking.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銀杏だ。強烈な匂いを放っている。\nほのかな苦みが特徴。\n何かの料理に使えそうだ。",
+   "occurrences": 2
+  },
+  "This kit contains materials and items used to craft and enhance firearms.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃を作成・強化する際に使う素材や\nアイテムのつめ合わせ。",
+   "occurrences": 2
+  },
+  "Gun crafting material. It somehow fits, so it can at the very least spin.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\nなんとか噛み合うため回すことはできる。",
+   "occurrences": 1
+  },
+  "Gun crafting material. An imported item of fine manufacture, although it is unfortunately broken.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\n外国製の良品だが、壊れて方向がわからない。",
+   "occurrences": 1
+  },
+  "Gun crafting material. It's bent, so it's unlikely it will screw in properly.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\n曲がっているのでちゃんと締まらない。",
+   "occurrences": 1
+  },
+  "Gun crafting material. The most advanced mechanical assemblage available, machined with the finest precision.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\n様々な細工が施された最先端の機械。",
+   "occurrences": 1
+  },
+  "Gun crafting material. A useful part for the insides of a machine.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\n機械の内部で使われる便利な部品だ。",
+   "occurrences": 1
+  },
+  "Gun crafting material. Prized by machine enthusiasts everywhere.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\n機械仕掛けのものを作るのに重宝する。",
+   "occurrences": 1
+  },
+  "Gun crafting material. Often used as the power source for automated contraptions.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\n自動で動く装置の動力になる。",
+   "occurrences": 1
+  },
+  "Gun crafting material. A collection of parts put together in a complex manner.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\n複雑に組まれた部品の集合体だ。",
+   "occurrences": 1
+  },
+  "Gun crafting material. It's rusty, but it's managed to retain its elasticity.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃作成用の素材。\n錆びてはいるが、伸縮性はある。",
+   "occurrences": 1
+  },
+  "A pristine gun with a body made entirely of gold. It draws out its user's abilities through sheer expense.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃身が全て黄金で作られた高価な一品。\n使い手の能力を高めてくれる。",
+   "occurrences": 1
+  },
+  "A plate made of bronze. Nothing special, but could fetch some decent cash.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銅で作られた皿。\nあまり高価ではないが、それなりの価値はある。",
+   "occurrences": 1
+  },
+  "A man-eating shark. Easily devours its prey, thanks to its rows of sharp teeth and powerful jaws.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鋭利な歯と、強力なアゴであらゆる獲物に食らいつく\n人食いのフカ。",
+   "occurrences": 1
+  },
+  "Gauntlets that can stop steel blades. Useful for protecting the wearer from nasty, intentional cuts.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鋼鉄製の刃物を受け止められる籠手。\n刃物による攻撃を防ぐことができる。",
+   "occurrences": 1
+  },
+  "A spear that could be very powerful with tempering. Its unique form might raise the morale of one's allies.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛えれば高い威力を発揮しそうな槍。\n特殊な形状で仲間のの士気を高める。",
+   "occurrences": 1
+  },
+  "A legendary spear with overwhelming power. One of the Three Great Spears of Japan.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長い年月を越えても輝きが色あせない\n圧倒的な威力を誇る伝説の槍。",
+   "occurrences": 1
+  },
+  "A most common spear. Simple blade affixed to a long, straight pole.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長く真っ直ぐな柄に刃がついた\nもっとも一般的な形状の槍。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nRaises the encounter rate.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\nエンカウント率が増加。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nShows substory locations on the map.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\nサブストーリーの位置を知らせる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nHeat Gauge no longer charges.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\nヒートゲージが溜まらなくなる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nCharges up the Heat Gauge {d_value}% faster.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\nヒートゲージが溜まりやすくなる【＋{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nHealth won't recover past critical.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n体力が瀕死状態以上に回復しなくなる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nIncreases Virtue Points gained by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n入手する徳ポイントが増加。【{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nReduces bleed damage by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n出血ダメージを軽減。【－{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nAllows one to guard against blades.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n刃物を防御できる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nRaises the rank of a seal by one.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n印のランクを１上げる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nIncreases the effects of praying by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n参拝の効果が増加。【{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nReflects {d_value}% of the damage taken.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n受けたダメージの一部を跳ね返す。【{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nAlerts you to nearby pots with a special sound.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n壺の場所を音で知らせる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nIncreases the resistance to elemental attacks by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n属性攻撃への耐性が増加。【－{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nIncreases defense by {d_value}% based on current Virtue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n徳の所持量に応じて防御力が増加。【＋{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nMakes it harder for enemies to escape your grip.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n掴みが振りほどかれにくくなる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nIncreases attack by {d_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n攻撃力が増加。【＋{d_value}】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nGreatly increases attack by {d_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n攻撃力が大きく増加。【＋{d_value}】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nIncreases the power of Brawler attacks by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n格闘攻撃の威力が増加。【＋{d_value}％】",
+   "occurrences": 2
+  },
+  "A seal used to enhance gear.\nEarn money with every step.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n歩くと金が懐に入る。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nReduces poison damage by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n毒ダメージを軽減。【－{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nLess likely to be stunned by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n気絶しにくくなる。【＋{d_value}】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nHeat Gauge automatically charges by {d_value} per second while at low health.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n瀕死時にヒートゲージが自動上昇。【＋{d_value}】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nReduces fire damage by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n炎ダメージを軽減。【－{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nIncreases EXP earned by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n獲得経験値が増加。【＋{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nReduces Heat Gauge consumption by {d_value}% when using special moves.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n絶技使用時のヒートゲージ消費を抑える。【－{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nReveals the location of roaming enemies on the map.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n街を徘徊する敵の位置を知らせる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nSober up {d_value}% faster.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n酔いが覚めるのが早くなる。【{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nCharges up the Heat Gauge {d_value}% faster when drunk.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n酔っているとヒートゲージが\n溜まりやすくなる。【＋{d_value}％】",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nAllows one to guard against bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n銃弾を防御できる。",
+   "occurrences": 1
+  },
+  "A seal used to enhance gear.\nIncreases defense by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具を強化するための印。\n防御力が増加。【＋{d_value}】",
+   "occurrences": 2
+  },
+  "Material for crafting gear. A firm, sturdy substance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\nしっかりとした丈夫な素材だ。",
+   "occurrences": 1
+  },
+  "Material for crafting gear. A pelt with wondrous coloring.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\n不思議な色合いの毛皮だ。",
+   "occurrences": 1
+  },
+  "Material for crafting gear. A collection of fur from some sort of animal tail.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\n何かの動物の尻尾の毛が集められている。",
+   "occurrences": 1
+  },
+  "Material for crafting gear. What it is and where it came from remain unknown.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\n何の素材でできているのかわからない。",
+   "occurrences": 1
+  },
+  "Material for crafting gear. A piece of a famed horse's mane.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\n名を馳せた名馬の鬣の一部だ。",
+   "occurrences": 1
+  },
+  "Material for crafting gear. A fabric dyed a calming hue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\n淡い色合いに染められた絹織物だ。",
+   "occurrences": 1
+  },
+  "Material for crafting gear. Imported cloth with a distinct pattern woven into it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\n独特な柄で編み込まれた反物だ。",
+   "occurrences": 1
+  },
+  "Material for crafting gear. High quality string harvested from silkworms.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\n蚕からとれる上質な糸だ。",
+   "occurrences": 1
+  },
+  "Material for crafting gear. A cloth dyed vibrant red.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防具作成用の素材。\n赤く染められた綺麗な色の布。",
+   "occurrences": 1
+  },
+  "A masterpiece that excels in both offense and defense. Increases its user's survivability.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防御と攻撃を両立させ\n使い手の生存率を高めている傑作。",
+   "occurrences": 1
+  },
+  "A gem that holds the power needed to promote your troopers, allowing those at their limits to reach even greater heights.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士の転生に必要な宝玉。\n強さの上限まで達した隊士の魂を更なる高みへと導く。",
+   "occurrences": 1
+  },
+  "A famous sword said to have been wielded by a one-eyed shogun. Fills its user with power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隻眼の将が振るったとされ\nどこからか力が溢れてくる名刀。",
+   "occurrences": 1
+  },
+  "A magical blade whose elegant decorations captivate eyes and whose mysterious power protects its user from death.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "雅な拵えと死の淵から使い手を守る\n不思議な力で人を虜にする妖刀。",
+   "occurrences": 1
+  },
+  "This kit adds the Ishin! difficulty level and all standard skins.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "難易度「維新！」追加と\n各種スキンのつめ合わせ。",
+   "occurrences": 2
+  },
+  "A storied sword that can cut through bolts of lightning.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "雷をも切り裂くと言われる\n逸話と丈夫さを兼ね備えた名刀。",
+   "occurrences": 1
+  },
+  "Water said to be imbued with great spiritual power. Slightly increases Virtue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "霊験あらたかな水との事だ。\n少しばかりの徳を得る事が出来るらしい。",
+   "occurrences": 1
+  },
+  "A blade enshrouded by morning's mist. Its swing can compel the wind.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "霧がかかったように見える刀で\n一振りで風を巻き起こすこともあるという。",
+   "occurrences": 2
+  },
+  "A mysterious blue dango. Moderately increases experience points in the Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "青い色をした不思議な団子だ。\n一刀の型の経験値がそこそこ上昇する。",
+   "occurrences": 1
+  },
+  "A mysterious blue daifuku. Greatly increases experience points in the Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "青い色をした不思議な大福だ。\n一刀の型の経験値が大きく上昇する。",
+   "occurrences": 1
+  },
+  "A beautiful blue liquid. Slightly increases experience points in the Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "青い色をした綺麗な液体だ。\n一刀の型の経験値が少し上昇する。",
+   "occurrences": 1
+  },
+  "A cannon that can shoot special, highly explosive shells.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "非常に爆発力の高い特殊な砲弾を\n打ち出すことができる大筒。",
+   "occurrences": 1
+  },
+  "A breastplate made from extremely durable metal. Reduces damage taken from blades.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "非常に硬度の高い金属で作られた胸当。\n刃物によるダメージを軽減する。",
+   "occurrences": 1
+  },
+  "A very sturdy breastplate designed to absorb impacts. Reduces damage taken from bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "非常に頑丈で衝撃を吸収する胸当て。\n銃弾によるダメージを軽減する。",
+   "occurrences": 1
+  },
+  "A breastplate made of fine leather. It offers a bit of protection from attacks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "革素材でできている胸当。\n多少の攻撃は防いでくれる。",
+   "occurrences": 1
+  },
+  "A headband with a wooden plate over the forehead, present more to make the wearer feel better than for any real protection.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "額の部分に木製の板をつけた防具。\n気休め程度にしかならない。",
+   "occurrences": 1
+  },
+  "An oddly shaped pistol that resembles a flightless bird. It is imbued with a mysterious power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛べない鳥を模した奇妙な形の拳銃。\n不思議な力を宿している。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Ofuka, in North Fushimi Ichibangai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n伏見一番街北のお深まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Tome, in North Fushimi Ichibangai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n伏見一番街北のトメまで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Sankichi, in North Fushimi Ichibangai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n伏見一番街北の三吉まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Keisuke, in North Fushimi Ichibangai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n伏見一番街北の圭助まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Tae, at Ginryu Dojo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n吟柳道場前の妙まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Tsuguemon, at Ginryu Dojo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n吟柳道場前の継右衛門まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Hana, at Ginryu Dojo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n吟柳道場前の華まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Yunosuke, at Ginryu Dojo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n吟柳道場前の雄之助まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Ofuka, in Yashikimachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n屋敷町のお深まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Tome, in Yashikimachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n屋敷町のトメまで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Sankichi, in Yashikimachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n屋敷町の三吉まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Kankichi, in Yashikimachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n屋敷町の勘吉まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Keisuke, in Yashikimachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n屋敷町の圭助まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Kimi, in Sannocho.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n山王町のキミまで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Yoshiko, in Sannocho.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n山王町のヨシ子まで届けよう。",
+   "occurrences": 1
+  },
+  "The courier asked me to deliver this for him. It's going to Hatsutaro, in Sannocho.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飛脚から頼まれた荷物だ。\n山王町の初太郎まで届けよう。",
+   "occurrences": 1
+  }
+ }
+}

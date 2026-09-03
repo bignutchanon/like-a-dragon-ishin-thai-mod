@@ -1,0 +1,2256 @@
+{
+ "batch": "batch_048.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Select what you want to donate.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寄贈するものを選択してください。",
+   "occurrences": 0
+  },
+  "Select equipment to disassemble.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "分解する武具を選択してください。",
+   "occurrences": 0
+  },
+  "Disassemble selected equipment?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "分解してもよろしいですか？",
+   "occurrences": 0
+  },
+  "Select equipment to donate.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寄贈する武具を選択してください。",
+   "occurrences": 0
+  },
+  "Donate selected equipment?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寄贈してもよろしいですか？",
+   "occurrences": 0
+  },
+  "Empty slots": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "空き枠",
+   "occurrences": 0
+  },
+  "You got {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}を手に入れた。",
+   "occurrences": 0
+  },
+  "The attack of {s_value} increased by {d_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}の攻撃力が{d_value}上がった。",
+   "occurrences": 0
+  },
+  "The defense of {s_value} increased by {d_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}の防御力が{d_value}上がった。",
+   "occurrences": 0
+  },
+  "Affix to either with a Soulful Strike": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "魂の一打でいずれかに確定",
+   "occurrences": 0
+  },
+  "Soulful Strike already affixed": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "確定のため魂の一打なし",
+   "occurrences": 0
+  },
+  "The <{d_value}> seal has been imbued.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<{d_value}>の印が付与された。",
+   "occurrences": 0
+  },
+  "If both 瞬 and 速 exist, only 瞬 will be valid.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "瞬と速がある場合、瞬のみ有効",
+   "occurrences": 0
+  },
+  "Select how many you'd like to make.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何発作成するか選択してください。",
+   "occurrences": 0
+  },
+  "default": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "default",
+   "occurrences": 0
+  },
+  "Crafting fee: {d_value}％": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具作成費用　{d_value}％",
+   "occurrences": 0
+  },
+  "Enhancement success chance: {d_value}％": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具強化成功率　{d_value}%",
+   "occurrences": 0
+  },
+  "A variant unlocked": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "派生A解放",
+   "occurrences": 0
+  },
+  "Crafting fee {d_value}％": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具作成費用　{d_value}％",
+   "occurrences": 0
+  },
+  "B variant unlocked": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "派生B解放",
+   "occurrences": 0
+  },
+  "C variant unlocked": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "派生C解放",
+   "occurrences": 0
+  },
+  "tetukuzu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tetukuzu",
+   "occurrences": 0
+  },
+  "haganenoita": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "haganenoita",
+   "occurrences": 0
+  },
+  "tamahagane": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tamahagane",
+   "occurrences": 0
+  },
+  "tiisanakinnkai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tiisanakinnkai",
+   "occurrences": 0
+  },
+  "ginnnokakera": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ginnnokakera",
+   "occurrences": 0
+  },
+  "hakkinnnokatamari": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hakkinnnokatamari",
+   "occurrences": 0
+  },
+  "hakkinnnotubu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hakkinnnotubu",
+   "occurrences": 0
+  },
+  "ookinakinnkai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ookinakinnkai",
+   "occurrences": 0
+  },
+  "nijiironokakera": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "nijiironokakera",
+   "occurrences": 0
+  },
+  "ryuunokiba": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ryuunokiba",
+   "occurrences": 0
+  },
+  "ryuunohige": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ryuunohige",
+   "occurrences": 0
+  },
+  "ibitunaneji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ibitunaneji",
+   "occurrences": 0
+  },
+  "gatagatanohaguruma": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "gatagatanohaguruma",
+   "occurrences": 0
+  },
+  "sinnpinnnoneji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sinnpinnnoneji",
+   "occurrences": 0
+  },
+  "seikounahaguruma": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "seikounahaguruma",
+   "occurrences": 0
+  },
+  "tiisanazennmai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tiisanazennmai",
+   "occurrences": 0
+  },
+  "sabitabane": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sabitabane",
+   "occurrences": 0
+  },
+  "karakurizaiku": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "karakurizaiku",
+   "occurrences": 0
+  },
+  "kowaretarasinnbann": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kowaretarasinnbann",
+   "occurrences": 0
+  },
+  "seimitukikai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "seimitukikai",
+   "occurrences": 0
+  },
+  "karekinoeda": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "karekinoeda",
+   "occurrences": 0
+  },
+  "yawarakaimokuzai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "yawarakaimokuzai",
+   "occurrences": 0
+  },
+  "ryousitunakigire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ryousitunakigire",
+   "occurrences": 0
+  },
+  "ryuubokunohahenn": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ryuubokunohahenn",
+   "occurrences": 0
+  },
+  "jyoubunamokuzai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "jyoubunamokuzai",
+   "occurrences": 0
+  },
+  "sinnbokunokigire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sinnbokunokigire",
+   "occurrences": 0
+  },
+  "sennnennjyunoeda": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sennnennjyunoeda",
+   "occurrences": 0
+  },
+  "jyousitunahikaku": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "jyousitunahikaku",
+   "occurrences": 0
+  },
+  "tennsannsi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tennsannsi",
+   "occurrences": 0
+  },
+  "kireinakegawa": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kireinakegawa",
+   "occurrences": 0
+  },
+  "meibanotategami": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "meibanotategami",
+   "occurrences": 0
+  },
+  "kemononosippo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kemononosippo",
+   "occurrences": 0
+  },
+  "kireinakinuorimono": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kireinakinuorimono",
+   "occurrences": 0
+  },
+  "syuzomenonuno": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "syuzomenonuno",
+   "occurrences": 0
+  },
+  "nannbanntorainotannmono": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "nannbanntorainotannmono",
+   "occurrences": 0
+  },
+  "nijiironoorimono": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "nijiironoorimono",
+   "occurrences": 0
+  },
+  "tabagatana": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tabagatana",
+   "occurrences": 0
+  },
+  "mumeitou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "mumeitou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Derive_Locked_Katana": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Derive_Locked_Katana",
+   "occurrences": 0
+  },
+  "taihoumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "taihoumaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_tabagatana": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_tabagatana",
+   "occurrences": 0
+  },
+  "matukaze": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "matukaze",
+   "occurrences": 0
+  },
+  "isikirimaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "isikirimaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_taihoumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_taihoumaru",
+   "occurrences": 0
+  },
+  "kogitunemaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kogitunemaru",
+   "occurrences": 0
+  },
+  "teppougiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "teppougiri",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_isikirimaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_isikirimaru",
+   "occurrences": 0
+  },
+  "sisiou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sisiou",
+   "occurrences": 0
+  },
+  "doutanuki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "doutanuki",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_teppougiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_teppougiri",
+   "occurrences": 0
+  },
+  "higekiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "higekiri",
+   "occurrences": 0
+  },
+  "doujigiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "doujigiri",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_doutanuki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_doutanuki",
+   "occurrences": 0
+  },
+  "onimaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "onimaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_doujigiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_doujigiri",
+   "occurrences": 0
+  },
+  "himeturuitimonnji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "himeturuitimonnji",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_higekiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_higekiri",
+   "occurrences": 0
+  },
+  "kogarasumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kogarasumaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_onimaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_onimaru",
+   "occurrences": 0
+  },
+  "kuroganemaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kuroganemaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_matukaze": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_matukaze",
+   "occurrences": 0
+  },
+  "hikariuemonnji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hikariuemonnji",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kogitunemaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kogitunemaru",
+   "occurrences": 0
+  },
+  "ootennta": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ootennta",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kogarasumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kogarasumaru",
+   "occurrences": 0
+  },
+  "tiyoganemaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tiyoganemaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sisiou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sisiou",
+   "occurrences": 0
+  },
+  "suijinngiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "suijinngiri",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_himeturu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_himeturu",
+   "occurrences": 0
+  },
+  "masamune": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "masamune",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_ootennta": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_ootennta",
+   "occurrences": 0
+  },
+  "yashamaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "yashamaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_hikariuemonnji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_hikariuemonnji",
+   "occurrences": 0
+  },
+  "samonnji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "samonnji",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_tiyoganemaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_tiyoganemaru",
+   "occurrences": 0
+  },
+  "sennninngiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sennninngiri",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_masamune": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_masamune",
+   "occurrences": 0
+  },
+  "juzumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "juzumaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_samonnji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_samonnji",
+   "occurrences": 0
+  },
+  "murasame": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "murasame",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sennninngiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sennninngiri",
+   "occurrences": 0
+  },
+  "magurogiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "magurogiri",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_mumeitou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_mumeitou",
+   "occurrences": 0
+  },
+  "hakujinnmaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hakujinnmaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kuroganemaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kuroganemaru",
+   "occurrences": 0
+  },
+  "miyabimaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "miyabimaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_yashamaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_yashamaru",
+   "occurrences": 0
+  },
+  "sakurahubuki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sakurahubuki",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_juzumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_juzumaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_suijinngiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_suijinngiri",
+   "occurrences": 0
+  },
+  "asaarasi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "asaarasi",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_murasame": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_murasame",
+   "occurrences": 0
+  },
+  "tokagemaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tokagemaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sakurahubuki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sakurahubuki",
+   "occurrences": 0
+  },
+  "muramasa": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "muramasa",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_asaarasi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_asaarasi",
+   "occurrences": 0
+  },
+  "tennkoumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tennkoumaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_tokagemaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_tokagemaru",
+   "occurrences": 0
+  },
+  "mikadukimunetika": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "mikadukimunetika",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_muramasa": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_muramasa",
+   "occurrences": 0
+  },
+  "daikonnmaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "daikonnmaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_hakujinnmaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_hakujinnmaru",
+   "occurrences": 0
+  },
+  "youkou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "youkou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_miyabimaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_miyabimaru",
+   "occurrences": 0
+  },
+  "hotarumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hotarumaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_tennkoumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_tennkoumaru",
+   "occurrences": 0
+  },
+  "raikiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "raikiri",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_mikaduki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_mikaduki",
+   "occurrences": 0
+  },
+  "siranui": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "siranui",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_hotarumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_hotarumaru",
+   "occurrences": 0
+  },
+  "ookanehira": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ookanehira",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_raikiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_raikiri",
+   "occurrences": 0
+  },
+  "kaitennmaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kaitennmaru",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_siranui": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_siranui",
+   "occurrences": 0
+  },
+  "kotetu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kotetu",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_ookanehira": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_ookanehira",
+   "occurrences": 0
+  },
+  "yosiyuki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "yosiyuki",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_magurogiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_magurogiri",
+   "occurrences": 0
+  },
+  "konnnyakumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "konnnyakumaru",
+   "occurrences": 0
+  },
+  "hanazakari": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hanazakari",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_daikonnmaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_daikonnmaru",
+   "occurrences": 0
+  },
+  "ujisige": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ujisige",
+   "occurrences": 0
+  },
+  "kiramekikonnnyaku": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kiramekikonnnyaku",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_hanazakari": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_hanazakari",
+   "occurrences": 0
+  },
+  "kurohunegiri": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kurohunegiri",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_konnnyakumaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_konnnyakumaru",
+   "occurrences": 0
+  },
+  "tennryuujinnba": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tennryuujinnba",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kirameki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kirameki",
+   "occurrences": 0
+  },
+  "kutitaturugi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kutitaturugi",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_yosiyuki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_yosiyuki",
+   "occurrences": 0
+  },
+  "sabitaseiiken": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sabitaseiiken",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kurohune": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kurohune",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_youkou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_youkou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kaitennmaru": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kaitennmaru",
+   "occurrences": 0
+  },
+  "sohayanoturugi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sohayanoturugi",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_tennryuujinnba": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_tennryuujinnba",
+   "occurrences": 0
+  },
+  "ougonnoturugi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ougonnoturugi",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kutitaturugi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kutitaturugi",
+   "occurrences": 0
+  },
+  "sabitasinken": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sabitasinken",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sabitaseiiken": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sabitaseiiken",
+   "occurrences": 0
+  },
+  "amenomurakumo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "amenomurakumo",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sohayanoturugi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sohayanoturugi",
+   "occurrences": 0
+  },
+  "sabitayamatoken": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sabitayamatoken",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sabitasinken": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sabitasinken",
+   "occurrences": 0
+  },
+  "hutunomitama": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hutunomitama",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_amenomurakumo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_amenomurakumo",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sabitayamatoken": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sabitayamatoken",
+   "occurrences": 0
+  },
+  "yumenotatukudaki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "yumenotatukudaki",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_hutunomitama": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_hutunomitama",
+   "occurrences": 0
+  },
+  "kikuitimonnji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kikuitimonnji",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kotetu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kotetu",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kikuitimonnji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kikuitimonnji",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_ujisige": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_ujisige",
+   "occurrences": 0
+  },
+  "kutitayoutou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kutitayoutou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_ougonnoturugi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_ougonnoturugi",
+   "occurrences": 0
+  },
+  "kijinmarukunisige": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kijinmarukunisige",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kutitayoutou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kutitayoutou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_yumenotatukudaki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_yumenotatukudaki",
+   "occurrences": 0
+  },
+  "hoekurenai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hoekurenai",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kijinmarukunisige": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kijinmarukunisige",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_hoekurenai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_hoekurenai",
+   "occurrences": 0
+  },
+  "yunyuuukaitennsikikennjuu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "yunyuuukaitennsikikennjuu",
+   "occurrences": 0
+  },
+  "kokusannkaitennsikikennjuu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kokusannkaitennsikikennjuu",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Derive_Locked_Gun": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Derive_Locked_Gun",
+   "occurrences": 0
+  },
+  "high_revolver": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "high_revolver",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_yunyuu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_yunyuu",
+   "occurrences": 0
+  },
+  "ryuusui": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ryuusui",
+   "occurrences": 0
+  },
+  "iron_grinder": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "iron_grinder",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_high_revolver": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_high_revolver",
+   "occurrences": 0
+  },
+  "quick_fire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "quick_fire",
+   "occurrences": 0
+  },
+  "amor_breaker": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "amor_breaker",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_iron_grinder": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_iron_grinder",
+   "occurrences": 0
+  },
+  "sword_crasher": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sword_crasher",
+   "occurrences": 0
+  },
+  "raging_bullet": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "raging_bullet",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_amor_breaker": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_amor_breaker",
+   "occurrences": 0
+  },
+  "spirit_smasher": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "spirit_smasher",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_raging_bullet": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_raging_bullet",
+   "occurrences": 0
+  },
+  "double_strike": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "double_strike",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sword_crasher": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sword_crasher",
+   "occurrences": 0
+  },
+  "double_flash": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "double_flash",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_spirit_smasher": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_spirit_smasher",
+   "occurrences": 0
+  },
+  "mikagami": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "mikagami",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_quick_fire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_quick_fire",
+   "occurrences": 0
+  },
+  "heart_beat": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "heart_beat",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_double_strike": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_double_strike",
+   "occurrences": 0
+  },
+  "soul_beat": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "soul_beat",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_double_flash": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_double_flash",
+   "occurrences": 0
+  },
+  "meikyou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "meikyou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_heart_beat": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_heart_beat",
+   "occurrences": 0
+  },
+  "nitirinn": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "nitirinn",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_soul_beat": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_soul_beat",
+   "occurrences": 0
+  },
+  "mokuhou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "mokuhou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kokusan": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kokusan",
+   "occurrences": 0
+  },
+  "huuunn": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "huuunn",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_ryuusui": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_ryuusui",
+   "occurrences": 0
+  },
+  "kogarasi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kogarasi",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_mikagami": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_mikagami",
+   "occurrences": 0
+  },
+  "niou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "niou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_meikyou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_meikyou",
+   "occurrences": 0
+  },
+  "konngou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "konngou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_nitirinn": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_nitirinn",
+   "occurrences": 0
+  },
+  "ouka": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ouka",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_niou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_niou",
+   "occurrences": 0
+  },
+  "sidarezakura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sidarezakura",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_konngou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_konngou",
+   "occurrences": 0
+  },
+  "mamedeppou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "mamedeppou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_huuunn": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_huuunn",
+   "occurrences": 0
+  },
+  "Model10": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Model10",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_kogarasi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_kogarasi",
+   "occurrences": 0
+  },
+  "hayate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hayate",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_ouka": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_ouka",
+   "occurrences": 0
+  },
+  "tumujikaze": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "tumujikaze",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_sidarezakura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_sidarezakura",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_hayate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_hayate",
+   "occurrences": 0
+  },
+  "huhityou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "huhityou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_tumujikaze": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_tumujikaze",
+   "occurrences": 0
+  },
+  "model2": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "model2",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_mokuhou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_mokuhou",
+   "occurrences": 0
+  },
+  "hasideppou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hasideppou",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_mamedeppou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_mamedeppou",
+   "occurrences": 0
+  },
+  "harurannmann": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "harurannmann",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_huhityou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_huhityou",
+   "occurrences": 0
+  },
+  "model3": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "model3",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_hasideppou": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_hasideppou",
+   "occurrences": 0
+  },
+  "model14": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "model14",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_harurannmann": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_harurannmann",
+   "occurrences": 0
+  },
+  "kutitakennjuu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kutitakennjuu",
+   "occurrences": 0
+  },
+  "/WeaponThumbnail/T_UI_Thum_model2": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "/WeaponThumbnail/T_UI_Thum_model2",
+   "occurrences": 0
+  },
+  "sabitakennjuu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sabitakennjuu",
+   "occurrences": 0
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "batch": "MSG_062",
+ "readme": "คำที่ 'เคาะไปแล้ว' ในก้อนก่อนหน้า และโผล่อยู่ในสตริงของก้อนนี้ ดึงจาก master_th.json อัตโนมัติ",
+ "how_to_use": {
+  "locked_names_places": "คำล็อกจาก name_locks.json / place_locks.json — **บังคับ** ต้องสะกดตามนี้เป๊ะ",
+  "terms": "ชื่อเฉพาะ/วลี — ใช้รูปนี้เท่านั้น ห้ามตั้งใหม่ ถ้าเห็นว่ารูปเดิมผิดจริง ให้รายงาน lead อย่าเปลี่ยนเอง",
+  "names_from_master": "ชื่อเฉพาะที่ master เคยเคาะรูปไทยไว้แล้ว แต่ไม่เคยเป็นคีย์สั้น จึงไม่เข้า lexicon — ขุดด้วยการหาสตริงไทยร่วมของทุกคู่ที่ EN มีชื่อนั้น **ใช้รูปนี้ ห้ามตั้งใหม่**",
+  "single_words": "คำเดี่ยว — เป็นคำแปลของ **บริบทอื่น** อาจไม่ตรงบริบทก้อนนี้ (เช่น Result = 'ผลการซื้อขาย' มาจากหน้าร้านค้า) ให้ใช้เมื่อบริบทตรงกันเท่านั้น"
+ },
+ "locked_names_places": {
+  "Scarecrow Chateau": "คฤหาสน์หุ่นไล่กา",
+  "Kiyomizu Temple": "วัดคิโยมิซุ",
+  "Saito": "ไซโต"
+ },
+ "names_from_master": {
+  "Chateau": "คฤหาสน์หุ่นไล่กา",
+  "Dancer": "ท่าระบำอลวน",
+  "Flight": "แก่นแท้แห่งปีกบิน",
+  "Hajime": "ฮาจิเมะ",
+  "Kiyomizu": "วัดคิโยมิซุ",
+  "Shinbei": "ชินเบ",
+  "William": "วิลเลียม",
+  "Withered": "เถ้าจากกิ่งไม้แห้ง"
+ },
+ "terms": {
+  "Splendid Skill: Rustling Leaves": "ท่าพิสดาร: ใบไม้ปลิวไสว",
+  "Book of Revelations: Frenzy": "คัมภีร์ญาณหยั่งรู้: คลุ้มคลั่ง",
+  "Ash from Withered Branches": "เถ้าจากกิ่งไม้แห้ง",
+  "Book of Revelations: Flash": "คัมภีร์ญาณหยั่งรู้: วาบ",
+  "Mirage of Shimmering Heat": "ภาพลวงตาไอร้อน",
+  "Essence of Winged Flight": "แก่นแท้แห่งปีกบิน",
+  "Scarecrow Carving": "เน็ตสึเกะรูปหุ่นไล่กา",
+  "*pant* *pant*": "หอบ...หอบ...",
+  "Wild Dancer": "ท่าระบำอลวน"
+ },
+ "single_words": {
+  "Abilities": "ความสามารถ",
+  "All": "ทั้งหมด",
+  "Ash": "แอช",
+  "Best": "ดีที่สุด",
+  "Company": "มิตรสหาย",
+  "Default": "ค่าเริ่มต้น",
+  "Defeat": "พ่ายแพ้",
+  "Ginryu": "กินริว",
+  "Golden": "ทองคำ",
+  "Heat": "ให้ความร้อน",
+  "Heinosuke": "เฮโนสุเกะ",
+  "However,": "แต่ทว่า",
+  "Karakuri": "คาราคุริ",
+  "Master": "มาสเตอร์",
+  "None": "ไม่มี",
+  "Obtained": "ได้รับ",
+  "Scarecrow": "หุ่นไล่กา",
+  "Swordsman": "ท่าดาบเดี่ยว",
+  "Take": "รับ",
+  "Yes": "ใช่",
+  "place": "อันดับ",
+  "points": "แต้ม"
+ }
+}

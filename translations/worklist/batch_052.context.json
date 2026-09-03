@@ -1,0 +1,2256 @@
+{
+ "batch": "batch_052.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "T_UI_ba_icon_kakuto_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_kakuto_02",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_kakuto_03": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_kakuto_03",
+   "occurrences": 0
+  },
+  "Makes it harder for enemies to escape your grip.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "掴みが振りほどかれにくくなる。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_01",
+   "occurrences": 0
+  },
+  "Charges up the Heat Gauge {d_value}% faster while drunk.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酔っているとヒートゲージが\n溜まりやすくなる。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_02",
+   "occurrences": 0
+  },
+  "Charges up the Heat Gauge {d_value}% faster.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒートゲージが溜まりやすくなる。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_03": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_03",
+   "occurrences": 0
+  },
+  "While at low health, the Heat Gauge charges by {d_value} per second.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "瀕死時にヒートゲージが自動上昇。【＋{d_value}】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_04": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_04",
+   "occurrences": 0
+  },
+  "Reduces Heat Gauge consumption by {d_value}% when using special moves.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "絶技使用時のヒートゲージ消費を抑える。【－{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_05": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_05",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_06": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_06",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_07": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_07",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_08": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_08",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_heat_09": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_heat_09",
+   "occurrences": 0
+  },
+  "The Heat Gauge no longer charges.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒートゲージが溜まらなくなる。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_act_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_act_01",
+   "occurrences": 0
+  },
+  "<kf:2>Allows you to charge shots by holding <symbol=button_shikaku> at {d_value}% attack power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<kf:2><symbol=button_shikaku>長押しでチャージショットを\n撃てるようになる。威力が増加。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_act_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_act_02",
+   "occurrences": 0
+  },
+  "<kf:2>Changes <symbol=button_maru> into a special attack.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<kf:2><symbol=button_maru>攻撃が特殊攻撃に変化。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_act_03": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_act_03",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_act_04": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_act_04",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokusei_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokusei_01",
+   "occurrences": 0
+  },
+  "Increases the effects of elemental attacks by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "属性攻撃の効果が増加【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_zokusei_maru_s": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_zokusei_maru_s",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokusei_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokusei_02",
+   "occurrences": 0
+  },
+  "Recovers health by {d_value}% based on damage dealt to the enemy.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵に与えたダメージに応じて\n体力を回復する。【{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokusei_03": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokusei_03",
+   "occurrences": 0
+  },
+  "Adds the fire element.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炎属性付与。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokusei_04": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokusei_04",
+   "occurrences": 0
+  },
+  "Adds the wind element.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "風属性付与。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokusei_05": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokusei_05",
+   "occurrences": 0
+  },
+  "Adds the thunder element.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "電属性付与。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokusei_06": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokusei_06",
+   "occurrences": 0
+  },
+  "Adds the light element.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "光属性付与。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokusei_07": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokusei_07",
+   "occurrences": 0
+  },
+  "Adds the poison element.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒属性付与。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_bougyo_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_bougyo_01",
+   "occurrences": 0
+  },
+  "Reflects {d_value}% of damage taken.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "受けたダメージの一部を跳ね返す。【{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_bougyo_kaku_s": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_bougyo_kaku_s",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_bougyo_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_bougyo_02",
+   "occurrences": 0
+  },
+  "Increases defense by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防御力が増加。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_bougyo_03": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_bougyo_03",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_bougyo_04": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_bougyo_04",
+   "occurrences": 0
+  },
+  "Increases defense by {d_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防御力が増加。【＋{d_value}】",
+   "occurrences": 0
+  },
+  "T_UI_bougyo_maru_s": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_bougyo_maru_s",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_bougyo_05": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_bougyo_05",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_bougyo_06": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_bougyo_06",
+   "occurrences": 0
+  },
+  "Can guard against bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃弾を防御できる。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_bougyo_07": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_bougyo_07",
+   "occurrences": 0
+  },
+  "Can guard against blades.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刃物を防御できる。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokubou_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokubou_01",
+   "occurrences": 0
+  },
+  "Increases the resistance to elemental attacks by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "属性攻撃への耐性が増加。【－{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokubou_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokubou_02",
+   "occurrences": 0
+  },
+  "Reduces fire damage by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炎ダメージを軽減。【－{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokubou_03": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokubou_03",
+   "occurrences": 0
+  },
+  "Reduces poison damage by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒ダメージを軽減。【－{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokubou_04": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokubou_04",
+   "occurrences": 0
+  },
+  "Reduces bleed damage by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出血ダメージを軽減。【－{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_zokubou_05": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_zokubou_05",
+   "occurrences": 0
+  },
+  "Become {d_value}% less likely to be stunned.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "気絶しにくくなる。【＋{d_value}】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_support_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_support_01",
+   "occurrences": 0
+  },
+  "Increases EXP earned by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "獲得経験値が増加。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_adv_maru_s": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_adv_maru_s",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_support_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_support_02",
+   "occurrences": 0
+  },
+  "T_UI_adv_kaku_s": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_adv_kaku_s",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_support_03": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_support_03",
+   "occurrences": 0
+  },
+  "Increases the chance enemies will drop items by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵のアイテムドロップ率上昇。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_support_04": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_support_04",
+   "occurrences": 0
+  },
+  "Health does not recover past critical levels during combat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "バトル中に体力が瀕死状態以上に回復しなくなる。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_adv_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_adv_01",
+   "occurrences": 0
+  },
+  "Sober up {d_value}% faster.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酔いが覚めるのが早くなる。【{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_adv_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_adv_02",
+   "occurrences": 0
+  },
+  "Increases the effects of praying by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "参拝の効果が増加。【{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_adv_03": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_adv_03",
+   "occurrences": 0
+  },
+  "Increases Virtue Points gained by {d_value}%.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "入手する徳ポイントが増加。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_adv_04": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_adv_04",
+   "occurrences": 0
+  },
+  "Alerts you to nearby pots.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "壺の場所を音で知らせる。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_adv_05": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_adv_05",
+   "occurrences": 0
+  },
+  "Shows substory locations on the map.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サブストーリーの位置を知らせる。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_adv_06": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_adv_06",
+   "occurrences": 0
+  },
+  "Reveals the locations of roaming enemies on the map.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "街を徘徊する敵の位置を知らせる。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_adv_07": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_adv_07",
+   "occurrences": 0
+  },
+  "Increases the encounter rate.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "エンカウント率が増加。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_adv_08": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_adv_08",
+   "occurrences": 0
+  },
+  "Gain money while you walk.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "歩くと金が懐に入る。",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_kyouka_08": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_kyouka_08",
+   "occurrences": 0
+  },
+  "Sphere Seal: Change of Heart": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "玉印：改心",
+   "occurrences": 0
+  },
+  "Increases attack by {d_value}% based on current Virtue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "徳の所持量に応じて攻撃力が増加。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_bougyo_08": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_bougyo_08",
+   "occurrences": 0
+  },
+  "Increases defense by {d_value}% based on current Virtue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "徳の所持量に応じて防御力が増加。【＋{d_value}％】",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_special_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_special_01",
+   "occurrences": 0
+  },
+  "Raises the rank of a seal by one.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "印のランクを１上げる。",
+   "occurrences": 0
+  },
+  "T_UI_special_maru_s": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_special_maru_s",
+   "occurrences": 0
+  },
+  "T_UI_ba_icon_special_02": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_ba_icon_special_02",
+   "occurrences": 0
+  },
+  "Raises the rank of the seal by one.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "印のランクを１上げる。",
+   "occurrences": 0
+  },
+  "T_UI_special_kaku_s": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "T_UI_special_kaku_s",
+   "occurrences": 0
+  },
+  "Refresh Rate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "リフレッシュレート",
+   "occurrences": 0
+  },
+  "Choose how trooper skill names are shown when activated.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士スキル発動時のスキル名の表示方法を選択できます。",
+   "occurrences": 0
+  },
+  "Trooper Skill Display": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士スキル表示",
+   "occurrences": 0
+  },
+  "Change the color of the speaker names in message windows.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "テキスト話者名の色を変更できます。",
+   "occurrences": 0
+  },
+  "Message Window Speaker Name Color": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "テキスト話者名の色",
+   "occurrences": 0
+  },
+  "Switch between prioritizing graphics or performance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "表現を強化し、安定動作を優先させる「グラフィック重視」と\nゲームのパフォーマンスを優先させる「パフォーマンス重視」を切り替えられます。",
+   "occurrences": 0
+  },
+  "Graphics Mode": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "グラフィックモード",
+   "occurrences": 0
+  },
+  "AMD FidelityFX Super Resolution 2.1 is a cutting-edge temporal upscaling algorithm that produces high resolution frames from lower resolution inputs.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "AMD FidelityFX Super Resolution 2.1 is a cutting-edge temporal upscaling algorithm that produces high resolution frames from lower resolution inputs.",
+   "occurrences": 0
+  },
+  "AMD FSR 2.1": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "AMD FSR 2.1",
+   "occurrences": 0
+  },
+  "Set the sharpness for AMD FidelityFX Super Resolution 2.1.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "AMD FidelityFX Super Resolution 2.1に\n適用するシャープネスの強さを設定します。",
+   "occurrences": 0
+  },
+  "AMD FSR 2.1 Sharpness": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "AMD FSR 2.1 シャープネス",
+   "occurrences": 0
+  },
+  "Intel Xe Super Sampling (XeSS) technology uses machine learning to deliver more performance with exceptional image quality. Hardware accelerated XeSS is optimized for Xe-HPG microarchitecturebased GPUs.\n* For resolution higher than 1920 x 1080.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Intel Xe Super Sampling (XeSS) technology uses machine learning to deliver more performance with exceptional image quality. Hardware accelerated XeSS is optimized for Xe-HPG microarchitecturebased GPUs.\n※解像度が1920 x 1080以上の時に利用が可能です。",
+   "occurrences": 0
+  },
+  "Intel® XeSS": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Intel® XeSS",
+   "occurrences": 0
+  },
+  "NVIDIA DLSS uses AI Super Resolution to provide the highest possible frame rates at maximum graphics settings. DLSS requires an NVIDIA RTX graphics card.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "NVIDIA DLSSは、AI Super Resolution を使用して、\n最大のグラフィック設定で可能な限り高いフレームレートを提供します。\nDLSS の使用には、NVIDIA RTX グラフィックカードが必要です。",
+   "occurrences": 0
+  },
+  "NVIDIA DLSS": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "NVIDIA DLSS",
+   "occurrences": 0
+  },
+  "NVIDIA DLSS.\nSets the intensity of sharpness to be applied.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "NVIDIA DLSSに\n適用するシャープネスの強さを設定します。",
+   "occurrences": 0
+  },
+  "NVIDIA DLSS Sharpness": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "NVIDIA DLSS シャープネス",
+   "occurrences": 0
+  },
+  "Change display's brightness settings.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "画面の明るさを変更できます。",
+   "occurrences": 0
+  },
+  "mahjong_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "mahjong_01",
+   "occurrences": 0
+  },
+  "poker_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "poker_01",
+   "occurrences": 0
+  },
+  "hanafuda_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "hanafuda_01",
+   "occurrences": 0
+  },
+  "oichokabu_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "oichokabu_01",
+   "occurrences": 0
+  },
+  "shogi_01": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "shogi_01",
+   "occurrences": 0
+  },
+  "karaoke": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "karaoke",
+   "occurrences": 0
+  },
+  "chinchirorin": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "chinchirorin",
+   "occurrences": 0
+  },
+  "chohan": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "chohan",
+   "occurrences": 0
+  },
+  "fishing": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "fishing",
+   "occurrences": 0
+  },
+  "kyoukei": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "kyoukei",
+   "occurrences": 0
+  },
+  "udon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "udon",
+   "occurrences": 0
+  },
+  "makiwari": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "makiwari",
+   "occurrences": 0
+  },
+  "drinking": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "drinking",
+   "occurrences": 0
+  },
+  "jangkeng": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "jangkeng",
+   "occurrences": 0
+  },
+  "sexyphase": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "sexyphase",
+   "occurrences": 0
+  },
+  "nichibu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "nichibu",
+   "occurrences": 0
+  },
+  "taiho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "taiho",
+   "occurrences": 0
+  },
+  "cooking": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "cooking",
+   "occurrences": 0
+  },
+  "chase": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "chase",
+   "occurrences": 0
+  },
+  "You are currently at full health. Are you sure you want to use this?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力は全回復されていますが、使用しますか？",
+   "occurrences": 0
+  },
+  "Your Heat is fully charged. Are you sure you want to use this?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒートは全回復されていますが、使用しますか？",
+   "occurrences": 0
+  },
+  "Your Heat and health are full. Are you sure you want to use this?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力とヒートは全回復されていますが、使用しますか？",
+   "occurrences": 0
+  },
+  "Reset game to default settings?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ゲーム設定を\n初期状態にリセットしますか？",
+   "occurrences": 0
+  },
+  "Reset controls to default settings?\nAll modifications will be reverted to default.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すべての操作設定を\n初期状態にリセットしますか？\n※変更したすべての設定が初期状態に戻ります",
+   "occurrences": 0
+  },
+  "Reset graphics to default settings?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "グラフィック設定を\n初期状態にリセットしますか？",
+   "occurrences": 0
+  },
+  "Reset audio to default settings?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "オーディオ設定を\n初期状態にリセットしますか？",
+   "occurrences": 0
+  },
+  "Reset display to default settings?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "画面設定を\n初期状態にリセットしますか？",
+   "occurrences": 0
+  },
+  "Reset subtitles and text to default settings?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "字幕・テキスト設定を\n初期状態にリセットしますか？",
+   "occurrences": 0
+  },
+  "Reset language to default settings?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "言語設定を\n初期状態にリセットしますか？",
+   "occurrences": 0
+  },
+  "Reset accessibility to default settings?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アクセシビリティ設定を\n初期状態にリセットしますか？",
+   "occurrences": 0
+  },
+  "You will need to return to the title screen to change the displayed language. If you have not saved your game recently, you may lose progress. Are you sure you want to proceed?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "表示言語を変更するには一度タイトル画面に戻る必要があります。\nセーブ直後ではない場合、前回のセーブ時点から\nゲーム状況が更新されている可能性もありますが\n本当によろしいですか？",
+   "occurrences": 0
+  },
+  "Are you sure you want to use this Orb?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "魂球を使用しますが、\n本当によろしいですか？",
+   "occurrences": 0
+  },
+  "Swap Orb?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "魂球の入れ替えを行いますか？",
+   "occurrences": 0
+  },
+  "Save your current graphics settings? {0}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "現在のグラフィック設定を\n保存しますか？　{0}",
+   "occurrences": 0
+  },
+  "Your changes have not been saved. Are you sure you want to exit?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "変更した内容はセーブされていません、本当に終了しますか？",
+   "occurrences": 0
+  },
+  "Exit Photo Mode?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フォトモードを終了しますか？",
+   "occurrences": 0
+  },
+  "Reset to default brightness settings?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "明るさ設定を\n初期状態にリセットしますか？",
+   "occurrences": 0
+  },
+  "言語設定/Language": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "言語設定/Language",
+   "occurrences": 0
+  },
+  "Language/言語設定": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Language/言語設定",
+   "occurrences": 0
+  },
+  "日本語": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "日本語",
+   "occurrences": 0
+  },
+  "Français": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Français",
+   "occurrences": 0
+  },
+  "You gained Brawler Experience Points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格闘の経験値が上がった",
+   "occurrences": 0
+  },
+  "You gained Gunman Experience Points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "短銃の経験値が上がった",
+   "occurrences": 0
+  },
+  "You gained Swordsman Experience Points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の経験値が上がった",
+   "occurrences": 0
+  },
+  "You gained Wild Dancer Experience Points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の経験値が上がった",
+   "occurrences": 0
+  },
+  "Installation must complete in order to play further.\nTime remaining: ${hour} hour(s), ${min} minute(s)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここから先はインストールが\n完了するまで遊べません。\n（完了まで残り ${hour}時間${min}分）",
+   "occurrences": 0
+  },
+  "Installation complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "インストールが完了しました。",
+   "occurrences": 0
+  },
+  "Installation must complete first.\nTime remaining: ${hour} hour(s), ${min} minute(s)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "インストールが完了するまで遊べません。\n（完了まで残り ${hour}時間${min}分）",
+   "occurrences": 0
+  },
+  "Installation must complete in order to proceed.\nTime remaining: ${hour} hour(s), ${min} minute(s)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここから先はインストールが完了するまで進めません\n（完了まで残り ${hour}時間${min}分）",
+   "occurrences": 0
+  },
+  "You cannot proceed beyond\nthis point in the trial version.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここから先はお試し版では\n遊ぶことはできません。",
+   "occurrences": 0
+  },
+  "This content is not available\nin the trial version.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お試し版では\n遊ぶことはできません。",
+   "occurrences": 0
+  },
+  "You cannot proceed beyond\nthis point in the demo version.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここから先は体験版では\n遊ぶことはできません。",
+   "occurrences": 0
+  },
+  "This content is not available\nin the demo version.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体験版では\n遊ぶことはできません。",
+   "occurrences": 0
+  },
+  "Installation must complete first.\nRemaining: ${percentage}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "インストールが完了するまで遊べません。\n（完了まで残り ${percentage}）",
+   "occurrences": 0
+  },
+  "Installation must complete in order to proceed.\nRemaining: ${percentage}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここから先はインストールが完了するまで進めません\n（完了まで残り ${percentage}）",
+   "occurrences": 0
+  },
+  "佐藤": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "佐藤",
+   "occurrences": 0
+  },
+  "鈴井": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鈴井",
+   "occurrences": 0
+  },
+  "高橋": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "高橋",
+   "occurrences": 0
+  },
+  "田中": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "田中",
+   "occurrences": 0
+  },
+  "渡辺": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "渡辺",
+   "occurrences": 0
+  },
+  "伊藤": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伊藤",
+   "occurrences": 0
+  },
+  "山本": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山本",
+   "occurrences": 0
+  },
+  "中村": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中村",
+   "occurrences": 0
+  },
+  "小林": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "小林",
+   "occurrences": 0
+  },
+  "加藤": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "加藤",
+   "occurrences": 0
+  },
+  "吉川": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吉川",
+   "occurrences": 0
+  },
+  "山田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山田",
+   "occurrences": 0
+  },
+  "松本": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "松本",
+   "occurrences": 0
+  },
+  "井出": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "井出",
+   "occurrences": 0
+  },
+  "里田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "里田",
+   "occurrences": 0
+  },
+  "木村": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "木村",
+   "occurrences": 0
+  },
+  "清水": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "清水",
+   "occurrences": 0
+  },
+  "池田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "池田",
+   "occurrences": 0
+  },
+  "阿部": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "阿部",
+   "occurrences": 0
+  },
+  "橋本": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "橋本",
+   "occurrences": 0
+  },
+  "山下": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山下",
+   "occurrences": 0
+  },
+  "石川": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "石川",
+   "occurrences": 0
+  },
+  "中島": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中島",
+   "occurrences": 0
+  },
+  "前田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "前田",
+   "occurrences": 0
+  },
+  "藤田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "藤田",
+   "occurrences": 0
+  },
+  "小川": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "小川",
+   "occurrences": 0
+  },
+  "岡上": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "岡上",
+   "occurrences": 0
+  },
+  "後藤": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "後藤",
+   "occurrences": 0
+  },
+  "村上": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "村上",
+   "occurrences": 0
+  },
+  "小谷": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "小谷",
+   "occurrences": 0
+  },
+  "石井": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "石井",
+   "occurrences": 0
+  },
+  "坂井": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "坂井",
+   "occurrences": 0
+  },
+  "遠藤": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遠藤",
+   "occurrences": 0
+  },
+  "青木": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "青木",
+   "occurrences": 0
+  },
+  "藤井": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "藤井",
+   "occurrences": 0
+  },
+  "西村": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西村",
+   "occurrences": 0
+  },
+  "福田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "福田",
+   "occurrences": 0
+  },
+  "太田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "太田",
+   "occurrences": 0
+  },
+  "三浦": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "三浦",
+   "occurrences": 0
+  },
+  "藤原": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "藤原",
+   "occurrences": 0
+  },
+  "岡本": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "岡本",
+   "occurrences": 0
+  },
+  "松田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "松田",
+   "occurrences": 0
+  },
+  "坂下": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "坂下",
+   "occurrences": 0
+  },
+  "中川": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中川",
+   "occurrences": 0
+  },
+  "中野": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中野",
+   "occurrences": 0
+  },
+  "原元": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "原元",
+   "occurrences": 0
+  },
+  "小野": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "小野",
+   "occurrences": 0
+  },
+  "竹内": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "竹内",
+   "occurrences": 0
+  },
+  "田村": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "田村",
+   "occurrences": 0
+  },
+  "金子": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金子",
+   "occurrences": 0
+  },
+  "中山": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中山",
+   "occurrences": 0
+  },
+  "石田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "石田",
+   "occurrences": 0
+  },
+  "上田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "上田",
+   "occurrences": 0
+  },
+  "森田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "森田",
+   "occurrences": 0
+  },
+  "柴田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "柴田",
+   "occurrences": 0
+  },
+  "酒井": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酒井",
+   "occurrences": 0
+  },
+  "工藤": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "工藤",
+   "occurrences": 0
+  },
+  "横山": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "横山",
+   "occurrences": 0
+  },
+  "宮崎": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "宮崎",
+   "occurrences": 0
+  },
+  "宮本": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "宮本",
+   "occurrences": 0
+  },
+  "内田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "内田",
+   "occurrences": 0
+  },
+  "高木": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "高木",
+   "occurrences": 0
+  },
+  "安藤": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "安藤",
+   "occurrences": 0
+  },
+  "谷口": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "谷口",
+   "occurrences": 0
+  },
+  "大野": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大野",
+   "occurrences": 0
+  },
+  "今井": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今井",
+   "occurrences": 0
+  },
+  "丸山": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "丸山",
+   "occurrences": 0
+  },
+  "高田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "高田",
+   "occurrences": 0
+  },
+  "河野": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "河野",
+   "occurrences": 0
+  },
+  "藤本": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "藤本",
+   "occurrences": 0
+  },
+  "小島": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "小島",
+   "occurrences": 0
+  },
+  "武井": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武井",
+   "occurrences": 0
+  },
+  "村田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "村田",
+   "occurrences": 0
+  },
+  "上野": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "上野",
+   "occurrences": 0
+  },
+  "杉山": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "杉山",
+   "occurrences": 0
+  },
+  "増田": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "増田",
+   "occurrences": 0
+  },
+  "菅原": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "菅原",
+   "occurrences": 0
+  },
+  "平野": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "平野",
+   "occurrences": 0
+  },
+  "小山": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "小山",
+   "occurrences": 0
+  }
+ }
+}

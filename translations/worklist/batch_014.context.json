@@ -1,0 +1,2256 @@
+{
+ "batch": "batch_014.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Street Thug": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "街のゴロツキ",
+   "occurrences": 1
+  },
+  "Hoodlum": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "街のチンピラ",
+   "occurrences": 1
+  },
+  "Chase the Masked Man": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "覆面の男を追え",
+   "occurrences": 1
+  },
+  "Red Ninja": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "赤忍者",
+   "occurrences": 2
+  },
+  "Run": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "逃げろ",
+   "occurrences": 2
+  },
+  "Brigand": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "野武士",
+   "occurrences": 1
+  },
+  "Bandit": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "野盗",
+   "occurrences": 3
+  },
+  "Choshu Samurai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長州藩士",
+   "occurrences": 1
+  },
+  "Choshu Samurai Yoshida Toshimaro": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長州藩士　吉田稔麿",
+   "occurrences": 1
+  },
+  "Choshu Samurai Katsura Kogoro": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長州藩士　桂小五郎",
+   "occurrences": 1
+  },
+  "Arena Combatant 1": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠1",
+   "occurrences": 1
+  },
+  "Arena Combatant 10": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠10",
+   "occurrences": 1
+  },
+  "Arena Combatant 11": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠11",
+   "occurrences": 1
+  },
+  "Arena Combatant 12": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠12",
+   "occurrences": 1
+  },
+  "Arena Combatant 13": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠13",
+   "occurrences": 1
+  },
+  "Arena Combatant 14": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠14",
+   "occurrences": 1
+  },
+  "Arena Combatant 15": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠15",
+   "occurrences": 1
+  },
+  "Arena Combatant 16": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠16",
+   "occurrences": 1
+  },
+  "Arena Combatant 17": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠17",
+   "occurrences": 1
+  },
+  "Arena Combatant 18": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠18",
+   "occurrences": 1
+  },
+  "Arena Combatant 19": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠19",
+   "occurrences": 1
+  },
+  "Arena Combatant 2": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠2",
+   "occurrences": 1
+  },
+  "Arena Combatant 20": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠20",
+   "occurrences": 1
+  },
+  "Arena Combatant 21": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠21",
+   "occurrences": 1
+  },
+  "Arena Combatant 22": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠22",
+   "occurrences": 1
+  },
+  "Arena Combatant 23": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠23",
+   "occurrences": 1
+  },
+  "Arena Combatant 24": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠24",
+   "occurrences": 1
+  },
+  "Arena Combatant 25": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠25",
+   "occurrences": 1
+  },
+  "Arena Combatant 26": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠26",
+   "occurrences": 1
+  },
+  "Arena Combatant 27": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠27",
+   "occurrences": 1
+  },
+  "Arena Combatant 28": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠28",
+   "occurrences": 1
+  },
+  "Arena Combatant 29": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠29",
+   "occurrences": 1
+  },
+  "Arena Combatant 3": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠3",
+   "occurrences": 1
+  },
+  "Arena Combatant 30": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠30",
+   "occurrences": 1
+  },
+  "Arena Combatant 31": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠31",
+   "occurrences": 1
+  },
+  "Arena Combatant 32": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠32",
+   "occurrences": 1
+  },
+  "Arena Combatant 33": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠33",
+   "occurrences": 1
+  },
+  "Arena Combatant 34": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠34",
+   "occurrences": 1
+  },
+  "Arena Combatant 35": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠35",
+   "occurrences": 1
+  },
+  "Arena Combatant 36": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠36",
+   "occurrences": 1
+  },
+  "Arena Combatant 37": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠37",
+   "occurrences": 1
+  },
+  "Arena Combatant 4": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠4",
+   "occurrences": 1
+  },
+  "Arena Combatant 5": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠5",
+   "occurrences": 1
+  },
+  "Arena Combatant 6": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠6",
+   "occurrences": 1
+  },
+  "Arena Combatant 7": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠7",
+   "occurrences": 1
+  },
+  "Arena Combatant 8": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠8",
+   "occurrences": 1
+  },
+  "Arena Combatant 9": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場選手枠9",
+   "occurrences": 1
+  },
+  "Raiden": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "雷電",
+   "occurrences": 1
+  },
+  "Blue Ninja": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "青忍者",
+   "occurrences": 2
+  },
+  "Leader": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "頭領",
+   "occurrences": 1
+  },
+  "Inoue Genzaburo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "井上源三郎",
+   "occurrences": 5
+  },
+  "Ito Kashitaro": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伊東甲子太郎",
+   "occurrences": 5
+  },
+  "Harada Sanosuke": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "原田左之助",
+   "occurrences": 5
+  },
+  "Hijikata Toshizo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土方歳三",
+   "occurrences": 4
+  },
+  "Matsubara Chuji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "松原忠治",
+   "occurrences": 4
+  },
+  "Takeda Kanryusai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武田観柳斎",
+   "occurrences": 5
+  },
+  "Nagakura Shinpachi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "永倉新八",
+   "occurrences": 7
+  },
+  "Okita Soji": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田総司",
+   "occurrences": 7
+  },
+  "Todo Heisuke": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "藤堂平助",
+   "occurrences": 4
+  },
+  "Tani Sanjuro": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "谷三十郎",
+   "occurrences": 3
+  },
+  "Suzuki Mikisaburo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鈴木三樹三郎",
+   "occurrences": 4
+  },
+  "Friend": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "友",
+   "occurrences": 49
+  },
+  "Ally": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "同",
+   "occurrences": 4
+  },
+  "Enemy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵",
+   "occurrences": 35
+  },
+  "Despises": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "仇",
+   "occurrences": 4
+  },
+  "Like brothers": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "兄弟同然",
+   "occurrences": 2
+  },
+  "Collude together": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "共謀",
+   "occurrences": 2
+  },
+  "Assisting": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "共闘",
+   "occurrences": 1
+  },
+  "Collaborate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "共闘",
+   "occurrences": 1
+  },
+  "Challenges to battle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勝負を挑む",
+   "occurrences": 1
+  },
+  "Assists": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "協力",
+   "occurrences": 1
+  },
+  "Rebels against": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "反発",
+   "occurrences": 1
+  },
+  "Same person": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "同一人物",
+   "occurrences": 4
+  },
+  "Allied": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "同盟",
+   "occurrences": 1
+  },
+  "Happy together": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "和解",
+   "occurrences": 2
+  },
+  "Interferes with": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "妨害",
+   "occurrences": 1
+  },
+  "Rents room from": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "定宿",
+   "occurrences": 4
+  },
+  "Meets in secret": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "密会",
+   "occurrences": 3
+  },
+  "Obeys": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "従う",
+   "occurrences": 3
+  },
+  "Loyal to": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "忠誠",
+   "occurrences": 2
+  },
+  "In love": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "恋慕",
+   "occurrences": 1
+  },
+  "Provides information to": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "情報を提供",
+   "occurrences": 3
+  },
+  "Withheld information from": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "情報を隠す",
+   "occurrences": 1
+  },
+  "Friends": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "懇意",
+   "occurrences": 1
+  },
+  "Rivals": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵対",
+   "occurrences": 3
+  },
+  "Considers an enemy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵視",
+   "occurrences": 3
+  },
+  "Attempt to assassinate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "暗殺を謀る",
+   "occurrences": 3
+  },
+  "Gave his true name": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本名を明かす",
+   "occurrences": 2
+  },
+  "Hired to assassinate Toyo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "東洋殺害を依頼",
+   "occurrences": 3
+  },
+  "Fights": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "殴り込み",
+   "occurrences": 1
+  },
+  "Assassinated": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "殺害",
+   "occurrences": 10
+  },
+  "Parted ways": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "決別",
+   "occurrences": 2
+  },
+  "Settling the score": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "決着をつける",
+   "occurrences": 1
+  },
+  "Infiltrates": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "潜入",
+   "occurrences": 2
+  },
+  "Suspicious of": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "目をつける",
+   "occurrences": 1
+  },
+  "Connected": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "繋がり",
+   "occurrences": 2
+  },
+  "Like family": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親子同然",
+   "occurrences": 10
+  },
+  "Acknowledge each other": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "認め合う",
+   "occurrences": 1
+  },
+  "Wishes to atone to": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "贖罪の念",
+   "occurrences": 1
+  },
+  "Helped escape capture": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "逃亡を手助け",
+   "occurrences": 2
+  },
+  "Rebelling against": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "造反",
+   "occurrences": 1
+  },
+  "[Independent Individual Name]": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "[独立個人名]",
+   "occurrences": 35
+  },
+  "The Impostor Ryoma": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一人の龍馬",
+   "occurrences": 7
+  },
+  "Nakaoka": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中岡",
+   "occurrences": 5
+  },
+  "Inoue": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "井上",
+   "occurrences": 8
+  },
+  "Izo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "以蔵",
+   "occurrences": 8
+  },
+  "Katsu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勝",
+   "occurrences": 8
+  },
+  "Miburoshigumi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "壬生浪士組",
+   "occurrences": 7
+  },
+  "Yamazaki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山崎",
+   "occurrences": 3
+  },
+  "Niibori": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新堀",
+   "occurrences": 5
+  },
+  "Katsura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "桂",
+   "occurrences": 5
+  },
+  "Takechi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市",
+   "occurrences": 22
+  },
+  "Okita": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田",
+   "occurrences": 3
+  },
+  "Satsuma Domain": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薩摩藩",
+   "occurrences": 4
+  },
+  "Saigo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西郷",
+   "occurrences": 8
+  },
+  "The Masked Man": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "覆面の男",
+   "occurrences": 12
+  },
+  "Ryoma": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍馬",
+   "occurrences": 58
+  },
+  "Otose": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お登勢",
+   "occurrences": 5
+  },
+  "Impostor Ryoma": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一人の龍馬",
+   "occurrences": 5
+  },
+  "Ito": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伊東",
+   "occurrences": 4
+  },
+  "Sasaki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "佐々木",
+   "occurrences": 3
+  },
+  "Harada": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "原田",
+   "occurrences": 2
+  },
+  "Yodo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "容堂",
+   "occurrences": 2
+  },
+  "Teradaya": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寺田屋",
+   "occurrences": 12
+  },
+  "Yamanami": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山南",
+   "occurrences": 2
+  },
+  "Ikumatsu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "幾松",
+   "occurrences": 7
+  },
+  "Tokugawa": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "徳川",
+   "occurrences": 3
+  },
+  "The Real Inoue": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本物の井上",
+   "occurrences": 1
+  },
+  "The Real Nagakura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本物の永倉",
+   "occurrences": 1
+  },
+  "The Real Okita": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本物の沖田",
+   "occurrences": 1
+  },
+  "Toyo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "東洋",
+   "occurrences": 22
+  },
+  "Matsubara": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "松原",
+   "occurrences": 2
+  },
+  "Takeda": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武田",
+   "occurrences": 4
+  },
+  "Nagakura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "永倉",
+   "occurrences": 4
+  },
+  "Todo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "藤堂",
+   "occurrences": 3
+  },
+  "Tani": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "谷",
+   "occurrences": 2
+  },
+  "Kondo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "近藤",
+   "occurrences": 2
+  },
+  "Suzuki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鈴木",
+   "occurrences": 2
+  },
+  "Choshu Domain": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長州藩",
+   "occurrences": 6
+  },
+  "Tosa Domain": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐藩",
+   "occurrences": 6
+  },
+  "Bakufu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "幕府",
+   "occurrences": 4
+  },
+  "[Individual]": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "[個人]",
+   "occurrences": 10
+  },
+  "A famous port inn in Kyo.\n\nOkami: Otose": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の船宿。\n女将はお登勢。",
+   "occurrences": 3
+  },
+  "A group of talented swordsmen feared throughout Kyo.\n\nChief: Kondo Isami\nDeputy Chief: Hijikata Toshizo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京を震え上がらせる剣客集団。\n局長は近藤勇。副長は土方歳三。",
+   "occurrences": 7
+  },
+  "A group formed when the Ito faction of the Shinsengumi split from the organization. Affiliated with the impostor Ryoma.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伊東一派が新選組から離反して結成された集団。\n“もう一人の龍馬”とのつながりを持つ。",
+   "occurrences": 2
+  },
+  "One of the more powerful domains in Japan. Maintains a strong presence in the city of Kyo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "動乱の京の主導権を握る雄藩の一つ。",
+   "occurrences": 6
+  },
+  "One of the larger domains in Japan. Maintains a strict class system, dividing the lower goshi from the higher goshi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四国の南端に位置する雄藩。\n上級武士の「上士」、下級武士の「郷士」という\n厳しい身分差が存在する。",
+   "occurrences": 12
+  },
+  "Like the Shinsengumi, this group of swordsmen is responsible for maintaining order in Kyo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組と同じく、京の治安維持を任とする\n戦闘集団。",
+   "occurrences": 3
+  },
+  "The predecessor to the Shinsengumi.\n\nChief: Serizawa Kamo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組の前身。\n筆頭局長は芹沢鴨。",
+   "occurrences": 3
+  },
+  "The ruling military organization of Japan.\n\nShogun: Tokugawa Yoshinobu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "日本を支配する最高権力機関。\nその長である将軍は徳川慶喜。",
+   "occurrences": 4
+  },
+  "A mysterious individual who has been using the name Sakamoto Ryoma.\n\nHis true identity is revealed to be Takechi Hanpeita, who was supposedly executed in Tosa.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「坂本龍馬」を名乗る謎の人物。\n\nその正体は土佐で処刑されたはずの\n武市半平太だった。",
+   "occurrences": 1
+  },
+  "A mysterious individual who has been using the name Sakamoto Ryoma.\n\nAt Teradaya, he accidentally reveals the scars on his back as he flees the Shinsengumi. According to Chief Kondo, he intends to trigger an anti-Bakufu war that will consume the nation.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「坂本龍馬」を名乗る謎の人物。\n\n寺田屋で背中に火傷跡があることが分かった。\nそれに動揺する龍馬の隙をつき、姿を消す。\n\n近藤によると、日本中を巻き込んだ倒幕戦争の\n引き金を引くべく動いているらしい。",
+   "occurrences": 1
+  },
+  "A mysterious individual who has been using the name Sakamoto Ryoma.\n\nHe attends a secret meeting with Satsuma Army Commander Saigo Kichinosuke and Bakufu Navy Admiral Katsu Rintaro.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「坂本龍馬」を名乗る謎の人物。\n\n幕府軍艦奉行並の勝麟太郎と共に\n薩摩の西郷吉之助と面会した。",
+   "occurrences": 1
+  },
+  "A mysterious individual who has been using the name Sakamoto Ryoma.\n\nAccording to Chief Kondo, he is currently staying at Teradaya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「坂本龍馬」を名乗る謎の人物。\n\n近藤によると現在寺田屋にいるらしい。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe confesses that she has been secretly monitoring Ryoma, as ordered by his impostor.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n“もう一人の龍馬”の指示で\n龍馬の監視を行っていたことを告白する。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe risked her own life to impede a Shinsengumi raid and warn the impostor Ryoma about the impending attack.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n“もう一人の龍馬”を追い詰めようとする\n龍馬たちを、身を挺して妨害した。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe offers to help Ryoma and his compatriots however she can in an effort to restore peace to the city.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n京の街に平和を取り戻すため、\n龍馬たちに協力を申し出る。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe joins Ryoma in witnessing a new dawn break in Japan.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n全ての決着がついたのち、龍馬と阿蘇の山で\n日本の夜明けを見る。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nHas a rather low opinion of Ryoma, who lives as a layabout ronin with a growing tab while lodging at her workplace.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n宿代を滞納し続けている龍馬を\n苦々しく思っている。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe watches over Ryoma with mixed feelings towards his involvement in the Shinsengumi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n新選組に入隊した龍馬を複雑な心境で\n見守っている。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe sees Ryoma off as he heads out to perform his duties as Shinsengumi Captain, sleepy after staying up all night repairing his haori.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n新選組に入隊した龍馬を送り出した。\n夜なべをして羽織を直したのでかなり眠い。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nWhen Ryoma informs her that he plans on joining the Shinsengumi, she is at a loss for words.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n新選組に入隊すると言い出した龍馬に戸惑う。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe voices her displeasure with Ryoma joining the Shinsengumi, then runs off.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n新選組入隊を果たした龍馬に反発し\n姿を消す。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe consoles a devasted Ryoma as he reels from the news of his sworn brother's death.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n武市の訃報に荒れる龍馬を心配している。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe strives to aid a gravely-wounded Todo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n瀕死の藤堂の看護にあたる。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nSafely evacuates the city with Otose to avoid the fire.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n火の手を避け、\nお登勢と共にどこかへ避難している。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe tends to Todo in his final moments.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n藤堂の最期を看取る。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe seems to have some sort of connection to Yamazaki Susumu, the Shinsengumi Inspector.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n龍馬と心通わせたかに見えたが、\n新選組監察・山崎烝と何らかの関係がある模様。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe assists Ryoma by giving the signal to commence the raid at Omiya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n龍馬の力になるべく\n近江屋に潜り込み、\n襲撃の合図を出す役割を買って出る。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe spent some quality time with Ryoma before he headed off for his final battle in Tosa.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n龍馬の土佐への決死行の前に\n二人きりのひと時を過ごした。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nShe spends some quality time with Ryoma before he heads off for his final battle in Tosa.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n龍馬の土佐への決死行の前に\n二人きりのひと時を過ごす。",
+   "occurrences": 1
+  },
+  "Maid at Teradaya, one of the largest inns in Kyo.\n\nAfter learning Ryoma's true intent behind joining the Shinsengumi, she begins to change her mind on the matter.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女中。\n\n龍馬の新選組入隊の真意を聞き、\n心境に変化が訪れる。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nShe is pleased that Oryo seems to be in better spirits.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\nおりょうが機嫌を直しほっとしている。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nOffers her new inn, Omiya, to Ryoma and company in the hopes that it can help bring peace to the nation.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n京の街に平和を取り戻すため、\n龍馬たちに近江屋を提供する。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nAfter the conflict is ended, she offers Nakaoka Shintaro one of her rooms at the inn.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n全ての決着がついたのち、寺田屋の一室を\n中岡慎太郎に提供する。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nDespite her very stated financial interests, she is rather lenient with Ryoma's tab at the inn.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n宿代を滞納し続けている龍馬に対し寛容だが\n金にはしっかりしている。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nIn an attempt to save lives, she quickly evacuates Teradaya before the carnage.  ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n寺田屋が修羅場と化す前に\n素早く避難した。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nShe sees Ryoma off as he heads out to perform his duties as Shinsengumi Captain.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n新選組に入隊した龍馬を送り出した。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nShe is surprised by Ryoma's desire to join the Shinsengumi, as she has only known him as a layabout during his time at her inn.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n新選組に入隊すると言い出した龍馬に\n戸惑うと同時に、今までにない\n強い意志を感じている。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nShe's grown concerned about Oryo, who had expressed her displeasure with Ryoma joining the Shinsengumi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n新選組入隊を果たした龍馬に反発する\nおりょうを気遣っている。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nBefore Ryoma heads off to his final battle, she tells him that he should spend some quality time with Oryo first.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n最期の戦いに赴こうとする龍馬へ\nおりょうとのひと時を過ごすよう諭す。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nShe rushes to find a doctor in the hopes of aiding a gravely wounded Todo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n瀕死の藤堂を救うべく医者の元へ走る。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nBefore evacuating to avoid the fire, she leaves a note for Ryoma letting him know that she and Oryo are safe.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n火の手を避け、おりょうとともに\nどこかへ避難していることを置手紙に残した。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nShe strives to ensure the plan set forth at Omiya will succeed.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n近江屋の会合を成功させるべく奔走する。",
+   "occurrences": 1
+  },
+  "Okami of Teradaya, one of the largest inns in Kyo.\n\nShe mediates a conversation between Ryoma and Oryo, defending her employee against Ryoma's accusations.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でも有数の大宿・寺田屋の女将。\n\n龍馬を裏切っていたおりょうをかばい、\n仲を取り持った。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled from Tosa after being falsely accused of killing Yoshida Toyo, his mentor.\n\nHe now resides in the city of Kyo as a layabout ronin under the alias Saito Hajime.  ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, layabout ronin.\n\nWhile searching for Tennen Rishin users, Ryoma meets Niibori Matsusuke of Choshu and Saigo Kichinosuke of Satsuma.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。\n\n「天念理心流」の使い手を追う中で\n長州の新堀松輔、薩摩の西郷吉之助と出会う。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, layabout ronin.\n\nIn Mukurogai, Okada Izo informs Ryoma of Takechi Hanpeita's current location, then leaves to reunite with his leader.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。\n\n以蔵から武市半平太の居場所を聞き、\n会いに向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now  living as Saito Hajime, layabout ronin.\n\nIn the middle of a clandestine meeting with the Bathkeeper of Sai, Ryoma is forced to engage in a brawl with a large, rude man.  ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。\n\n伝説の情報屋「サイの風呂屋」との密談中\n乱入してきた巨漢の男と拳を交えることになる。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, layabout ronin.\n\nAfter stumbling upon the murder scene of a Tosan acquaintance, Ryoma is confronted by a man in a straw hat who asks him to go to Mukurogai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。\n\n土佐の顔なじみが殺害された現場で\n編み笠の男から骸街へ来るよう呼び出しを受ける。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa after being falsely accused of killing Yoshida Toyo, his mentor.\n\nHe now resides in the city of Kyo as a layabout ronin under the alias Saito Hajime, but this is merely a cover for his true work.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。\n\n脱藩して自堕落な男に成り果てたかに見えたが、\nそれは偽りの姿だった。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa after being falsely accused of killing Yoshida Toyo, his mentor.\n\nHe now resides in the city of Kyo as a layabout ronin under the alias Saito Hajime, but this is merely a cover for his true work: hunting for any users of the Tennen Rishin style, which the masked man used that fateful night.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。\n\n脱藩して自堕落な男に成り果てたかに見えたが、\n秘密裏に覆面の男が使った剣術\n「天念理心流」を追っていた。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, layabout ronin.\n\nAfter some time in the city, he meets a mysterious man named Niibori Matsusuke, who connects him with an information dealer known as the Bathkeeper of Sai. ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。\n\n謎の男・新堀松輔に\n「サイの風呂屋」と呼ばれる情報屋を紹介された。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, layabout ronin.\n\nUpon reaching Mukurogai as requested of him, Ryoma encounters a hostile Okada Izo once more.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n恩師・吉田東洋の殺害容疑の濡れ衣を着て\n土佐を脱藩。現在は\n浪人「斎藤一」として京に潜伏している。\n\n骸街で岡田以蔵との再会を果たすが、\n以蔵は龍馬に刀を向ける。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa after being falsely accused of killing Yoshida Toyo, his mentor.\n\nNow residing in the city of Kyo under the alias Saito Hajime. He decides to join the Shinsengumi in the hopes of finding Toyo's murderer.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏している。\n\n恩師・吉田東洋を殺害した犯人を追うため\n新選組への入隊を決意する。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, layabout ronin.\n\nHe decides to join the Shinsengumi in the hopes of finding Toyo's murderer. His trial pits him against Nagakura Shinpachi, Second Division Captain and Tennen Rishin user.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏している。\n\n恩師・吉田東洋を殺害した犯人を追うため\n新選組への入隊を決意する。\n入隊試験で新選組二番隊隊長にして\n天念理心流の使い手である永倉新八と対決する。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, layabout ronin.\n\nHe decides to join the Shinsengumi in the hopes of finding Toyo's murderer. Captain Nagakura welcomes Ryoma into the fold, and Deputy Chief Hijikata Toshizo immediately summons Ryoma to meet at a nearby ryotei.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏している。\n\n恩師・吉田東洋を殺害した犯人を追うため\n新選組への入隊を決意する。\n永倉に認められ、入隊を果たすが\n副長・土方歳三に料亭へ呼び出しを受ける。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, layabout ronin.\n\nAfter successfully joining the Shinsengumi, Deputy Chief Hijikata Toshizo summons Ryoma to meet at a nearby ryotei, where he forces Ryoma to duel a man in white.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏している。\n\n新選組入隊を果たすが\n副長・土方歳三に料亭へ呼び出され、\n白装束の男との殺し合いをする羽目になる。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime.\n\nAfter successfully joining the Shinsengumi, Deputy Chief Hijikata Toshizo appoints Ryoma to Captain of the Third Division. Ryoma attends his first meeting in his new position.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏している。\n\n新選組副長・土方歳三から\n三番隊隊長の座を任された。\n幹部会での顔見せを終え、帰路に就く。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nTo stop the political strife of the nation from escalating to all-out war, he storms Edo Castle with Okita in the hopes of locating the Shogun.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”が画策する\n日本全土を巻き込んだ戦争を\n止めるべく、将軍へ直談判するため\n沖田と共に江戸城へ決死の殴り込みをかける。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nTo stop the political strife of the nation from escalating to all-out war, he storms Edo Castle with Okita. Shogun Tokugawa Yoshinobu challenges him to a duel to test his resolve.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”が画策する\n日本全土を巻き込んだ戦争を\n止めるべく、将軍へ直談判するため\n沖田と共に江戸城へ決死の殴り込みをかける。\n\n遂に将軍徳川慶喜と面会を果たすが、\n真剣勝負でその覚悟を試される。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nTo stop the political strife of the nation from escalating to all-out war, he decides to speak directly with the Shogun. Captain Okita tags along.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”が画策する\n日本全土を巻き込んだ戦争を\n止めるべく、江戸の将軍へ直談判を決意する。\nそのことを沖田に嗅ぎ付けられ、\n行動を共にすることになった。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter storming Edo Castle with Okita, he makes a direct appeal to the Shogun. However, upon the Captains' return to Kyo, they find the city already engulfed in flames.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”が画策する\n日本全土を巻き込んだ戦争を\n止めるべく、江戸城へ決死の殴り込みをかけ\n将軍徳川慶喜と面会を果たす。\n\nしかし、京はすでに火の海と化していた。\n近藤の仕業なのかどうかを確かめるべく\n燃える京の町を走る。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter discovering the existence of another Ryoma Sakamoto, he strives to meet with Nakaoka and discuss this confusing new detail.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”の存在を知り、\n中岡に相談へ向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nTo gain more information on this other Ryoma Sakamoto, he heads to the Satsuma Consulate to have a conversation with Saigo Kichinosuke.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”の情報を得るため、\n西郷のいる薩摩藩邸へ向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe storms Omiya, desperate to learn the identity of his impostor.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”の正体を突き止めるべく、\n近江屋へ突入した。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nShocked by the unique scarring on the impostor's back, he allows the man to get away. To stop the political strife of the nation from escalating to all-out war, he decides to speak directly with the Shogun. ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”の背中に\n見慣れた火傷跡があることを知り、\n動揺し取り逃す。\n\n“もう一人の龍馬”が画策する\n日本全土を巻き込んだ戦争を\n止めるべく、江戸の将軍へ直談判を決意する。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nDespite his surprise at Oryo's betrayal, he raids Teradaya with Captain Okita in search of the impostor Ryoma.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”を捉えるため、\n沖田と共に寺田屋に飛び込んだ。\nおりょうの裏切りに戸惑いつつも、\n“もう一人の龍馬”の姿を追う。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe enacts a plan with his associates to lure his impostor to Omiya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n“もう一人の龍馬”を近江屋におびき出すべく\n仲間たちと行動を開始した。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe heads to Gion to report the latest findings on his impostor to Shinsengumi Chief Kondo Isami.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n「坂本龍馬」についての調査報告をするため\n近藤勇のいるという祗園へ向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nRyoma returns to the Shinsengumi barracks in the hopes of making contact with Kondo Isami, head of the Shinsengumi and the heir of the Tennen Rishin style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n「天念理心流」の宗家・近藤勇との\n接触機会を得るため、新選組屯所へ向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe finally comes face-to-face with his impostor at Teradaya. While fleeing the inn, the impostor's back is exposed, and Ryoma is shocked when he recognizes the unique scarring.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\nおりょうが“もう一人の龍馬”を\n逃がそうとしたこと、そして\nその“もう一人の龍馬”と思われる虚無僧の\n背中に見慣れた火傷跡を発見したことに\n動揺する。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter spending some time with Oryo, Ryoma heads off for the final battle.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\nおりょうとしばしの時間を共に過ごし、\n決戦の地へ赴く。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe dons his Shinsengumi haori and makes his way to the barracks so he can serve as Captain of the Third Division while investigating the group for Toyo's killer.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n三番隊隊長の羽織をまとい、\n新選組屯所へ向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe rushes through Kyo, bound to determine if Chief Kondo was behind the fire. He defeats Harada Sanosuke in battle after finding the man setting fire to the city.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n京への放火が近藤の仕業なのかどうかを\n確かめるべく、燃える町を走る。\n\n道中、放火を続ける十番隊の原田左之助に遭遇。\n返り討ちにする。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nWhile at the barracks, Shinsengumi Advisor Ito Kashitaro tells Ryoma more about Kondo Isami.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n伊東から近藤勇についての話を聞く。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nNow that the political strife has been settled, he currently lives a relatively carefree life.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n全ての決着をつけた今、\n細かいことは気にせず自由にやっている。",
+   "occurrences": 2
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nNow that the political strife has been settled, he currently lives a relatively carefree life. His haori made from a fisherman's \"big catch\" flag makes even the Black Ships tremble.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n全ての決着をつけた今、\n細かいことは気にせず自由にやっている。\n大漁旗を模した羽織に身を包むその姿は\nまさに陸の満艦飾であり黒船も真っ青。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nNow that the political strife has been settled, he currently lives a relatively carefree life. His fire-emblazoned haori strikes fear into the thugs of Kyo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n全ての決着をつけた今、\n細かいことは気にせず自由にやっている。\n新選組の苛烈な気性を表すかのような\n紅蓮の羽織に身を包んだその姿に\n街の三下連中も震え上がる。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nNow that the political strife has been settled, he currently lives a relatively carefree life. His shimmering gold haori makes him a real hit with the ladies.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n全ての決着をつけた今、\n細かいことは気にせず自由にやっている。\n新選組の隆盛を体現するかのような\n金色の羽織に身を包むその姿に\n祗園のあの娘もぞっこん。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nTo end things once and for all, he heads out for Tosa, but not before sharing a tender moment with Oryo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n全ての決着をつけるべく、\n土佐へ向かおうとしている。\nその前におりょうとしばしの安息を楽しむ。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nTo end things once and for all, he plans to head to Tosa, but Okita tells him that he should settle things with Oryo before leaving.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n全ての決着をつけるべく、\n土佐へ向かおうとしている。\nその前におりょうとケジメをつけるよう\n沖田に諭される。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe fights alongside his compatriots through Kochi Castle.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n全ての決着をつけるべく高知城へ乗り込んだ。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nSixth Division Captain Inoue Genzaburo has informed him that Okada Izo has been spotted in a local gambling den.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n六番隊隊長・井上源三郎から岡田以蔵が\n賭場にいると知らされ、現場へ急ぐ。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nCaptain Okita accuses Ryoma of murdering Captain Inoue, telling him that Inoue was the masked man. To learn the truth, he must cross blades with Okita once more.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n六番隊隊長・井上源三郎が\n「覆面の男」であったと言う沖田の真意を\n質すため、再び沖田と真剣を交える。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe attempts to track down Captain Okita, who has gone mad after learning that Sixth Division Captain Inoue Genzaburo has been murdered.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n六番隊隊長・井上源三郎の死に荒れる沖田を\n止めるべく、沖田の行方を追う。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nUpon learning that Ikedaya is hosting the extremist shishi, Ryoma charges the building alongside other Shinsengumi Captains.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n勤王志士の会合場所が池田屋と分かり\n他の隊長と共に突入する。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nWhile making his way through the city, he comes across Fourth Division Captain Matsubara Chuji conversing with the local information dealer, Crow.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n四番隊隊長の松原忠治が情報屋の鴉と\n密談している場面に遭遇した。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe falls into a deep depression after hearing word of Takechi Hanpeita's death.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n土佐の武市半平太の訃報を聞き、\n自暴自棄になっている。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter hearing word of Takechi Hanpeita's death, he falls into a deep depression and decides to drown his sorrows. A mysterious woman at a Fushimi izakaya directs him towards Matsunoi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n土佐の武市半平太の訃報を聞き、\n自暴自棄になっている。\n伏見の居酒屋で謎の女から誘いを受け\n店へ足を運ぶことにする。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter hearing word of Takechi Hanpeita's death, he falls into a deep depression and decides to drown his sorrows. While on the town, he runs into Katsura, then Saigo, then eventually starts a brawl with them.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n土佐の武市半平太の訃報を聞き、\n自暴自棄になっている。\n偶然再会した桂と西郷へやるせない思いを\nぶつけるかのように拳を交える。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter hearing word of Takechi Hanpeita's death, he falls into a deep  depression and decides to drown his sorrows. While on the town, he starts a brawl with Katsura and Saigo, then forces them to go out for drinks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n土佐の武市半平太の訃報を聞き、\n自暴自棄になっている。\n偶然再会した桂と西郷へやるせない思いを\nぶつけるかのように拳を交える。\nその後、２人を無理やり飲みに付き合せる。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nWhile at the barracks, Deputy Chief Hijikata tells Ryoma more about Kondo Isami.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n土方から近藤勇についての話を聞く。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nWhile at the barracks, Ryoma strives to gain more information about Chief Kondo, but ultimately comes no closer to finding the man.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n屯所で近藤の情報を探ったが\n収穫は得られなかった。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nUpon arriving at the Imperial Palace, he is confronted by Okada Izo. To learn the truth of the matter, he must best Izo in battle once more.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n御所で龍馬を待っていたのは\n土佐へ送還されたはずの岡田以蔵だった。\n勝負に勝てば全てを語るという以蔵に対し、\n四度目にして最後の勝負を挑む。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe confronts Takeda Kanryusai, who has defected to the Goryo Eji, at Matsunoi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n御陵衛士となった武田観柳斎との死闘に臨む。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe learns that the blaze was not started at Chief Kondo's command. He is ordered to go to the Imperial Palace and put a stop to his impostor's scheme.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n放火が近藤の指示ではないことを知る。\n近藤の遺志を継ぐため、“もう一人の龍馬”を\n止めるため、御所へ急ぐ。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter learning the identity of the masked man and the secret history of the Shinsengumi, he is informed that his impostor is currently at Teradaya. He rushes to the inn with Captain Okita.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n新選組に隠された過去を近藤から聞き、\n遂に「覆面の男」の正体を知った。\nそして“もう一人の龍馬”が寺田屋に\nいると知り、沖田と共に向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nComes to Gion to apprehend the deserter Akimoto.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n新選組を脱走した秋元を捕えるべく\n祗園を訪れている。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter successfully joining the Shinsengumi, Ryoma searches for Oryo, who was strongly opposed to his joining the organization.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n新選組入隊に強く反発して\n寺田屋を飛び出したおりょうの行方を追う。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter successfully joining the Shinsengumi, Ryoma reveals his secret to Oryo, who was originally opposed to his joining the organization. The two make amends.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n新選組入隊に強く反発するおりょうに\n自身の秘密を打ち明け、和解する。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAt Gion, he squares off against Kondo Isami, Shinsengumi Chief and heir of the Tennen Rishin style. However, he learns the Chief was not the masked man, and leaves for the barracks in search of clues.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n新選組局長にして天念理心流の宗家である\n近藤勇と対峙したが、近藤は恩師・吉田東洋を\n殺した「覆面の男」ではなかった。\n新たな手掛かりを求めて、屯所へ向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nWhile at the barracks, he receives an explanation of the duties he is expected to perform as captain.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n新選組屯所へ出勤し、\n三番隊隊長としての任務の説明を受ける。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nAfter Shinsengumi Inspector Yamazaki Susumu informs him of a deserter named Akimoto, he heads for Gion to deal with the fleeing member.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n新選組監察・山崎烝から\n隊を脱走した秋元の情報を受け、\n祗園へ捕縛に向かう。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe clashes with Okada Izo once more in a local gambling den while maintaining his false identity.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n新選組隊長として岡田以蔵と対峙する。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nIn a fateful room from their shared past, he and Takechi face off to settle their differences once and for all.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n武市と最後の決着をつけるべく、\n因縁の地で対峙する。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nWorking through his grief over Takechi Hanpeita's death, he renews his resolve to find the masked man.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n武市半平太の訃報を乗り越え、\n「覆面の男」を追う決意を新たにした。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nWhile at the barracks, Captain Nagakura tells Ryoma a bit about Kondo Isami and Serizawa Kamo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n永倉から近藤勇と芹沢鴨についての話を聞く。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nDuring the Ikedaya raid, Ryoma comes across Niibori Matsusuke, who confesses his true identity to be Katsura Kogoro.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n池田屋での戦闘の最中、新堀松輔に再会。\nその正体が桂小五郎であることを知る。",
+   "occurrences": 1
+  },
+  "Former Tosan goshi, self-exiled.\n\nFled Tosa and relocated to Kyo. Now living as Saito Hajime, Shinsengumi Third Division Captain.\n\nHe joins Captain Okita on a raid of the Sengoku residence, where a number of loyalist shishi are apparently hiding.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "元・土佐藩郷士。\n浪人「斎藤一」として京に潜伏する\n新選組三番隊隊長。\n\n沖田と共に、千石邸へ討ち入りをかけた。",
+   "occurrences": 1
+  }
+ }
+}

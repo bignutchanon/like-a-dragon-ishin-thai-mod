@@ -1,0 +1,2356 @@
+{
+ "batch": "batch_MSG_066.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "桐生さん、よかったらまた来てね！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "桐生さん、よかったらまた来てね！",
+   "occurrences": 1
+  },
+  "フッ、気に入ったよ。次からは指名しよう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、気に入ったよ。次からは指名しよう。",
+   "occurrences": 1
+  },
+  "ホント!?　それじゃ超待ってる！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ホント!?　それじゃ超待ってる！",
+   "occurrences": 1
+  },
+  "桐生さん！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "桐生さん！",
+   "occurrences": 4
+  },
+  "今日は超楽しかった♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今日は超楽しかった♪",
+   "occurrences": 1
+  },
+  "ああ、俺もだ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ、俺もだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "アハッ<Color:255,200,200,255>⑮<Color:Default>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アハッ<Color:255,200,200,255>⑮<Color:Default>",
+   "occurrences": 4
+  },
+  "今日もありがとう♪　またね♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今日もありがとう♪　またね♪",
+   "occurrences": 1
+  },
+  "またな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "またな。",
+   "occurrences": 1
+  },
+  "待ってるからね♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "待ってるからね♪",
+   "occurrences": 1
+  },
+  "それじゃ、また後で<Color:255,200,200,255>⑮<Color:Default>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それじゃ、また後で<Color:255,200,200,255>⑮<Color:Default>",
+   "occurrences": 1
+  },
+  "何が出るかな～♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何が出るかな～♪",
+   "occurrences": 1
+  },
+  "よし……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よし……",
+   "occurrences": 1
+  },
+  "「<Color:8>スタミナンＸ（仮）<Color:Default>」が当たった！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「<Color:8>スタミナンＸ（仮）<Color:Default>」が当たった！",
+   "occurrences": 9
+  },
+  "あ～、これ超出るらしいね。\r\nま、これはこれで役に立つからいいでしょ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ～、これ超出るらしいね。\r\nま、これはこれで役に立つからいいでしょ？",
+   "occurrences": 2
+  },
+  "そうだな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうだな……",
+   "occurrences": 3
+  },
+  "あ、ちょっといいヤツじゃん！\r\n桐生さんやるね～♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、ちょっといいヤツじゃん！\r\n桐生さんやるね～♪",
+   "occurrences": 2
+  },
+  "まだまだ、こんなもんじゃないさ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まだまだ、こんなもんじゃないさ。",
+   "occurrences": 2
+  },
+  "すご～い、これあんまり見たことないかも。\r\n大事にしてね♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すご～い、これあんまり見たことないかも。\r\n大事にしてね♪",
+   "occurrences": 3
+  },
+  "すご～い！　大当たりですよ！\r\n桐生さん超運いいね<Color:255,200,200,255>⑮<Color:Default>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すご～い！　大当たりですよ！\r\n桐生さん超運いいね<Color:255,200,200,255>⑮<Color:Default>",
+   "occurrences": 2
+  },
+  "チョコスティックゲーム！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "チョコスティックゲーム！",
+   "occurrences": 1
+  },
+  "シャンパンコール！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "シャンパンコール！",
+   "occurrences": 1
+  },
+  "シャンパンタワー！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "シャンパンタワー！",
+   "occurrences": 1
+  },
+  "いらっしゃいませ。\r\n「ＥＬＩＳＥ」へようこそ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いらっしゃいませ。\r\n「ＥＬＩＳＥ」へようこそ。",
+   "occurrences": 1
+  },
+  "当店では最低でもセット料金８４００円、\r\nそれにサービス料金３１５０円が必要となります。\r\nご指名の場合は別途指名料３１５０円も加わります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "当店では最低でもセット料金８４００円、\r\nそれにサービス料金３１５０円が必要となります。\r\nご指名の場合は別途指名料３１５０円も加わります。",
+   "occurrences": 1
+  },
+  "ご入店されますか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ご入店されますか？",
+   "occurrences": 1
+  },
+  "フリーですね。こちらへどうぞ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フリーですね。こちらへどうぞ。",
+   "occurrences": 1
+  },
+  "ひなたさんをご指名ですね。こちらへどうぞ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひなたさんをご指名ですね。こちらへどうぞ。",
+   "occurrences": 1
+  },
+  "そうですか。\r\nまたのお越しをお待ちしております。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうですか。\r\nまたのお越しをお待ちしております。",
+   "occurrences": 1
+  },
+  "ひなたさんをご指名ですか？\r\n申し訳ありません……\r\n今ちょっと出勤してないんですよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひなたさんをご指名ですか？\r\n申し訳ありません……\r\n今ちょっと出勤してないんですよ。",
+   "occurrences": 1
+  },
+  "そうか……\r\nまた来る。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうか……\r\nまた来る。",
+   "occurrences": 1
+  },
+  "またのお越しを。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "またのお越しを。",
+   "occurrences": 1
+  },
+  "（しまった、手持ちの金が無いぞ……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（しまった、手持ちの金が無いぞ……）",
+   "occurrences": 1
+  },
+  "ちょっと待て！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ちょっと待て！",
+   "occurrences": 1
+  },
+  "どうされました？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうされました？",
+   "occurrences": 1
+  },
+  "すまんが、また後で来る……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すまんが、また後で来る……",
+   "occurrences": 1
+  },
+  "（最低１万５０００円は必要だな……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（最低１万５０００円は必要だな……）",
+   "occurrences": 1
+  },
+  "お会計はこちらになります。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お会計はこちらになります。",
+   "occurrences": 1
+  },
+  "そろそろお時間となりますが……\r\nご延長なさいますか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そろそろお時間となりますが……\r\nご延長なさいますか？",
+   "occurrences": 2
+  },
+  "ご延長で！　ごゆっくりお楽しみください。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ご延長で！　ごゆっくりお楽しみください。",
+   "occurrences": 1
+  },
+  "かしこまりました。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かしこまりました。",
+   "occurrences": 2
+  },
+  "（延長するには金が足りないな……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（延長するには金が足りないな……）",
+   "occurrences": 1
+  },
+  "いや、もう帰る。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、もう帰る。",
+   "occurrences": 1
+  },
+  "（なにか話題を振ってみるか……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（なにか話題を振ってみるか……）",
+   "occurrences": 1
+  },
+  "（なにか質問をしてみるか……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（なにか質問をしてみるか……）",
+   "occurrences": 1
+  },
+  "（なにか頼もうか……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（なにか頼もうか……）",
+   "occurrences": 1
+  },
+  "（プレゼントしてみるか……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（プレゼントしてみるか……）",
+   "occurrences": 1
+  },
+  "（アフターに誘ってみるか……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（アフターに誘ってみるか……）",
+   "occurrences": 1
+  },
+  "（もう帰るか……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（もう帰るか……）",
+   "occurrences": 1
+  },
+  "（なにを話そうか……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（なにを話そうか……）",
+   "occurrences": 1
+  },
+  "（なにについて聞こうか……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（なにについて聞こうか……）",
+   "occurrences": 1
+  },
+  "（どうする？）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（どうする？）",
+   "occurrences": 3
+  },
+  "（既にＯＫの返事をもらっている。\r\n　何をそんなに焦っているんだ……）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（既にＯＫの返事をもらっている。\r\n　何をそんなに焦っているんだ……）",
+   "occurrences": 1
+  },
+  "（既に一度誘って断られているじゃないか。\r\n　今回は諦めて、また別の機会に誘ってみよう）": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（既に一度誘って断られているじゃないか。\r\n　今回は諦めて、また別の機会に誘ってみよう）",
+   "occurrences": 1
+  },
+  "この店って、カラオケがやれる大きなステージが\r\nあるんですけど、私まだ使ったことなくて。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この店って、カラオケがやれる大きなステージが\r\nあるんですけど、私まだ使ったことなくて。",
+   "occurrences": 1
+  },
+  "ああ……　そう言えばそんなのがあったな。\r\n俺もこの店は何度か来たことあるが、\r\n使ってるのは一度も見たことないな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ……　そう言えばそんなのがあったな。\r\n俺もこの店は何度か来たことあるが、\r\n使ってるのは一度も見たことないな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "私、カラオケが超好きなんですよ♪\r\nだからもう使いたくてウズウズしてるんです♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "私、カラオケが超好きなんですよ♪\r\nだからもう使いたくてウズウズしてるんです♪",
+   "occurrences": 1
+  },
+  "ステージは燃えるな。俺もマイクスタンドを見ると\r\nついついノリノリで歌っちまうんだよな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ステージは燃えるな。俺もマイクスタンドを見ると\r\nついついノリノリで歌っちまうんだよな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "でしょー!?　だから私も“毎日ステージで歌える！”\r\nって超喜んだのに、そんなこと全然なくて残念……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でしょー!?　だから私も“毎日ステージで歌える！”\r\nって超喜んだのに、そんなこと全然なくて残念……",
+   "occurrences": 1
+  },
+  "最近はカラオケパブも人気らしいけどな。\r\nここはさすがに雰囲気が違いすぎる。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最近はカラオケパブも人気らしいけどな。\r\nここはさすがに雰囲気が違いすぎる。",
+   "occurrences": 1
+  },
+  "ステージは恥ずかしいな。\r\nさすがに見ず知らずの人間の前では\r\n歌えないだろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ステージは恥ずかしいな。\r\nさすがに見ず知らずの人間の前では\r\n歌えないだろう。",
+   "occurrences": 1
+  },
+  "えー？　超気持ちいいのに……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えー？　超気持ちいいのに……",
+   "occurrences": 1
+  },
+  "恥ずかしがらずにいっぺん歌ってみたらどうですか？\r\nテンション上がって絶対やみつきになりますから♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "恥ずかしがらずにいっぺん歌ってみたらどうですか？\r\nテンション上がって絶対やみつきになりますから♪",
+   "occurrences": 1
+  },
+  "そうは言われてもな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうは言われてもな……",
+   "occurrences": 1
+  },
+  "じゃあ俺がリクエストしようか？\r\nそしたら歌えるだろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "じゃあ俺がリクエストしようか？\r\nそしたら歌えるだろう。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "あー、それがあれって、\r\nクリスマスなんかのイベントの時や、\r\n貸切の時くらいしか使ってないみたいで。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あー、それがあれって、\r\nクリスマスなんかのイベントの時や、\r\n貸切の時くらいしか使ってないみたいで。",
+   "occurrences": 1
+  },
+  "なんだ、そうなのか。\r\nそれじゃ確かになかなか使う機会ないな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なんだ、そうなのか。\r\nそれじゃ確かになかなか使う機会ないな……",
+   "occurrences": 1
+  },
+  "だからイベントの時は来てくださいね♪\r\nリクエストされたらたくさん歌っちゃいますから♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "だからイベントの時は来てくださいね♪\r\nリクエストされたらたくさん歌っちゃいますから♪",
+   "occurrences": 1
+  },
+  "そんなにカラオケが好きなのか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなにカラオケが好きなのか？",
+   "occurrences": 1
+  },
+  "超好き♪　休みの日とか、\r\n下手したら１日中歌ってるかも♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "超好き♪　休みの日とか、\r\n下手したら１日中歌ってるかも♪",
+   "occurrences": 1
+  },
+  "おいおい……　さすがに１日中は言い過ぎだろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おいおい……　さすがに１日中は言い過ぎだろう。",
+   "occurrences": 1
+  },
+  "マジだし！　朝開店したら速攻フリータイムで入って\r\n１９時まで歌って、適当にご飯食べたら\r\nオールナイトで次の日の朝までとか超余裕♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "マジだし！　朝開店したら速攻フリータイムで入って\r\n１９時まで歌って、適当にご飯食べたら\r\nオールナイトで次の日の朝までとか超余裕♪",
+   "occurrences": 1
+  },
+  "それはすごいな。遊び続けるだけでもすごいが、\r\nよくそんな長時間付き合う仲間が集まるもんだ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それはすごいな。遊び続けるだけでもすごいが、\r\nよくそんな長時間付き合う仲間が集まるもんだ。",
+   "occurrences": 1
+  },
+  "まぁそれは途中からでも暇な人呼んだりして。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まぁそれは途中からでも暇な人呼んだりして。",
+   "occurrences": 1
+  },
+  "入れ替わり立ち替わりで、全員合わせると\r\n結構すごい人数になってるかも♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "入れ替わり立ち替わりで、全員合わせると\r\n結構すごい人数になってるかも♪",
+   "occurrences": 1
+  },
+  "大勢だと盛り上がるな。みんなでマイク回しながら\r\nパーティーソングを歌ったりするよな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大勢だと盛り上がるな。みんなでマイク回しながら\r\nパーティーソングを歌ったりするよな。",
+   "occurrences": 1
+  },
+  "あー、私そういうの無理……\r\nヒトが歌ってる時に割り込まれると超ムカつくし。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あー、私そういうの無理……\r\nヒトが歌ってる時に割り込まれると超ムカつくし。",
+   "occurrences": 1
+  },
+  "勝手にメドレー何曲も入れる人とか\r\nマジ空気読んでって感じ……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勝手にメドレー何曲も入れる人とか\r\nマジ空気読んでって感じ……",
+   "occurrences": 1
+  },
+  "……俺とはノリが違うようだな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……俺とはノリが違うようだな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "少人数の方がいい。そんなに人がいたら、\r\n自分が歌う番がなかなか来ないからな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "少人数の方がいい。そんなに人がいたら、\r\n自分が歌う番がなかなか来ないからな。",
+   "occurrences": 1
+  },
+  "あー、それはある！\r\nさすがに１時間に１回とかしか回って来ないと、\r\n暇すぎて携帯いじりたくなるのよね～……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あー、それはある！\r\nさすがに１時間に１回とかしか回って来ないと、\r\n暇すぎて携帯いじりたくなるのよね～……",
+   "occurrences": 1
+  },
+  "ま、４～５人が妥当なところだよな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ま、４～５人が妥当なところだよな。",
+   "occurrences": 1
+  },
+  "無理は良くない。\r\nそんなにずっと歌ってたら喉を痛めてしまうぞ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "無理は良くない。\r\nそんなにずっと歌ってたら喉を痛めてしまうぞ。",
+   "occurrences": 1
+  },
+  "別にずっと自分ひとりが歌ってる\r\nわけじゃないですし。人の歌聴いてる時間の方が\r\n長いから、全然大丈夫ですよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "別にずっと自分ひとりが歌ってる\r\nわけじゃないですし。人の歌聴いてる時間の方が\r\n長いから、全然大丈夫ですよ。",
+   "occurrences": 1
+  },
+  "それに、どっちかって言ったら、\r\nこの仕事の方がずっと喋りっぱなしで\r\nお酒も飲むから、喉に良くないですよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それに、どっちかって言ったら、\r\nこの仕事の方がずっと喋りっぱなしで\r\nお酒も飲むから、喉に良くないですよ。",
+   "occurrences": 1
+  },
+  "ここは空気も悪いしな。\r\nただ喋ってるだけと言っても、\r\n喉に相当な負担がかかってることは間違いない。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここは空気も悪いしな。\r\nただ喋ってるだけと言っても、\r\n喉に相当な負担がかかってることは間違いない。",
+   "occurrences": 1
+  },
+  "でしょ～!?　だからカラオケの方が絶対マシ！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でしょ～!?　だからカラオケの方が絶対マシ！",
+   "occurrences": 1
+  },
+  "あ、私カラオケする時は絶対禁煙の部屋にしてるの。\r\n吸いたい人は勝手に外で吸って、って。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、私カラオケする時は絶対禁煙の部屋にしてるの。\r\n吸いたい人は勝手に外で吸って、って。",
+   "occurrences": 1
+  },
+  "ま、さすがにタバコの煙が充満した部屋で\r\n歌うのは良くないよな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ま、さすがにタバコの煙が充満した部屋で\r\n歌うのは良くないよな……",
+   "occurrences": 1
+  },
+  "歌うよりはマシだ。\r\nたった一曲マジになって歌うだけでも\r\n喉に相当な負担がかかるはずだ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "歌うよりはマシだ。\r\nたった一曲マジになって歌うだけでも\r\n喉に相当な負担がかかるはずだ。",
+   "occurrences": 1
+  },
+  "それは声の出し方が良くないんですよ～！\r\n桐生さん、喉を使って声出してるでしょ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それは声の出し方が良くないんですよ～！\r\n桐生さん、喉を使って声出してるでしょ？",
+   "occurrences": 1
+  },
+  "そんなの当たり前だろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなの当たり前だろう。",
+   "occurrences": 1
+  },
+  "違いますって。声はお腹から出すんです！\r\nちゃんと腹式呼吸が出来てれば、\r\n喉を痛めなくても済むんですから。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "違いますって。声はお腹から出すんです！\r\nちゃんと腹式呼吸が出来てれば、\r\n喉を痛めなくても済むんですから。",
+   "occurrences": 1
+  },
+  "さすがにそんなのマスターするほど本腰入れて\r\nカラオケにのめりこめねぇな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さすがにそんなのマスターするほど本腰入れて\r\nカラオケにのめりこめねぇな……",
+   "occurrences": 1
+  },
+  "よく飽きないな。そんなに歌える曲があるのか？\r\n俺は大体２時間も歌えば十分なんだが……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よく飽きないな。そんなに歌える曲があるのか？\r\n俺は大体２時間も歌えば十分なんだが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "えー、なんかグダグダになってきたら\r\n机どかして踊ったり、適当に駄弁ってるから大丈夫。\r\n夜になると寝る人もいるし。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えー、なんかグダグダになってきたら\r\n机どかして踊ったり、適当に駄弁ってるから大丈夫。\r\n夜になると寝る人もいるし。",
+   "occurrences": 1
+  },
+  "音痴でも安心だな。歌うのが苦手で、\r\nずっと肩身狭い思いしてるヤツにとっては、\r\nそういうスタイルの方が楽だと思うぜ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "音痴でも安心だな。歌うのが苦手で、\r\nずっと肩身狭い思いしてるヤツにとっては、\r\nそういうスタイルの方が楽だと思うぜ。",
+   "occurrences": 1
+  },
+  "あー、むしろ私が音痴な人の歌聴くの無理……\r\n必死に自分の曲探すフリして、\r\n苦笑い堪えてるんですけど、割と苦行……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あー、むしろ私が音痴な人の歌聴くの無理……\r\n必死に自分の曲探すフリして、\r\n苦笑い堪えてるんですけど、割と苦行……",
+   "occurrences": 1
+  },
+  "気持ちはわからんでもないが……\r\nあまり露骨に態度に出ないようにしろよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "気持ちはわからんでもないが……\r\nあまり露骨に態度に出ないようにしろよ。",
+   "occurrences": 1
+  },
+  "家でやれ。そこまで好き放題やるんだったら、\r\n下手にカラオケなんて行くよりも、\r\nそっちの方がよっぽど融通が利くだろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "家でやれ。そこまで好き放題やるんだったら、\r\n下手にカラオケなんて行くよりも、\r\nそっちの方がよっぽど融通が利くだろう。",
+   "occurrences": 1
+  },
+  "あー、それもいいかもですねー。\r\n今は家でもカラオケできますし。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あー、それもいいかもですねー。\r\n今は家でもカラオケできますし。",
+   "occurrences": 1
+  },
+  "はしゃぎすぎて出禁くらったお店結構あるんで、\r\n今度からそうしようかな♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はしゃぎすぎて出禁くらったお店結構あるんで、\r\n今度からそうしようかな♪",
+   "occurrences": 1
+  },
+  "ま、近所迷惑にならないようにな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ま、近所迷惑にならないようにな……",
+   "occurrences": 1
+  },
+  "桐生さん、レバ刺しって好き？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "桐生さん、レバ刺しって好き？",
+   "occurrences": 1
+  },
+  "ああ。焼肉を食いに行った時は、\r\n大体いつも食べてるような気がするな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。焼肉を食いに行った時は、\r\n大体いつも食べてるような気がするな。",
+   "occurrences": 1
+  },
+  "フフ♪　私もレバ刺し大好きなんですよ～♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フフ♪　私もレバ刺し大好きなんですよ～♪",
+   "occurrences": 1
+  },
+  "そうか。そういう女、結構多いよな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうか。そういう女、結構多いよな。",
+   "occurrences": 1
+  },
+  "ですよね～！　女だけで焼肉行った時なんて、\r\nひとりひと皿とか頼んでますから♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ですよね～！　女だけで焼肉行った時なんて、\r\nひとりひと皿とか頼んでますから♪",
+   "occurrences": 1
+  },
+  "フッ、それはすごいな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、それはすごいな。",
+   "occurrences": 1
+  },
+  "珍しいな。女はあまり食べないものと\r\n思っていたが……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "珍しいな。女はあまり食べないものと\r\n思っていたが……",
+   "occurrences": 1
+  },
+  "えー？　そんなことないですよ。\r\n私の友達もみんな普通に食べますし。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えー？　そんなことないですよ。\r\n私の友達もみんな普通に食べますし。",
+   "occurrences": 1
+  },
+  "ほう。それは知らなかったな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう。それは知らなかったな。",
+   "occurrences": 1
+  },
+  "貧血の時とか、超鉄分欲しくなっちゃって。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "貧血の時とか、超鉄分欲しくなっちゃって。",
+   "occurrences": 1
+  },
+  "でも、最近レバ刺しが食べられなくて\r\nつらいんですよ～！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でも、最近レバ刺しが食べられなくて\r\nつらいんですよ～！",
+   "occurrences": 1
+  },
+  "我慢するしかないな。\r\n生肉の安全がしっかり守られるようになるまで、\r\n当分食べられないんじゃないか。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "我慢するしかないな。\r\n生肉の安全がしっかり守られるようになるまで、\r\n当分食べられないんじゃないか。",
+   "occurrences": 1
+  },
+  "そんなのやだ！\r\n安全じゃなくてもいいから食べたい！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなのやだ！\r\n安全じゃなくてもいいから食べたい！",
+   "occurrences": 1
+  },
+  "本当に好きなんだな。\r\nそれじゃ、どこか食べられる場所を探すしかないな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本当に好きなんだな。\r\nそれじゃ、どこか食べられる場所を探すしかないな。",
+   "occurrences": 1
+  },
+  "桐生さん、いい店知らない？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "桐生さん、いい店知らない？",
+   "occurrences": 1
+  },
+  "いや……　東京に来るのは久々だからな。\r\n最近の事情はちょっとわからないな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや……　東京に来るのは久々だからな。\r\n最近の事情はちょっとわからないな。",
+   "occurrences": 1
+  },
+  "そうなんだ……　神室町ならどこか\r\nそういうお店ありそうなんですけどね～……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうなんだ……　神室町ならどこか\r\nそういうお店ありそうなんですけどね～……",
+   "occurrences": 1
+  },
+  "俺も探してみるかな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "俺も探してみるかな……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "下手したら死ぬぞ。食えてた今までが\r\nラッキーだと思って、諦めるんだな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "下手したら死ぬぞ。食えてた今までが\r\nラッキーだと思って、諦めるんだな。",
+   "occurrences": 1
+  },
+  "え～？　桐生さんだって、タバコやお酒、\r\n身体に悪くてもやめないでしょ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "え～？　桐生さんだって、タバコやお酒、\r\n身体に悪くてもやめないでしょ？",
+   "occurrences": 1
+  },
+  "言われてみれば……\r\n身体によくないものだと知りつつも、\r\nなんだかんだでやめられないな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "言われてみれば……\r\n身体によくないものだと知りつつも、\r\nなんだかんだでやめられないな。",
+   "occurrences": 1
+  },
+  "でしょ～？　だからレバ刺しだって\r\n食べてもいいんですよ！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でしょ～？　だからレバ刺しだって\r\n食べてもいいんですよ！",
+   "occurrences": 1
+  },
+  "う～む、果たしてそうなんだろうか……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "う～む、果たしてそうなんだろうか……",
+   "occurrences": 1
+  },
+  "そういうことじゃない。\r\nタバコや酒はやり過ぎなければ死にはしないが、\r\nレバ刺しは危険なものはちょっとでも危険なんだ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そういうことじゃない。\r\nタバコや酒はやり過ぎなければ死にはしないが、\r\nレバ刺しは危険なものはちょっとでも危険なんだ。",
+   "occurrences": 1
+  },
+  "ホントに～？　レバ刺しで死んだ人と、\r\nお酒やタバコで死んだ人だったら、\r\n絶対レバ刺しで死んだ人の方が少ないって！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ホントに～？　レバ刺しで死んだ人と、\r\nお酒やタバコで死んだ人だったら、\r\n絶対レバ刺しで死んだ人の方が少ないって！",
+   "occurrences": 1
+  },
+  "わかるようでわからん理屈だな。\r\nま、俺もきちんと安全に管理されてるところなら\r\n大丈夫だと思うが……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わかるようでわからん理屈だな。\r\nま、俺もきちんと安全に管理されてるところなら\r\n大丈夫だと思うが……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "違うものを食べたらどうだ。\r\n似たような食べ物なら他にもあるだろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "違うものを食べたらどうだ。\r\n似たような食べ物なら他にもあるだろう。",
+   "occurrences": 1
+  },
+  "なにそれ。どんなの？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なにそれ。どんなの？",
+   "occurrences": 1
+  },
+  "たしか……　最近はレバ刺し風のこんにゃくが\r\n人気だって客から聞いたことがあるな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "たしか……　最近はレバ刺し風のこんにゃくが\r\n人気だって客から聞いたことがあるな。",
+   "occurrences": 1
+  },
+  "こんにゃく!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "こんにゃく!?",
+   "occurrences": 1
+  },
+  "ああ。ごま油をかけて食べれば、\r\nかなりレバ刺しに似た感覚がして美味しいらしいぞ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。ごま油をかけて食べれば、\r\nかなりレバ刺しに似た感覚がして美味しいらしいぞ。",
+   "occurrences": 1
+  },
+  "へ～、そんなのあるんだ!?　今度食べてみよ♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "へ～、そんなのあるんだ!?　今度食べてみよ♪",
+   "occurrences": 1
+  },
+  "ま、それじゃ鉄分は補えないと思うがな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ま、それじゃ鉄分は補えないと思うがな……",
+   "occurrences": 1
+  },
+  "探せばあるだろ。メニューに載ってなくても、\r\n店員に言えば出してくれる店も多いんじゃないか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "探せばあるだろ。メニューに載ってなくても、\r\n店員に言えば出してくれる店も多いんじゃないか？",
+   "occurrences": 1
+  },
+  "それが……　ちょっと前まではその手で\r\nいけたんですけど、最近はもうダメなんですよ。\r\nお店の方でももう用意してないって。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それが……　ちょっと前まではその手で\r\nいけたんですけど、最近はもうダメなんですよ。\r\nお店の方でももう用意してないって。",
+   "occurrences": 1
+  },
+  "そうなのか……　それじゃ本格的に\r\n食えなくなってるんだな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうなのか……　それじゃ本格的に\r\n食えなくなってるんだな。",
+   "occurrences": 1
+  },
+  "はぁ……　食中毒なんてどの食べ物でも\r\n多かれ少なかれあるのに、レバ刺しだけ差別ですよ。\r\n差別超反対……！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はぁ……　食中毒なんてどの食べ物でも\r\n多かれ少なかれあるのに、レバ刺しだけ差別ですよ。\r\n差別超反対……！",
+   "occurrences": 1
+  },
+  "また食べられるようになるのを祈るしかないな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "また食べられるようになるのを祈るしかないな……",
+   "occurrences": 1
+  },
+  "諦めるな。一見の客にはそう言ってるだけで、\r\n絶対に用意してある。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "諦めるな。一見の客にはそう言ってるだけで、\r\n絶対に用意してある。",
+   "occurrences": 1
+  },
+  "店が用意してても、出してくれないんじゃ\r\n意味ないじゃないですか。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "店が用意してても、出してくれないんじゃ\r\n意味ないじゃないですか。",
+   "occurrences": 1
+  },
+  "裏メニューってのはそういうもんだ。\r\n贔屓にしてくれる常連に出す分だけ用意しておいて、\r\n普通の客には出さないとかな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "裏メニューってのはそういうもんだ。\r\n贔屓にしてくれる常連に出す分だけ用意しておいて、\r\n普通の客には出さないとかな。",
+   "occurrences": 1
+  },
+  "何度も通って頼み込めば、\r\nきっと出してくれるようになるさ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何度も通って頼み込めば、\r\nきっと出してくれるようになるさ。",
+   "occurrences": 1
+  },
+  "そうなんだ♪　じゃあ私も頑張って常連になる！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうなんだ♪　じゃあ私も頑張って常連になる！",
+   "occurrences": 1
+  },
+  "何見てるんだ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何見てるんだ？",
+   "occurrences": 1
+  },
+  "あ、ごめんなさい。\r\nちょっとつぶやき見てただけ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、ごめんなさい。\r\nちょっとつぶやき見てただけ。",
+   "occurrences": 1
+  },
+  "ネットか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ネットか？",
+   "occurrences": 1
+  },
+  "うん。今みんな何してるのかな～って思って。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うん。今みんな何してるのかな～って思って。",
+   "occurrences": 1
+  },
+  "最近の若いヤツはみんな携帯いじってるからな。\r\n向かい合って飯食ってるのに、２人とも携帯を\r\nいじってるなんて光景、しょっちゅう見かけるぞ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最近の若いヤツはみんな携帯いじってるからな。\r\n向かい合って飯食ってるのに、２人とも携帯を\r\nいじってるなんて光景、しょっちゅう見かけるぞ。",
+   "occurrences": 1
+  },
+  "あるある。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あるある。",
+   "occurrences": 1
+  },
+  "失礼だろう。他人としゃべってる時くらい\r\nしまったらどうだ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "失礼だろう。他人としゃべってる時くらい\r\nしまったらどうだ？",
+   "occurrences": 1
+  },
+  "あ、ごめんなさい……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、ごめんなさい……",
+   "occurrences": 1
+  },
+  "世代の違いを痛感するな。\r\n俺がお前くらいの歳の時には、\r\n携帯電話なんてあったかどうか怪しいくらいだ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "世代の違いを痛感するな。\r\n俺がお前くらいの歳の時には、\r\n携帯電話なんてあったかどうか怪しいくらいだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "え～、ホントですか!?\r\n携帯ないとか信じらんないんですけど！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "え～、ホントですか!?\r\n携帯ないとか信じらんないんですけど！",
+   "occurrences": 1
+  },
+  "俺は逆に、どうして若者がそんなに\r\n携帯を手放さないのかが理解できないな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "俺は逆に、どうして若者がそんなに\r\n携帯を手放さないのかが理解できないな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "私ね、携帯依存症なの！　ぼーっとしてるってことが\r\nできなくて、少しでも時間が空くと\r\nすぐに携帯いじっちゃうの。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "私ね、携帯依存症なの！　ぼーっとしてるってことが\r\nできなくて、少しでも時間が空くと\r\nすぐに携帯いじっちゃうの。",
+   "occurrences": 1
+  },
+  "暇つぶしか。俺も仕事で客が来なくて退屈な時、\r\n意味もなく新聞を読み返したりするしな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "暇つぶしか。俺も仕事で客が来なくて退屈な時、\r\n意味もなく新聞を読み返したりするしな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "でしょ～!?　雑誌はすぐ読み終わっちゃうけど、\r\nネットは次から次に更新されるから飽きないし♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でしょ～!?　雑誌はすぐ読み終わっちゃうけど、\r\nネットは次から次に更新されるから飽きないし♪",
+   "occurrences": 1
+  },
+  "そうなのか。俺は携帯なんてロクに\r\n使いこなせないからな。\r\n一体何をそんなに見てるんだ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうなのか。俺は携帯なんてロクに\r\n使いこなせないからな。\r\n一体何をそんなに見てるんだ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "ん～、みんなの日記読んだり、\r\nつぶやきにレスしたり、アプリいじってたり……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ん～、みんなの日記読んだり、\r\nつぶやきにレスしたり、アプリいじってたり……",
+   "occurrences": 1
+  },
+  "それでもちゃんと全部追おうとすると、\r\nすごい時間かかっちゃうから、\r\nさすがに一部だけにしといてますけどね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それでもちゃんと全部追おうとすると、\r\nすごい時間かかっちゃうから、\r\nさすがに一部だけにしといてますけどね。",
+   "occurrences": 1
+  },
+  "友達が多いんだな。俺なんてそんなに知り合い\r\n多くないから、あっという間に観終わっちまうぞ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "友達が多いんだな。俺なんてそんなに知り合い\r\n多くないから、あっという間に観終わっちまうぞ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "じゃあ桐生さん、私と繋がっちゃいます？\r\nそしたらきっと画面が私のつぶやきで埋まるから、\r\nきっと飽きないと思いますよ♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "じゃあ桐生さん、私と繋がっちゃいます？\r\nそしたらきっと画面が私のつぶやきで埋まるから、\r\nきっと飽きないと思いますよ♪",
+   "occurrences": 1
+  },
+  "フッ、それはそれで大変そうだな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、それはそれで大変そうだな……",
+   "occurrences": 1
+  },
+  "全部読む必要はないだろう。\r\n友達が多いヤツはそんなことまず不可能だろうし。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全部読む必要はないだろう。\r\n友達が多いヤツはそんなことまず不可能だろうし。",
+   "occurrences": 1
+  },
+  "そうそう。とりあえず友達になってみたけど、\r\nほとんど関わりのない人とかも多いし……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうそう。とりあえず友達になってみたけど、\r\nほとんど関わりのない人とかも多いし……",
+   "occurrences": 1
+  },
+  "結局親しい友達用のアカウントを別に作って、\r\nそっちばっかりになったりするんですよねぇ……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "結局親しい友達用のアカウントを別に作って、\r\nそっちばっかりになったりするんですよねぇ……",
+   "occurrences": 1
+  },
+  "若いヤツらも人間関係に苦労してるんだな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "若いヤツらも人間関係に苦労してるんだな。",
+   "occurrences": 1
+  },
+  "他のこともしたらどうだ？\r\n他愛もないつぶやきばかり読んでたって、\r\n何にもならないだろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "他のこともしたらどうだ？\r\n他愛もないつぶやきばかり読んでたって、\r\n何にもならないだろう。",
+   "occurrences": 1
+  },
+  "ええ～？　そんなの私の勝手じゃないですか！\r\n私だって１日中携帯見てるわけじゃないんですから、\r\n他のことも色々やってますよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ～？　そんなの私の勝手じゃないですか！\r\n私だって１日中携帯見てるわけじゃないんですから、\r\n他のことも色々やってますよ。",
+   "occurrences": 1
+  },
+  "そもそも今は接客中なんだがな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そもそも今は接客中なんだがな……",
+   "occurrences": 1
+  },
+  "逆に疲れないか？　俺はテレビみたいに、\r\n時間がきたらそれで終わりっていうものの方が、\r\n終わりがはっきりしていて好きだがな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "逆に疲れないか？　俺はテレビみたいに、\r\n時間がきたらそれで終わりっていうものの方が、\r\n終わりがはっきりしていて好きだがな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "あー、でも、やっぱり夜はみんな寝ますから。\r\n大体朝方はみんな更新がバッタリやみますね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あー、でも、やっぱり夜はみんな寝ますから。\r\n大体朝方はみんな更新がバッタリやみますね。",
+   "occurrences": 1
+  },
+  "そうなのか。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうなのか。",
+   "occurrences": 1
+  },
+  "でもね、そういう時に限ってまだ更新してる人とか、\r\nあ～、きっと今日は夜勤なんだろうなって。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でもね、そういう時に限ってまだ更新してる人とか、\r\nあ～、きっと今日は夜勤なんだろうなって。",
+   "occurrences": 1
+  },
+  "だから“仕事頑張れ！”って\r\n書きこんだりするんですよ♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "だから“仕事頑張れ！”って\r\n書きこんだりするんですよ♪",
+   "occurrences": 1
+  },
+  "なるほど、仲間の様子がちゃんとわかるんだな。\r\nそれはちょっと面白そうだ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほど、仲間の様子がちゃんとわかるんだな。\r\nそれはちょっと面白そうだ。",
+   "occurrences": 1
+  },
+  "完全に病気だな。\r\nちょっとくらい使用を控えた方がいいんじゃないか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "完全に病気だな。\r\nちょっとくらい使用を控えた方がいいんじゃないか？",
+   "occurrences": 1
+  },
+  "そんな風に言わなくてもいいじゃないですか。\r\n桐生さんだってタバコ我慢できないでしょ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんな風に言わなくてもいいじゃないですか。\r\n桐生さんだってタバコ我慢できないでしょ？",
+   "occurrences": 1
+  },
+  "ん？　まぁ、それはそうだが……\r\n運転中は禁煙だから、あんまり運転時間が長いと\r\n多少イライラしてくるな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ん？　まぁ、それはそうだが……\r\n運転中は禁煙だから、あんまり運転時間が長いと\r\n多少イライラしてくるな。",
+   "occurrences": 1
+  },
+  "でしょ～!?　それと同じ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でしょ～!?　それと同じ。",
+   "occurrences": 1
+  },
+  "なるほど。それなら理解できる。\r\n仕事中の息抜きは必要だもんな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほど。それなら理解できる。\r\n仕事中の息抜きは必要だもんな。",
+   "occurrences": 1
+  },
+  "そうそうそう、桐生さん話わかる～♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうそうそう、桐生さん話わかる～♪",
+   "occurrences": 1
+  },
+  "ま、客によっては激怒してもおかしくないから\r\nほどほどにな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ま、客によっては激怒してもおかしくないから\r\nほどほどにな……",
+   "occurrences": 1
+  },
+  "いや違うだろう。\r\n俺はちゃんと仕事中は我慢している。\r\nその理屈ならお前も我慢しないとおかしいだろうが。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや違うだろう。\r\n俺はちゃんと仕事中は我慢している。\r\nその理屈ならお前も我慢しないとおかしいだろうが。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "あ、バレた？　桐生さん鋭い～♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、バレた？　桐生さん鋭い～♪",
+   "occurrences": 1
+  },
+  "まったく……　本当に大丈夫か？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まったく……　本当に大丈夫か？",
+   "occurrences": 1
+  },
+  "今は仕事中だろう。接客に集中しろ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今は仕事中だろう。接客に集中しろ。",
+   "occurrences": 1
+  },
+  "だからね、定期的に携帯さわってないと、\r\n集中力が切れちゃうんですよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "だからね、定期的に携帯さわってないと、\r\n集中力が切れちゃうんですよ。",
+   "occurrences": 1
+  },
+  "もう帰れよ。そしたら好きなだけできるだろう？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう帰れよ。そしたら好きなだけできるだろう？",
+   "occurrences": 1
+  },
+  "でもね、この前仕事中に充電切れて、もう無理だから\r\n帰るって店長に言ったら、“ふざけんな！”って\r\n怒られて、帰してくれなかったの……　ひどくない？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でもね、この前仕事中に充電切れて、もう無理だから\r\n帰るって店長に言ったら、“ふざけんな！”って\r\n怒られて、帰してくれなかったの……　ひどくない？",
+   "occurrences": 1
+  },
+  "ひどいな。こんだけ大きい店なら、\r\nひとりくらいいなくたってどうにかなるだろうに。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひどいな。こんだけ大きい店なら、\r\nひとりくらいいなくたってどうにかなるだろうに。",
+   "occurrences": 1
+  },
+  "ですよね～？　桐生さんが店長だったらいいのに……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ですよね～？　桐生さんが店長だったらいいのに……",
+   "occurrences": 1
+  },
+  "俺が店長だったらお前を雇うかどうか、だな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "俺が店長だったらお前を雇うかどうか、だな……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "ひどくない。当然の反応だろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひどくない。当然の反応だろう。",
+   "occurrences": 1
+  },
+  "え～？　もうちょっと若い子の気持ち、\r\nわかるようになった方がいいですよ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "え～？　もうちょっと若い子の気持ち、\r\nわかるようになった方がいいですよ？",
+   "occurrences": 1
+  },
+  "それはこっちの台詞だ……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それはこっちの台詞だ……",
+   "occurrences": 1
+  },
+  "桐生さんは家から職場は近いんですか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "桐生さんは家から職場は近いんですか？",
+   "occurrences": 1
+  },
+  "そうだな。徒歩で通える距離だ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうだな。徒歩で通える距離だ。",
+   "occurrences": 1
+  },
+  "いいな～。私、ここから家まで、\r\n電車で１時間くらいかかるんですけど、疲れてると\r\n家まで帰るのが面倒だったりするんですよね……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いいな～。私、ここから家まで、\r\n電車で１時間くらいかかるんですけど、疲れてると\r\n家まで帰るのが面倒だったりするんですよね……",
+   "occurrences": 1
+  },
+  "１時間は長いな。待ち時間や乗り換えも含めると、\r\nもっとかかるだろうし。\r\n毎日通勤してると確実に疲れが溜まるだろうな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１時間は長いな。待ち時間や乗り換えも含めると、\r\nもっとかかるだろうし。\r\n毎日通勤してると確実に疲れが溜まるだろうな。",
+   "occurrences": 1
+  },
+  "そうなんですよー。\r\n家が近ければ通勤にかかる時間も\r\n他のことに充てられるんですけどね～……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうなんですよー。\r\n家が近ければ通勤にかかる時間も\r\n他のことに充てられるんですけどね～……",
+   "occurrences": 1
+  },
+  "引っ越せばいい。実家を出るいい機会じゃないか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "引っ越せばいい。実家を出るいい機会じゃないか？",
+   "occurrences": 1
+  },
+  "そうですね～……\r\nでもこのあたりは家賃が馬鹿高いし、\r\nもっと貯金できるまでは実家にいたいんですよねー。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうですね～……\r\nでもこのあたりは家賃が馬鹿高いし、\r\nもっと貯金できるまでは実家にいたいんですよねー。",
+   "occurrences": 1
+  },
+  "東京はワンルームでも相当なもんだからな……\r\n女のひとり暮らしは不用心だし、\r\n確かに実家暮らしの方がいいかも知れん。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "東京はワンルームでも相当なもんだからな……\r\n女のひとり暮らしは不用心だし、\r\n確かに実家暮らしの方がいいかも知れん。",
+   "occurrences": 1
+  },
+  "職場に近いのも考えものだ。\r\n出勤の時間もルーズになりがちだし、\r\n帰りも近いからと仕事をダラダラさぼりがちになる。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "職場に近いのも考えものだ。\r\n出勤の時間もルーズになりがちだし、\r\n帰りも近いからと仕事をダラダラさぼりがちになる。",
+   "occurrences": 1
+  },
+  "あ、私まさにそういうタイプ♪\r\n大学が家のすぐそばだったんだけど、\r\nいつも講義に遅刻ギリギリで行ってたの。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、私まさにそういうタイプ♪\r\n大学が家のすぐそばだったんだけど、\r\nいつも講義に遅刻ギリギリで行ってたの。",
+   "occurrences": 1
+  },
+  "遠くから２時間かけて来てた友達に、\r\n“なんでアンタが遅刻すんのよ！”\r\nって怒られてました♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遠くから２時間かけて来てた友達に、\r\n“なんでアンタが遅刻すんのよ！”\r\nって怒られてました♪",
+   "occurrences": 1
+  },
+  "おいおい、自慢することじゃないぞ……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おいおい、自慢することじゃないぞ……",
+   "occurrences": 1
+  },
+  "色々突き詰めていくと、この仕事辞めるしか\r\n選択肢がなさそうなんですよね……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "色々突き詰めていくと、この仕事辞めるしか\r\n選択肢がなさそうなんですよね……",
+   "occurrences": 1
+  },
+  "それもアリかもな。\r\n金と時間、どっちを大事にするかはお前次第だ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それもアリかもな。\r\n金と時間、どっちを大事にするかはお前次第だ。",
+   "occurrences": 1
+  },
+  "え～、私が辞めちゃってもいいんですか？\r\n桐生さん、結構ドライなんですね……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "え～、私が辞めちゃってもいいんですか？\r\n桐生さん、結構ドライなんですね……",
+   "occurrences": 1
+  },
+  "いや、真面目に相談に乗ってやったんじゃないか。\r\n今は俺のことよりお前のことの方が大事だろう。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、真面目に相談に乗ってやったんじゃないか。\r\n今は俺のことよりお前のことの方が大事だろう。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "そんなこと言って……　こんな愚痴聞かされて、\r\n嫌々付き合ってたりしません？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなこと言って……　こんな愚痴聞かされて、\r\n嫌々付き合ってたりしません？",
+   "occurrences": 1
+  },
+  "わかってるなら言うなよ。\r\n客の前で愚痴をこぼしちゃダメだろうが。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わかってるなら言うなよ。\r\n客の前で愚痴をこぼしちゃダメだろうが。",
+   "occurrences": 1
+  },
+  "ですよね～。これから気をつけまーす……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ですよね～。これから気をつけまーす……",
+   "occurrences": 1
+  },
+  "あまり反省してないな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あまり反省してないな……",
+   "occurrences": 1
+  },
+  "そんなことはない。\r\nむしろ、俺に心を開いてくれる証拠だと思って\r\n嬉しいくらいだ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなことはない。\r\nむしろ、俺に心を開いてくれる証拠だと思って\r\n嬉しいくらいだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "アハハ♪　うまいこと誤魔化しますね～♪\r\nじゃあ私もそう思っておきます♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アハハ♪　うまいこと誤魔化しますね～♪\r\nじゃあ私もそう思っておきます♪",
+   "occurrences": 1
+  },
+  "やれやれ……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やれやれ……",
+   "occurrences": 1
+  },
+  "我慢するしかない。俺も仕事で客を遠くまで\r\n乗せていった日は帰りがとても遅くなることがある。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "我慢するしかない。俺も仕事で客を遠くまで\r\n乗せていった日は帰りがとても遅くなることがある。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "だが、そういう時は、運賃もしっかり\r\nもらってるからな。時間を損した代わりに\r\n金を稼いだと思えば儲けものだ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "だが、そういう時は、運賃もしっかり\r\nもらってるからな。時間を損した代わりに\r\n金を稼いだと思えば儲けものだ。",
+   "occurrences": 1
+  },
+  "あ、そっか～！　だからキャバ嬢の給料も\r\n普通のバイトに比べて高いのかな？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、そっか～！　だからキャバ嬢の給料も\r\n普通のバイトに比べて高いのかな？",
+   "occurrences": 1
+  },
+  "なんか納得しちゃった♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なんか納得しちゃった♪",
+   "occurrences": 1
+  },
+  "フッ、世の中ってのはうまくできてるもんだな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、世の中ってのはうまくできてるもんだな……",
+   "occurrences": 1
+  },
+  "家の近くで働けばいい。\r\nこの近くに引っ越すよりもよっぽど安上がりだぞ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "家の近くで働けばいい。\r\nこの近くに引っ越すよりもよっぽど安上がりだぞ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "そんなのダメに決まってるじゃない……\r\n知り合いがお店に来たら超気まずいでしょ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなのダメに決まってるじゃない……\r\n知り合いがお店に来たら超気まずいでしょ？",
+   "occurrences": 1
+  },
+  "そうか……　地元で働くと色々と面倒なんだな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうか……　地元で働くと色々と面倒なんだな。",
+   "occurrences": 1
+  },
+  "だから働くのは可能な限り遠くにしないと。\r\nま、この仕事選んだ以上、そういう面倒は\r\n覚悟の上なんですけどね～……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "だから働くのは可能な限り遠くにしないと。\r\nま、この仕事選んだ以上、そういう面倒は\r\n覚悟の上なんですけどね～……",
+   "occurrences": 1
+  },
+  "大変なんだな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大変なんだな……",
+   "occurrences": 1
+  },
+  "１時間なんてすぐだろ。さすがに朝方なら\r\n電車も空いてて、席に座れるだろうしな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１時間なんてすぐだろ。さすがに朝方なら\r\n電車も空いてて、席に座れるだろうしな。",
+   "occurrences": 1
+  },
+  "あー、私、電車で座ると確実に寝るんですよ。\r\nだからいつも必ず立ってるようにしてるんです。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あー、私、電車で座ると確実に寝るんですよ。\r\nだからいつも必ず立ってるようにしてるんです。",
+   "occurrences": 1
+  },
+  "健康的だな。車内では常に立ってるようにすれば\r\n足腰も鍛えられていいと思うぞ。\r\nそういう美容エクササイズもあるらしいしな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "健康的だな。車内では常に立ってるようにすれば\r\n足腰も鍛えられていいと思うぞ。\r\nそういう美容エクササイズもあるらしいしな。",
+   "occurrences": 1
+  },
+  "え、ホント？　知らなかった♪\r\nそれじゃこれからも頑張って立つようにしよ♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "え、ホント？　知らなかった♪\r\nそれじゃこれからも頑張って立つようにしよ♪",
+   "occurrences": 1
+  },
+  "寝ればいいじゃないか。\r\n仕事の疲れも取れると思うぞ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寝ればいいじゃないか。\r\n仕事の疲れも取れると思うぞ。",
+   "occurrences": 1
+  },
+  "ダメですよ～。私、一度寝たら\r\nマジ起きないんですから。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダメですよ～。私、一度寝たら\r\nマジ起きないんですから。",
+   "occurrences": 1
+  },
+  "目的の駅の前でちょうど目が覚めたりしないか？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "目的の駅の前でちょうど目が覚めたりしないか？",
+   "occurrences": 1
+  },
+  "ないない！　目覚ましかけてもダメなんですから。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ないない！　目覚ましかけてもダメなんですから。",
+   "occurrences": 1
+  },
+  "電車の中って、揺れが心地よくて、\r\nすごくよく眠れちゃうんですよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "電車の中って、揺れが心地よくて、\r\nすごくよく眠れちゃうんですよ。",
+   "occurrences": 1
+  },
+  "ぐるぐる回ってるから終点で\r\n車掌さんに起こされることもないし。\r\nホテル山手マジ便利♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ぐるぐる回ってるから終点で\r\n車掌さんに起こされることもないし。\r\nホテル山手マジ便利♪",
+   "occurrences": 1
+  },
+  "それはいいな。この時期、電車の中は暖房も\r\n効いてて暖かいよな。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それはいいな。この時期、電車の中は暖房も\r\n効いてて暖かいよな。",
+   "occurrences": 1
+  },
+  "そうそう♪　家にいるよりよっぽど経済的♪\r\n何時間でも乗ってられちゃいますよ♪": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうそう♪　家にいるよりよっぽど経済的♪\r\n何時間でも乗ってられちゃいますよ♪",
+   "occurrences": 1
+  },
+  "なんか目的を見失ってるような気もするが……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なんか目的を見失ってるような気もするが……",
+   "occurrences": 1
+  },
+  "迷惑だろう。ちゃんと乗ってる分だけ金払えよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "迷惑だろう。ちゃんと乗ってる分だけ金払えよ。",
+   "occurrences": 1
+  },
+  "え？　どうやって？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "え？　どうやって？",
+   "occurrences": 1
+  },
+  "どうやってって……\r\n……どうやるんだろうな？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうやってって……\r\n……どうやるんだろうな？",
+   "occurrences": 1
+  },
+  "でしょ～!?　自動改札なんだから払いようが\r\nないじゃん！　だから払わなくていいんですー。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でしょ～!?　自動改札なんだから払いようが\r\nないじゃん！　だから払わなくていいんですー。",
+   "occurrences": 1
+  },
+  "うーむ、納得がいかんな……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うーむ、納得がいかんな……",
+   "occurrences": 1
+  }
+ }
+}

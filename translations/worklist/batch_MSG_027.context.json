@@ -1,0 +1,2516 @@
+{
+ "batch": "batch_MSG_027.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Very well. Then, I will make the preparations.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "分かりました。\r\nそれでは、準備します。",
+   "occurrences": 4
+  },
+  "No, now's not the right time. I'll have to do it later.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、今日は都合が悪い。\r\nまた今度にさせてもらいたい。",
+   "occurrences": 2
+  },
+  "All right, I'm ready.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "参加させてもらおう。",
+   "occurrences": 2
+  },
+  "(I've never danced in front of this many people before. I'm getting kinda nervous...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（これだけの人間の前で踊るのははじめてだ。\r\n　少し緊張するな……）",
+   "occurrences": 2
+  },
+  "Thank you for waiting. And now, our very own Saito Hajime-san will be treating us to a performance of Fubuki Kouta. Saito-san, if you would...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それではお待たせしました。\r\n踊るのは、斎藤一さんです。\r\n「吹雪小唄」。どうぞ……！",
+   "occurrences": 2
+  },
+  "Oh, Saito-san. I've been waiting for you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、斎藤さん。お待ちしてましたわよ。",
+   "occurrences": 1
+  },
+  "Is everything all right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……どうかしたのか？",
+   "occurrences": 1
+  },
+  "I mentioned it before, didn't I? Those I recognize as top-notch will participate in a special performance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "以前、ちらっとお話ししたでしょう？\r\nわたくしが一流と認めた方には「お披露目会」に\r\n出ていただく、と……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Oh, right... Wait, you want me to...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、ああ。\r\nそれは、もしかして……",
+   "occurrences": 1
+  },
+  "That's right. I'd like to feature you in the performance, Saito-san.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。斎藤さんに「お披露目会」に\r\n出ていただきたいの。",
+   "occurrences": 1
+  },
+  "Hm!? Are you sure?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "！　……いいのか？",
+   "occurrences": 1
+  },
+  "Absolutely. Thanks to your hard work and determination, you've turned what was once natural elegance into a style all your own.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。あなたは元々持っている華を活かしつつも\r\nこつこつと努力を重ね、他の人に真似できない\r\n独自の演舞を作り上げています。",
+   "occurrences": 1
+  },
+  "That's top-notch, if you ask me. And I'd be delighted to have it recognized.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わたくしは、そんなあなたの姿勢と舞いを……\r\n一流と認定したいと思います。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "I see. Well, it means a lot that you'd think so.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……そうか。\r\n評価していただけて、ありがたい。",
+   "occurrences": 1
+  },
+  "Ohoho. By the way, I had mentioned this earlier as well, but you'll be dancing Fubuki Kouta, the most challenging dance of all.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おほほ。ちなみに以前にもお伝えしましたが、\r\n「お披露目会」では、「吹雪小唄」の\r\n最難関振付を踊っていただきます。",
+   "occurrences": 1
+  },
+  "Fubuki Kouta, huh...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「吹雪小唄」の最難関か……",
+   "occurrences": 2
+  },
+  "That's right. Provided you're ready, Saito-san, I'd like to organize the performance as soon as possible.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。斎藤さんの準備がよろしければ、\r\nすぐにでも「お披露目会」を行いたいと思います。",
+   "occurrences": 1
+  },
+  "However, if you feel you still need practice, that's perfectly fine too.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ただ……　まだ練習がしたいようでしたら、\r\nいつものように練習していただいて構いません。",
+   "occurrences": 1
+  },
+  "Practice will cost you 1,000 mon. I won't be charging you for the performance. What will it be, Saito-san?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "練習は１０００文いただきます。\r\nお披露目会ならお代はいただきません。\r\nどういたしますか？",
+   "occurrences": 1
+  },
+  "Oh, Saito-san. I'm glad you've been stopping by so frequently. How's dancing treating you? Do you enjoy it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あら、斎藤さん。\r\n足繁く通ってもらえて嬉しいですわ。\r\n舞踊はどう？　楽しい？",
+   "occurrences": 1
+  },
+  "Yeah. It's got a lot of depth, and it's actually pretty interesting.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうだな。奥が深いし、なかなか面白い。",
+   "occurrences": 1
+  },
+  "Well, I'm glad to hear it. Perhaps it's because you're more comfortable now, but your technique lately is even more beautiful than when you first began.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それはよかったですわ。\r\n最近は慣れてきたせいか、はじめよりも断然美しい\r\n舞いになっていると思いますわよ。",
+   "occurrences": 1
+  },
+  "I do. Keep this up, and I might have you performing soon.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。この調子でいけば、もうすぐ「お披露目会」\r\nを開いてもいいかもしれませんね。",
+   "occurrences": 1
+  },
+  "Performing...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お披露目会……？",
+   "occurrences": 1
+  },
+  "Yes. Those I've deemed fully fledged I have participate in a special performance, in which they showcase their skills before a live audience.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。一人前になったと判断したお弟子さんには、\r\n「お披露目会」というものに出ていただき、\r\n多くの人の前で演舞を披露していただいてるの。",
+   "occurrences": 1
+  },
+  "Ah, I didn't know that was a thing...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう。そんなものがあったのか……",
+   "occurrences": 1
+  },
+  "I believe one only reaches their true potential as a dancer once they overcome the anxiety of dancing in front of others.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "多くの人の前で踊る。その緊張感を乗り越えてこそ、\r\n舞踊というものは完成するとわたくしは思ってるの。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "I certainly hope you'll participate someday, Saito-san.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……斎藤さんも、いつか出て頂戴ね。",
+   "occurrences": 1
+  },
+  "Yeah. Still, I'll need your stamp of approval first, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。……まぁ、その前に一人前になったと\r\n認めてもらえるようにならないとな。",
+   "occurrences": 1
+  },
+  "Ohoho. That is true. Anyhow, will you be dancing today?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おほほ。そうですわね。\r\n今日は、踊って行かれます？",
+   "occurrences": 1
+  },
+  "Yeah, let's do it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。準備はできている。",
+   "occurrences": 5
+  },
+  "Oh, Saito-san. I was waiting for you. Shall we get to dancing?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あら、斎藤さん。待ってましたわよ。\r\n……さっそく、踊られますか？",
+   "occurrences": 1
+  },
+  "Phew... I should call it a day.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふぅ……　今日はこれくらいにしておくか。",
+   "occurrences": 1
+  },
+  "You really do have a knack for this, Saito-san. You may be rough around the edges here and there, but I'm sure you can improve even more.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やはり斎藤さんは筋がいいですわ。\r\nまだまだ荒削りな部分もありますけど……\r\nこれからもっと上達できるはずですわ。",
+   "occurrences": 1
+  },
+  "That right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……そうか？",
+   "occurrences": 3
+  },
+  "Of course. Just like with anything else, the key to dance is repetition, so please come again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。他の習い事同様、舞踊も\r\n大切なのは「積み重ね」です。\r\nですから、またいらしてくださいな。",
+   "occurrences": 1
+  },
+  "Sure. It's a nice change of pace, honestly. I'll be back.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。良い気分転換にもなるしな。\r\nまた来るとしよう。",
+   "occurrences": 1
+  },
+  "I'll be waiting. Ohohohoho.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お待ちしてますわ。おほほほほ……",
+   "occurrences": 1
+  },
+  "You have formed a bond with Maijo-sensei. You can deepen your bond by continuing to interact with her and filling the bond gauge. You can also check the status of your gauge in Diligence Records in the Pause Menu. Try to visit her often.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「にちぶ座の舞城先生」との絆が芽生えました。\r\n今後交流をし、絆ゲージをためることで、\r\n絆を深めることができます。\r\nゲージの状況は、メインメニューの「精進目録」でも確認できます。\r\n\r\n積極的に「にちぶ座の舞城先生」と交流してみましょう。",
+   "occurrences": 1
+  },
+  "Oh, Saito-san, I was waiting for you. How delightful. Taken an interest in dance, have you?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あら、斎藤さん。\r\nお待ちしてましたよ。嬉しいですわ。\r\n……舞踊に興味を持ってくれたのかしら？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "I have.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。",
+   "occurrences": 1
+  },
+  "I've been looking forward to watching you dance again. Ohohohoho... For you, Saito-san, I'll make it 1,000 mon.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "また、斎藤さんの舞いが見れると思うと、\r\nこちらも楽しみですわ。おほほほほ……\r\n斎藤さんなら１０００文にしておきますわよ。",
+   "occurrences": 1
+  },
+  "Gah. Please, let us go...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ガハッ……　た、頼む。\r\n見逃してくれ……",
+   "occurrences": 1
+  },
+  "I will. But in return, don't you ever let me catch you bothering a palanquin bearer again. Got that?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あぁ、その代わり、\r\nもう二度と、駕籠屋を襲うんじゃねぇ。\r\n……いいな？",
+   "occurrences": 1
+  },
+  "Yes, yes, we got it! We're sorry!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "は、はいぃぃぃ!!　すいませんでしたぁぁぁ!!",
+   "occurrences": 1
+  },
+  "Samurai, sir, I owe you my life!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お侍のダンナ、あんたぁ命の恩人だ……！",
+   "occurrences": 1
+  },
+  "My partner's leg is feeling better, so we can head to the city now. Please go on inside.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "相方の足もよくなったんで、\r\nひとまず町まで向かいます。駕籠に乗ってくだせぇ。",
+   "occurrences": 1
+  },
+  "Great.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あぁ。",
+   "occurrences": 1
+  },
+  "Mister, I apologize, but we need to rest a bit. My partner just hurt his leg.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダンナぁ。すみません、\r\nちょいと休憩させてくだせぇ。\r\n相方が足を痛めちまって。",
+   "occurrences": 1
+  },
+  "Hey now, you all right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おいおい、大丈夫か？",
+   "occurrences": 1
+  },
+  "Oh crap! This ain't good!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひ、ひぃぃぃ！　……もうあかん！",
+   "occurrences": 1
+  },
+  "Is it that bad?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなにひどいのか？",
+   "occurrences": 1
+  },
+  "No, Mister, behind you! Behind you!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ち、ちゃうちゃう！　ダンナ、後ろ後ろ！",
+   "occurrences": 1
+  },
+  "Hey there, fellas! Where you off to?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、兄ちゃん達！　どこ行くんだい？",
+   "occurrences": 1
+  },
+  "These guys must be those palanquin-huntin' bandits everyone talked about. We're done for!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "こ、こいつら、噂の……\r\n駕籠屋ばかり狙う賊や！　もうおしまいやぁ！",
+   "occurrences": 1
+  },
+  "Bandits, eh...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "こいつらが……",
+   "occurrences": 1
+  },
+  "Dammit, if my partner hadn't hurt his leg, this wouldn't have happened. I'm sorry, Mister.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "くそ、相方が足なんて痛めてへんかったら\r\nこんなことには……　ダンナ、すんまへん。",
+   "occurrences": 1
+  },
+  "Heheheh. Looks like we struck paydirt. A samurai won't have tons of money, but his katana will fetch plenty!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "へっへっへ！　今回は当たりだな。見たところ侍だ。\r\n金持ちじゃあないが、刀が高く売れる。",
+   "occurrences": 1
+  },
+  "Just leave all your stuff right here, samurai, and we might actually let you live.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、お侍さんよ。身ぐるみ全部置いてけや。\r\nそうすりゃ、命は助かるかもしれねぇぞ。",
+   "occurrences": 1
+  },
+  "I don't think so.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……断る。",
+   "occurrences": 2
+  },
+  "But, Mister...!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "だ、ダンナ……!?",
+   "occurrences": 1
+  },
+  "If you don't want to get hurt, you best get out of here now.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……痛い目見たくなかったら、\r\nすぐに消えるんだな。",
+   "occurrences": 1
+  },
+  "Heh, you got a spine, I'll give you that. But you really think you can win, with this many against you?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "へっ、ずいぶん舐めた口叩きやがるが……\r\nお前、この人数相手に勝てると思ってるのかぁ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "What would you say if I said I could?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうだと言ったら。どうする……？",
+   "occurrences": 1
+  },
+  "I'd say... Hey, boys! Strip whatever you can off this guy, including his life!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうかいそうかい……　おい、テメェラ！\r\nこいつの身ぐるみ、命ごと剥いじまいな！",
+   "occurrences": 1
+  },
+  "What's wrong? I was just gettin' into it. Well, let's give it another shot sometime.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "せっかく乗ってきたのに、どうしたんや？\r\nまた歌おうや～。",
+   "occurrences": 1
+  },
+  "Yo! Ya here to belt one out too, Hajime-chan?": {
+   "speakers": [
+    {
+     "name": "id:majima",
+     "gender": "male",
+     "uses": 2
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "よう、一（はじめ）ちゃんも歌いにきたんか。",
+   "occurrences": 2
+  },
+  "I was thinkin' 'bout gettin' up there myself—wanna team up on this? Make it a real blast?": {
+   "speakers": [
+    {
+     "name": "id:majima",
+     "gender": "male",
+     "uses": 2
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "わし、これから歌おう思うんやけど、\r\n一緒に盛り上げてくれんか？",
+   "occurrences": 2
+  },
+  "Awww, c'mooon...": {
+   "speakers": [
+    {
+     "name": "id:majima",
+     "gender": "male",
+     "uses": 2
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや、ノリ悪いのぅ……",
+   "occurrences": 2
+  },
+  "Heheh, nice! Let's go drive 'em wild!": {
+   "speakers": [
+    {
+     "name": "id:majima",
+     "gender": "male",
+     "uses": 2
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ヒヒヒ。よし、一緒に一発、ぶちかましたろうな！",
+   "occurrences": 2
+  },
+  "Somethin' the matter? Well, hit me up the next time you're feelin' it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうしたんや？\r\nまた気が向いたら声かけてくれや。",
+   "occurrences": 1
+  },
+  "Yo. You here to sing too?": {
+   "speakers": [
+    {
+     "name": "id:saejima",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "よう、お前も歌いにきたんか。",
+   "occurrences": 1
+  },
+  "I was thinkin' 'bout it... Ya wanna join me?": {
+   "speakers": [
+    {
+     "name": "id:saejima",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "これから１曲、歌おう思っとるんやが、\r\nお前も一緒にどや？",
+   "occurrences": 1
+  },
+  "Really? Well, lemme know if ya change yer mind.": {
+   "speakers": [
+    {
+     "name": "id:saejima",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "そうか……\r\nまぁ気が向いたら声かけてくれや。",
+   "occurrences": 1
+  },
+  "Right on. Let's show 'em how it's done.": {
+   "speakers": [
+    {
+     "name": "id:saejima",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "そうか。なら、いっちょ派手に決めるで。",
+   "occurrences": 1
+  },
+  "Aw, I was having fun. Well, call me back anytime!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あら、残念どすなぁ。\r\nまたお声かけてくださいな。",
+   "occurrences": 1
+  },
+  "Oh, are you here to sing too, Saito-han?": {
+   "speakers": [
+    {
+     "name": "id:iku",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あら、斎藤はんも歌いにきたんどすか？",
+   "occurrences": 1
+  },
+  "I was plannin' on singing right now. How about joining me?": {
+   "speakers": [
+    {
+     "name": "id:iku",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "うち、これから歌う予定なんどす。\r\n斎藤はんも、ご一緒しません？",
+   "occurrences": 1
+  },
+  "Ooh, you're no fun!": {
+   "speakers": [
+    {
+     "name": "id:iku",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あらまぁ。残念どす……",
+   "occurrences": 1
+  },
+  "Heheh, this is gonna be something special!": {
+   "speakers": [
+    {
+     "name": "id:iku",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ふふふ。では、よろしゅうお願いします。",
+   "occurrences": 1
+  },
+  "Oh, is something wrong? Well, let me know when you want to sing again, okay?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あれ、どうしたの？\r\n歌うときはまた呼んでね。",
+   "occurrences": 1
+  },
+  "*pant* *pant* How was that...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はぁ……　はぁ……\r\nどうだった……？",
+   "occurrences": 2
+  },
+  "Wonderful! I knew I saw talent in you! It was a truly elegant dance!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "素晴らしいですわっ！\r\nやはり、私の目に狂いはなかった！\r\n華のある、良い踊りでしたわよ！",
+   "occurrences": 1
+  },
+  "You're still a diamond in the rough, but it was excellent for your first time! I knew there was something about you!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まだまだ荒削りですが、初めてとしては上出来ですわ！\r\nやはり……　私の目に狂いはなかったですわ！",
+   "occurrences": 1
+  },
+  "Okay... Well, that's good. There's a lot more to this than I thought.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうか……　ならよかった。\r\nなかなか奥が深いものだな。",
+   "occurrences": 1
+  },
+  "Indeed. That's why it's so fun.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうなのですわ。まぁそこが、面白いところでも\r\nあるんですけれどね。",
+   "occurrences": 1
+  },
+  "If you enjoyed it so much, by all means, please come again. I'll even teach you at a special rate, Saito-san.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もし気に入っていただけたなら……\r\nまたいらしてください。\r\n斎藤さんには、特別価格で教えて差し上げますわ。",
+   "occurrences": 1
+  },
+  "Heh. So this was all just so I'd take your classes, huh?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふっ……　なんだ、結局店への勧誘だったのか？",
+   "occurrences": 1
+  },
+  "Hohoho. No matter what age we're living in, the free trial never fails.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おほほほ。\r\nいつの時代も、体験授業というものは顧客獲得と\r\n密接に関係しているものですわ。",
+   "occurrences": 1
+  },
+  "Guess you know how to play the game...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "商売上手だな。まったく……",
+   "occurrences": 1
+  },
+  "Joking aside. You truly do have something special, Saito-san.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まぁ、それは冗談として……\r\n斎藤さんには見込みがあるのは事実ですわ。",
+   "occurrences": 1
+  },
+  "Buyo can also be quite refreshing, so please come again when you have the time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "気分転換にもなりますし、お暇なときにでもぜひ。\r\nいつでもお待ちしておりますわ。",
+   "occurrences": 1
+  },
+  "Yeah, I'll stop by if I'm ever in the mood. Goodbye... sensei.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。気が向いたら顔を出すとする。\r\nじゃあな、舞城……　先生。",
+   "occurrences": 1
+  },
+  "Yes. I'll be waiting.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。それでは。お待ちしてますわ。",
+   "occurrences": 1
+  },
+  "(Maijo-sensei, huh...? This dance is pretty deep, and I guess I am sort of interested. Maybe I should take the time to learn it.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（舞踊、か……\r\n　確かに奥が深いし、面白いものだな。\r\n　暇があったら、また顔を出してみるか……）",
+   "occurrences": 1
+  },
+  "So this is Nichibuza. Pretty nice place.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここが「にちぶ座」か……\r\n趣のある、良い内装だな。",
+   "occurrences": 1
+  },
+  "Hohoho. Isn't it though?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほほほ。そうでしょ？",
+   "occurrences": 1
+  },
+  "...All right, then, let's jump right in.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……さて、早速ですがまずは実践してみましょう。",
+   "occurrences": 1
+  },
+  "Already?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "実践？",
+   "occurrences": 1
+  },
+  "Yes. I'm going to play a song, and it'll be your job to dance along.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。今から曲を流しますので、\r\nそれに合わせて踊ってみてくださいな。",
+   "occurrences": 1
+  },
+  "Wait, now?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "い、いきなりか？",
+   "occurrences": 1
+  },
+  "We believe in getting right to it here at Nichibuza! Now then, let's dance!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "習うより慣れろ、がうちの教室の方針なんです。\r\nでは、いきますわよ！",
+   "occurrences": 1
+  },
+  "Let's do that again sometime! See ya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほな、また歌おうや。",
+   "occurrences": 1
+  },
+  "秋山さん、ええ声してるってよう言われるやろ？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "秋山さん、ええ声してるってよう言われるやろ？",
+   "occurrences": 1
+  },
+  "いや？　そんなこと言われたの初めてだよ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや？　そんなこと言われたの初めてだよ。",
+   "occurrences": 1
+  },
+  "ホンマに？　秋山さん絶対ええ声やって！\r\nうち最近意識して男の人の声チェックしてんね\r\nやけど、秋山さんはかなりいい線いってるで！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ホンマに？　秋山さん絶対ええ声やって！\r\nうち最近意識して男の人の声チェックしてんね\r\nやけど、秋山さんはかなりいい線いってるで！",
+   "occurrences": 1
+  },
+  "へぇ……　そりゃ嬉しいね。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "へぇ……　そりゃ嬉しいね。",
+   "occurrences": 1
+  },
+  "うちな、アナウンサー目指してんねん。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うちな、アナウンサー目指してんねん。",
+   "occurrences": 1
+  },
+  "女子アナか……　こりゃまた険しい道を選んだねぇ。": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "女子アナか……　こりゃまた険しい道を選んだねぇ。",
+   "occurrences": 1
+  },
+  "ほんでスクール通ってレッスン受けてんねんけど、\r\n訛りがなかなか取れへんで困ってんねん……": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほんでスクール通ってレッスン受けてんねんけど、\r\n訛りがなかなか取れへんで困ってんねん……",
+   "occurrences": 1
+  },
+  "訛っててもいいじゃない。\r\nよその地方ならともかく、\r\n関西弁なら許容の範囲じゃない？": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "訛っててもいいじゃない。\r\nよその地方ならともかく、\r\n関西弁なら許容の範囲じゃない？",
+   "occurrences": 1
+  },
+  "アカンて！　ニュース原稿方言で読む\r\nアナウンサーなんておらんて！": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アカンて！　ニュース原稿方言で読む\r\nアナウンサーなんておらんて！",
+   "occurrences": 1
+  },
+  "Ebisu-sama is on his way to Teramachi, I think. Good luck catching up with him, young man.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "恵比寿様は、寺町に行くと言ってたかしら。\r\n急いで追いかければ、会えるかもしれないわよぉ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Ebisu-sama... Thank you, thank you...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "恵比寿様……　ありがたやありがたや……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hm? Miss, did you say \"Ebisu-sama\" just now? Have you seen someone who looks like that?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ん？　今、恵比寿様と言ったか？\r\n……婆さん、もしかして恵比寿に会ったのか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Oh, yes. I saw Ebisu-sama himself.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えぇ。お会いしましたよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "When was this?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いつの話だ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hardly a moment ago. I'm sorry, you must've just missed your chance to receive his blessing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ついさっきですよ。あなたももう少し早く来てれば、\r\nご利益があったかもしれないのに、残念ねぇ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(That must have been the conman, Dark Ebisu.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（婆さんの会ったという恵比寿様は\r\n　世間を騒がせている詐欺師、\r\n　闇恵比寿に間違いないだろう……）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I'm sorry, Miss, do you know which way Ebisu went?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "婆さん、その恵比寿様は\r\nどこに行ったかわかるか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I believe he said he was heading to Teramachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうねぇ、たしか次は……\r\n寺町方面に行くと言ってたかしら？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "(That's not far. If I hurry, I might be able to catch him.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（寺町か……　今から急いで追えば\r\n　捕まえることができるかもしれないな）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Teramachi? Thank you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寺町だな。\r\n婆さん、ありがとよ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Oho, going after him? Good luck to you. I hope you get a blessing today.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うふふ、追いかけるのね。じゃあ急がないと。\r\nあなたにもご利益があるといいわねぇ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Hey, you know any cures for seasickness? This foreigner's in pretty bad shape.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、この外国人の酔いを治したい。\r\n何か、酔い覚ましの方法を知らないか？",
+   "occurrences": 1
+  },
+  "Uh, lemme think... Actually, my ma once said to drink sake. You'll still be dizzy as all heck, but at least you won't be hurtin'.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、そうですねぇ……\r\n確かうちのお袋が「そういう時は酒を飲んでパーッと\r\n忘れるのが一番」とか言っていましたよ。",
+   "occurrences": 1
+  },
+  "Ah, I get it. You fold in the nausea of seasickness with the nausea of being drunk. Not bad.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほど。酒の酔いで船酔いをごまかす、か。\r\n木を隠すなら森の中、というわけだな。\r\n一理あるな……",
+   "occurrences": 1
+  },
+  "Hey, do you know how to cure seasickness? I want to help out that foreigner.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、あの外国人の船酔いを治したい。\r\n何か、酔い覚ましの方法を知らないか？",
+   "occurrences": 1
+  },
+  "Cure seasickness? Hm. I don't know much about it, but I heard it's good to exercise.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "船酔いを治す方法？\r\nそうですねぇ……\r\n運動をしてみると良いって聞きましたよ。",
+   "occurrences": 1
+  },
+  "Exercise? Really?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "運動？",
+   "occurrences": 1
+  },
+  "Yeah, like sweat the toxins out. Hey, you're a samurai, maybe you can do a training session with him. That'll work up a sweat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ。汗をかくことで、体の悪い成分が体から\r\n出ていくんだとか。お侍さんなら\r\n稽古つけるとかもいいかもしれませんね。",
+   "occurrences": 1
+  },
+  "Mm... I don't know about \"sweating out toxins,\" but giving him something else to focus on might not be a bad idea.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほど。確かに稽古に集中して心を整えれば、\r\n酔いなんていう小さなものに囚われなくなるかもな。\r\n一理あるな……",
+   "occurrences": 1
+  },
+  "Hey, you know any old-time remedies for seasickness? I want to cure that foreigner.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、あの外国人の船酔いを治したい。\r\n何か、酔い覚ましの方法を知らないか？",
+   "occurrences": 1
+  },
+  "Seasickness, eh? Well... Why not give the man an umeboshi?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酔い覚ましかい？　うーん、確か……\r\n梅干しが効くとか聞いた気がするのぅ。",
+   "occurrences": 1
+  },
+  "Umeboshi?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "梅干し？",
+   "occurrences": 1
+  },
+  "Yeah, pop a plum in his mouth and he'll be right as rain, just you wait!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。まぁ、誰が言ったか忘れたんで、\r\nあまり当てにはならないかもしれんが……",
+   "occurrences": 1
+  },
+  "Though... I can't quite remember where I heard that... Eheheh.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なにぶん、じじいなもんで、記憶が怪しくてな。\r\nふぉふぉ。",
+   "occurrences": 1
+  },
+  "(Can umeboshi really cure seasickness? Maybe I should ask around for more opinions.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（梅干しなんかが本当に効くのか？\r\n　少し心配だな。他にも聞ける連中がいたら、\r\n　聞いてみたほうがいいかもしれん）",
+   "occurrences": 1
+  },
+  "Argh... Severe... headache... vision... fading... all... going dark!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウー……　キモチワルイ……\r\nアイドントワントトゥーダイ……",
+   "occurrences": 1
+  },
+  "(This guy's going nowhere, by the look of it. I can always come back later. )": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（今はやめておこう。後でまた来るか……）",
+   "occurrences": 1
+  },
+  "Here. Have some sake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、飲みにいくぞ。",
+   "occurrences": 1
+  },
+  "What... Sake!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ファ、ファッツ!?\r\n……お、お酒デスカ？",
+   "occurrences": 1
+  },
+  "Yeah. If you want to hide a tree, put it in a forest. If you want to hide seasickness, get drunk. It's the Japanese way.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。木を隠すなら森の中。\r\n酔いを隠すなら、酒の中だ。それが日本流だ。",
+   "occurrences": 1
+  },
+  "Wow... Very deep. Japan... very deep.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "オウ、奥の深い国ネ……",
+   "occurrences": 1
+  },
+  "All right, time for some training.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おい、稽古をつけるぞ。",
+   "occurrences": 1
+  },
+  "What... Training!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ファ、ファッツ!?\r\n……ケ、稽古デスカ？",
+   "occurrences": 1
+  },
+  "Yes. Your heart is in chaos. But if you renew your focus, the sickness will depart. Discipline yourself with the sword. It's the Japanese way.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。酔っているのは、心が乱れているからだ。\r\n稽古をつけて心を整えれば、酔いなどさめる。\r\n剣を通して、己を律する。それが日本流だ。",
+   "occurrences": 1
+  },
+  "Astonishing, you samurai are...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "オウ、サスガ侍の国ネ……",
+   "occurrences": 1
+  },
+  "(Nope, I don't have any umeboshi on me. I'll have to go get some from the general store.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……いや、梅干しを持っていなかったな。\r\n　万屋にでも行って買ってくるか）",
+   "occurrences": 1
+  },
+  "Handed over <Color:8>Umeboshi<Color:Default>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「<Color:8>梅干し<Color:Default>」を渡した",
+   "occurrences": 1
+  },
+  "Umeboshi. They're sour, pickled plums. Supposedly, they can cure seasickness. I'd say it's worth a try.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ん？　これか？\r\n梅干しという食べ物だ。\r\n酔いに効くらしい。本当かはわからんが……",
+   "occurrences": 1
+  },
+  "Yes! Please... give me...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "セ、センキュー。プリーズ……",
+   "occurrences": 1
+  },
+  "Ah! It worked! I feel so much better! Thank you very much!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酔いがサメマシタ！\r\nセンキューベリーマッチ！",
+   "occurrences": 1
+  },
+  "Honestly, I wasn't too sure those would help. But I'm glad they did.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……本当に梅干しが効くとはな。\r\nとにかく、よかったな。",
+   "occurrences": 1
+  },
+  "Sir, I am forever grateful. But if you'll excuse me, I have errands to run.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ハイ。このご恩はフォーエバー、忘れマセン。\r\n……ソレデハ、コレデ。",
+   "occurrences": 1
+  },
+  "...Oh, right! I wanted to ask why you're here.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……っておい。\r\nお前、いったい何しに来たんだ？",
+   "occurrences": 1
+  },
+  "Ah, yes! It's all coming back to me. I'm here to open up the country!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アー！　思い出シマシタ！\r\nワタシ、開国させにキタノデス！",
+   "occurrences": 1
+  },
+  "Open up the country?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "開国？",
+   "occurrences": 1
+  },
+  "Now I see. You wanted to establish trade with us.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なるほどな。\r\nお前の言ってる開国とは、貿易のことか。",
+   "occurrences": 1
+  },
+  "Yes. Japan has so many wonderful things. I'd like to have some, myself!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ハイ。ジャパンにはステキなもの、たくさんある。\r\nそれをぜひ、ワタシにも譲ってホシイノデス。",
+   "occurrences": 1
+  },
+  "Yeah? And what is it you want?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう。で、お前が譲ってほしいものってなんなんだ？",
+   "occurrences": 1
+  },
+  "But first, let me introduce myself. You can call me... Monsieur Pony.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アノ……\r\nワタシは「お前」じゃない。ポニーです。\r\nムシュー・ポニーとイイマス。",
+   "occurrences": 1
+  },
+  "Ah, I should've introduced myself as well. My name's Saito.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、ああ。名前か。\r\n俺は斎藤だ。自己紹介が遅れたな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Excellent. Now that's out of the way... Er, what were we talking about?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "こちらこそ。で、ナンデシタッケ？",
+   "occurrences": 1
+  },
+  "I was asking you what you wanted from Japan.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。……ポニーが譲ってほしいものって、なんだ？",
+   "occurrences": 1
+  },
+  "Oh, right. Yes. I've been thinking about what I'd like to take home the most...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アア、そうでしたね。\r\nこちらに来てから一番ワタシが欲しいと思ったものを\r\n持ち帰ろうと思ってタンデスガ……",
+   "occurrences": 1
+  },
+  "And now I have discovered it!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "先ほど、ソレを見つけました！",
+   "occurrences": 1
+  },
+  "Okay? And what is it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう、なんだ？",
+   "occurrences": 1
+  },
+  "Umeboshi!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "梅干しデス！",
+   "occurrences": 1
+  },
+  "Umeboshi? That's it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "梅干し？　……そんなものでいいのか？",
+   "occurrences": 1
+  },
+  "Yes! I've never eaten anything so mysterious... yet packaged so conveniently! I want as much of it as I can get.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ハイ！\r\nあんなにフシギで便利なフード、はじめてデス。\r\n梅干し、できるだけたくさんホシイ。",
+   "occurrences": 1
+  },
+  "All right. Then I'll show you where it is.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……分かった。なら案内してやるよ。",
+   "occurrences": 1
+  },
+  "Ah, this is wonderful. Thanks to you, I've got more umeboshi than I can count!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サイトウさん、センキューベリーマッチ。\r\nおかげで梅干し、タクサン買えたヨ。",
+   "occurrences": 1
+  },
+  "Heh. Hopefully you've got enough to last you the voyage home.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ……\r\nそれだけあれば、帰りの船旅で酔っても\r\nなんとかなりそうだな。",
+   "occurrences": 1
+  },
+  "Hahaha, who knows? I may just scarf them all down before I reach land!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ハハハ。ソウデスネ。\r\n到着する頃には全部ワタシが食べてシマッテイルカモ\r\nシレマセーン。",
+   "occurrences": 1
+  },
+  "Heh... Hmm?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ。……ん？",
+   "occurrences": 1
+  },
+  "Are you the one who's been secretly trading with foreigners?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "貴様か？　外国人と密貿易をしてるっていう男は。",
+   "occurrences": 1
+  },
+  "Foreigners are the enemy! We won't tolerate any who engage with them!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "外国人は俺たちの敵だ。そんな奴と繋がってる野郎を\r\n……生かしちゃおけねぇな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "The Sonno Joui... Of all the times to run into extremists...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "外国人嫌いの攘夷派の連中か……",
+   "occurrences": 1
+  },
+  "Son of Joey, you say? I have a friend named Joey. Why are they mad? Do they want some umeboshi?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ジョーイ？　私の友達にもジョーイ君という人が\r\nいますが……\r\n彼らはなぜ怒ってるのデス？　梅干し、ホシイノ？",
+   "occurrences": 1
+  },
+  "Japan's in a complicated place right now. You should stay back.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まぁ、いろいろあるんだよ。日本の中でもな。\r\n……下がっていたほうがいい。",
+   "occurrences": 1
+  },
+  "We'll kill you and the foreigner! Who needs traitors, anyway!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……外国人もろとも、ぶっ殺してやる！\r\n覚悟しろ！",
+   "occurrences": 1
+  },
+  "Y-You're back! Samurai, please, you gotta help me! Ow, ouchie, ow! What if they have to amputate!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、お侍さん！　仕事手伝ってくださいよぉ。\r\nまだ痛いんすよ、お侍さんと\r\nぶつかったときの傷が……　あー痛い痛い！",
+   "occurrences": 1
+  },
+  "Not my problem.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなの俺の知ったことか。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Oh, come on! I guess it's true what they say about you samurai! Useless!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えー！　そ、そんなー！\r\n器小さいっすねー最近の侍は！",
+   "occurrences": 2
+  },
+  "(This guy's pretty annoying, but if it's just six deliveries, I could manage.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（納得はいかんが……　６件くらいなら\r\n　助けてやるか……）",
+   "occurrences": 2
+  },
+  "Fine, I'll help you. Hand me the letters.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "仕方ねぇな……　分かったよ。\r\nほら、さっさとその残りの手紙を渡せ。",
+   "occurrences": 2
+  },
+  "Oh, bless this samurai! You're the best! Samurai number one!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やったー！　あざーっす！　お侍さん！\r\nよっ！　日本一！",
+   "occurrences": 2
+  },
+  "Tch. What a smooth operator.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まったく、調子のいいやつだぜ……",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Ready? Hope you're actually going to try this time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……勝負の準備はできたのか？\r\nこの前みたいな手抜きの走りをみせたら、\r\n承知しねぇぞ？",
+   "occurrences": 1
+  },
+  "I don't think so. Maybe later.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……いや、まだ準備ができていない。",
+   "occurrences": 4
+  },
+  "Hurry it up! The Black Panther Couriers hate waiting.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……ちっ。こっちも暇じゃねぇんだ。\r\n早くしろよな。",
+   "occurrences": 1
+  },
+  "Good. Here we go, then!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうか。なら、はじめようぜ！",
+   "occurrences": 1
+  },
+  "Hope you're ready this time. I'm going to be extra disappointed if you lose again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……勝負の準備はできたのか？\r\nこの前みたいな手抜きの走りをみせたら、\r\n承知しねぇぞ？",
+   "occurrences": 1
+  },
+  "I'm not at your beck and call here! Hurry it up!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……ちっ。こっちも暇じゃねぇんだ。\r\nさっさとしろよな。",
+   "occurrences": 1
+  },
+  "Now there's some guts. Here we go!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いい度胸だ。なら、さっそくはじめようぜ！",
+   "occurrences": 1
+  },
+  "Oh, it's you. I don't suppose you've changed your mind about sharing your knowledge of the globe? I'm truly out of options right now...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ……　あなたですか。\r\nやはりお願いできませんか、地球儀の解説。\r\nもはや万策尽きたというところでして……",
+   "occurrences": 1
+  },
+  "I'd be eternally grateful if you would just take a little bit of your time, come to the school, and tell the kids what you know!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうかうちの寺子屋に来て\r\n地球儀の解説をしていただけませんか!?\r\nワシのためじゃない！　子供たちのために！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Sorry, but I can't.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、悪いが断る。",
+   "occurrences": 1
+  },
+  "Aw. Well, that's to be expected... I shouldn't have pinned so much hope on a stranger.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そ、そうですか……\r\nまあ無理な御相談でしたな。\r\n見ず知らずの方に……",
+   "occurrences": 1
+  },
+  "Oh, all right. I'll do it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わかった、いいだろう。",
+   "occurrences": 1
+  },
+  "Oh, thank goodness! Thank you so much! Okay, let's hurry and do it!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あ、ありがとうございます！\r\nさ、それでは早速こちらへ。",
+   "occurrences": 1
+  },
+  "It's about time. I was beginning to think you were too scared to come.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遅かったな。\r\n……びびって逃げ出したのかと思ったぜ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Sending a letter to my home? Is that how couriers do things?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わざわざ手紙を送りつけて来るとは……\r\n飛脚らしいやり方だな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I had to be very clear about where we'll compete. This is an area I know quite well.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "せっかくだから、俺が最も得意とする縄張りで\r\n勝負したいと思ってな。\r\nだから、わざわざご足労いただいたというわけだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "If you're only willing to race on your home turf, maybe you're the one who's scared.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自分の得意な場所で勝負、か……\r\n卑怯な奴だな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Tell yourself that. The fact is, I'm the playmaker. I'll do anything that improves my chances of victory.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何とでも言え。\r\n俺は「黒豹の司令塔」と呼ばれている男だ。\r\nどんな時でも一番勝つ可能性の高い方法を選択する。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "I studied every move you made against these two. I know all your tricks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……こいつらとあんたの戦い、見せてもらった。\r\nそして、あんたの走りや癖も調べさせてもらった。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "And after calculating our race down to the finest detail, I determined you have no chance of beating me.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それらの情報を元に色々と計算した結果……\r\nあんたが俺に勝つ可能性は、ほぼ０だ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "This is going to sound even more hilarious when you lose.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう……　面白い。\r\nそれでお前が負けたら、笑えるな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Tch. That's a statistical impossibility. My strategies always work. Come on, I'll prove it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふっ。そんなことは確率的にもありえない。\r\n俺の計算も、俺の判断も完璧だ。\r\n今から……　それを証明してやるぜ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Ready to race again? I'm expecting much better, though still inadequate, results.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……勝負の準備はできたのか？\r\nこの前みたいな手抜きの走りをみせたら、\r\n承知しないぞ？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "How disappointing. I'll have to adjust my estimation of your abilities.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "つまらん勝負はしたくない。\r\n……きちんと状態を整えて来るんだな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "There's courage in competing even when your defeat is a mathematical certainty. Here we go.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いい度胸だ。なら、さっそく始めるとしよう！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "You ready this time? I want a win that makes me look like a stud, got it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……あ、勝負の準備はできた？\r\nこの前みたいな、ぬるい走りはやめてよね？",
+   "occurrences": 1
+  },
+  "I got places to be and people to be in, kid. Hurry it up.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "こっちも暇じゃないんだからさ。\r\nさっさとしておくれよ？",
+   "occurrences": 1
+  },
+  "Now those are some sexy words even coming out of <i>your</i> mouth. Here we go!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そう。なら、始めましょうか……！",
+   "occurrences": 1
+  },
+  "Saito-san, you owe me twenty ryo. No ifs, ands, or buts.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よう、斎藤さん。\r\n今回の返済分、２０両は用意できたかい？",
+   "occurrences": 10
+  },
+  "Sorry, I haven't got that much on me.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すまんが、まだ用意できていない。",
+   "occurrences": 5
+  },
+  "Oh, come on! This is my livelihood! You want me to have to work for a living?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええっ!?\r\n頼むよ。こっちも生活がかかってるんだから……",
+   "occurrences": 5
+  },
+  "I'll have it soon. Don't worry.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すまない。すぐに用意してくる。",
+   "occurrences": 5
+  },
+  "Promise?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "頼んだよ？",
+   "occurrences": 5
+  },
+  "Paid landlord <Color:8>20 ryo<Color:Default>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「<Color:8>２０両<Color:Default>」を地主に渡した。",
+   "occurrences": 5
+  },
+  "Hmm... Yup, twenty ryo. That'll do for now, but you've still got 80 to go.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふむ……　確かに、２０両ちょうどだな。\r\nこれで残りの返済額は、８０両だ。",
+   "occurrences": 1
+  },
+  "I'll expect your next payment promptly!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "また返済期日が来たら連絡するから、\r\nよろしく頼むよ。",
+   "occurrences": 1
+  },
+  "Right. Sure.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ、分かった。",
+   "occurrences": 1
+  },
+  "Also, give this to the girl, would you?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それと……　これを、あの娘さんに。",
+   "occurrences": 1
+  },
+  "Obtained <Color:8>Lively Yellow<Color:Default>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「<Color:8>着物　元黄娘<Color:Default>」を手に入れた。",
+   "occurrences": 1
+  },
+  "What is this?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (4 จุด)",
+   "chapters": [
+    4
+   ],
+   "ja": "……これは？",
+   "occurrences": 5
+  },
+  "Call it a gift.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あの遥とかいう子にあげてくれ。",
+   "occurrences": 1
+  },
+  "It's a shame, seeing a young woman like her saddled with debt. I thought she might like something nice.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……年頃の子が借金を抱えて、\r\nお洒落ひとつできないってのもかわいそうだしな。\r\nまぁ、俺からのほんの気持ちだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Huh. Thanks. That's a nice gesture, actually.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……そうか。助かる。\r\nあんた、意外と優しいんだな。",
+   "occurrences": 1
+  },
+  "Aw, well... Don't start thinking I won't kick you out if you're late with your money, got it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "へっ、よせやい。\r\nただし、ちゃーんと金は返してもらうからな？\r\n……じゃあ、また連絡する。",
+   "occurrences": 1
+  },
+  "(A kimono, huh? I think Haruka might like this.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（着物、か。さっそく遥に渡そう）",
+   "occurrences": 1
+  },
+  "Hmm... Yup, twenty ryo. That'll do for now, but you've still got 60 to go.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふむ……　確かに、２０両ちょうどだな。\r\nこれで残りの返済額は、６０両だ。",
+   "occurrences": 1
+  },
+  "I'll expect your next payment promptly! See you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "また返済期日が来たら連絡するから、\r\nよろしく頼むよ。じゃあ。",
+   "occurrences": 3
+  },
+  "Hmm... Yup, twenty ryo. That'll do for now, but you've still got 40 to go.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふむ……　確かに、２０両ちょうどだな。\r\nこれで残りの返済額は、４０両だ。",
+   "occurrences": 1
+  },
+  "Hmm... Yup, twenty ryo. That'll do for now, but you've still got 20 to go.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふむ……　確かに、２０両ちょうどだな。\r\nこれで残りの返済額は、２０両だ。",
+   "occurrences": 1
+  },
+  "Wow... you paid off the whole debt. All hundred ryo of it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これにて全額、\r\n１００両を返済してもらえたことになる。",
+   "occurrences": 1
+  },
+  "I guess the house is yours now. Do I say... thanks?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これで完全に、あの家はあんたのものだ。\r\n返済ご苦労様。ありがとうな。",
+   "occurrences": 1
+  },
+  "No, maybe I should be the one to say thanks. That house is worth more than a hundred ryo, isn't it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、こちらも礼を言わせてもらう。\r\nあの家……\r\n本来なら１００両以上の価値があっただろう？",
+   "occurrences": 1
+  },
+  "And all this time, you never charged us any interest.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それに、借金の利息もとらずにいてくれた。",
+   "occurrences": 1
+  },
+  "Oh, yeah. I knew I forgot something. Haha.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。……ははは。",
+   "occurrences": 1
+  },
+  "Well, maybe they're wrong—I might just have a heart after all. Give my best to Haruka-chan, will you?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まぁ、俺も人の子ってことよ。\r\n遥ちゃんとやらに……\r\nよろしくな。幸せに暮らせよ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "(I should let Haruka and the priest know the good news.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（さっそく、\r\n　遥と神主に、完済したことを伝えよう）",
+   "occurrences": 1
+  },
+  "There ya are, boss! What'll it be?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おつかれ！　旦那！\r\nどうしまっか？",
+   "occurrences": 2
+  },
+  "Not this time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いや、今回はやめておこう。",
+   "occurrences": 8
+  },
+  "That's a shame, maybe later?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そりゃ残念やわ。\r\n今度是非やっていってや！",
+   "occurrences": 6
+  },
+  "That's the spirit. Have some fun out there!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さすが旦那！\r\n今日も楽しんでいってや！",
+   "occurrences": 6
+  },
+  "You know it!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よっしゃ！\r\nワテで良ければ何ぼでも教えたるで。",
+   "occurrences": 7
+  }
+ }
+}

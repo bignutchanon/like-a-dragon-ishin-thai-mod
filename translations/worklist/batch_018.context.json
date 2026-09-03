@@ -1,0 +1,2256 @@
+{
+ "batch": "batch_018.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "<Sign:0> near weapons with <Sign:23>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:23>印の出ている武器のそばで<Sign:0>",
+   "occurrences": 1
+  },
+  "Press <Sign:1> while shooting with <Sign:2>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:2>で射撃中に<Sign:1>",
+   "occurrences": 1
+  },
+  "<Sign:3> or <Sign:45> + <Sign:3>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:3>あるいは　<Sign:45>＋<Sign:3>",
+   "occurrences": 1
+  },
+  "<Sign:5>, then rapidly press <Sign:2> after connecting. Finish with <Sign:1>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:5>ヒット後<Sign:2>連打　トドメは<Sign:1>",
+   "occurrences": 1
+  },
+  "Hold <Sign:5>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:5>長押し",
+   "occurrences": 1
+  },
+  "Hold <Sign:5>, <Sign:45> + <Sign:2> for a follow-up attack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:5>長押し　<Sign:45>＋<Sign:2>で追撃",
+   "occurrences": 1
+  },
+  "Hold <Sign:5>, increase the number of targets with <Sign:46>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:5>長押し　<Sign:46>で標的を増加",
+   "occurrences": 1
+  },
+  "Hold <symbol=button_sankaku>, then release": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<symbol=button_sankaku>長押し後、放す",
+   "occurrences": 2
+  },
+  "<symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku> press and hold <symbol=button_sankaku>, then <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_sankaku>長押し<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku>, <symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_sankaku>, <symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku> press and hold <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku>　<symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_sankaku>　<symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_shikaku><symbol=button_sankaku>長押し",
+   "occurrences": 1
+  },
+  "<Sign:1> near enemy with an umeboshi in your inventory": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「梅干し」を所持、敵の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> near an enemy with an orange in your inventory": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「蜜柑」を所持、敵の近くで<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:1> near an enemy lying face down": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うつ伏せに倒れた敵の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<Sign:1> while near a kettle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "チロリ（やかん）の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> near an enemy with your Heat Gauge at 5 or higher": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒートゲージ五以上で敵の近くで<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "Spin <symbol=button_l_stick> once Rain of Steel and Fire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　鉄火連段中に<symbol=button_l_stick>一回転",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> during Rain of Steel and Fire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　鉄火連段中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:1> near a downed enemy's legs": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "仰向けに倒れた敵の足元で<Sign:1>",
+   "occurrences": 1
+  },
+  "<Sign:1> near an enemy lying face up": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "仰向けに倒れた敵の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_l3> + <symbol=button_r3> while at low health": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力赤点滅中に<symbol=button_l3>＋<symbol=button_r3>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> near a downed enemy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れた敵の近くで<symbol=button_sankaku>",
+   "occurrences": 6
+  },
+  "<symbol=button_sankaku> while on the ground": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れているときに<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> right before an enemy sword attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀を持った敵の攻撃が当たる瞬間に<symbol=button_sankaku>",
+   "occurrences": 4
+  },
+  "<symbol=button_sankaku> when an enemy attacks from behind with a sword": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀を持った敵の背後からの攻撃に対して<symbol=button_sankaku>",
+   "occurrences": 4
+  },
+  "<symbol=button_sankaku> as you evade near an enemy wielding a sword": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀を持った敵の近くで回避中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_r1> then press <Sign:3> toward a nearby enemy and press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "前方の敵に<Sign:3>で近づいて<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "After tackling with <symbol=button_shikaku> during a forward evade, press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "前方回避中<symbol=button_shikaku>の当て身後<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "Spin <symbol=button_l_stick> once during Essence of Mighty Strikes": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剛撃の極み中に<symbol=button_l_stick>一回転",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> during Essence of Mighty Strikes": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剛撃の極み中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> right before Swordplay: Brief Slumber hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣撃　微睡が当たる瞬間に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_maru> when Swordplay: Grinning Wolf hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣撃　狼牙が当たったときに<symbol=button_maru>",
+   "occurrences": 2
+  },
+  "With War Cry Counter active, lock onto a distant enemy and press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "反撃ノ鬨発動中、離れた敵に構えて<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> while parrying": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "受け流し中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "Grab an enemy near a raised surface and press <Sign:1>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "台の近くで敵を掴んで<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_batsu> or <symbol=button_l_stick> + <symbol=button_batsu> while evading": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避中に<symbol=button_batsu>あるいは<symbol=button_l_stick>＋<symbol=button_batsu>",
+   "occurrences": 1
+  },
+  "<symbol=button_maru> while evading": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避中に<symbol=button_maru>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> while evading": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避中に<symbol=button_sankaku>",
+   "occurrences": 6
+  },
+  "<symbol=button_shikaku> while evading": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避中に<symbol=button_shikaku>",
+   "occurrences": 4
+  },
+  "<symbol=button_batsu> just before you fall to the ground": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "地面に倒れる瞬間に<symbol=button_batsu>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> just before you fall to the ground": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "地面に倒れる瞬間に<symbol=button_sankaku>",
+   "occurrences": 1
+  },
+  "Grab an enemy near a wall and press <Sign:1>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "壁の近くで敵を掴んで<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> near an enemy close to a wall": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "壁の近くにいる敵に<symbol=button_sankaku>",
+   "occurrences": 6
+  },
+  "With an odachi equipped: <symbol=button_shikaku><symbol=button_sankaku><symbol=button_maru>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大太刀を装備して　<symbol=button_shikaku><symbol=button_sankaku><symbol=button_maru>",
+   "occurrences": 1
+  },
+  "With an odachi equipped: <symbol=button_sankaku> with an enemy near a wall": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大太刀を装備して、壁の近くにいる敵に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "With an odachi equipped: <symbol=button_sankaku> near 3 enemies": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大太刀を装備して、３人の敵に対して<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "With an odachi equipped: <symbol=button_sankaku> before an enemy sword attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大太刀装備　刀による敵の攻撃が当たる瞬間に<symbol=button_sankaku>",
+   "occurrences": 1
+  },
+  "With an odachi equipped: <symbol=button_sankaku> right before an enemy sword attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大太刀装備　刀による敵の攻撃が当たる瞬間に<symbol=button_sankaku>",
+   "occurrences": 1
+  },
+  "With a cannon equipped: <symbol=button_sankaku> with a firework ball in your inventory": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大筒を装備し、装備素材「花火玉」を持って<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:1> while near a carrying pole": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "天秤棒の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> when an enemy attacks from behind": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "後ろから攻撃してきた敵に対して<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> during Bellowing Fusillade": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "拡散轟射中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:1> with a two-handed weapon near an enemy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "拾った両手武器を持って敵の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<Sign:0> while holding a picked-up weapon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "拾った武器を持った状態で<Sign:0>",
+   "occurrences": 1
+  },
+  "<Sign:1> with a one-handed weapon near an enemy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "拾った片手武器を持って敵の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<Sign:1> with a heavy weapon near an enemy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "拾った重量武器を持って敵の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<Sign:1> near an enemy while holding a staff-like weapon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "拾った長棒武器を持って敵の近くで<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_batsu> while grabbed": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "掴まれているときに<symbol=button_batsu>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> when your grab is broken": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "掴みを解かれたときに<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:45> + <Sign:3> while attacking. Can also be done with <Sign:3> in Wild Dancer style": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃中に<Sign:45>＋<Sign:3>　乱舞の型のみ<Sign:3>でも可",
+   "occurrences": 1
+  },
+  "<symbol=button_l1> while attacking": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃中に<symbol=button_l1>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> when an enemy stumbles": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵が体勢を崩した瞬間に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "Run toward 3 or more enemies and press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵が３人以上いる場所に走り込んで<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:6> right before an enemy attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃が当たる直前に<Sign:6>",
+   "occurrences": 1
+  },
+  "<symbol=button_l1> right before an enemy attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃が当たる直前に<symbol=button_l1>",
+   "occurrences": 2
+  },
+  "<symbol=button_r1> and press <symbol=button_maru> right before an enemy attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃が当たる直前に構えて<symbol=button_maru>",
+   "occurrences": 2
+  },
+  "<symbol=button_r1> and press <symbol=button_sankaku> right before an enemy attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃が当たる直前に構えて<symbol=button_sankaku>",
+   "occurrences": 4
+  },
+  "<symbol=button_r1> and press <symbol=button_shikaku> right before an enemy attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃が当たる直前に構えて<symbol=button_shikaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> right before an enemy attack hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃が当たる瞬間に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_r1> when an enemy attacks and press <symbol=button_maru>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃に対して構えて<symbol=button_maru>",
+   "occurrences": 2
+  },
+  "<symbol=button_r1> near an enemy and press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の近くで構えて<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:0> while grabbing an enemy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を掴んだ状態で<Sign:0>",
+   "occurrences": 1
+  },
+  "<Sign:2> or <Sign:1> while grabbing an enemy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を掴んだ状態で<Sign:2>あるいは<Sign:1>",
+   "occurrences": 1
+  },
+  "Grab an enemy and press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を掴んで<symbol=button_sankaku>",
+   "occurrences": 4
+  },
+  "Grab an enemy and press <symbol=button_shikaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を掴んで<symbol=button_shikaku>",
+   "occurrences": 2
+  },
+  "Spin <symbol=button_l_stick> once during Essence of Single Cuts": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武剣技　一刀の極み中に<symbol=button_l_stick>一回転",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> during Essence of Single Cuts": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武剣技　一刀の極み中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> right before your charged Finishing Blow hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "溜めた大攻撃が当たる瞬間に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> while aiming at enemies during Dragonfire Blaze": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炎龍ノ型　敵を捕捉中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> after Fair Weather": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "美技　風見鶏成功後に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "Tilt <Sign:45> back, then <Sign:2> or <Sign:1>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "背中方向に<Sign:45>入力しながら<Sign:2>または<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> while running": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "走り中に<symbol=button_sankaku>",
+   "occurrences": 8
+  },
+  "<symbol=button_shikaku> while running": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "走り中に<symbol=button_shikaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> during Roaring Fusillade": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "轟撃ち中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:1> during a Rush Combo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "連撃中に<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_left><symbol=button_up><symbol=button_right> during a Rush Combo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "連撃中に<symbol=button_left>　<symbol=button_up>　<symbol=button_right>",
+   "occurrences": 2
+  },
+  "Hold <symbol=button_sankaku> during a Rush Combo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "連撃中に<symbol=button_sankaku>長押し",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> near an enemy wielding a firearm": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃を持った敵の近くで<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "Spin <symbol=button_l_stick> once during Essence of Shoving Shot": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃技　離し撃ちの極み中に<symbol=button_l_stick>一回転",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> during Essence of Shoving Shot": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃技　離し撃ちの極み中に<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_l1> as your guard is broken": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防御を崩された時に<symbol=button_l1>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> while guarding": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "防御中に<symbol=button_sankaku>",
+   "occurrences": 4
+  },
+  "Run toward a distant enemy and press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "離れた敵に走り込んで<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_sankaku> when an enemy at a distance attacks with a firearm": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "離れた敵の銃攻撃に対して<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<Sign:1> near an enemy close to water or a high place": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "高いところや川沿いで<Sign:1>",
+   "occurrences": 1
+  },
+  "Grab an enemy near water or a high place and press <Sign:1>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "高いところや川沿いで敵を掴んで<Sign:1>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> on the second strike of Phoenix Frenzy (<symbol=button_maru><symbol=button_maru>)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鳳凰陣２段目<symbol=button_maru><symbol=button_maru>中に<symbol=button_sankaku>",
+   "occurrences": 1
+  },
+  "<symbol=button_sankaku> on the second strike of Phoenix Frenzy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鳳凰陣２段目中に<symbol=button_sankaku>",
+   "occurrences": 1
+  },
+  "<symbol=button_maru> during Dragonfang Flash": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍牙一閃発動中に<symbol=button_maru>",
+   "occurrences": 2
+  },
+  "<symbol=button_r1> toward 3 enemies and press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "３人の敵に対して構えて<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "<symbol=button_r1> toward 4 enemies and press <symbol=button_sankaku>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "４人の敵に対して構えて<symbol=button_sankaku>",
+   "occurrences": 2
+  },
+  "Pick up weapons marked with <Sign:23>. Press <Sign:0> after you pick one up to throw it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:23>印が出ている武器を拾います\n拾ってからもう一度<Sign:0>で投げつけが可能です",
+   "occurrences": 1
+  },
+  "Use <symbol=button_l_stick> to walk and run. The farther you tilt, the faster you move.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<symbol=button_l_stick>の入力度合いによって\n歩きと走りの使い分けが可能です",
+   "occurrences": 1
+  },
+  "Enemies will find it even harder to escape your grip.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さらに力強く掴むことで\nより敵に振りほどかれにくくなります",
+   "occurrences": 1
+  },
+  "You can throw weapons you've picked up into enemies. Different weapons will have different effects when thrown.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "その場で拾った武器を敵に投げつけます\n武器によって当たった際の効果が異なります",
+   "occurrences": 1
+  },
+  "Enemies will find it harder to escape your grip. A necessity for any fighter who favors grappling.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "より力強く掴むことで\n敵に振りほどかれにくくなります\n掴み技を多用する場合は強化したい能力です",
+   "occurrences": 1
+  },
+  "Move the camera up, down, left, or right. Change the controls in Settings from the Pause Menu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カメラを上下左右に動かせます\nメインメニューの「設定」で\n操作の変更が可能です",
+   "occurrences": 1
+  },
+  "Moves the camera behind you. If you are attacking an off-screen enemy, it may automatically move behind you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カメラを背後に移動させます\n画面外の敵を攻撃していると\n自動で背後に回ることもあります",
+   "occurrences": 1
+  },
+  "Quickens the rate at which you gain Heat. Remember, the higher the Heat Gauge goes, the slower it accumulates.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒートゲージの上昇率が増加します\nヒートゲージは段階ごとに溜まりにくくなるので\n活用するためにも強化していきましょう",
+   "occurrences": 4
+  },
+  "Raises the maximum rank of your Heat Gauge. Use more Heat Actions and special abilities—a crucial upgrade!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒートゲージの上限が一段階上昇します\nヒートアクションや絶技などで利用できるので\n上限はなるべく上げるようにしましょう",
+   "occurrences": 6
+  },
+  "Expend your entire Heat Gauge to recover health. The amount you regain is the same no matter how much Heat is spent.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒートゲージを全て消費することで\n少量の体力を回復することができます\n消費する量に関わらず回復量は一定です",
+   "occurrences": 1
+  },
+  "Flinch less when you're attacked while Heat Mode is active. A powerful ability to keep your offense uninterrupted.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒート状態時、敵の攻撃を受けても\nひるみにくくなります\n攻撃を中断されづらくなる非常に強力な能力です",
+   "occurrences": 1
+  },
+  "Strengthens the power of basic attacks, Finishing Blows, and Heat Actions in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型による攻撃の威力が増加します\n連撃等の通常攻撃だけではなく\nヒートアクションの威力も増加します",
+   "occurrences": 18
+  },
+  "Increases the power of all Heat Actions in Swordsman style. Find the right opportunity and land a decisive blow.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型のヒートアクションの\n威力が上昇します\n好機を見極めより大きな一撃を叩き込みましょう",
+   "occurrences": 1
+  },
+  "Increases the damage of Finishing Blows in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型の大攻撃で与える\nダメージが増加します",
+   "occurrences": 1
+  },
+  "Increases the damage from Rush Combo attacks in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型の連撃で与える\nダメージが増加します",
+   "occurrences": 1
+  },
+  "Further increases the speed of Rush Combo attacks in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型の連撃の速度が\nさらに上昇します",
+   "occurrences": 1
+  },
+  "Increases the speed of Rush Combo attacks in Swordsman style, giving your enemies fewer chances to strike back.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型の連撃の速度が上昇します\n手数が多くなるだけでなく\n敵に反撃の隙を与えづらくなります",
+   "occurrences": 1
+  },
+  "Increases the number of attacks in the Swordsman style Rush Combo. The Finishing Blow after four strikes is damn strong.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型の連撃数が増加します\n追加された４段目の攻撃からの大攻撃は\n２発連続で斬りつける高威力の攻撃です",
+   "occurrences": 1
+  },
+  "Perform an additional jumping slash after the four strike combo Finishing Blow. Can be difficult to land, but powerful.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型連撃４段目からの大攻撃で\nさらに大きな飛び込み斬りを連続で行います\n非常に威力が高いので確実に当てましょう",
+   "occurrences": 1
+  },
+  "A spinning finisher that can be performed during the Dragonfang Flash.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀絶技　龍牙一閃から繰り出す\nトドメの一撃となる回転攻撃です\n<color=skill_explain_heat>絶技「龍牙一閃」を修行で習得後効果を発揮</color>",
+   "occurrences": 1
+  },
+  "Avoid attacks that may be too difficult to dodge by rolling away after evading.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一回の回避では避けきれない攻撃でも\n転がって大きく避けることにより\nダメージを受けずに乗り切ることができます",
+   "occurrences": 1
+  },
+  "A grand technique to unleash many powerful cuts after sheathing your sword. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一度納刀したところから、高速で踏み込み\n敵を一閃する強力な抜刀術です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "Further increases the speed of Rush Combo attacks in Wild Dancer style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型で刀による連撃の速度が\nさらに上昇します",
+   "occurrences": 1
+  },
+  "Increases the speed of Rush Combo attacks in Wild Dancer style. As long as you stay dexterous, the attacks will come.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型で刀による連撃の速度が上昇します\n手数の多さはそのまま強さに繋がるので\n速度を上昇させて連撃を叩き込みましょう",
+   "occurrences": 1
+  },
+  "Strengthens the power of basic attacks, Finishing Blows, and Heat Actions in Wild Dancer style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型による攻撃の威力が増加します\n連撃等の通常攻撃だけではなく\nヒートアクションの威力も増加します",
+   "occurrences": 18
+  },
+  "Increases the power of all Heat Actions in Wild Dancer style. Find the right opportunity and land an elegant blow.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型のヒートアクションの\n威力が上昇します\n好機を見極めより大きな一撃を叩き込みましょう",
+   "occurrences": 1
+  },
+  "Increases the damage from Rush Combo attacks in Wild Dancer style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型の連撃で与える\nダメージが増加します",
+   "occurrences": 1
+  },
+  "Increases the number of sword attacks in Wild Dancer style Rush Combo. After five attacks, be sure to use Remnant Silhouette to stay graceful.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型の連撃数が増加します\n乱撃は５段目までなので隙を作らないように\n影残しで次の攻撃に繋げましょう",
+   "occurrences": 1
+  },
+  "Increases the damage from gun attacks in Wild Dancer style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型の銃撃で与える\nダメージが増加します",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Cornering with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　壁追い込みの極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Dance of Mourning with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　憂い残しで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of The Bloody Wheel with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　撃刃の舞いで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Squall of Steel and Fire with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　突刺追撃の極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Reduce the amount of Heat Gauge consumed by Luxury and Splendor.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　絢爛豪華で\n消費するヒートゲージの量が減少します",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Luxury and Splendor with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　絢爛豪華で\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Increases the number of possible attacks from Luxury and Splendor. Very effective against strong foes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　絢爛豪華の攻撃可能回数が増加します\n無防備な敵に連続して攻撃を叩き込めるため\n強敵との戦いで非常に有効です",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Typhoon of Steel and Fire with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　総身回天落としで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Majestic Dispersal with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　群衆散らしで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Stature with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　背面取りの極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Finishing with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　追い討ちの極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Transition Rain of Steel and Fire into a gruesome impalement, topped with another kick. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　鉄火連段から派生する\n刀を突き刺してから吹っ飛ばす大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Transition Rain of Steel and Fire into a vicious heel kick, with another shot to keep them down for good. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　鉄火連段から派生する\n強烈な浴びせ蹴りから銃撃を行う大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Rain of Steel and Fire with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　鉄火連段で\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Mirage of Shimmering Heat with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　陽炎流しで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Winged Flight with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞技　飛翔乱撃の極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Extends your Health Gauge beyond what a level-up would give you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力の上限が増加します\n体力はレベルアップでも少量増加しますが\n能力獲得ではより大きく増加します",
+   "occurrences": 52
+  },
+  "Increases the amount of health recovered when using Asura Spirit.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "修羅の気位を繰り出した際の\n体力回復量が増加します",
+   "occurrences": 1
+  },
+  "Collect yourself during a fall and spring back to your feet with feline tenacity.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れそうになったところから\n受け身を取って起き上がることができます\n倒れて隙を作らないように注意しましょう",
+   "occurrences": 1
+  },
+  "Collect yourself during a fall and immediately ready a counterattack.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れそうになったところから受け身を取り\n敵に対して瞬時に反撃に転じる技です",
+   "occurrences": 1
+  },
+  "Hold an enemy down beneath your heel and unload on the poor bastard. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れた敵を足で押さえつけ\n連続で銃弾を撃ちこむ非情な大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Mercilessly plunge your sword into a downed enemy. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れている敵に刀を突き刺す無情な一撃\n敵が仰向けかうつ伏せかで技が変化します\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Two ages of warfare coalesce as you stab and shoot a downed enemy. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れている敵に対して剣を突き刺し\n銃による追い打ちを行う大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "A massive kick to the head of enemy lying face down. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れている敵に対して思いっきり振り上げた足で\n激しい蹴り上げをお見舞いする大技です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "A powerful stomp to an enemy lying face up. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倒れている敵に対して顔面を\n踏みつける強烈な追い討ち技です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "Increases damage after drawing a weapon. With Sheathed Blade, changing styles is an attack unto itself.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀や銃を出しながらの攻撃で威力が増加します\n鞘隠ノ太刀と合わせて習得することで\n型の切り替えも立派な攻撃になっていきます",
+   "occurrences": 1
+  },
+  "Complete a combo by firing off multiple shots toward enemies in front of you—a cascade of hot lead.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "前方の敵に向かって、複数の銃弾を\n一気に放出する強力な射撃技です",
+   "occurrences": 1
+  },
+  "Defend against attacks from the front. Without a weapon, you won't be able to guard against armed attacks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "前方向からの攻撃を防御できます\n武器を持っていない場合は武器攻撃を\n防ぎきることはできません",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Heavy Sword: Monkeyplay with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剛剣　猿返しで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Heavy Sword: Fly Swatter with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剛剣　蝿啼かせで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Heavy Sword: Windmill with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剛剣　風車で\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Transition the Essence of Mighty Strikes into a slam so ruthless, they'll never want to stand up again. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剛撃の極みから派生する\n地面に埋まるほど頭部を叩きつける大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Transition the Essence of Mighty Strikes into a throw befitting a restless, raging dragon. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剛撃の極みから派生する、掴んだ敵を\n振り回して周りをも巻き込む大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Mighty Strikes with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剛撃の極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Perform a stronger slash following Brief Slumber. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣撃　微睡が強撃可能になります\n一撃でよりダメージを与えることができます\nヒート状態でゲージを消費して発動可能です",
+   "occurrences": 1
+  },
+  "Further increases the power of Swordplay: Brief Slumber.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣撃　微睡の強撃が成功した際に\n与えるダメージがさらに増加します",
+   "occurrences": 1
+  },
+  "Increases the power of Swordplay: Brief Slumber.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣撃　微睡を繰り出した際に\n与えるダメージが増加します",
+   "occurrences": 1
+  },
+  "Increases the damage from Swordplay: Ravenous Wolf.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣撃　狼牙　終を繰り出した際に\n与えるダメージが増加します",
+   "occurrences": 1
+  },
+  "Hurl away an enemy pierced by Swordplay: Grinning Wolf. A powerful technique which cannot be dodged.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣撃　狼牙での突き攻撃から\n串刺しにした敵を投げ飛ばす豪快な技です\n回避不能の非常に強力な技です",
+   "occurrences": 1
+  },
+  "Increases the power of Swordplay: Grinning Wolf.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣撃　狼牙を繰り出した際に\n与えるダメージが増加します",
+   "occurrences": 1
+  },
+  "Further increases the duration of War Cry Counter.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "反撃ノ鬨の効果時間が\nさらに長くなります",
+   "occurrences": 1
+  },
+  "Increases the duration of War Cry Counter. It's not a bad idea to switch styles while this effect is active.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "反撃ノ鬨の効果時間が長くなります\n受け流しに成功して反撃ノ鬨が発動したら\n武器を切り替えて戦うのもひとつの策です",
+   "occurrences": 1
+  },
+  "Further increases the amount of experience you gain from defeating enemies while War Cry Counter is active.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "反撃ノ鬨発動中に敵を倒した際に\n獲得できる経験値がさらに増加します",
+   "occurrences": 1
+  },
+  "Increases the amount of experience you gain from defeating enemies while War Cry Counter is active.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "反撃ノ鬨発動中に敵を倒すと\n獲得できる経験値が増加します\nより効率的に成長するためにおすすめの能力です",
+   "occurrences": 1
+  },
+  "Parry an enemy, then grab them when they stumble to hurl them far away. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "受け流しで体勢を崩した敵の背中を掴み\n思いっきり投げ飛ばす大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Extends the timing on Splendid Skill: Vain Tengu, giving you greater freedom to parry.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "受け流しの受付時間が長くなります\n反撃の起点として活用していきましょう",
+   "occurrences": 1
+  },
+  "Extends the timing on Splendid Skill: Ghostly Wind, giving you greater freedom to parry.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "受け流しの受付時間が長くなります\n反撃の起点として活用していきましょう",
+   "occurrences": 1
+  },
+  "Extends the timing of parries, giving you more freedom. Your foes will lose their footing from this technique. Do not let them regain it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "受け流しの受付時間が長くなります\n受け流された敵は体勢を崩しているので\nそこを起点に一気に攻撃へ転じましょう",
+   "occurrences": 1
+  },
+  "Increases the damage of Komaki Knock Back.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧流　弾き返しを繰り出した際に\n与えるダメージが増加します",
+   "occurrences": 1
+  },
+  "Increases the damage of Komaki Evade and Strike.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧流　捌き打ちを繰り出した際に\n与えるダメージが増加します",
+   "occurrences": 1
+  },
+  "Increases the damage of Komaki Tiger Drop.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧流　虎落としを繰り出した際に\n与えるダメージが増加します",
+   "occurrences": 1
+  },
+  "Slash and shoot and spin about—a dynamic and versatile tool for the surrounded dancer. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回転しながら斬撃と銃撃の連撃を見舞う\n乱舞の型ならではの豪快な大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "A grand technique to lay waste to all around you with sword and sidearm. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回転しながら銃を乱射し\n斬撃と銃撃の雨を敵にお見舞いする大技です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "Take aim at a gang ahead of you and send 'em all to the gallows. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回転式拳銃の撃鉄を高速で起こすことで\n連続して複数の敵に銃撃を行う大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Further increases the invulnerability time you gain from evading, allowing you to dodge big attacks more easily.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避の際の無敵時間が長くなります\n敵の大振りの攻撃なども回避しやすくなります",
+   "occurrences": 4
+  },
+  "Lengthen the invulnerability time of your evasion and your ability to dodge incoming attacks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避の際の無敵時間が長くなります\n敵の攻撃を見てから回避を行っても\n避けられる確率が上がります",
+   "occurrences": 1
+  },
+  "Strike an enemy after evading. However, by sacrificing poise, this attack does little damage on its own.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避中に攻撃を繰り出します\n敵の攻撃後の隙を攻めることができるものの\n体勢は崩れているので威力は下がります",
+   "occurrences": 2
+  },
+  "Hop away from your enemies and fire off a quick shot. You'll dance, but they'll be the ones taking the bow.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避中に銃撃を繰り出します\n前方回避の場合は当て身を行います\n緊急回避の際に追加の一撃を加えていきましょう",
+   "occurrences": 1
+  },
+  "Shoot an enemy after evading. You'll risk being struck if you're too close, but it's quite effective at long range.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避中に銃撃を繰り出します\n近距離では追撃される危険がありますが\n銃を持っている遠距離の敵に有効です",
+   "occurrences": 1
+  },
+  "Increases the number of evades you can perform. Avoid big attacks by evading repeatedly.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避回数が増加します。\n連続して大きく避けることにより\nダメージを受けずに乗り切ることができます",
+   "occurrences": 1
+  },
+  "Dodging alone will not ensure victory, but this technique to attack after evading will bring you one step closer.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避直後に攻撃に転じることができる技です\n回避や防御ばかりでは勝機がないので\n攻勢に出れる一手は是非ほしいところです",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Grounding Strikes with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土撃の極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Shoot an enemy once in the leg, and then in the chest. Either way, they won't be walking tomorrow. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "地面に倒れたまま銃撃を行い\n怯んだ敵を倒し、もう一発撃ちこむ大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Increases the strength of attacks and Heat Actions using odachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大太刀による攻撃の威力が増加します\n連撃等の通常攻撃だけではなく\nヒートアクションの威力も増加します",
+   "occurrences": 3
+  },
+  "Swing your odachi in an imposing manner, taking down surrounding enemies. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大太刀を豪快に振り回し\n周囲の敵をいっぺんになぎ倒す大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Grand Bruising with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大撲打の極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Increases the strength of attacks and Heat Actions using a cannon.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大筒による攻撃の威力が増加します\n連撃等の通常攻撃だけではなく\nヒートアクションの威力も増加します",
+   "occurrences": 3
+  },
+  "Load a cannon with a firework ball and turn your enemies into a spectacle sure to delight. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大筒に花火玉を仕込み敵に向けて撃ち出し\n巨大な花火として華々しく散らせる大技です\n<color=skill_explain_heat>ヒートゲージと花火玉を消費します</color>",
+   "occurrences": 1
+  },
+  "Increases the power of both slashing and shooting in Dragon God Dance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "天龍乱舞の威力が上昇します\n斬撃、銃撃両方に効果があります",
+   "occurrences": 1
+  },
+  "Increases the number of shots from Dragon God Dance. Very useful when surrounded by enemies.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "天龍乱舞の射撃回数が増加します\n囲まれた際に非常に有効です\n<color=skill_explain_heat>絶技「天龍乱舞」を修行で習得後効果を発揮</color>",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Mercurial Fortune with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "失敗転撃の極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Increases the power of Enhanced Rounds and Flame Rounds.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "強化弾を使用した際の威力と\n火炎弾を使用した際の威力が上昇します",
+   "occurrences": 1
+  },
+  "A brawny series of punches followed by a calamitous headbutt. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "強烈な拳を顔面にお見舞いした後に\n勢いのついた頭突きを繰り出す大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "A novel technique to feed an enemy a mouthful of pickled plums and kick them in the confusion. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "強烈に酸っぱい梅干しを敵の口に詰め込み\n怯んだところに一撃を加える斬新な大技です\n<Color:109,193,240,255>ヒートゲージと梅干しを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "See how long a man can hold onto his precious steel when you're targeting it—pick up dropped weapons with <symbol=button_maru>, too.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "弾を連続で当てて敵の武器を弾くことができます\n銃の格が高いほど成功率が上がります\n敵が落した武器は<symbol=button_maru>で拾うことも可能です",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Reverse Throw with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "後ろ掴み投げの極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Catch a scoundrel creeping up behind you by quickly turning 'round and shooting them first.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "後ろ方向に向き直って射撃を行います\n距離を取りつつ振り向きざまに一発\n攻撃することができる有効な技です",
+   "occurrences": 1
+  },
+  "Activate the ultimate strike of Essence of Dragon Strikes with an additional <symbol=button_sankaku> input to increase damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "怒龍の極みで\n究極の一打が発動できます\n<color=skill_explain_heat>究極の一打：追加の<symbol=button_sankaku>入力成功でダメージ増加</color>",
+   "occurrences": 1
+  },
+  "Utilize Earth's pull to crush an enemy under the weight of a heavy object. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手に持った巨大な武器を叩き落とし\n敵を押しつぶす大技です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "Bring a two-handed weapon down on an enemy, then rush them. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手に持った武器で敵の視界を奪った後\n連続で拳を叩き込む大技です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "Slam a one-handed weapon into an enemy once, then do it again when they're down. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手に持った鈍器で敵を殴りつけ\n倒れ込んだところにもう一撃加える大技です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "You are a dancer, and death is the stage upon which you soar. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "投げつけた刀を足場にして高く飛び上がり\n空中から華麗な銃撃を行う大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Further increases the damage whenever a thrown or knocked away enemy hits other enemies.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "投げ技や大攻撃で吹き飛んだ敵が\n他の敵にあたった際のダメージが\nさらに増加します",
+   "occurrences": 1
+  },
+  "Increases the damage between enemies thrown or knocked into one another. Helpful in crowded fights.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "投げ技や大攻撃で吹き飛んだ敵が\n他の敵にあたった際のダメージが増加します\n混戦になるほど効果を発揮します",
+   "occurrences": 1
+  },
+  "Further increases the damage dealt after drawing a weapon.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "抜刀や銃を出しながらの攻撃の威力が\nさらに増加します",
+   "occurrences": 1
+  },
+  "Follow up Bellowing Fusillade with yet another spread of shots. Don't leave any of these SOBs standing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "拡散轟射からさらに一段\n広い攻撃を行い敵を一掃します\n範囲内になるべく多くの敵を集めましょう",
+   "occurrences": 1
+  },
+  "Strike down an enemy who's escaped your grab with a whirlwind kick. A stunning reversal of fate. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "掴みを解いて反撃に出ようとする敵に対し\nその隙を与えずに浴びせ蹴りを見舞う大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Kick away an enemy from your grab, then fire a slug straight into his center. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "掴んだ敵への横蹴りで体勢を崩し\n銃弾を撃ちこむ大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Throw an enemy after grabbing them. Can hurl the grabbed enemy into other enemies.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "掴んだ敵を投げ飛ばします\n他の敵を巻き込んで攻撃することもできます",
+   "occurrences": 1
+  },
+  "Counter incoming attacks from all sides with swift and deadly poise. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃してきた敵に対して\n即座に体術で反撃を行う強烈な返し技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Cancels your attack and evades. Attack again in Wild Dancer style to preserve your combo—leaving behind only a shadow.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃を中断して即時回避を行うことができます\n乱舞の型では直後に攻撃をつなぐことで\n効果的に連撃を行うことができます",
+   "occurrences": 1
+  },
+  "Parry even while attacking. With skilled timing, you can instantly handle threats from all sides.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃中であっても受け流せるようになります\n背後から攻撃してきた敵や、敵の反撃に\n即座に対応することができるようになります",
+   "occurrences": 1
+  },
+  "Instantly draw your weapon and change styles mid-combo. A masterful way to keep up the attack.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃中に瞬時に抜刀することができます\n攻撃をしながら型の切り替えが可能になり\n少ない隙で複数の型を使うことができます",
+   "occurrences": 1
+  },
+  "Cut through an oncoming bullet and set upon the poor fool who fired it. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵が撃ってきた銃弾を刀で真っ二つに裂き\nそのまま突進して一撃を繰り出す大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Shake off enemies' grabs more easily. Strong foes can turn grabs into devastating attacks—best to avoid that.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵に掴まれた際に、振りほどきやすくなります\n強敵の掴み攻撃は非常に危険なため\n一刻も早く離脱できるようにしましょう",
+   "occurrences": 1
+  },
+  "Parry a sword-wielding enemy the moment before they connect and use their blade against them. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の一撃を寸前で受け流し\n相手の刀を利用して攻撃する豪快な大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "After using the Splendid Skill: Fair Weather, slice clean through a stumbling foe. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の体勢を崩したところから\n一気に胴を切り抜ける大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Set the enemy off-balance, then carve them up with three precise slashes. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の体勢を崩してから\n一刀での三連撃を叩き込む大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Turn the enemy's blade aside. You may even disarm them while using a high grade sword—take their weapon with <symbol=button_maru>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の刀を巻き上げて攻撃を防ぎます\n刀の格次第で敵が武器を手放すことがあります\n敵が落した武器は<symbol=button_maru>で拾うことも可能です",
+   "occurrences": 1
+  },
+  "Counter an enemy with your offhand. A skill to cherish when an enemy's getting too close.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃に対して当身を行い\n間合いを離す体術です\n近づかれてしまった際に重宝する技です",
+   "occurrences": 1
+  },
+  "Slip underneath an enemy and fire into his back. His family may mourn, but we all have sorrows to bear. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃に対して素早く地面を滑り込み\n反転しながらの空中連撃を行う華麗な大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "A powerful reversal unleashed the instant before an enemy's attack. The risk is high, but success can move mountains.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃の一瞬の隙をつく強烈な一撃です\n狙える隙は短く危険も大きいですが\n成功すれば一発逆転も可能です",
+   "occurrences": 1
+  },
+  "Deliver a devastating punch in the instant an enemy is most vulnerable. The timing is difficult, but the payoff extraordinary.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃の隙を突き強烈な一撃を叩き込みます\n狙えるのは一瞬だけですが\n確実に捉えれば大ダメージを与えられます",
+   "occurrences": 1
+  },
+  "Grab an enemy while evading. Followed up with a throw or Cavity Kill, a great way to manage distance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃をかわしつつ掴むことができます\n投げ技や爆裂腔に繋げることで\n間合いをつめられた危機を乗り越えましょう",
+   "occurrences": 1
+  },
+  "Parry enemy attacks. You can stumble enemies that you've parried, so turn that opportunity into your attack.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃を受け流します\n受け流された敵は体勢を崩しているので\nそこを起点に一気に攻撃へ転じましょう",
+   "occurrences": 1
+  },
+  "Evade an enemy's attack and use that momentum to capture them in a grab, rendering them weak and foolish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃を回避した動きの流れから\n敵を掴むことができます\n掴まれている間敵は無力になります",
+   "occurrences": 1
+  },
+  "Evade using your odachi with simian dexterity, then follow up with a massive slash. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃を大太刀を軸にして空中で回避し\n着地と同時に横薙ぎの攻撃を繰り出す大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Creates an opening for a counterattack by rebuking enemies from your guard. A valuable technique.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の攻撃を防御したところから押し返し\n反撃の起点にすることができる技です\n強敵との戦いで非常に重宝します",
+   "occurrences": 1
+  },
+  "Grab a downed enemy by the legs and spin, knocking their allies away. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の足を掴んで振り回し周りにいる敵も\nいっぺんに巻き込んで倒す豪快な大技です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "A dazzling series of attacks which can last as long as you find openings. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の隙を突き続ければ\n連続して攻撃を続けることができる大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Crush an enemy's face onto a low surface, and follow up with a stomp. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵の顔面を台に強打し、倒れ込んだところを\n踏みつけて追い討ちする大技です\n<Color:109,193,240,255>ヒートゲージを消費します<Color:Default>",
+   "occurrences": 1
+  },
+  "Give a nearby wall a brand new crimson paintjob, courtesy of an enemy who wandered too close to it. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を壁に叩きつけ身動きがとれないところへ\n至近距離から銃弾を撃ちこむ大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "Press the barrel into a grabbed enemy's chest and unload. Remember, guns can be weak in close range.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を掴んだ状態から銃を押し当てて射撃します\n懐に入られると銃は不利なので\n近くにいる敵には掴みも有効な手段です",
+   "occurrences": 1
+  },
+  "Punch your enemy after grabbing them. You can unleash a combo or send your enemy flying.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を掴んでいる状態で打撃を繰り出します\n連続攻撃とふっ飛ばし攻撃の\n出し分けが可能です",
+   "occurrences": 1
+  },
+  "Force an enemy against the wall with your sword, pin them there, and fire. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斬撃で敵を壁に追い込んだ後\n押さえつけて銃弾を連続で撃ちこむ大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "An inferno of slashes and shots performed in Wild Dancer style—as fearsome and mesmerizing as the phoenix itself.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斬撃と銃撃による波状攻撃を行う\n乱舞の型ならではの豪快な技です\n全部で三段まで繰り出すことができます",
+   "occurrences": 1
+  },
+  "Extends the timing on the Twister Tussle. When surrounded, it's always effective to throw enemies into each other.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "旋風掴みの受付時間が長くなります\n複数の敵に囲まれた際は\n掴んだ敵を投げて巻き込む攻撃も有効です",
+   "occurrences": 1
+  },
+  "Increases the damage from the Texas Two-Step.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "旋風撃ちを繰り出した際に\n与えるダメージが増加します",
+   "occurrences": 1
+  },
+  "Use the first enemy before you as a stepping stone to slash the next two horrified fools. Consumes Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最初に倒した１人を踏み台にして飛び上がり\n後ろの２人をまとめて斬る豪快な大技です\n<color=skill_explain_heat>ヒートゲージを消費します</color>",
+   "occurrences": 1
+  },
+  "When you parry in Brawler style, you'll become invulnerable for a short period—a fitting time for a triumphant war cry.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格闘の型で受け流した際\n一定時間無敵になります\n体勢を崩した敵に一気に攻撃しましょう",
+   "occurrences": 1
+  },
+  "Strengthens the power of basic attacks, Finishing Blows, and Heat Actions in Brawler style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格闘の型による攻撃の威力が増加します\n連撃等の通常攻撃だけではなく\nヒートアクションの威力も増加します",
+   "occurrences": 18
+  }
+ }
+}

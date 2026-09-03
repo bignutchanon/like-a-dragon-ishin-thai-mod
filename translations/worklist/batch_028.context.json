@@ -1,0 +1,2261 @@
+{
+ "batch": "batch_028.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Craft new equipment.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新しい武具を作成します。",
+   "occurrences": 1
+  },
+  "This is Best-grade equipment. Are you sure you want to disassemble it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最上大業物が含まれますが、分解しますか？",
+   "occurrences": 1
+  },
+  "You have gear that can be equipped.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "未装備箇所に装備可能な防具があります",
+   "occurrences": 1
+  },
+  "Next Page": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次のページ",
+   "occurrences": 1
+  },
+  "Until next level": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次のレベルまで",
+   "occurrences": 1
+  },
+  "Next Item": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次の項目",
+   "occurrences": 1
+  },
+  "Failed to enhance the equipment.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具の強化に失敗しました。",
+   "occurrences": 1
+  },
+  "Successfully enhanced the equipment.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具の強化に成功しました。",
+   "occurrences": 1
+  },
+  "Disassemble equipment to obtain seals and materials.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具を分解し、“印”や素材を入手します。",
+   "occurrences": 1
+  },
+  "Equipment disassembled for base materials.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具を分解し、素材を獲得しました。",
+   "occurrences": 1
+  },
+  "Disassemble equipment?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具を分解しますか？",
+   "occurrences": 1
+  },
+  "Donated the equipment to Kurogane Smithing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具を寄贈し、鍛冶屋ポイントを獲得しました。",
+   "occurrences": 1
+  },
+  "Donate equipment?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具を寄贈しますか？",
+   "occurrences": 1
+  },
+  "Enhance equipment?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具を強化しますか？",
+   "occurrences": 1
+  },
+  "Crafting fee": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具作成費用",
+   "occurrences": 1
+  },
+  "Enhancement success chance": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具強化成功率",
+   "occurrences": 1
+  },
+  "Smithing Diagram": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武具派生図",
+   "occurrences": 1
+  },
+  "Change Focus": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "注視点移動",
+   "occurrences": 1
+  },
+  "View Angle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "画角",
+   "occurrences": 1
+  },
+  "Forfeit ability": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "破棄",
+   "occurrences": 1
+  },
+  "You lack the necessary materials.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "素材が足りません。",
+   "occurrences": 1
+  },
+  "Most seals can be transferred from equipment when used as materials. However, there are some exclusive seals which you cannot transfer.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "素材となる武具に付与された印は、基本的に継承されます。\nただし、固有印は継承されません。",
+   "occurrences": 1
+  },
+  "Exit": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "終了",
+   "occurrences": 3
+  },
+  "Iris": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "絞り",
+   "occurrences": 1
+  },
+  "Transfer ability": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "継承",
+   "occurrences": 1
+  },
+  "Total Defense": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "総防御力",
+   "occurrences": 1
+  },
+  "Change Colors": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "色変更",
+   "occurrences": 1
+  },
+  "Expression": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "表情",
+   "occurrences": 1
+  },
+  "Please select the text language.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "表示言語を選択してください。",
+   "occurrences": 1
+  },
+  "Change View": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "視点切り替え",
+   "occurrences": 1
+  },
+  "Current selection": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "選択中",
+   "occurrences": 1
+  },
+  "This is a golden seal. Are you sure you want to overwrite it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金の印ですが、上書きしますか？",
+   "occurrences": 1
+  },
+  "You don't have any hammers.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金槌が足りません。",
+   "occurrences": 1
+  },
+  "Select a hammer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金槌を選択してください",
+   "occurrences": 1
+  },
+  "Change hammer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金槌変更",
+   "occurrences": 1
+  },
+  "Kurogane Smithing": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛冶　くろがね屋",
+   "occurrences": 6
+  },
+  "Cannot be crafted at Kurogane Smithing": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛冶屋では作成できません",
+   "occurrences": 1
+  },
+  "Read about smithing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛冶屋についてご説明します。",
+   "occurrences": 1
+  },
+  "Donate equipment to improve Kurogane Smithing's available stock.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛冶屋に武具を寄贈し、\n鍛冶屋レベルを上げるポイントを獲得します。",
+   "occurrences": 1
+  },
+  "Smithing level": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛冶屋レベル",
+   "occurrences": 1
+  },
+  "Smithing level details": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛冶屋レベル詳細",
+   "occurrences": 1
+  },
+  "Change Category": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "項目変更",
+   "occurrences": 1
+  },
+  "This seal is not stackable.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "２つ以上は効果を発揮しない印です。",
+   "occurrences": 1
+  },
+  "Camera": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "：カメラ",
+   "occurrences": 1
+  },
+  "Player": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "子",
+   "occurrences": 3
+  },
+  "Fail": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "不合格",
+   "occurrences": 3
+  },
+  "Pass": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "合格",
+   "occurrences": 3
+  },
+  "Begin!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "始め！",
+   "occurrences": 4
+  },
+  "Let's fill our stomachs, just you and me": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おなかいっぱい食べようね",
+   "occurrences": 1
+  },
+  "Stomach growls, you come in for the night": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おなかがペコペコさん",
+   "occurrences": 1
+  },
+  "You need a hot bath, you've earned your pillow": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お風呂より何より",
+   "occurrences": 1
+  },
+  "Cucumbers, and radishes": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "きゅうり　だいこん　",
+   "occurrences": 1
+  },
+  "Spinning all around just like a big kaleidoscope": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "くるくる日替わり万華鏡",
+   "occurrences": 1
+  },
+  "But not before your belly's full": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ご飯が先ね　　",
+   "occurrences": 1
+  },
+  "Sights and scents on the table give me hope": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "しあわせの食卓は",
+   "occurrences": 1
+  },
+  "Together, we're family": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ずっと二人で　",
+   "occurrences": 1
+  },
+  "All day long, you build an appetite": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一日お疲れさん",
+   "occurrences": 1
+  },
+  "Composition: Tsuyoshi Kaneko": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作曲：金子剛",
+   "occurrences": 2
+  },
+  "There's spring onions, burdock,": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長ネギ　ごぼう",
+   "occurrences": 1
+  },
+  "Change Appearance": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "着替え",
+   "occurrences": 1
+  },
+  "How many men, again, pretend, it never ends": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「男は悶々",
+   "occurrences": 1
+  },
+  "For I would rather die, than live another lie": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あちらの蜜が旨かろうが",
+   "occurrences": 1
+  },
+  "A truehearted samurai has graced you!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いちず侍、ここに見参！",
+   "occurrences": 1
+  },
+  "Truehearted samurai!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "い・ち・ず・侍",
+   "occurrences": 1
+  },
+  "Ichizu Samurai (Truehearted Samurai)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "い・ち・ず・侍",
+   "occurrences": 1
+  },
+  "Or sell my soul in places I don't know?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええ加減にしやしゃんせ",
+   "occurrences": 1
+  },
+  "While the wine may taste divine, I'll be staying dry": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "こちらの水が甘かろうが",
+   "occurrences": 1
+  },
+  "So, ma'am, if he won't treat you right": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そんなてめぇ",
+   "occurrences": 1
+  },
+  "Of every vice and every sinful thing": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひけらかす輩は",
+   "occurrences": 1
+  },
+  "Do I stay at home and stand against the flow": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "不倫だの浮気だの",
+   "occurrences": 1
+  },
+  "But you will never break me, my flaws are undenied": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何をされても　揺るがぬ純情　",
+   "occurrences": 1
+  },
+  "A man gets drunk and merrily he sings": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何人だ　何十人だ",
+   "occurrences": 1
+  },
+  "Composition: Saori Yoshida": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作曲：吉田沙織",
+   "occurrences": 1
+  },
+  "And don't mistake me, I bend": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吸われて揉まれて",
+   "occurrences": 1
+  },
+  "And pave a lonely road to hell?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "地獄におちるがいい",
+   "occurrences": 1
+  },
+  "Though evening comes to spirit me away": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大事な人　い・ち・ずに",
+   "occurrences": 1
+  },
+  "Love is what I cherish in the day": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "愛してくだしゃんせ",
+   "occurrences": 1
+  },
+  "\"Lust is just the way that humans tend\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "紋白蝶　花粉撒く定めさ」",
+   "occurrences": 1
+  },
+  "So I keep my head up and will never let up—I'm a": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "誘惑上等　どんと来い　俺は　",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "You won't see me come to debase you": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "誘惑上等どんと来い……",
+   "occurrences": 1
+  },
+  "Toss his ass out in the street tonight": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "都合の言い訳は　許しゃしねぇ",
+   "occurrences": 1
+  },
+  "Does he not ring his own death knell": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "閻魔殿にぬかれて",
+   "occurrences": 1
+  },
+  "Dying for a meal": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありつかん",
+   "occurrences": 1
+  },
+  "Born to break his back til he's made to bend his knee": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これも定めと受け入れて",
+   "occurrences": 1
+  },
+  "Composition: Yuri Fukuda": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作曲：福田有理",
+   "occurrences": 1
+  },
+  "To a fate lined with misery": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "働いて死ぬのみ　　",
+   "occurrences": 1
+  },
+  "But I'll bleed to make it,": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "嗚呼　意地張って",
+   "occurrences": 1
+  },
+  "Pressing onward before these wounds can heal": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "尊くも儚き飯",
+   "occurrences": 1
+  },
+  "Each step, a twist of the knife": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "意地で生きるぞ",
+   "occurrences": 1
+  },
+  "Bleed to make it blossom in the mud": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "意地張って　咲かせませう",
+   "occurrences": 1
+  },
+  "And I'm running out of breath, drowning in my sweat": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "汗水たらし　身を削り",
+   "occurrences": 1
+  },
+  "Longing for the day it spreads its petals in the sun": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "泥水育ちの　その花は",
+   "occurrences": 1
+  },
+  "This tiny seed for the future taking root in blood": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "燃ゆる花弁　血染め模様",
+   "occurrences": 1
+  },
+  "It's a cruel, fleeting life": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "醜い浮世を　　",
+   "occurrences": 1
+  },
+  "A poor man toils in vain, no honor to his name": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金も身分もない男は　　",
+   "occurrences": 1
+  },
+  "<kf:2>The beloved blade of First Captain Okita Soji. Allows you to perform his signature technique with <symbol=button_maru>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<kf:2>新選組一番隊隊長、沖田総司の愛刀。\n<symbol=button_maru>で彼の技を繰り出すことができる。",
+   "occurrences": 1
+  },
+  "<kf:2>The beloved blade of Second Captain Nagakura Shinpachi. Allows you to perform his signature technique with <symbol=button_maru>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<kf:2>新選組二番隊隊長、永倉新八の愛刀。\n<symbol=button_maru>で彼の技を繰り出すことができる。",
+   "occurrences": 1
+  },
+  "<kf:2>The beloved blade of Chief Kondo Isami. Allows you to perform his signature technique with <symbol=button_maru>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<kf:2>新選組局長、近藤勇の愛刀。\n<symbol=button_maru>で彼の技を繰り出すことができる。",
+   "occurrences": 1
+  },
+  "<kf:2>A seal used to enhance weapons. \nChanges <symbol=button_maru> into a special attack.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<kf:2>武器を強化するための印。\n<symbol=button_maru>攻撃が特殊攻撃に変化。",
+   "occurrences": 3
+  },
+  "<kf:2>A seal used to enhance weapons. \nAllows you to charge shots by holding <symbol=button_shikaku> at {d_value}% attack power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<kf:2>武器を強化するための印。\n<symbol=button_shikaku>長押しでチャージショットを\n撃てるようになる。威力が増加。【＋{d_value}％】",
+   "occurrences": 1
+  },
+  "A gun once called the Model 2, now in its final form. Extremely powerful and immaculately stylish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Model 2から派生した拳銃の最終形。\n威力だけでなく拵えにも風格を感じる。",
+   "occurrences": 1
+  },
+  "A modified Model 2 revolver, offering slightly increased power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Model 2を改良した回転式拳銃。\n機構の改善で威力が少し上がっている。",
+   "occurrences": 1
+  },
+  "An upgraded Model 3 with refined accuracy. A seven model improvement!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Model 3の改良で精度が向上した拳銃。\n型番から大きく進化したことがわかる。",
+   "occurrences": 1
+  },
+  "Tells of the Wild Dancer ability, Dance of Mourning.\nBy repeatedly executing evasions, this technique may come to you.\n(The <Sign:1> Heat icon will appear when you can activate this Revelation.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「乱舞技 憂い残し」について書かれている。\n乱舞の型で回避を繰り返し成功させることで閃くとある。\n<Color:255,255,150,255>（天啓が発動可能になった時は「<Sign:1>極」が表示されます）<Color:Default>",
+   "occurrences": 1
+  },
+  "Tells of the Wild Dancer ability, The Bloody Wheel.\nBy repeatedly executing Phoenix Frenzy, this technique may come to you.\n(The <Sign:1> Heat icon will appear when you can activate this Revelation.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「乱舞技 撃刃の舞い」について書かれている。\n乱舞の型で鳳凰陣を繰り返し成功させることで閃くとある。\n<Color:255,255,150,255>（天啓が発動可能になった時は「<Sign:1>極」が表示されます）<Color:Default>",
+   "occurrences": 1
+  },
+  "Tells of the Brawler ability, Essence of Grand Bruising.\nBy repeatedly executing War Cry Counter, this technique may come to you.\n(The <Sign:1> Heat icon will appear when you can activate this Revelation.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「大撲打の極み」について書かれている。\n格闘の型の反撃ノ鬨の最中、攻撃を当て続けることで閃くとある。\n<Color:255,255,150,255>（天啓が発動可能になった時は「<Sign:1>極」が表示されます）<Color:Default>",
+   "occurrences": 1
+  },
+  "Tells of the Brawler ability, Essence of Reverse Throw.\nBy repeatedly parrying enemies' attacks, this technique may come to you.\n(The <Sign:1> Heat icon will appear when you can activate this Revelation.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「後ろ掴み投げの極み」について書かれている。\n格闘の型の受け流しを繰り返し成功させることで閃くとある。\n<Color:255,255,150,255>（天啓が発動可能になった時は「<Sign:1>極」が表示されます）<Color:Default>",
+   "occurrences": 1
+  },
+  "Tells of the Swordsman ability, Essence of Mincemeat.\nBy repeatedly breaking enemies' guards, this technique may come to you.\n(The <Sign:1> Heat icon will appear when you can activate this Revelation.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「武剣技 微塵切りの極み」について書かれている。\n一刀の型で敵の防御を繰り返し崩すことで閃くとある。\n<Color:255,255,150,255>（天啓が発動可能になった時は「<Sign:1>極」が表示されます）<Color:Default>",
+   "occurrences": 1
+  },
+  "Tells of the Swordsman ability, Gleaming Scythe.\nBy repeatedly executing Fair Weather, this technique may come to you.\n(The <Sign:1> Heat icon will appear when you can activate this Revelation.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「武剣技 踏み込み一閃」について書かれている。\n一刀の型の風見鶏を繰り返し成功させることで閃くとある。\n<Color:255,255,150,255>（天啓が発動可能になった時は「<Sign:1>極」が表示されます）<Color:Default>",
+   "occurrences": 1
+  },
+  "Tells of the Gunman ability, Essence of Old Scratch.\nBy repeatedly executing the Texas Two-Step, this technique may come to you.\n(The <Sign:1> Heat icon will appear when you can activate this Revelation.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「銃技 叩き込みの極み」について書かれている。\n短銃の型で前方旋風撃ちを繰り返し成功させることで閃くとある。\n<Color:255,255,150,255>（天啓が発動可能になった時は「<Sign:1>極」が表示されます）<Color:Default>",
+   "occurrences": 1
+  },
+  "Tells of the Gunman ability, Essence of Oh-Be-Joyful.\nBy repeatedly executing Jumping Shots, this technique may come to you.\n(The <Sign:1> Heat icon will appear when you can activate this Revelation.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「銃技 滑り込みの極み」について書かれている。\n短銃の型の跳込連弾を繰り返し成功させることで、走り中に閃くとある。\n<Color:255,255,150,255>（天啓が発動可能になった時は「<Sign:1>極」が表示されます）<Color:Default>",
+   "occurrences": 1
+  },
+  "Kamatora's most well-known dish. The eel is perfectly steamed, rendering it shockingly soft, hot, and delicious!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "『釜寅』を代表する絶品釜飯です。\n驚くほど柔らかい、あつあつのうなぎの旨さに絶句！\n絶妙の蒸し加減でうなぎを柔らかく仕上げました。",
+   "occurrences": 3
+  },
+  "Hot soba topped with vegetable tempura, a combination so tantalizingly good, it's cemented itself as long-time fan favorite.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あつあつおそばに野菜の天ぷらを乗せました。\n天ぷらとそば汁の相性がたまらない\n不動の人気商品です。",
+   "occurrences": 1
+  },
+  "Hot soba topped with tempura flakes, deep-fried tofu, egg, and fish paste.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あつあつのおそばに、揚げ玉とお揚げ\n温泉玉子とかまぼこが入った\n盛りだくさんなおそばです。",
+   "occurrences": 2
+  },
+  "A common river fish. Popular among children.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あらゆる河川に生息するエビの一種。\n子供に人気が高い。",
+   "occurrences": 1
+  },
+  "Udon flour. Made by grinding down wheat, it can be used in a number of dishes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うどん粉だ。\n小麦をすりつぶして作られたものだ。\n色々な料理の材料になる。",
+   "occurrences": 1
+  },
+  "Udon with tempura—ingredients covered in flour and fried up in oil. Freshly fried is the best.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うどん粉を練った衣を付けた食材を油で揚げた\n「天ぷら」が乗ったうどんだ。\n揚げたてがうまい。",
+   "occurrences": 2
+  },
+  "Rice mixed with bonito flakes and soy sauce before being seared. The aroma will spread throughout your mouth.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おかかと醤油をご飯に混ぜ込んで握っているので\nどこから食べても香ばしさが口の中に広がります。",
+   "occurrences": 2
+  },
+  "A special assortment of nine kinds of sashimi. Enjoy the freshest catches of the season.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お刺身盛合せです。\nお刺身９種のお得な盛合せです。\n季節ならではの海の幸をお楽しみ頂けます。",
+   "occurrences": 1
+  },
+  "An overlarge shuttlecock paddle, left over from New Year's festivities. Never meant for violence.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お土産用の巨大な羽子板。\n本来は振り回してはいけない。",
+   "occurrences": 1
+  },
+  "A pole-mounted wooden kokeshi doll, made as a souvenir. Not meant for roughhousing!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お土産用の長いこけし。\n本来は振り回すものではない。",
+   "occurrences": 1
+  },
+  "A carving in the shape of a scarecrow. This would be a bit embarrassing to use on a daily basis.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かかしの形をした根付だ。\n普段使いするのは少し恥ずかしい。",
+   "occurrences": 1
+  },
+  "A sword known to shatter bones from the smallest cut, so the stories say.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かつてある男が斬る真似をしただけで\n相手の骨を砕いたという逸話を持つ名刀。",
+   "occurrences": 2
+  },
+  "A very long, deep-sea fish said to be a harbinger of impending disaster.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この魚が出現すると、天変地異の前触れと言われる。\nかなり長い全長の深海魚。",
+   "occurrences": 1
+  },
+  "Scattering this might attract a decent number of fish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これを撒けば、\nある程度魚が集まってきそうだ。",
+   "occurrences": 1
+  },
+  "Scattering this might attract a few fish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これを撒けば、\n少しは魚が集まってきそうだ。",
+   "occurrences": 1
+  },
+  "Scattering this might attract a whole school of fish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これを撒けば、\n相当魚が集まってきそうだ。",
+   "occurrences": 1
+  },
+  "Scattering this might attract quite a lot of fish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これを撒けば、\n結構魚が集まってきそうだ。",
+   "occurrences": 1
+  },
+  "A hood that helps the wearer sober up more quickly over time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これを身に着けると\n酔っている気分じゃなくなる頭巾。",
+   "occurrences": 1
+  },
+  "Enjoy the natural flavor of the ingredients as they are fried to order and served hot.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ご注文毎に揚げるので、\nいつでもあつあつの風味を楽しめます。\n素材のもつ本来の味をお楽しみ下さい。",
+   "occurrences": 2
+  },
+  "One of our specialties, each carefully made to order. The fluffy texture and delicious broth make this well-loved.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ご注文頂いてから、一つ一つ丁寧に\n焼き上げる、自慢の一品です。\nふわふわの食感と、だしの美味しさで好評です。",
+   "occurrences": 2
+  },
+  "A statue made of gold. It could be pawned for a large sum of money.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すべて金で作られた像だ。\n大変な金額で引き取って貰える。",
+   "occurrences": 1
+  },
+  "A sword fit to be called oni for its demonic sharpness and power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "その斬れ味と力強さから\n鬼の名を冠する刀。",
+   "occurrences": 1
+  },
+  "Made by kneading the flour and boiling it, this dish allows you to appreciate the simple taste of soba.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そばの粉を練って茹でたものです。\n素朴なそばの風味を楽しめますよ。",
+   "occurrences": 3
+  },
+  "Soba flour. Made by grinding down wheat, it can be used in a number of dishes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そば粉だ。\nそばの実をすりつぶして作られたものだ。\n色々な料理の材料になる。",
+   "occurrences": 1
+  },
+  "Octopus sashimi and fresh cucumber dressed in spicy wasabi. The perfect accompaniment to your sake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "たこの刺身と新鮮な胡瓜に\nぴり辛のわさびを和えた\nお酒のおつまみに最適の一品です。",
+   "occurrences": 2
+  },
+  "A gun for those true enthusiasts who can no longer find satisfaction firing mere lead bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ただの鉛弾では満足しない\n銃愛好家に向けた一品。",
+   "occurrences": 1
+  },
+  "A red fruit wine with plenty of ice, made from fermented grapes. Has a tangy and astringent taste.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "たっぷりの氷の入った赤色の果実酒です。\nぶどうを発酵させて造った酸味と渋みが特徴です。",
+   "occurrences": 2
+  },
+  "The dish made popular by Hanamaru Udon in which broth is poured directly onto the noodles. The refreshing flavors of grated daikon and green onions are easily the star here.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "つけだしをぶっかける“ぶっかけ”を世間に広めた\nはなまるうどんの定番メニュー。\nねぎと大根おろしが生み出す清涼感が最高です。",
+   "occurrences": 1
+  },
+  "A mysterious sword with a somewhat ominous aura.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どこか禍々しい雰囲気を持った\n不思議な刀。",
+   "occurrences": 1
+  },
+  "A common headband. Helps you tighten up the mind.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どこにでもある白い鉢巻だ。\n心が引き締まる。",
+   "occurrences": 1
+  },
+  "A fish so rare, very few people have actually seen one. Some grow to be quite large.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なかなか見る事が出来ない珍しい魚。\nかなり大型のものも存在する。",
+   "occurrences": 1
+  },
+  "An eggplant prepared salty and smooth to go well with sake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なすをぬか漬けにしたものた。\n塩気と瑞々しさが、酒と良く合う。",
+   "occurrences": 2
+  },
+  "A sword with a dark aura. Feels like it would unleash sinister power if it were tempered.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なんとなく暗い雰囲気のある刀。\n鍛えれば禍々しい力を発揮しそうだ。",
+   "occurrences": 1
+  },
+  "A carefully handmade rice ball. The enticing scent of seaweed and perfectly sprinkled salt make them easy to indulge.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひとつひとつ丁寧に作られた握り飯だ。\n海苔の香りと、絶妙な塩加減で\nいくつでも食べられそうだ。",
+   "occurrences": 1
+  },
+  "A delicious kettle rice served with soft clams.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふんわりと柔らかく仕上げた\nあさりの美味しさが格別の釜飯です。",
+   "occurrences": 3
+  },
+  "Six types of skewers, including chicken tail, chicken and scallions, and gizzard. Offers a variety of textures and flavors.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ぼんちりやねぎま、砂肝など\n６種類の串を盛合わせました。\n多彩な風味と食感が味わえる一皿です。",
+   "occurrences": 2
+  },
+  "First class in flavor, this dish elegantly captures all the delicious nuance of the tai fish. The ochazuke is also out of this world.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさに一流料亭の味です。\n鯛の香りと味を生かし、上品に仕上げました。\nお茶漬けも絶品です。",
+   "occurrences": 2
+  },
+  "First class in flavor, this dish elegantly captures all the delicious nuance of the tai fish. The ochazuke is also beyond compare.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさに一流料亭の味です。\n鯛の香りと味を生かし、上品に仕上げました。\nお茶漬けも絶品です。",
+   "occurrences": 1
+  },
+  "A green plum that has yet to ripen. It's extremely tart and isn't suited for eating it by itself, but it has a fresh aroma unlike any other. Could be used for cooking.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まだ完熟する前の青梅。\n渋みが強くそのまま食べるのには向かないが、\nさわやかな香り。何かの料理に使えそうだ。",
+   "occurrences": 1
+  },
+  "A sword whose colors resemble a daikon. It heightens its wielder's endurance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まるで大根のような色味の刀で\n使い手の忍耐力を高めてくれる。",
+   "occurrences": 1
+  },
+  "Fresh as can be, and great boiled or pickled. An undeniably handy vegetable.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "みずみずしく、煮ても漬けてもうまい。\n便利な野菜だ。",
+   "occurrences": 1
+  },
+  "Has a harsh flavor, but when cooked thoroughly, it can be an excellent addition to stews, or even boiled and served up in a sauce on its own. Could be used in a wide range of recipes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ややあくが強いが、火を通すと\n煮物の具やおひたしなど、色々な料理に使える。",
+   "occurrences": 1
+  },
+  "A favorite of connoisseurs, noodles fresh from the pot are topped with our special soy sauce, scallions, and daikon. The simple preparation allows you to enjoy the udon's pure flavor.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ゆでたて麺に特製しょうゆをかけて、\nネギと大根おろしを合わせて食べる通好みのメニュー。\nシンプルな食べ方だけに、うどん本来のおいしさが楽しめます。",
+   "occurrences": 1
+  },
+  "The well-seasoned inari and the mellow vinegared rice are a perfect match. A great choice for those wanting a little something extra.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よく味が染みたいなり揚げと、\nほんのりまろやかな酢飯が相性抜群です。\n何かもう一品、と悩んだ方にピッタリな商品です。",
+   "occurrences": 1
+  },
+  "Small fish often caught along the coast. They're said to be easy to catch.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よく海岸沿いで獲れる小型の魚。\n捕獲が簡単といわれる。",
+   "occurrences": 1
+  },
+  "A common insect. Rolls itself into a ball when prodded.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よく見かける虫だ。\nつつくと丸まる。",
+   "occurrences": 1
+  },
+  "A manju made from kneaded yomogi skin. Its rich scent is unmistakable.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よもぎを練り込んだ皮を使った饅頭だ。\nよもぎの香り高さが際だつ菓子だ。",
+   "occurrences": 1
+  },
+  "An odachi meant to be held by the blade itself for even more power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "より力を籠められるように。\n刀身の一部を掴める形にした野太刀。",
+   "occurrences": 1
+  },
+  "An amulet that makes its wearer feel like they've worshipped more than usual.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "より参拝した気分になれる御札。\n確かなご利益を感じる。",
+   "occurrences": 1
+  },
+  "Made by kneading and heating powdered fiddleheads, it's then coated in roasted kinako and honey.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わらびの根の粉を練って熱を加えたものだ。\n蜜ときな粉がかけられていて\nみずみずしくてうまい。",
+   "occurrences": 2
+  },
+  "This long, nocturnal fish lives in holes at the bottom of the sea, hence the name anago, or \"hole child.\"": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アナゴ。夜に活動する細長い魚。\n海底の穴に生息するのが、その名の由来。",
+   "occurrences": 2
+  },
+  "A popular fish with a one-of-a-kind scent. Territorial and surprisingly fierce.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アユ。独特の香りで人気が高い魚。\n縄張り意識が強く、意外と凶暴な面がある。",
+   "occurrences": 1
+  },
+  "A fatty riverfish. Delicious when broiled.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウナギ。川魚ながら脂が多く、\n蒲焼きで食うとうまい。",
+   "occurrences": 2
+  },
+  "This fish can be found in rivers, swamps, and other bodies of relatively murky water. Unleashes electricity when excited.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "エレキナマズ。川や沼など、比較的汚れた水場でも\n生息できる魚。興奮するとエレキを放つ。",
+   "occurrences": 1
+  },
+  "Chips used at the casino. You currently have {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カジノで使うチップ。\n所持点 {s_value}",
+   "occurrences": 1
+  },
+  "Thanks to its easily peelable skin, its meat and liver are great for various dishes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カワハギ。簡単に皮がはがせるのが由来。\n肝や身は美味で様々な料理の素材となる。",
+   "occurrences": 1
+  },
+  "This large shrimp, which inhabits the seabed of many bays, is a real culinary treat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クルマエビ。湾の底に生息する大型のエビ。\n高級食材として取り扱われる。",
+   "occurrences": 1
+  },
+  "This river fish found widely throughout Japan is known to be both hardy and long-lived.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "コイ。日本中に広く生息する川魚。\n生命力が強く、寿命も長い。",
+   "occurrences": 1
+  },
+  "Salmon are known to return to the river of their birth and swim upstream to lay their eggs. This fatty fish is used in many dishes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サケ。繁殖期に川を遡って産卵を行う。\n脂の多い身で、あらゆる料理に用いられる。",
+   "occurrences": 1
+  },
+  "Sardine fry Whitebait. Perfect for the season.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "シラス。鰯の稚魚。\n季節を感じる魚。",
+   "occurrences": 1
+  },
+  "This skin allows Ryoma to wear the outfit of the legendary Dragon of Dojima, Kazuma Kiryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "シリーズを代表するキャラクターである\n桐生一馬の衣装に着替えられるスキン。",
+   "occurrences": 2
+  },
+  "Staminan X. It doesn't appear in this game.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "スタミナンＸ。\n維新には出てこない。",
+   "occurrences": 1
+  },
+  "An apology for any errors with your pre-order bonus.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "デジタル版予約特典の\n不具合に対するお詫びです。",
+   "occurrences": 2
+  },
+  "A Shimonoseki specialty. Has the name of torafugu, or \"tiger pufferfish,\" due to its powerful poison.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "トラフグ。下関の名物。\n強い毒があり、虎と名付けられたという。",
+   "occurrences": 1
+  },
+  "This ornamental fish has spotted or flecked patterns and will sometimes fetch a pretty price from the right buyer.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ニシキゴイ。観賞用に養殖されたコイ。\n斑点や色などで、ものによっては高額で取引される。",
+   "occurrences": 1
+  },
+  "A member of the salmon family. An exotic species not often seen in Japan.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ニジマス。サケの仲間。\n日本ではあまり見かけない、外来種。",
+   "occurrences": 2
+  },
+  "Unlike hirame flounders, its eyes are to the right. Its white meat is great stewed.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒラメとは逆に、右に目が寄っている。\n白身魚で煮物がうまい。",
+   "occurrences": 2
+  },
+  "This freshwater fish found widely throughout Japan resembles the Japanese koi fish, only without the whiskers.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フナ。日本中に広く生息する川魚。\nコイに似た外観だがヒゲがない。",
+   "occurrences": 1
+  },
+  "The finest honey. Collected by bees from wild flowers, its deep, amber color and rich floral notes are a testament to its quality. Could be used for cooking.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ミツバチが野花から集めた極上の蜜。\n色が濃く、芳醇な香り。\n何かの料理に使えそうだ。",
+   "occurrences": 2
+  },
+  "A luxurious dish featuring a red bream perfectly simmered whole in a sweet and spicy soy sauce.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一尾の金目鯛を贅沢に丸ごと使い\n醤油で甘辛く煮上げました。",
+   "occurrences": 1
+  },
+  "A powerful sword said to cause tornadoes with its swing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一振りで竜巻を起こすと\n言い伝えられる丈夫な刀。",
+   "occurrences": 1
+  },
+  "Gauntlets regularly used by first-class shinobi. They are particularly effective against bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一流の忍が使う籠手。\n銃弾による攻撃を防ぐことができる。",
+   "occurrences": 1
+  },
+  "A gun that's been tinkered with, increasing the effect of each shot. Might perform even better by tempering it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一発の効果を高める工夫がされた拳銃。\n鍛えればより高い性能を発揮しそうだ。",
+   "occurrences": 1
+  },
+  "A kitchen equipped with everything I could get my hands on. There is no recipe I can't prepare in here.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一般家庭の台所としては申し分のない設備。\nどんな料理も作れる。",
+   "occurrences": 1
+  },
+  "Your average squid. Near transparent while fresh.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一般的なイカ。\n新鮮なうちは透き通っている。",
+   "occurrences": 1
+  },
+  "An odachi with a larger blade than the typical katana. Requires a suitable amount of strength to wield.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一般的な刀より大きな刃を持つ大太刀。\n扱うには相応の力が必要となる。",
+   "occurrences": 1
+  },
+  "Gauntlets made of durable leather. They do next to nothing against blades, so don't get too cocky with these on.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "丈夫な革でできた籠手。\n刃物は止められないので過信は禁物。",
+   "occurrences": 1
+  },
+  "A divine sword counted among the Three Sacred Treasures of Japan. There is nothing it cannot rend.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "三種の神器にも数えられる伝説の神剣。\nこの刀に斬れぬものはないと言われる。",
+   "occurrences": 1
+  },
+  "A sword which ignites the Heat within its wielder, so long as they're sloshed.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "不思議と力が湧いてくる拵えで\n酔うと闘気がみなぎりそうな刀。",
+   "occurrences": 1
+  },
+  "Despite its eerie looks, this fish is popular for both its flavor and its chewy texture.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "不気味な見た目ながら、歯ごたえと\nうまさで人気が高い。",
+   "occurrences": 1
+  },
+  "Luxurious raiment that hides a number of assassination tools, permitting impressive counterattacks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "世にも美しい素材で作られた羽衣だが\n暗器が仕込まれ、反撃能力を持つ。",
+   "occurrences": 1
+  },
+  "Rounds that no man should ever be able to fire.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "世に出てはならない弾だ",
+   "occurrences": 6
+  },
+  "A type of turtle. It's said to be so vicious that once it bites, only the sound of thunder can shake it free.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "亀の一種。一度食らいつくと、雷が鳴るまで\n離さないといわれる、凶暴さを持つ。",
+   "occurrences": 2
+  },
+  "Pure water from the well.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "井戸から汲んだ清水だ。",
+   "occurrences": 1
+  },
+  "A mainstay fish of Kyo, deboned and roasted over charcoal. The soft texture of the eel is amazing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京で多く食べられる魚です。\n細かく骨切りした身を、炭火で炙りました。\n香ばしく焼かれたふかふかの肉がたまりません。",
+   "occurrences": 3
+  },
+  "A favored dish in Kyo. The seaweed broth does wonders to a cold body.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京で好んで食べられている料理だ。\n昆布のだしが良く効いていて\n冷えた体に染み渡る。",
+   "occurrences": 1
+  },
+  "Prize tickets found all over the city. They can be exchanged at the booth in Fushimi. You currently have {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京の町で配られている福引き券。\n伏見で福引きが出来る。\n所持数 {s_value}",
+   "occurrences": 1
+  },
+  "Sake made by chewing rice. Rumor has it the rice-chewers are beautiful women, but is it true?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "人が米を噛んで作るという酒だ。\n美人な女が噛んだものというが\n本当かはわからない。",
+   "occurrences": 1
+  },
+  "This rare and expensive fish has a pattern resembling a human face on its head.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "人面魚。顔の部分に人間の顔の様な模様のある\nコイ。珍しいので高価で取引される。",
+   "occurrences": 1
+  },
+  "A fruit that goes well with the current season, and with just the right amount of tang.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今の時期にうまい果物だ。\n心地いい酸っぱさだ。",
+   "occurrences": 2
+  },
+  "A pill created by Gyotensai. Apparently, it makes you hungry...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "仰天斎が発明した丸薬だ。\n腹を減らせるらしいが…。",
+   "occurrences": 1
+  },
+  "A pill created by Gyotensai. Supposedly great for hangovers, but...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "仰天斎が発明した丸薬だ。\n酔いを覚ます効果があるという…。",
+   "occurrences": 1
+  },
+  "A famous sake made from the waters of Fushimi. Boasts a rich history dating back to the Sengoku period.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の豊かな水を使って作られた\n世に名高いお酒です。戦国の世から作られている\n伝統のあるお酒です。",
+   "occurrences": 5
+  },
+  "Gauntlets made using traditional methods. Already very sturdy, these also have the ability to be further improved.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伝統的な技法で仕立てられた籠手。\n頑丈さと拡張性を兼ね備えている。",
+   "occurrences": 1
+  },
+  "This famous spine-covered fish puffs up its body to ward off predators.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体に無数のトゲをもち、体をふくらませて\n威嚇することでおなじみの魚。",
+   "occurrences": 1
+  },
+  "Restores a large amount of health. Enemies will drop their pouches more often, for a time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がかなり回復し、\n一定時間、敵が巾着袋を落しやすくなる。",
+   "occurrences": 1
+  },
+  "Restores a large amount of health. Temporarily increases experience gained from battle.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がかなり回復し、\n一定時間、闘いでの経験値を得やすくなる。",
+   "occurrences": 1
+  },
+  "Restores a large amount of health. Charges your Heat a little.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がかなり回復し、\n闘気が少し充填される。",
+   "occurrences": 1
+  },
+  "Restores a moderate amount of health. Temporarily boosts elemental attack effects.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がまあまあ回復し、\n一定時間、属性攻撃効果が上がる。",
+   "occurrences": 1
+  },
+  "Restores a moderate amount of health. Temporarily boosts elemental resistance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がまあまあ回復し、\n一定時間、属性攻撃耐性が上がる。",
+   "occurrences": 1
+  },
+  "Restores a moderate amount of health. For a time, standing still in combat will gradually recover health.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がまあまあ回復し、\n一定時間、戦闘中に立ち止まっていることで\n体力が自動で回復し続けるようになる。",
+   "occurrences": 1
+  },
+  "Restores a moderate amount of health. Makes it easier to break the enemy's guard, for a time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がまあまあ回復し、\n一定時間、敵の防御を崩しやすくなる。",
+   "occurrences": 1
+  },
+  "Restores a moderate amount of health. Temporarily prevents status ailments.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がまあまあ回復し、\n一定時間、状態異常を防ぐ。",
+   "occurrences": 1
+  },
+  "Restores a moderate amount of health. Temporarily reduces Heat depletion.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がまあまあ回復し、\n一定時間、闘気が減少しづらくなる。",
+   "occurrences": 1
+  },
+  "Restores a large amount of health. Greatly charges your Heat. Temporarily reduces Heat depletion.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がまあまあ回復し、\n闘気がかなり充填され\nさらに、一定時間減少しづらくなる。",
+   "occurrences": 1
+  },
+  "Restores a moderate amount of health. Moderately charges your Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力がまあまあ回復し、\n闘気がまあまあ充填される。",
+   "occurrences": 1
+  },
+  "Restores health completely. For a time, standing still in combat will gradually recover health.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が全快し、\n一定時間、戦闘中に立ち止まっていることで\n体力が自動で回復し続けるようになる。",
+   "occurrences": 1
+  },
+  "Restores health completely. Greatly charges your Heat. Temporarily reduces Heat depletion.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が全快し、\n闘気がかなり充填され\nさらに、一定時間減少しづらくなる。",
+   "occurrences": 1
+  },
+  "Restores health completely. Moderately charges your Heat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が全快し、\n闘気がまあまあ充填される。",
+   "occurrences": 1
+  },
+  "Restores health completely.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が全快する。",
+   "occurrences": 1
+  },
+  "Restores a small amount of health. Temporarily boosts elemental attack effects.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が少し回復し、\n一定時間、属性攻撃効果が上がる。",
+   "occurrences": 1
+  },
+  "Restores a small amount of health. Temporarily boosts elemental resistance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が少し回復し、\n一定時間、属性攻撃耐性が上がる。",
+   "occurrences": 1
+  },
+  "Restores a small amount of health. Enemies will drop their pouches more often, for a time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が少し回復し、\n一定時間、敵が巾着袋を落しやすくなる。",
+   "occurrences": 1
+  },
+  "Restores a small amount of health. Makes it easier to break the enemy's guard, for a time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が少し回復し、\n一定時間、敵の防御を崩しやすくなる。",
+   "occurrences": 1
+  },
+  "Restores a small amount of health. Temporarily prevents status ailments.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が少し回復し、\n一定時間、状態異常を防ぐ。",
+   "occurrences": 1
+  },
+  "Restores a small amount of health. Temporarily increases experience gained from battle.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が少し回復し、\n一定時間、闘いでの経験値を得やすくなる。",
+   "occurrences": 1
+  },
+  "Restores a small amount of health. Temporarily reduces Heat depletion.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が少し回復し、\n一定時間、闘気が減少しづらくなる。",
+   "occurrences": 1
+  },
+  "The most widely consumed tea in Japan, with many health benefits.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "健康に良い様々な効果・効能がある\n日本でもっとも飲まれているお茶です。",
+   "occurrences": 1
+  },
+  "A smaller cannon named for the shape of its tip.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "先端が臼のようになっていることから。\n臼砲と呼ばれている大筒。",
+   "occurrences": 1
+  },
+  "Revolver ammunition containing an acidic compound in the tips. Enemies hit will have their armor melted.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "内部に強酸性の液体が入った弾。\n当たった相手の鎧を溶かす。",
+   "occurrences": 1
+  },
+  "This kit contains materials and items used to craft and enhance swords.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀を作成・強化する際に使う素材や\nアイテムのつめ合わせ。",
+   "occurrences": 2
+  },
+  "A pistol that fires bullets with such force that it can blast away swords.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀を弾き飛ばす威力で弾を\n発射することができる拳銃。",
+   "occurrences": 1
+  },
+  "Katana crafting material. A handy substance that can be used as the base for more or less everything.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n全ての元になる便利な材料だ。",
+   "occurrences": 1
+  },
+  "Katana crafting material. Also known as \"tamahagane\", it's a fairly standard resource in the sword business.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n刀を打つための代表的な材料。",
+   "occurrences": 1
+  },
+  "Katana crafting material. It hasn't been processed so it can't be sold for much as is.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n加工前なのでそのままでは高値で売れない。",
+   "occurrences": 1
+  },
+  "Katana crafting material. It may be small, but it's undoubtedly a chunk of gold.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n小さいが紛れもなく金の塊だ。",
+   "occurrences": 1
+  },
+  "Katana crafting material. A chunk of brilliant white metal.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n白く輝く貴重な金属の塊。",
+   "occurrences": 1
+  },
+  "Katana crafting material. Beautiful and lustrous, but it's not whole.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n綺麗な光沢だが欠けてしまっている。",
+   "occurrences": 2
+  },
+  "Katana crafting material. A mysterious shard with a rainbow sheen.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n虹色に輝く不思議な材質の欠片だ。",
+   "occurrences": 1
+  },
+  "Katana crafting material. Metal that's been shaped into an easily workable form.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n鋼を加工しやすい形にしたものだ。",
+   "occurrences": 1
+  },
+  "Katana crafting material. Shimmering grains of truly gorgeous metal.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀作成用の素材。\n非常に美しい金属の粒だ。",
+   "occurrences": 1
+  },
+  "The blade is weathered. Useless unless repaired.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀身が風化して朽ちている。\n打ち直さないと使い物にならない。",
+   "occurrences": 1
+  },
+  "A terrifying sword with a poison-soaked blade.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀身に毒が染み込んだ恐ろしい刀。\n丈夫さも兼ね備えている。",
+   "occurrences": 1
+  },
+  "A beautiful, sturdy blade with the power of thunder imbued within it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀身に雷の力を宿した美しさと\n丈夫さを兼ね備えた刀。",
+   "occurrences": 1
+  },
+  "The blade is chipped but it's shrouded in an ominous aura.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀身は刃こぼれしてしまっているが\n禍々しい雰囲気を感じる刀。",
+   "occurrences": 1
+  },
+  "A spear with a cross-shaped blade. It could get sharper through tempering.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刃の部分が十字になっている槍\n鍛えるとより切れ味が増す。",
+   "occurrences": 1
+  },
+  "A breastplate made of materials highly resistant to cuts. Reduces damage taken from blades.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刃物で切れない素材でできた胸当。\n刃物によるダメージを軽減する。",
+   "occurrences": 1
+  },
+  "A sharp sword with a beautiful blade pattern. Might be useful to keep tempering it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刃紋の美しい斬れ味抜群の刀。\n鍛えることで有用な一本になりそうだ。",
+   "occurrences": 1
+  },
+  "A popular item passed down since our founding, this delightfully mild dish balances the textures of half-boiled eggs and chewy noodles with our signature dipping sauce.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "創業時から受け継がれる大人気商品。\n半熟たまごとモチモチの麺が織りなす食感を\n独自のつけだしで楽しむ、まろやかな一品です。",
+   "occurrences": 1
+  }
+ }
+}

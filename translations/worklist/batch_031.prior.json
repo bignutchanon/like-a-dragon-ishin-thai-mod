@@ -1,0 +1,58 @@
+{
+ "batch": "031",
+ "readme": "คำที่ 'เคาะไปแล้ว' ในก้อนก่อนหน้า และโผล่อยู่ในสตริงของก้อนนี้ ดึงจาก master_th.json อัตโนมัติ",
+ "how_to_use": {
+  "locked_names_places": "คำล็อกจาก name_locks.json / place_locks.json — **บังคับ** ต้องสะกดตามนี้เป๊ะ",
+  "terms": "ชื่อเฉพาะ/วลี — ใช้รูปนี้เท่านั้น ห้ามตั้งใหม่ ถ้าเห็นว่ารูปเดิมผิดจริง ให้รายงาน lead อย่าเปลี่ยนเอง",
+  "single_words": "คำเดี่ยว — เป็นคำแปลของ **บริบทอื่น** อาจไม่ตรงบริบทก้อนนี้ (เช่น Result = 'ผลการซื้อขาย' มาจากหน้าร้านค้า) ให้ใช้เมื่อบริบทตรงกันเท่านั้น"
+ },
+ "locked_names_places": {
+  "North Umekojicho": "อุเมะโคจิโจเหนือ",
+  "Kawaramachi": "คาวาระมาจิ",
+  "Umekojicho": "อุเมะโคจิโจ",
+  "Mukurogai": "มุคุโรไก",
+  "Kamatora": "คามาโตระ",
+  "Sannocho": "ซันโนโจ",
+  "Fushimi": "ฟุชิมิ",
+  "Kitchen": "ครัว",
+  "Watami": "วาตามิ"
+ },
+ "terms": {
+  "Refreshing Vegetable Salad": "สลัดผักสดชื่น",
+  "Thoroughly Grilled Fish": "ปลาย่างสุกเต็มที่",
+  "Invigorating Miso Soup": "ซุปมิโซะพลังล้น",
+  "Dragon of Dojima": "มังกรแห่งโดจิม่า",
+  "Hearty Miso Soup": "ซุปมิโซะอุ่นใจ",
+  "Shrewd Castella": "คาสเทลล่าเจ้าเล่ห์",
+  "Healthy Omusubi": "โอมุสุบิพลังเปี่ยม",
+  "Power Stew": "สตูว์เสริมพลัง"
+ },
+ "single_words": {
+  "Black": "ดำ",
+  "Cucumber": "แตงกวา",
+  "Daikon": "ไชเท้า",
+  "Device": "อุปกรณ์",
+  "Eggplant": "มะเขือม่วง",
+  "Hide": "ซ่อน",
+  "Katemeshi": "คาเตะเมชิ",
+  "Kitsune": "คิทสึเนะ",
+  "Odachi": "ดาบโอดาจิ",
+  "Pts": "แต้ม",
+  "Scroll": "เลื่อน",
+  "Shogi": "โชกิ",
+  "Spear": "หอก",
+  "Squid": "ปลาหมึกกล้วย",
+  "Take": "รับ",
+  "Tanuki": "ทานุกิ",
+  "Tempura": "เทมปุระ",
+  "Third": "สาม",
+  "Throw": "ขว้าง",
+  "Tosa": "โทสะ",
+  "Virtue": "คุณธรรม",
+  "Warrior": "นักรบ",
+  "Yunosuke": "ยุโนสุเกะ",
+  "mon": "มอน",
+  "points": "แต้ม",
+  "ryo": "เรียว"
+ }
+}

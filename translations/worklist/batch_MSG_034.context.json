@@ -1,0 +1,3941 @@
+{
+ "batch": "batch_MSG_034.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Kill some time outside. I've got some stuff to do beforehand.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "それじゃお前は表で少し時間を潰しててくれ。\r\n俺もすぐ支度していく。",
+   "occurrences": 1
+  },
+  "U-Ugh...": {
+   "speakers": [
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "う、うぅ……",
+   "occurrences": 1
+  },
+  "Otsu! What's wrong, Otsu!?": {
+   "speakers": [
+    {
+     "name": "id:haha",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "お通！　どうしたの、お通！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Please! Is anyone a doctor!?": {
+   "speakers": [
+    {
+     "name": "id:haha",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "だれか！　誰か、お医者様はいませんか!!",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "What happened!? I'm a doctor. I'll take a look.": {
+   "speakers": [
+    {
+     "name": "id:isya",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "どういたがぜよ!?\r\nワシは医者じゃ。みしてみ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Her stomach started hurting all of a sudden...": {
+   "speakers": [
+    {
+     "name": "id:haha",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "つい先ほどから、急に腹をおさえて苦しみだして……！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "This isn't good. It could be her appendix.": {
+   "speakers": [
+    {
+     "name": "id:isya",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "……こりゃいかん。盲腸かもしれんちや。",
+   "occurrences": 1
+  },
+  "A-Appendix?": {
+   "speakers": [
+    {
+     "name": "id:haha",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "も、盲腸？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "Her stomach organs are likely inflamed. This is something only Dutch medicine can mend.": {
+   "speakers": [
+    {
+     "name": "id:isya",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "腹の腑が炎症を起こす病気じゃ。\r\n蘭方医しか治せん代物じゃ。",
+   "occurrences": 1
+  },
+  "N-No...!": {
+   "speakers": [
+    {
+     "name": "id:haha",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "そ、そんな……！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "female",
+    "from": "lead",
+    "why": "translations/gender_lines.json"
+   }
+  },
+  "We need to move her, fast!": {
+   "speakers": [
+    {
+     "name": "id:isya",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "とにかく、急いで運ぶがぜよ！",
+   "occurrences": 1
+  },
+  "Hey! Can someone help me move this girl!?": {
+   "speakers": [
+    {
+     "name": "id:isya",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    1
+   ],
+   "ja": "おい！\r\n誰か、この子を運ぶのを手伝うてくれんか!!",
+   "occurrences": 1
+  },
+  "(It's been a year since I last saw Tosa.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……１年ぶりの土佐だ）",
+   "occurrences": 1
+  },
+  "(I wonder if everyone's doing all right.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……皆、元気にしてるだろうか？）",
+   "occurrences": 1
+  },
+  "(I should see how the town's holding up.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……ちょっと街の様子でも見に行くか）",
+   "occurrences": 1
+  },
+  "Welcome to our organization, Saito-san.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "ようこそいらっしゃいました。\r\n斎藤さん。",
+   "occurrences": 1
+  },
+  "Strange welcome if you ask me. There's nowhere for me to sit.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "随分な歓迎だな。\r\n俺の席がないようだが……",
+   "occurrences": 1
+  },
+  "Pay that no mind. There are other rooms with other seating.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "ご心配なく。\r\n席は別の部屋に用意してあります。",
+   "occurrences": 1
+  },
+  "Besides, who would want blood all over their cushions?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "この座敷は、今から血で\r\n汚れることになりますから。",
+   "occurrences": 1
+  },
+  "I'm aware you have an interest in the Tennen Rishin style.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "天念理心流にご興味がおありのようで。",
+   "occurrences": 1
+  },
+  "Oh... It's just a passing curiosity. I wouldn't call it interest.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "ああ……　だがただの好奇心だ。\r\n気にしないでくれ。",
+   "occurrences": 1
+  },
+  "Tennen Rishin is a parochial style taught only in Edo. Most people's curiosity stops at Hokushin Itto and Shindo Munen. But clearly you're different.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "理心流は江戸試衛館のみに伝わる田舎流派……\r\n北神一刀流、心道無念流と言った主流派とは違い\r\n知っているものも少ないはず。",
+   "occurrences": 1
+  },
+  "What's he doing here?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "何のマネだ。",
+   "occurrences": 1
+  },
+  "Just like Okita and Nagakura, this man is skilled in the way of Tennen Rishin.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "この男も沖田や永倉と同じ、\r\n天念理心流の優秀な使い手です。",
+   "occurrences": 1
+  },
+  "Right now, you will fight him to the death.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "今からこの男と殺し合っていただきたい。",
+   "occurrences": 1
+  },
+  "Ridiculous...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "なんだと……!?",
+   "occurrences": 1
+  },
+  "The Shinsengumi are required to kill without question.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "新選組の任務の大半は「殺し」です。",
+   "occurrences": 1
+  },
+  "To do so, you must be free of frivolous emotion and moral inhibition. Those things will only hinder you.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "その際、義理や情に流されて斬ることを\r\nためらえば、自分が相手に斬り殺されてしまう。",
+   "occurrences": 1
+  },
+  "Already, I can see you have a soft heart. That's a death sentence in our line of work, so consider this a test of your character.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "私は貴方の「心の弱さ」が心配なのです。\r\n……だから真剣な殺し合いをして、\r\n試させてもらいたい。",
+   "occurrences": 1
+  },
+  "You want me to kill someone as a \"test\"?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "たったそれだけのために殺し合えというのか。",
+   "occurrences": 1
+  },
+  "Precisely. You should have no issue taking a life. That is, if you consider yourself worthy of us.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "ええ。たったそれだけのことが重要なのです。\r\n新選組に入るためにはね……",
+   "occurrences": 1
+  },
+  "Saito-san. This man is fully prepared to strike you down without mercy. I suggest you emulate this.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "斎藤さん。この男に殺しへの躊躇はありません。\r\nあなたもそのおつもりで。",
+   "occurrences": 1
+  },
+  "So you're saying I have no choice...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "……やむを得ないようだな。",
+   "occurrences": 1
+  },
+  "Correct. Only one of you will leave this room alive. Get ready...": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "ええ。\r\nどちらかが死ぬまで立ち合っていただきます。\r\nでは……",
+   "occurrences": 1
+  },
+  "And begin!": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    3
+   ],
+   "ja": "始め!!",
+   "occurrences": 1
+  },
+  "I see they've given you the royal treatment.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "それにしても\r\n随分丹念に痛めつけられたものだな。",
+   "occurrences": 1
+  },
+  "Pops... I...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "親っさん……　俺……",
+   "occurrences": 1
+  },
+  "Say no more. It won't do us any good if the jailor catches us... Get dressed, we're leaving.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "何も言うな。\r\n今、他の牢番に見つかったら事が台無しだ。\r\n……今すぐ着替えて、ここを出ろ。",
+   "occurrences": 1
+  },
+  "But how?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "でもどうやって。",
+   "occurrences": 1
+  },
+  "Don't worry, I've cleared an escape for us. But only for a short time, so hurry up.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "心配ない。\r\n出口まで人払いしてある。\r\nだが短い時間だ、急げ。",
+   "occurrences": 1
+  },
+  "R-Right...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [
+    1
+   ],
+   "ja": "そ、そうか……",
+   "occurrences": 3
+  },
+  "I'll spare you the details for now. First, get yourself something to eat, then meet me at the hideout when you're done.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "詳しい話はあとだ。\r\nお前はここを出たら街で腹ごしらえでもして、\r\nその後、“隠れ家”に来い。",
+   "occurrences": 1
+  },
+  "The hideout?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "隠れ家？",
+   "occurrences": 1
+  },
+  "Heh, did you forget already? The school you grew up in. What a year in Edo will do to a man...": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "フッ、忘れたのか？\r\nワシたちが何年も暮らした塾のことを。\r\n江戸の１年ってな、ずいぶん長いらしい。",
+   "occurrences": 1
+  },
+  "You can get directions from people around town. Ask for the Kengoshi Schoolhouse.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "……場所は街のヤツにでも聞け。\r\n『牽牛子塾（ケンゴシジュク）』と聞けばわかる。",
+   "occurrences": 1
+  },
+  "(I can probably go in from the back.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……ここから裏口へ回れそうだな）",
+   "occurrences": 1
+  },
+  "Hm...? Whoa, you him...!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ん……？　ちょお、おまん!?",
+   "occurrences": 1
+  },
+  "Him...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……何だ？",
+   "occurrences": 1
+  },
+  "The tough fella that smacked around those joshi earlier?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おまん、もしかしてさっき\r\n上士に刃向った奴やないか？",
+   "occurrences": 1
+  },
+  "Heh. Nah, no way. They hauled that guy off lickety-split.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はっ。そんなワケあるか。あいつぁ\r\n上士を２人も叩きのめして捕まったんじゃ。",
+   "occurrences": 1
+  },
+  "He's probably missing his head about now.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今頃もう首が飛んどるじゃろ。",
+   "occurrences": 1
+  },
+  "I guess so... He did the right thing, at least.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まあ、そうじゃろうな……\r\nけんど、あいつがやったことは正しいぜよ。",
+   "occurrences": 1
+  },
+  "Yeah. We got enough problems, what with the Black Ships and the threat of invasion and the like, but Tosa hasn't changed, no sir.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ああ。黒船が来て、異国に侵略されそうに\r\nなっちゅうのに、相変わらず土佐は変わっとらん。",
+   "occurrences": 1
+  },
+  "Sorry. Guess we mistook you for someone else.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すまんの。人違いじゃった。",
+   "occurrences": 1
+  },
+  "But if you're looking to spark some change, you oughta join the Tosa Loyalist Party.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ま、おまんもこの国を変えたいがやったら、\r\n土佐勤王党へ入ったらえいがじゃ。",
+   "occurrences": 1
+  },
+  "Takechi-sensei welcomes all.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市先生は誰でも歓迎してくれるはずじゃ。",
+   "occurrences": 1
+  },
+  "(All right, I should head to the hideout. Pops'll be waiting for me.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……よし、そろそろ“隠れ家”へ向かおう\r\n　東洋の親っさんが待ってるはずだ）",
+   "occurrences": 1
+  },
+  "(Kengoshi Schoolhouse... Damn, I completely forgot where it is.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……『牽牛子塾（けんごしじゅく）』か。\r\n　……いかんな。場所をすっかり忘れちまった）",
+   "occurrences": 1
+  },
+  "(I should ask someone...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（誰かに聞いてみるか……）",
+   "occurrences": 1
+  },
+  "(Thought maybe that was it for me... I caused a lot of trouble for Pops.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（まさか生きて出られるとはな……\r\n　東洋の親っさんに面倒かけちまった）",
+   "occurrences": 1
+  },
+  "(All this relief's making me hungry, too... Guess I should grab a bite.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（助かったと思ったら腹が減ってきた……\r\n　どこかで飯でも食うか）",
+   "occurrences": 1
+  },
+  "(Okay, this is it. Pops should be waiting inside.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（……そうだ、ここが『牽牛子塾』だった。\r\n　中で親っさんが待ってるはずだ）",
+   "occurrences": 1
+  },
+  "I send you out all the way to Edo, and just look at you. Guess it was silly to think a little sword training would make a difference.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "しかし、せっかく江戸にまで出してやったのにな。\r\n剣の修行じゃ性根は鍛えられなかったか。",
+   "occurrences": 1
+  },
+  "Starting a fight with a joshi right off the boat... You haven't changed a bit.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "土佐に帰るなり上士とケンカとは……\r\n全く相変わらずだ、お前さんは。",
+   "occurrences": 1
+  },
+  "It's the joshi who haven't changed. Seeing Edo made me realize just how backwards Tosa's class system is.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "相変わらずなのは土佐の上士たちの方さ……\r\n江戸へ行ってわかったが、\r\n土佐の階級意識の強さは異常だ。",
+   "occurrences": 1
+  },
+  "Heh... Perhaps the training paid off after all.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "フフ……\r\nどうやら修行の成果はあったようだな。",
+   "occurrences": 1
+  },
+  "Are you going to be okay after what you just pulled back there?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "しかしあんなことをして大丈夫だったのか？",
+   "occurrences": 1
+  },
+  "You mean letting you out?": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "お前を逃がしたことか？",
+   "occurrences": 1
+  },
+  "You're the magistrate of Tosa, aren't you? If word gets out you let a criminal walk, someone's bound to try and use it against you.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "親っさんは、土佐の参政なんだろ？\r\nそれが勝手に罪人を逃がしたと知れりゃ\r\n下から足を引っ張る連中も出てくる。",
+   "occurrences": 1
+  },
+  "You mean like Tosa's high and mighty elders...": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "土佐のお偉い老人たちのことか……",
+   "occurrences": 1
+  },
+  "No need to worry. That jailor was a \"high goshi.\" He won't cause us any trouble.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "だが問題ない。\r\nさっきの牢番は“白札郷士”だ。\r\n面倒を起こしはしない。",
+   "occurrences": 1
+  },
+  "High goshi is the rank between joshi and goshi. Somewhere between you and I.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "白札は郷士と上士の中間……\r\nつまりワシとお前の間の身分だ。",
+   "occurrences": 1
+  },
+  "If anything were to happen, he'd be demoted. And that's the last thing he wants.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "なにかあればすぐ郷士に格を落とされる。\r\nそれがあの牢番の最も恐れる事態だ。",
+   "occurrences": 1
+  },
+  "A man who suckles at power like that wouldn't have the guts.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "そうやって権力に媚びるようなヤツは\r\n大した度胸もねえさ。",
+   "occurrences": 1
+  },
+  "I guess so.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "そういうもんか。",
+   "occurrences": 1
+  },
+  "It's true. People who can defy the joshi without thinking of the consequences, people like you, are much scarier.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ああ。\r\nお前みたいに後先考えねぇで上士に対しても\r\n逆らえるヤツの方が、よっぽど怖い。",
+   "occurrences": 1
+  },
+  "Take it from a magistrate.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "国を預かる参政としてはな。",
+   "occurrences": 1
+  },
+  "...This place sure is showing its age.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "……しかしこの場所も、古くなっちまったな。",
+   "occurrences": 1
+  },
+  "Yeah. Well, it might be old, but it's home.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ああ。だが俺にとっては自分の家も同然だ。",
+   "occurrences": 1
+  },
+  "I can still remember. It's been over ten years.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "思い出すな。もう１０年以上経つか……",
+   "occurrences": 1
+  },
+  "Many children were orphaned because of the joshi. You weren't alone.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "上士に身内を殺され、行く宛を失った子供たち。\r\nお前も、その１人だった。",
+   "occurrences": 1
+  },
+  "I created this school to take in as many like you as possible, and keep the domain none the wiser.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ワシはそんな子供たちをほんの少しでも引き取ろうと\r\n“塾”を作った……\r\n藩には内緒でな。",
+   "occurrences": 1
+  },
+  "I still don't really get it. You're a joshi yourself, Pops. Why do something like that?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "俺ぁ今でも不思議に思う。\r\nどうして親っさんは、上士でありながら\r\nあんなことをしたんだ？",
+   "occurrences": 1
+  },
+  "Well, I'm not entirely sure... One thing I do know, however, is that I hate Tosa more and more with each day.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "さあ、どうしてだろうな……\r\nだが、ひとつ言えるのは、\r\nワシは土佐が大嫌いだってことだ。",
+   "occurrences": 1
+  },
+  "You hate Tosa?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "嫌い？",
+   "occurrences": 1
+  },
+  "I do. In a place like Tosa, class is law.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ああ。\r\n土佐は階級が絶対的な国だ。",
+   "occurrences": 1
+  },
+  "Even the classes have classes, like \"joshi,\" \"high goshi,\" and \"goshi\" for the samurai.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "武士だけでも「上士」「白札郷士」\r\nそして「郷士」の３階級が存在する。",
+   "occurrences": 1
+  },
+  "The Tosa Domain established these ranks and retained order by putting up whatever walls they could.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "土佐藩は同じ武士であるはずの人間に\r\nそういった階級を与え、身分の壁を作る事によって\r\n藩の秩序を守ってきた。",
+   "occurrences": 1
+  },
+  "But warriors, peasants, merchants, women and children—we're all just flesh and blood. There's no difference.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "だが本来、武士も農民も商人も女も子供も、\r\n全ては同じ人間。差なんてねぇんだ。",
+   "occurrences": 1
+  },
+  "That's why I took you and all those others who'd been wronged by Tosa into the school...": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "だからワシは、そんな土佐に恨みを持つ\r\nお前たちを塾に引き取った。",
+   "occurrences": 1
+  },
+  "I sought to raise people who might change Tosa.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "……土佐を変えられる人間を育てるためにな。",
+   "occurrences": 1
+  },
+  "You want people to change Tosa?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "土佐を変えられる人間……",
+   "occurrences": 1
+  },
+  "That's right. Those who have been tamed by the class system aren't much good for that.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "そうだ。\r\n……階級という制度に飼いならされた人間には、\r\n変えたいという気持ちは生まれない。",
+   "occurrences": 1
+  },
+  "Here's my philosophy, Ryoma. I believe that in order to truly change Tosa, you need to both love and hate it more than anyone else.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ワシはな龍馬。\r\n土佐を変えられる人間てのは、土佐を誰よりも愛し、\r\n土佐を誰よりも憎んでいるヤツだと思うんだ。",
+   "occurrences": 1
+  },
+  "Fifteen years ago, the joshi burned your home and took everything from you... Surely, you must want things to be different.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "お前は１５年前、上士に家を焼かれ、\r\n実の親兄弟を失った……\r\nお前は、土佐を変えたいと願っているはずだ。",
+   "occurrences": 1
+  },
+  "Mm?": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [
+    1
+   ],
+   "ja": "ん？",
+   "occurrences": 3
+  },
+  "If you really feel this way, then why work for the domain?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "じゃあどうして親っさんは、\r\n藩の仕事をしているんだ。",
+   "occurrences": 1
+  },
+  "Hrm...": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "……",
+   "occurrences": 1
+  },
+  "Isn't it the magistrate's job to maintain the class system?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "藩の参政ってのは、土佐の階級制度を\r\n守る立場なんじゃねえのか!?",
+   "occurrences": 1
+  },
+  "Indeed it is. And I have a reputation for prizing order, much like our class system... At least on the surface.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "そうだ。\r\nワシは土佐で最も身分や階級といった“規律”を\r\n重んじる男だ。……表向きにはな。",
+   "occurrences": 1
+  },
+  "Ryoma, have you met with Takechi yet?": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "龍馬。\r\n……武市にはもう会ったか？",
+   "occurrences": 1
+  },
+  "My brother? No, not yet.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "兄弟に？　いやまだだが。",
+   "occurrences": 1
+  },
+  "He took on an important role while you were gone.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "お前が留守にしている間、\r\nアイツには重大な仕事をしてもらった。",
+   "occurrences": 1
+  },
+  "He did?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "仕事？",
+   "occurrences": 1
+  },
+  "Yes. I had him form an organization we call the Tosa Loyalist Party.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ああ……\r\n土佐勤王党という組織をつくらせた。",
+   "occurrences": 1
+  },
+  "The Tosa Loyalist Party...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "土佐、勤王党……",
+   "occurrences": 1
+  },
+  "500 men, mostly goshi, who, like us, are unhappy with Tosa's current state.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "今の土佐藩の体制に不満をもった郷士を中心に\r\n５００名……",
+   "occurrences": 1
+  },
+  "To those on the outside, they call themselves loyalists, but they've really only one true goal: to abolish the class system in Tosa.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "名目上、勤王とは謳っているがその思いはひとつ。\r\n土佐の身分制度の崩壊が目的の集団だ。",
+   "occurrences": 1
+  },
+  "Meaning the Loyalist Party's enemy is Tosa itself?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "それじゃ、勤王党の敵は土佐藩ということか？",
+   "occurrences": 1
+  },
+  "Listen, Ryoma. I want the party to destroy Tosa.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ワシはな、龍馬。\r\nその勤王党の力で、土佐をぶっ壊そうと思ってる。",
+   "occurrences": 1
+  },
+  "Destroy?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "壊す？",
+   "occurrences": 1
+  },
+  "Correct. And I want it led by the two men I consider my own sons...": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "そうだ。\r\nワシがこの塾で息子同然に育ててきた\r\nお前ら２人……",
+   "occurrences": 1
+  },
+  "Takechi Hanpeita and Sakamoto Ryoma.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "武市半平太、坂本龍馬の手によってな。",
+   "occurrences": 1
+  },
+  "Ryoma, go see Takechi. Have him bring you on board.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "龍馬。武市に会いに行け。\r\nそして土佐勤王党に入るんだ。",
+   "occurrences": 1
+  },
+  "He'll fill you in on all the details. It's time I head back to the castle.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "とにかく詳しい話は武市に会って直接聞いてくれ。\r\nワシはそろそろ城へ戻らねばならん。",
+   "occurrences": 1
+  },
+  "Where can I find him?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [
+    1
+   ],
+   "ja": "今、兄弟はどこにいるんだ。",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Most everyone in Tosa's heard of Takechi and the Loyalist Party. Meeting him might prove a little difficult, though.": {
+   "speakers": [
+    {
+     "name": "Toyo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "街で土佐勤王党の武市と言えば、\r\n知らないヤツはいない。\r\nだがすんなり会えるかは分からんがな。",
+   "occurrences": 1
+  },
+  "What's wrong? Had enough?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうした？\r\nもう終わりか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "P-Please, we're sorry!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "み、見逃してください！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "...We're just ronin. Nothing to do with the Loyalist Party, you know!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……わしら、単なる浪人で、\r\n勤王党とは一切関係ないんです！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Th-The real Loyalist Party'll be conducting lessons at the dojo about now!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほ、本物の勤王党やったら、\r\n今、道場で稽古をやりゆうはずです！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Run up the stairs there, then head east!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "道場はそこの階段を上がった東にあります！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "We're late for a meeting, so... T-Take care, yeah!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わしら、そろそろ用事があるき……\r\nし、失礼します！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Splendid! Fancy swordplay, that was!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さすがじゃ！\r\n見事な剣さばきじゃ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "The name's Shimada Yahei of the Tosa Loyalist Party. Caught a glimmer of your skills, I did... Sakamoto Ryoma.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わしは、土佐勤王党の島田弥平と言う者じゃ。\r\nおぬしの腕前、拝見させてもろうたぞ。\r\n……坂本龍馬殿。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "You know who I am?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あんた、俺を知ってるのか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Naturally. Your face and form tell all. No mistaking it—it's just as Takechi-sensei said.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おお。その姿に、なによりその剣の腕……\r\n間違いようがない。\r\n武市先生の言うてた通りじゃ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Takechi-sensei?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市先生？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Founder of the Tosa Loyalist Party, Takechi Hanpeita-sensei.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐勤王党盟主、武市半平太先生よ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "...Did you say \"sensei\"?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……武市が先生、か。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Haha! Rare thing to be both scholar and warrior, so we've all pledged allegiance!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ハハ！\r\nあれほど、文武両道に長け、信頼された先生はおらん！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "He's been teaching us goshi how to live good and proper-like.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わしらのような郷士に生きる術を教えてくれる。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Yes sir, if anything's fit to change the country, it's Takechi-sensei and the loyalists.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この国を変えるがは、武市先生率いる、\r\n土佐勤王党しかおらんがじゃ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Those ronin have been causing a fair deal of trouble in our name. Been giving us a right headache.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最近、あの浪人たちが勤王党を\r\n名乗って悪事を働いてのう。\r\nわしらも困っちょったところじゃ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "By the way, Takechi-sensei's looking for you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市先生がおぬしのことを探しゆう。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Looking for me?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市が俺を？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "The dojo's in the middle of training, but you've special permission to enter.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今、道場は稽古中なんじゃが、\r\nおぬしに特別に入場許可が出ておる。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "I'll give word to the fellas out front, so head in at your leisure. Takechi-sensei'll welcome you with open arms, I'm sure!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はよう武市先生に会うてくれ。\r\n門番にも話を通しておく。\r\n土佐勤王党への入門、歓迎してくれるはずじゃ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Go on, fork it over!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はよう金出せや！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Eek...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ひいい……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "The Tosa Loyalist Party some kinda joke to you? Your protection money, now!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わしら土佐勤王党をなめちゅうがか？\r\n分かったら、はようみかじめ出さんか！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "There's no way Takechi-sensei would do something like this! You're no more a loyalist than I am!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市先生がそんなこと言うはずがないろうが！\r\nおまんら、全員偽者やろうが。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Shut it! Or shall we show you what happens when you don't pay up?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やかましい！\r\n勤王党に歯向うとどうなるか、教えちゃろうか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Give me a break. Don't tell me the loyalists are just a bunch of lowlifes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "正直驚いたぜ。\r\n土佐勤王党ってのは、こんなクズの集まりなのか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "P-Please help! These fakes are trying to clean me out!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "た、助けてください！\r\nこいつら、勤王党を名乗って、\r\n店から金まきあげてるんです！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Who're you supposed to be? You want an early grave, then step up!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "われ、何者じゃ？\r\n邪魔したら、命はねえぞ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "All right, fine. I'll take you guys on. I've been wanting to test out my new skills anyway.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いいだろう……　相手してやる。\r\n丁度、自分の剣の腕を確かめたいと思ってたところだ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Got some nerve, this one... No pulling punches, then! Run him red!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほう、えい度胸しちゅうやんか……\r\nおまんら、容赦すんじゃねえぞ。\r\nたたっ切れぃ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "(Pops wants me to meet with Takechi. I should ask around.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（武市に会えか……\r\n　どこにいるか、また聞いて回るか）",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Gagh! Regular behemoth, he is...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ぐはぁ！\r\nか、格が違いすぎる……",
+   "occurrences": 1
+  },
+  "Well? You had enough yet?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうだ？\r\nまだやるのか？",
+   "occurrences": 1
+  },
+  "Damn you! I'll remember this!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "くそっ！\r\n覚えちょけよ！",
+   "occurrences": 1
+  },
+  "(What a waste of time. Takechi's probably ready to go by now. I should head back to the dojo.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（妙なことで時間を食っちまったな。\r\n　武市の支度も済んでいるかもしれない。\r\n　武市道場へ戻るか）",
+   "occurrences": 1
+  },
+  "Heh... There's our man.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "へへ……　いましたぜ……",
+   "occurrences": 1
+  },
+  "Sakamoto Ryoma, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おまんが坂本龍馬か？",
+   "occurrences": 1
+  },
+  "I heard you showed my boys here a good time. So good, in fact, we're damn near out of the job.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "随分と、うちの若い者を可愛がってくれたようやのう。\r\nおかげで、わしら、商売あがったりじゃ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Hate to say it, but your time's up. Rotten luck, that.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "悪いがここで死んでもらう。\r\nおまんは運が悪かったがよ。",
+   "occurrences": 1
+  },
+  "Spare nothing, lads! Off him clean!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "容赦すんじゃねえぞ！\r\n本気でぶっ殺しちゃれ！",
+   "occurrences": 1
+  },
+  "Obtained <Color:8>Model 2<Color:Default>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「<Color:8>Model 2<Color:Default>」をもらった",
+   "occurrences": 1
+  },
+  "Obtained <Color:8>Flame Rounds<Color:Default>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「<Color:8>火炎弾<Color:Default>」をもらった",
+   "occurrences": 1
+  },
+  "Obtained <Color:8>Enhanced Rounds<Color:Default>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「<Color:8>強化弾<Color:Default>」をもらった",
+   "occurrences": 3
+  },
+  "(I could always grab a drink and kill some time until Takechi's ready.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（武市の支度が済むまで\r\n　酒でも飲んで時間をつぶすか……）",
+   "occurrences": 1
+  },
+  "Gugh... Ugh...": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ぐ、……うぅ……",
+   "occurrences": 1
+  },
+  "Hey. Izo, was it?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "おい。以蔵とか言ったな？",
+   "occurrences": 1
+  },
+  "Hrgh?": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "……？",
+   "occurrences": 1
+  },
+  "You're strong, there's no denying that. But if you joined the Loyalist Party solely to kill...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "お前は確かに強い。\r\nだが人が斬りたくて勤王党にいるんだったら……",
+   "occurrences": 1
+  },
+  "Then I suggest you leave right now.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "今すぐ抜けるんだな。",
+   "occurrences": 1
+  },
+  "That's not the kind of organization my brother had in mind.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "武市の兄弟が作った勤王党は\r\nそういう組織じゃねえ。",
+   "occurrences": 1
+  },
+  "Grgh...": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ぐっ……",
+   "occurrences": 1
+  },
+  "Tell the others, too. If they have a problem with Sakamoto Ryoma, I'm right here.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "党内の仲間にもきちんとお前の口から伝えておけ。\r\n坂本龍馬に文句があるなら、\r\nいつでも相手になると。",
+   "occurrences": 1
+  },
+  "Sorry about them.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "世話掛けたな。",
+   "occurrences": 1
+  },
+  "You saw all that?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "見てたのか。",
+   "occurrences": 1
+  },
+  "Yeah. You're definitely stronger than you were a year ago.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ああ。\r\n１年前より確実に強くなってるな。お前。",
+   "occurrences": 1
+  },
+  "What was their deal? They'll shame the loyalists, acting like that.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "ったく、どうなってんだあの連中は。\r\n勤王党の名が泣くぜ。",
+   "occurrences": 1
+  },
+  "That's just the reality of the goshi here in Tosa.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "あれが土佐郷士の現実なんだよ。",
+   "occurrences": 1
+  },
+  "A goshi can't get a proper education. Hell, he can't even get himself a decent job.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "郷士という身分が理由で、\r\nロクな教育も受けられない。\r\nまともな仕事にもありつけない。",
+   "occurrences": 1
+  },
+  "For men like them, the Loyalist Party's their one and only hope.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "そんな彼らにとって、\r\n勤王党は唯一の希望であり誇りとなってる。",
+   "occurrences": 1
+  },
+  "And they're jealous I got made Representative just like that.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "だからいきなり筆頭になった\r\n俺をやっかんだってワケか。",
+   "occurrences": 1
+  },
+  "Forgive them, yeah? They've got their dreams, too.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "許してやってくれ。\r\n彼らにも彼らなりの志がある。",
+   "occurrences": 1
+  },
+  "It's why I recruited them in the first place. Every person's got the right to dream about their country's future.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "だから俺は連中を勤王党に引き入れた。\r\nどんな人間にもこの国の未来を考える資格が\r\nあるはずだからな。",
+   "occurrences": 1
+  },
+  "The future, huh?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "未来か……",
+   "occurrences": 1
+  },
+  "Right, and in order to do that, we need to rid ourselves of this class nonsense and start thinking about how to rebuild.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "さ、その為にも、サッサと土佐の身分制度を\r\nぶっ壊して、次の国づくりを考えないとな。",
+   "occurrences": 1
+  },
+  "Eh, Ryoma?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "な、龍馬？",
+   "occurrences": 1
+  },
+  "Well, that's all a little complex for my taste, but there is one thing I do understand.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "難しいハナシは分からねえ。\r\nだが、ひとつだけ分かったことがある。",
+   "occurrences": 1
+  },
+  "Tosa, the Loyalist Party, even me... We've all got room to grow.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "土佐も勤王党も、そして俺も……\r\nまだまだ半端モンだ、ってことだ……",
+   "occurrences": 1
+  },
+  "Hanpeita.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "半平太。",
+   "occurrences": 1
+  },
+  "All good, Ryoma?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "どうした、龍馬？",
+   "occurrences": 1
+  },
+  "This is the first time I've ever been inside the castle, even though it's always been looking down on me.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "城にのぼるのは生まれて初めてだ。\r\n見上げりゃいつでもすぐそこにあったのにな。",
+   "occurrences": 1
+  },
+  "...Yeah. Just how it goes for the goshi. I've only been here a few times myself.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "……ああ。郷士はみんなそうだ。\r\n俺もまだ数えるくらいしかきたことはねえ。",
+   "occurrences": 1
+  },
+  "S-Sorry... I messed up...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "す、すまねぇ……\r\n俺としたことが……",
+   "occurrences": 1
+  },
+  "Forget that, are you okay!?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "そんなことより怪我は!?",
+   "occurrences": 1
+  },
+  "He definitely hit bone, but I'm fine for now...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "骨はやられてるが、\r\nとりあえず、大丈夫だ……",
+   "occurrences": 1
+  },
+  "Huff... Huff... More importantly, what happened to Pops?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "はぁ……　はぁ……\r\nそれより、お、親っさんは、どうなんだ？",
+   "occurrences": 1
+  },
+  "He didn't make it...": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "いや、もう……",
+   "occurrences": 1
+  },
+  "Kgh...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "くっ……",
+   "occurrences": 1
+  },
+  "Brother... What happened? The man in the mask, who was he?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "兄弟……　一体、何が起こったんだ？\r\nあの覆面の男は誰なんだ……？",
+   "occurrences": 1
+  },
+  "I don't know... Why did he come after us?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "わからねえ……\r\nなんで、こんなことになったのか……",
+   "occurrences": 1
+  },
+  "Could he have known about our plan?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "俺らの計画がバレていたってことか……？",
+   "occurrences": 1
+  },
+  "It's possible. One of the elders must have found out and sent an assassin.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "その可能性は高い。\r\nあの刺客を送り込んだのは、俺らの計画を\r\n知った藩の老人連中の誰かだろう。",
+   "occurrences": 1
+  },
+  "But with Pops dead, there's no way to confirm who...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "だが親っさんが殺された今、\r\nそれが誰なのかは特定できない……",
+   "occurrences": 1
+  },
+  "Will we know if we capture his killer?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "あの覆面の男を捕らえればわかるか……？",
+   "occurrences": 1
+  },
+  "Perhaps, but...": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "たぶんな……　だが……",
+   "occurrences": 1
+  },
+  "Brother, I'm going after him.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "兄弟……　俺はあの覆面の男を追う。",
+   "occurrences": 1
+  },
+  "Like hell, you are! The man's probably well out of Tosa by now.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "何言ってるんだ！\r\nおそらくあの男はすぐに土佐を抜ける。",
+   "occurrences": 1
+  },
+  "You skip town, even just to hunt him down, everyone's gonna think you killed Pops!": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "それを追いかけてお前が藩を抜けたりしたら、\r\nお前が東洋の親っさんを殺した犯人ってことに\r\nされかねない!!",
+   "occurrences": 1
+  },
+  "I'm a wanted man either way at this point. The men at the castle already think so.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "どちらにしてもこのままだと俺は犯人にされる。\r\n城の連中は俺が親っさんを殺したと\r\n思い込んでいるからな。",
+   "occurrences": 1
+  },
+  "...They're going to come after me anyway.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "……どの道、追われる身だってことだ。",
+   "occurrences": 1
+  },
+  "Ryoma, let's just get out for now. They'll find us if we stick around.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    1
+   ],
+   "ja": "……龍馬、とにかく城を出よう。\r\n早いとこ城下からも抜けねえと追手に捕まる。",
+   "occurrences": 1
+  },
+  "Hey. You see them?": {
+   "speakers": [
+    {
+     "name": "id:rounin3",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "おい、あれ見ろ。",
+   "occurrences": 1
+  },
+  "Oh. Aren't they...?": {
+   "speakers": [
+    {
+     "name": "id:rounin4",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "お……　ありゃあ……",
+   "occurrences": 1
+  },
+  "They're Shinsengumi!": {
+   "speakers": [
+    {
+     "name": "id:rounin3",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "新選組だ……！",
+   "occurrences": 1
+  },
+  "Shit, let's beat it!": {
+   "speakers": [
+    {
+     "name": "id:rounin4",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "いかん、引き返そう。",
+   "occurrences": 1
+  },
+  "Oh? Could you be... Sakamoto!?": {
+   "speakers": [
+    {
+     "name": "id:yahei",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "お……　おんしは坂本!?",
+   "occurrences": 1
+  },
+  "By gum, it <i>is</i> you! Well, I'll be! It's me, Shimada Yahei from Tosa!": {
+   "speakers": [
+    {
+     "name": "id:yahei",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "やっぱりそうぜよ！　わしじゃ！\r\nほれ、土佐の島田弥平！",
+   "occurrences": 2
+  },
+  "Fancy meeting you all the way here in Kyo!": {
+   "speakers": [
+    {
+     "name": "id:yahei",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "おんし、京に来ちょったがかえ！",
+   "occurrences": 2
+  },
+  "You've got the wrong guy.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "人違いだ。",
+   "occurrences": 1
+  },
+  "Quit fibbing! I'd recognize our Party Rep any day! How's things been going since exile?": {
+   "speakers": [
+    {
+     "name": "id:yahei",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "ちょ、待ちい、なに言うがじゃ“筆頭”！\r\n脱藩してからどこにおったがじゃ！",
+   "occurrences": 1
+  },
+  "Lower your voice.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "!?　大声出すな。",
+   "occurrences": 1
+  },
+  "Oh... Oh no, it's the Shinsengumi! Buh—buh-bye! I gotta go!": {
+   "speakers": [
+    {
+     "name": "id:yahei",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "あ、ありゃ、新選組ぜよ！\r\nや、や、ヤバい！　逃げるがじゃ!!",
+   "occurrences": 1
+  },
+  "They're on the run! After them!": {
+   "speakers": [
+    {
+     "name": "id:taishi1",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [
+    2
+   ],
+   "ja": "逃げやがった！　おい捕まえろ！",
+   "occurrences": 1
+  },
+  "All right, who are you?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "誰なんだ？　あんた……",
+   "occurrences": 1
+  },
+  "You don't remember? I was at the dojo earlier... Though, I guess I didn't exactly make my presence known.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "気がつかなかったかな？\r\nさっき道場に居たんだけどさ。ってまぁ\r\n陰に隠れて話を聞いてただけなんだけど……",
+   "occurrences": 1
+  },
+  "Yeah, you can call it eavesdropping, but I call it an ear for good gossip. One of my many talents.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "いや、悪いとは思ったんだけど、\r\nついつい盗み聞きしちゃってね。\r\nそういうの大好きでさ。",
+   "occurrences": 1
+  },
+  "That still doesn't tell me who you are.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "あんたは誰だ、と聞いているんだ。",
+   "occurrences": 1
+  },
+  "Aha, right. I'm Niibori Matsusuke of the Choshu Domain. Might not look it, but I'm actually a loyalist shishi.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "ああそっか。俺は長州藩の新堀松輔。\r\nこれでも一応「勤王の志士」ってやつだ。",
+   "occurrences": 1
+  },
+  "If the Bakufu and Shinsengumi spot me, it's my head on their platter too.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "おかげで幕府や新選組からは、\r\n目の敵にされちゃってるんだけど。",
+   "occurrences": 1
+  },
+  "I see. So then... is Niibori just an alias?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "なるほど。それじゃ……　新堀ってのは偽名か。",
+   "occurrences": 1
+  },
+  "Heh. Well, forgive me for not instantly trusting a stranger.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "フッ、まあ初対面だし、偽名で勘弁してくれ。",
+   "occurrences": 1
+  },
+  "But, were you to join me, I'd gladly tell you my real name, at least in due time.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "けど……\r\nあんたの剣の腕、俺に預けてくれるってんなら\r\nいずれ本名も教えるよ。",
+   "occurrences": 1
+  },
+  "You see, I've been scoping out the local dojos, looking for men of skill.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "実はさ、今、京の道場を廻って\r\n剣の腕の立つ男を探してるんだ。",
+   "occurrences": 1
+  },
+  "What are you recruiting for?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "どうしてそんなことを？",
+   "occurrences": 1
+  },
+  "Oh, I've been thinking about causing what you might call a disruption.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "いやぁ、近々ちょっと\r\nひと騒動起こそうと思っていてね。",
+   "occurrences": 1
+  },
+  "And due to the nature of the job, I only want the best on my team. You seem like you'd be perfect, so...?": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "誰にも負けないって、剣の使い手が必要なんだよ。\r\nアンタだったらうってつけなんだけど。どう？",
+   "occurrences": 1
+  },
+  "I'm not interested in you or your job. Go find someone else.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "あんたの本名に興味はない。\r\nよそを当たるんだな。",
+   "occurrences": 1
+  },
+  "You're no fun. But fine... I get it. Why don't I restart our conversation with a favor?": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "つれないな。それじゃ……そうだな。\r\nまずはあんたにひとつ恩を売っておこうか。",
+   "occurrences": 1
+  },
+  "That talent I spoke of—it's known far and wide in Choshu. I'm one of the best informants there is.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "これでも俺、長州藩きっての\r\n情報通って言われててね。\r\n情報の仕入れ方には精通してる。",
+   "occurrences": 1
+  },
+  "Okay. And why are you telling me this?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "そうなのか。それがどうした。",
+   "occurrences": 1
+  },
+  "To help you make actual progress. Using a mediocre informant will only get you mediocre information.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "アンタのやり方は古い。\r\n普通じゃない情報を仕入れるのに\r\n普通の情報屋を使うのは考えもんだよ。",
+   "occurrences": 1
+  },
+  "Well, I suppose that's all you can afford.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "ま、懐の事情もあるんだろうけどね。",
+   "occurrences": 1
+  },
+  "But anyway, that guy people call the Crow? He's the most mediocre in the business.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "俺の見たところ、あの「鴉」とかいう\r\n情報屋、ありゃフツーもフツー。超普通だ。",
+   "occurrences": 1
+  },
+  "Then what are you saying I should do?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "じゃあどうすればいいんだ。",
+   "occurrences": 1
+  },
+  "If you really want to find your Tennen Rishin user, I can introduce you to the best information broker in Kyo.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "もしあんたがまだ、「天念理心流」とやらの\r\n使い手を追う気なら……　俺がこの京で一番\r\nと言われる情報屋を紹介しよう。",
+   "occurrences": 1
+  },
+  "I'm not asking anything in return. All I want is for us to be on good terms.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "見返りをよこせとは言わない。\r\nこいつはあんたへのお近づきのしるしだ。",
+   "occurrences": 1
+  },
+  "Does that sweeten the pot?": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "聞く気はあるかい？",
+   "occurrences": 1
+  },
+  "...Sure.": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [
+    2
+   ],
+   "ja": "……ああ。",
+   "occurrences": 3,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Then without further ado, the guy I know lives in Purgatory, a place that's deep in the slums.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "その情報屋は、貧民街の奥“賽の河原”と\r\n呼ばれるところを根城にしてる。",
+   "occurrences": 1
+  },
+  "He goes by \"The Bathkeeper of Sai.\"": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "通称、サイの風呂屋。",
+   "occurrences": 1
+  },
+  "The \"Bathkeeper\"?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "サイの風呂屋？",
+   "occurrences": 1
+  },
+  "It's because he meets his clients at a bathhouse. Switches it up every time.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "依頼主に情報を渡す場所が、\r\n必ずどこかの風呂屋なんだよ。",
+   "occurrences": 1
+  },
+  "Anyway, I'll ask him beforehand if he can look into this Tennen Rishin user of yours.": {
+   "speakers": [
+    {
+     "name": "id:akiyama",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    2
+   ],
+   "ja": "これから俺の方でそいつに\r\n天念理心流の使い手を調べておくよう\r\n手配しておく。",
+   "occurrences": 1
+  }
+ }
+}

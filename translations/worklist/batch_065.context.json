@@ -1,0 +1,3766 @@
+{
+ "batch": "batch_065.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Can you stick around? I'll just be a second.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっと待っとってもらえます？　今行きますんで",
+   "occurrences": 1
+  },
+  "I regret it, but you'll have to wait a moment...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ごめんなさい　少しお待ちくださいね",
+   "occurrences": 1
+  },
+  "Be there soon! Go ahead and think about what you'll want.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すんません　すぐ行きますから　選んどってくださいね",
+   "occurrences": 1
+  },
+  "This might take a while, thanks for your patience!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっとかかりますよって　待っとってくださいね",
+   "occurrences": 1
+  },
+  "Very sorry, I'll just be one second.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すんまへん　少し待っててください",
+   "occurrences": 1
+  },
+  "I'm so sorry, I <i>am</i> grateful, but please wait a moment.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきに　すんまへんけど　少し待っててくださいね",
+   "occurrences": 1
+  },
+  "Oh dear! I need you to wait a moment, please.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すまへんなぁ　ちょっと待っとってくださいね",
+   "occurrences": 1
+  },
+  "Wait just a bit, please.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっと待っててや",
+   "occurrences": 1
+  },
+  "I must admit you'll have to wait for a few minutes.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "少し待っとってもらえますか？　すぐ行きますさかい",
+   "occurrences": 1
+  },
+  "Two seconds, please!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっとお待ちくださいね",
+   "occurrences": 1
+  },
+  "Do you mind waiting? While you do, go ahead and browse our items, they're great!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "少し待ってくだはります？　ええ品入ってますんで　良かったら見てってください",
+   "occurrences": 1
+  },
+  "Please make yourself comfortable. I'll be right with you.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ごめんなさい　ちょっとお待っとってくださいね　すぐ行きますんで",
+   "occurrences": 1
+  },
+  "Apologies in advance, but you'll have to wait.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "すんません　ちょっと待っとってね",
+   "occurrences": 1
+  },
+  "Can you wait for a couple minutes? I'm sorry...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっとだけ　待ってもらえますか？　すんません",
+   "occurrences": 1
+  },
+  "Uh... Yes, that's good.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えっと　えぇ……　はい　これで",
+   "occurrences": 1
+  },
+  "Yes, it's right. We're good.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　えぇ　ほなこれで",
+   "occurrences": 1
+  },
+  "Mmm... yes. Here you go, now.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えっと　はい！　ほんならこれで",
+   "occurrences": 1
+  },
+  "Right. Thank you.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇ……　あぁ　ほんならこれで",
+   "occurrences": 1
+  },
+  "Um, yes! And here's your new item.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えっと　はい！　ほなこれ　品物です",
+   "occurrences": 1
+  },
+  "Ah, yes! It's all here.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えっと　はい！　そしたらこれで",
+   "occurrences": 1
+  },
+  "Yes... Here you go, then.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇ……　あぁ　じゃあこれで",
+   "occurrences": 1
+  },
+  "Let's see... What did you get? Oh, right. Here you go.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇと……　なんでしたかね？　あ　はい　ほなこれ",
+   "occurrences": 1
+  },
+  "Yes. Now... Did I already give you the item?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　えぇと　品物お渡ししましたっけね？",
+   "occurrences": 1
+  },
+  "Wha? Oh, wait, yup! Here you go.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇっと？　あ　はい！　そしたらこれ",
+   "occurrences": 1
+  },
+  "There. I'll see you later, now!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇ……　ほなこれで",
+   "occurrences": 1
+  },
+  "Uhhh, yes! Thank you.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えっと　はい！　ほんならこれで",
+   "occurrences": 1
+  },
+  "Yup! Here you go.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい！　えぇ　ほなこれでぇ",
+   "occurrences": 1
+  },
+  "Uh... Yup. Thanks, here you go.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇとぉ……　あ　どうも　ほなこれで",
+   "occurrences": 1
+  },
+  "There! Here you go.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい！　ほんならこれで",
+   "occurrences": 1
+  },
+  "Yup, yup! Now here you go.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はいはい！　ほなこれね",
+   "occurrences": 1
+  },
+  "Yes, sorry. There you are.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　すんませんねぇ　ほんなら　これで",
+   "occurrences": 1
+  },
+  "Uh... Yes, is this all right for you?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇと……　はい　ほんならこれでよろしい？",
+   "occurrences": 1
+  },
+  "Yes, yes... All right, here you go then.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はいはい……　えぇ　ほんなら　はいこれで",
+   "occurrences": 1
+  },
+  "Come back soon.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また来たってください",
+   "occurrences": 1
+  },
+  "I'll have the good items ready, so please stop by if you're around!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ええ品揃えときますさかい　この辺通ったら寄ってってください",
+   "occurrences": 1
+  },
+  "I'm always grateful.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも　おおきにな",
+   "occurrences": 1
+  },
+  "Thank you very much. Come back soon.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんまおおきに　また来たってや",
+   "occurrences": 1
+  },
+  "Can't wait to see you again!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また来てください",
+   "occurrences": 1
+  },
+  "I appreciate it.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうもーおおきに",
+   "occurrences": 1
+  },
+  "I'm ever appreciative...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうもおおきに　",
+   "occurrences": 1
+  },
+  "Don't forget to drop by again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またおいでください　",
+   "occurrences": 1
+  },
+  "Go ahead and stop by again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また寄ってってや",
+   "occurrences": 1
+  },
+  "Hope to see you again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (4 จุด)",
+   "chapters": [],
+   "ja": "また、よろしゅうお願いしますわ。",
+   "occurrences": 5
+  },
+  "Pleasure doing business with you!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに",
+   "occurrences": 1
+  },
+  "We always have a good selection, so keep coming back!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いつでもええ品揃えてますから　また買いにきてくださいね",
+   "occurrences": 1
+  },
+  "Stop by whenever you happen to be in the area!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも　またこのへん来たときは寄ってくださいね",
+   "occurrences": 1
+  },
+  "Thanks a whole bunch.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうもおおきにな",
+   "occurrences": 1
+  },
+  "Don't hesitate to come back!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また来てな",
+   "occurrences": 1
+  },
+  "I expect you to return!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また寄ってくださいね",
+   "occurrences": 1
+  },
+  "'Preciate it.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうもおおきにね",
+   "occurrences": 1
+  },
+  "Come back to see us!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また寄ってってな",
+   "occurrences": 1
+  },
+  "Thaaaank you.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうもおおきに",
+   "occurrences": 1
+  },
+  "Please stop by again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも　また寄ってってなー",
+   "occurrences": 1
+  },
+  "Thank you! See ya around.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに！　ほんならね",
+   "occurrences": 1
+  },
+  "Stop by again soon!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また寄ってってや",
+   "occurrences": 1
+  },
+  "Thanks for the business!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうもおおきに",
+   "occurrences": 2
+  },
+  "Thank you, come again whenever you're around.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに　近くへ来たら　覗いてってくださいね",
+   "occurrences": 1
+  },
+  "We're very thankful. Please come again!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんまおおきに　また会いに来てくださいね",
+   "occurrences": 1
+  },
+  "Why don't you take another look.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また見に来てくださいね",
+   "occurrences": 1
+  },
+  "We're grateful.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "どうもおおきに",
+   "occurrences": 3
+  },
+  "Hope to see you back here.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また寄ってなー",
+   "occurrences": 1
+  },
+  "Come back eventually!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また寄ってってや",
+   "occurrences": 1
+  },
+  "Thanks, and make sure you come back!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきに　また寄ってくださいね",
+   "occurrences": 1
+  },
+  "Thanks, and remember I want to see you back soon, sir!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも　またいつでも見に来てくださいね",
+   "occurrences": 1
+  },
+  "Hopin' to see you again soon.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも　また来てくださいね",
+   "occurrences": 1
+  },
+  "Come again when you're in the neighborhood.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また近くへ来たら覗いたってください",
+   "occurrences": 1
+  },
+  "Please consider us for all your future shopping.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また買いもんに来てなー",
+   "occurrences": 1
+  },
+  "Thanks, and don't forget to come again!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おおきにーまた来てな",
+   "occurrences": 1
+  },
+  "We eagerly await your next visit, of course.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また次んときでも　よろしゅう頼んます",
+   "occurrences": 1
+  },
+  "Are you in a hurry? Hope you can shop next time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お急ぎですかーまた今度買うてってください",
+   "occurrences": 1
+  },
+  "We're always getting new items, so take another look sometime.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また今度見に来てなーええ品もん揃えとくんで",
+   "occurrences": 1
+  },
+  "Let me encourage you to visit us again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また次んとき　寄ってってな",
+   "occurrences": 1
+  },
+  "Are you leaving?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お出かけですか？",
+   "occurrences": 1
+  },
+  "I very much hope you'll visit again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また今度顔だしてくださいー",
+   "occurrences": 1
+  },
+  "Ah, out for a little stroll?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お出かけかえ？",
+   "occurrences": 1
+  },
+  "Hope to see you another time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また次の機会にー",
+   "occurrences": 1
+  },
+  "If you've got any spare time, I really hope you stop by!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今度　暇なときでも顔出してください",
+   "occurrences": 1
+  },
+  "Why don't you come take a peek next time?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また今度見に来てください",
+   "occurrences": 1
+  },
+  "Really makin' me want to work harder.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "精が出ますなぁ",
+   "occurrences": 1
+  },
+  "Hope you keep visiting us.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また今度寄ってってなー",
+   "occurrences": 1
+  },
+  "Inspiring me to work harder, I tell ya.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "精が出るねぇ",
+   "occurrences": 1
+  },
+  "Hope you come by again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また顔出してやー",
+   "occurrences": 1
+  },
+  "You seem like you're in a big rush.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えらい急いではりますなぁ",
+   "occurrences": 1
+  },
+  "Hope you find time to visit again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また今度　顔出してください",
+   "occurrences": 1
+  },
+  "You rushing off somewhere?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お急ぎみたいですなぁ",
+   "occurrences": 1
+  },
+  "Well, hope to see you next time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また次ん時にでも　頼んますわ",
+   "occurrences": 1
+  },
+  "Oh, you're in a hurry? Okay, visit us next time, then.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "急ぎなん？　ほんなら　今度また来てな",
+   "occurrences": 1
+  },
+  "Just remember us when you've got more time, okay?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "暇な時でええから　顔見せにきてな",
+   "occurrences": 1
+  },
+  "Really inspirin' me to work harder.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "精が出ますねぇ",
+   "occurrences": 1
+  },
+  "I'll be looking for you in the future.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また顔見せにきてください",
+   "occurrences": 1
+  },
+  "Out and about today?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お出かけどすか？",
+   "occurrences": 1
+  },
+  "Keep us in mind for your future shopping!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また顔だしてくださいね",
+   "occurrences": 1
+  },
+  "Out for a stroll? Okay, hope to see you in the future.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お出かけ？　また今度見に来てな",
+   "occurrences": 1
+  },
+  "You sure seem busy. Well, come back another time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "忙しそうやなぁ　今度は寄ってってやー",
+   "occurrences": 1
+  },
+  "Aw, you can't stop in? I hope we can tempt you next time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "寄ってってくれまへんのぉ？　また来たとき見とくれやす",
+   "occurrences": 1
+  },
+  "I see you're in a hurry... Don't get yourself hurt, okay?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えらい急いで……　怪我しいひんようにね",
+   "occurrences": 1
+  },
+  "I hope we see each other soon!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また今度よろしゅうたのんますー",
+   "occurrences": 1
+  },
+  "We all await your next visit.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また顔だしてくださいね",
+   "occurrences": 1
+  },
+  "Why're you in such a rush...? You're that busy?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えらい急いで……　忙しいんかなぁ？",
+   "occurrences": 1
+  },
+  "I'll be here, hopin' you come back.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また今度顔だしてちょうだいね",
+   "occurrences": 1
+  },
+  "Maybe you'll scrutinize the wares next time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また見に来てくださいね",
+   "occurrences": 1
+  },
+  "You'll come to see us eventually, I hope.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今度は寄ってってくださいね",
+   "occurrences": 1
+  },
+  "You're out and about, huh? Maybe next time, then.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お出かけですかぁ？　また今度頼んます",
+   "occurrences": 1
+  },
+  "Maybe another time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また次の機会にでも　よろしゅうね",
+   "occurrences": 1
+  },
+  "Oh, you're just out and about? I hope one day you'll deign to visit us.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お出かけなん？　次んときは覗いてなー",
+   "occurrences": 1
+  },
+  "You better promise to come again.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "また会いに来てな　絶対やで",
+   "occurrences": 1
+  },
+  "Something wrong? Forget to buy something?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうしました？　なんか買い忘れですか？",
+   "occurrences": 1
+  },
+  "Ready to make a purchase? If not, keep lookin'!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やっぱり買うてきます？　納得いくまで見てってください",
+   "occurrences": 1
+  },
+  "Something wrong? Or... did another item of ours catch your eye?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どないしたん？　戻ってきて　気になるもんでもあった？",
+   "occurrences": 1
+  },
+  "I hope you take a real look instead of just passin' by.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "通り過ぎんと　見てってや",
+   "occurrences": 1
+  },
+  "Oooh, did you forget to buy something? Hope so. Take your time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いや　買い忘れですか？　ゆっくり見てってください",
+   "occurrences": 1
+  },
+  "So, care to stop by?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やっぱり寄っていきます？",
+   "occurrences": 1
+  },
+  "Oh, forget something?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あれ　買い忘れかえ？",
+   "occurrences": 1
+  },
+  "Ahhh, you just stopping by?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やっぱり寄っていくかえ？",
+   "occurrences": 1
+  },
+  "Something catch your fancy? Take your time and check it all out.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なにか気になるもんありました？　ゆっくり見てってくださいね",
+   "occurrences": 1
+  },
+  "You can take as close a look as you want!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "よう見てってくださいねー",
+   "occurrences": 1
+  },
+  "Forget to buy something?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "買い忘れでっか？",
+   "occurrences": 1
+  },
+  "Oh, you're here! Take a look at all of it.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "来てくれたんか　いろいろ見てってや",
+   "occurrences": 1
+  },
+  "What, you forget to buy something?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おぉ　買い忘れかえ？",
+   "occurrences": 1
+  },
+  "Oh, you came by?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おぉ　寄っていくかえ？",
+   "occurrences": 1
+  },
+  "Want to make another purchase? Take your time!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "買い忘れですか？　じっくり選んでってくださいね",
+   "occurrences": 1
+  },
+  "Ah, so you're dropping in?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "寄っていかはりますか？",
+   "occurrences": 1
+  },
+  "Something catch your eye? Go ahead and take a look.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "気になるもんありました？　よう見てってください",
+   "occurrences": 1
+  },
+  "Oh, you want to look at our offerings?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やっぱり見ていきます？",
+   "occurrences": 1
+  },
+  "What is it? You forget to buy something?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あれ？　なんか買い忘れたん？",
+   "occurrences": 1
+  },
+  "Ah, so you're interested after all. Take a look, then.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんや　やっぱり気になったん？　いっぱい見てってな",
+   "occurrences": 1
+  },
+  "Decided you wanted more, huh?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "買い忘れですやろか",
+   "occurrences": 1
+  },
+  "Oh, so you <i>are</i> going to shop here?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あ　やっぱり寄っていかはる？",
+   "occurrences": 1
+  },
+  "Can't stay away from us, eh?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "買い忘れどすか？",
+   "occurrences": 1
+  },
+  "Changed your mind about making a purchase?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やっぱり買うてく気になったん？",
+   "occurrences": 1
+  },
+  "So did you run off to another shop? Don't be cheatin' on me now!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "他の店見にいったん？　浮気せんと　うちで買ってってや",
+   "occurrences": 1
+  },
+  "You'll take a serious look at our wares? Thanks!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やっぱり見てってくれんの？　ありがとう",
+   "occurrences": 1
+  },
+  "Oh, welcome back. Did you want to buy something else?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あら　お帰りなさい　買い忘れどすか？",
+   "occurrences": 1
+  },
+  "So you came back for me? I'm flattered.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "戻ってきてくれたんどすか？　うれしいわぁ",
+   "occurrences": 1
+  },
+  "Just promise me you'll take a serious look here.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "よう見てってくださいね",
+   "occurrences": 1
+  },
+  "Ah, you came back? Go ahead and browse at your leisure.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いや　戻ってきてくれたんですか？　気ぃすむまで見てってね",
+   "occurrences": 1
+  },
+  "Just let me know if something suits your fancy.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "気になってるもんあったら　言うてや",
+   "occurrences": 1
+  },
+  "Take a real look, though, okay? Don't just window shop.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "覗いてってや　通り過ぎたらあかんよ",
+   "occurrences": 1
+  },
+  "Have you seen the other shops? Aren't we so much better?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "他の店も見てきたんですか？　うちの方がええのありますやろ？",
+   "occurrences": 1
+  },
+  "See anything that strikes your fancy? Take a good, long look.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "気になるもんありました？　ゆっくり見てってくださいね",
+   "occurrences": 1
+  },
+  "I hope you take a nice, long look.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "よう見てってくださいね",
+   "occurrences": 1
+  },
+  "So you'll browse our wares after all, huh?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やっぱり見ていかはります？",
+   "occurrences": 1
+  },
+  "Oh, someone came crawlin' back! Well, check out our products, then.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "わざわざ戻ってきてくれたん？　ゆっくり見てってな",
+   "occurrences": 1
+  },
+  "Couldn't bear to be away from us too long, eh? Well, buy something!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "顔見に来てくれたん？　欲しいのあったら買うてってね",
+   "occurrences": 1
+  },
+  "How ya been?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "最近どないですか？",
+   "occurrences": 1
+  },
+  "You'll have the boss smilin' for sure, if ya go 'head and take a look.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "旦那様も喜びになるさかい　覗いてってください",
+   "occurrences": 1
+  },
+  "The wind is feelin' so nice today.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日は風が気持ちいいなぁ",
+   "occurrences": 1
+  },
+  "Oh, somethin' on your mind?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おや　考え事ですか？",
+   "occurrences": 1
+  },
+  "You don't look so great, you tired?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そない調子悪そな顔して　疲れてるんやないですか？",
+   "occurrences": 1
+  },
+  "You should get some good food in ya and rest up.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇもん食べて　よう休んでください",
+   "occurrences": 1
+  },
+  "What're you up to now?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これから　どないしはるんです？",
+   "occurrences": 1
+  },
+  "How's life?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "調子どうや？",
+   "occurrences": 1
+  },
+  "Hope you stop by, the boss'll be especially happy.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "旦那様も喜びになるし　顔出してってや",
+   "occurrences": 1
+  },
+  "You're one good-looking guy. Bet you're never short of women.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あんた　ほんま男前やなぁ　女に不自由せんやろ？",
+   "occurrences": 1
+  },
+  "What's goin' on? Why just stand there like that?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ぼーっと突っ立って　どないしたんや？",
+   "occurrences": 1
+  },
+  "You don't seem in peak condition, y'know.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんや元気なさそやな",
+   "occurrences": 1
+  },
+  "Rest up when you can. Can't have good guys like you goin' to seed!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちゃんとカラダ休めなあかんで　ええ男が台無しや",
+   "occurrences": 1
+  },
+  "In a hurry or something?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これから　どっか行くんか？",
+   "occurrences": 1
+  },
+  "Heyyy, how's it all goin' for ya?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "最近どないですか？",
+   "occurrences": 1
+  },
+  "You should say hi to the Okami-san, I'm sure it'll make her happy.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "女将さんに顔見せたってください　きっと喜びますさかい",
+   "occurrences": 1
+  },
+  "This is some great weather, eh? Can't be sad on a day like this.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ええ天気ですなぁ　こんな日は気分も晴れますな",
+   "occurrences": 1
+  },
+  "Anythin' wrong? Somethin' on your mind?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうかしはりました？　考え事ですか？",
+   "occurrences": 1
+  },
+  "What's goin' on with ya? Tuckered out?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんや　疲れてはるんですか？",
+   "occurrences": 1
+  },
+  "Remember to let yourself relax sometimes.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "無理せんと　少しは休んでくださいね",
+   "occurrences": 1
+  },
+  "Hey, got any spare time?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっとお時間ありますか？",
+   "occurrences": 1
+  },
+  "Hi, how are ya?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "元気ですか？",
+   "occurrences": 1
+  },
+  "The boss would love it if ya stopped by!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "旦那様も喜ぶと思うし　ちょっと寄ってってください",
+   "occurrences": 1
+  },
+  "Boss says ya always treat 'im well, mister.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "旦那様が　いつもお兄ちゃんには世話になってるって言うてましたよ",
+   "occurrences": 1
+  },
+  "Is something wrong? Seems like your mind's wandering.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そんなとこでぼーっとして　どうしたんですか？",
+   "occurrences": 1
+  },
+  "You're not doing too well, huh? You hurt somewhere?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんや元気ないですね？　どっか怪我でもしてるん？",
+   "occurrences": 1
+  },
+  "You know, you gotta take better care of yourself!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "体は大事にせんとあかんよ",
+   "occurrences": 1
+  },
+  "Nice time for a stroll, yeah?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "散歩でもしてるん？",
+   "occurrences": 1
+  },
+  "How do you do?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "調子どないですか？",
+   "occurrences": 1
+  },
+  "I'm certain the boss would be just tickled if you said hi.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "よかったら旦那様に顔見せて行ってください　喜ばはると思うし",
+   "occurrences": 1
+  },
+  "The wind feels so brisk and refreshing today.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日は風が気持ちいいですねぇ",
+   "occurrences": 1
+  },
+  "Why are you just standin' around... Somethin' on your mind?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そないに立ち止まって……　考え事ですか？",
+   "occurrences": 1
+  },
+  "Sick of doin' stuff?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "疲れてはります？",
+   "occurrences": 1
+  },
+  "You need to get some proper rest.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちゃんと療養してくださいね",
+   "occurrences": 1
+  },
+  "Oh, I wonder where you're off to...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どこか行かはるんですか？",
+   "occurrences": 1
+  },
+  "I trust you've been well?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "最近どない？",
+   "occurrences": 1
+  },
+  "If you care to say hi to the boss, I know it would be appreciated.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "旦那様も喜ばはると思うし　顔出してってや",
+   "occurrences": 1
+  },
+  "Lovely weather we're having.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日もええ天気ですねぇ",
+   "occurrences": 1
+  },
+  "Hey. Were you thinking about something else?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ぼーっとしてどないしはったん？",
+   "occurrences": 1
+  },
+  "You sure you're all right?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "疲れてるんとちゃいます？",
+   "occurrences": 1
+  },
+  "I think you should partake of a nice meal and relax.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えぇもん食べて　よう休んでくださいね",
+   "occurrences": 1
+  },
+  "So what'll you be doing now?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これから　どないしはるんです？",
+   "occurrences": 1
+  },
+  "How have you been?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    },
+    {
+     "name": "Anna",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ผู้พูดบางคนพิสูจน์เพศไม่ได้",
+   "chapters": [],
+   "ja": "お元気ですか？",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "The boss would absolutely love to see you, if you have time.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうぞお店寄ってってください　旦那様も喜びますし",
+   "occurrences": 1
+  },
+  "We're grateful for your hard work, I hope you know.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お勤めご苦労さんです",
+   "occurrences": 1
+  },
+  "Is there something on your mind? Why the long face?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんか考え事でも？　浮かん顔してますけど",
+   "occurrences": 1
+  },
+  "You don't look so well. Are you feeling ill?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんか顔色悪いけど　調子わるいんとちがいます？",
+   "occurrences": 1
+  },
+  "You pushing yourself too hard? You gotta get some good rest.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "無理してるんとちゃう？　ちゃんと休まなあきまへんよ",
+   "occurrences": 1
+  },
+  "Got some time, sir?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっとお時間あります？",
+   "occurrences": 1
+  },
+  "Why don't you stop by?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "よかったら　店に寄って行ってや",
+   "occurrences": 1
+  },
+  "Somethin' wrong? Got your head in the clouds.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ぼーっとして　どうかしたがかえ？",
+   "occurrences": 1
+  },
+  "Sure you ain't tired?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "疲れちゅうがやないが？",
+   "occurrences": 1
+  },
+  "You should eat somethin' nice and get some rest.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "美味しいもん食べて　ちゃんと休みよ",
+   "occurrences": 1
+  },
+  "You goin' somewhere now?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これから　どっか行くがかえ？",
+   "occurrences": 1
+  },
+  "Thanks for always stoppin' by.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いつもひいきにしていただいて",
+   "occurrences": 1
+  },
+  "Go 'head and stop by sometime! The boss'll love it!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お店にも顔出して行ってくださいね　旦那様も喜びますから",
+   "occurrences": 1
+  },
+  "Nice day for walkin', huh? It's beautiful out.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お散歩ですか？　ええ天気やもんねぇ",
+   "occurrences": 1
+  },
+  "Somethin' troublin' ya?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "立ち止まって　なんか悩み事ですか？",
+   "occurrences": 1
+  },
+  "Ya hurt somewhere I can't see?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "兄ちゃん　怪我してるんと違うの？",
+   "occurrences": 1
+  },
+  "My advice? Get checked out by a doctor. At least take it easy.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はよ手当せな　ほっといたらあきまへんよ",
+   "occurrences": 1
+  },
+  "Got anything planned today?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日はこれから予定でも入ってますの？",
+   "occurrences": 1
+  },
+  "Hey, everythin' fine and dandy?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも　お元気ですか？",
+   "occurrences": 1
+  },
+  "Just to let ya know, the boss really wanted to see ya.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっと寄っていかへん？　旦那様も会いたい言うてますよ",
+   "occurrences": 1
+  },
+  "Still workin' hard? Ya always seem busy.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お勤めですか？　忙しそうやねぇ",
+   "occurrences": 1
+  },
+  "Ya deep in thought or somethin', just standin' there?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そんなところに突っ立ってぇ　考え事でもしてるん？",
+   "occurrences": 1
+  },
+  "Ya look a bit tired, everythin' good?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんかしんどそうやけど　大丈夫なん？",
+   "occurrences": 1
+  },
+  "Gotta take care of yourself first. Get some rest.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "体は大事にせんと　よう休みや",
+   "occurrences": 1
+  },
+  "Oh, you're headin' out?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これから　お出かけ？",
+   "occurrences": 1
+  },
+  "How goes it?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "調子はどうで？",
+   "occurrences": 1
+  },
+  "Why don't you stop by our place?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "うちの店寄って行ってちょうだいや",
+   "occurrences": 1
+  },
+  "The wind feels swell today, doesn't it?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日は風が気持ちえいねぇ",
+   "occurrences": 1
+  },
+  "Why're you standing there and ignoring everything?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "立ち止まって　考え事かえ？",
+   "occurrences": 1
+  },
+  "Seems like you could use a break from it all.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "疲れたような顔して……",
+   "occurrences": 1
+  },
+  "You should eat up, rest up, and then you'll be on the up and up!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "食べて休んで　療養してちょうだいね",
+   "occurrences": 1
+  },
+  "Out for a walk?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今日はお散歩かえ？",
+   "occurrences": 1
+  },
+  "Heyyy, how is everythin'?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お元気でしたか？",
+   "occurrences": 1
+  },
+  "Why don't ya stop by? Say hello to our people and all?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "よかったら寄っていきませんか？　うちの人にも顔見せたってください",
+   "occurrences": 1
+  },
+  "Thanks for givin' us your business. Hope it continues.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いつもお世話様です　これからもよろしゅう頼んますね",
+   "occurrences": 1
+  },
+  "You're zonin' out... Something the matter?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ぼーっとしてぇ……　どないかしはりました？",
+   "occurrences": 1
+  },
+  "Ya alright? Ya don't look too good...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "大丈夫ですか？　顔色悪いようやけど……",
+   "occurrences": 1
+  },
+  "Get some rest so ya can be in tip-top shape when ya need to be.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちゃんと休まな　いざという時に力出ませんよ",
+   "occurrences": 1
+  },
+  "Oh, ya leavin' now?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今からお出かけですか？",
+   "occurrences": 1
+  },
+  "How are you, sir?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "調子どう？",
+   "occurrences": 1
+  },
+  "Would you like to see the boss? I know he'd love to see you.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "旦那様に会うてって？　お兄ちゃん来たら喜ぶはずやから",
+   "occurrences": 1
+  },
+  "You realize if a kid like me is working, you should be, too. Don't you think?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "子供がこうやって働いてるんやから　お兄ちゃんもぶらぶらせんと働かなあかんよ",
+   "occurrences": 1
+  },
+  "Is your mind elsewhere? I guess grown-ups have a lot to think about.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お兄ちゃん　ぼーっとして考え事？　大人は悩み多そうやもんなぁ",
+   "occurrences": 1
+  },
+  "You look awfully tired, are you feeling well?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんか辛そうやけど　大丈夫なん？",
+   "occurrences": 1
+  },
+  "You're hurt badly, aren't you? I think you should seek some care, sir.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ひどい怪我してはるんちゃう？　もう　はよ手当せんとあかんよ",
+   "occurrences": 1
+  },
+  "What will you do now?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これから　どないすんの？",
+   "occurrences": 1
+  },
+  "Have you made a decision?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おきまりですやろか？",
+   "occurrences": 1
+  },
+  "Sure, just one moment.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　少しお待ちください",
+   "occurrences": 1
+  },
+  "Thanks for waitin'.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お待ちどうさまです",
+   "occurrences": 1
+  },
+  "Please come back soon.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきに",
+   "occurrences": 3
+  },
+  "What'll it be?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんにしましょう？",
+   "occurrences": 2
+  },
+  "Please wait, if you will...": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　ちょっと待っといてや",
+   "occurrences": 1
+  },
+  "Here you are, thanks for your patience.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　お待ちどうさま",
+   "occurrences": 1
+  },
+  "What can I do ya for?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "何にいたしましょう？",
+   "occurrences": 1
+  },
+  "'Kay, wait right there.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　少々お待ちを",
+   "occurrences": 1
+  },
+  "Here ya go, thanks for waitin'.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうも　お待ちどうさま",
+   "occurrences": 1
+  },
+  "Thanks again!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "毎度おおきにー",
+   "occurrences": 1
+  },
+  "Yes, right away.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　かしこまりました",
+   "occurrences": 1
+  },
+  "I apologize for the wait.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お待ちどうさまです",
+   "occurrences": 1
+  },
+  "Yes! Welcome.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　いらっしゃいー",
+   "occurrences": 1
+  },
+  "What would you like?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "何にします？",
+   "occurrences": 1
+  },
+  "Sure, just hold on a sec.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい　ちょっと待っててな",
+   "occurrences": 1
+  },
+  "Thanks for waitin'!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい！　お待ち！",
+   "occurrences": 1
+  }
+ }
+}

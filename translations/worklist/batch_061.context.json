@@ -1,0 +1,4048 @@
+{
+ "batch": "batch_061.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Later, then.": {
+   "speakers": [
+    {
+     "name": "Shimada Yahei",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "またの",
+   "occurrences": 1
+  },
+  "Forget something?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "mixed",
+   "neutral": true,
+   "why_neutral": "ผู้พูดหลายคนคนละเพศใช้ข้อความเดียวกัน",
+   "chapters": [],
+   "ja": "忘れ物か？",
+   "occurrences": 2
+  },
+  "Oh, it's you, Saito-kun.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "斎藤君か",
+   "occurrences": 1
+  },
+  "Don't bleed all over the barracks, now.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "怪我したまま出歩くな",
+   "occurrences": 1
+  },
+  "We could be raided at any moment, you know.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "我々はいつ狙われてもおかしくないんだ",
+   "occurrences": 1
+  },
+  "I see you've been celebrating something.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "酒が入っているようだな",
+   "occurrences": 1
+  },
+  "Just don't let it interfere with your work.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "任務に支障は来たすなよ",
+   "occurrences": 1
+  },
+  "In a hurry?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "急ぎの用があるのか……",
+   "occurrences": 3
+  },
+  "What are you thinking...?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何を考えている",
+   "occurrences": 1
+  },
+  "Hey, watch it.": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　気をつけろよ",
+   "occurrences": 1
+  },
+  "What is wrong with you?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "どうしたんだ……",
+   "occurrences": 1
+  },
+  "Are you even looking where you're going?": {
+   "speakers": [
+    {
+     "name": "Hijikata",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "前を見ているのか？",
+   "occurrences": 1
+  },
+  "Aw, miss me already?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや　俺に会いとうなったんか？",
+   "occurrences": 1
+  },
+  "Ya bored or somethin'?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何や　ヒマなんか？",
+   "occurrences": 1
+  },
+  "Oh, it's you, Hajime-chan.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "一（はじめ）ちゃんか",
+   "occurrences": 1
+  },
+  "Wow, yer a real shitshow.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんやボロボロやないか",
+   "occurrences": 1
+  },
+  "What a sorry state...": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なっさけないのう",
+   "occurrences": 1
+  },
+  "What, got drunk without me?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや　酔っとんのか",
+   "occurrences": 1
+  },
+  "Can you even fight like that?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "そんなんで戦えるんか？",
+   "occurrences": 1
+  },
+  "Hey, are you ignorin' me here?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　無視かい",
+   "occurrences": 1
+  },
+  "What's goin' on?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ผู้พูดบางคนพิสูจน์เพศไม่ได้",
+   "chapters": [],
+   "ja": "どないした？",
+   "occurrences": 3
+  },
+  "Hey, watch it!": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　気ぃつけろや！",
+   "occurrences": 2
+  },
+  "What the hell...?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なにすんねん……",
+   "occurrences": 2
+  },
+  "What're you doin'?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何やっとんのや……",
+   "occurrences": 1
+  },
+  "Watch where you're goin'.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちゃんと前みぃや",
+   "occurrences": 1
+  },
+  "Well, later.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ผู้พูดบางคนพิสูจน์เพศไม่ได้",
+   "chapters": [],
+   "ja": "ほんなら",
+   "occurrences": 2
+  },
+  "Later.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほな",
+   "occurrences": 4
+  },
+  "C'mon, let's go.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほな行くで",
+   "occurrences": 1
+  },
+  "Follow me.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 2
+    },
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "mixed",
+   "neutral": true,
+   "why_neutral": "ผู้พูดหลายคนคนละเพศใช้ข้อความเดียวกัน",
+   "chapters": [],
+   "ja": "俺についてきてくれ",
+   "occurrences": 6,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Hey, where ya goin'?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　どこいくねん？",
+   "occurrences": 2
+  },
+  "C'mon! Unbelievable.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "まったくしゃあないのう",
+   "occurrences": 1
+  },
+  "Hey, there ya are.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おう　来たな",
+   "occurrences": 1
+  },
+  "Keep up, will ya?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちゃんとついて来いや",
+   "occurrences": 2
+  },
+  "Hey, what's the rush?": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　そんなに急ぐな",
+   "occurrences": 2
+  },
+  "Hold up!": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちょぉ待ちぃや！",
+   "occurrences": 2
+  },
+  "We're almost there.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 2
+    },
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Haruka",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "mixed",
+   "neutral": true,
+   "why_neutral": "ผู้พูดหลายคนคนละเพศใช้ข้อความเดียวกัน",
+   "chapters": [],
+   "ja": "もうすぐだな",
+   "occurrences": 6
+  },
+  "Just through here.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "この先やで",
+   "occurrences": 1
+  },
+  "Right around here.": {
+   "speakers": [
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "このあたりや",
+   "occurrences": 1
+  },
+  "Oh...": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (9 จุด)",
+   "chapters": [],
+   "ja": "お……",
+   "occurrences": 10
+  },
+  "Ah, Saito.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "斎藤か",
+   "occurrences": 3
+  },
+  "What, ya tired?": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや疲れとんのか？",
+   "occurrences": 1
+  },
+  "Pathetic... Not much of a Captain right now, huh?": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "情けないなぁ……　三番隊 隊長の名が泣くで",
+   "occurrences": 1
+  },
+  "You drunk or somethin'?": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "酔うてんのか？",
+   "occurrences": 1
+  },
+  "Just don't go overdoin' it.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほどほどにしとけや",
+   "occurrences": 1
+  },
+  "What an ass...": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "……愛想ない奴やな",
+   "occurrences": 1
+  },
+  "What's he even doin'...?": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あいつ　何やっとんのや……",
+   "occurrences": 1
+  },
+  "Watch it there...": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "どんくさいやっちゃな……",
+   "occurrences": 1
+  },
+  "Alright then.": {
+   "speakers": [
+    {
+     "name": "Nagakura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほんなら",
+   "occurrences": 2
+  },
+  "Hey, you ready?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　まだか？",
+   "occurrences": 1
+  },
+  "What's wrong? Need something?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "どうした？　何か用か？",
+   "occurrences": 1
+  },
+  "Ah, Ryoma.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "龍馬か",
+   "occurrences": 2
+  },
+  "Hey, where are you going?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "mixed",
+   "neutral": true,
+   "why_neutral": "ผู้พูดหลายคนคนละเพศใช้ข้อความเดียวกัน",
+   "chapters": [],
+   "ja": "おい　どこいくんだ？",
+   "occurrences": 3
+  },
+  "Come on... You're hopeless, you know that?": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "まったく……　仕方のない奴だ",
+   "occurrences": 1
+  },
+  "Oh, there you are.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "お　来たな",
+   "occurrences": 1
+  },
+  "Come on, just follow me.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちゃんとついて来いよ",
+   "occurrences": 1
+  },
+  "Kochi Castle's right through here.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 2
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "高知城はここを抜けた先だ",
+   "occurrences": 2
+  },
+  "Kochi Castle's this way.": {
+   "speakers": [
+    {
+     "name": "Takechi",
+     "gender": "male",
+     "uses": 3
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "高知城はこの先だな",
+   "occurrences": 3
+  },
+  "What the hell?": {
+   "speakers": [
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 2
+    },
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [
+    6,
+    8
+   ],
+   "ja": "なんだと？",
+   "occurrences": 3
+  },
+  "Hmph, it's you.": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "フン　おまんか",
+   "occurrences": 1
+  },
+  "Heh, you look pretty beat up.": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何じゃ　随分やられとるやないがかえ",
+   "occurrences": 1
+  },
+  "You call yourself our Rep? What a joke.": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "それで“筆頭”とは　笑わせる",
+   "occurrences": 1
+  },
+  "What, you're sloshed?": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何じゃ　酔うとるんか",
+   "occurrences": 1
+  },
+  "Hmph. Living it up, huh, Rep?": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "フン　呑気なもんじゃ　“筆頭”",
+   "occurrences": 1
+  },
+  "The hell is this...?": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何のつもりじゃ……",
+   "occurrences": 1
+  },
+  "What the hell was that about...?": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何じゃ　あいつは……",
+   "occurrences": 1
+  },
+  "See ya, Rep.": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほいたら　“筆頭”",
+   "occurrences": 1
+  },
+  "Hmph...": {
+   "speakers": [
+    {
+     "name": "Izo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "……フン。",
+   "occurrences": 3
+  },
+  "You again?": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "また君か",
+   "occurrences": 3
+  },
+  "What do you want?": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (3 จุด)",
+   "chapters": [],
+   "ja": "何か用か？",
+   "occurrences": 5,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Oh, Saito-kun.": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "斎藤君か",
+   "occurrences": 1
+  },
+  "You look hurt.": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "怪我してるようだな",
+   "occurrences": 1
+  },
+  "So, this is a Shinsengumi captain now... Shameful.": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "新選組の隊長ともあろう者が……　情けない",
+   "occurrences": 1
+  },
+  "Are you <i>drunk</i>?": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "酔ってるのか？",
+   "occurrences": 1
+  },
+  "I don't think you understand your job.": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "……君には隊長としての自覚がないようだ",
+   "occurrences": 1
+  },
+  "What, in a hurry?": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんだ……　急ぎか",
+   "occurrences": 1
+  },
+  "Hey, what're you doing?": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　何をする",
+   "occurrences": 2
+  },
+  "What are you doing...?": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何をしているんだ……",
+   "occurrences": 1
+  },
+  "What's the rush?": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何を急いでるんだ？",
+   "occurrences": 1
+  },
+  "Take care.": {
+   "speakers": [
+    {
+     "name": "Matsubara",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ではまた",
+   "occurrences": 1
+  },
+  "Need something?": {
+   "speakers": [
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "俺に何か用か？",
+   "occurrences": 5,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Oh, you're injured.": {
+   "speakers": [
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おや　怪我してるんですか？",
+   "occurrences": 1
+  },
+  "You should be more careful.": {
+   "speakers": [
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "くれぐれもご注意を",
+   "occurrences": 1
+  },
+  "Drinking again, eh?": {
+   "speakers": [
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おや　お酒ですか",
+   "occurrences": 1
+  },
+  "Just don't let it get in the way of the missions.": {
+   "speakers": [
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "任務に差し支えないように",
+   "occurrences": 1
+  },
+  "That hurt...": {
+   "speakers": [
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "痛いですね",
+   "occurrences": 1
+  },
+  "Did I do something...?": {
+   "speakers": [
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "私が何かしましたか？",
+   "occurrences": 1
+  },
+  "See you again.": {
+   "speakers": [
+    {
+     "name": "Yamazaki",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "では　また",
+   "occurrences": 1
+  },
+  "You again...": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (3 จุด)",
+   "chapters": [],
+   "ja": "またあんたか……",
+   "occurrences": 4,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Hey, are you hurt?": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "怪我してんのか",
+   "occurrences": 2
+  },
+  "You sure you're okay?": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "そんなんで大丈夫か？",
+   "occurrences": 1
+  },
+  "Man, are you drunk?": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "アンタ酔ってんのか",
+   "occurrences": 1
+  },
+  "Well, glad one of us is having a good time.": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "いい御身分だね",
+   "occurrences": 1
+  },
+  "So hasty...": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "せっかちだねぇ",
+   "occurrences": 1
+  },
+  "Hey, what's your problem?": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　何すんだよ",
+   "occurrences": 1
+  },
+  "That hurt!": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "いてぇじゃねぇか！",
+   "occurrences": 1
+  },
+  "Watch it...": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あっぶねぇなぁ……",
+   "occurrences": 1
+  },
+  "Watch where you're going.": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちゃんと前見とけよ",
+   "occurrences": 3
+  },
+  "I'm out of here.": {
+   "speakers": [
+    {
+     "name": "Harada",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "じゃあな",
+   "occurrences": 1
+  },
+  "Did you need something?": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何か俺に用ありましたっけ？",
+   "occurrences": 1
+  },
+  "Oh, it's just you, Saito-san.": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんだ　斎藤さんですか",
+   "occurrences": 1
+  },
+  "You're injured... Who got you?": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "怪我……　誰にやられたんですか？",
+   "occurrences": 1
+  },
+  "Want me to dish out some payback?": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "僕が斬ってきましょうか？",
+   "occurrences": 1
+  },
+  "Oh, look... You're drunk.": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "酔ってるんですね",
+   "occurrences": 1
+  },
+  "Doesn't drinking make you wanna go kill?": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "酔うと斬りたくなりません？",
+   "occurrences": 1
+  },
+  "You're so impatient...": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "せっかちな人ですね",
+   "occurrences": 1
+  },
+  "Watch it, that hurt.": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "痛いじゃないですか",
+   "occurrences": 1
+  },
+  "Ow! Do you wanna die?": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "いたた……　斬られたいのかな？",
+   "occurrences": 1
+  },
+  "You sure do like risks...": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "危ないなぁ",
+   "occurrences": 1
+  },
+  "Haha, are you messing with me?": {
+   "speakers": [
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ハハ　遊んでるんですか？",
+   "occurrences": 1
+  },
+  "See ya.": {
+   "speakers": [
+    {
+     "name": "Townsperson",
+     "gender": "unknown",
+     "uses": 2
+    },
+    {
+     "name": "Todo",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ผู้พูดบางคนพิสูจน์เพศไม่ได้",
+   "chapters": [],
+   "ja": "ほな",
+   "occurrences": 6
+  },
+  "Looks like they got you bad.": {
+   "speakers": [
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "どうした　ひどくやられているようだな",
+   "occurrences": 1
+  },
+  "Take care of yourself. It's part of the job.": {
+   "speakers": [
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "養生しておけ　それも仕事のうちだ",
+   "occurrences": 1
+  },
+  "Wait, are you drunk?": {
+   "speakers": [
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんだ　酔っているのか？",
+   "occurrences": 1
+  },
+  "Cut back on the drinking, got it?": {
+   "speakers": [
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "酒はほどほどにしろ",
+   "occurrences": 1
+  },
+  "What is he doing?": {
+   "speakers": [
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あいつは　何をしてるんだ……",
+   "occurrences": 1
+  },
+  "Rough guy...": {
+   "speakers": [
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ガサツなやつだ",
+   "occurrences": 1
+  },
+  "Goodbye.": {
+   "speakers": [
+    {
+     "name": "Inoue",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "では",
+   "occurrences": 3
+  },
+  "What's the matter, Saito-kun?": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "斎藤君　どうかしたのか？",
+   "occurrences": 1
+  },
+  "You want something from me?": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "私に何か用なのか？",
+   "occurrences": 1
+  },
+  "Ah, Saito-kun.": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "斎藤君か",
+   "occurrences": 1
+  },
+  "You seem hurt—rather badly.": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "どうした　随分やられてるな",
+   "occurrences": 1
+  },
+  "Get yourself patched up.": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "早く治療しておけ",
+   "occurrences": 1
+  },
+  "Are you drunk...?": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "酔ってるのか……",
+   "occurrences": 1
+  },
+  "Hmph. Don't let it hinder your duties.": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "フン　任務に支障をきたさないなら好きにしろ",
+   "occurrences": 1
+  },
+  "In a rush?": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "急ぎか",
+   "occurrences": 1
+  },
+  "Tch, careful!": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "チッ　気をつけろ！",
+   "occurrences": 1
+  },
+  "What are you doing!?": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何をする！",
+   "occurrences": 1
+  },
+  "What are you trying to accomplish here?": {
+   "speakers": [
+    {
+     "name": "Ito",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "君は何がしたいんだ？",
+   "occurrences": 1
+  },
+  "What? Piss off.": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや？　どっかいけや",
+   "occurrences": 1
+  },
+  "Saito, huh.": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "斎藤か",
+   "occurrences": 1
+  },
+  "What, yer hurt?": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや　怪我しとんのか？",
+   "occurrences": 1
+  },
+  "Heh, need me to kiss yer booboo all better?": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "クク　わしの唾で舐めたったらすぐ治るで？",
+   "occurrences": 1
+  },
+  "Yer shitfaced...": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "われ　酔うとるやんけ",
+   "occurrences": 1
+  },
+  "Heh. Well, aren't you Mister Big Shot?": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "クク　ええ御身分や",
+   "occurrences": 1
+  },
+  "What, ya busy?": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや……　忙しいんか",
+   "occurrences": 1
+  },
+  "Watch where you're walkin'!": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ผู้พูดบางคนพิสูจน์เพศไม่ได้",
+   "chapters": [],
+   "ja": "ちゃんと前見て歩けや",
+   "occurrences": 2
+  },
+  "You an idiot?": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あほちゃうか？",
+   "occurrences": 1
+  },
+  "What are ya doin'!?": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なにしてんのや",
+   "occurrences": 1
+  },
+  "Bye.": {
+   "speakers": [
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほしたら",
+   "occurrences": 1
+  },
+  "Sakamoto-han.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "坂本はん",
+   "occurrences": 1
+  },
+  "What are ya doin'?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "……何のマネや",
+   "occurrences": 1
+  },
+  "It's you.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あんたか",
+   "occurrences": 1
+  },
+  "What happened to ya?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何や　そのザマは",
+   "occurrences": 1
+  },
+  "Didja just get lucky against me or somethin'?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ワシと張り合うたんはマグレやったんか",
+   "occurrences": 1
+  },
+  "What, yer drunk?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何や　呑んどるんか",
+   "occurrences": 1
+  },
+  "Yer really too much, man.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "……アンタは酔うと面倒や",
+   "occurrences": 1
+  },
+  "What're ya doin'?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何のつもりや",
+   "occurrences": 1
+  },
+  "Watch it.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "気ぃつけろや",
+   "occurrences": 1
+  },
+  "What's his problem...?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何やアイツ",
+   "occurrences": 1
+  },
+  "What're ya doin'!?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "何しとるんや",
+   "occurrences": 1
+  },
+  "This way.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "こっちや",
+   "occurrences": 2
+  },
+  "Hey, where ya goin'...?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　どこ行く気や",
+   "occurrences": 1
+  },
+  "Tch... Where'd he go?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちっ……　どこ行ったんや",
+   "occurrences": 1
+  },
+  "Where are you goin', man?": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "どこ行っとんねん",
+   "occurrences": 1
+  },
+  "Hey, yer goin' too fast.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おい　急ぎすぎやろ",
+   "occurrences": 1
+  },
+  "Hey, hold on!": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ผู้พูดบางคนพิสูจน์เพศไม่ได้",
+   "chapters": [],
+   "ja": "ちょお待てや！",
+   "occurrences": 2
+  },
+  "The place is just up ahead.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "飲み屋はこの先やな",
+   "occurrences": 1
+  },
+  "We're gettin' close.": {
+   "speakers": [
+    {
+     "name": "Saigo",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "店はもうすぐや",
+   "occurrences": 1
+  },
+  "Oh? Need something, Ryoma-san?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あら？　龍馬さん　なにか？",
+   "occurrences": 1
+  },
+  "Oh? Need something, Saito-san?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あら？　斎藤さん　なにか？",
+   "occurrences": 1
+  },
+  "Uh... Did you forget something?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "えっと……　忘れ物かな？",
+   "occurrences": 1
+  },
+  "Oh, Ryoma-san.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "龍馬さんか",
+   "occurrences": 1
+  },
+  "Oh, Saito-san.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    },
+    {
+     "name": "Old Man",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "斎藤さんか",
+   "occurrences": 4,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "You seem pretty beat up...": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "だいぶやられてるみたいだけど……？",
+   "occurrences": 1
+  },
+  "Shouldn't you rest for a bit?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "少し休んだ方がいいんじゃありません？",
+   "occurrences": 1
+  },
+  "You seem pretty drunk.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "結構酔っちゃってるみたいだけど……",
+   "occurrences": 1
+  },
+  "I wonder if he's okay...": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "大丈夫かな",
+   "occurrences": 1
+  },
+  "Are you in a hurry?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "お急ぎですか……",
+   "occurrences": 1
+  },
+  "Whoa, what...?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちょ　なに？",
+   "occurrences": 1
+  },
+  "Ouch...": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "mixed",
+   "neutral": true,
+   "why_neutral": "ผู้พูดหลายคนคนละเพศใช้ข้อความเดียวกัน",
+   "chapters": [],
+   "ja": "いたたた……",
+   "occurrences": 2
+  },
+  "You gotta watch where you're going.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちゃんと前見ないと……",
+   "occurrences": 1
+  },
+  "Let's get going then.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "それじゃ　行こうか",
+   "occurrences": 1
+  },
+  "Sheesh... Fine then.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "まったく……　仕方ないなぁ",
+   "occurrences": 1
+  },
+  "Ah, there you are.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あ　来た来た",
+   "occurrences": 1
+  },
+  "Follow me, okay?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちゃんとついてきてね",
+   "occurrences": 1
+  },
+  "Uh, are you in that much of a hurry?": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "え　そんなに急ぐの？",
+   "occurrences": 1
+  },
+  "The place should be just up ahead.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "飲み屋はこの先ですね",
+   "occurrences": 1
+  },
+  "The place is right there.": {
+   "speakers": [
+    {
+     "name": "Katsura",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "店はすぐそこです",
+   "occurrences": 1
+  },
+  "Hajime-san.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    },
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "一（はじめ）さん",
+   "occurrences": 2
+  },
+  "Oh, it's just you, Hajime-san...": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや　一（はじめ）さんか……",
+   "occurrences": 1
+  },
+  "You're wobbly, are you okay?": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "フラフラやけど大丈夫？",
+   "occurrences": 1
+  },
+  "You should rest for a bit...": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "少し休んでいかな……",
+   "occurrences": 1
+  },
+  "You were drinking again?": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "また飲んできたの？",
+   "occurrences": 1
+  },
+  "Take good care of yourself, please.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "少しは体のこと気にしてな",
+   "occurrences": 1
+  },
+  "Oh, Hajime-san?": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あ　一（はじめ）さん？",
+   "occurrences": 1
+  },
+  "Hey, what's going on?": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "ちょっと　どないしたん？",
+   "occurrences": 3
+  },
+  "Let's go then.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほな行こか",
+   "occurrences": 1
+  },
+  "Hurry, over here.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "はよ　こっちやよ",
+   "occurrences": 1
+  },
+  "Oh... Fine then.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もう……　しゃあないなぁ",
+   "occurrences": 1
+  },
+  "Don't leave me behind.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もうはぐれんといてな",
+   "occurrences": 1
+  },
+  "Hajime-san, this way.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "一（はじめ）さん　こっち",
+   "occurrences": 1
+  },
+  "Don't be in such a hurry.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "そないに急がんといて",
+   "occurrences": 1
+  },
+  "Almost there, I think.": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もうすぐみたいやね",
+   "occurrences": 1
+  },
+  "This way, right?": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "この先とちがう？",
+   "occurrences": 1
+  },
+  "It should be nearby...": {
+   "speakers": [
+    {
+     "name": "Oryo",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "この辺りみたい",
+   "occurrences": 1
+  },
+  "Something going on?": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "なんか用事？",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Oh! Look, you're hurt...": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "いや　傷だらけやないの……",
+   "occurrences": 1
+  },
+  "Were you out drinking again?": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "また飲んできはったん？",
+   "occurrences": 1
+  },
+  "No problem spending money <i>elsewhere</i>...": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "羽振りがよろしいなぁ",
+   "occurrences": 1
+  },
+  "My, always in a rush.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんや忙しないなぁ",
+   "occurrences": 1
+  },
+  "Is there a disturbance?": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "どないしたん？",
+   "occurrences": 1
+  },
+  "Be careful out there.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もう　気ぃつけてぇや",
+   "occurrences": 1
+  },
+  "Hey, what's the matter?": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちょっと　なんやの？",
+   "occurrences": 1
+  },
+  "Uh, are you okay?": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "いや　大丈夫やの？",
+   "occurrences": 1
+  },
+  "So reckless...": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "危ないわぁ",
+   "occurrences": 1
+  },
+  "See you.": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほなね",
+   "occurrences": 1
+  },
+  "What, you forget something?": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんだ　忘れ物か？",
+   "occurrences": 1
+  },
+  "What, need something?": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんだ　何か用か？",
+   "occurrences": 1
+  },
+  "Take better care of yourself.": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちゃんと手当しろよ",
+   "occurrences": 1
+  },
+  "Hm? Are you... drunk?": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ん？　酔っぱらってるのか",
+   "occurrences": 1
+  },
+  "In a hurry, huh?": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "急いでんのか？",
+   "occurrences": 1
+  },
+  "That idiot...": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あのバカ……",
+   "occurrences": 1
+  },
+  "I'll see you.": {
+   "speakers": [
+    {
+     "name": "Nakaoka",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "じゃあな",
+   "occurrences": 1
+  },
+  "Oof, you really caught one, huh?": {
+   "speakers": [
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "その怪我……どないした？",
+   "occurrences": 1
+  },
+  "You oughta get patched up.": {
+   "speakers": [
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "こないな所おらんで　手当てしてきぃや",
+   "occurrences": 1
+  },
+  "Have you been drinkin'?": {
+   "speakers": [
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "酒飲んどるんかぁ？",
+   "occurrences": 1
+  },
+  "Share with me next time, alright?": {
+   "speakers": [
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "わしにもちょっと分けてえや",
+   "occurrences": 1
+  },
+  "What, you're ignorin' me?": {
+   "speakers": [
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんや　無視かいな",
+   "occurrences": 1
+  },
+  "That hurt a lot...": {
+   "speakers": [
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "痛ったいのう……",
+   "occurrences": 1
+  },
+  "What is your problem? Bumpin' into me...": {
+   "speakers": [
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "何がしたいんや　人にぶつかったりして",
+   "occurrences": 1
+  },
+  "Heya there, welcome!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いらっしゃいませー",
+   "occurrences": 2
+  },
+  "Employee": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "店員",
+   "occurrences": 0
+  },
+  "Have a look!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "いかがですかー",
+   "occurrences": 3
+  },
+  "Great stuff today! Come check it out!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ええ品もんありますよ　見てってください",
+   "occurrences": 1
+  },
+  "Fresh 'n' tasty, right here!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "鮮度もええし　おいしいですよー",
+   "occurrences": 1
+  },
+  "Come check out our shop!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうぞお立ち寄りくださいー",
+   "occurrences": 1
+  },
+  "I can make it cheaper!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "安ぅさしてもらってます",
+   "occurrences": 1
+  },
+  "Ya want some?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どないですかー？",
+   "occurrences": 1
+  },
+  "Great! Welcome.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はい！　いらっしゃい",
+   "occurrences": 1
+  },
+  "Come, come, buy some!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁさぁ　いかがでしょう",
+   "occurrences": 1
+  },
+  "Great deals here—take a look!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お得やでー　見てってやー",
+   "occurrences": 1
+  },
+  "Great for the season! Stop on by!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "旬のうまいもん　買ぅてってえやー",
+   "occurrences": 1
+  },
+  "Come check us out!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どうぞ寄ってってやー",
+   "occurrences": 1
+  },
+  "Ya won't regret it!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "損はさせまへんでー",
+   "occurrences": 1
+  },
+  "Take yer time!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "気軽に覗いてってなー",
+   "occurrences": 1
+  },
+  "Welcome, welcome!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 4
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "いらっしゃいませー",
+   "occurrences": 5,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Like whatcha see?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁ　どないですかー",
+   "occurrences": 1
+  },
+  "We got the good stuff.": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ええもん　取り揃えてますでー",
+   "occurrences": 1
+  },
+  "Everything here's nice 'n' fresh!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ここにあるもん　みんな新鮮！　味も最高やで！",
+   "occurrences": 1
+  },
+  "Come stop by!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁどうぞ　お立ち寄りください",
+   "occurrences": 1
+  },
+  "You're missin' out!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "見て行かんと損やでー",
+   "occurrences": 1
+  },
+  "It's real cheap!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "安ぅなってますでー",
+   "occurrences": 1
+  },
+  "Welcome, friend!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いらっしゃいませー",
+   "occurrences": 2
+  },
+  "How about it?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 3
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "さぁどうやろう！",
+   "occurrences": 4,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Ours are the best in town, no question!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えいもの取り揃えちょるでー",
+   "occurrences": 1
+  },
+  "Each one as tasty as the last!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どれも新鮮で味も最高！",
+   "occurrences": 1
+  },
+  "No regrets shopping here!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どれを買うたち満足で",
+   "occurrences": 1
+  },
+  "How about one?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "おひとつどうかねー？",
+   "occurrences": 1
+  },
+  "They're cheap!": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "安いで安いでー",
+   "occurrences": 1
+  },
+  "Welcome, come on in?": {
+   "speakers": [
+    {
+     "name": "Employee",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いらっしゃいませ　どうぞー",
+   "occurrences": 1
+  }
+ }
+}

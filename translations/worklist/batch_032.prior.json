@@ -1,0 +1,54 @@
+{
+ "batch": "032",
+ "readme": "คำที่ 'เคาะไปแล้ว' ในก้อนก่อนหน้า และโผล่อยู่ในสตริงของก้อนนี้ ดึงจาก master_th.json อัตโนมัติ",
+ "how_to_use": {
+  "locked_names_places": "คำล็อกจาก name_locks.json / place_locks.json — **บังคับ** ต้องสะกดตามนี้เป๊ะ",
+  "terms": "ชื่อเฉพาะ/วลี — ใช้รูปนี้เท่านั้น ห้ามตั้งใหม่ ถ้าเห็นว่ารูปเดิมผิดจริง ให้รายงาน lead อย่าเปลี่ยนเอง",
+  "single_words": "คำเดี่ยว — เป็นคำแปลของ **บริบทอื่น** อาจไม่ตรงบริบทก้อนนี้ (เช่น Result = 'ผลการซื้อขาย' มาจากหน้าร้านค้า) ให้ใช้เมื่อบริบทตรงกันเท่านั้น"
+ },
+ "locked_names_places": {
+  "Shogoin Yatsuhashi": "โชโงอิน ยัตสึฮาชิ",
+  "Sushi Zanmai": "ซูชิซัมไม",
+  "Fuji Soba": "ฟูจิโซบะ",
+  "Kitchen": "ครัว",
+  "Hanako": "ฮานาโกะ",
+  "Watami": "วาตามิ",
+  "Gion": "กิอง",
+  "Dojo": "สำนักดาบแห่งหนึ่ง"
+ },
+ "terms": {
+  "True Grit Chirashi Sushi": "ชิราชิซูชิใจสู้",
+  "Fisherman's Teppoyaki": "เท็ปโปะยากิของชาวประมง",
+  "Refreshing Kakiage": "คาคิอาเกะหอมสดชื่น",
+  "Homemade Pickles": "ผักดองโฮมเมด",
+  "Blissful Udon": "อุด้งสุขใจ",
+  "Sweet Potato": "มันเทศ",
+  "Spirit Stew": "หม้อไฟบำรุงไม่รู้เหนื่อย"
+ },
+ "single_words": {
+  "Bait": "เหยื่อล่อ",
+  "Battle": "ต่อสู้",
+  "Bear": "หมี",
+  "Black": "ดำ",
+  "Ginger": "ขิง",
+  "Gun": "ปืน",
+  "Ichimonji": "อิจิโมนจิ",
+  "Katana": "คาตานะ",
+  "Mahjong": "มาจอง",
+  "New": "ใหม่",
+  "Odachi": "ดาบโอดาจิ",
+  "Order": "ใบสั่ง",
+  "Potato": "มันฝรั่ง",
+  "Rock": "ค้อน",
+  "Ronin": "โรนิน",
+  "Sakura": "ซากุระ",
+  "Scroll": "เลื่อน",
+  "Shinsengumi": "ชินเซ็นกุมิ",
+  "Spear": "หอก",
+  "Standard": "มาตรฐาน",
+  "Tempura": "เทมปุระ",
+  "Tsukimi": "สึกิมิ",
+  "Type": "ประเภท",
+  "White": "ขาว"
+ }
+}

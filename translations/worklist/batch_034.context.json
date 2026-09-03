@@ -1,0 +1,2379 @@
+{
+ "batch": "batch_034.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Common": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一般",
+   "occurrences": 1
+  },
+  "3rd Place": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "三着",
+   "occurrences": 1
+  },
+  "Triple Exacta": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "三鳥単",
+   "occurrences": 1
+  },
+  "Mid": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中距離",
+   "occurrences": 1
+  },
+  "Prediction": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "予想",
+   "occurrences": 2
+  },
+  "2nd Place": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "二着",
+   "occurrences": 1
+  },
+  "Double Exacta": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "二鳥単",
+   "occurrences": 1
+  },
+  "5th Place": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "五着",
+   "occurrences": 1
+  },
+  "Quintuple Exacta": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "五鳥単",
+   "occurrences": 1
+  },
+  "Double": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倍",
+   "occurrences": 1
+  },
+  "Racer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出走鳥",
+   "occurrences": 2
+  },
+  "Confirm Racer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出走鳥決定",
+   "occurrences": 1
+  },
+  "2 Ago": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "前々走",
+   "occurrences": 1
+  },
+  "Last Run": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "前走",
+   "occurrences": 1
+  },
+  "Single": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "単勝",
+   "occurrences": 2
+  },
+  "4th Place": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四着",
+   "occurrences": 1
+  },
+  "Payoff": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "払い戻し",
+   "occurrences": 1
+  },
+  "Rank": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格",
+   "occurrences": 5
+  },
+  "Rank 1": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格一",
+   "occurrences": 1
+  },
+  "Rank 3": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格三",
+   "occurrences": 1
+  },
+  "Rank 2": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格二",
+   "occurrences": 1
+  },
+  "Finish": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "決着",
+   "occurrences": 1
+  },
+  "pts.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "点",
+   "occurrences": 3
+  },
+  "Special": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特別",
+   "occurrences": 3
+  },
+  "Status": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "状況",
+   "occurrences": 1
+  },
+  "Race in Progress": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "現在開催中",
+   "occurrences": 1
+  },
+  "correct": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "的中",
+   "occurrences": 1
+  },
+  "Order Finished": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "着順",
+   "occurrences": 1
+  },
+  "Short": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "短距離",
+   "occurrences": 1
+  },
+  "Race Type": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "競走名",
+   "occurrences": 1
+  },
+  "Cond.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "調子",
+   "occurrences": 1
+  },
+  "Condition": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "調子",
+   "occurrences": 1
+  },
+  "Bet": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "賭",
+   "occurrences": 3
+  },
+  "Purchased Tickets": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "購入鳥券",
+   "occurrences": 1
+  },
+  "Distance": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "距離",
+   "occurrences": 2
+  },
+  "Past Results": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "過去成績",
+   "occurrences": 1
+  },
+  "Payout": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "配当",
+   "occurrences": 4
+  },
+  "Long": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長距離",
+   "occurrences": 1
+  },
+  "Close": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "閉じる",
+   "occurrences": 5
+  },
+  "Exacta": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鳥単",
+   "occurrences": 1
+  },
+  "Quinella": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鳥連",
+   "occurrences": 2
+  },
+  "Flash-Fry": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アゲタテ",
+   "occurrences": 1
+  },
+  "That Frying Smell": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アゲモノ",
+   "occurrences": 1
+  },
+  "Record Beaker": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "オオトリトリ",
+   "occurrences": 1
+  },
+  "Laid-Back Lady": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "オットリ",
+   "occurrences": 1
+  },
+  "Flapperdasher": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カケッコッコ",
+   "occurrences": 1
+  },
+  "Ka-Ching Cochin": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カチンコーチン",
+   "occurrences": 1
+  },
+  "Fowl Temper": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ケイオウ",
+   "occurrences": 1
+  },
+  "The Colonel": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ケンタ",
+   "occurrences": 1
+  },
+  "Tenderfoot": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "コヤイリムスメ",
+   "occurrences": 1
+  },
+  "Hen Honcho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "コヤノカミ",
+   "occurrences": 1
+  },
+  "Pen Dragon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "コヤハカイシン",
+   "occurrences": 1
+  },
+  "Rooster Booster": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ササミドリ",
+   "occurrences": 1
+  },
+  "Satsuman Strutter": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サツマコッコ",
+   "occurrences": 1
+  },
+  "Poultry Offering": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "シャモドキ",
+   "occurrences": 1
+  },
+  "Egg Janaika": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ジドリキドリ",
+   "occurrences": 1
+  },
+  "Broth Baby": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "タレシオ",
+   "occurrences": 1
+  },
+  "Lil' Teacake": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "チャモドキ",
+   "occurrences": 1
+  },
+  "King of Wings": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "テバサキオウ",
+   "occurrences": 1
+  },
+  "Roost Ruler": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "テンカトリ",
+   "occurrences": 1
+  },
+  "Tosan Pride": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "トサノトサカ",
+   "occurrences": 1
+  },
+  "Feed Demon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "トブガゴトク",
+   "occurrences": 1
+  },
+  "Going Nowhere": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ナカズトベズ",
+   "occurrences": 1
+  },
+  "Sneaky Bird": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ネトリメトリ",
+   "occurrences": 1
+  },
+  "Featherstorm": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ハネフブキ",
+   "occurrences": 1
+  },
+  "Wondercrest": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "マサカノトサカ",
+   "occurrences": 1
+  },
+  "Dinnertime": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ムスカ",
+   "occurrences": 1
+  },
+  "Hell Unshelled": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "モトヒヨコ",
+   "occurrences": 1
+  },
+  "Thigh Will Be Done": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "モモ",
+   "occurrences": 1
+  },
+  "Apollo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヨウケイザン",
+   "occurrences": 1
+  },
+  "Flustercluck": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "リトワニ",
+   "occurrences": 1
+  },
+  "Out on Feb 21.2023": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "2023年2月22日発売",
+   "occurrences": 1
+  },
+  "Pre-orders now available!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "予約受付中！",
+   "occurrences": 1
+  },
+  "Like a Dragon: Ishin!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍が如く 維新！極",
+   "occurrences": 2
+  },
+  "Congratulations!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "congratulations!",
+   "occurrences": 1
+  },
+  "Kan": {
+   "speakers": [
+    {
+     "name": "Trooper",
+     "gender": "unknown",
+     "uses": 2
+    },
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "カン",
+   "occurrences": 6
+  },
+  "Chi": {
+   "speakers": [
+    {
+     "name": "Trooper",
+     "gender": "unknown",
+     "uses": 2
+    },
+    {
+     "name": "Okita",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "チー",
+   "occurrences": 5
+  },
+  "Tsumo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ツモ",
+   "occurrences": 2
+  },
+  "Pon": {
+   "speakers": [
+    {
+     "name": "Trooper",
+     "gender": "unknown",
+     "uses": 2
+    },
+    {
+     "name": "Takeda",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "ポン",
+   "occurrences": 5
+  },
+  "Riichi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "リーチ",
+   "occurrences": 3
+  },
+  "Ron": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ロン",
+   "occurrences": 2
+  },
+  "Off": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "不採用",
+   "occurrences": 10
+  },
+  "Half Game": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "半荘戦",
+   "occurrences": 1
+  },
+  "Rising Dragon Tournament Standings": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "慶応麻雀杯 昇龍戦 番付",
+   "occurrences": 1
+  },
+  "Points Held": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "持ち点",
+   "occurrences": 2
+  },
+  "On": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "採用",
+   "occurrences": 6
+  },
+  "Quarter Game": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "東風戦",
+   "occurrences": 1
+  },
+  "Next": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次へ",
+   "occurrences": 2
+  },
+  "Remaining": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "残",
+   "occurrences": 2
+  },
+  "Draw": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "流局",
+   "occurrences": 1
+  },
+  "Converted Score": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "清算点",
+   "occurrences": 1
+  },
+  "Pts.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "点",
+   "occurrences": 5
+  },
+  "Supreme King": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "覇王",
+   "occurrences": 1
+  },
+  "Landlord": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "地主",
+   "occurrences": 1
+  },
+  "Heavenly Messenger, Bakumatsu Bob Utsunomiya": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "天の使者・宇都宮",
+   "occurrences": 1
+  },
+  "Bakumatsu Bob Utsunomiya": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "宇都宮",
+   "occurrences": 1
+  },
+  "Inamoto": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "稲本",
+   "occurrences": 1
+  },
+  "Mysterious Organization": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "謎の組織",
+   "occurrences": 1
+  },
+  "Letter of Challenge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "挑戦状",
+   "occurrences": 1
+  },
+  "Final Item Pack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最終弾",
+   "occurrences": 1
+  },
+  "Congratulations! Wanted Men Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　お尋ね者制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Another Life Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　アナザーライフ制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Substories Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　サブストーリー制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Dungeons Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　ダンジョン制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Heat Actions Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　ヒートアクション制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Minigames Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　ミニゲーム制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Training Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　修行制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Equipment Smithing Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　改造装備制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Ultimate Challenges Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　究極闘技制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Arena Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　闘技場制覇",
+   "occurrences": 1
+  },
+  "Congratulations! Meals Complete!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祝　食事制覇",
+   "occurrences": 1
+  },
+  "First Payment Due": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第一回返済",
+   "occurrences": 1
+  },
+  "First Item Pack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第一弾",
+   "occurrences": 1
+  },
+  "Seventh Item Pack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第七弾",
+   "occurrences": 1
+  },
+  "Third Payment Due": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第三回返済",
+   "occurrences": 1
+  },
+  "Third Item Pack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第三弾",
+   "occurrences": 1
+  },
+  "Second Payment Due": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第二回返済",
+   "occurrences": 1
+  },
+  "Second Item Pack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第二弾",
+   "occurrences": 1
+  },
+  "Fifth Payment Due": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第五回返済",
+   "occurrences": 1
+  },
+  "Fifth Item Pack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第五弾",
+   "occurrences": 1
+  },
+  "Sixth Item Pack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第六弾",
+   "occurrences": 1
+  },
+  "Fourth Payment Due": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第四回返済",
+   "occurrences": 1
+  },
+  "Fourth Item Pack": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第四弾",
+   "occurrences": 1
+  },
+  "A Splendid Gift": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "素敵な贈り物",
+   "occurrences": 1
+  },
+  "Hey, it's Bakumatsu Bob Utsunomiya I wasn't feeling the first name thing, forget about it. Anyway, come get your seventh heavenly gift. The Shippu & Filling Cooking Pack, waiting for you in the kitchen of Teradaya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮だ。\n天からのごほうびの\n第七弾をさずかったぞ。\n今回は\n名銃　疾風と\n満腹お料理パックだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you apprehended all the Wanted Men. Daunting. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、お尋ね者を\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed Another Life. That's nice. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、アナザーライフを\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed all the Dungeons. You could probably use a bath. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、ダンジョンを\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed all the Minigames. That must have been fun. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、ミニゲームを\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed all your Masters' training. How adequate. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、修行を\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed Equipment Smithing. Well smelted. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、改造装備を\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed all the Ultimate Challenges. Did you enjoy them? I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、究極闘技を\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed the Arena. So violent. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、闘技場を\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed all the Meals. Tasty. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nあんた、食事を\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, my name is Bakumatsu Bob Utsunomiya. I'm going to give you some useful things, and I'm going to do it eight times. Consider them gifts from the heavens, okay? The first of these is the Chiyoganemaru and Bakumatsu Assistance Pack. I'll be waiting in the kitchen of Teradaya to bequeath it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nこれから八回にわたって\nお前にお得な物をくれてやる。\n天からのごほうびだと思え。\n早速第一弾をさずかった。\n今回は\n気刀　千代金丸と\n幕末お役立ちパックだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed all the Substories. Good for you. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nサブストーリーを\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Greetings, this is Bakumatsu Bob Utsunomiya. I heard you completed the Heat Actions. Okay. I have a reward for you. Meet me in the kitchen at Teradaya and I'll give it to you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おう、宇都宮という者だ。\nヒートアクションを\n全て制覇したそうじゃないか。\n本当に、大したもんだぜ。\n\nそんなあんたに、ごほうびだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Hey. I got your fourth gift from the heavens. This time it's Kijin-maru Kunishige and Fresh Fish Pack. I'll give it to you in the kitchen of Teradaya. Oh, this is Bakumatsu Bob Utsunomiya. I forgot to write that up top.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よう、宇都宮だ。\n天からのごほうびの\n第四弾をさずかったぞ。\n今回は\n銘刀　鬼神丸国重と\nぴちぴち鮮魚パックだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1
+  },
+  "Hello again. For what may be the last time, it's Bakumatsu Bob Utsunomiya. I have your final gift from the heavens, the Kurofune Taiho & Practical Troops Pack. I'm at the kitchen of Teradaya, don't be a stranger.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "宇都宮だ。\n天からのごほうびも\nついに最後になったな。\n今回は\n黒船大砲と\n実用隊士パックだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1
+  },
+  "It's Bakumatsu Bob—we're on first name terms by now, I think. Anyway, sixth heavenly gift coming your way. It's the Skink Lizard & Practical Enhancing Materials Pack. Teradaya's kitchen sound good?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "宇都宮だ。いい知らせだ。\n天からのごほうびの\n第六弾をさずかったぞ。\n今回は\n妖刀　蜥蜴丸と\n実用錬成素材パックだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1
+  },
+  "Bakumatsu Bob Utsunomiya here. Listen up. I got your third gift from the heavens. This time it's the Selected Equipment Pack. I'll give it to you in the kitchen of Teradaya. See you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "宇都宮だ。おい、良くきけ。\n天からのごほうびの\n第三弾をさずかったぞ。\n今回は\n選りすぐり装備品パックだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1
+  },
+  "It's Bakumatsu Bob Utsunomiya. Miss me? I got your fifth gift from the heavens. It's the Amulet of the Gods and Growth Assistance Pack. Come to the kitchen of Teradaya for it. You know the drill.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "宇都宮だ。待ちかねたか。\n天からのごほうびの\n第五弾をさずかったぞ。\n今回は\n御神護符と\n成長お助けパックだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1
+  },
+  "Kept you waiting, huh? It's Bakumatsu Bob Utsunomiya. I got your second gift from the heavens. This time it's the Armor Breaker and Fresh Veggies Pack. I'll give it to you in the kitchen of Teradaya, so... hurry up and get over here.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "待たせたな、宇都宮だ。\n天からのごほうびの\n第二弾をさずかったぞ。\n今回は\n剛銃\nＡｒｍｏｒ ｂｒｅａｋｅｒ\nと新鮮お野菜パックだ。\n寺田屋でくれてやるから\nさっさと台所まで来い。",
+   "occurrences": 1
+  },
+  "Saito-san, your final payment is due. Bring 20 ryo to the shrine, like always. Man... I'm actually going to miss this. Seeing you, and you giving me money... Oh well, all good things, right?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤殿\nいよいよ最後の返済期日だ。\n二十両を持って、\n伏見の北東にある\nいつもの神社の前に来てくれ。\nわしはそこで待っている。\nよろしく頼むぞ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Saito-san, it's time. Sorry, did that sound ominous? Well... Debt is a serious matter! Just bring 20 ryo to the shrine in northeast Fushimi, all right? I'll be waiting there.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤殿\nそろそろ第一回の返済期日だ。\n二十両を持って、\n伏見の北東にある\n神社の前に来てくれ。\nわしはそこで待っている。\nよろしく頼むぞ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Saito-san, your third payment is due. I'll be waiting at the Fushimi shrine, like last time. It's 20 ryo—also, could you pick me up a bento on the way? Actually, forget it, I'll get it myself, you don't know what I like.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤殿\nそろそろ第三回の返済期日だ。\n二十両を持って、\n伏見の北東にある\nいつもの神社の前に来てくれ。\nわしはそこで待っている。\nよろしく頼むぞ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Saito-san, your second payment is due. I'll be waiting at the Fushimi shrine, like last time. It's 20 ryo, and don't try to tell me the place has problems like my other tenants. I'm not a handyman!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤殿\nそろそろ第二回の返済期日だ。\n二十両を持って、\n伏見の北東にある\nいつもの神社の前に来てくれ。\nわしはそこで待っている。\nよろしく頼むぞ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Saito-san, your fourth payment is due. It's 20 ryo, and don't worry about coming to the shrine, I'm actually standing right behind you! Haha, did you look? Just kidding—wouldn't that have been funny? Seriously, though, come and pay me.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斎藤殿\nそろそろ第四回の返済期日だ。\n二十両を持って、\n伏見の北東にある\nいつもの神社の前に来てくれ。\nわしはそこで待っている。\nよろしく頼むぞ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "I bestow upon you the demonic sword, Hoekurenai. May it lead you to bloodthirsty victory in your battles. The surly man in white face paint awaits you in the kitchen of Teradaya, so that you might inherit its glory... and its curse.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "貴殿へ妖刀「吼紅」を\n贈ろう。\n\nきっと戦いの助けに\nなってくれるはずだ。\n\n寺田屋という宿屋にいる\n白塗りの男から受け取れ。\n台所に居るはずだ。",
+   "occurrences": 1
+  },
+  "This is Inamoto, the Black Panther Couriers' playmaker. If your feet are rested and prepared, let's have our match. I'll await you at the bridge near the gambling den in Rakugai. Once and for all, we'll see who's fastest in Kyo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "黒豹の司令塔こと、\n黒豹飛脚団の稲本だ。\n\n貴様を倒す準備が整った。\n早速、勝負といこう。\n\n洛外の賭場近くの橋で\n待っているから、\n準備を整えて来るといい。\n\n俺はいつまでも待っている。\n京最速の座は貴様には譲らん。\n\n楽しみにしているぞ。\n",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Great": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "優",
+   "occurrences": 2
+  },
+  "Good": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "良",
+   "occurrences": 4
+  },
+  "combo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "連続",
+   "occurrences": 3
+  },
+  "The udon shop Hanamaru Udon.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「はなまるうどん」です。",
+   "occurrences": 1
+  },
+  "The Tachibanagumi headquarters.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「橘組」の受付です。",
+   "occurrences": 1
+  },
+  "The udon shop Umai Udon.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うどん屋「うまい屋」です。",
+   "occurrences": 1
+  },
+  "The soba restaurant Fuji Soba.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そば店「富士そば」です。",
+   "occurrences": 2
+  },
+  "The Battle Dungeon receptionist.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "バトルダンジョンの受付です。",
+   "occurrences": 1
+  },
+  "The general goods store Don Quijote.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "万屋「どん・きほーて」です。",
+   "occurrences": 1
+  },
+  "The general goods store Ichikura.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "万屋「万　一蔵屋」です。",
+   "occurrences": 1
+  },
+  "The general goods store Chitose Provisions.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "万屋「千歳屋」です。",
+   "occurrences": 1
+  },
+  "The Kyo-Satsuma Consulate.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京都薩摩藩邸です。",
+   "occurrences": 1
+  },
+  "A general goods store in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の万屋です。",
+   "occurrences": 1
+  },
+  "A greengrocer in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の八百屋です。",
+   "occurrences": 1
+  },
+  "A residence in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の千石邸です。",
+   "occurrences": 1
+  },
+  "The inn Teradaya in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の寺田屋です。",
+   "occurrences": 1
+  },
+  "A river fishing spot in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の川釣り場です。",
+   "occurrences": 1
+  },
+  "A boat for sea fishing in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の海釣り船です。",
+   "occurrences": 1
+  },
+  "A shrine in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の神社です。",
+   "occurrences": 1
+  },
+  "A flour miller in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の粉屋です。",
+   "occurrences": 1
+  },
+  "A dojo in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の道場です。",
+   "occurrences": 1
+  },
+  "A bar in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の酒屋です。",
+   "occurrences": 1
+  },
+  "The Fushimi fish market Uorin.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見の魚屋「魚林」です。",
+   "occurrences": 1
+  },
+  "The Scarecrow Chateau training grounds.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "修行場「かかし屋敷」です。",
+   "occurrences": 1
+  },
+  "Training grounds for the Wild Dancer.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "修行場「一刀・乱舞」です。",
+   "occurrences": 1
+  },
+  "The Cannon Coaching training grounds.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "修行場「大砲玉捌き」です。",
+   "occurrences": 1
+  },
+  "Training grounds for the Brawler.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "修行場「格闘」です。",
+   "occurrences": 1
+  },
+  "Training grounds for the Gunman.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "修行場「短銃」です。",
+   "occurrences": 1
+  },
+  "The shippoku restaurant Momokawa.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "卓袱料理屋「百川」です。",
+   "occurrences": 1
+  },
+  "A general goods store in Shijo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条の万屋です。",
+   "occurrences": 1
+  },
+  "A pickled foods shop in Shijo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条の漬け物店です。",
+   "occurrences": 1
+  },
+  "A rice shop in Shijo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条の米屋です。",
+   "occurrences": 1
+  },
+  "A brewery in Shijo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条の酒蔵です。",
+   "occurrences": 1
+  },
+  "The sushi restaurant Sushi Zanmai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寿司屋「すしざんまい」です。",
+   "occurrences": 1
+  },
+  "The shogi parlor Ikoma.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "将棋屋「生駒屋」です。",
+   "occurrences": 1
+  },
+  "The eatery Kitchen Aoba.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "小料理屋「青葉」です。",
+   "occurrences": 1
+  },
+  "The izakaya Daruma Eatery.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居酒屋「だるま屋」です。",
+   "occurrences": 1
+  },
+  "The izakaya Hanako.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居酒屋「はなこ」です。",
+   "occurrences": 1
+  },
+  "The izakaya Watami.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居酒屋「和民」です。",
+   "occurrences": 1
+  },
+  "The izakaya Matsunoi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居酒屋「松之井」です。",
+   "occurrences": 1
+  },
+  "The izakaya Paradise.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居酒屋「極楽」です。",
+   "occurrences": 1
+  },
+  "The izakaya Fukufuku.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居酒屋「福々屋」です。",
+   "occurrences": 1
+  },
+  "The izakaya Yoi-Yoi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居酒屋「酔い酔い」です。",
+   "occurrences": 1
+  },
+  "The brothel Yamabuki.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "揚屋「山吹」です。",
+   "occurrences": 1
+  },
+  "The ryotei Hinata.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "料亭「日向屋」です。",
+   "occurrences": 1
+  },
+  "The ryotei Asahi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "料亭「旭屋」です。",
+   "occurrences": 1
+  },
+  "The ryotei Kasuga.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "料亭「春日」です。",
+   "occurrences": 1
+  },
+  "The ryotei Tsubakiro.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "料亭「椿楼」です。",
+   "occurrences": 1
+  },
+  "A kitchen for meal preparation.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "料理を行う台所です。",
+   "occurrences": 1
+  },
+  "The Shinsengumi barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組屯所です。",
+   "occurrences": 1
+  },
+  "The inn Shikokuya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "旅館「四国屋」です。",
+   "occurrences": 1
+  },
+  "The inn Ikedaya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "旅館「池田屋」です。",
+   "occurrences": 1
+  },
+  "The Japanese dance school Nichibuza.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "日舞教室「にちぶ座」です。",
+   "occurrences": 1
+  },
+  "The singing bar Utamaruya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "歌声酒場「歌まる屋」です。",
+   "occurrences": 2
+  },
+  "A dojo run by Takechi Hanpeita.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市道場です。",
+   "occurrences": 1
+  },
+  "Tengen Temple in Rakunai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛内の「天元寺」です。",
+   "occurrences": 1
+  },
+  "A shrine in Rakunai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛内の神社です。",
+   "occurrences": 1
+  },
+  "A creepy bar in Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外の不気味な飲み屋です。",
+   "occurrences": 1
+  },
+  "A shady bar in Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外の怪しい飲み屋です。",
+   "occurrences": 1
+  },
+  "An arms dealer located in Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外の武器屋です。",
+   "occurrences": 1
+  },
+  "A shrine in Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外の神社です。",
+   "occurrences": 1
+  },
+  "Chicken racing den in Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外の競鶏場です。",
+   "occurrences": 1
+  },
+  "A gambling den in Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外の賭場です。",
+   "occurrences": 1
+  },
+  "The schoolhouse Kengoshi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "牽牛子塾です。",
+   "occurrences": 1
+  },
+  "Tools to manage the farm.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "畑の管理を行う農具です。",
+   "occurrences": 1
+  },
+  "A shrine.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神社です。",
+   "occurrences": 1
+  },
+  "A Shogoin Yatsuhashi store.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "聖護院八ツ橋店です。",
+   "occurrences": 2
+  },
+  "The tea shop Otake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "茶店「大竹茶屋」です。",
+   "occurrences": 1
+  },
+  "The tea parlor Uji.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "茶店「宇治茶屋」です。",
+   "occurrences": 1
+  },
+  "The tea shop Hama.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "茶店「浜茶屋」です。",
+   "occurrences": 1
+  },
+  "The apothecary of Ecchudo Pharmacy.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薬屋「越中堂」です。",
+   "occurrences": 1
+  },
+  "The apothecary of Tasshado Pharmacy.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薬屋「達者堂」です。",
+   "occurrences": 1
+  },
+  "A ledger for trade orders.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "行商の注文取引帳です。",
+   "occurrences": 1
+  },
+  "The pawnbroker in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "質屋「伏見　ゑびすや」です。",
+   "occurrences": 1
+  },
+  "The pawnbroker in Rakunai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "質屋「洛内　ゑびすや」です。",
+   "occurrences": 1
+  },
+  "The kamameshi restaurant Kama-Tora.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "釜飯「釜寅」です。",
+   "occurrences": 1
+  },
+  "The blacksmith Kurogane.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛冶屋「くろがね屋」です。",
+   "occurrences": 1
+  },
+  "The Arena receptionist.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘技場の受付です。",
+   "occurrences": 1
+  },
+  "The bathhouse Harima.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "風呂屋「播磨屋」です。",
+   "occurrences": 1
+  },
+  "A river fishing spot in Mukurogai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街の川釣り場です。",
+   "occurrences": 1
+  },
+  "An arms dealer located in Mukurogai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街の武器屋です。",
+   "occurrences": 1
+  },
+  "A bar in Mukurogai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街の酒屋です。",
+   "occurrences": 1
+  },
+  "A mahjong house in Mukurogai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街の麻雀荘です。",
+   "occurrences": 1
+  },
+  "The castle Kochi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "高知城です。",
+   "occurrences": 1
+  },
+  "The fish market Uomi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "魚屋「魚魁や」です。",
+   "occurrences": 1
+  },
+  "Umai Udon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うまい屋うどん",
+   "occurrences": 4
+  },
+  "Sushi Zanmai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すしざんまい",
+   "occurrences": 6
+  },
+  "Daruma Eatery": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "だるま屋",
+   "occurrences": 3
+  },
+  "Don Quijote": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どん・きほーて",
+   "occurrences": 5
+  },
+  "Hanako": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はなこ",
+   "occurrences": 6
+  },
+  "Hanamaru Udon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はなまるうどん",
+   "occurrences": 6
+  },
+  "Ichikura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一蔵屋",
+   "occurrences": 1
+  },
+  "General Goods": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "万屋",
+   "occurrences": 2
+  },
+  "Creepy Bar": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "不気味な飲み屋",
+   "occurrences": 2
+  },
+  "Kyo-Satsuma Consulate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京都薩摩藩邸",
+   "occurrences": 3
+  },
+  "Mission Receptionist": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "任務受付",
+   "occurrences": 1
+  },
+  "Ebisu Pawn Fushimi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見　ゑびすや",
+   "occurrences": 5
+  },
+  "Fushimi Bar": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居酒屋　伏見",
+   "occurrences": 3
+  },
+  "Greengrocer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "八百屋",
+   "occurrences": 2
+  },
+  "Chitose Provisions": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "千歳屋",
+   "occurrences": 1
+  }
+ }
+}

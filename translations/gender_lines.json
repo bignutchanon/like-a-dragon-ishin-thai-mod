@@ -1,0 +1,927 @@
+{
+ "_readme": "คำตัดสินเพศ \"รายบรรทัด\" ที่ lead ล็อกเอง — ชั้นหลักฐานสูงสุดของด่าน G (สูงกว่าเครื่องหมายในบรรทัดเอง และสูงกว่า scene_gender.json) คีย์ = สตริงอังกฤษเป๊ะ ๆ · ต้องมี why ที่อ้างไฟล์/บรรทัดในเกมทุกคีย์ ไม่มี why = ไม่นับ",
+ "_example": {
+  "gender": "female",
+  "why": "ป้ายสายสัมพันธ์ uid006e0196#019 เขียน \"interact with her\" (bond_gender.json)"
+ },
+ "Welcome back. Were you able to pick up some All-Purpose Medicine?": {
+  "gender": "female",
+  "why": "ป้ายสายสัมพันธ์ uid006e0196#194 เขียน \"interacting with her\" (bond_gender.json: Injured Grandma = female) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e0196#117 เขียน \"(Seems like she has a hard enough time just standing...)\" · ref_ja ของฉากใช้ おばあちゃん / 私 / じいさんに先立たれて"
+ },
+ "Could I ask you to pick me up some All-Purpose Medicine?": {
+  "gender": "female",
+  "why": "ป้ายสายสัมพันธ์ uid006e0196#194 เขียน \"interacting with her\" (bond_gender.json: Injured Grandma = female) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e0196#117 เขียน \"(Seems like she has a hard enough time just standing...)\" · ref_ja ของฉากใช้ おばあちゃん / 私 / じいさんに先立たれて"
+ },
+ "Welcome back. Were you able to pick up some Ointment?": {
+  "gender": "female",
+  "why": "ป้ายสายสัมพันธ์ uid006e0196#194 เขียน \"interacting with her\" (bond_gender.json: Injured Grandma = female) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e0196#117 เขียน \"(Seems like she has a hard enough time just standing...)\" · ref_ja ของฉากใช้ おばあちゃん / 私 / じいさんに先立たれて"
+ },
+ "Could I ask you to pick me up some Ointment?": {
+  "gender": "female",
+  "why": "ป้ายสายสัมพันธ์ uid006e0196#194 เขียน \"interacting with her\" (bond_gender.json: Injured Grandma = female) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e0196#117 เขียน \"(Seems like she has a hard enough time just standing...)\" · ref_ja ของฉากใช้ おばあちゃん / 私 / じいさんに先立たれて"
+ },
+ "I can't thank you enough for all your help. Please, why don't you help yourself to a little break, as thanks?": {
+  "gender": "female",
+  "why": "ป้ายสายสัมพันธ์ uid006e0196#194 เขียน \"interacting with her\" (bond_gender.json: Injured Grandma = female) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e0196#117 เขียน \"(Seems like she has a hard enough time just standing...)\" · ref_ja ของฉากใช้ おばあちゃん / 私 / じいさんに先立たれて"
+ },
+ "It was nice to have someone to talk to after all this time alone. You're welcome to stop by for tea again if you get the chance.": {
+  "gender": "female",
+  "why": "ป้ายสายสัมพันธ์ uid006e0196#194 เขียน \"interacting with her\" (bond_gender.json: Injured Grandma = female) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e0196#117 เขียน \"(Seems like she has a hard enough time just standing...)\" · ref_ja ของฉากใช้ おばあちゃん / 私 / じいさんに先立たれて"
+ },
+ "Ah! You there. Sorry to be so forward, but you seem rather fishy!": {
+  "gender": "male",
+  "why": "ป้ายสายสัมพันธ์ uid006e01bf#131 เขียน \"interact with him\" (bond_gender.json: Battered Defender = male) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e01bf#70 เขียน \"(I suppose I do want to help him out...)\" · scene_gender.json ของไฟล์นี้ = male"
+ },
+ "You two! Were you attempting to browbeat this fair lady into a compromising situation?": {
+  "gender": "male",
+  "why": "ป้ายสายสัมพันธ์ uid006e01bf#131 เขียน \"interact with him\" (bond_gender.json: Battered Defender = male) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e01bf#70 เขียน \"(I suppose I do want to help him out...)\" · scene_gender.json ของไฟล์นี้ = male"
+ },
+ "Ha, I am indeed a protector of this city, but my patrols are purely out of passion for the work!": {
+  "gender": "male",
+  "why": "ป้ายสายสัมพันธ์ uid006e01bf#131 เขียน \"interact with him\" (bond_gender.json: Battered Defender = male) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e01bf#70 เขียน \"(I suppose I do want to help him out...)\" · scene_gender.json ของไฟล์นี้ = male"
+ },
+ "This town has far too damn many miscreants!": {
+  "gender": "male",
+  "why": "ป้ายสายสัมพันธ์ uid006e01bf#131 เขียน \"interact with him\" (bond_gender.json: Battered Defender = male) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e01bf#70 เขียน \"(I suppose I do want to help him out...)\" · scene_gender.json ของไฟล์นี้ = male"
+ },
+ "After all my efforts to clean up this town—breaking up fights, running thugs off...": {
+  "gender": "male",
+  "why": "ป้ายสายสัมพันธ์ uid006e01bf#131 เขียน \"interact with him\" (bond_gender.json: Battered Defender = male) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e01bf#70 เขียน \"(I suppose I do want to help him out...)\" · scene_gender.json ของไฟล์นี้ = male"
+ },
+ "All I'm really doing is offering myself up for a free beatdown! For all the pain I endure, this town hasn't gotten a single bit better!": {
+  "gender": "male",
+  "why": "ป้ายสายสัมพันธ์ uid006e01bf#131 เขียน \"interact with him\" (bond_gender.json: Battered Defender = male) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e01bf#70 เขียน \"(I suppose I do want to help him out...)\" · scene_gender.json ของไฟล์นี้ = male"
+ },
+ "Thank you so much for all your assistance. Be careful out there.": {
+  "gender": "male",
+  "why": "ป้ายสายสัมพันธ์ uid006e01bf#131 เขียน \"interact with him\" (bond_gender.json: Battered Defender = male) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e01bf#70 เขียน \"(I suppose I do want to help him out...)\" · scene_gender.json ของไฟล์นี้ = male"
+ },
+ "Well, look who it is! Remember, if you ever find yourself in trouble, day or night, I'll be by your side to back you up!": {
+  "gender": "male",
+  "why": "ป้ายสายสัมพันธ์ uid006e01bf#131 เขียน \"interact with him\" (bond_gender.json: Battered Defender = male) · บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid006e01bf#70 เขียน \"(I suppose I do want to help him out...)\" · scene_gender.json ของไฟล์นี้ = male"
+ },
+ "Thank you, sir! We've had to deal with so many men like that lately... You're a lifesaver!": {
+  "gender": "female",
+  "why": "บทของโรนินในไฟล์ฉากเดียวกัน uid01021b90#18 ตอบบรรทัดนี้ว่า \"What...? You bitch! Say that again!\" / ref_ja 「ババア！」 = ผู้พูดบรรทัดนี้เป็นหญิงสูงวัย (เจ้าของร้านเหล้า 女将) · scene_gender ของไฟล์เป็น male เพราะยืมจากโรนินสองคน"
+ },
+ "You guys sure you wanna do this? I'll call the Shinsengumi!": {
+  "gender": "female",
+  "why": "บทของโรนินในไฟล์ฉากเดียวกัน uid01021b90#18 ตอบบรรทัดนี้ว่า \"What...? You bitch! Say that again!\" / ref_ja 「ババア！」 = ผู้พูดบรรทัดนี้เป็นหญิงสูงวัย (เจ้าของร้านเหล้า 女将) · scene_gender ของไฟล์เป็น male เพราะยืมจากโรนินสองคน"
+ },
+ "Otsu! What's wrong, Otsu!?": {
+  "gender": "female",
+  "why": "msg uid01021bc9 บรรทัด 1 · ป้ายคิวเสียง haha_c01_020_01 (haha = 母)"
+ },
+ "Please! Is anyone a doctor!?": {
+  "gender": "female",
+  "why": "msg uid01021bc9 บรรทัด 2 · ป้ายคิวเสียง haha_c01_020_01b"
+ },
+ "Her stomach started hurting all of a sudden...": {
+  "gender": "female",
+  "why": "msg uid01021bc9 บรรทัด 4 · ป้ายคิวเสียง haha_c01_020_02"
+ },
+ "A-Appendix?": {
+  "gender": "female",
+  "why": "msg uid01021bc9 บรรทัด 6 · ป้ายคิวเสียง haha_c01_020_03"
+ },
+ "N-No...!": {
+  "gender": "female",
+  "why": "msg uid01021bc9 บรรทัด 8 · ป้ายคิวเสียง haha_c01_020_04"
+ },
+ "Just... too strong! Damn Shinsengumi!": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "Well, look here... A Shinsengumi man, is it? Thank you for your service, sir.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "Oh, Saigo-sensei? May I ask why?": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "Ah, I see. Well, far be it from me to stand in the way of important Shinsengumi business.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "At once, sir. I'll lead the way, if you please. Just follow me.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "Hahaha! That's our commander! He's never been one to sit still for long.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "My apologies. Not much further.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "A Shinsengumi man should know. How many have you killed just like this?": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "How many? Satsuma citizens, I mean. The Mibu Wolves have shown us no mercy.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "Maybe you'll say you've never personally harmed a Satsuman. Save it... Third Division Captain, <i>sir</i>.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "The loved ones we've lost to the Shinsengumi demand justice. Man of your standing has plenty to atone for.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "So very careless. A Shinsengumi captain should know better... walking the streets alone.": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "You never know what might happen!": {
+  "gender": "male",
+  "why": "msg uid01021d21#016 บทของยามเฝ้าประตูคนเดียวกัน (ป้ายคิวเสียง mon_* = 門番) ใช้ `オイが` = สรรพนามบุรุษที่หนึ่งของชายสำเนียงซัตสึมะ"
+ },
+ "You rabid dog! You killed my son!": {
+  "gender": "male",
+  "why": "msg uid01021d21#039 บรรทัดนี้เองใช้ `オイの息子` (สรรพนามชายซัตสึมะ + \"ลูกชายของข้า\")"
+ },
+ "It means the world.": {
+  "gender": "female",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e0196 ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Injured Grandma) เป็นหญิง (bond_gender.json)"
+ },
+ "Stay safe out there, will you?": {
+  "gender": "female",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e0196 ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Injured Grandma) เป็นหญิง (bond_gender.json)"
+ },
+ "Oh, I'm fine. Get to be as old as I am, and life starts throwing all sorts of obstacles your way.": {
+  "gender": "female",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e0196 ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Injured Grandma) เป็นหญิง (bond_gender.json)"
+ },
+ "Hohoho. Then, pardon my asking, but if you could please. Thank you.": {
+  "gender": "female",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e0196 ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Injured Grandma) เป็นหญิง (bond_gender.json)"
+ },
+ "You're right, I'll be more careful next time. Thank you.": {
+  "gender": "female",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e0196 ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Injured Grandma) เป็นหญิง (bond_gender.json)"
+ },
+ "Ah, you again! Pay my current state no mind—it's the crooks and ne'er-do-wells of the city who need to be worried about <i>me</i>!": {
+  "gender": "male",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e01bf ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Battered Defender) เป็นชาย (bond_gender.json)"
+ },
+ "Perhaps that's true, but a single person definitely <i>did</i> get hurt...": {
+  "gender": "male",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e01bf ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Battered Defender) เป็นชาย (bond_gender.json)"
+ },
+ "Thank you for your help again! Until next time!": {
+  "gender": "male",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e01bf ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Battered Defender) เป็นชาย (bond_gender.json)"
+ },
+ "I'm still in rather rough shape... Could you bring me something? Anything that would help with this terrible pain!": {
+  "gender": "male",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e01bf ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Battered Defender) เป็นชาย (bond_gender.json)"
+ },
+ "Ahhh! Thank you, but... I still feel rather sore...": {
+  "gender": "male",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e01bf ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Battered Defender) เป็นชาย (bond_gender.json)"
+ },
+ "Oh! The pain is gone! I'm finally recovered!": {
+  "gender": "male",
+  "why": "ทุกครั้งที่สตริงนี้โผล่อยู่ในไฟล์ฉาก uid006e01bf ไฟล์เดียว ซึ่งป้ายสายสัมพันธ์ระบุว่า NPC (Battered Defender) เป็นชาย (bond_gender.json)"
+ },
+ "Oh? And you are?": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "Aww, I thought someone finally wanted to see <i>me</i> for once. Akimoto-kun's out picking flowers.": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "Hey, let's not sweat the small stuff. Why don't you and I have a drink?": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "I tried to cozy up to him 'cause he's with the Shinsengumi, but the man's such a cheapskate!": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "I heard he just got in because he knew somebody, anyway. So forget about him.": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "But you? You look like you've got integrity. Easy on the eyes, too...": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "And that vivid haori, that's something only the captains wear, right?": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "Of course I do. When it comes to the Shinsengumi, women want them and men want to <i>be</i> them.": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "And when we're talking about a captain? They could wrap anyone in town around their finger, myself included. Do you catch my drift?": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "Now if you want me, come and get me. No need to play coy...": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "Aww, you're back already.": {
+  "gender": "female",
+  "why": "ป้ายคิวเสียง mizuki_c05_080_* ชี้ผู้พูดรายบรรทัด · ต้นฉบับ uid01021c96#003 เขียนว่า 「女が見てるぞ」 (ผู้หญิงกำลังดูอยู่) ชี้ถึงนางในฉากเดียวกัน · อาคิโมโตเรียกนางว่า 美月ちゃん"
+ },
+ "Huff... Huff... Why, you...!": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง nobu_c11_100_* = โทกูงาวะ โยชิโนบุ (locres: 15th Shogun of the Edo Bakufu) · ทะเบียน speakers.json ชี้ Yoshinobu = male จากเครื่องหมายญี่ปุ่น 7/0 · ไอเทม book_book#13#13#text ฉบับ EN เรียก 上様 ด้วย he/his/him"
+ },
+ "Huff... You're referring to the Satcho Alliance?": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง nobu_c11_100_* = โทกูงาวะ โยชิโนบุ (locres: 15th Shogun of the Edo Bakufu) · ทะเบียน speakers.json ชี้ Yoshinobu = male จากเครื่องหมายญี่ปุ่น 7/0 · ไอเทม book_book#13#13#text ฉบับ EN เรียก 上様 ด้วย he/his/him"
+ },
+ "Of course. We may be in a weakened state, but we still have spies everywhere.": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง nobu_c11_100_* = โทกูงาวะ โยชิโนบุ (locres: 15th Shogun of the Edo Bakufu) · ทะเบียน speakers.json ชี้ Yoshinobu = male จากเครื่องหมายญี่ปุ่น 7/0 · ไอเทม book_book#13#13#text ฉบับ EN เรียก 上様 ด้วย he/his/him"
+ },
+ "What small-minded fools. This is no time for Japan to suffer from in-fighting.": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง nobu_c11_100_* = โทกูงาวะ โยชิโนบุ (locres: 15th Shogun of the Edo Bakufu) · ทะเบียน speakers.json ชี้ Yoshinobu = male จากเครื่องหมายญี่ปุ่น 7/0 · ไอเทม book_book#13#13#text ฉบับ EN เรียก 上様 ด้วย he/his/him"
+ },
+ "So, are you a representative for the Satcho?": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง nobu_c11_100_* = โทกูงาวะ โยชิโนบุ (locres: 15th Shogun of the Edo Bakufu) · ทะเบียน speakers.json ชี้ Yoshinobu = male จากเครื่องหมายญี่ปุ่น 7/0 · ไอเทม book_book#13#13#text ฉบับ EN เรียก 上様 ด้วย he/his/him"
+ },
+ "What could prevent this war?": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง nobu_c11_100_* = โทกูงาวะ โยชิโนบุ (locres: 15th Shogun of the Edo Bakufu) · ทะเบียน speakers.json ชี้ Yoshinobu = male จากเครื่องหมายญี่ปุ่น 7/0 · ไอเทม book_book#13#13#text ฉบับ EN เรียก 上様 ด้วย he/his/him"
+ },
+ "This is...?": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง nobu_c11_100_* = โทกูงาวะ โยชิโนบุ (locres: 15th Shogun of the Edo Bakufu) · ทะเบียน speakers.json ชี้ Yoshinobu = male จากเครื่องหมายญี่ปุ่น 7/0 · ไอเทม book_book#13#13#text ฉบับ EN เรียก 上様 ด้วย he/his/him"
+ },
+ "I imagine I'll be killed if I don't hear him out. You as well, of course.": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง nobu_c11_100_* = โทกูงาวะ โยชิโนบุ (locres: 15th Shogun of the Edo Bakufu) · ทะเบียน speakers.json ชี้ Yoshinobu = male จากเครื่องหมายญี่ปุ่น 7/0 · ไอเทม book_book#13#13#text ฉบับ EN เรียก 上様 ด้วย he/his/him"
+ },
+ "My Lord!": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง hata_c11_100_* = 旗本 (hatamoto ข้าราชบริพารชั้นซามูไร เป็นตำแหน่งของชาย) · ไอเทม book_book#13#13#text (とある旗本の手記) เล่าฉากเดียวกันนี้จากมุมเขา และใช้ 拙者 สองครั้ง"
+ },
+ "You mustn't allow these ruffians to have their way!": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง hata_c11_100_* = 旗本 (hatamoto ข้าราชบริพารชั้นซามูไร เป็นตำแหน่งของชาย) · ไอเทม book_book#13#13#text (とある旗本の手記) เล่าฉากเดียวกันนี้จากมุมเขา และใช้ 拙者 สองครั้ง"
+ },
+ "Oh... Oh no...": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียง hata_c11_100_* = 旗本 (hatamoto ข้าราชบริพารชั้นซามูไร เป็นตำแหน่งของชาย) · ไอเทม book_book#13#13#text (とある旗本の手記) เล่าฉากเดียวกันนี้จากมุมเขา และใช้ 拙者 สองครั้ง"
+ },
+ "Over here, Deputy Chief! There are forty of them inside! They're armed and fighting back!": {
+  "gender": "male",
+  "why": "ป้ายคิวเสียงรายบรรทัด uid01022020#001 = hira1_c06_120_01 (平隊士 ทหารชั้นผู้น้อยชินเซ็นกุมิ) · ฮิจิกาตะเรียกกลุ่มนี้ตรง ๆ ในไฟล์ฉากเดียวกัน uid01022020#003 「ザコは平隊士に任せていい！」 · บรรทัดคิวเสียง hira* อีกไฟล์ uid00260d12#000 ใช้ 俺たち · ทั้งคลังมีคิวเสียง hira* 7 บรรทัด เครื่องหมายชาย 1 หญิง 0 · ref_ja ของบรรทัดนี้ 「こちらです、副長！」 เป็นรูปสุภาพ です จึงใส่ \"ขอรับ\" ได้"
+ },
+ "You'll regret those words...! How's this!?": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#004 · ref_ja = 「調子に乗りおって……!!」 (รูปไม่สุภาพ — ล็อกเพศได้แต่ไม่ควรใส่คำลงท้ายสุภาพ)"
+ },
+ "Heheheh... To think I'd pull out all the stops for a couple of pests... Nevertheless, it's time we finish this!": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#009 · ref_ja = 「ふ、ふふふ……　だがこれでお終いだ！」 (รูปไม่สุภาพ — ล็อกเพศได้แต่ไม่ควรใส่คำลงท้ายสุภาพ)"
+ },
+ "Do you really think you can take on a cannon, much less all of these troops, on your own!?": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#014 · ref_ja = 「１人で戦おうというのか……!?」 (รูปไม่สุภาพ — ล็อกเพศได้แต่ไม่ควรใส่คำลงท้ายสุภาพ)"
+ },
+ "That's quite enough, Mibu Wolves.": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#033 · ref_ja = 「そこまでです。壬生狼の皆さん。」 (รูปสุภาพ — ใส่ 'ขอรับ' ได้)"
+ },
+ "Allow me to introduce myself. I'm what you would call an international trader—Thomas Glover's the name.": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#036 · ref_ja = 「申し遅れました。……トーマス・グラバーと申します。」 (รูปสุภาพ — ใส่ 'ขอรับ' ได้)"
+ },
+ "Ah, so you were aware. Yes, Takechi-sensei has been quite the patron. Or perhaps I should call him Sakamoto Ryoma-sensei?": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#038 · ref_ja = 「武市先生にはひいきにして頂いております。」 (รูปสุภาพ — ใส่ 'ขอรับ' ได้)"
+ },
+ "Now, as to the reason I'm here. You see, in order for Takechi-sensei's efforts to flourish, I figured I'd best lend a hand.": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#040 · ref_ja = 「……私も一肌脱ごうかと思いまして。」 (รูปสุภาพ — ใส่ 'ขอรับ' ได้)"
+ },
+ "That is to say your little game's come to an end. And at the hands of Western innovation, no less.": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#046 · ref_ja = 「つまりあなた方にここで死んで頂くということです。」 (รูปสุภาพ — ใส่ 'ขอรับ' ได้)"
+ },
+ "It almost seems a waste to go at it with you savages and your archaic cutlery there.": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#047 · ref_ja = 「……野蛮なあなた方には、もったいないくらいですが。」 (รูปสุภาพ — ใส่ 'ขอรับ' ได้)"
+ },
+ "I take it you're ready? Open fire!": {
+  "gender": "male",
+  "why": "โทมัส โกลเวอร์ = ชาย · หลักฐานชั้น 4 (สรรพนามบุรุษที่สามในข้อความอังกฤษของเกม) สี่แหล่ง: (1) db `book_book#21#21#text` \"There is a Scottish man in Nagasaki ... by the name of Thomas Glover. **He** is a weapons merchant ... **he** is a downright fearsome individual ... **he** is of stern disposition\" · ref_ja ของบรรทัดเดียวกันเขียน 「トーマス・グラバーという**男**である。この**男**は実に恐ろしい」 (2) locres `explanation_main_scenario/explanation/0160` \"Glover, the weapon merchant? Whatever kinds of artillery **he** brought...\" (3) locres `correlation_person/explanation/0172` \"He clashes with Thomas Glover and **his** fearsome arsenal of modern weaponry at Kochi Castle.\" (4) msg `uid006f0040#217` \"How is it that **he** has so many weapons to trade?\" (พูดถึงโกลเวอร์) · `#220` ref_ja 「グラバーは…金に目がくらんだ、悲しい**男**だな。」 · ผู้พูดของบรรทัดเหล่านี้ = คิวเสียง `toma_*` ในไฟล์ `uid01021e6d` ซึ่งมีป้ายชื่อ `Glover` และแนะนำตัวเองว่า 「トーマス・グラバーと申します」 (`uid01021e6d#036`) · ref_ja ของบรรทัดนี้ใช้รูปสุภาพ です/ます จริง จึงใส่ \"ขอรับ\" ได้ · บรรทัดนี้ = uid01021e6d#050 · ref_ja = 「覚悟はいいですか？　……やれ!!」 (รูปสุภาพ — ใส่ 'ขอรับ' ได้)"
+ },
+ "Forgive my son's frivolous ambitions, sir.": {
+  "gender": "male",
+  "why": "uid010c13d7#009 — ref_ja ของบรรทัดนี้เองเขียน うちの息子 (\"ลูกชายของข้า\") · ในไฟล์ฉากเดียวกัน uid010c13d7#026 เด็กเรียกผู้พูดคนนี้ว่า お父さん (EN: \"Please believe me, Dad!\") และ #027 ผู้พูดตอบว่า \"Son... Can't you at least come up with a better lie?\""
+ },
+ "Maybe. This ee ja nai ka thing is catching on everywhere.": {
+  "gender": "male",
+  "why": "uid010c1409#033 — บรรทัดของพ่อค้าเองใช้ 俺達商人は (คำแทนตัวชาย 俺) · EN ในไฟล์ฉากเดียวกัน uid010c1409#037 พวกก่อกวนเรียกเขาว่า \"old man\""
+ },
+ "Please... These wares are my livelihood, I can't let you take them.": {
+  "gender": "male",
+  "why": "uid010c1409#033 — บรรทัดของพ่อค้าเองใช้ 俺達商人は (คำแทนตัวชาย 俺) · EN ในไฟล์ฉากเดียวกัน uid010c1409#037 พวกก่อกวนเรียกเขาว่า \"old man\""
+ },
+ "Dosukoi! Let us make this up to you!": {
+  "gender": "male",
+  "why": "uid010c13b8 — ref_ja ของบรรทัดเหล่านี้ใช้ でごわす (สำเนียงนักซูโม่) · EN ในไฟล์ฉากเดียวกันเรียกพวกเขาด้วย his: #045 \"And as I told you, his skin is as soft as mochi.\" · #097 \"That's his stomach!\" · #092 \"Osuzu-chan is gifted with a sturdy core and low center of gravity!\" · อาชีพ 力士 ในยุคบาคุมัตสึเป็นชายล้วน"
+ },
+ "Dosukoi! I am Okiku!": {
+  "gender": "male",
+  "why": "uid010c13b8 — ref_ja ของบรรทัดเหล่านี้ใช้ でごわす (สำเนียงนักซูโม่) · EN ในไฟล์ฉากเดียวกันเรียกพวกเขาด้วย his: #045 \"And as I told you, his skin is as soft as mochi.\" · #097 \"That's his stomach!\" · #092 \"Osuzu-chan is gifted with a sturdy core and low center of gravity!\" · อาชีพ 力士 ในยุคบาคุมัตสึเป็นชายล้วน"
+ },
+ "Dosukoi! I am Osaki!": {
+  "gender": "male",
+  "why": "uid010c13b8 — ref_ja ของบรรทัดเหล่านี้ใช้ でごわす (สำเนียงนักซูโม่) · EN ในไฟล์ฉากเดียวกันเรียกพวกเขาด้วย his: #045 \"And as I told you, his skin is as soft as mochi.\" · #097 \"That's his stomach!\" · #092 \"Osuzu-chan is gifted with a sturdy core and low center of gravity!\" · อาชีพ 力士 ในยุคบาคุมัตสึเป็นชายล้วน"
+ },
+ "Dosukoi! I am Osuzu!": {
+  "gender": "male",
+  "why": "uid010c13b8 — ref_ja ของบรรทัดเหล่านี้ใช้ でごわす (สำเนียงนักซูโม่) · EN ในไฟล์ฉากเดียวกันเรียกพวกเขาด้วย his: #045 \"And as I told you, his skin is as soft as mochi.\" · #097 \"That's his stomach!\" · #092 \"Osuzu-chan is gifted with a sturdy core and low center of gravity!\" · อาชีพ 力士 ในยุคบาคุมัตสึเป็นชายล้วน"
+ },
+ "You're right, sir. From now on, I'll be more forthcoming with clients and keep this place on the up-and-up.": {
+  "gender": "male",
+  "why": "uid010c13b8 — ป้ายผู้พูดของบรรทัดเหล่านี้ในไฟล์ฉากคือ `Man` (#002 · #004 · #014 · #025 · #042 · #066 · #091 — หลักฐานชั้น 1 ป้ายผู้พูด) · ทั้งไฟล์ไม่มีป้ายผู้พูดหญิงเลยสักป้าย"
+ },
+ "My establishment is every bit a brothel, I assure you! We wish to cater to those who fancy men of sumo.": {
+  "gender": "male",
+  "why": "uid010c13b8 — ป้ายผู้พูดของบรรทัดเหล่านี้ในไฟล์ฉากคือ `Man` (#002 · #004 · #014 · #025 · #042 · #066 · #091 — หลักฐานชั้น 1 ป้ายผู้พูด) · ทั้งไฟล์ไม่มีป้ายผู้พูดหญิงเลยสักป้าย"
+ },
+ "Apologies again! Please come back whenever you seek the embrace of something soft and supple!": {
+  "gender": "male",
+  "why": "uid010c13b8 — ป้ายผู้พูดของบรรทัดเหล่านี้ในไฟล์ฉากคือ `Man` (#002 · #004 · #014 · #025 · #042 · #066 · #091 — หลักฐานชั้น 1 ป้ายผู้พูด) · ทั้งไฟล์ไม่มีป้ายผู้พูดหญิงเลยสักป้าย"
+ },
+ "Great choice! What could be better than a partner who works hard and would do anything to satisfy a client?": {
+  "gender": "male",
+  "why": "uid010c13b8 — ป้ายผู้พูดของบรรทัดเหล่านี้ในไฟล์ฉากคือ `Man` (#002 · #004 · #014 · #025 · #042 · #066 · #091 — หลักฐานชั้น 1 ป้ายผู้พูด) · ทั้งไฟล์ไม่มีป้ายผู้พูดหญิงเลยสักป้าย"
+ },
+ "Sir, I've given you what you asked for.": {
+  "gender": "male",
+  "why": "uid010c13b8 — ป้ายผู้พูดของบรรทัดเหล่านี้ในไฟล์ฉากคือ `Man` (#002 · #004 · #014 · #025 · #042 · #066 · #091 — หลักฐานชั้น 1 ป้ายผู้พูด) · ทั้งไฟล์ไม่มีป้ายผู้พูดหญิงเลยสักป้าย"
+ },
+ "My good man, my books are selling like never before!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "We've done far more together than lodge at the same boardinghouse.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Saito-san, thank you. Here, I'd like you to have this.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "These last three novels have taken a toll on me, I feel. I think I'd like to spend some time sightseeing in Kyo.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Indeed! And after that, I shall most assuredly sleep like the dead!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Without your assistance, I could have never found success... Although, I admit, it's of a different form that I'd first imagined.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "You see, I've become known as, well, a preeminent titan of smut.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "That's true! After all, it's not for human beings to decide where their talents lie—only to put them to their best use!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "You helped me discover things about myself I might never have otherwise, Saito-san. Please, accept this.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Saito-san! I owe you a great deal of gratitude for your help.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "It's selling very well, actually!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "What can I say? When inspiration takes hold of me, the words simply manifest.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I've received many letters from my readers again! The Great Gallivanting Disaster truly seems to have struck a chord with the audience.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Hmm. Well, they like it quite a lot. Although, to be frank, most of their praise is for my, um, depictions of sexual catastrophe?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "That's one way of looking at it, yes. Thank you, Saito-san.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Here, I'd like you to have this—a gift.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I've received many letters from my readers again! Botch-chan truly seems to have struck a chord with the audience.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "In so many words, it's a runaway success! People are especially charmed by the protagonist's simple, yet absurd nickname!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I couldn't have done it without you, Saito-san.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I've received many letters from my readers again! The book—which I titled Peeping Tomcat—has struck a chord with the audience.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Hmm. Well, they like it quite a lot. Although, to be frank, most of their praise is for my, um, depictions of sexual voyeurism?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Yes, indeed, my good man.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Of course. Once again, I am unable to think of a title.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Please, Saito-san, I need your advice one more time.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I think it's wonderful! Heart! It evokes so much with so little!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Nothing scintillates my creativity like a good title! This will be my magnum opus! I'll earn the reprieve from death you granted me!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Eh, cleavage!? I'm sorry, what do you mean?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Oh, so you mean for me to title the book Cleavage?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "It's a bit lewd, isn't it? I'd like to think this work has some greater meaning.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Hmm. I'm afraid calling my novel Cleavage would risk misleading people.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "It's not the story I'd originally envisioned, Saito-san, but it's a damn good one! Better, even!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Eh, Animal Barn? What does it mean?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Oh. I see. So, I should write a book called Animal Barn?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Hmm. What about a story set on a homestead where many animals dwell, perhaps each kind functioning as a type of allegory?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Nonsense. Without you, I never would have been able to finish my novel on time.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Indeed. Which reminds me, I've received quite a number of letters from those who've read it.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Astonishingly good! People love the idea of setting a novel from the perspective of a cat!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "It's all thanks to you, Saito-san!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Not bad. Although most of the praise has come from—shall we say—a certain type of young man?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I suppose so.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Now, as a result of its success, I've already accepted a commission for my next novel.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "If it's not too much trouble, I would welcome more of your perspicacious advice.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "That is all I ask!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "So, once again, I've a basic idea for my tale.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Well, the main character is a schoolteacher, though he's a brash and reckless young man.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Well... he needs a nickname.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "That's it, yes. I plan for the entire cast of characters to be known by sobriquets—their real names eschewed by the narrator.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Yes, indeed.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "By George, I've found my inspiration!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "This is going to be ten times the novel that I'm a Something-or-Other was! Let's get writing before death claims me at last!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Botch-chan, you say? It's true, much of his misfortune is due to his own principles and the roughshod ways he applies them...": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "And since the novel follows him from boyhood, something that reminds the reader of his youth throughout his journey is quite fitting!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Botch-chan is a splendid title! I'm rife with inspiration!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Eh? Wh—Who are you!?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Was I so loud!? Agh, forgive me, sir! Please, accept my gruesome death as penance!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Pardon me, my good man. I should have introduced myself earlier. My name is Natsumi Sosaku. I'm an author.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Sadly, it's no great feat. Particularly as my nib pen has run utterly dry of inspiration's ink, so to speak.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Ugh. Never mind. Perhaps instead you would be so kind as to offer me some advice?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Well, if nothing else, you are a fellow guest of the esteemed Teradaya. That makes us colleagues of a sort. Mister...?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Please. I would sooner breathe my last than rely solely on the so-called wisdom of academics.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "For you see, I've a vague concept—but the words which might give it shape elude me.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Well... I envision a fanciful tale told from the perspective of a humble animal.": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Yes! One haughty in its own mind, yet lowly in human estimation! Have you any insight?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "A cat? Yes, I find them amusing as well!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "All that is left to do is put pen to paper! I believe the words will come easily now!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "An underdog? One whose foul fortunes have branded them a wastrel in the eyes of society, perhaps?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I sense a feverish bout of inspiration approaching! I must put pen to paper at once!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "My story's theme may be slightly avant-garde, but I will write as though my life depends upon it!": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "Swine? You mean to say, a pig? I see... I Am But a Pig? Hmm...": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I must confess... there's a certain erotic connotation to such a title. Obsequious gentlemen are wont to brand themselves pigs, are they not?": {
+  "gender": "male",
+  "why": "นัตสึมิ โซซากุ (นักเขียนที่เทราดายะ) — บทรำพึงของเรียวมะในซับสตอรี่เดียวกัน uid010c1445#000 เขียน \"(It's that author's room, Natsumi. I wonder if he was able to finish his story.)\" และ uid010c1445#006 \"(Hm. I should let him work. Maybe I'll come back later.)\" — สรรพนามบุรุษที่สามใน EN ของเกม (ชั้น 4) · ผู้พูดแนะนำตัวที่ uid010c1444#194 \"My name is Natsumi Sosaku. I'm an author.\""
+ },
+ "I don't know how to thank you. What are you doing here?": {
+  "gender": "male",
+  "why": "ไซกิ (斉木 พ่อค้าต่างประเทศ) — uid010c144f#001 ลูกสาวเรียกผู้พูดว่า お父ちゃん (EN: \"Daddy!\") และ #002 ผู้พูดตอบ \"Oyuki! Oyuki!\" · #009 ผู้พูดเอ่ยเอง \"They kidnapped my daughter\" · #059 บทรำพึงของเรียวมะเรียกเขาว่า \"That's him, the man whose package I accidentally swapped\""
+ },
+ "My name is Saiki. I'm a trader.": {
+  "gender": "male",
+  "why": "ไซกิ (斉木 พ่อค้าต่างประเทศ) — uid010c144f#001 ลูกสาวเรียกผู้พูดว่า お父ちゃん (EN: \"Daddy!\") และ #002 ผู้พูดตอบ \"Oyuki! Oyuki!\" · #009 ผู้พูดเอ่ยเอง \"They kidnapped my daughter\" · #059 บทรำพึงของเรียวมะเรียกเขาว่า \"That's him, the man whose package I accidentally swapped\""
+ },
+ "Right. Those men were extorting me. They kidnapped my daughter so that I had no choice but to smuggle arms for them.": {
+  "gender": "male",
+  "why": "ไซกิ (斉木 พ่อค้าต่างประเทศ) — uid010c144f#001 ลูกสาวเรียกผู้พูดว่า お父ちゃん (EN: \"Daddy!\") และ #002 ผู้พูดตอบ \"Oyuki! Oyuki!\" · #009 ผู้พูดเอ่ยเอง \"They kidnapped my daughter\" · #059 บทรำพึงของเรียวมะเรียกเขาว่า \"That's him, the man whose package I accidentally swapped\""
+ },
+ "Because of you, though, those criminals won't get their hands on any guns. You've done a lot of good today!": {
+  "gender": "male",
+  "why": "ไซกิ (斉木 พ่อค้าต่างประเทศ) — uid010c144f#001 ลูกสาวเรียกผู้พูดว่า お父ちゃん (EN: \"Daddy!\") และ #002 ผู้พูดตอบ \"Oyuki! Oyuki!\" · #009 ผู้พูดเอ่ยเอง \"They kidnapped my daughter\" · #059 บทรำพึงของเรียวมะเรียกเขาว่า \"That's him, the man whose package I accidentally swapped\""
+ },
+ "Here's the one you gave me originally. Return it with my regards.": {
+  "gender": "male",
+  "why": "ไซกิ (斉木 พ่อค้าต่างประเทศ) — uid010c144f#001 ลูกสาวเรียกผู้พูดว่า お父ちゃん (EN: \"Daddy!\") และ #002 ผู้พูดตอบ \"Oyuki! Oyuki!\" · #009 ผู้พูดเอ่ยเอง \"They kidnapped my daughter\" · #059 บทรำพึงของเรียวมะเรียกเขาว่า \"That's him, the man whose package I accidentally swapped\""
+ },
+ "Thank you, samurai-san. Oyuki?": {
+  "gender": "male",
+  "why": "ไซกิ (斉木 พ่อค้าต่างประเทศ) — uid010c144f#001 ลูกสาวเรียกผู้พูดว่า お父ちゃん (EN: \"Daddy!\") และ #002 ผู้พูดตอบ \"Oyuki! Oyuki!\" · #009 ผู้พูดเอ่ยเอง \"They kidnapped my daughter\" · #059 บทรำพึงของเรียวมะเรียกเขาว่า \"That's him, the man whose package I accidentally swapped\""
+ },
+ "R-Right here...": {
+  "gender": "male",
+  "why": "ไซกิ (斉木 พ่อค้าต่างประเทศ) — uid010c144f#001 ลูกสาวเรียกผู้พูดว่า お父ちゃん (EN: \"Daddy!\") และ #002 ผู้พูดตอบ \"Oyuki! Oyuki!\" · #009 ผู้พูดเอ่ยเอง \"They kidnapped my daughter\" · #059 บทรำพึงของเรียวมะเรียกเขาว่า \"That's him, the man whose package I accidentally swapped\""
+ },
+ "Y-Yes. I, uh... I had something I wanted to tell you...": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "I love you! Hopelessly, madly! My only dream is us together, with your miso soup bubbling away on the stove. Will you marry me?": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "\"Charred yet still aflame, my very life fuels the fire. Mine arms yearn for thee, as thy form floats o'er my pyre. If blind, I would yet thee find!\"": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "A tanka, of course.": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "Simply because it's how I feel... That I'm burning with love for you.": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "So much so that even if I lost my sight, I'd remember you perfectly. I'll always remember you, even if... you don't want to see me again.": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "You know, you probably can't tell, but I work out a lot. I'm in pretty great shape, honestly! See?": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "I've been really focused on the arms lately. Lifted a lot just the other day. You see those muscles?": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "Don't worry. As strong as I am, I've got the gentlest heart you could imagine. Especially when it comes to the ladies.": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "But I confessed my love just the way I was told!": {
+  "gender": "male",
+  "why": "ท่านนักบวช (神主) — บทรำพึงของเรียวมะในไฟล์ฉากเดียวกัน uid010c1422#020 เขียน \"(I thought I was writing to a woman, but... was I actually writing to the priest the whole time!?)\" และ #041 \"(Is that his idea of being sexy? No wonder he's got woman troubles.)\" · ผู้พูดคือฝ่ายสารภาพรัก ไม่ใช่มิโกะ"
+ },
+ "Please! My wife lives with a heart so broken that she cannot speak. She was just trying to water the flowers!": {
+  "gender": "male",
+  "why": "ตาเฒ่าในฉากซามูไรโจชิ uid010c1498#066 — EN ของบรรทัดนี้เองเขียน \"**My wife**\" และ ref_ja ของบรรทัดเดียวกันคือ 「妻は心を病んでおり…のです」 (เรียกภรรยาตัวเองว่า 妻)"
+ },
+ "Y-You dare besmirch my honor!? Grant me that I am courageous, if little else!": {
+  "gender": "male",
+  "why": "ผู้พูดคนเดียวกันในไฟล์ฉากเดียวกัน uid010c1471 ใช้เครื่องหมายชายของตัวเองสองบรรทัด: #055 「怖くて怖くて仕方ないんでござる」 และ #062 「拙者の気持ちなんか分からないでござる」"
+ },
+ "Please, this is a mistake! Do what you want with me, but spare Oyuki, I beg you!": {
+  "gender": "male",
+  "why": "พ่อของโอยุกิ uid010c144f#083 — ในไฟล์ฉากเดียวกัน #080 ลูกสาวเรียกเขาว่า 「お父ちゃん」 แล้ว #081 เขาตอบ 「お雪！」"
+ },
+ "And it's all thanks to you, Saito-san.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c14d7 (ซับสตอรี่อุจิทาโร) · ผู้พูดคืออุจิทาโร ซึ่งเรียกตัวเองว่า 俺 ในเทิร์นสลับของบทสนทนาเดียวกัน 5 แถว (#021 · #024 · #027 · #028 · #033) · แม่ของเขาเรียกเขาว่า 息子/内太郎 ใน #057 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว (ตรวจกับ extracted/parallel/msg.json) · 019 ตอบไซโตต่อจาก #017 ที่เป็นบทของอุจิทาโรเอง"
+ },
+ "I suppose you had a hand in this too, didn't you, Saito-san? Thanks.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c14d7 (ซับสตอรี่อุจิทาโร) · ผู้พูดคืออุจิทาโร ซึ่งเรียกตัวเองว่า 俺 ในเทิร์นสลับของบทสนทนาเดียวกัน 5 แถว (#021 · #024 · #027 · #028 · #033) · แม่ของเขาเรียกเขาว่า 息子/内太郎 ใน #057 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว (ตรวจกับ extracted/parallel/msg.json) · 022 อยู่ระหว่าง #021 กับ #024 ซึ่งทั้งคู่มี 俺 ของอุจิทาโร"
+ },
+ "It's all thanks to you, Saito-san... would be nice to say, but I suppose it's not really accurate here. You were involved in some way too, though.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c14d7 (ซับสตอรี่อุจิทาโร) · ผู้พูดคืออุจิทาโร ซึ่งเรียกตัวเองว่า 俺 ในเทิร์นสลับของบทสนทนาเดียวกัน 5 แถว (#021 · #024 · #027 · #028 · #033) · แม่ของเขาเรียกเขาว่า 息子/内太郎 ใน #057 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว (ตรวจกับ extracted/parallel/msg.json) · 025 อยู่ระหว่าง #024 กับ #027 ซึ่งทั้งคู่มี 俺 ของอุจิทาโร"
+ },
+ "Saito-san, I really want today to be the first day where I really change. I don't want to go back to holing up in my room, feeling terrible.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c14d7 (ซับสตอรี่อุจิทาโร) · ผู้พูดคืออุจิทาโร ซึ่งเรียกตัวเองว่า 俺 ในเทิร์นสลับของบทสนทนาเดียวกัน 5 แถว (#021 · #024 · #027 · #028 · #033) · แม่ของเขาเรียกเขาว่า 息子/内太郎 ใน #057 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว (ตรวจกับ extracted/parallel/msg.json) · 032 ต่อด้วย #033 ที่มี 俺 ของอุจิทาโรทันที"
+ },
+ "I don't think I'm totally set just yet, but with enough change, and enough time, I think I might open up my own dojo.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c14d7 (ซับสตอรี่อุจิทาโร) · ผู้พูดคืออุจิทาโร ซึ่งเรียกตัวเองว่า 俺 ในเทิร์นสลับของบทสนทนาเดียวกัน 5 แถว (#021 · #024 · #027 · #028 · #033) · แม่ของเขาเรียกเขาว่า 息子/内太郎 ใน #057 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว (ตรวจกับ extracted/parallel/msg.json) · 034 ต่อจาก #033 ที่มี 俺 ของอุจิทาโรทันที"
+ },
+ "Saito-san—I meant to give this to you earlier, as thanks. Now I want to be doubly sure you get it.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c14d7 (ซับสตอรี่อุจิทาโร) · ผู้พูดคืออุจิทาโร ซึ่งเรียกตัวเองว่า 俺 ในเทิร์นสลับของบทสนทนาเดียวกัน 5 แถว (#021 · #024 · #027 · #028 · #033) · แม่ของเขาเรียกเขาว่า 息子/内太郎 ใน #057 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว (ตรวจกับ extracted/parallel/msg.json) · 038 ต่อจาก #037 ที่อุจิทาโรขานรับไซโต"
+ },
+ "Hmph. It's harder than it seems to cook up a story on the spot.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1609 (ปริศนาโมจิของกลุ่มห้าคน) · ผู้พูดในฉากใช้ 僕達 (#038) และ 俺達 (#036 · #039 · #041 · #043) · ตัวละครในฉากคือสมาชิก 五人組 ชายห้าคน + โดชิน + เรียวมะ · ทั้งไฟล์ 110 แถว ja_gender = ชาย 11 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #025"
+ },
+ "Heehee! In that case, the group of five is reforged, stronger than ever before! Now, let's all go get some daifuku mochi!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1609 (ปริศนาโมจิของกลุ่มห้าคน) · ผู้พูดในฉากใช้ 僕達 (#038) และ 俺達 (#036 · #039 · #041 · #043) · ตัวละครในฉากคือสมาชิก 五人組 ชายห้าคน + โดชิน + เรียวมะ · ทั้งไฟล์ 110 แถว ja_gender = ชาย 11 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #045"
+ },
+ "*sigh* I'm quite disappointed.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1609 (ปริศนาโมจิของกลุ่มห้าคน) · ผู้พูดในฉากใช้ 僕達 (#038) และ 俺達 (#036 · #039 · #041 · #043) · ตัวละครในฉากคือสมาชิก 五人組 ชายห้าคน + โดชิน + เรียวมะ · ทั้งไฟล์ 110 แถว ja_gender = ชาย 11 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #097"
+ },
+ "What're you doing over there?": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1657 (ซับสตอรี่ชายที่ล้มซ้ำที่เดิม) · ผู้พูดเรียกตัวเองว่า 僕 ห้าแถว (#005 · #018 · #023 · #029 · #032) · อีกฝ่ายในฉากคือเรียวมะ ซึ่งใช้ 俺 (#026) แยกออกชัด · ทั้งไฟล์ 66 แถว ja_gender = ชาย 8 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #025"
+ },
+ "Whoa! I had no idea... Well, did you see anything?": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1657 (ซับสตอรี่ชายที่ล้มซ้ำที่เดิม) · ผู้พูดเรียกตัวเองว่า 僕 ห้าแถว (#005 · #018 · #023 · #029 · #032) · อีกฝ่ายในฉากคือเรียวมะ ซึ่งใช้ 俺 (#026) แยกออกชัด · ทั้งไฟล์ 66 แถว ja_gender = ชาย 8 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #027"
+ },
+ "No, no, it <i>has</i> to be something! Some kind of sickness that takes a real thorough inspection to find!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1657 (ซับสตอรี่ชายที่ล้มซ้ำที่เดิม) · ผู้พูดเรียกตัวเองว่า 僕 ห้าแถว (#005 · #018 · #023 · #029 · #032) · อีกฝ่ายในฉากคือเรียวมะ ซึ่งใช้ 俺 (#026) แยกออกชัด · ทั้งไฟล์ 66 แถว ja_gender = ชาย 8 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #031"
+ },
+ "Oww... Yes, I'd say we finally cracked the case. I always pass that spot when I go down this path, so I guess I just slipped on it over and over.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1657 (ซับสตอรี่ชายที่ล้มซ้ำที่เดิม) · ผู้พูดเรียกตัวเองว่า 僕 ห้าแถว (#005 · #018 · #023 · #029 · #032) · อีกฝ่ายในฉากคือเรียวมะ ซึ่งใช้ 俺 (#026) แยกออกชัด · ทั้งไฟล์ 66 แถว ja_gender = ชาย 8 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #045"
+ },
+ "Right? I'm glad it didn't turn out to be some weird illness, but... this thing seems like trouble. What is it, exactly?": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1657 (ซับสตอรี่ชายที่ล้มซ้ำที่เดิม) · ผู้พูดเรียกตัวเองว่า 僕 ห้าแถว (#005 · #018 · #023 · #029 · #032) · อีกฝ่ายในฉากคือเรียวมะ ซึ่งใช้ 俺 (#026) แยกออกชัด · ทั้งไฟล์ 66 แถว ja_gender = ชาย 8 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #047"
+ },
+ "A weapon!?": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1657 (ซับสตอรี่ชายที่ล้มซ้ำที่เดิม) · ผู้พูดเรียกตัวเองว่า 僕 ห้าแถว (#005 · #018 · #023 · #029 · #032) · อีกฝ่ายในฉากคือเรียวมะ ซึ่งใช้ 俺 (#026) แยกออกชัด · ทั้งไฟล์ 66 แถว ja_gender = ชาย 8 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #049"
+ },
+ "Maybe someone brought it from overseas...? Whatever it is, now that I know it's been doing me in, I'm gonna steer clear of the thing.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1657 (ซับสตอรี่ชายที่ล้มซ้ำที่เดิม) · ผู้พูดเรียกตัวเองว่า 僕 ห้าแถว (#005 · #018 · #023 · #029 · #032) · อีกฝ่ายในฉากคือเรียวมะ ซึ่งใช้ 俺 (#026) แยกออกชัด · ทั้งไฟล์ 66 แถว ja_gender = ชาย 8 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #053"
+ },
+ "Yes! I'll be sure to sleep with one eye open from now on. Thanks again!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid010c1657 (ซับสตอรี่ชายที่ล้มซ้ำที่เดิม) · ผู้พูดเรียกตัวเองว่า 僕 ห้าแถว (#005 · #018 · #023 · #029 · #032) · อีกฝ่ายในฉากคือเรียวมะ ซึ่งใช้ 俺 (#026) แยกออกชัด · ทั้งไฟล์ 66 แถว ja_gender = ชาย 8 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #061"
+ },
+ "I hate to interrupt, but perhaps I could help?": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid01160734 (ชายลึกลับที่ยื่นกำยานให้พวกเท็งงุ) · ja_gender ทั้งไฟล์ 47 แถว = ชาย 5 · หญิง 0 · EN ของเกมเรียกเขาว่า guy/him (#038 · #039 · #041) และ ref_ja ของฉากพี่น้อง uid011607f3#019 เขียน 香を持った卑屈そうな男 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #033"
+ },
+ "Red Ninja, don't worry. We'll get you help.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid01160823 (โจโซหัวหน้านักบวชเท็งงุ) · ja_gender ทั้งไฟล์ 10 แถว = ชาย 10 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #033"
+ },
+ "Saito-san! We've been watching your lessons with Ginryu-sensei!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #043"
+ },
+ "There's something we'd like to discuss with you. May we speak somewhere?": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #044"
+ },
+ "Thanks. Please, this way.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #046"
+ },
+ "I hope you'll forgive us for dragging you all this way. We wanted to talk to you about Heinosuke-san.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #049"
+ },
+ "Things are a bit more complicated than that, unfortunately.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #052"
+ },
+ "Just between us... Master Ginryu is a member of the nobility.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #053"
+ },
+ "That's right. Ginryu-sensei is very skilled, but men of his status don't have the luxury of running schools and things.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #055"
+ },
+ "Apparently, when he was a child, Master Ginryu discovered a knack for swordplay and kept at it. Eventually, he opened his dojo.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #057"
+ },
+ "His parents gave him a certain amount of freedom, but he's their firstborn son. He has to return home.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #058"
+ },
+ "Ginryu-sensei doesn't want his techniques to die out. He begged his family, and they allowed him three more years.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #060"
+ },
+ "But... that was over two years ago.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #061"
+ },
+ "All of us students agree with Master Ginryu, Heinosuke-san should take over the dojo.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #063"
+ },
+ "We owe Ginryu-san so much. We all want to help him.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #065"
+ },
+ "Please, sir! We need you. You have to be the one to carry on Ginryu-sensei's school!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #068"
+ },
+ "It's a shame to abandon Heinosuke-san, but we simply don't have the time to wait for him.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #070"
+ },
+ "If you took over the dojo, you could ensure that sensei's techniques live on! Won't you consider it?": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #071"
+ },
+ "S-Sir! I had no idea you were so callous!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #080"
+ },
+ "Grgh, fine. We're done here, then.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid0116084d (ศิษย์สำนักกินริว) · ja_gender ทั้งไฟล์ 88 แถว = ชาย 15 · หญิง 0 · บทของคณะเดียวกันใช้ 俺 เรียกตัวเอง (#066 俺みたいな貧乏な侍 · #067 貴族は俺らなんかに) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #082"
+ },
+ "Yes, master! Please, sir, hold nothing back!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid01160874 (ศิษย์คู่ซ้อมของกินริว) · ja_gender ทั้งไฟล์ 120 แถว = ชาย 7 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #011"
+ },
+ "Th—Thank you very much, sir! A supremely enlightening pain!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid01160874 (ศิษย์คู่ซ้อมของกินริว) · ja_gender ทั้งไฟล์ 120 แถว = ชาย 7 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #018"
+ },
+ "You'll be facing me today! It's a pleasure, sir!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid01160874 (ศิษย์คู่ซ้อมของกินริว) · ja_gender ทั้งไฟล์ 120 แถว = ชาย 7 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #057"
+ },
+ "It's a pleasure, sir!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid01160874 (ศิษย์คู่ซ้อมของกินริว) · ja_gender ทั้งไฟล์ 120 แถว = ชาย 7 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #064"
+ },
+ "Hey, boss, if Saito-san's getting in with us, why don't you teach him some of your techniques?": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid011608ab (ลูกน้องแบรดลีย์/คณะอุรายามะ) · ja_gender ทั้งไฟล์ 340 แถว = ชาย 52 · หญิง 0 · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว · บรรทัด #060"
+ },
+ "Welcome. I'm Anna.": {
+  "gender": "female",
+  "why": "ไฟล์ฉาก uid016c008c (ร้านยามาบุกิ ย่านโคมแดง) บรรทัด 163 · ref_ja คือ 「おいでやす、杏南どす。」 ซึ่งเป็นสตริงเดียวกันเป๊ะกับบรรทัด 171 ในไฟล์เดียวกันที่มี**คิวเสียง yujyo_yukaku_s_01_001** (遊女 = อันนะ) · bond_gender.json ยืนยันอีกชั้นว่าป้ายสายสัมพันธ์ uid016c008c#036 เขียน \"interact with her\" และ ref_ja ของป้ายคือ 「遊女・杏南」との絆 · どす = โคปูลาสุภาพสำเนียงเกียวโต (เคาะ 3 ก.ย. 2026)"
+ },
+ "Oh! You came. I've been waiting for you. Oh, I'm so happy... Truly, I am!": {
+  "gender": "female",
+  "why": "ไฟล์ฉาก uid016c00d3 (ห้องของอันนะ) · ทั้งฉากมีผู้พูดสองคน: อันนะ กับ ไซโต ซึ่งใช้ 俺 ที่ #004 · #016 · ผู้พูดเอ่ยชื่อตัวเองว่า **杏南** ใน #005 และ #015 · bond_gender.json ระบุ Anna = female จากป้ายสายสัมพันธ์ \"interact with her\" และ ref_ja 「遊女・杏南」との絆 · คิวเสียง yujyo_yukaku_s_01_001 ยืนยันอีกไฟล์ (uid016c008c#171) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว (เคาะ 3 ก.ย. 2026) · บรรทัด #003"
+ },
+ "Oh, I'm so glad! Hope to see you again, sir!": {
+  "gender": "female",
+  "why": "ไฟล์ฉาก uid016c00d3 (ห้องของอันนะ) · ทั้งฉากมีผู้พูดสองคน: อันนะ กับ ไซโต ซึ่งใช้ 俺 ที่ #004 · #016 · ผู้พูดเอ่ยชื่อตัวเองว่า **杏南** ใน #005 และ #015 · bond_gender.json ระบุ Anna = female จากป้ายสายสัมพันธ์ \"interact with her\" และ ref_ja 「遊女・杏南」との絆 · คิวเสียง yujyo_yukaku_s_01_001 ยืนยันอีกไฟล์ (uid016c008c#171) · EN ของคีย์นี้โผล่ในไฟล์ฉากนี้ไฟล์เดียว (เคาะ 3 ก.ย. 2026) · บรรทัด #017"
+ },
+ "Pardon me, I need to speak to Saigo-san! Please, let me by!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid016f0032 มีเครื่องหมายเพศชาย 4 แถว (ワシ/俺 ในเทิร์นสลับ) และ**ไม่มีเครื่องหมายเพศหญิงเลยสักแถว** · ตรวจด้วย gender_evidence.py MSG_082 = ผ่าน"
+ },
+ "It's a letter for Saigo-san. It's very important that he reads it.": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid016f0032 มีเครื่องหมายเพศชาย 4 แถว และไม่มีเครื่องหมายเพศหญิงเลย · ผู้พูดคนเดียวกับ uid016f0032#017 · gender_evidence.py MSG_082 = ผ่าน"
+ },
+ "I... I'm sorry, sir!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid016f0033 มีเครื่องหมายเพศชาย 4 แถว และไม่มีเครื่องหมายเพศหญิงเลย · gender_evidence.py MSG_082 = ผ่าน"
+ },
+ "I promise it will be worth your while to hear me out, even for but a moment!": {
+  "gender": "male",
+  "why": "ไฟล์ฉาก uid016f0033 มีเครื่องหมายเพศชาย 4 แถว และไม่มีเครื่องหมายเพศหญิงเลย · gender_evidence.py MSG_082 = ผ่าน"
+ }
+}

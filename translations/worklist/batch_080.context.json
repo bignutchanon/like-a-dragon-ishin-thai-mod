@@ -1,0 +1,2256 @@
+{
+ "batch": "batch_080.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Hand Completion Guide": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "進行ガイド",
+   "occurrences": 1
+  },
+  "Playboy Gin": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遊び人の銀",
+   "occurrences": 1
+  },
+  "What rotten luck...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "運が悪いなぁ…",
+   "occurrences": 2
+  },
+  "Poor Chuta": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金なし忠太",
+   "occurrences": 1
+  },
+  "Nagaharu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "長治",
+   "occurrences": 1
+  },
+  "Daigoro the Flash": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "閃き大五郎",
+   "occurrences": 1
+  },
+  "Advanced difficulty unlocked.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "難易度：上級が解放されました。",
+   "occurrences": 1
+  },
+  "Expert difficulty unlocked.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "難易度：最上級が解放されました。",
+   "occurrences": 1
+  },
+  "Spiritual Yosaku": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "霊感与作",
+   "occurrences": 1
+  },
+  "Masa the Wanderer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "風来坊の政",
+   "occurrences": 1
+  },
+  "Silent Tatsuzo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "黙りの達三",
+   "occurrences": 1
+  },
+  "0 (Payout: x6)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "０（配当　６倍）",
+   "occurrences": 1
+  },
+  "Guess One Number": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１つの出目予想",
+   "occurrences": 1
+  },
+  "1 (Payout: x3)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１（配当　３倍）",
+   "occurrences": 1
+  },
+  "Guess Both Numbers": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "２つの出目予想",
+   "occurrences": 1
+  },
+  "2 (Payout: x4)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "２（配当　４倍）",
+   "occurrences": 1
+  },
+  "Three-way Showdown!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "３枚で勝負！",
+   "occurrences": 1
+  },
+  "3 (Payout: x6)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "３（配当　６倍）",
+   "occurrences": 1
+  },
+  "4 (Payout: x9)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "４（配当　９倍）",
+   "occurrences": 1
+  },
+  "5 (Payout: x18)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "５（配当１８倍）",
+   "occurrences": 1
+  },
+  "Customers served: ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "応対客数",
+   "occurrences": 1
+  },
+  "Maximum streak:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最大連続数",
+   "occurrences": 1
+  },
+  "Total sales:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "総売り上げ",
+   "occurrences": 1
+  },
+  "Overall rating:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "総評",
+   "occurrences": 1
+  },
+  "Is that all ya got!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "時間の経過が緩やかになる",
+   "occurrences": 1
+  },
+  "Death lurks in your grasp!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "つかんだ敵の体力を吸収（特大）",
+   "occurrences": 1
+  },
+  "Absorbs the health of grabbed enemies, restoring health by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "つかんでいる敵の体力を吸いプレイヤーの\n体力を回復（特大）",
+   "occurrences": 1
+  },
+  "Guard Break available!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ガードブレイクを得る",
+   "occurrences": 1
+  },
+  "Quickly move toward an enemy.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ターゲットに吸い付く",
+   "occurrences": 1
+  },
+  "Restores Ryoma's health by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの体力を中回復",
+   "occurrences": 1
+  },
+  "Restores Ryoma's health by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの体力を大回復",
+   "occurrences": 1
+  },
+  "Restores Ryoma's health by a small amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの体力を小回復",
+   "occurrences": 1
+  },
+  "Restores Ryoma's health by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの体力を極大回復",
+   "occurrences": 2
+  },
+  "Restores Ryoma's health by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの体力を特大回復",
+   "occurrences": 1
+  },
+  "Reduces Ryoma's health to 1 but increases attack damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの体力を１に減少させて\n長時間攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Cures Ryoma's status ailments.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの状態異常を回復",
+   "occurrences": 1
+  },
+  "Cures Ryoma's status ailments and restores health by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの状態異常を回復し体力を中回復",
+   "occurrences": 1
+  },
+  "Cures Ryoma's status ailments and restores health by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの状態異常を回復し体力を大回復",
+   "occurrences": 1
+  },
+  "Cures Ryoma's status ailments and restores health by a small amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの状態異常を回復し体力を小回復",
+   "occurrences": 1
+  },
+  "Cures Ryoma's status ailments and restores health by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの状態異常を回復し体力を特大回復",
+   "occurrences": 2
+  },
+  "Charges up Ryoma's Heat by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイヤーの闘気を極大充填",
+   "occurrences": 3
+  },
+  "Moderate Swordsman attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型攻撃力が上昇（中）",
+   "occurrences": 1
+  },
+  "Major Swordsman attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型攻撃力が上昇（大）",
+   "occurrences": 1
+  },
+  "Majestic Swordsman attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型攻撃力が上昇（極大）",
+   "occurrences": 1
+  },
+  "Massive Swordsman attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型攻撃力が上昇（特大）",
+   "occurrences": 1
+  },
+  "Temporarily makes enemies trip when they approach.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーに近づく敵を転ばせる",
+   "occurrences": 1
+  },
+  "Temporarily grants Ryoma resistance to gunfire.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーに銃に対する耐性付与",
+   "occurrences": 1
+  },
+  "Temporarily increases Swordsman damage by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n一刀の型攻撃力が上昇（中）",
+   "occurrences": 1
+  },
+  "Temporarily increases Swordsman damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n一刀の型攻撃力が上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Swordsman damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n一刀の型攻撃力が上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Swordsman damage by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n一刀の型攻撃力が上昇（特大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Wild Dancer damage by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n乱舞の型攻撃力が上昇（中）",
+   "occurrences": 1
+  },
+  "Temporarily increases Wild Dancer damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n乱舞の型攻撃力が上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Wild Dancer damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n乱舞の型攻撃力が上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Wild Dancer damage by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n乱舞の型攻撃力が上昇（特大）",
+   "occurrences": 1
+  },
+  "Continuously restores a moderate amount of Ryoma's health over time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの体力を自動回復（中）",
+   "occurrences": 1
+  },
+  "Continuously restores a great amount of Ryoma's health over time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの体力を自動回復（大）",
+   "occurrences": 1
+  },
+  "Continuously restores a small amount of Ryoma's health over time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの体力を自動回復（小）",
+   "occurrences": 1
+  },
+  "Continuously restores a tremendous amount of Ryoma's health over time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの体力を自動回復（特大）",
+   "occurrences": 2
+  },
+  "Temporarily increases Ryoma's attack damage by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの攻撃力が上昇（中）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's attack damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの攻撃力が上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's attack damage by a small amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの攻撃力が上昇（小）",
+   "occurrences": 1
+  },
+  "Temporarily increases Brawler damage by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n格闘の型攻撃力が上昇（中）",
+   "occurrences": 1
+  },
+  "Temporarily increases Brawler damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n格闘の型攻撃力が上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Brawler damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n格闘の型攻撃力が上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's attack damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの攻撃力が上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Brawler damage by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n格闘の型攻撃力が上昇（特大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Gunman damage by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n短銃の型攻撃力が上昇（中）",
+   "occurrences": 1
+  },
+  "Temporarily increases Gunman damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n短銃の型攻撃力が上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Gunman damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n短銃の型攻撃力が上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Gunman damage by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの\n短銃の型攻撃力が上昇（特大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's defense by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの防御力が上昇（中）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's defense by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの防御力が上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's defense by a small amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの防御力が上昇（小）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's defense by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの防御力が上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's defense by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーの防御力が上昇（特大）",
+   "occurrences": 1
+  },
+  "Temporarily increases Ryoma's quickstep distance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーのスウェイ距離が延びる",
+   "occurrences": 1
+  },
+  "Temporarily allows Ryoma to break the enemy's guard.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーはガードブレイクを得る",
+   "occurrences": 1
+  },
+  "Temporarily prevents stun.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間プレイヤーは気絶しない",
+   "occurrences": 1
+  },
+  "Temporarily repels all attacks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間全ての攻撃を弾く",
+   "occurrences": 1
+  },
+  "Temporarily increases the charge speed of all Trooper Abilities by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間全隊士の充填速度上昇（中）",
+   "occurrences": 1
+  },
+  "Temporarily increases the charge speed of all Trooper Abilities by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間全隊士の充填速度上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases the charge speed of all Trooper Abilities by a small amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間全隊士の充填速度上昇（小）",
+   "occurrences": 1
+  },
+  "Temporarily allows attacks against frightened enemies to knock them out instantly.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間怯えている敵に攻撃を行うと\n即時戦闘不能になる",
+   "occurrences": 1
+  },
+  "Temporarily increases poison element damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間毒属性の攻撃力上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases poison element damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間毒属性の攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases poison element damage by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間毒属性の攻撃力上昇（特大）",
+   "occurrences": 1
+  },
+  "Temporarily increases fire element damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間炎属性の攻撃力上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases fire element damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間炎属性の攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases fire element damage by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間炎属性の攻撃力上昇（特大）",
+   "occurrences": 1
+  },
+  "Temporarily increases light element damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間閃属性の攻撃力上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases light element damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間閃属性の攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases light element damage by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間閃属性の攻撃力上昇（特大）",
+   "occurrences": 1
+  },
+  "Temporarily increases thunder element damage by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間雷属性の攻撃力上昇（大）",
+   "occurrences": 1
+  },
+  "Temporarily increases thunder element damage by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間雷属性の攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Temporarily increases thunder element damage by a tremendous amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間雷属性の攻撃力上昇（特大）",
+   "occurrences": 1
+  },
+  "Triple Shot": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "三連射",
+   "occurrences": 1
+  },
+  "Throw flaming explosives at enemies from a medium distance, burning them.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中距離から火焔を飛ばし敵を炎上させる",
+   "occurrences": 1
+  },
+  "Cause a flash at medium distance to blind enemies.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中距離から閃光により相手の視界を奪う",
+   "occurrences": 1
+  },
+  "Paralyze enemies from an electric shock at a medium distance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中距離から電撃により相手を痺れさせる",
+   "occurrences": 1
+  },
+  "Draws in enemies from a medium distance with a sphere of gravity.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中距離までの敵を重力球に引き寄せる",
+   "occurrences": 1
+  },
+  "Mania": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞",
+   "occurrences": 1
+  },
+  "Moderate Wild Dancer attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型攻撃力が上昇（中）",
+   "occurrences": 1
+  },
+  "Major Wild Dancer attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型攻撃力が上昇（大）",
+   "occurrences": 1
+  },
+  "Majestic Wild Dancer attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型攻撃力が上昇（極大）",
+   "occurrences": 1
+  },
+  "Massive Wild Dancer attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型攻撃力が上昇（特大）",
+   "occurrences": 1
+  },
+  "Desperate times, desperate measures!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力が１になり攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Moderate recovery!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を中回復",
+   "occurrences": 1
+  },
+  "Nobody's walking out of here alive!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を削り攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Major recovery!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を大回復",
+   "occurrences": 1
+  },
+  "Minor recovery!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を小回復",
+   "occurrences": 1
+  },
+  "Majestic recovery!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を極大回復",
+   "occurrences": 1
+  },
+  "All sewn up! Get back in there!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を極大回復",
+   "occurrences": 1
+  },
+  "Massive recovery!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を特大回復",
+   "occurrences": 1
+  },
+  "Moderate regeneration!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を自動回復（中）",
+   "occurrences": 1
+  },
+  "Major regeneration!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を自動回復（大）",
+   "occurrences": 1
+  },
+  "Minor regeneration!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を自動回復（小）",
+   "occurrences": 1
+  },
+  "Massive regeneration!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を自動回復（特大）",
+   "occurrences": 1
+  },
+  "Take a second and breathe!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を自動回復（特大）",
+   "occurrences": 1
+  },
+  "Reduces Ryoma's health to critical levels but increases attack power by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体力を赤点滅状態まで減らしプレイヤーの\n攻撃力を上昇（極大）",
+   "occurrences": 1
+  },
+  "Strength in Numbers": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偉丈夫",
+   "occurrences": 1
+  },
+  "Shine": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "光師",
+   "occurrences": 1
+  },
+  "You're impervious!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全ての攻撃を弾く",
+   "occurrences": 1
+  },
+  "All enemies either go berserk or take large damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全ての敵が凶暴化または大ダメージを与える",
+   "occurrences": 1
+  },
+  "Moderate active effects boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全ての能力効果が上昇（中）",
+   "occurrences": 1
+  },
+  "Major active effects boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全ての能力効果が上昇（大）",
+   "occurrences": 1
+  },
+  "Minor active effects boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全ての能力効果が上昇（小）",
+   "occurrences": 1
+  },
+  "Massive active effects boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全ての能力効果が上昇（特大）",
+   "occurrences": 1
+  },
+  "Charges Heat and restores health while everyone dances.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全員が踊ってる間ヒートゲージが溜まり\n体力が回復。",
+   "occurrences": 1
+  },
+  "Moderate hustle!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の充填速度上昇（中）",
+   "occurrences": 1
+  },
+  "Major hustle!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の充填速度上昇（大）",
+   "occurrences": 1
+  },
+  "Minor hustle!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の充填速度上昇（小）",
+   "occurrences": 1
+  },
+  "Charges all Trooper Ability gauges by a moderate amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を中充填",
+   "occurrences": 1
+  },
+  "Charges all Trooper Ability gauges by a great amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を大充填",
+   "occurrences": 1
+  },
+  "Charges all Trooper Ability gauges by a small amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を小充填",
+   "occurrences": 1
+  },
+  "Charges all Trooper Ability gauges by an unreasonable amount.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を極大充填",
+   "occurrences": 2
+  },
+  "Moderate charge up!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を中充填",
+   "occurrences": 1
+  },
+  "Major charge up!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を大充填",
+   "occurrences": 1
+  },
+  "Minor charge up!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を小充填",
+   "occurrences": 1
+  },
+  "Majestic charge up!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を極大充填",
+   "occurrences": 1
+  },
+  "Get your asses in gear, men!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全隊士の能力を極大充填",
+   "occurrences": 1
+  },
+  "Blessing of the Sword God": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀神ノ加護",
+   "occurrences": 1
+  },
+  "Momentary Interruption": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刹那ノ目付",
+   "occurrences": 1
+  },
+  "Reserves": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "助太刀",
+   "occurrences": 1
+  },
+  "Effort": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "努力",
+   "occurrences": 1
+  },
+  "Courage": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勇気",
+   "occurrences": 1
+  },
+  "Orders from the North": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "北ノ大号令",
+   "occurrences": 1
+  },
+  "Blessing of the Vigor God": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "医神ノ息吹",
+   "occurrences": 1
+  },
+  "Medical Attention": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "医薬者",
+   "occurrences": 1
+  },
+  "The fight's over! Now the dance is on!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "周囲を能天気な踊りに巻き込む",
+   "occurrences": 1
+  },
+  "Divine Luck": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "商神の恩寵",
+   "occurrences": 1
+  },
+  "Street Fighter": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "喧嘩",
+   "occurrences": 1
+  },
+  "Bed Rest": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回復",
+   "occurrences": 1
+  },
+  "We're untouchable, Captain!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回避能力が上昇",
+   "occurrences": 1
+  },
+  "Top Aide": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "補佐官",
+   "occurrences": 1
+  },
+  "Encouragement": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "声援",
+   "occurrences": 1
+  },
+  "Grand Dance": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大乱舞",
+   "occurrences": 1
+  },
+  "Faith": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大支援",
+   "occurrences": 1
+  },
+  "Godly": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "天下無双",
+   "occurrences": 2
+  },
+  "Miraculous Caress": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奇跡ノ愛撫",
+   "occurrences": 1
+  },
+  "Fight Hard": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奮闘",
+   "occurrences": 1
+  },
+  "Heroine's Armor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "女傑ノ護身",
+   "occurrences": 1
+  },
+  "Goddess's Touch": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "女神ノ施術",
+   "occurrences": 1
+  },
+  "Solemnity": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "威風堂々",
+   "occurrences": 1
+  },
+  "Moderate defensive ability boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "守備隊士の能力効果が上昇（中）",
+   "occurrences": 1
+  },
+  "Major defensive ability boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "守備隊士の能力効果が上昇（大）",
+   "occurrences": 1
+  },
+  "Minor defensive ability boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "守備隊士の能力効果が上昇（小）",
+   "occurrences": 1
+  },
+  "Shooter": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "射撃",
+   "occurrences": 1
+  },
+  "Knock'em down!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "射撃による広範囲攻撃（長距離）",
+   "occurrences": 1
+  },
+  "Together as One": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "後援隊",
+   "occurrences": 1
+  },
+  "Perseverance": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "忍耐",
+   "occurrences": 1
+  },
+  "Assistance": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "応援",
+   "occurrences": 1
+  },
+  "Song of Cheer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "応援歌",
+   "occurrences": 1
+  },
+  "Support Regiment": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "応援部隊",
+   "occurrences": 1
+  },
+  "Ferocity": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "怒髪天",
+   "occurrences": 1
+  },
+  "Boiling Point": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "怒髪衝天",
+   "occurrences": 1
+  },
+  "Now we go beast mode!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "怯んだ敵を戦闘不能にする",
+   "occurrences": 1
+  },
+  "Tremble with Fear": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "恐怖戦慄",
+   "occurrences": 1
+  },
+  "Rend the Wicked": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "悪即斬",
+   "occurrences": 1
+  },
+  "Rage": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "憤怒",
+   "occurrences": 1
+  },
+  "Emergency Care": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "戦傷医療",
+   "occurrences": 1
+  },
+  "Aid": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手当",
+   "occurrences": 1
+  },
+  "Blessing of the Fist God": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "拳神ノ加護",
+   "occurrences": 1
+  },
+  "Patronage": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "援助",
+   "occurrences": 1
+  },
+  "Belief": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "支援",
+   "occurrences": 1
+  },
+  "Landing successive attacks increases the damage of each hit.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃を連続で当てるとダメージが大きくなる",
+   "occurrences": 1
+  },
+  "Moderate attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃力が上昇（中）",
+   "occurrences": 1
+  },
+  "Major attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃力が上昇（大）",
+   "occurrences": 1
+  },
+  "Minor attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃力が上昇（小）",
+   "occurrences": 1
+  },
+  "Moderate offensive ability boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃隊士の能力効果が上昇（中）",
+   "occurrences": 1
+  },
+  "Major offensive ability boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃隊士の能力効果が上昇（大）",
+   "occurrences": 1
+  },
+  "Minor offensive ability boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃隊士の能力効果が上昇（小）",
+   "occurrences": 1
+  },
+  "Experimental Medication": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "救急治療",
+   "occurrences": 1
+  },
+  "Relief": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "救護",
+   "occurrences": 1
+  },
+  "Salvation": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "救護支援",
+   "occurrences": 1
+  },
+  "Rescue": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "救護者",
+   "occurrences": 1
+  },
+  "All enemies become frightened.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵が一斉に怯える",
+   "occurrences": 1
+  },
+  "Weep, all of you! I'll show no mercy!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵が一斉に怯える",
+   "occurrences": 1
+  },
+  "It's time to party!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵が凶暴化または大ダメージ",
+   "occurrences": 1
+  },
+  "Faster than the naked eye!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵に吸い付く",
+   "occurrences": 1
+  },
+  "Time slows when an enemy attacks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一定時間、時間の経過が緩やかになる",
+   "occurrences": 1
+  },
+  "Come! Bring your best!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃の攻撃をはじく",
+   "occurrences": 1
+  },
+  "No one can resist us!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を引き寄せる",
+   "occurrences": 1
+  },
+  "Hehe, let's see yer insides!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を貫き出血させる（近距離）",
+   "occurrences": 1
+  },
+  "They're pathetic!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を転ばせる",
+   "occurrences": 1
+  },
+  "Slashing": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斬撃",
+   "occurrences": 1
+  },
+  "Steel Cutting": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斬鉄",
+   "occurrences": 1
+  },
+  "Too quick for blades!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "時間の経過が緩やかになる",
+   "occurrences": 1
+  },
+  "Grit": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "根性",
+   "occurrences": 1
+  },
+  "Moderate Brawler attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格闘の型攻撃力上昇（中）",
+   "occurrences": 1
+  },
+  "Major Brawler attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格闘の型攻撃力上昇（大）",
+   "occurrences": 1
+  },
+  "Majestic Brawler attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格闘の型攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Clear the way, Captain!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Massive Brawler attack boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格闘の型攻撃力上昇（特大）",
+   "occurrences": 1
+  },
+  "Essence of Volley Fire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一斉射撃",
+   "occurrences": 1
+  },
+  "Essence of the Conquering Bear": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・双熊撃",
+   "occurrences": 1
+  },
+  "Essence of the Void": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・闇吸",
+   "occurrences": 1
+  },
+  "Essence of the Dimensional Blade": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・次元刀",
+   "occurrences": 1
+  },
+  "Essence of Bumbling Fools": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・滑円陣",
+   "occurrences": 1
+  },
+  "Essence of Incendiary Bomb": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・火焔球",
+   "occurrences": 1
+  },
+  "Essence of Explosive Impact": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・爆裂衝",
+   "occurrences": 1
+  },
+  "Essence of the Dancing Dog": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・犬舞",
+   "occurrences": 1
+  },
+  "Essence of the Sovereign Tiger": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・猛虎覇",
+   "occurrences": 1
+  },
+  "Essence of Healing Jubilee": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・癒ノ舞",
+   "occurrences": 1
+  },
+  "Essence of the Unyielding Wave": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・真波動",
+   "occurrences": 1
+  },
+  "Essence of Crimson Cuts": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・紅剣舞",
+   "occurrences": 1
+  },
+  "Essence of Lightning's Spear": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・迅雷槍",
+   "occurrences": 1
+  },
+  "Essence of Sweaty Palms": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・魂吸掌",
+   "occurrences": 1
+  },
+  "Essence of the Feathered Stampede": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "極・鶏走",
+   "occurrences": 1
+  },
+  "Blessing of the Guardian God": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武神ノ守護",
+   "occurrences": 1
+  },
+  "Blessing of the Merciful God": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武神ノ慈悲",
+   "occurrences": 1
+  },
+  "It's gonna get toxic in here!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒に侵される（近距離）",
+   "occurrences": 1
+  },
+  "Major poison damage boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒属性の攻撃力上昇（大）",
+   "occurrences": 1
+  },
+  "Majestic poison damage boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒属性の攻撃力上昇（極大）",
+   "occurrences": 1
+  },
+  "Massive poison damage boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒属性の攻撃力上昇（特大）",
+   "occurrences": 1
+  },
+  "Poisoner": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒師",
+   "occurrences": 1
+  },
+  "Great God of Toxin": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒性大神",
+   "occurrences": 1
+  },
+  "Toxin Master": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒性師",
+   "occurrences": 1
+  },
+  "Poison Mist Ball": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "毒霧玉",
+   "occurrences": 1
+  },
+  "Our assault can't be stopped!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "気絶しない",
+   "occurrences": 1
+  },
+  "Treatment": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "治療",
+   "occurrences": 1
+  },
+  "Blessing of the Nurse God": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "治療ノ極意",
+   "occurrences": 1
+  },
+  "Remedy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "治療薬",
+   "occurrences": 1
+  },
+  "When Words Fail": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "漢気ノ真髄",
+   "occurrences": 1
+  },
+  "Spur On": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "激励",
+   "occurrences": 1
+  },
+  "Bombs away!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "火焔を飛ばして炎上させる（中距離）",
+   "occurrences": 1
+  },
+  "Great God of Flames": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "火炎大神",
+   "occurrences": 1
+  },
+  "Flame Master": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "火炎師",
+   "occurrences": 1
+  },
+  "Major fire damage boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炎属性の攻撃力上昇（大）",
+   "occurrences": 1
+  },
+  "Majestic fire damage boost!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炎属性の攻撃力上昇（極大）",
+   "occurrences": 1
+  }
+ }
+}

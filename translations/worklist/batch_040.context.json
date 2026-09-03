@@ -1,0 +1,2266 @@
+{
+ "batch": "batch_040.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "A beautiful yellow liquid. Slightly increases experience points in the Gunman style, I'm told.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "黄色い色をした綺麗な液体だよ。\n短銃の型の経験を少し積めるらしいね。",
+   "occurrences": 2
+  },
+  "A brilliant, golden sword. Reduces Heat Gauge consumption when using special moves.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "黄金で彩られた輝かしい一振りです。\n絶技使用時のヒートゲージ消費を抑える。",
+   "occurrences": 1
+  },
+  "(I don't have anything to give.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（与えられそうなものを持っていないな……）",
+   "occurrences": 1
+  },
+  "(I should offer something that gives energy.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（何か精がつくものでもやろうか……）",
+   "occurrences": 1
+  },
+  "(Hm, what do I want to eat?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（何を食おうか……）",
+   "occurrences": 1
+  },
+  "(I haven't got anything edible.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（食えそうなものを持っていないな……）",
+   "occurrences": 1
+  },
+  "Exchane 1 ryo for 100 points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１両を賭け点１００点に\n交換します。",
+   "occurrences": 1
+  },
+  "Exchange 1000 mon for 10 points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１０００文を賭け点１０点に\n交換します。",
+   "occurrences": 1
+  },
+  "Hot soba topped with vegetable tempura. Also served with an egg,\nwhich we recommend breaking and mixing into the broth.\nA favorite recipe of ours.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あつあつおそばに野菜の天ぷらを乗せました。\n天ぷらとそば汁の相性がたまらない、\n不動の人気商品です。",
+   "occurrences": 1
+  },
+  "Thank you, sir. That will be {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}ですね。",
+   "occurrences": 1
+  },
+  "Thank you, sir. That's {s_value}, please.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thank you. Your total is {s_value}, please.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Much obliged. Goin' to be {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thank you, sir. That'll be {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thank you. Your meal comes to {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thank ye. It's {s_value} t'day.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thanks. That'll be {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thanks for coming. Your total's {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thank you. That will be {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thank you. Your total is {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 1
+  },
+  "Thank you. That'll be {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとうございます。{s_value}になります。",
+   "occurrences": 2
+  },
+  "Thanks, that'll be {s_value}. Heheh.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ありがとな、{s_value}や。　ヒヒヒ……",
+   "occurrences": 1
+  },
+  "This thing's loaded with veggies 'n shit. It's so good for ya, yer body'll black out from the nutrition!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うちの店の秘伝の煮込みや。\n色々な野菜とか、まあ色々煮てあるんや。\n地面にへたりこむほどうまいでー。",
+   "occurrences": 1
+  },
+  "I call it a mystery stew, 'cause it's a mystery what's in it. Sure, it's questionable, but it smells damn good, eh?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うちの秘伝の材料をじっくり煮込んだものや。\n何が入ってるかは、うちの店の秘伝やから内緒や。\nええ匂いやろ？",
+   "occurrences": 1
+  },
+  "Uh, think this is yesterday's, but it's still good. Hell, it's better day-old, I say. Just get drunk first... fer safety's sake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "えーと、何煮たかちょっと覚えて無いんやけど\n結構うまいもんやと思うで。\n注文してや。",
+   "occurrences": 1
+  },
+  "Comes to {s_value}, please and thank you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おおきに。{s_value}になります。",
+   "occurrences": 2
+  },
+  "Thanks, that'll be {s_value}. Come again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おおきに。{s_value}になります。",
+   "occurrences": 2
+  },
+  "Heh, {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おおきにな。{s_value}や。",
+   "occurrences": 1
+  },
+  "A special assortment of nine kinds of sashimi. Enjoy the catches of the season.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お刺身盛合せです。\nお刺身９種のお得な盛合せです。\n季節ならではの海の幸をお楽しみ頂けます。",
+   "occurrences": 1
+  },
+  "Made by adding grated yam to sake. It's said to be nourishing and good to eat when sick.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お酒にすり下ろした山芋を入れたものです。\n滋養にいいとされ、病に効くといいます。",
+   "occurrences": 1
+  },
+  "I gather up whatever drinks I can, then slosh 'em all together in the same jug. Don't like how it tastes? Try it again tomorrow!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ちょいちょいっと集めてきた酒や。\n味は日によって変わるで。",
+   "occurrences": 1
+  },
+  "I'm not too sure what's in it, ta be honest. It'll get ya drunk, though, and it probably won't kill ya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ちょっとね、何の酒って訳やないんですが\nとりあえず酔えると思うんで\n注文してくれへんやろか……",
+   "occurrences": 1
+  },
+  "A Hanamaru staple, featuring udon slathered in green onions and\ngrated daikon. Don't think twice about eating—bukkake udon refers to\nsplashing the noodles with just enough sauce to give it some flavor.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "つけだしをぶっかける“ぶっかけ”を世間に広めた\nはなまるうどんの定番メニュー。\nねぎと大根おろしが生み出す清涼感が最高です。",
+   "occurrences": 1
+  },
+  "It's a stew, all... stewed up 'n whatnot. Look, it don't matter what's been stewin' in there, it's tasty and it's cheap!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "とにかく、よく煮た煮物やで。\n何を煮込んだかなんて、どうでもええやろ。\nえらいうまいで。",
+   "occurrences": 1
+  },
+  "Thank you! That'll be {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうも。{s_value}になります。",
+   "occurrences": 2
+  },
+  "Smooth an' salty eggplant—for those who've got a hunger to go with their thirst.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なすをぬか漬けにしたものです。\n塩気と瑞々しさが、お酒と良く合いますよ。",
+   "occurrences": 1
+  },
+  "It's {s_value}, if'n it please ya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほんますいません。{s_value}や。",
+   "occurrences": 1
+  },
+  "Thanks! I'll need {s_value} from ya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まいど。{s_value}いただきますわ。",
+   "occurrences": 1
+  },
+  "The true flavor of a first-class restaurant, this dish elegantly pairs sea bream and an out-of-this-world green tea rice.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさに一流料亭の味です。\n鯛の香りと味を生かし、上品に仕上げました。\nお茶漬けも絶品です。",
+   "occurrences": 1
+  },
+  "Noodles fresh from the pot, topped with scallions, daikon,\nand our special soy sauce. It's a no-frills experience\nthat true udon lovers keep craving.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ゆでたて麺に特製しょうゆをかけて、\nネギと大根おろしを合わせて食べる通好みのメニュー。\nシンプルな食べ方だけに、うどん本来のおいしさが楽しめます。",
+   "occurrences": 1
+  },
+  "Fried tofu, liberally seasoned atop a bed of lightly vinegared rice.\nA match made in heaven, made for those craving something unique.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "よく味が染みたいなり揚げと、\nほんのりまろやかな酢飯が相性抜群です。\n何かもう一品、と悩んだ方にピッタリな商品です。",
+   "occurrences": 1
+  },
+  "It's a hot pot with all my favorite foods, heh. Try it! It's like a party in yer mouth! And in yer gut!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "わしの好みの食材ばかり入れた鍋や。\n何が入っているかはお楽しみやで。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "A plump, whole sea bream simmered in\nsweet-and-spicy soy sauce.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一尾の金目鯛を贅沢に丸ごと使い\n醤油で甘辛く煮上げました。",
+   "occurrences": 1
+  },
+  "Truly a local favorite, the seaweed broth does wonders for a cold body.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京で好んで食べられている料理です。\n昆布のだしが良く効いていて\n冷えた体に染み渡りますよ。",
+   "occurrences": 3
+  },
+  "My specialty brew! A mix-up of all kindsa sake—there's nothin' else like it! Ha!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "俺の特製の酒やで。\n色々な酒を絶妙に混ぜたものや。\n他では味わえないうまさやで。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "The most widely drunk tea in Japan, with many health benefits.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "健康に良い様々な効果・効能がある\n日本でもっとも飲まれているお茶です。",
+   "occurrences": 1
+  },
+  "A popular dish that's been featured since we first opened. \nEnjoy our signature dipping sauce over a nest of chewy\nnoodles and a ready-to-burst softboiled egg.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "創業時から受け継がれる大人気商品。\n半熟たまごとモチモチの麺が織りなす食感を\n独自のつけだしで楽しむ、まろやかな一品です。",
+   "occurrences": 1
+  },
+  "Our standard shippoku offering. A medley of Japanese, Chinese, and Western cuisine for a reasonable price.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "卓袱料理の、標準的なお膳です。\n高級料理として名高い卓袱料理を\nお得に楽しむ事が出来ます。",
+   "occurrences": 1
+  },
+  "Our high-end shippoku platter. Enjoy the flavor of the seasons with carefully curated ingredients.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "卓袱料理の、高級なお膳です。\n旬な素材を厳選して調理した\n季節の味をご堪能下さい。",
+   "occurrences": 1
+  },
+  "Filled with fried tofu bursting with Hanamaru's signature broth.\nThe firm noodles and soft tofu create a harmony on the tongue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "器いっぱいに広がる大きなおあげに、\n特製の“かけだし”が染み込んだ至高の一品。\nコシの強い麺とふんわりおあげの食感をぜひ。",
+   "occurrences": 1
+  },
+  "We stuff fresh Tosan blue mackerel fulla sushi rice. The fish's oiliness'll fill anyone's belly, guaranteed.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐でとれたごまさばを１匹使って\n寿司飯を詰めたものです。\n脂の乗ったさばが引き立つ、土佐の名物料理です。",
+   "occurrences": 1
+  },
+  "Tosan sake, pure an' spicy, just like the folk 'round here.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐で作られたお酒です。\n淡麗辛口ですっきりとした味わいです。",
+   "occurrences": 1
+  },
+  "Ah, the famous skipjack tuna of Tosa. We slice it and provide ye a bevy of condiments to enjoy it with.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐の名産である鰹を使った料理です。\n皿に並べられた鰹の切り身に、\nどっさり薬味を載せてどうぞ。",
+   "occurrences": 1
+  },
+  "Standard dish or ultimate specialty? You decide,\nas the simple mixture of anchovy broth and handmade\nnoodles ferries your hunger up the Sanzu River.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "基本にして究極の看板商品。\n“いりこだし”をシンプルに味わえる\n自信作を、心ゆくまでお楽しみください。",
+   "occurrences": 1
+  },
+  "Bluefin is our house specialty, and this combination\nplate lets you tantalize your tastebuds with lean tuna,\nfatty tuna, and everything in between.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大とろ、中とろ、赤身、あぶりとろ、ねぎとろの\n５種類のにぎりの盛り合わせです。\n当店自慢の本鮪を同時に楽しめる、お得な一皿です。",
+   "occurrences": 1
+  },
+  "A specialty soba made with European cooking techniques. The dried sardines\nadds to the broth's complex flavor, resulting in an irresistible bowl.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大陸の調理法を取り入れた当店独自の\n新しいおそばです。複雑な味わいの出汁と煮干しの\n香りがクセになる一杯です。",
+   "occurrences": 1
+  },
+  "Seasonal vegetables, pickled. A classic accompaniment for sake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "季節の野菜をぬか漬けにしたものです。\nお酒のつまみの定番ですね。",
+   "occurrences": 2
+  },
+  "Veggies pickled in rice bran oil. Ain't nothin' in the world goes better with sake than this shit.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "季節の野菜をぬか漬けにしたものや。\n酒のつまみと言ったら、これやろ。",
+   "occurrences": 1
+  },
+  "It's a buncha shit cooked up in a pot, whaddya want from me? This look like the Imperial Kitchen to you?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手に入った材料を、色々入れて鍋にしました。\nうまいと思いまっせ、……たぶん。\n注文してくれはる？",
+   "occurrences": 1
+  },
+  "This bowl is topped with red ginger tempura, making it surprisingly\nrefreshing for fried food. The perfect way to end a night of drinking.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "揚げ物なのにさっぱりとした紅生姜の天ぷらが乗った、\n飲んだ後の締めにもあう、至高の一杯です。",
+   "occurrences": 1
+  },
+  "Fresh squid is seared whole, giving it a savory aroma and a unique texture.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新鮮ないかを、そのまま丸ごと炙りました。\n香ばしい香りと、いかの独特の食感を\nお楽しみ下さい。",
+   "occurrences": 1
+  },
+  "A selection of fresh sashimi selected by our chefs to showcase the flavors of the season.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新鮮な魚を扱う当店の職人が\n選び抜いた魚の刺身を盛り合わせました。\n季節の風味をお楽しみ下さい。",
+   "occurrences": 1
+  },
+  "A shippoku meal served only at lunchtime. Affordable, but still extravagant.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "昼にのみ提供している卓袱料理です。\nちょっと豪華な昼食に、\nお得な価格で提供させて頂いてます。",
+   "occurrences": 1
+  },
+  "Our soft and flavorful teriyaki chicken pairs well with rice. The umami is extraordinary.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "柔らかく旨味たっぷりの鶏肉はご飯の友。\n照り焼き風に味付けした鶏肉をどか～んとのせました。\n鶏の旨味が口の中に広がります。",
+   "occurrences": 1
+  },
+  "Manju with a dreamy chestnut paste. This here's a seasonal special—only comes in the autumn!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "栗の実を餡にしたまんじゅうです。\n秋にのみ楽しめる季節のお菓子です。",
+   "occurrences": 1
+  },
+  "Shochu that uses chestnuts for a base. Their scent an' sweetness keeps this goin' down easy.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "栗を原料にした焼酎です。\n栗独自の香ばしさと甘みで\n飲みやすい焼酎ですね。",
+   "occurrences": 1
+  },
+  "Hot green tea. Enjoy the harmony of sweet and bitter.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "温かいお茶です。\n甘みと渋みの調和をお楽しみ下さい。",
+   "occurrences": 1
+  },
+  "Cloudy sake made from fermented rice. Drink carefully—it's been known to sneak up on you.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炊いた米を発酵させて作られた濁り酒です。\n悪酔いに気をつけて下さい。",
+   "occurrences": 3
+  },
+  "Cloudy sake made from cooked rice. This'll get ya drunk but quick!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "炊いた米を発酵させて作られた濁り酒や。\nがっつり酔えるで。",
+   "occurrences": 2
+  },
+  "Freshly boiled noodles, served with warm dipping broth.\nTheir hot, chewy texture is what put Sanuki on the map.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "熱々の麺を温かいつけだしにつけて頂く、\n讃岐の定番商品の一つ。\n熱々、モチモチな麺の食感がたまりません。",
+   "occurrences": 1
+  },
+  "They say this booze was invented by monkeys whose fruit hoard spoiled. Those were some smart fuckin' monkeys!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "猿が果実をため込んで出来たのが始まりという酒や。\n手近な果物から作ってるから\n季節によって味が違うで。",
+   "occurrences": 1
+  },
+  "A dish of mochi and sweet red beans, it will warm you to your core on cold days.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "甘く煮た小豆に、餅を入れたものです。\n寒い時には腹の底から暖まりますよ。",
+   "occurrences": 2
+  },
+  "A type of sushi where the rice is wrapped with sweet and spicy deep-fried tofu pockets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "甘辛く味付けされた油揚げに\n酢飯が詰められた、お寿司の一種です。",
+   "occurrences": 1
+  },
+  "Sake made in the capital of Kinai. Newly popular, it's crafted from top-quality rice and water.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "畿内の灘で作られる清酒です。\nいい米といい水を使い\n最近人気が高いお酒です。",
+   "occurrences": 1
+  },
+  "Sake made in the capital of Kinai, newly popular and crafted from fine quality rice and water.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "畿内の灘で作られる清酒です。\nいい米といい水を使い\n最近人気が高いお酒です。",
+   "occurrences": 1
+  },
+  "Black cod marinated in white miso, grilled to perfection by our chefs. Enjoy the unmistakable aroma of grilled miso.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "白味噌につけ込んだ銀鱈を、\n当店の職人が絶妙に焼き上げました。\n焼けた味噌の香ばしさをご堪能頂けます。",
+   "occurrences": 1
+  },
+  "We fancy this a festival dish 'ere in Tosa. A full plate a' sushi and sashimi to gob down on.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祭などの時によく食べられる土佐料理です。\n大きな皿の上に刺身や寿司など\nたくさんの料理が乗っています。",
+   "occurrences": 1
+  },
+  "This sake passed through the lips of beautiful women, who then spit it out. Don'tcha wanna taste it now?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "絶世の美女が丁寧に噛んで作った酒や。\nそりゃもう、えらいべっぴんさんやで。\nそりゃ飲みたくなるやろ。",
+   "occurrences": 1
+  },
+  "This dish's spiciness maximizes the taste of the meat and the soba--as well as your appetite. A very popular spicy dish.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肉とおそばの魅力を最大化する香辛料が\n食欲をかき立てる、旨辛仕立ての人気商品です。",
+   "occurrences": 1
+  },
+  "Packed up meat and some other doodads, rolled inta balls. It's got nutrients, so it gives ya strength!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肉とかを丸めて団子状にしたものや。\n体にええものばかり入れてるから、力つくで。",
+   "occurrences": 1
+  },
+  "Our top-of-the-line shippoku platter. Enjoy the luxurious flavors prepared with the finest ingredients.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肥前名物の卓袱料理、その最高級のお膳です。\nあらゆる高級な素材と技術を尽くした\n贅沢な味をお楽しみ下さい。",
+   "occurrences": 1
+  },
+  "Fermented skipjack innards sound tasty enough for ye? You'll end up wolfin' it down like a thief in the night, I'll bet.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "色々な魚を使った塩辛です。\nその名の通り、どんどんお酒が進むので\n盗まれる様にお酒がなくなっていきますよ。",
+   "occurrences": 1
+  },
+  "Noodles made by boiling powdered kudzu root, covered in dew. Valued for its smooth texture and medicinal benefits.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "葛の根の粉を水で溶いて加熱したものです。\n麺の様に切って蜜を掛けてあります。\nつるつるした食感と薬効で重宝されています。",
+   "occurrences": 2
+  },
+  "Noodles made a' powdered kudzu root, boiled in water. This'll cure any ill that befalls ye, I hear.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "葛の根の粉を水で溶いて加熱したものです。\n麺の様に切られて蜜を掛けてます。\nつるつるした食感と薬効で重宝されてますよ。",
+   "occurrences": 1
+  },
+  "A sake popular in Satsuma, made from their local sweet potatoes. Has a distinct smell and is very strong.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薩摩の方で良く飲まれているお酒です。\n薩摩芋から作られて、独特の香りがあります。\n非常に強いお酒です。",
+   "occurrences": 1
+  },
+  "Ya ain't scared 'cause they're bugs, are ya!? They're healthy! And they crisp up real nice, so they smell great!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "虫やからって怖がらんでもええで。\nとにかく栄養があるんやて。\nこんがり焼いてあるから、香ばしいで。",
+   "occurrences": 1
+  },
+  "Grape wine popular with Westerners. The taste supposedly improves with age.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋で好んで飲まれているというお酒です。\n葡萄（ぶどう）から作られるもので、\n歳を重ねるほどうまくなるといいます。",
+   "occurrences": 1
+  },
+  "Our katsudon takes inspiration from Western-style\nbreaded cutlets, as does the curry sauce it's served with.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋の調理法を取り入れた“かつ丼”を土台に、\n西洋で流行りのカレーソースをあわせた逸品です。",
+   "occurrences": 1
+  },
+  "Our soba is the embodiment of \"Japanese spirit, Western technique.\"\nSimply top the noodles with fried meat and potatoes, and indulge.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋の調理法を取り入れた当店独自のおそばです。\nおそばの上に乗せたジャガイモと肉の揚げ物と\nあわせてご賞味ください。",
+   "occurrences": 1
+  },
+  "Our signature bowl, featuring a fried pork, a bed of rice, egg, and special sauce. Prepared with a Western technique.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "西洋の調理法を取り入れた当店独自の丼です。\n豚の一枚肉をからっと揚げたかつに\n特製だれと玉子でふんわり作られた看板商品です。",
+   "occurrences": 1
+  },
+  "Ya make it by addin' grated yam to sake. Ma always gave this to us when we were sick as kids, the old drunk.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "酒にすり下ろした山芋を入れたものや。\n滋養にいいとか、病に効くとか……\nとりあえず、注文してもらえんやろか。",
+   "occurrences": 1
+  },
+  "Kamatora": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "釜寅",
+   "occurrences": 3
+  },
+  "A dozen fresh ingredients adorn this luxurious rice bowl.\nAccept no imitations!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１２種類の新鮮なねたを豪華に盛り付けた\n他には真似できない贅沢な丼です。",
+   "occurrences": 1
+  },
+  "Three-flavored dango. It's made from rice so it's quite filling.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "３種類の味が楽しめるお団子です。\nお米から作られるので腹持ちもいいですよ。",
+   "occurrences": 2
+  },
+  "When worn, this pin prevents exhaustion while dancing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "タフネスピンズ。\n身に着けていればダンスで疲れることがなくなる。",
+   "occurrences": 1
+  },
+  "The ultimate symbol of strength. By wearing this you make a bold claim, and enemies will flock to you to challenge it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "チャンピオンの指輪。はめたら最強を名乗るに\n等しい行為。敵の攻撃が激化しても文句は言えない。",
+   "occurrences": 1
+  },
+  "If a fight is won while this binding is worn, something lucky is supposed to happen.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "七福神のサラシだ。これを巻いて喧嘩を乗り越えると\n何らかの幸運が訪れるらしい。",
+   "occurrences": 2
+  },
+  "This belt grants you the strength to lift heavy enemies as if they weighed nothing at all.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "不動明王のベルト。\n重たい敵も軽々と投げられるご利益があるらしい。",
+   "occurrences": 1
+  },
+  "This unusual ring will make your attacks stronger as your health is depleted.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "倍返しのリング。\n体力が減るほど攻撃力が増す不思議な力がある。",
+   "occurrences": 1
+  },
+  "Legend tells of a dragon who tore off his scale and gave it to a mortal in thanks for removing the dragon's curse. The scale is very sharp!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "呪いを解いた礼として自らの鱗を剥ぎとって与えたという品。\n鋭利な縁は全てのものを断ち切るという。",
+   "occurrences": 1
+  },
+  "A sinister sword that is always dripping with blood. Ability: Yo. Drains the health of enemies while attacking.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "常に血が滴っている不吉な刀だ\n能力：妖　攻撃時敵の体力を吸収",
+   "occurrences": 1
+  },
+  "These earrings are full of energy and pathos which will feed your spirit, making you less likely to fall while dancing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "情熱のイヤリング。　熱い激が込められている。\nこれを身に着けていればダンスで闘志が失われにくくなる。",
+   "occurrences": 2
+  },
+  "This kit features a group of highly influential troopers that have traveled through space, time, and reality to serve the Shinsengumi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "時空を超えて幕末に迷い込んだ\n強力なインフルエンサー隊士のつめ合わせ。",
+   "occurrences": 1
+  },
+  "Through clever trickery, this tail was taken from a wicked dragon. Folks say it can tear through stone as if it were paper.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "邪悪な龍から知恵比べで騙し取ったという尻尾。\n振れば岩を羊皮紙のように切り裂いたという。",
+   "occurrences": 1
+  },
+  "This metal roof ornament depicts a shachihoko, a legendary creature with the head of a tiger and body of a carp. It can do serious damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金でできたしゃちほこだ。\nこんなもので殴られてはひとたまりもないだろう。",
+   "occurrences": 1
+  },
+  "This unusual pistol never runs out of bullets.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "黄金銃だ。弾が尽きない謎の拳銃だ。",
+   "occurrences": 1
+  },
+  "This dragon seal once belonged to a Chinese emperor. Its aura is brimming with great power.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍の印章。古代中国の皇帝の所持品だったらしい。\nただならぬ威厳に満ち溢れている。",
+   "occurrences": 1
+  },
+  "Mode": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "モード",
+   "occurrences": 1
+  },
+  "minutes": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "分",
+   "occurrences": 1
+  },
+  "Give Up": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "参った",
+   "occurrences": 1
+  },
+  "Concede": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "投了",
+   "occurrences": 1
+  },
+  "10 Seconds Remaining": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "残り十秒",
+   "occurrences": 1
+  },
+  "Check": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "王手",
+   "occurrences": 1
+  },
+  "Challenge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "試練踏破",
+   "occurrences": 1
+  },
+  "Challenge Mode": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "試練踏破モード",
+   "occurrences": 1
+  },
+  "Checkmate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "詰み",
+   "occurrences": 1
+  },
+  "Sp": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "超",
+   "occurrences": 1
+  },
+  "Ranked Mode": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "順位戦モード",
+   "occurrences": 1
+  },
+  "Open the <%download_content%> portal to acquire additional content.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<%download_content%>の販売ページにアクセスすることができます。",
+   "occurrences": 1
+  },
+  "Start game with saved data from the PlayStation®4 version of Like a Dragon: Ishin!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "PlayStation®4版「龍が如く 維新！ 極」のセーブデータから\n引き継いでゲームを始めます。",
+   "occurrences": 1
+  },
+  "Start the game from where you saved.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "セーブした続きからゲームを始めます。",
+   "occurrences": 1
+  },
+  "Explore the world without following the story.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "メインストーリーのシナリオに関係なく\n自由に幕末の世界を探索できます。",
+   "occurrences": 1
+  },
+  "Display license information.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ライセンス表記文を表示します。",
+   "occurrences": 1
+  },
+  "Change Settings.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "各種設定を変更します。",
+   "occurrences": 1
+  },
+  "View and change settings.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "各種設定項目を変更できます。\n",
+   "occurrences": 1
+  },
+  "Fight the rogues that infest the city at night, and when you're done with them, the powerful foe Okada Izo as well.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "夜の街にはびこる悪党や、その先にいる\n強敵「岡田以蔵」との戦闘を楽しむことができます。",
+   "occurrences": 1
+  },
+  "Be a part of a Shinsengumi officers meeting; enjoy walking around the town of Kyo and engage in battles. ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組の幹部会をはじめ、「京」の街や戦闘を\n楽しむことができます。",
+   "occurrences": 1
+  },
+  "Start the game from the beginning.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最初からゲームを始めます。",
+   "occurrences": 1
+  },
+  "Only those who have mastered the art of fighting can attempt these challenges.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘いを極めし者だけが挑戦できるモードです。\n全ての闘いを制覇すると、珍しい道具が手に入ります。",
+   "occurrences": 1
+  },
+  "Tachibanagumi HQ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お尋ね者受付",
+   "occurrences": 4
+  },
+  "Room": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "とある座敷",
+   "occurrences": 2
+  },
+  "Ryotei": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "とある料亭",
+   "occurrences": 3
+  },
+  "Study": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "とある書斎",
+   "occurrences": 2
+  },
+  "Residence": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "とある邸宅",
+   "occurrences": 2
+  },
+  "Nichibuza": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "にちぶ座",
+   "occurrences": 4
+  },
+  "William's Hideout": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムの隠れ家",
+   "occurrences": 2
+  },
+  "Dungeon Grounds": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダンジョン狩場",
+   "occurrences": 2
+  },
+  "Ichikura General Goods": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "万　一蔵屋",
+   "occurrences": 4
+  },
+  "Gojo Bridge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "五条大橋",
+   "occurrences": 2
+  },
+  "Kyo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京都",
+   "occurrences": 2
+  },
+  "To the Kyo Palace": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京都御所へ",
+   "occurrences": 2
+  },
+  "To Fushimi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見へ",
+   "occurrences": 2
+  },
+  "Fushimi Ichibangai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見一番街",
+   "occurrences": 2
+  },
+  "North Fushimi Ichibangai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見一番街北",
+   "occurrences": 2
+  },
+  "South Fushimi Ichibangai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見一番街南",
+   "occurrences": 2
+  },
+  "Yagi Residence": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "八木邸",
+   "occurrences": 2
+  },
+  "Dejima": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出島",
+   "occurrences": 2
+  },
+  "Shijo Bridge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条大橋",
+   "occurrences": 2
+  },
+  "Shijo Street": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条通り",
+   "occurrences": 4
+  },
+  "East Shijo Street": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条通り東",
+   "occurrences": 2
+  },
+  "West Shijo Street": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条通り西",
+   "occurrences": 2
+  },
+  "Shijo Street Checkpoint": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "四条通り関所前",
+   "occurrences": 2
+  },
+  "Tosa (Fortress)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐(要塞)",
+   "occurrences": 2
+  },
+  "Ship to Tosa": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐行きの船",
+   "occurrences": 2
+  },
+  "Castle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "城",
+   "occurrences": 2
+  },
+  "Mibu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "壬生",
+   "occurrences": 2
+  },
+  "Castle Keep": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "天守閣",
+   "occurrences": 2
+  },
+  "Magistrate's Office": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奉行所",
+   "occurrences": 2
+  },
+  "Teramachi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寺町",
+   "occurrences": 2
+  },
+  "Teramachi Street": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寺町通",
+   "occurrences": 2
+  },
+  "South Teramachi Street": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寺町通南",
+   "occurrences": 2
+  },
+  "Yashikimachi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "屋敷町",
+   "occurrences": 2
+  },
+  "North Yashikimachi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "屋敷町北",
+   "occurrences": 2
+  },
+  "South Yashikimachi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "屋敷町南",
+   "occurrences": 2
+  },
+  "Sannocho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山王町",
+   "occurrences": 2
+  },
+  "Mountain Path (Tosa)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山道(土佐)",
+   "occurrences": 2
+  },
+  "Imperial Palace": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "御所前",
+   "occurrences": 2
+  },
+  "Shinmachi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新町",
+   "occurrences": 2
+  },
+  "Shinsengumi Barracks Grounds": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組屯所　境内",
+   "occurrences": 2
+  },
+  "Shinsengumi Barracks Main Building": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組屯所　本堂",
+   "occurrences": 2
+  },
+  "Shinsengumi Barracks Warehouse": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組屯所　蔵",
+   "occurrences": 2
+  },
+  "Shinsengumi Barracks Bell Tower": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組屯所　鐘突堂",
+   "occurrences": 2
+  },
+  "Shinsengumi Barracks Gate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組屯所　門",
+   "occurrences": 2
+  },
+  "Shinsengumi Barracks Captains' Quarters": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組屯所　隊長棟",
+   "occurrences": 2
+  },
+  "To the Shinsengumi barracks": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組屯所へ",
+   "occurrences": 2
+  },
+  "Forest Road": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "林道",
+   "occurrences": 2
+  },
+  "To the forest road": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "林道へ",
+   "occurrences": 2
+  },
+  "Umekojicho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "梅小路町",
+   "occurrences": 2
+  },
+  "North Umekojicho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "梅小路町北",
+   "occurrences": 2
+  },
+  "South Umekojicho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "梅小路町南",
+   "occurrences": 2
+  },
+  "East Umekojicho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "梅小路町東",
+   "occurrences": 2
+  },
+  "West Umekojicho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "梅小路町西",
+   "occurrences": 2
+  },
+  "Rakugai Arms Dealer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武器屋　洛外",
+   "occurrences": 4
+  },
+  "Mukurogai Arms Dealer": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武器屋　骸街",
+   "occurrences": 4
+  },
+  "Takechi's Lodging": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市のねぐら",
+   "occurrences": 2
+  },
+  "House": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "民家",
+   "occurrences": 6
+  },
+  "Edo Castle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "江戸城",
+   "occurrences": 2
+  },
+  "Edo Castle (Room)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "江戸城(部屋)",
+   "occurrences": 2
+  },
+  "Edo Castle (Gate)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "江戸城(門)",
+   "occurrences": 2
+  },
+  "To Edo Castle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "江戸城へ",
+   "occurrences": 2
+  },
+  "Ikedaya First Floor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "池田屋　一階",
+   "occurrences": 2
+  },
+  "Ikedaya Third Floor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "池田屋　三階",
+   "occurrences": 2
+  },
+  "Ikedaya Second Floor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "池田屋　二階",
+   "occurrences": 2
+  },
+  "Ikedaya Entrance": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "池田屋　玄関",
+   "occurrences": 2
+  },
+  "Kawaramachi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "河原町",
+   "occurrences": 2
+  },
+  "To Rakunai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛内へ",
+   "occurrences": 4
+  },
+  "To Rakugai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外へ",
+   "occurrences": 2
+  },
+  "Rakugai (Kurogane Smithing)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外（鍛冶屋前）",
+   "occurrences": 1
+  },
+  "Rakugai (Kamo River)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外（鴨川前）",
+   "occurrences": 1
+  },
+  "To the sea fishing spot": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "海釣り場へ",
+   "occurrences": 2
+  },
+  "Kiyomizu Temple": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "清水寺",
+   "occurrences": 2
+  },
+  "To Kiyomizu Temple": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "清水寺へ",
+   "occurrences": 2
+  },
+  "Karasuma Street": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "烏丸通",
+   "occurrences": 2
+  },
+  "South Karasuma Street": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "烏丸通南",
+   "occurrences": 2
+  },
+  "Jail": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "牢屋",
+   "occurrences": 2
+  },
+  "Ikoma Store": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "生駒屋",
+   "occurrences": 2
+  },
+  "To Gion": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祗園へ",
+   "occurrences": 2
+  },
+  "Shinmeicho": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "神明町",
+   "occurrences": 2
+  },
+  "Dock": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "船着き場",
+   "occurrences": 2
+  },
+  "Kuramachi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "蔵町",
+   "occurrences": 2
+  },
+  "Satsuma Consulate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "薩摩藩邸",
+   "occurrences": 2
+  },
+  "Urayama Company Hideout": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "裏山社中　隠れ家",
+   "occurrences": 2
+  },
+  "Omiya": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "近江屋",
+   "occurrences": 2
+  },
+  "To the fishing spot": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "釣り場へ",
+   "occurrences": 2
+  },
+  "Gindaco": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銀だこ",
+   "occurrences": 2
+  },
+  "Checkpoint": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "関所",
+   "occurrences": 2
+  },
+  "To Mukurogai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街へ",
+   "occurrences": 2
+  },
+  "Mukurogai First Floor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街一階",
+   "occurrences": 1
+  },
+  "Mukurogai Second Floor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街２階",
+   "occurrences": 2
+  },
+  "Mukurogai Third Floor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街３階",
+   "occurrences": 2
+  },
+  "Kochi Castle (Room)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "高知城(一室)",
+   "occurrences": 2
+  },
+  "Kochi Castle (Garden)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "高知城(庭)",
+   "occurrences": 2
+  },
+  "Kamo River Shrine": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鴨川大社",
+   "occurrences": 2
+  },
+  "Mahjong Spot": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "麻雀屋",
+   "occurrences": 2
+  },
+  "Sakamoto Residence": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍馬の別宅",
+   "occurrences": 2
+  },
+  "Sakamoto Resident (Outside)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍馬の家(外)",
+   "occurrences": 2
+  },
+  "To Ryoma's house": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍馬邸へ",
+   "occurrences": 2
+  },
+  "If both<Color:255,255,150,255> 瞬 <Color:255,255,255,255>and <Color:255,255,150,255> 速 <Color:255,255,255,255>exist, only <Color:255,255,150,255> 瞬 <Color:255,255,255,255>will be valid.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Color:255,255,150,255>瞬<Color:255,255,255,255>と<Color:255,255,150,255>速<Color:255,255,255,255>がある場合、<Color:255,255,150,255>瞬<Color:255,255,255,255>のみ有効",
+   "occurrences": 1
+  },
+  "No Soulful Strike since affixed to <Sign:52>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:52>確定のため魂の一打なし",
+   "occurrences": 1
+  },
+  "The <Sign:{d_value}> seal has been imbued.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "<Sign:{d_value}>の印が付与された。",
+   "occurrences": 1
+  },
+  "{d_value} hits": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{d_value}発",
+   "occurrences": 1
+  },
+  "The attack of {s_value00} increased by {d_value01}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value00}の攻撃力が{d_value01}上がった。",
+   "occurrences": 2
+  },
+  "The defense of {s_value00} increased by {d_value01}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value00}の防御力が{d_value01}上がった。",
+   "occurrences": 2
+  },
+  "Sent {s_value} to storage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}を倉庫に送った。",
+   "occurrences": 2
+  },
+  "The seal on {s_value} has changed.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}の印が変化した。",
+   "occurrences": 1
+  },
+  "The seal on {s_value} did not change.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}の印は変化しなかった。",
+   "occurrences": 1
+  },
+  "You failed to upgrade {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}の格上げに失敗した。",
+   "occurrences": 1
+  },
+  "{s_value} was successfully upgraded.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}の格上げに成功した。",
+   "occurrences": 1
+  },
+  "You obtained {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}を入手した。",
+   "occurrences": 1
+  },
+  "We're gonna fuse this with a new ability. Use n\\<Color:255,255,150,255><Sign:45>to change the enhancements.<Color:Default>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「合成」を行い、武具に新しい能力を付与するぞ。\n<Color:255,255,150,255><Sign:45>で強化内容を変更。<Color:Default>",
+   "occurrences": 2
+  },
+  "We're gonna upgrade this to raise its grade by 1. Use n\\<Color:255,255,150,255><Sign:45>to change the enhancements.<Color:Default>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「格上げ」を行い、武具の格を１つ上昇させるぞ。\n<Color:255,255,150,255><Sign:45>で強化内容を変更。<Color:Default>",
+   "occurrences": 2
+  },
+  "We're gonna temper this to improve its attack. Use \n<Color:255,255,150,255><Sign:45>to change the enhancements.<Color:Default>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「鍛錬」を行い、武具の攻撃力を上昇させるぞ。\n<Color:255,255,150,255><Sign:45>で強化内容を変更。<Color:Default>",
+   "occurrences": 1
+  },
+  "We're gonna temper this to improve its defense. Use n\\<Color:255,255,150,255><Sign:45>to change the enhancements.<Color:Default>": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「鍛錬」を行い、武具の防御力を上昇させるぞ。\n<Color:255,255,150,255><Sign:45>で強化内容を変更。<Color:Default>",
+   "occurrences": 1
+  },
+  "There will be no effect on this equipment.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この武具では効果を発揮しません",
+   "occurrences": 1
+  },
+  "I can't give this one any abilities yet. Bring the grade up to Good to gain a slot for fusion.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これにはまだ能力を付与できねぇな。\n良業物まで格上げすれば印の合成枠が増えるぞ。",
+   "occurrences": 1
+  },
+  "Our smiths don't have the skill to make this...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これを作るには刀匠の腕がたりねぇな……",
+   "occurrences": 1
+  },
+  "This can't be enhanced any further.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これ以上の強化はできねぇな。",
+   "occurrences": 1
+  },
+  "I can't give this one any more abilities.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これ以上は能力を付与できねぁな。",
+   "occurrences": 1
+  },
+  "This can't be tempered anymore.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "これ以上は鍛えられねぇようだな。",
+   "occurrences": 1
+  },
+  "Looks like you can't carry any more.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "それ以上は持てねぇようだな。",
+   "occurrences": 1
+  }
+ }
+}

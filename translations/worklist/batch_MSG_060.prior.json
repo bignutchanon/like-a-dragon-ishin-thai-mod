@@ -1,0 +1,72 @@
+{
+ "batch": "MSG_060",
+ "readme": "คำที่ 'เคาะไปแล้ว' ในก้อนก่อนหน้า และโผล่อยู่ในสตริงของก้อนนี้ ดึงจาก master_th.json อัตโนมัติ",
+ "how_to_use": {
+  "locked_names_places": "คำล็อกจาก name_locks.json / place_locks.json — **บังคับ** ต้องสะกดตามนี้เป๊ะ",
+  "terms": "ชื่อเฉพาะ/วลี — ใช้รูปนี้เท่านั้น ห้ามตั้งใหม่ ถ้าเห็นว่ารูปเดิมผิดจริง ให้รายงาน lead อย่าเปลี่ยนเอง",
+  "names_from_master": "ชื่อเฉพาะที่ master เคยเคาะรูปไทยไว้แล้ว แต่ไม่เคยเป็นคีย์สั้น จึงไม่เข้า lexicon — ขุดด้วยการหาสตริงไทยร่วมของทุกคู่ที่ EN มีชื่อนั้น **ใช้รูปนี้ ห้ามตั้งใหม่**",
+  "single_words": "คำเดี่ยว — เป็นคำแปลของ **บริบทอื่น** อาจไม่ตรงบริบทก้อนนี้ (เช่น Result = 'ผลการซื้อขาย' มาจากหน้าร้านค้า) ให้ใช้เมื่อบริบทตรงกันเท่านั้น"
+ },
+ "locked_names_places": {
+  "Saito Hajime": "ไซโต ฮาจิเมะ",
+  "Ginryu Dojo": "สำนักกินริว",
+  "Teradaya": "เทราดายะ",
+  "Fushimi": "ฟุชิมิ",
+  "Saito": "ไซโต",
+  "Dojo": "สำนักดาบแห่งหนึ่ง"
+ },
+ "names_from_master": {
+  "Dancer": "ท่าระบำอลวน",
+  "Hajime": "ฮาจิเมะ",
+  "Komaki": "โคมากิ",
+  "Munemitsu": "มุเนมิตสึ"
+ },
+ "terms": {
+  "Splendid Skill: Lightning's Glory": "ท่าพิสดาร: ดาบสายฟ้า",
+  "Splendid Skill: Moonlit Sake": "ท่าพิสดาร: สุราชมจันทร์",
+  "Splendid Skill: Morning Mist": "ท่าพิสดาร: ดาบสายหมอก",
+  "Splendid Skill: Ghostly Wind": "ท่าพิสดาร: สายลมวิญญาณ",
+  "Komaki Munemitsu": "โคมากิ มุเนมิตสึ",
+  "William Bradley": "วิลเลียม แบรดลีย์",
+  "Thunder Rounds": "กระสุนสายฟ้า",
+  "Poison Rounds": "กระสุนพิษ",
+  "Flash Rounds": "กระสุนแสงวาบ",
+  "Acid Rounds": "กระสุนกรด",
+  "Wild Dancer": "ท่าระบำอลวน"
+ },
+ "single_words": {
+  "Abilities": "ความสามารถ",
+  "All": "ทั้งหมด",
+  "Although,": "แต่ทว่า...",
+  "Company": "มิตรสหาย",
+  "Default": "ค่าเริ่มต้น",
+  "Draw": "เสมอ",
+  "Easy": "ง่าย",
+  "Fine": "ประณีต",
+  "First": "หนึ่ง",
+  "Ginryu": "กินริว",
+  "Good": "ดี",
+  "Great": "ดีเยี่ยม",
+  "Hard": "ยาก",
+  "Heinosuke": "เฮโนสุเกะ",
+  "Leave": "ออก",
+  "Load": "โหลด",
+  "Negotiations": "การเจรจา",
+  "Obtained": "ได้รับ",
+  "Rounds": "จำนวนรอบ",
+  "Save": "บันทึก",
+  "Shinsengumi": "ชินเซ็นกุมิ",
+  "Skills": "ทักษะ",
+  "Solid": "มือฉมัง",
+  "Special": "พิเศษ",
+  "Standard": "มาตรฐาน",
+  "Superb": "ยอดเยี่ยม",
+  "Swordsman": "ท่าดาบเดี่ยว",
+  "Take": "รับ",
+  "Talk": "พูดคุย",
+  "Truth": "ความจริง",
+  "Yes": "ใช่",
+  "place": "อันดับ",
+  "times": "ครั้ง"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "batch": "MSG_019",
+ "readme": "คำที่ 'เคาะไปแล้ว' ในก้อนก่อนหน้า และโผล่อยู่ในสตริงของก้อนนี้ ดึงจาก master_th.json อัตโนมัติ",
+ "how_to_use": {
+  "locked_names_places": "คำล็อกจาก name_locks.json / place_locks.json — **บังคับ** ต้องสะกดตามนี้เป๊ะ",
+  "terms": "ชื่อเฉพาะ/วลี — ใช้รูปนี้เท่านั้น ห้ามตั้งใหม่ ถ้าเห็นว่ารูปเดิมผิดจริง ให้รายงาน lead อย่าเปลี่ยนเอง",
+  "single_words": "คำเดี่ยว — เป็นคำแปลของ **บริบทอื่น** อาจไม่ตรงบริบทก้อนนี้ (เช่น Result = 'ผลการซื้อขาย' มาจากหน้าร้านค้า) ให้ใช้เมื่อบริบทตรงกันเท่านั้น"
+ },
+ "locked_names_places": {
+  "North Fushimi Ichibangai": "ฟุชิมิ อิจิบังไกเหนือ",
+  "Fushimi Ichibangai": "ฟุชิมิ อิจิบังไก",
+  "North Umekojicho": "อุเมะโคจิโจเหนือ",
+  "Katsura Kogoro": "คัตสึระ โคโงโร",
+  "Tachibanagumi": "ทาจิบานางุมิ",
+  "Yashikimachi": "ยาชิกิมาจิ",
+  "Ginryu Dojo": "สำนักกินริว",
+  "Kawaramachi": "คาวาระมาจิ",
+  "Umekojicho": "อุเมะโคจิโจ",
+  "Mukurogai": "มุคุโรไก",
+  "Shikokuya": "ชิโกกุยะ",
+  "Sannocho": "ซันโนโจ",
+  "Teradaya": "เทราดายะ",
+  "Katsura": "คัตสึระ",
+  "Fushimi": "ฟุชิมิ",
+  "Rakunai": "ราคุไน",
+  "Saito": "ไซโต",
+  "Jozo": "โจโซ",
+  "Dojo": "สำนักดาบแห่งหนึ่ง",
+  "Izo": "อิโซ"
+ },
+ "terms": {
+  "Fine Horse's Mane": "แผงคอม้าชั้นดี",
+  "Fine Silk Fabric": "ผ้าไหมเนื้อดี",
+  "Courier's Parcel": "พัสดุของบุรุษไปรษณีย์",
+  "Beautiful Pelt": "ขนสัตว์สวยงาม",
+  "Beast's Tail": "หางสัตว์ร้าย",
+  "Crimson Bead": "ลูกปัดสีแดงเข้ม",
+  "Jozo Tengu": "นักบวชเท็งงุ",
+  "Wild Silk": "ไหมป่า",
+  "5000 mon": "5000 มอน",
+  "1 ryo": "1 เรียว"
+ },
+ "single_words": {
+  "*sigh*": "เฮ้อ...",
+  "All": "ทั้งหมด",
+  "Default": "ค่าเริ่มต้น",
+  "Fine": "ประณีต",
+  "Ginryu": "กินริว",
+  "Good": "ดี",
+  "Leave": "ออก",
+  "Many": "มาก",
+  "North": "เหนือ",
+  "Obtained": "ได้รับ",
+  "Pearl": "ไข่มุก",
+  "Shinsengumi": "ชินเซ็นกุมิ",
+  "Take": "รับ",
+  "Yes": "ใช่",
+  "Yunosuke": "ยุโนสุเกะ",
+  "mon": "มอน",
+  "place": "อันดับ",
+  "ryo": "เรียว"
+ }
+}

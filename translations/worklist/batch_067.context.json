@@ -1,0 +1,3738 @@
+{
+ "batch": "batch_067.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Awful, jus' awful...": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いややわぁ……",
+   "occurrences": 1
+  },
+  "Y'all better scram!": {
+   "speakers": [
+    {
+     "name": "Scary Man",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おまえら　はよ失せろや！",
+   "occurrences": 1
+  },
+  "Feh!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "キャッ",
+   "occurrences": 1
+  },
+  "Yer in the way! This ain't no show!": {
+   "speakers": [
+    {
+     "name": "Scary Man",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おまんら邪魔じゃ！　見世物じゃないがぞ！",
+   "occurrences": 1
+  },
+  "How scary!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "怖いわぁ",
+   "occurrences": 1
+  },
+  "Ahhh!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    },
+    {
+     "name": "id:joho",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [
+    6
+   ],
+   "ja": "イャッ",
+   "occurrences": 4
+  },
+  "Just awful!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "こわいわぁ　堪忍しておくれやす",
+   "occurrences": 1
+  },
+  "Y'all better move it! Someone's gonna get hurt!": {
+   "speakers": [
+    {
+     "name": "Scary Man",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おまえら　はよ消えろや！　痛い目みたいんか！",
+   "occurrences": 1
+  },
+  "Ah!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "あぁー",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "Please, no...": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんま堪忍やで……",
+   "occurrences": 1
+  },
+  "Yer in the damn way! I'll bowl through all ya!": {
+   "speakers": [
+    {
+     "name": "Scary Man",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "おまえら邪魔や！　痛い目見さすぞ！",
+   "occurrences": 1
+  },
+  "Nooo!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "いやぁ",
+   "occurrences": 4,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "What even...": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんやのもう……",
+   "occurrences": 1
+  },
+  "Oi! Piss off, 'less you want some!": {
+   "speakers": [
+    {
+     "name": "Scary Man",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なに見ゆうがじゃ！　殺されたいがか！",
+   "occurrences": 1
+  },
+  "That's buggered.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "と　とんでもない……",
+   "occurrences": 1
+  },
+  "All right, have it your way!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やめてや　もう……",
+   "occurrences": 1
+  },
+  "Whatter ye lookin' at!? Scram or get slain!": {
+   "speakers": [
+    {
+     "name": "Scary Man",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "お前ら何みてんのや！　はよ消えんと殺すぞ！",
+   "occurrences": 1
+  },
+  "Eeeeee!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ひぃいいいい",
+   "occurrences": 1
+  },
+  "Jus' terrible, this is.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "怖いわぁ……",
+   "occurrences": 1
+  },
+  "So—Sorry...": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ご　ごめんなさい……",
+   "occurrences": 1
+  },
+  "Time ta skedaddle.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はよ行こ……",
+   "occurrences": 1
+  },
+  "No goin' near that'un.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "近づかんほうがええな……",
+   "occurrences": 1
+  },
+  "Best to steer clear, boyo.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "関わらんほうがよさそやな",
+   "occurrences": 1
+  },
+  "Don't look 'im in his eyes.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "関わらんほうがよさそうや",
+   "occurrences": 1
+  },
+  "Right, on my way, then.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "よそ行こ……",
+   "occurrences": 1
+  },
+  "I didn't see nothin'.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "目ぇあわさん方がええ……",
+   "occurrences": 1
+  },
+  "Should get out afore they notice us.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "目つけられる前に行こうか……",
+   "occurrences": 1
+  },
+  "That's jes' awful.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "怖いなぁ　はよ帰ろ",
+   "occurrences": 1
+  },
+  "Mosey on, now.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "とばっちり食うまえに行こか……",
+   "occurrences": 1
+  },
+  "Spooky!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "怖いわぁさっさと行こ……",
+   "occurrences": 1
+  },
+  "Not my business!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "関わらんとこ……",
+   "occurrences": 1
+  },
+  "Bloody hell.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "近づかんとこ",
+   "occurrences": 1
+  },
+  "Agh, sod this.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "関わらんとこ",
+   "occurrences": 1
+  },
+  "Whatcha gonna do?": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いややわぁ　はよ　よそ行こ",
+   "occurrences": 1
+  },
+  "I'm leavin'!": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "近づかんとこう",
+   "occurrences": 1
+  },
+  "Bad parta town, this.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ここにおらん方が良さそうやわ……",
+   "occurrences": 1
+  },
+  "Eyes screwed tight on the ground, right?": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "目ぇ合ぅたらなにされるか……",
+   "occurrences": 1
+  },
+  "No good comes from gettin' involved.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "見ててもええことなさそ……",
+   "occurrences": 1
+  },
+  "Ma used ta say, \"Leave well enough alone.\"": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "見よってもえいことなさそう",
+   "occurrences": 1
+  },
+  "Better hightail it.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "目ぇつけられる前に行こ……",
+   "occurrences": 1
+  },
+  "Keep ye distance.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あぶないわぁ　ここにおったら何されるか……",
+   "occurrences": 1
+  },
+  "Oughta be headin' home.": {
+   "speakers": [
+    {
+     "name": "Onlooker",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はよ帰ろ",
+   "occurrences": 1
+  },
+  "Hey! You! Samurai-san!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あっ　そこの！　お侍さん！",
+   "occurrences": 1
+  },
+  "Pleading Citizen": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "助けを求める町人",
+   "occurrences": 0
+  },
+  "You're Shinsengumi, ain'tcha!?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あっ　そこの新選組の！",
+   "occurrences": 1
+  },
+  "Wait, please!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "待ってください！",
+   "occurrences": 1
+  },
+  "'Scuse me!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "ちょぉすんません！",
+   "occurrences": 2
+  },
+  "Look at that! That, over there!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あれです！　あれ！",
+   "occurrences": 1
+  },
+  "Take a look, will ya!?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あそこ見てくれまへんか？",
+   "occurrences": 1
+  },
+  "Can't ya help us out!?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "助けてくれまへんやろか？",
+   "occurrences": 1
+  },
+  "There're some scary folks 'round that way, makin' trouble!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あそこで揉め事おきてて　怖い人に囲まれとる人が……",
+   "occurrences": 1
+  },
+  "Somebody strong has ta step in!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "アンタさんみたいに強そうな人やったら　きっと何とかしてくれると思て……",
+   "occurrences": 1
+  },
+  "Please, help 'em out!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あの人　助けたってください　お願いします",
+   "occurrences": 1
+  },
+  "I swear—what's that sword even fer!?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんでや……　その刀は飾りか",
+   "occurrences": 1
+  },
+  "Yer a Mibu Wolf! Do somethin'!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "壬生狼のくせに……　その刀は飾りか",
+   "occurrences": 1
+  },
+  "Samurai, sir!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そこのお侍さん！",
+   "occurrences": 1
+  },
+  "Ah, Shinsengumi!? Just what we need!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あ　新選組の！　丁度ええところに！",
+   "occurrences": 1
+  },
+  "Please, sir! Jus' a moment!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ　すんまへん！",
+   "occurrences": 1
+  },
+  "Look! Right there!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あれ！　あれや！",
+   "occurrences": 1
+  },
+  "Ya see what's happening!?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あそこ見てくれへんか！",
+   "occurrences": 1
+  },
+  "Think you could help 'em out?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょっと悪いんやけど　助けたってくれへんやろか？",
+   "occurrences": 1
+  },
+  "Those roughnecks're causin' a scene!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんか揉め事おきてて　怖い人らに絡まれとるもんがおるんです",
+   "occurrences": 1
+  },
+  "Someone with power needs ta take a stand here!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "こんな事　アンタさんみたいに強そな人にしか頼めまへん",
+   "occurrences": 1
+  },
+  "Please! Help us!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ　助けたってください",
+   "occurrences": 1
+  },
+  "Yer kiddin' me...": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あかんか……",
+   "occurrences": 1
+  },
+  "Damn the Mibu Wolves.": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "くそっ　所詮　壬生狼か……",
+   "occurrences": 1
+  },
+  "Pardon me! Buddy!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そこのお兄さん！",
+   "occurrences": 1
+  },
+  "You're in Shinsengumi colors!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あ　そこの新選組の方！",
+   "occurrences": 1
+  },
+  "Hey, wait a second!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ待って！",
+   "occurrences": 1
+  },
+  "Sir! Jus' a moment of your time!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あの　すんません！",
+   "occurrences": 1
+  },
+  "Look!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁあれ！",
+   "occurrences": 1
+  },
+  "Jus' spare a moment, if ya would!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あそこ見とておくれやす！",
+   "occurrences": 1
+  },
+  "Couldn't ya do somethin' 'bout this situation!?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんま申し訳ないんやけど　助けたってくれへんやろか？",
+   "occurrences": 1
+  },
+  "Them folks there're bein' harassed!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "絡まれたる人がいらはるんです",
+   "occurrences": 1
+  },
+  "Nobody else is comin' ta help!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お兄さんみたいな人にしか　頼めへんのです",
+   "occurrences": 1
+  },
+  "I'm beggin' ya!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ほんま　お願いします",
+   "occurrences": 1
+  },
+  "Sir! You're not jus' gonna walk away, are ya?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あの　ちょっと話きいておくれやす",
+   "occurrences": 1
+  },
+  "Goddamn Wolves do whatever they want...": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "所詮　壬生狼なんて……",
+   "occurrences": 1
+  },
+  "Oh! A samurai!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あっ　そこのお侍さん！",
+   "occurrences": 1
+  },
+  "Might you be Shinsengumi?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あ　そこの新選組の！",
+   "occurrences": 1
+  },
+  "A moment? Please?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁちょっと！",
+   "occurrences": 1
+  },
+  "Ya see that!?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ねぇあれ！",
+   "occurrences": 1
+  },
+  "Look what's goin' down!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あそこ見てくれやす！",
+   "occurrences": 1
+  },
+  "Could ya put a stop to it?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なあ　助けたってくれへんやろか？",
+   "occurrences": 1
+  },
+  "This sorta thing shouldn't be allowed!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "絡まれとる人がおるんです",
+   "occurrences": 1
+  },
+  "You could do somethin' about it, couldn't ya?": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あんたさんやったら何とかできはるやろ？",
+   "occurrences": 1
+  },
+  "Please!": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お願いしますわ",
+   "occurrences": 1
+  },
+  "Guess I was foolin' myself.": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あきまへんか",
+   "occurrences": 1
+  },
+  "Shinsengumi folk're no help at all.": {
+   "speakers": [
+    {
+     "name": "Pleading Citizen",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "新選組ちゃうの……",
+   "occurrences": 1
+  },
+  "Oh! Hold on!": {
+   "speakers": [
+    {
+     "name": "Child-Chasing Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もう！　ちょぉ待ってや！",
+   "occurrences": 1
+  },
+  "Child-Chasing Mother": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "子供を追う母親",
+   "occurrences": 0
+  },
+  "Where'd you run off to?": {
+   "speakers": [
+    {
+     "name": "Mother chasing after her child",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もー　どこ行ったんよ……",
+   "occurrences": 1
+  },
+  "Mother chasing after her child": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "子供を追う母親",
+   "occurrences": 0
+  },
+  "Made it all the way here...": {
+   "speakers": [
+    {
+     "name": "Child-Chasing Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あないなとこまで……",
+   "occurrences": 1
+  },
+  "C'mon! Just stay put!": {
+   "speakers": [
+    {
+     "name": "Child-Chasing Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ほら！　ちょぉ待って！",
+   "occurrences": 1
+  },
+  "Gah! This child!": {
+   "speakers": [
+    {
+     "name": "Child-Chasing Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もう！　どこ行ったん……",
+   "occurrences": 1
+  },
+  "How'd you get so far from me?": {
+   "speakers": [
+    {
+     "name": "Child-Chasing Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あないなとこまで行って……",
+   "occurrences": 1
+  },
+  "We havin' stewed fish tonight?": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "今日は魚の煮つけにすんの？",
+   "occurrences": 1
+  },
+  "Boy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "男の子",
+   "occurrences": 0
+  },
+  "Yep, that's the plan.": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "えぇ　そうやよ",
+   "occurrences": 1
+  },
+  "Boy's Mother": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "男の子の母親",
+   "occurrences": 0
+  },
+  "Yum! I'm excited!": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "そうかぁ　楽しみやんなぁ",
+   "occurrences": 1
+  },
+  "Heheh! Better not leave any leftovers, then!": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ふふ　美味しいの作るさかい　残さんと食べるんやで",
+   "occurrences": 1
+  },
+  "No ma'am!": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "わかってるって",
+   "occurrences": 1
+  },
+  "Are we havin' mixed rice fer supper?": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "今日の夕げ　かやくごはん？",
+   "occurrences": 1
+  },
+  "Mm-hmm.": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "うん　そうやで",
+   "occurrences": 1
+  },
+  "Oh boy! I love mixed rice!": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "やったぁ　大好物やねん",
+   "occurrences": 1
+  },
+  "I'll make it good, so be on your best behavior today.": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "美味しいの作るさかい　ちゃんとええ子にしときや",
+   "occurrences": 1
+  },
+  "I love stew! Can we have stew tonight?": {
+   "speakers": [
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "今日は煮物すんの？　うちめっちゃ好きやねん",
+   "occurrences": 1
+  },
+  "Girl": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "女の子",
+   "occurrences": 0
+  },
+  "Mm, sure.": {
+   "speakers": [
+    {
+     "name": "Girl's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (9 จุด)",
+   "chapters": [],
+   "ja": "ああ。頼む。",
+   "occurrences": 10
+  },
+  "Girl's Mother": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "女の子の母親",
+   "occurrences": 0
+  },
+  "You've been a good girl, you deserve it.": {
+   "speakers": [
+    {
+     "name": "Girl's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "美味しく作るからねぇ　ええ子にしとくんやで",
+   "occurrences": 1
+  },
+  "Whatcha buy, mom?": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なぁ　何買ぅたん？",
+   "occurrences": 1
+  },
+  "It's a secret...": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "内緒",
+   "occurrences": 1
+  },
+  "Again? You didn't spend too much, right? Grandma's gonna be upset again!": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "またぁ　余計なもん買ぅたんちゃうん？　ばあちゃんに嫌な顔されんで",
+   "occurrences": 1
+  },
+  "Heehee, good thing we don't have to tell her.": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ふふ　言わへんからええの　あんたも余計なこといいなや",
+   "occurrences": 1
+  },
+  "Hey, what'd ya get, mom?": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なぁなぁ　何買ぅたんよ？",
+   "occurrences": 1
+  },
+  "Tch, don't be so nosey.": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんでもええやろ",
+   "occurrences": 1
+  },
+  "Aw. I jus' don't want dad to get mad about yer spendin' again!": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "またぁ　そないにもの買ぅとったら　おとんに怒られんで",
+   "occurrences": 1
+  },
+  "That's why I'm not gonna tell him! And neither are you!": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "言わへんかったらええんよ　あんた余計なこといいなや",
+   "occurrences": 1
+  },
+  "Mama, what'd you buy in there?": {
+   "speakers": [
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ねぇ　さっき何買ぅたの？",
+   "occurrences": 1
+  },
+  "Something good. Something nice.": {
+   "speakers": [
+    {
+     "name": "Girl's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ええもんよ　ええもん",
+   "occurrences": 1
+  },
+  "What do ya mean? Is it somethin' ya can't say? Would dad be mad?": {
+   "speakers": [
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もう　余計なもん買ぅたんやろ？　おとん　またヘソ曲げるんちゃう？",
+   "occurrences": 1
+  },
+  "Dad won't be mad because he won't find out, will he?": {
+   "speakers": [
+    {
+     "name": "Girl's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "内緒にしとったらわからんやろ？　あんたも余計な事　言うたらあかんよ",
+   "occurrences": 1
+  },
+  "Well... not if ya buy me somethin' too.": {
+   "speakers": [
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "黙っとくからなんか買うてやー　なぁー",
+   "occurrences": 1
+  },
+  "'Ey, 'ey! Ma, buy me that!?": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なぁなぁ　あれ！　あれ買ぅてや！",
+   "occurrences": 1
+  },
+  "But why? I just bought you those bubbles earlier.": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんでよ　この前しゃぼん玉買うたばっかりやろ？",
+   "occurrences": 1
+  },
+  "I ain't got 'em no more. I lost 'em.": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あれもう無いねん　どっかいってしもうた",
+   "occurrences": 1
+  },
+  "Honestly. What a waste.": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちょぉ　何してんの　もったいないわぁ",
+   "occurrences": 1
+  },
+  "Aw, I'm sorry. But I'll take good care of whatcha buy me next!": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ごめんなさい　今度は大事にするから　なぁ",
+   "occurrences": 1
+  },
+  "Hey, can we get this?": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なぁ　あれ買ぅてくれへん？",
+   "occurrences": 1
+  },
+  "Oh, honey, I just bought you that toy windmill.": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あかん　あんた　この前風車買ったばっかりやないの",
+   "occurrences": 1
+  },
+  "Um, I dropped that somewhere.": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "male",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あれ　どっかいってもうた",
+   "occurrences": 1
+  },
+  "Really? *sigh* What am I gonna do with you?": {
+   "speakers": [
+    {
+     "name": "Boy's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "もう　何してんの～　買ったばっかりやったのに　勿体ないことして",
+   "occurrences": 1
+  },
+  "Sorry, mama.": {
+   "speakers": [
+    {
+     "name": "Boy",
+     "gender": "male",
+     "uses": 1
+    },
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "mixed",
+   "neutral": true,
+   "why_neutral": "ผู้พูดหลายคนคนละเพศใช้ข้อความเดียวกัน",
+   "chapters": [],
+   "ja": "ごめんなさい",
+   "occurrences": 2
+  },
+  "This is so pretty! Can we get this?": {
+   "speakers": [
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "あれええなぁ　なぁ買ぅてよぉ？",
+   "occurrences": 1
+  },
+  "Do you really need it? I just bought you origami paper.": {
+   "speakers": [
+    {
+     "name": "Girl's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんで？　あかんよ　この前千代紙買ぅたやない",
+   "occurrences": 1
+  },
+  "Yeah, but... I folded it all up.": {
+   "speakers": [
+    {
+     "name": "Girl",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "なんかどっかいってもうてん",
+   "occurrences": 1
+  },
+  "*sigh* I wish you'd learn how to make things last.": {
+   "speakers": [
+    {
+     "name": "Girl's Mother",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "female",
+   "neutral": false,
+   "why_neutral": null,
+   "chapters": [],
+   "ja": "ちょぉ何してんの？　買ぅたばっかりやのに勿体ないわぁ",
+   "occurrences": 1
+  },
+  "Hey, wait up!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ちょぉ待ってよー",
+   "occurrences": 1
+  },
+  "Playing Child": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遊んでいる子供",
+   "occurrences": 0
+  },
+  "Over here!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 2
+    },
+    {
+     "name": "Haruka",
+     "gender": "female",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ผู้พูดบางคนพิสูจน์เพศไม่ได้",
+   "chapters": [],
+   "ja": "こっちやでー",
+   "occurrences": 3
+  },
+  "C'mon!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "早よきーや",
+   "occurrences": 1
+  },
+  "We're all playin' cards!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ　めんこやらへん？",
+   "occurrences": 1
+  },
+  "Eh, I don't wanna.": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えー　いやー",
+   "occurrences": 1
+  },
+  "Hey, let's have a race!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "誰が先につくか　勝負しようや",
+   "occurrences": 1
+  },
+  "That came outta nowhere.": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "急にやなぁ",
+   "occurrences": 1
+  },
+  "Hey! Wait up!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ　ちょぉ待ってよ",
+   "occurrences": 1
+  },
+  "Hahaha!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "はは　こっちやで",
+   "occurrences": 2,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "scene",
+    "why": "ทั้งไฟล์ฉากมีเครื่องหมายเพศเดียวล้วน — **ตรวจก่อนใช้** ฉากหลายคนพูดอาจยืมเพศจากตัวละครอื่น"
+   }
+  },
+  "C'mon an' catch me!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はよきてーな",
+   "occurrences": 1
+  },
+  "Anybody wanna fold origami with me?": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ　千代紙おらへん？",
+   "occurrences": 1
+  },
+  "Nah.": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いややー",
+   "occurrences": 1
+  },
+  "I betcha I'm faster'n you!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "誰が速いか　競争しよ",
+   "occurrences": 1
+  },
+  "Heck you are! Let's race!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "急になんやねん　けど負けへんでー",
+   "occurrences": 1
+  },
+  "C'mon, hurry up!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はよ来てやー",
+   "occurrences": 1
+  },
+  "Hey, I got some bubbles!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ　シャボン玉やらへん？",
+   "occurrences": 1
+  },
+  "Cool!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やるー",
+   "occurrences": 1
+  },
+  "Eh, bubbles make me sick.": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えー　いややー",
+   "occurrences": 1
+  },
+  "Hey, race ya to the river and back!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "誰が一番か　競争やで",
+   "occurrences": 1
+  },
+  "Aw, right now? Fine, I ain't losin'!": {
+   "speakers": [
+    {
+     "name": "Playing Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "えー急に？　ええよ　うち負けへんで",
+   "occurrences": 1
+  },
+  "Mister Saito!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 2
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "斉藤さーん",
+   "occurrences": 2
+  },
+  "Friendly Child": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なついた子供",
+   "occurrences": 0
+  },
+  "C'mon, wait up!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ待ってやー",
+   "occurrences": 1
+  },
+  "You run so fast, mister!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お兄ちゃん　走るのはやっ",
+   "occurrences": 1
+  },
+  "My legs're too small!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "全然追いつけへんわ",
+   "occurrences": 1
+  },
+  "Yay! I caughtcha!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "やった！　追いついた！",
+   "occurrences": 1
+  },
+  "I'll always find ya!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "逃げてもすぐ追いつくからなー",
+   "occurrences": 1
+  },
+  "Hey, carry me on your shoulders, will ya?": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "肩車してやー",
+   "occurrences": 1
+  },
+  "Aw, he got away.": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あ　逃げよったー",
+   "occurrences": 1
+  },
+  "Wait up!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "待ってやー",
+   "occurrences": 1
+  },
+  "No fair, yer too speedy!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "走るのはやいなぁ　お兄ちゃん",
+   "occurrences": 1
+  },
+  "How do ya get so fast?": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "追いつけへん",
+   "occurrences": 1
+  },
+  "Hey, I caught up!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "追いついたー！",
+   "occurrences": 1
+  },
+  "Come play with me!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "逃げんと遊んでーや",
+   "occurrences": 1
+  },
+  "Hey, what're yer favorite games?": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ　次何して遊ぶ？",
+   "occurrences": 1
+  },
+  "Oh, so long!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あぁ　逃げた！",
+   "occurrences": 1
+  },
+  "Waaait!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ねぇ待ってー",
+   "occurrences": 1
+  },
+  "Mister, waaait!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "お兄ちゃん　待っててよー",
+   "occurrences": 1
+  },
+  "Ha! So fast!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はぁ　早いなぁ",
+   "occurrences": 1
+  },
+  "Tag! I gotcha!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "追いついたで",
+   "occurrences": 1
+  },
+  "Hey, don't go nowhere, 'kay?": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "どっこも行かんとってよ",
+   "occurrences": 1
+  },
+  "Hey, hey! Gimme a ride on yer back!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なぁ　おんぶさしてあげてもええで？",
+   "occurrences": 1
+  },
+  "Aw. See ya!": {
+   "speakers": [
+    {
+     "name": "Friendly Child",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あ　逃げたー",
+   "occurrences": 1
+  },
+  "Oi! Gather and listen!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁ　聞いてってやー！",
+   "occurrences": 1
+  },
+  "Kawaraban Vendor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "瓦版売り",
+   "occurrences": 0
+  },
+  "The butcher known as Izo has been apprehended!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "あの人斬り！　以蔵がついに御用になったで",
+   "occurrences": 1
+  },
+  "He was spotted in a gamblin' den and had no chance to flee!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "賭場に居ったところを　逃げきれずに捕まったって話や",
+   "occurrences": 1
+  },
+  "May all of Kyo breathe a sigh of relief!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これで少しは歩きやすくなるってもんや",
+   "occurrences": 1
+  },
+  "Out now! The latest kawaraban! For all the details!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁさぁ　詳しくはこれ！　瓦版に書いてあるでー",
+   "occurrences": 1
+  },
+  "In all my life I've never witnessed such an affair!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これ以上ないんやないかってほどの　大事件が起きたでー",
+   "occurrences": 1
+  },
+  "The Shinsengumi raid Ikedaya in the dead of night!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "新選組が池田屋に討ち入ったんや！",
+   "occurrences": 1
+  },
+  "And lo! Inside did cavort a hundred shishi!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんと！　そこにおったんは　総勢百人の勤王の志士！",
+   "occurrences": 1
+  },
+  "These lawless renegades plotted to set Kyo aflame!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "驚いたことに　こいつらは京に火を付けしようとしとったそうや！",
+   "occurrences": 1
+  },
+  "Our city, nevermore! Shame upon these scoundrels!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "京を焼こうやなんて　アホなやつらを　",
+   "occurrences": 1
+  },
+  "The so-called Wolves of Mibu, the Shinsengumi, put a stop to 'em!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんとあの壬生狼こと　新選組が一網打尽に！",
+   "occurrences": 1
+  },
+  "Out now! Get all the details here!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁさぁ詳しい話はここに書いてあるでー",
+   "occurrences": 1
+  },
+  "Oi, read it!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "読んでやー",
+   "occurrences": 1
+  },
+  "The Shinsengumi raid Teradaya for our alleged safety!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "新選組　今度は寺田屋に討ち入ったらしいでー",
+   "occurrences": 1
+  },
+  "Inside the humble inn did ronin dwell!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "中におったんは　どこぞの浪人っちゅう話や",
+   "occurrences": 1
+  },
+  "However! Some claim these ronin served the Bakufu!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "しかし！　浪人やのうて幕府の人間っちゅう話もある",
+   "occurrences": 1
+  },
+  "Yet we've been told the Satsuma and Choshu alliance broker was among 'em!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "はたまた　薩摩と長州を結び付けた男やー　なんて話もあったりする",
+   "occurrences": 1
+  },
+  "What machinations be at play here!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "そこで俺はピンときたで",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Afore the raid, a Shinsengumi captain was found dead!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "討ち入りの前に　新選組の隊長が一人死んどる",
+   "occurrences": 1
+  },
+  "Rumor has it he was killed tryin' ta assassinate the Satcho peacemaker!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これは薩長を結び付けた男を暗殺しようとして　返り討ちにあったんやないかって",
+   "occurrences": 1
+  },
+  "Whose tale carries water!? Oi! To know all, read the kawaraban!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "詳しい話はぁ！　そう！　この瓦版に書いてある",
+   "occurrences": 1
+  },
+  "The Shinsengumi and the Mimawarigumi were both at the scene!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "新選組がおった　見廻組がおった　",
+   "occurrences": 1
+  },
+  "Fer all the stories, search no further!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "いろんな話を全部まとめてあるでー",
+   "occurrences": 1
+  },
+  "Out now!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁ　読んでってやー",
+   "occurrences": 1
+  },
+  "Oi! Never has information been more valuable!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁ　寄ってって聞いてって",
+   "occurrences": 1
+  },
+  "What do y'all know of the Shinsengumi schism!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんとあの新選組が仲間割れしたって話　知らへんやろ？",
+   "occurrences": 1
+  },
+  "As their captains continue to drop like flies—": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "ここ最近で随分と隊長さんたちが仏になってしもたが　",
+   "occurrences": 1
+  },
+  "Have the Wolves at last divided irreconcilably!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "とうとう内部分裂がおこったゆうことや！",
+   "occurrences": 1
+  },
+  "Hear this! Most of the men who once wore blue haori have defected to the Goryo Eji!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "しかも　殆どの隊士は新選組を抜けた御陵衛士についてったそうやで",
+   "occurrences": 1
+  },
+  "And what did all 'em fires have ta do with this reckoning!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "この件　俺はこの前の火事が絡んでるんやないかと睨んどる",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "We've lost homes, businesses, families!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんせ　火事で大変な思いをしたっちゅうのに　",
+   "occurrences": 1
+  },
+  "And the true culprits be still at large!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "その犯人はいまだつかまらへん",
+   "occurrences": 1
+  },
+  "Oyez! Witness testimony! Oi! Shinsengumi were seen that night!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "しかし　目撃者が居った！　そう！　新選組がやったっちゅう話や！",
+   "occurrences": 1
+  },
+  "That fire did not merely decimate Kyo! So too were the Shinsengumi left in ruin!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "火付けの後に仲間割れ　これは新選組内部になんかあったとしか思えへん",
+   "occurrences": 1
+  },
+  "Hear this! End of the Bakufu!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんと！　なんとあの幕府が！",
+   "occurrences": 1
+  },
+  "Imperial rule has been restored to our nation!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "大政を奉還したって話や！",
+   "occurrences": 1
+  },
+  "Three centuries of governmental authority has been undone!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "３００年近く続いた幕府がもう終わったっちゅうことやで",
+   "occurrences": 1
+  },
+  "Oi! We live in times unprecedented!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これは　ほんまにえらいことや！",
+   "occurrences": 1
+  },
+  "The Bakufu has fallen! How!? Why!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "幕府にいったい何が起きたんか",
+   "occurrences": 1
+  },
+  "Could the Satcho Alliance be bellwether of this change!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "薩長が手を組んだ　これが原因ちゃうかと睨んでる",
+   "occurrences": 1
+  },
+  "The Shinsengumi turncoats, the Goryo Eji! Do y'all remember them!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "新選組の離反者が作った御陵衛士　みなさん覚えてますかー？",
+   "occurrences": 1
+  },
+  "Two of their officers have been found dead! Oi! Cold corpses!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんと　その御陵衛士の幹部二人が死体で発見されたっちゅう話や",
+   "occurrences": 1
+  },
+  "One would assume the Shinsengumi struck them down, and yet—": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "これはどう考えても新選組の仕業やないかと　誰もが思うところや",
+   "occurrences": 1
+  },
+  "Hear this! The Goryo Eji were heretofore plotting ta snuff out the Wolves!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "せやけど　御陵衛士こそが新選組を狙ってたなんて話もあるんやで",
+   "occurrences": 1
+  },
+  "Assassination!? Or preemptive attack!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "暗殺されたか返り討ちにあったか……",
+   "occurrences": 1
+  },
+  "The Satcho peacemaker has been assassinated!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "薩長を結び付けた男が暗殺された！",
+   "occurrences": 1
+  },
+  "Oyez! The man who ended the Bakufu is no more!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "つまり　幕府を終わらせた男が暗殺されたって話や！",
+   "occurrences": 1
+  },
+  "The site: Omiya!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "場所は近江屋",
+   "occurrences": 1
+  },
+  "Was the Teradaya raid merely the first, unsuccessful attempt!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "先日寺田屋で狙われたんも　この男やったって話やで！",
+   "occurrences": 1
+  },
+  "Who could be behind this!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "暗殺したんは誰か",
+   "occurrences": 1
+  },
+  "Here, here! All the information there is to know! On offer in the kawaraban!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "色々憶測が出てるなか　調べた話をここに書いたで！",
+   "occurrences": 1
+  },
+  "Oi! Oi! Gather 'round!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "さぁさぁ集まってやー",
+   "occurrences": 1
+  },
+  "A human face on a turtle's shell!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "カメの甲羅に人の顔！",
+   "occurrences": 1
+  },
+  "Must be seen ta be believed! A turtle shell with the face of a man!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "人面亀が出たって話　知っとるか？",
+   "occurrences": 1
+  },
+  "Read about this peculiarity now!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "知らんのやったら乗り遅れとるでー",
+   "occurrences": 1
+  },
+  "Follow Kamo River north and discover the curious portent fer yerself!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "鴨川をずーっと北に行ったとこにおるっちゅう話や",
+   "occurrences": 1
+  },
+  "Can ya truly claim to've lived if ya miss out on such an opportunity!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "こんな珍しい生き物　いっぺん拝んでみたいって思うやろー？",
+   "occurrences": 1
+  },
+  "What's more! The face upon the shell speaks human words!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんでも　甲羅の顔で言葉も話すらしいでー",
+   "occurrences": 1
+  },
+  "Learn all! Here, in the latest kawaraban! Available now!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "詳しいこと知りたいんやったら　この瓦版　買うてってやー",
+   "occurrences": 1
+  },
+  "Why, I'll even tell ya how ta capture the sucker!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "捕まえ方も　バシっと載せとるで！",
+   "occurrences": 1
+  },
+  "Know you of the inimitable philanderer Gohei!?": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "無類の女好きの五平が　",
+   "occurrences": 1
+  },
+  "Off to Edo he's gone, to the Yoshiwara pleasure district!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "今度は江戸の吉原まで遊びに行ったっちゅう話や",
+   "occurrences": 1
+  },
+  "Hear this! So smitten was he by a depiction of a courtesan there!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "なんでも　絵師が描いた吉原の花魁がえらい美人やって　",
+   "occurrences": 1
+  },
+  "With nary a second thought, clutched he a travel pass and went off!": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "後先考えずに通行手形とって旅に出たらしい",
+   "occurrences": 1
+  },
+  "Oi, and yet! So libertine, Gohei—": {
+   "speakers": [
+    {
+     "name": "Kawaraban Vendor",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "พิสูจน์เพศผู้พูดจากไฟล์เกมไม่ได้",
+   "chapters": [],
+   "ja": "せやけど　さすがあの五平",
+   "occurrences": 1
+  }
+ }
+}

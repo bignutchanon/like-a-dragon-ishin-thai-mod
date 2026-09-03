@@ -1,0 +1,2336 @@
+{
+ "batch": "batch_016.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Who was that woman? Not sure I understand what's going on, but I'll check out Matsunoi in Kuramachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さっきの女、一体誰だ？\nよくは分からないが、女の言っていた\n蔵町にある松之井とやらへ行ってみるか。",
+   "occurrences": 1
+  },
+  "Who was that man earlier? He said he'll be waiting for me in Mukurogai. Let me ask at Teradaya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さっきの男……　いったい何者だ？\n骸街（むくろがい）で待つと言っていたな。\n寺田屋に戻って場所を確認するか……",
+   "occurrences": 1
+  },
+  "Those Loyalist impostors brought backup now? Tch, pathetic.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さっき党員を語って悪さを働いていた奴の仲間か。\nまったくロクでもない奴らだな……",
+   "occurrences": 1
+  },
+  "Time to go find Pops. The Kengoshi Schoolhouse, huh? I'll have to ask for directions.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さて、そろそろ親っさんの所へ向かおう。\n「牽牛子塾」と言っていたな。\n誰かに場所を訊いてみるか……",
+   "occurrences": 1
+  },
+  "Takechi still needs time to prepare. I could go for a drink and a meal, I suppose.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さて、兄弟の支度がすむまでどうするかな……\n通りの手ごろな店で\n酒でも飲みながら時間を潰すか。",
+   "occurrences": 1
+  },
+  "Hm. What to do now? I guess I'll walk around the city a bit.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さて、特にこの後の予定もない……\n自由に京の町を散策するとしよう。",
+   "occurrences": 1
+  },
+  "Something to wash that down would be nice. I've never seen Oryo drink but... I bet she'd enjoy it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さて、腹もふくれたし軽く一杯いきたいとこだな。\nおりょうが飲んでいるところは見たことがないが……\nまぁ大丈夫だろう。",
+   "occurrences": 1
+  },
+  "Must be time by now. I'll head back over to the Takechi Dojo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そろそろいい時間だ。\n武市道場へ戻ってみよう。",
+   "occurrences": 1
+  },
+  "Have to get back to the barracks and prepare for tonight. Am I ready for this?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そろそろ屯所に戻って今夜の襲撃に備えなくてはな。\n戻る前にできる準備はしておこう。",
+   "occurrences": 1
+  },
+  "For now, I can only hope Nakaoka manages to do something about this situation.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "とりあえず今のところは中岡がうまく\nやってくれるのを願うしかなさそうだな。",
+   "occurrences": 1
+  },
+  "I still haven't seen Kondo once. My only hope of meeting him will be at the barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まだ一度も局長の近藤の姿を見ていない。\n機会を逃さないためにも、\n屯所には顔を出しておかなくては……",
+   "occurrences": 1
+  },
+  "Still thirsty. How about Fukufuku Pub over in Ichibangai?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まだ飲み足りないな……\n伏見一番街南の福々屋に行ってみるか。",
+   "occurrences": 1
+  },
+  "I'm not drunk enough for any of this. Where can I go at this time of night?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まだ飲み足りないな……\n近場でどこか酒が飲める店へ行くか。\nとりあえず外へ出よう。",
+   "occurrences": 1
+  },
+  "I can't just sleep all day. Better get some air.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まったく、おちおち寝てもいられないな……\nそろそろ出かけるとするか。",
+   "occurrences": 1
+  },
+  "Seriously? Okita and Otose... They're getting too involved. Fine, I'll spend a bit of time with Oryo, before I go.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まったく沖田にお登勢まで……　とんだ世話焼きだな。\n土佐へ立つ前におりょうとの時間を作るとするか。\n支度ができたら、お登勢に声をかけよう。",
+   "occurrences": 1
+  },
+  "I'll find this other Sakamoto Ryoma! I won't stop for anything until I learn the truth!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一人の「坂本龍馬」の正体を、ついに\n確かめる時が来たようだ……　真実をこの目で\n見るまではやられるわけにはいかない！",
+   "occurrences": 1
+  },
+  "The other Sakamoto Ryoma's at Teradaya! Ito and Takeda are already on their way, I have to head them off!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一人の坂本龍馬が、寺田屋にいる！\n伊東と武田がすでに向かっているらしい。\nなんとか先回りして捕まえなくては！",
+   "occurrences": 1
+  },
+  "I need information on this other Ryoma. Let's see what Saigo has to say at the consulate.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一人の坂本龍馬についての情報を集めなくては。\nまずは薩摩藩邸に行って、西郷から話を聞こう。",
+   "occurrences": 1
+  },
+  "The sun's already going down. Back to the inn, I suppose.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう夕方か……\n今日のところは寺田屋に帰るとしよう。",
+   "occurrences": 1
+  },
+  "Kondo was the Masked Man!? Only one way to know for sure!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やはり近藤があの覆面の男だったのか……？\n……それも刀を交えればわかることだ!!",
+   "occurrences": 1
+  },
+  "Have to get back to the inn. I've got some questions for Oryo.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一旦、寺田屋に戻るとしよう。\nおりょうにも聞きたいことがあるしな……",
+   "occurrences": 1
+  },
+  "The First Division's halted their attack? Hmm... Okita's in Mukurogai. I'll find him there.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一番隊の奴ら……　襲ってこなくなったな。\n沖田は骸街の中にいるようだ。沖田を探そう。",
+   "occurrences": 1
+  },
+  "Nakaoka's back. I'll head to the second floor and see what he has to say.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中岡が戻ったらしい。\n２階へ行って話を聞こう。",
+   "occurrences": 1
+  },
+  "Nakaoka couldn't get to them in time? Fine. I'll find Yoshida Toshimaro and Katsura Kogoro myself!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中岡はうまく伝えられなかったようだな。\n仕方がない、吉田稔麿と桂小五郎を探そう！",
+   "occurrences": 1
+  },
+  "Nakaoka's room is on the second floor of Teradaya. Let's see if he knows anything about this.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中岡は寺田屋の二階にいるらしい。\n今日の幹部会での話をしよう。",
+   "occurrences": 1
+  },
+  "They must've made it out. That's a relief. All right, I should meet back up with Okita.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "二人は無事に避難できたようだ。\n一安心だな。\n表で待たせてる沖田の所に戻ろう。",
+   "occurrences": 1
+  },
+  "The Masked Man was Inoue!? And who the hell is this komuso? This fight is my only way to learn the truth!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "井上があの覆面の男だった、だと……\nそれに沖田の言っている虚無僧は一体誰なんだ？\n俺はこの勝負に勝って真実を知る必要がある！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "They found Inoue's body at the harbor in South Yashikimachi. Damn, Okita's probably gone there. Need to hurry.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "井上の死体が発見されたのは\n伏見の屋敷町南の船着き場らしい。\n沖田はおそらくそこへ向かったのだろう。急ごう。",
+   "occurrences": 1
+  },
+  "Anything else left to do here? There's not much time left, but I could still train in the barracks with the others.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でやり残したことはないだろうか？\n土佐へ立つまであまり時間がない、\n屯所で沖田、永倉、土方と刀の稽古をしておくか。",
+   "occurrences": 1
+  },
+  "If that's everything, I should speak to Okita to head back to Tosa.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京でやり残したことはないだろうか？\n土佐へ立つ支度ができたら、\n屯所にいる沖田たちに声をかけて出発しよう。",
+   "occurrences": 1
+  },
+  "Suppose a place like Kyo's bound to have its share of villains. I should spend a bit more time outside.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京ほどの大きな町になると不届き者も\nそれなりにいるようだな。\nさて、もう少し町を歩きまわるとしよう。",
+   "occurrences": 1
+  },
+  "Damn these Mimawarigumi. I'll break through them and reach Kondo. No time to waste.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京都見廻組の奴ら、厄介だな。\nさっさとケリをつけて近藤を探さなくては……\nこんなところで時間を取られている場合ではない。",
+   "occurrences": 1
+  },
+  "Didn't expect the damn Mimawarigumi here. Tch, no matter. I'm not stopping!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京都見廻組まで来ているとはな……\nだがここで足止めをくっている場合ではない！",
+   "occurrences": 1
+  },
+  "Need to take care of things while I still can. I'll rest at Teradaya until Nakaoka and Todo contact me.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今のうちにできる事をしておいた方が良さそうだ。\n中岡と藤堂から連絡があるまで寺田屋で\n体を休めておくか。",
+   "occurrences": 1
+  },
+  "Better check on Haruka back home while I've still got time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今のうちにできる事をしておいた方が良さそうだ。\n別宅の様子を見に行っておくとしよう。",
+   "occurrences": 1
+  },
+  "Only one way to clear my head at this point. Let's see what both of these guys can do!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今はとことん暴れたい気分だ。\nこいつらなら相手に不足はない。\nここは本気で喧嘩してやろうじゃないか！",
+   "occurrences": 1
+  },
+  "I don't have any pressing matters right now.\nMaybe I'll stroll around and explore the town for a change.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今は急ぎの用事はない。\n自由気ままに探索するか。",
+   "occurrences": 1
+  },
+  "Leaving it to you, Nagakura. I've got to find Takechi at the castle!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今は永倉を信じて先に進むしかなさそうだ。\n武市の待つ高知城を目指そう！",
+   "occurrences": 1
+  },
+  "They mentioned Nakaoka in the meeting. Better check in with him at the inn.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今日の幹部会での話……\n中岡の名が出ていたのが気になるな。\n寺田屋に戻って中岡に知らせてやろう。",
+   "occurrences": 1
+  },
+  "It's late. I should head back to the inn and get some rest.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今日はもう寺田屋に戻って休むとしよう。",
+   "occurrences": 1
+  },
+  "Can't anyone tell me about the chief? Maybe Hijikata's willing to open up. I'll check his quarters.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "他に、局長について話を聞けそうな奴はいないか？\n副長である土方なら何か知っているかもしれないな。\n土方の部屋に行ってみよう。",
+   "occurrences": 1
+  },
+  "Time to settle this once and for all, Izo. I'll fight you one last time, as Sakamoto Ryoma!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "以蔵……\nついにお前との決着をつける時が来たようだな。\n坂本龍馬として全力で挑んでやる！",
+   "occurrences": 1
+  },
+  "Izo... Why can I never avoid fighting you? Tch. No reason not to go all in now!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "以蔵……　闘いたくはないが致し方ないか……\n向こうが本気で来る以上、こちらも手は抜けない。\n真剣にやるしかなさそうだな……！",
+   "occurrences": 1
+  },
+  "Damn it, now the Goryo Eji are here? I don't care about whatever grudge you're carrying, I'm cutting through!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伊東率いる御陵衛士まで現れるとは……\n奴にどんな恨みがあろうが知ったことではない。\n今は前に進むだけだ！",
+   "occurrences": 1
+  },
+  "Where is that impostor!? I can't lose this opportunity!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何としてももう一人の坂本龍馬を見つけなくては！\nこの機会を逃すわけにはいかない……",
+   "occurrences": 1
+  },
+  "It all goes down tonight. Time to make all the preparations I can... No telling what will happen.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作戦の時は夜……\n今のうちに十分支度しておかなくては……\n何が待ち受けているのか分からないからな。",
+   "occurrences": 1
+  },
+  "It all goes down tomorrow. Time to make all the preparations I can... No telling what will happen.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作戦の時は明日の夜……\n今のうちに十分支度しておかなくては……\n何が待ち受けているのか分からないからな。",
+   "occurrences": 1
+  },
+  "This is the end... Brother.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "兄弟……　今が勝負の時だ。\n俺は全力で挑む！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Takechi knows the way to the castle. I'll follow him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "兄弟が高知城まで案内してくれるという。\n今は後をついて行くとしよう。",
+   "occurrences": 1
+  },
+  "Takechi and I are going to Kochi Castle, it seems. Not sure what to expect, better prepare myself.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "兄弟と高知城へ行くんだったな。\n何があるか分からない……\nできる準備はしてから出発するとしよう。",
+   "occurrences": 1
+  },
+  "Takechi is somewhere deep in Mukurogai, apparently. Never expected I'd see him here. I hope he's all right.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "兄弟は骸街（むくろがい）の一番奥にいるらしい。\nまさか会えるとは思っていなかったな……\n久しぶりだが、元気にしていただろうか。",
+   "occurrences": 1
+  },
+  "It's time. The Third Division will be stationed at Shikokuya. That's in southeast Rakunai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出陣だ。三番隊の持ち場は四国屋だったな。\n洛内の南東にある四国屋へ向かおう。",
+   "occurrences": 1
+  },
+  "Have to report the incident to Deputy Chief Hijikata, over in the barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "副長の土方に報告に行かなければ。\n新選組の屯所へ向かうとしよう。",
+   "occurrences": 1
+  },
+  "This Loyalist Party's so well-known it's even got imitators? Good opportunity to put my training to use.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勤王党ってのは名を借りる奴が出てくるほど\n有名なのか……\n腕試しがてら、さっさと片付けちまおう。",
+   "occurrences": 1
+  },
+  "Damn, the meeting's at Ikedaya. Have to get there quickly.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勤王志士らの会合は池田屋の方だったらしい。\n急いで向かわなくては……",
+   "occurrences": 1
+  },
+  "Looks like that's the way around the back of Chitose Provisions. I should head to the Kengoshi Schoolhouse now.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "千歳屋の横から裏手に回れそうだな。\n「牽牛子塾」へ向かおう。",
+   "occurrences": 1
+  },
+  "I'll speak to Okita at the Sengoku mansion once I'm ready to strike.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "千石邸の前で沖田が待っている。\n討ち入りの準備ができたら声をかけよう。",
+   "occurrences": 1
+  },
+  "I don't need any more trouble. Maybe I can hide somewhere and lose them.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "厄介事は御免だ。\nどこかに隠れてやり過ごせるといいんだが……",
+   "occurrences": 1
+  },
+  "Harada, you bastard... I'll show you what it means to be a true swordsman.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "原田……どこまでも性根の腐った奴だ。\n真の剣術がいかなるものか\n身をもってわからせてやろう……！",
+   "occurrences": 1
+  },
+  "Damn it, I've got no reason to fight this guy, but I can't lose to him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "喧嘩するいわれはないが、\nこうなったら負けるわけにはいかねぇな。",
+   "occurrences": 1
+  },
+  "That man spoke Tosa-ben. Hmm... It could be a trap. I'll get ready and then head to Kiyomizu Temple.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐なまりの男……　一体誰だ？\n何かの罠かもしれないな。\n十分に準備してから清水寺に向かおう。",
+   "occurrences": 1
+  },
+  "Damn it, Tosa, you never change. Can't use my sword on these two, but I'll teach them what pain is!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐の連中は相変わらずのようだな。\nこいつらごとき、刀を振るまでもない。\n拳で黙らせてやる……！",
+   "occurrences": 1
+  },
+  "Tosa... It's changed completely. I wish I had time to mourn, but we have to get to Kochi Castle.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐はすっかり変わってしまったようだ……\n嘆いている暇はない、武市の待つ高知城へ向かおう！",
+   "occurrences": 1
+  },
+  "The Tosa Loyalist Party? Apparently, I'll have to speak to my brother. Better ask around about him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐勤王党か……　とにかく兄弟に会いに行くか。\nどこにいるのか、街の奴にでも訊いてみよう。",
+   "occurrences": 1
+  },
+  "Tch, these Loyalists are stubborn. There must be another way to meet Takechi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土佐勤王党ってのは、案外面倒な集団らしい。\n仕方がない、他に武市に会う方法がないか探るか。",
+   "occurrences": 1
+  },
+  "Hijikata wants to see me? He's in the warehouse.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "土方からの呼び出しらしい。\n土蔵へ向かおう。",
+   "occurrences": 1
+  },
+  "Sakamoto Ryoma!? Some kind of impostor, maybe? Maybe Nakaoka knows something. He should be at Teradaya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "坂本龍馬を探れ、だと!?　俺の偽者なのか……？\n中岡なら何か知っているかもしれない。\n一度、寺田屋に戻ろう。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Tonight, huh? I'll go back to Teradaya and kill some time until then.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "夜までまだ時間があるな。\n寺田屋に戻って暇をつぶそう。",
+   "occurrences": 1
+  },
+  "That was exhausting. I should get some sleep at Teradaya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "夜も更けてきたな……\nとりあえず寺田屋に戻ろう。",
+   "occurrences": 1
+  },
+  "I'll wait for sunrise at Teradaya. Better make sure I'm ready, who knows what's coming next?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寺田屋に戻って夜明けを待とう。\nその前に、できる準備はしておかなくては……\n江戸への旅は何が起こるか分からないからな。",
+   "occurrences": 1
+  },
+  "Kondo's room is the furthest into the barracks? He might not be there, but it wouldn't hurt to look.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "局長である近藤の部屋は、屯所の一番奥の間だと\n言っていたな。\n不在かもしれないが、見に行ってみよう。",
+   "occurrences": 1
+  },
+  "Kondo actually wants to see me? I can't let this chance slip by. He's at Asahi in Gion. Have to hurry.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "局長の近藤からの呼び出し……\nこの機会、逃すわけにはいかないな。\n急いで、祗園にある旭屋（あさひや）へ向かおう。",
+   "occurrences": 1
+  },
+  "The bathhouse in South Yashikimachi. I'm not sure what to expect, better be prepared.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "屋敷町南にある風呂屋に行くとしよう。\n何があるか分からない……\n準備は十分にしておいた方がよさそうだ。",
+   "occurrences": 1
+  },
+  "No leaving the barracks now. Guess I'll see what the other captains are doing.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "屯所に待機するようにとの指示だ。\n他の隊長らと話でもしてみるか。",
+   "occurrences": 1
+  },
+  "Todo's inspecting Yamazaki's body? I'll head to the warehouse and ask him what's going on.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "山崎の遺体はまだ土蔵にあるのか。\n藤堂が現場を検分しているらしい。\n行ってみよう、話くらい聞けるだろう。",
+   "occurrences": 1
+  },
+  "Okada Izo... I get the feeling I shouldn't hold back against this guy.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "岡田以蔵、と言ったか……\nこいつには本気で挑んだ方がよさそうだ。",
+   "occurrences": 1
+  },
+  "Have to go find Takeda. He should be at Matsunoi in Kuramachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "幾松のいる店へ急ごう。\n確か松之井は伏見の蔵町にあったはずだ。",
+   "occurrences": 1
+  },
+  "Some people still have a grudge against me. Only one way to put an end to this now.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "恨みを買ってしまったようだ……\n事が大きくならないうちに黙らせるしかなさそうだな。",
+   "occurrences": 1
+  },
+  "Thank you, Hijikata. Now, to the castle... and Takechi!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "悪いがここは土方に任せて先に進むしかなさそうだ。\n武市の待つ高知城を目指そう！",
+   "occurrences": 1
+  },
+  "We should eat something... What would Oryo like?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手始めにどこかの飯屋で腹ごなししよう。\nおりょうを連れていくならどの店がいいだろうか？",
+   "occurrences": 1
+  },
+  "The Shinsengumi really were behind this. What the hell is Kondo thinking?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組が火をつけて回ってるってのは\n本当だったようだ。近藤の真意が気になるな。\n早く近藤を見つけ出さなくては……",
+   "occurrences": 1
+  },
+  "Did the Shinsengumi really start these fires? I need to confront Kondo and see what he has to say.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組が火を放ったというのは本当なのだろうか？\nとにかく、近藤を探して話を聞くしかなさそうだ。",
+   "occurrences": 1
+  },
+  "So, they've got more than one Tennen Rishin user? That one, Okita, might have been underneath the mask.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組には天念理心流の使い手が何人かいるようだ。\n沖田という男もまだ覆面の男である可能性がある……\nいろいろ確かめる必要がありそうだ。",
+   "occurrences": 1
+  },
+  "Time for my first job as Shinsengumi. There's a defector drinking at Hinata in Gion.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組に入ってからの初仕事だな。\n例の脱走隊士は祗園の日向屋で飲んでいるらしい。\n早速向かおう。",
+   "occurrences": 1
+  },
+  "Todo's going to run me through captaining today? Should get to the barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組の屯所へ向かうとしよう。\n今日は、藤堂から仕事の説明をしてもらう事に\nなっていたはずだ。",
+   "occurrences": 1
+  },
+  "Shinsengumi captains wear such a loud blue haori? Guess I'll put mine on tomorrow and get back to Teradaya for now.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新選組の隊長が着ている羽織……\n明日からこれを着て仕事をするという訳か。\nとりあえず今日は寺田屋に戻るとしよう。",
+   "occurrences": 1
+  },
+  "It's getting dark now. I should meet Hijikata at that ryotei. Tsubakiro in Gion, was it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "日も暮れてきた。\n土方が言っていた料亭へ向かおう。\n確か祗園にある椿楼という店だったな。",
+   "occurrences": 1
+  },
+  "We set sail for Edo tomorrow. I'll ask Otose to wake me before dawn. Am I sure I'm prepared for this?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "明日は江戸へ立つ。準備はしっかりして\nおかなくてはな。寺田屋のお登勢に、夜明け前に\n起こしてもらえるよう頼んでから休もう。",
+   "occurrences": 1
+  },
+  "Yamazaki was silenced in the barracks last night. I should get over there and see what I can find.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "昨晩、山崎が屯所で殺された。\n口封じというわけか……\n一度屯所に戻って状況を確認しよう。",
+   "occurrences": 1
+  },
+  "I drank way too much last night. Ugh. Oh well, better get over to the barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "昨晩はかなり飲んでしまったな。\n今は自分なりにできる事をするしかなさそうだ。\nまずは屯所に顔を出すか……",
+   "occurrences": 1
+  },
+  "You really are despicable, Takeda. I'll make you pay, for Todo's sake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本当にふざけた奴だ。この刀で思い知らせてやる。\n藤堂の想い、無駄にするわけにはいかない。",
+   "occurrences": 1
+  },
+  "The target is Sengoku Toranojo... Let's find him and get this over with.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "標的はこの屋敷の主、千石虎之丞……\nさっさと見つけて終わらせよう。",
+   "occurrences": 1
+  },
+  "Next... How about the singing bar? I think Oryo and I could have some fun there.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次は歌声酒場にでも行くか。\nあそこなら、おりょうも楽しめるだろう。",
+   "occurrences": 1
+  },
+  "So, Takechi's got his own dojo? They said it's in the northeast part of town.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市のいる武市道場はこの町の北東にあるらしい。\nさっそく行ってみるか。",
+   "occurrences": 1
+  },
+  "Hopefully, I'll be able to get into the Takechi Dojo now.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武市道場か……\n階段を上がったところにあると言っていたな。\n早速行ってみよう。",
+   "occurrences": 1
+  },
+  "Nagakura's acting strangely... Did something happen?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "永倉の様子がおかしかったが、何かあったのか？\nひとまず屯所へ向かおう。",
+   "occurrences": 1
+  },
+  "This man laid out Nagakura... I should take him very seriously.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "永倉程の男がやられるとは……\nこの吉田という男、油断できないな。",
+   "occurrences": 1
+  },
+  "Okita! Sorry, but I can't turn back now. Kochi Castle... Takechi...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田……　すまない！\nだが、俺はもう後戻りはできない……\n武市の待つ高知城を目指そう！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "What!? It was Okita after all? If it's true, I'll take him down right now!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田があの覆面の男だったのか!?\nもし本当にそうだとしたら……\n許すわけにはいかない!!",
+   "occurrences": 1
+  },
+  "Okita wants to talk? Hmm... All right, I'll meet him in the warehouse.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田が話があるとか言っていたな……\n一体何だろうか？\n土蔵へ行ってみるとするか。",
+   "occurrences": 1
+  },
+  "Sorry, Okita, but I'm sure you'll be all right. You handle the Mimawarigumi while I go after the chief.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田には悪いが今は一刻を争う。\n京都見廻組は沖田に任せて、俺は近藤を探そう！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Okita's waiting for me. This mansion's in Fushimi, somewhere around Yashikimachi?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田は千石邸の前で待っていると言っていたな。\n伏見に豪邸を構えてるらしい。\n……となれば屋敷町の辺りか。早速向かおう。",
+   "occurrences": 1
+  },
+  "We're raiding the Sengoku residence? Hm. I'll kill time in the inn until nightfall.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田は夜になったら千石邸へ来いと言っていたな。\n寺田屋で夜まで時間を潰すとするか。",
+   "occurrences": 1
+  },
+  "Okita's gathering the First Division in Mukurogai! I have to stop this before it gets out of hand!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田は骸街に一番隊を集めているらしい。\n事が大きくならないうちに、\n一番隊の暴走を止めなくては……！",
+   "occurrences": 1
+  },
+  "Okita... He's waiting for me at the temple in east Mukurogai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "沖田は骸街東の本堂跡地で俺を待っているらしい。\n沖田が何を考えているのか正直分からない。\n用心して向かうとしよう……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "There's a liquor store in Rakunai, isn't there? Sounds like a good spot for these two.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛内に居酒屋があったな……\n二人を連れて行って、とことん飲んでやろう。",
+   "occurrences": 1
+  },
+  "Still nothing. Meeting Kondo seems almost impossible. Where else can I go?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特に情報は得られなかったな。\nやはり近藤に会うのは一筋縄ではいかないか。\n他に話が聞けそうなやつはいないか探してみるか。",
+   "occurrences": 1
+  },
+  "The Shinsengumi barracks are west of Shijo Street. According to Otose, they're wild. Better be ready for anything.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "確か新選組の屯所は四条通りを西へ行った所だったな。\nお登勢たちの話だと、かなり粗暴な奴ららしい。\n準備はしっかりしていった方がよさそうだな。",
+   "occurrences": 1
+  },
+  "We're not done yet. Let's cap off the night in Gion. Kasuga, I think the place is called.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "確か祗園にも飲める店があったな。\n春日だったか……　さっそく向かおう。",
+   "occurrences": 1
+  },
+  "Chapter 1 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第一章「土佐、脱藩」～完～\n第二章「斎藤一という男」へ……",
+   "occurrences": 1
+  },
+  "Chapter 7 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第七章「二人の龍馬」～完～\n第八章「狂犬吠える」へ……",
+   "occurrences": 1
+  },
+  "Chapter 3 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第三章「壬生狼」～完～\n第四章「共闘」へ……",
+   "occurrences": 1
+  },
+  "Chapter 9 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第九章「喧嘩の花道」～完～\n第十章「正体」へ……",
+   "occurrences": 1
+  },
+  "Chapter 2 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第二章「斎藤一」～完～\n第三章「壬生狼」へ……",
+   "occurrences": 1
+  },
+  "Chapter 5 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第五章「鉄の掟」～完～\n第六章「池田屋事件」へ……",
+   "occurrences": 1
+  },
+  "Chapter 8 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第八章「狂犬吠える」～完～\n第九章「喧嘩の花道」へ……",
+   "occurrences": 1
+  },
+  "Chapter 6 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第六章「池田屋事件」～完～\n第七章「二人の龍馬」へ……",
+   "occurrences": 1
+  },
+  "Chapter 11 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第十一章「大博打」～完～\n第十二章「京炎上」へ……",
+   "occurrences": 1
+  },
+  "Chapter 13 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第十三章「龍馬暗殺」～完～\n最終章「夜明け」へ……",
+   "occurrences": 1
+  },
+  "Chapter 12 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第十二章「京炎上」～完～\n第十三章「龍馬暗殺」へ……",
+   "occurrences": 1
+  },
+  "Chapter 10 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第十章「正体」～完～\n第十一章「大博打」へ……",
+   "occurrences": 1
+  },
+  "Chapter 4 complete.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "第四章「共闘」～完～\n第五章「鉄の掟」へ……",
+   "occurrences": 1
+  },
+  "Comes to this, huh? Fine, I'll force my way in, if that's what it takes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "簡単には中に入れてはもらえないという訳か。\n仕方がない……\nここは力で押し切るしかなさそうだ。",
+   "occurrences": 1
+  },
+  "The man in the straw hat was Izo? Fine. If he wants another fight, I've got no choice.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "編み笠の男は以蔵だったのか……\nそっちがその気なら、受けて立つしかないな。",
+   "occurrences": 1
+  },
+  "So, I can get to Mukurogai by ferry? I'll talk to the boatman at Teradaya when I'm ready.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "船頭が、骸街（むくろがい）まで舟を出してくれると\n言っていたな。寺田屋で待っているはずだ。\n準備ができたら声をかけるか。",
+   "occurrences": 1
+  },
+  "Todo is keeping watch over the entrance. I'll talk to him when I'm ready to go in.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "藤堂が出入り口の見張りにつくらしい。\n乗り込むときは藤堂に声をかけてやるか。",
+   "occurrences": 1
+  },
+  "Guess I'm getting a tour. Better listen carefully.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "藤堂が屯所内の案内をしてくれるらしい。\n今は説明を聞いて早く覚えなくては……",
+   "occurrences": 1
+  },
+  "Kondo Isami is most likely the Masked Man. I'll need to find an opportunity to meet him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "覆面の男である可能性が一番高い近藤勇には\n今日はお目にかかれなかったな。\nまあ、まだ機会はこれからいくらでもあるだろう。",
+   "occurrences": 1
+  },
+  "Pops! Damn it, who was that man in the mask!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "親っさんが殺られた……!?\nあの覆面の男、一体何者なんだ……!!",
+   "occurrences": 1
+  },
+  "So, he'll only listen to me if I can defeat him? Let's go, then! I won't back down!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "話を聞いてもらうには、\nこの勝負に勝つしかなさそうだな。\nなら、相手が誰であれ全力で戦うまでだ！",
+   "occurrences": 1
+  },
+  "No one's here... Maybe they escaped in time? I'll check inside, just in case.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "誰もいない、か……\nちゃんと避難できているといいが、\n念のため室内を確認しよう。",
+   "occurrences": 1
+  },
+  "Does no one here know how to find their own chief?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "誰も近藤に会う方法を知らない様だ。\nひとまず屯所を出て探ってみるか。",
+   "occurrences": 1
+  },
+  "Damn it, I need to find Izo before Tani and Suzuki reach him! He should be at the gambling den in Rakugai!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "谷や鈴木より先に以蔵を捕らえなくては……\n洛外の賭場にいると言っていたな。……急ごう!!",
+   "occurrences": 1
+  },
+  "Well, I should look around the house, I suppose. Let's see the yard first.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "軽く、この家の設備でも確認してみるか。\nまずは庭からだな。",
+   "occurrences": 1
+  },
+  "So, Kondo's killer is waiting for me at the Imperial Palace? Fine. Let's see who you are.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "近藤に手をだした奴は御所で俺を待っているらしい。\n一体、何者なんだ……!?\n急いで御所へ向かおう……！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "It wasn't Kondo. That leaves... Hijikata, Okita, Inoue, or Todo. Nothing for it but to get to the barracks again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "近藤は覆面の男ではなかった。\n残るは土方、沖田、井上、藤堂か……\n当てはないが屯所には顔を出しておこう。",
+   "occurrences": 1
+  },
+  "It's been a year since I was in Tosa. I should walk around town for a bit.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１年ぶりの土佐だ。皆、変わりないだろうか……\n少し街をぶらつくとしよう。",
+   "occurrences": 1
+  },
+  "Finally, a showdown with Amon himself. I won't lose!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ついに亜門と対決の時……\n絶対に負けるわけにはいかない！",
+   "occurrences": 1
+  },
+  "They call themselves \"Honorable Bandits\"? Tch, we'll see about that.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京の治安を乱す自称義賊たち……\nかならず全ての敵を殲滅しなければ……",
+   "occurrences": 5
+  },
+  "These thieves are plaguing Kyo. I'll take them down.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京の治安を乱す野盗たち……\nかならず全ての敵を殲滅しなければ……",
+   "occurrences": 5
+  },
+  "The Sanada militants are trying to destabilize the government. I need to stop them.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "御公儀に盾突き、治安を乱す真田家残党……\nかならず全ての敵を殲滅しなければ……",
+   "occurrences": 10
+  },
+  "I can't leave until I rescue the kidnapped villagers. They should be trapped in the deepest part of the lair.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最深部に囚われた村人を救出しなければ……",
+   "occurrences": 1
+  },
+  "I can't leave until I rescue the kidnap victim. They should be trapped in the deepest part of the lair.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最深部に囚われた要人を救出しなければ……",
+   "occurrences": 3
+  },
+  "The Sanada Triumvirate, huh? They may be strong, but I'm sure we can handle them!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "真田家三人衆と名乗る屈強な男たち……\n強敵だが、倒してみせる！",
+   "occurrences": 1
+  },
+  "The Five Tiger Generals of the Sanada, huh? They may be strong, but I'm sure we can handle them!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "真田家五虎将と名乗る屈強な男たち……\n強敵だが、倒してみせる！",
+   "occurrences": 1
+  },
+  "The Four Heavenly Kings of the Sanada, huh? They may be strong, but I'm sure we can handle them!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "真田家四天王と名乗る屈強な男たち……\n強敵だが、倒してみせる！",
+   "occurrences": 1
+  },
+  "It's finally time to confront the leader of the Sanada militants and put an end to them!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "真田家残党を名乗る頭領と護衛たち……\nかならず殲滅してみせる！",
+   "occurrences": 1
+  },
+  "These Honorable Bandits stole crates of a thousand ryo each from the merchant. I'll have to recover all three.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "義賊たちが商人から強奪していった\n３つの千両箱を回収しなければ……",
+   "occurrences": 3
+  },
+  "There are two elite thieves waiting for me. They may be strong, but I'm sure we can handle them!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "義賊の双璧と呼ばれる男たち……\n強敵だが、倒してみせる！",
+   "occurrences": 1
+  },
+  "I'll bring down the leader of the Honorable Bandits for good!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "義賊の頭領と、その護衛たちを\n殲滅しなければ……",
+   "occurrences": 1
+  },
+  "The Sanada militants stole crates of a thousand ryo each from the merchant. I'll have to recover all three.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "自称真田家残党たちが商人から強奪していった\n３つの千両箱を回収しなければ……",
+   "occurrences": 3
+  },
+  "The bandits stole crates of a thousand ryo each from the merchant. I'll have to recover all three.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "野盗たちが商人から強奪していった\n３つの千両箱を回収しなければ……",
+   "occurrences": 3
+  },
+  "I'll take care of the bandit leader and his bodyguards.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "野盗の頭領と、その護衛達を\n殲滅しなければ……",
+   "occurrences": 1
+  },
+  "...She talked. A lot.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……とても長い話だった。",
+   "occurrences": 1
+  },
+  "...Once again, she talked a lot.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……またもや長い話だった。",
+   "occurrences": 1
+  },
+  "...She could talk people's ears off until the very end. And now that I won't hear her anymore, I'm actually a little sad... Wait. No, I'm not.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "……最後まで長い話だった。\nしかしこれで話を聞く機会がなくなったかと思えば……\n少し寂しく感じ……　はしないな。",
+   "occurrences": 1
+  },
+  "I really hope that foreigner doesn't go somewhere dangerous and get himself in trouble.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あの外国人……\n物騒なところに行って危険な目にあわなければいいが。",
+   "occurrences": 1
+  },
+  "Those children are going to be separated because one of them is moving away. The girl's sobs were just heartbreaking.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あの子供たち、引っ越しが原因で離ればなれに\nなってしまうようだな……\n河原町に女の子の泣き声が響いている。",
+   "occurrences": 1
+  },
+  "That cat started to adore me as soon as I gave it some fish. Imagine how much it would love me if I gave it more...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あの猫、魚をあげたらすぐ懐いたな。\n今後も余っている魚があればやってみるか。",
+   "occurrences": 1
+  },
+  "The thugs showed up in Mukurogai, where the gambler who gave me the information is waiting.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あの賭場荒らしが、骸街に現れたらしい。\n情報をくれた博徒が骸街で待っているんだったな。",
+   "occurrences": 1
+  },
+  "Is that the Brawler of Mukurogai? It seems he's had some kind of epiphany. Nevertheless, I still need to defeat him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あれは骸街の喧嘩屋か……？\n悟りを開いたようだが、\n勝って喧嘩屋から足を洗わせてやろう。",
+   "occurrences": 1
+  },
+  "Didn't think I'd be attacked so suddenly. No more letting my guard down!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いきなり襲われるとはな……\n気を抜かない方が良さそうだ。",
+   "occurrences": 1
+  },
+  "I don't really understand this Western concept of an \"interview,\" but I'll do it if it gets this guy away from the barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いんたびゅう……？\n良くわからないが、そそっかしい奴を\n屯所前でウロつかせるわけにはいかないな。",
+   "occurrences": 1
+  },
+  "Well, that interview or whatever it was turned out to be interesting. The kawaraban papers are changing with the times!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "いんたびゅうか……\n確かに面白い試みではあった。\n瓦版も時代と共に変わっていくのだな。",
+   "occurrences": 1
+  },
+  "Hm. I don't really understand the situation fully, but the man started panicking when he realized his package was full of chikuwa...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うーむ、状況がよくわからないが、\nこの男、手荷物の中身がちくわだったことに対して\nすごく取り乱しているようだ……",
+   "occurrences": 1
+  },
+  "I thought the ee ja nai ka people were just doing it for fun, but some are dancing for a truly noble purpose! I hope all their wishes come true.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええじゃないかは、みんな遊び半分と思っていたが、\n純粋に運動している奴らもいたようだ。\n世の中が良くなるようにという願いが届くといいな。",
+   "occurrences": 1
+  },
+  "The ee ja nai ka has a mysterious power... enough power to cause more damage! I need to handle this before that happens.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええじゃないか踊りには不思議な力があるな。\nいつ被害が出るか分からん。見つけたら、なんとか\n鎮めるようにしなければ……",
+   "occurrences": 1
+  },
+  "The ee ja nai ka guys were going hogwild. Somebody needs to make sure they don't cause any damage.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええじゃないか集団が暴れていたな……\n何か被害があったらまずい。行ってみるか。",
+   "occurrences": 1
+  },
+  "Playing house, huh? Heh, I didn't think my first time playing it would be at this age.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おままごとか……フッ、\nこんな歳になって初めて体験できるとはな。",
+   "occurrences": 1
+  },
+  "It might be just a game, but as long as I'm in the role of the mother, I'm going to protect the family and destroy this samurai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おままごととはいえ、母役を務めた以上は、\nこの武士を倒して家内安全を守るとしよう。",
+   "occurrences": 1
+  },
+  "No time for this... Let's just skip to the end where you let me through.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お前ら相手に手間取ってる時間はねえ。\nさあ、ここを通らせてもらうぞ。",
+   "occurrences": 1
+  },
+  "I helped Kiyokawa, that silly courier. He says I have the makings of a great courier myself, but I think he's just saying that so I'll do his work for him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お調子者の飛脚・清川の仕事を手伝った。\n俺に飛脚の素質があると言うが、仕事を押し付けて\nただ仕事をさぼりたいだけなんじゃないのか？",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "The warrior ghost was indeed strong, and he disappeared as soon as I took my eyes off him. Who was he...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お騒がせの亡霊武者は噂通りの強さだった。\n目を離した隙に姿を消してしまったが、\nあいつは一体何者だったのだろうか……",
+   "occurrences": 1
+  },
+  "Kazukichi really loved that couple. I think it was that love which brought the flowers back to the tree, and brought words back to the old woman. A true miracle.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かずきちはじいさん達のことが大好きだったんだな。\nそんな気持ちが枯れたはずの桜を再び咲かせ、\nばあさんに言葉を返してくれた。……まさに奇跡だ。",
+   "occurrences": 1
+  },
+  "There <i>is</i> a bear!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "く……　熊がでた!!",
+   "occurrences": 1
+  },
+  "So this area is Mukurogai... Yup, pretty much as dangerous as I expected.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここが骸街か……\nいつ来ても物騒な街だ。",
+   "occurrences": 1
+  },
+  "This beggar hasn't eaten for a week. That means he might die of starvation soon...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここにいる物乞いは、１週間何も食べてないらしい。\nさすがに飢え死にしてしまうかもしれんな……",
+   "occurrences": 1
+  },
+  "I gave the man some things I didn't need. I didn't expect him to be <i>that</i> happy. I'll have to remember him whenever I want to get rid of stuff.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここの男に不用品を渡した。\nあんなもので喜ぶとは……\nまた処分したいものがあったら持っていくか。",
+   "occurrences": 1
+  },
+  "The man here asked if I could give him stuff I don't want anymore. He said he'd find a use for <i>anything</i>.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ここの男に何か不用品をくれと言われた。\nなんでもそれを再利用するらしい。\nなにかいらない物があったら持っていくか。",
+   "occurrences": 1
+  },
+  "The merchant seems to have the wrong idea. I'm just here to buy some perfume! I need to make him hear what I'm really saying.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この商人、何か勘違いしているようだな……\n俺はただ香水を買いたいだけだ……\n軽くいなして話を聞いてもらおう。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Talking to this lady makes me want to give her a cucumber for some reason. I don't know what's going on, but maybe I oughta bring her one.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この女と話していると、\n不思議と胡瓜を渡してみたい気持ちになるな……\n何の事情だが知らんが、胡瓜１本持っていくか。",
+   "occurrences": 1
+  },
+  "I wonder why this woman wanted a cucumber so badly? She left as soon as I gave it to her...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この女はなぜ胡瓜が欲しかったのだろうか？\n渡した直後去ってしまったが……",
+   "occurrences": 1
+  },
+  "So this is the Dark Ebisu who's been scamming the elderly. Pretty damn rich of him to talk about \"divine punishment.\" Time for him to learn about punishment in <i>this</i> life.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この男が老人相手に詐欺を働いている黒恵比寿か。\nテメェの悪事を棚に上げて「神罰を思い知れ」とは。\n少々痛い目にあってもらわないとな。",
+   "occurrences": 1
+  },
+  "That man definitely managed to settle things down. I'd say he deserves something to help heal his wounds.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "この男のおかげで騒ぎが収まったのも事実だ……\n傷を癒すものを持っていくか。",
+   "occurrences": 1
+  },
+  "I don't think Tom will be at the dojo again for a while. It's going to be a bit lonely...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "しばらくトムが道場に来ることはなさそうだ。\n少し、寂しくなるな……",
+   "occurrences": 1
+  },
+  "Miho wanted to send a message to that boy Shinta, who was at the temple.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "しん太という少年、\nやはり神社に来ていたようだな。\nみほからの伝言を伝えてやろう。",
+   "occurrences": 1
+  },
+  "It was pretty tough to work out who ate the mochi, but I did it in the end!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すこぶる頭を使う出来事だったな……\nしかしそのおかげで大福を食った犯人を\n言い当てることができたようだ。",
+   "occurrences": 1
+  },
+  "Suzu and Ikesugi were planning to meet by Kamo River, and Oguri was supposed to head that way too. Maybe I'll make an appearance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すずと池杉の待ち合わせ場所は鴨川沿いだったな。\n阿栗もそこに向かっただろうし、\n少し様子を見に行ってみるか。",
+   "occurrences": 1
+  },
+  "Ikesugi seems to be quite upset after being rejected by Suzu. I've got a bad feeling about all this. I should visit the shrine near the barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "すずにフられて池杉はかなり気が立っていたようだ。\n嫌な予感がするな。屯所の近くにある社に行ってみよう。",
+   "occurrences": 1
+  },
+  "I wonder if that guy from the gambling den is doing all right? Hope the thugs aren't bothering him again.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そういえば以前賭場で、助けた男は\nうまくやってるだろうか？\nまた賭場荒らしに狙われていなければいいが……",
+   "occurrences": 1
+  },
+  "Natsumi is the name of the writer next door. I wonder if he managed to write his story...?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そういえば隣の部屋に泊まっている物書き……\n夏見と言ったか。\nこの前の話はうまくいったのだろうか……？",
+   "occurrences": 1
+  },
+  "A nervous kawaraban writer asked me to help him. All I know is, this better not bring any trouble to my door...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そそっかしい瓦版売りに、助けを求められてしまった。\n厄介なことにならなければ良いんだがな。",
+   "occurrences": 1
+  },
+  "The Spitfire Debt Collector (Beginning)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "その女、破天荒につき（開始）",
+   "occurrences": 1
+  },
+  "When I can, I should head to the dojo to train Tom. I think the place opened at noon...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そろそろ道場にトムの稽古をつけにいってみるか。\nたしか道場は昼しか開いてなかったな……",
+   "occurrences": 2
+  },
+  "You know what would feel great? Relaxing in a public bath. I should stop in at one sometime.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "たまには銭湯でゆっくりするのもいいかもな。\n時間があるときに、寄ってみようか。",
+   "occurrences": 1
+  },
+  "Can't pass through—there's a large man lying on the ground. Seems he wants something...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "でかい男が倒れていてる。このままでは通行できない……\n何かを求めているようだから、何か渡してみよう。",
+   "occurrences": 1
+  },
+  "I gave the lethargic dog some food. I think someone owns it, but... Why would it spend its time here, then?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "とりあえず、元気が無い犬に食い物をやった。\n誰かの飼い犬だとは思うが……\nなぜここに留まっているのだろうか？",
+   "occurrences": 1
+  },
+  "I treated the man's injury, but why was he on the ground in the first place?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "とりあえず、手当てはした。\nしかし、\nなんでこの男は倒れていたのだろうか……",
+   "occurrences": 1
+  },
+  "Ma'am, I hope you don't mind someone lending you a hand when it comes to teaching these assholes a harsh lesson.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうやら、このゲスな連中に\nお灸をすえる必要がありそうだな。\n借金取りの姐さん、俺も手を貸すぜ。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "So apparently umeboshi is good for curing seasickness. Better hurry and give him some!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どうやら酔い覚ましには梅干しが良いらしい。\n梅干しを手に入れたら与えてみるとするか。",
+   "occurrences": 1
+  },
+  "Not sure who was entertaining whom, but it seems like he had a good time. Hope to share a drink with him again someday.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どっちが接待されてたかわからねぇが、\nとにかく無事に接待を終えられたようだな。\n神田の爺さん、また一緒に酒でも飲もうぜ。",
+   "occurrences": 1
+  },
+  "Gotta admit he was really strong... And I'm going to have to defeat him again if I want to get him to leave that risky line of work...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なかなか手強い相手だった。\nだが、喧嘩屋なんて物騒な仕事は、\n次も勝って足を洗わせないとな……",
+   "occurrences": 1
+  },
+  "Soft like mochi, my ass! It was a sumo wrestler! I can't let this nonsense continue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なにがプリプリでムチムチだ！\n力士じゃないか！　こんな悪徳商売、\nのさばらせておくわけにはいかないな。",
+   "occurrences": 1
+  },
+  "An old lady got hurt... Is she going to make it home by herself?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ばあさんが怪我をしたようだ……\n一人で帰れるだろうか？",
+   "occurrences": 1
+  },
+  "The old lady said the Dark Ebisu, the con artist, was in Teramachi. Gotta pick up the pace to catch up with him!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ばあさんの話によれば詐欺師、黒恵比寿は\n寺町にいたらしい。今から急いで追えば\n捕まえることができるかもしれないな。",
+   "occurrences": 1
+  },
+  "Never thought I'd be running around Kyo in just my underwear... Thank goodness no one I know saw me!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか京の町を褌一丁で走り回ることになるとは……\n知り合いに見られたら大変なところだったな。",
+   "occurrences": 1
+  },
+  "There's a cherry blossom tree in my garden, and Haruka's fine with burying the dog there. I should go tell the old couple. They're probably near the barracks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか俺の家の庭に桜の木があるとはな。\n遥の許可もとったし、屯所の近くに住んでいる\nじいさん達に教えてやろう。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "The inari sushi sold out when I was... right... there. Damn, now I'm really determined to eventually eat it. It must be so good.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか俺の目の前でいなり寿司が売り切れるとは。\nさぞかしうまいいなり寿司なんだろう。\nここまで来ると意地でも食ってみたくなるな",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Who would've thought there was a brothel for sumo lovers? The world is a big place with all <i>sorts</i> of people...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか力士好きの人向けの揚屋があるとは……\n世の中は広いな……",
+   "occurrences": 1
+  },
+  "Wouldn't mind helping Fujie a bit more. After all, it might've been fate itself that led him to need help translating a Tosa-dialect letter.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか土佐弁の翻訳を手伝うことになるとはな……\nしかし、これも何かの縁だ。\nしばらくは藤江の助けになってやるか。",
+   "occurrences": 1
+  },
+  "I didn't think literary genius could be created right here in Teradaya. Gotta say, I'm a little proud of my helpful feedback!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか寺田屋から文豪が誕生するとはな。\n俺の助言も役に立ったらしい。\n少し鼻が高いな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "I didn't think I'd witness erotic literature be created right here in Teradaya. Wow, what would Otose say if she found out?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか寺田屋から淫猥文豪が誕生するとは……\nこのことをお登勢に知られたら、\n何を言われるかわかったもんじゃないな……",
+   "occurrences": 1
+  },
+  "The cat was so clumsy it fell into a river... Which worries me enough that I want to go check on it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか川に落ちるような\nおっちょこちょいな猫がいるとはな……\n心配だからちょくちょく様子を見に行ってみよう。",
+   "occurrences": 1
+  },
+  "I certainly didn't think the package would be full of chikuwa! At any rate, I should return it to its rightful owner.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか手荷物の中身がちくわだったとはな……\nな、なんにせよ、持ち主の元へ包みを返しに行こう。",
+   "occurrences": 1
+  },
+  "I never would've thought the diary owner was a priest! Wow, that love confession was a total failure... But I don't think he ever stood much of a chance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか日記の主が神主だったとは……\n告白は失敗したが、あかりには最初から脈が\nなさそうだったな……　元気を出してくれ、神主。",
+   "occurrences": 1
+  },
+  "I didn't think there'd be a writer next door. I don't want to bother him, so I'll avoid the room for a while.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まさか隣の部屋に物書きが泊まっていたとはな。\n邪魔をしては悪い。\nしばらく部屋に近づくのはやめておこう。",
+   "occurrences": 1
+  },
+  "There were people dancing ee ja nai ka, and I bet they're causing trouble again. I need to do something about it.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "また、ええじゃないかで騒いでいる奴らがいたな……\nおそらく便乗して暴れ回っているのだろう。\n何とかしなくてはいかんな……",
+   "occurrences": 1
+  },
+  "Damn. That Yae really chapped those guys' hide. But there's nothing to be done about it now. Just gotta let them cool off.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "まったく……　八重の奴、相手を煽り過ぎだ。\nだがこうなっては仕方ない、\nこいつらには少し頭を冷やしてもらうとするか。",
+   "occurrences": 1
+  },
+  "Glad Miho and Shinta were able to make up at the end. Hopefully they'll keep caring about each other even while they're separated.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "みほとしん太、最後に仲直りできて本当によかった。\n例え離ればなれになったとしても、\nお互いを思い合う気持ちを忘れずにな。",
+   "occurrences": 1
+  },
+  "Miho wanted a message delivered to Shinta, and who could say no to a crying girl? Now, Shinta ran towards the temple...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "みほに、しん太への伝言を頼まれた。あんな泣き顔で\n言われたら引き受けないわけにはいかないだろう。\nしん太は神社の方に走っていったようだが……",
+   "occurrences": 1
+  },
+  "Miho's family is moving from Kawaramachi to Edo. Were she and Shinta able to say a proper goodbye to each other? Better make sure they did. ": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "みほは河原町から江戸まで引っ越すんだったな。\nしん太がちゃんとみほとお別れできるかどうか気になるな。\n少し様子を見に行ってみるか。",
+   "occurrences": 1
+  },
+  "Wait. Is the tree in my home garden?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "む？　俺の家の庭にあるあの木はまさか……",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "Right when I was almost there, the inari sushi sold out! Ugh, so annoying. Guess I'll come back some other time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう少しのところでいなり寿司が売り切れてしまった。\nまた並ぶのは面倒だが仕方ない。\nまたの機会に並ぶとしよう。",
+   "occurrences": 1
+  },
+  "That teacher's real challenge wasn't actually his lack of knowledge. It was the lack of trust his students had in him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ものを教えるというのもなかなか難しいものだな……\nだが、あの先生にとって本当に大事だったのは、\n知識よりも子供たちからの信頼だったようだな。",
+   "occurrences": 1
+  },
+  "That noisy dog finally quieted down after I gave him a bone. That should keep the annoyed neighbors from killing him!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やたらほえ続ける犬がいたが、\n骨をやっただけでああまで静かになるとはな。\nあとはあいつが駆除されないことを祈るばかりだ。",
+   "occurrences": 1
+  },
+  "Starting to think the only way to keep that dog quiet is to physically hold his jaws closed! ...Or maybe I'll just give him a bone.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やたらほえ続ける犬がいる。\n物理的に口をふさぐしかないか……\n骨でもくわえさせるか。",
+   "occurrences": 1
+  },
+  "Seems like he managed to get himself in trouble. And the only reason he got attacked was because he's a foreigner! Damn...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やはり絡まれてしまったか……\nしかし、外国人だからというだけで、\n襲われるとはな……",
+   "occurrences": 1
+  },
+  "Huh? There's something happening at the house in front of the barracks. I still hear the dog barking... What's going on?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ん？　屯所前の民家が騒がしいな。\n未だに犬の鳴き声が響いているが……\n何かあったのだろうか。",
+   "occurrences": 1
+  },
+  "Huh? There's something on the ground by the torii. Is that a notebook?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ん？　鴨川大社の鳥居の下に何か落ちているな？\n手帳のようだが……",
+   "occurrences": 1
+  },
+  "Satow, you may be a foreigner, but I'll never forget your love for the Land of the Rising Sun. Next time you're here, drinks are on me!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サトウ、外国人のあんたが\n日本のために注いでくれた愛、決して忘れはしない。\n次、日本に来たときは、一杯おごらせてくれ。",
+   "occurrences": 1
+  },
+  "Satow, a British diplomat...? No time to think about this, I need to take out the killer who's right in front of me, right now!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サトウがイギリスの外交官だと……？\nだが、とにかく今は目の前の人斬りを倒し、\n一刻も早くサトウを解放しなければ。",
+   "occurrences": 1
+  },
+  "Satow's been kidnapped! I need to rescue him right away. To Mukurogai!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サトウが何者かにさらわれてしまった。\n急いで助けなければ……\n指定された場所は骸街だったな。",
+   "occurrences": 1
+  },
+  "I wonder if Satow managed to tell Saigo that Japan is being seriously threatened. He said he'd stop at the izakaya before he left. I'd like to see him one last time.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サトウは無事、西郷に日本の危機を伝えられただろうか。\n帰国前にいつもの居酒屋に寄ると言っていたな。\nサトウが旅立つ前に会いに行ってみるか。",
+   "occurrences": 1
+  },
+  "Dammit... Fighting should be a last resort, but they just don't seem like they're ever going to listen. This'll end in tears...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "チッ……　揉め事は起こしたくなかったが、\n話が通じる相手じゃなさそうだ。\nここは戦うしかないな。",
+   "occurrences": 1
+  },
+  "Tom, if you're truly determined to become a samurai, then show that to me!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "トム、侍になりたいというお前の意地、\n俺に全部見せてみろ！",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  },
+  "The children didn't hold back around Tom. I wonder if he's okay. Maybe I'll go talk to him.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "トム、子供たちに色々言われていたようだが、\n大丈夫だろうか。声をかけてやろう。",
+   "occurrences": 1
+  },
+  "Show me what you got, Tom.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "トム、実力を見せてみろ。\nお手並み拝見させてもらうぞ。",
+   "occurrences": 1
+  },
+  "Let's see if you've cleared your mind, Tom. Show me what you have learned.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "トム、迷いが吹っ切れたかどうか試させてもらうぞ。\nシュギョーの成果をみせてみろ。",
+   "occurrences": 1
+  },
+  "Tom is definitely improving... But he still shouldn't push himself too hard.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "トムのやつ、どんどん腕をあげてくるな……\nしかし、色々と無理をしなければいいが。",
+   "occurrences": 1
+  },
+  "Heh. That Tom, I don't think anything will keep him down for long. If he ever rids himself of his self-doubt, he'll be unstoppable.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フッ、トムという男\nなかなか気概のある男じゃないか。\n迷いがふっきれたらもっと強くなれそうだ。",
+   "occurrences": 1
+  },
+  "Soft like mochi... Maybe I should have some fun in Gion every now and then.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プリプリでムチムチか……\nたまには祗園遊びも悪くないかもしれないな。",
+   "occurrences": 1
+  },
+  "Global Fraud (Beginning)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "世界を知る男（開始）",
+   "occurrences": 1
+  },
+  "Gotta listen to the testimonies of the five men and figure out who's lying.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "五人全員の証言を聞いて、\n嘘をついている２人を見つけだそう。",
+   "occurrences": 1
+  },
+  "Find out which two of the five are lying? I really wish I could help, but... Well, now that I think about it, I wonder if they're still at Shinmeicho?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "五人組の中から嘘をついている２人を見つけろ、だと？\nできることなら力になってやりたいところだが……\nまだあいつら、神明町にいるのだろうか？",
+   "occurrences": 1
+  },
+  "She's so talkative, everyone in Kyo got sick of her. I mean, how does she jabber on for so long? I wonder if she's still in South Yashikimachi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京の町中の人にあきれられるほどの長話……\nいったいどれだけのものなんだ……\nあの女、まだ屋敷町南にいるのだろうか。",
+   "occurrences": 1
+  },
+  "I guess people really can change... Who could've predicted that a brawler would become a monk?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "人間ってのは変われるものだな……\n喧嘩屋が僧になるとはな。",
+   "occurrences": 1
+  },
+  "There's an inari sushi place in Fushimi Ichibangai, and it seems to be very popular. I should try it sometime.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見一番街にいつの間にか\nいなり寿司屋ができていたとはな。\nすごく繁盛しているようだし……　並んでみようか。",
+   "occurrences": 1
+  },
+  "Soft like mochi, my ass! It was a wrestler! Now I've wasted both time and money... I'm never going back to that store again!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何がプリプリでムチムチだ！　力士じゃないか！\n金と時間を無駄にしてしまった……\nあんな店、もう二度と行かんぞ！",
+   "occurrences": 1
+  },
+  "There's a man who's acting pretty suspicious... Maybe he's the merchant? I should ask him if he sells perfume.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "何やら怪しげなやりとりをしている男がいるな……\nもしやあいつが噂の商人か？\n香水をとりあつかってるか、話を聞いてみよう。",
+   "occurrences": 1
+  },
+  "Apparently, Tom, a foreigner, knows better than anyone what truly matters to a samurai. There's a lesson in there...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "侍にとって一番大切なもの……\n外国人であるあいつが一番知っていたようだな。\n俺も見習わなければな。",
+   "occurrences": 1,
+   "evidence_gender": {
+    "gender": "male",
+    "from": "ja_line",
+    "why": "เครื่องหมายเพศในต้นฉบับของบรรทัดนี้เอง"
+   }
+  }
+ }
+}

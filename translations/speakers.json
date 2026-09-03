@@ -1,0 +1,3853 @@
+{
+ "0": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 11,
+  "lines": {
+   "speak_data": 11
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "0",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "???": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 4,
+  "lines": {
+   "locres": 4
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "???",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Akimoto": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x3"
+  ],
+  "id": "akimoto",
+  "ja_lines": 22,
+  "lines": {
+   "locres": 4,
+   "msg": 15,
+   "msg_named": 3
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 3
+  },
+  "name": "Akimoto",
+  "samples": {
+   "male": [
+    "聞いてくれって！\r/俺はさ、もうあんなトコ戻りたくないんだ！",
+    "もう俺には無理なんだって！",
+    "へ、へへっ。誰が行くかってんだ！\r/悪いけど、アンタを斬って俺は美月ちゃんと\r/京を出る！"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (akimoto)"
+  ]
+ },
+ "Anna": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "yujyo",
+  "ja_lines": 30,
+  "lines": {
+   "locres": 2,
+   "msg": 28
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Anna",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "msg_cue:cue_subtitle.bin (yujyo)"
+  ]
+ },
+ "Arrogant Dojo Student": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "msg_named": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Arrogant Dojo Student",
+  "samples": {},
+  "sources": [
+   "msg_voice_name"
+  ]
+ },
+ "Barker": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 40,
+  "lines": {
+   "speak_data": 40
+  },
+  "marker_hits": {
+   "female": 3,
+   "male": 0
+  },
+  "name": "Barker",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Bath Lady": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Lady)"
+  ],
+  "id": null,
+  "ja_lines": 2,
+  "lines": {
+   "locres": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Bath Lady",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Beggar": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 41,
+  "lines": {
+   "speak_data": 41
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Beggar",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Beleaguered Townsperson": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "speak_data": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Beleaguered Townsperson",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Boy": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Boy)"
+  ],
+  "id": null,
+  "ja_lines": 22,
+  "lines": {
+   "locres": 4,
+   "speak_data": 18
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Boy",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Boy's Mother": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Mother)"
+  ],
+  "id": null,
+  "ja_lines": 12,
+  "lines": {
+   "speak_data": 12
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Boy's Mother",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Calm Girl": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Girl)"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "speak_data": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Calm Girl",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Careless Man": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Man)"
+  ],
+  "id": null,
+  "ja_lines": 7,
+  "lines": {
+   "locres": 7
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Careless Man",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Child-Chasing Mother": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Mother)"
+  ],
+  "id": null,
+  "ja_lines": 5,
+  "lines": {
+   "speak_data": 5
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Child-Chasing Mother",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Customer": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 322,
+  "lines": {
+   "speak_data": 322
+  },
+  "marker_hits": {
+   "female": 8,
+   "male": 0
+  },
+  "name": "Customer",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Disgruntled Loyalist": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 11,
+  "lines": {
+   "locres": 11
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Disgruntled Loyalist",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Doctor": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 26,
+  "lines": {
+   "locres": 2,
+   "speak_data": 24
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Doctor",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Doshin": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "locres": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Doshin",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Eighth Division Trooper": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 4,
+  "lines": {
+   "speak_data": 4
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Eighth Division Trooper",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Elderly Man": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Man)"
+  ],
+  "id": null,
+  "ja_lines": 4,
+  "lines": {
+   "locres": 4
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Elderly Man",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Employee": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 946,
+  "lines": {
+   "speak_data": 946
+  },
+  "marker_hits": {
+   "female": 6,
+   "male": 0
+  },
+  "name": "Employee",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Everyone": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "locres": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Everyone",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Father": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Father)"
+  ],
+  "id": null,
+  "ja_lines": 11,
+  "lines": {
+   "locres": 11
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Father",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Filthy Ronin": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "msg_named": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Filthy Ronin",
+  "samples": {},
+  "sources": [
+   "msg_voice_name"
+  ]
+ },
+ "First Division Troopers": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "locres": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "First Division Troopers",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Friendly Child": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 24,
+  "lines": {
+   "speak_data": 24
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Friendly Child",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Gambling Den Customer": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 14,
+  "lines": {
+   "speak_data": 14
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Gambling Den Customer",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Gate Guard": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 2,
+  "lines": {
+   "msg_named": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Gate Guard",
+  "samples": {},
+  "sources": [
+   "msg_voice_name"
+  ]
+ },
+ "Geisha": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Geisha)"
+  ],
+  "id": null,
+  "ja_lines": 10,
+  "lines": {
+   "locres": 10
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Geisha",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Girl": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Girl)"
+  ],
+  "id": "girl",
+  "ja_lines": 10,
+  "lines": {
+   "msg": 1,
+   "speak_data": 9
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Girl",
+  "samples": {},
+  "sources": [
+   "sound_speak_data",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (girl)"
+  ]
+ },
+ "Girl's Mother": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Girl)"
+  ],
+  "id": null,
+  "ja_lines": 6,
+  "lines": {
+   "speak_data": 6
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Girl's Mother",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Government Official": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 9,
+  "lines": {
+   "locres": 9
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Government Official",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Guard": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 8,
+  "lines": {
+   "locres": 8
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Guard",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Handcart Handler": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 37,
+  "lines": {
+   "speak_data": 37
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Handcart Handler",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Harada": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x20",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x3",
+   "คำลงท้าย ぞ/ぜ x2",
+   "คำลงท้าย だろうが x2"
+  ],
+  "id": "harada",
+  "ja_lines": 184,
+  "lines": {
+   "locres": 33,
+   "msg": 53,
+   "msg_named": 4,
+   "speak_data": 94
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 27
+  },
+  "name": "Harada",
+  "samples": {
+   "male": [
+    "山南さんは“俺ら”試衛館の/仲間の一人だったじゃないすか",
+    "俺は何年も前に一度/近藤さんの手ほどきを受けてんだ",
+    "おもしれえ！　やってみろよ！/いつでも相手んなるぞ？"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (harada)"
+  ]
+ },
+ "Harassed Townsperson": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 70,
+  "lines": {
+   "speak_data": 70
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 0
+  },
+  "name": "Harassed Townsperson",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Harassing Man": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ぞ/ぜ x5",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x2",
+   "สรรพนาม オレ x1",
+   "สรรพนาม 俺 x1"
+  ],
+  "id": null,
+  "ja_lines": 70,
+  "lines": {
+   "speak_data": 70
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 9
+  },
+  "name": "Harassing Man",
+  "samples": {
+   "male": [
+    "どうおとしまえつける気ながぞ？",
+    "なんぞ？　ケチつける気か？",
+    "それともなんぞ？　痛い目見たいがか？"
+   ]
+  },
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Haruka": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "haruka",
+  "ja_lines": 297,
+  "lines": {
+   "msg": 284,
+   "speak_data": 13
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Haruka",
+  "samples": {},
+  "sources": [
+   "sound_speak_data",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (haruka)"
+  ]
+ },
+ "Hatamoto": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 8,
+  "lines": {
+   "locres": 8
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Hatamoto",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Hijikata": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ぞ/ぜ x3",
+   "สรรพนาม わし (ชายสูงวัย) x2",
+   "สรรพนาม 俺 x2",
+   "คำลงท้าย だろうが x1"
+  ],
+  "id": "hijikata",
+  "ja_lines": 436,
+  "lines": {
+   "locres": 173,
+   "msg": 199,
+   "msg_named": 5,
+   "speak_data": 59
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 9
+  },
+  "name": "Hijikata",
+  "samples": {
+   "male": [
+    "見苦しいぞ",
+    "行くぞ！",
+    "行くのか？　頼んだぞ"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (hijikata)"
+  ]
+ },
+ "Hirama": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 6,
+  "lines": {
+   "locres": 6
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Hirama",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Hirayama": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 11,
+  "lines": {
+   "locres": 11
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Hirayama",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Ikumatsu": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "msg_named": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Ikumatsu",
+  "samples": {},
+  "sources": [
+   "msg_voice_name"
+  ]
+ },
+ "Injured Grandma": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Grandma)"
+  ],
+  "id": null,
+  "ja_lines": 2,
+  "lines": {
+   "speak_data": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Injured Grandma",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Inoue": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ぞ/ぜ x3"
+  ],
+  "id": "inoue",
+  "ja_lines": 150,
+  "lines": {
+   "locres": 23,
+   "msg": 55,
+   "msg_named": 3,
+   "speak_data": 69
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 3
+  },
+  "name": "Inoue",
+  "samples": {
+   "male": [
+    "幹部会だぞ",
+    "バカを言うな同時に攻めるぞ",
+    "我々も行くぞ。"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (inoue)"
+  ]
+ },
+ "Ito": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ぞ/ぜ x3",
+   "สรรพนาม 俺 x3"
+  ],
+  "id": "ito",
+  "ja_lines": 157,
+  "lines": {
+   "locres": 23,
+   "msg": 72,
+   "msg_named": 2,
+   "speak_data": 60
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 6
+  },
+  "name": "Ito",
+  "samples": {
+   "male": [
+    "だが隊士は丸っと頂いてくぜ",
+    "今日から俺らは「御陵衛士」という/新たな組織として独立する",
+    "……沖田君、言うまでもないが\r/もしその話が嘘だったら切腹ものだぞ？"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (ito)"
+  ]
+ },
+ "Izo": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x8",
+   "คำลงท้าย ぞ/ぜ x2",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x1"
+  ],
+  "id": "izo",
+  "ja_lines": 118,
+  "lines": {
+   "locres": 67,
+   "msg": 21,
+   "msg_named": 1,
+   "speak_data": 29
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 11
+  },
+  "name": "Izo",
+  "samples": {
+   "male": [
+    "行くぞ",
+    "いくぞ……",
+    "ワシは認めんがじゃ"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (izo)"
+  ]
+ },
+ "Katsu": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 13,
+  "lines": {
+   "locres": 13
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Katsu",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Katsura": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x10",
+   "คำลงท้าย ぞ/ぜ x1"
+  ],
+  "id": null,
+  "ja_lines": 158,
+  "lines": {
+   "locres": 84,
+   "speak_data": 74
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 11
+  },
+  "name": "Katsura",
+  "samples": {
+   "male": [
+    "いやぁ　俺は必死に稔麿さんを止めたんだよ？/「こんな計画やめなさい」って",
+    "俺の話を全部信じてくれとは言わない",
+    "だから　あんたが/俺を殺す理由はないはずだ　だろ？"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Kawaraban Onlooker": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 12,
+  "lines": {
+   "speak_data": 12
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Kawaraban Onlooker",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Kawaraban Vendor": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 75,
+  "lines": {
+   "speak_data": 75
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Kawaraban Vendor",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Kondo": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x34",
+   "คำลงท้าย ぞ/ぜ x11",
+   "สรรพนาม わし (ชายสูงวัย) x1"
+  ],
+  "id": "kondo",
+  "ja_lines": 291,
+  "lines": {
+   "locres": 136,
+   "msg": 155
+  },
+  "marker_hits": {
+   "female": 4,
+   "male": 46
+  },
+  "name": "Kondo",
+  "samples": {
+   "male": [
+    "知ってるよ俺が呼んだんだからよ",
+    "お前が勤王党の筆頭にふさわしい男じゃないと",
+    "ま　天念理心流四代目宗家の/俺を斬れればの話だがな？"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (kondo)"
+  ]
+ },
+ "Kuramitsu Family Servant": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "speak_data": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Kuramitsu Family Servant",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Large Man": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Man)"
+  ],
+  "id": null,
+  "ja_lines": 26,
+  "lines": {
+   "locres": 25,
+   "msg_named": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Large Man",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "msg_voice_name"
+  ]
+ },
+ "Long-Faced Joshi": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Joshi)"
+  ],
+  "id": null,
+  "ja_lines": 11,
+  "lines": {
+   "locres": 11
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Long-Faced Joshi",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Lovestruck Woman": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Woman)"
+  ],
+  "id": null,
+  "ja_lines": 2,
+  "lines": {
+   "speak_data": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Lovestruck Woman",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Loyalist Shishi": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 6,
+  "lines": {
+   "locres": 6
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Loyalist Shishi",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Magistrate Official": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 3,
+  "lines": {
+   "locres": 3
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Magistrate Official",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Maid": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Maid)"
+  ],
+  "id": null,
+  "ja_lines": 14,
+  "lines": {
+   "speak_data": 14
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Maid",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Man Having Fun": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Man)"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "locres": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Man Having Fun",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Man with Attitude": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Man)"
+  ],
+  "id": null,
+  "ja_lines": 10,
+  "lines": {
+   "speak_data": 10
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Man with Attitude",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Matsubara": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ぞ/ぜ x2",
+   "สรรพนาม 俺 x1"
+  ],
+  "id": null,
+  "ja_lines": 71,
+  "lines": {
+   "locres": 20,
+   "speak_data": 51
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 3
+  },
+  "name": "Matsubara",
+  "samples": {
+   "male": [
+    "平助！　くだらない冗談を言っている/場合じゃないぞ！",
+    "お前　俺のことを売ったのか！",
+    "鴉から聞いたぜ"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Mizuki": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "mizuki",
+  "ja_lines": 14,
+  "lines": {
+   "locres": 3,
+   "msg": 11
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 0
+  },
+  "name": "Mizuki",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (mizuki)"
+  ]
+ },
+ "Mother": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Mother)"
+  ],
+  "id": null,
+  "ja_lines": 45,
+  "lines": {
+   "locres": 14,
+   "speak_data": 31
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Mother",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Mother chasing after her child": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Mother)"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "speak_data": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Mother chasing after her child",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Mukurogai Resident": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 34,
+  "lines": {
+   "speak_data": 34
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Mukurogai Resident",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Mysterious Foreigner": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "speak_data": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Mysterious Foreigner",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Mysterious Man": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Man)"
+  ],
+  "id": null,
+  "ja_lines": 4,
+  "lines": {
+   "locres": 4
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Mysterious Man",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Nagakura": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x16",
+   "คำลงท้าย ぞ/ぜ x1",
+   "สรรพนาม わし (ชายสูงวัย) x1"
+  ],
+  "id": null,
+  "ja_lines": 208,
+  "lines": {
+   "locres": 88,
+   "speak_data": 120
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 18
+  },
+  "name": "Nagakura",
+  "samples": {
+   "male": [
+    "俺の席や",
+    "俺から一本取れば合格や/武器は何使うても構わん",
+    "俺の天念理心流の攻撃を受けても/死なん奴がおるとはな"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Nakaoka": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x2",
+   "คำลงท้าย ぞ/ぜ x1"
+  ],
+  "id": null,
+  "ja_lines": 66,
+  "lines": {
+   "locres": 23,
+   "msg_named": 4,
+   "speak_data": 39
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 3
+  },
+  "name": "Nakaoka",
+  "samples": {
+   "male": [
+    "時間はあるんだろ？/ちょっと長話に付き合ってもらうぜ",
+    "西郷と桂は　何とか逃がしたが/俺はこのザマだ",
+    "俺のほうでも調べてみる"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name"
+  ]
+ },
+ "Narrator": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 163,
+  "lines": {
+   "locres": 163
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Narrator",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Niibori": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 6,
+  "lines": {
+   "locres": 6
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Niibori",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Oblivious Woman": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Woman)"
+  ],
+  "id": null,
+  "ja_lines": 2,
+  "lines": {
+   "speak_data": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Oblivious Woman",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Okita": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x11",
+   "สรรพนาม 俺 x2"
+  ],
+  "id": null,
+  "ja_lines": 325,
+  "lines": {
+   "locres": 170,
+   "msg_named": 10,
+   "speak_data": 145
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 13
+  },
+  "name": "Okita",
+  "samples": {
+   "male": [
+    "せや　ワシが“あの”……",
+    "ワシやったら絶対……",
+    "ワシの理心流は　一味ちゃうで"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name"
+  ]
+ },
+ "Old Man": {
+  "gender": "male",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Man)"
+  ],
+  "id": null,
+  "ja_lines": 2,
+  "lines": {
+   "speak_data": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Old Man",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Onlooker": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 114,
+  "lines": {
+   "speak_data": 114
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Onlooker",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Oryo": {
+  "gender": "female",
+  "gender_from": "ja_markers_weak",
+  "gender_why": [
+   "สรรพนามคันไซหญิง うち x29",
+   "คำลงท้าย のよ x1"
+  ],
+  "id": "oryo",
+  "ja_lines": 394,
+  "lines": {
+   "locres": 74,
+   "msg": 118,
+   "msg_named": 2,
+   "speak_data": 200
+  },
+  "marker_hits": {
+   "female": 30,
+   "male": 0
+  },
+  "name": "Oryo",
+  "samples": {
+   "female": [
+    "でも　それやったら/うちが会うた“坂本”さんは！？",
+    "新選組の人でうちと同じように/「坂本龍馬」とつながっている人がいるの",
+    "うちも女将さんと同じ想いです"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (oryo)"
+  ]
+ },
+ "Otose": {
+  "gender": "female",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ないわ x3"
+  ],
+  "id": "otose",
+  "ja_lines": 412,
+  "lines": {
+   "locres": 56,
+   "msg": 143,
+   "msg_named": 4,
+   "speak_data": 209
+  },
+  "marker_hits": {
+   "female": 3,
+   "male": 0
+  },
+  "name": "Otose",
+  "samples": {
+   "female": [
+    "体に良くないわ",
+    "えぇ子やのにもったいないわ",
+    "あぁ　あれも足りてないわ"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (otose)"
+  ]
+ },
+ "Patron": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 29,
+  "lines": {
+   "speak_data": 29
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 2
+  },
+  "name": "Patron",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Playing Child": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 24,
+  "lines": {
+   "speak_data": 24
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Playing Child",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Pleading Citizen": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 48,
+  "lines": {
+   "speak_data": 48
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 0
+  },
+  "name": "Pleading Citizen",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Portly Joshi": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Joshi)"
+  ],
+  "id": null,
+  "ja_lines": 10,
+  "lines": {
+   "locres": 10
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Portly Joshi",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Prison Guard": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 23,
+  "lines": {
+   "locres": 23
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Prison Guard",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Receptionist": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 2,
+  "lines": {
+   "locres": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Receptionist",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Ronin": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 10,
+  "lines": {
+   "locres": 10
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 3
+  },
+  "name": "Ronin",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Ryoma": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x214",
+   "คำลงท้าย ぞ/ぜ x47",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x6",
+   "คำลงท้าย だろうが x2"
+  ],
+  "id": "kiryu",
+  "ja_lines": 2124,
+  "lines": {
+   "locres": 766,
+   "msg": 1320,
+   "msg_named": 38
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 270
+  },
+  "name": "Ryoma",
+  "samples": {
+   "male": [
+    "生き生きとしてみえるぜ",
+    "無しだぜ",
+    "行くぞ！"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "msg_voice_name",
+   "msg_cue:cue_subtitle.bin (kiryu)"
+  ]
+ },
+ "Saigo": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x7",
+   "คำลงท้าย ぞ/ぜ x1"
+  ],
+  "id": null,
+  "ja_lines": 94,
+  "lines": {
+   "locres": 33,
+   "speak_data": 61
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 8
+  },
+  "name": "Saigo",
+  "samples": {
+   "male": [
+    "ワシは今日大変な一日でのう",
+    "ワシに噛み付くとはのう",
+    "ワシも薩摩背負うとるんや"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Sakamoto Ryoma?": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 3,
+  "lines": {
+   "locres": 3
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Sakamoto Ryoma?",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Sasaki": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x4",
+   "สรรพนาม 俺 x4",
+   "คำลงท้าย ぞ/ぜ x1"
+  ],
+  "id": "sasaki",
+  "ja_lines": 51,
+  "lines": {
+   "locres": 29,
+   "msg": 21,
+   "msg_named": 1
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 9
+  },
+  "name": "Sasaki",
+  "samples": {
+   "male": [
+    "ワシらに命令した幕府のお役人に",
+    "われはもう引っこんどれや！　コラァ！\r/わしらぁ近藤出せ言うとるんじゃ！",
+    "おう待てい、わしらも中入れんかい！"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (sasaki)"
+  ]
+ },
+ "Scary Man": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ぞ/ぜ x5"
+  ],
+  "id": null,
+  "ja_lines": 13,
+  "lines": {
+   "speak_data": 13
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 5
+  },
+  "name": "Scary Man",
+  "samples": {
+   "male": [
+    "お前らどっかいけや！　斬んぞ！",
+    "お前ら邪魔や！　見世物ちゃうねんぞ！",
+    "おまんら邪魔じゃ！　見世物じゃないがぞ！"
+   ]
+  },
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Serizawa": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x4"
+  ],
+  "id": null,
+  "ja_lines": 19,
+  "lines": {
+   "locres": 19
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 4
+  },
+  "name": "Serizawa",
+  "samples": {
+   "male": [
+    "俺の素性を知った上で……",
+    "近藤局長は　影として水戸藩に使い捨てられた/俺たちを救ってくれた",
+    "もはや陽の当たる場所では/生きる道のなかった俺たちをな"
+   ]
+  },
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Sexy Madam": {
+  "gender": "female",
+  "gender_from": "role_name",
+  "gender_why": [
+   "ชื่อผู้พูดบอกเพศในตัวเอง (Madam)"
+  ],
+  "id": null,
+  "ja_lines": 6,
+  "lines": {
+   "speak_data": 6
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Sexy Madam",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Shimada Yahei": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 29,
+  "lines": {
+   "speak_data": 29
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "Shimada Yahei",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Shinsengumi Trooper": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 4,
+  "lines": {
+   "locres": 4
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Shinsengumi Trooper",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Shinta": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "speak_data": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Shinta",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Sumo Wrestler": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 4,
+  "lines": {
+   "speak_data": 4
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Sumo Wrestler",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Suzuki": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x2",
+   "คำลงท้าย ぞ/ぜ x1",
+   "สรรพนาม わし (ชายสูงวัย) x1"
+  ],
+  "id": "suzuki",
+  "ja_lines": 24,
+  "lines": {
+   "locres": 7,
+   "msg": 17
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 4
+  },
+  "name": "Suzuki",
+  "samples": {
+   "male": [
+    "余裕かましとるんやないぞ！！",
+    "……なら、隠れてコソコソやっとる人間より、\r/局長にふさわしい人物がおるやろって思いますがね。",
+    "あ？\r/“無用の六番隊長”がなに抜かしとんねん。\r/てめえなんざ足手まといにしかならんやろが。"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (suzuki)"
+  ]
+ },
+ "Takechi": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x70",
+   "คำลงท้าย ぞ/ぜ x2"
+  ],
+  "id": "takechi",
+  "ja_lines": 412,
+  "lines": {
+   "locres": 278,
+   "msg": 90,
+   "speak_data": 44
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 72
+  },
+  "name": "Takechi",
+  "samples": {
+   "male": [
+    "俺にも分からねえ",
+    "ああ……　以前からお前らにはよく話して聞かせている/俺の唯一無二の兄弟分であり",
+    "ここまで来るのに俺と親っさんが/どれだけ根回ししてきたと思ってるんだ"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (takechi)"
+  ]
+ },
+ "Takeda": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x13"
+  ],
+  "id": "takeda",
+  "ja_lines": 141,
+  "lines": {
+   "locres": 22,
+   "msg": 31,
+   "speak_data": 88
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 13
+  },
+  "name": "Takeda",
+  "samples": {
+   "male": [
+    "心もカラダも教育するんがワシの信条や",
+    "ワシの胸にしまっとく",
+    "わしは屯所戻って五番隊の訓練や"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (takeda)"
+  ]
+ },
+ "Tani": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ぞ/ぜ x5",
+   "สรรพนาม 俺 x3",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x1"
+  ],
+  "id": "tani",
+  "ja_lines": 19,
+  "lines": {
+   "locres": 12,
+   "msg": 7
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 9
+  },
+  "name": "Tani",
+  "samples": {
+   "male": [
+    "俺達は今をときめく新選組の隊長サマだぜ？",
+    "俺達は今をときめく新選組の隊長サマだぜ？",
+    "見つけたぜ！"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (tani)"
+  ]
+ },
+ "The Bathkeeper of Sai": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 14,
+  "lines": {
+   "locres": 14
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "The Bathkeeper of Sai",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "The Real Okita Soji": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 19,
+  "lines": {
+   "locres": 19
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "The Real Okita Soji",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Todo": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x22",
+   "สรรพนาม 僕 x1"
+  ],
+  "id": "todo",
+  "ja_lines": 235,
+  "lines": {
+   "locres": 69,
+   "msg": 85,
+   "msg_named": 1,
+   "speak_data": 80
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 23
+  },
+  "name": "Todo",
+  "samples": {
+   "male": [
+    "じゃあ俺が教えますよ",
+    "こう見えて　教えるのうまいんですよ俺",
+    "「俺ら」って　左之助さん/試衛館出身じゃないじゃないですか"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_voice_name",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (todo)"
+  ]
+ },
+ "Tom": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "speak_data": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Tom",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Tosa Doshin": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "locres": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Tosa Doshin",
+  "samples": {},
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Townsperson": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 435,
+  "lines": {
+   "locres": 11,
+   "speak_data": 424
+  },
+  "marker_hits": {
+   "female": 8,
+   "male": 9
+  },
+  "name": "Townsperson",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Toyo": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x20"
+  ],
+  "id": "toyo",
+  "ja_lines": 123,
+  "lines": {
+   "locres": 39,
+   "msg": 84
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 20
+  },
+  "name": "Toyo",
+  "samples": {
+   "male": [
+    "悪いがこの石ころ/ワシの方で引き取らせてもらう",
+    "ワシがこの土佐で最も“規律”に厳しい男だということを/知らぬわけではあるまいな？",
+    "ワシたちはこれから/土佐藩の老人たちに引導を渡し　土佐藩を改革する"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (toyo)"
+  ]
+ },
+ "Trooper": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 22,
+  "lines": {
+   "locres": 2,
+   "speak_data": 20
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Trooper",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Troublesome Ronin": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 2,
+  "lines": {
+   "msg_named": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Troublesome Ronin",
+  "samples": {},
+  "sources": [
+   "msg_voice_name"
+  ]
+ },
+ "Unknown": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 1,
+  "lines": {
+   "speak_data": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "Unknown",
+  "samples": {},
+  "sources": [
+   "sound_speak_data"
+  ]
+ },
+ "Warrior": {
+  "crowd_label": true,
+  "gender": "unknown",
+  "gender_from": "crowd_label",
+  "gender_why": [
+   "ป้ายกลุ่มคน ไม่ใช่ตัวละครเดียว — บังคับกลางเพศ"
+  ],
+  "id": null,
+  "ja_lines": 21,
+  "lines": {
+   "locres": 10,
+   "speak_data": 11
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 3
+  },
+  "name": "Warrior",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data"
+  ]
+ },
+ "Yamauchi Yodo": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x9",
+   "คำลงท้าย ぞ/ぜ x5",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x1"
+  ],
+  "id": null,
+  "ja_lines": 62,
+  "lines": {
+   "locres": 62
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 15
+  },
+  "name": "Yamauchi Yodo",
+  "samples": {
+   "male": [
+    "いや　なかなかいい活躍だったぞ",
+    "今後　この国ではワシ以外の万民は",
+    "このワシだ！"
+   ]
+  },
+  "sources": [
+   "locres_speaker"
+  ]
+ },
+ "Yamazaki": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "yamazaki",
+  "ja_lines": 81,
+  "lines": {
+   "locres": 12,
+   "msg": 26,
+   "speak_data": 43
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "Yamazaki",
+  "samples": {},
+  "sources": [
+   "locres_speaker",
+   "sound_speak_data",
+   "msg_cue:ชื่อตรงกับชื่อบนจอ (yamazaki)"
+  ]
+ },
+ "Yoshinobu": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x6",
+   "คำลงท้าย ぞ/ぜ x1"
+  ],
+  "id": null,
+  "ja_lines": 35,
+  "lines": {
+   "locres": 34,
+   "msg_named": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 7
+  },
+  "name": "Yoshinobu",
+  "samples": {
+   "male": [
+    "なるほど　俺の顔も知らんか",
+    "だが今度の賊は/この俺に「国を救う話を聞け」と言う",
+    "俺に話を聞かせたいのなら……"
+   ]
+  },
+  "sources": [
+   "locres_speaker",
+   "msg_voice_name"
+  ]
+ },
+ "id:akiyama": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x12",
+   "สรรพนาม わし (ชายสูงวัย) x1"
+  ],
+  "id": "akiyama",
+  "ja_lines": 74,
+  "lines": {
+   "msg": 74
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 13
+  },
+  "name": "id:akiyama",
+  "samples": {
+   "male": [
+    "ああそっか。俺は長州藩の新堀松輔。\r/これでも一応「勤王の志士」ってやつだ。",
+    "けど……\r/あんたの剣の腕、俺に預けてくれるってんなら\r/いずれ本名も教えるよ。",
+    "これでも俺、長州藩きっての\r/情報通って言われててね。\r/情報の仕入れ方には精通してる。"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:bakuto": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "bakuto",
+  "ja_lines": 19,
+  "lines": {
+   "msg": 19
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:bakuto",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:bandai": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "bandai",
+  "ja_lines": 6,
+  "lines": {
+   "msg": 6
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:bandai",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:bushi": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "bushi",
+  "ja_lines": 18,
+  "lines": {
+   "msg": 18
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:bushi",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:chonin1": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "chonin1",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:chonin1",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:chonin2": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "chonin2",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:chonin2",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:chonin3": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "chonin3",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:chonin3",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:chonin4": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "chonin4",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:chonin4",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:date": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x35",
+   "คำลงท้าย ぞ/ぜ x6",
+   "สรรพนาม わし (ชายสูงวัย) x2",
+   "คำลงท้าย だろうが x1"
+  ],
+  "id": "date",
+  "ja_lines": 167,
+  "lines": {
+   "msg": 167
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 44
+  },
+  "name": "id:date",
+  "samples": {
+   "male": [
+    "薩摩藩邸は、洛内の北にあるはずだ。\r/もう一人の「坂本龍馬」は俺の方でも調べてみる。",
+    "俺が予想した通りだったぜ。\r/例の“ほとぐらふ”を見せた途端、\r/食いついてきやがったぜ。",
+    "俺が予想した通りだったぜ。\r/例の“ほとぐらふ”を見せた途端、\r/食いついてきやがったぜ。"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:dojo2": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "dojo2",
+  "ja_lines": 12,
+  "lines": {
+   "msg": 12
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:dojo2",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:dojo3": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "dojo3",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:dojo3",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:furutaka": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "furutaka",
+  "ja_lines": 3,
+  "lines": {
+   "msg": 3
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:furutaka",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:haha": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "haha",
+  "ja_lines": 5,
+  "lines": {
+   "msg": 5
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:haha",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:haraguchi": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "haraguchi",
+  "ja_lines": 20,
+  "lines": {
+   "msg": 20
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "id:haraguchi",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:hata": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "hata",
+  "ja_lines": 3,
+  "lines": {
+   "msg": 3
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:hata",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:hira": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "hira",
+  "ja_lines": 4,
+  "lines": {
+   "msg": 4
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:hira",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:hira1": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "hira1",
+  "ja_lines": 2,
+  "lines": {
+   "msg": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:hira1",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:hira2": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "hira2",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:hira2",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:iku": {
+  "gender": "female",
+  "gender_from": "ja_markers_weak",
+  "gender_why": [
+   "สรรพนามคันไซหญิง うち x5",
+   "คำลงท้าย ですわ x1"
+  ],
+  "id": "iku",
+  "ja_lines": 32,
+  "lines": {
+   "msg": 32
+  },
+  "marker_hits": {
+   "female": 6,
+   "male": 0
+  },
+  "name": "id:iku",
+  "samples": {
+   "female": [
+    "うち、感動しましたわ。",
+    "すんまへん。\r/うちが無茶言ったばっかりに、恥をかかせてしもうて。",
+    "うち、これから歌う予定なんどす。\r/斎藤はんも、ご一緒しません？"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:isya": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "isya",
+  "ja_lines": 5,
+  "lines": {
+   "msg": 5
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:isya",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:jinushi": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "jinushi",
+  "ja_lines": 5,
+  "lines": {
+   "msg": 5
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:jinushi",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:joho": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "joho",
+  "ja_lines": 18,
+  "lines": {
+   "msg": 18
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:joho",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:kannushi": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "kannushi",
+  "ja_lines": 18,
+  "lines": {
+   "msg": 18
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:kannushi",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:katu": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "katu",
+  "ja_lines": 15,
+  "lines": {
+   "msg": 15
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:katu",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:majima": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x44",
+   "สรรพนาม 俺 x2",
+   "คำลงท้าย ぞ/ぜ x1"
+  ],
+  "id": "majima",
+  "ja_lines": 277,
+  "lines": {
+   "msg": 277
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 47
+  },
+  "name": "id:majima",
+  "samples": {
+   "male": [
+    "ワシらが江戸へ行っとる間、\r/一体、何があったんや？",
+    "土佐へ行く前に……　ワシとひと勝負せんか？",
+    "なんや、一（はじめ）ちゃん。\r/また、ワシと勝負したいんか？"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:matubara": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "matubara",
+  "ja_lines": 23,
+  "lines": {
+   "msg": 23
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:matubara",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:mihari": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "mihari",
+  "ja_lines": 10,
+  "lines": {
+   "msg": 10
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:mihari",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:mon": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "mon",
+  "ja_lines": 16,
+  "lines": {
+   "msg": 16
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:mon",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:musyuku1": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "musyuku1",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:musyuku1",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:nobu": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "nobu",
+  "ja_lines": 9,
+  "lines": {
+   "msg": 9
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:nobu",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:okami": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "okami",
+  "ja_lines": 5,
+  "lines": {
+   "msg": 5
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:okami",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:ronin1": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x2",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x1"
+  ],
+  "id": "ronin1",
+  "ja_lines": 7,
+  "lines": {
+   "msg": 7
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 3
+  },
+  "name": "id:ronin1",
+  "samples": {
+   "male": [
+    "俺たち、ちょうどタネ銭が尽きちまってよ。\r/いくらか金貸してくれねえか？",
+    "何だてめえは？",
+    "へっ……　俺たちもダテに剣術積んでないんでね。"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:ronin2": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "คำลงท้าย ぞ/ぜ x4",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x3",
+   "สรรพนาม 俺 x1"
+  ],
+  "id": "ronin2",
+  "ja_lines": 29,
+  "lines": {
+   "msg": 29
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 8
+  },
+  "name": "id:ronin2",
+  "samples": {
+   "male": [
+    "新選組と言っても、所詮は幕府の犬じゃねえか！\r/調子に乗ってんじゃねえぞ！",
+    "て、てめえら、何者だ？　名を名乗れ！",
+    "いくらなんでも、この２人を相手にするのは無謀だ。\r/……お前ら、ずらかるぞ！"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:ronin3": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "ronin3",
+  "ja_lines": 2,
+  "lines": {
+   "msg": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:ronin3",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:rounin1": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "rounin1",
+  "ja_lines": 5,
+  "lines": {
+   "msg": 5
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 1
+  },
+  "name": "id:rounin1",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:rounin2": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x1",
+   "คำลงท้าย ぞ/ぜ x1",
+   "คำเรียกฝ่ายตรงข้ามแบบชาย x1"
+  ],
+  "id": "rounin2",
+  "ja_lines": 5,
+  "lines": {
+   "msg": 5
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 3
+  },
+  "name": "id:rounin2",
+  "samples": {
+   "male": [
+    "うるせえ！　俺らは勤王の志士だぞ？\r/天下国家のために、命がけで\r/幕府と戦ってるんだろが！",
+    "うるせえ！　俺らは勤王の志士だぞ？\r/天下国家のために、命がけで\r/幕府と戦ってるんだろが！",
+    "おい。てめえも詫び入れて出すもん出せや……"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:rounin3": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "rounin3",
+  "ja_lines": 2,
+  "lines": {
+   "msg": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:rounin3",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:rounin4": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "rounin4",
+  "ja_lines": 2,
+  "lines": {
+   "msg": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:rounin4",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:ryuji": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x11"
+  ],
+  "id": "ryuji",
+  "ja_lines": 71,
+  "lines": {
+   "msg": 71
+  },
+  "marker_hits": {
+   "female": 2,
+   "male": 11
+  },
+  "name": "id:ryuji",
+  "samples": {
+   "male": [
+    "せやからわしは、あんたを\r/気に入ったっちゅうことや！",
+    "アホか。わしより飲んどるやないか。",
+    "そや！　わしが買いたかった情報が\r/何やったか話したら、あんたも話すか？"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:saejima": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม 俺 x16",
+   "สรรพนาม わし (ชายสูงวัย) x2"
+  ],
+  "id": "saejima",
+  "ja_lines": 113,
+  "lines": {
+   "msg": 113
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 18
+  },
+  "name": "id:saejima",
+  "samples": {
+   "male": [
+    "わしは沖田らと一緒に池田屋をやる。",
+    "土佐へ行くにも、まだ時間があるな。\r/斎藤、俺が稽古つけてやろうか？",
+    "なんや、斎藤。\r/もう一度、俺と勝負したいんか？"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:sai": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "sai",
+  "ja_lines": 30,
+  "lines": {
+   "msg": 30
+  },
+  "marker_hits": {
+   "female": 1,
+   "male": 2
+  },
+  "name": "id:sai",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:satsuma1": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "satsuma1",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:satsuma1",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:satsuma2": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "satsuma2",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:satsuma2",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:satsuma3": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "satsuma3",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:satsuma3",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:sendo": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "sendo",
+  "ja_lines": 24,
+  "lines": {
+   "msg": 24
+  },
+  "marker_hits": {
+   "female": 4,
+   "male": 2
+  },
+  "name": "id:sendo",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:sengoku": {
+  "gender": "male",
+  "gender_from": "ja_markers",
+  "gender_why": [
+   "สรรพนาม わし (ชายสูงวัย) x4"
+  ],
+  "id": "sengoku",
+  "ja_lines": 19,
+  "lines": {
+   "msg": 19
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 4
+  },
+  "name": "id:sengoku",
+  "samples": {
+   "male": [
+    "そういうこっちゃ。\r/ワシはあんたらが今晩乗り込んでくるっちゅう事を\r/知らされとったんや。",
+    "……ワシがハメたんは志士たちだけとちゃうで？\r/あんたもや。……斎藤一はん。",
+    "なあ沖田はん、そろそろワシにも\r/教えてくれてもええやろ？"
+   ]
+  },
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:shishi3": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "shishi3",
+  "ja_lines": 2,
+  "lines": {
+   "msg": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "id:shishi3",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:spy": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "spy",
+  "ja_lines": 2,
+  "lines": {
+   "msg": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:spy",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:taishi": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "taishi",
+  "ja_lines": 7,
+  "lines": {
+   "msg": 7
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:taishi",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:taishi1": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "taishi1",
+  "ja_lines": 6,
+  "lines": {
+   "msg": 6
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:taishi1",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:taishi10": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "taishi10",
+  "ja_lines": 1,
+  "lines": {
+   "msg": 1
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:taishi10",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:toma": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "toma",
+  "ja_lines": 11,
+  "lines": {
+   "msg": 11
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:toma",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:touin10": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "touin10",
+  "ja_lines": 4,
+  "lines": {
+   "msg": 4
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:touin10",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:waka": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "waka",
+  "ja_lines": 2,
+  "lines": {
+   "msg": 2
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 0
+  },
+  "name": "id:waka",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ },
+ "id:yahei": {
+  "gender": "unknown",
+  "gender_from": "none",
+  "gender_why": [],
+  "id": "yahei",
+  "ja_lines": 7,
+  "lines": {
+   "msg": 7
+  },
+  "marker_hits": {
+   "female": 0,
+   "male": 2
+  },
+  "name": "id:yahei",
+  "samples": {},
+  "sources": [
+   "msg_cue:มีแต่ id ในคิวเสียง"
+  ]
+ }
+}

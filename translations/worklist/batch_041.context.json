@@ -1,0 +1,2256 @@
+{
+ "batch": "batch_041.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Maximum attack at current grade": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今の格での最大攻撃力",
+   "occurrences": 1
+  },
+  "Maximum defense at current grade": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "今の格での最大防御力",
+   "occurrences": 1
+  },
+  "Select which ammo to make.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作成する弾丸を選択してくれ。",
+   "occurrences": 1
+  },
+  "It'll cost {s_value} to make this. Okay?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作成費用は{s_value}だ。いいか？",
+   "occurrences": 2
+  },
+  "It'll cost {s_value} to make this. Any unslotted seals are gonna disappear.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "作成費用は{s_value}だ。枠が足りない分の印は消えるからな。",
+   "occurrences": 1
+  },
+  "Fusion": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "合成",
+   "occurrences": 3
+  },
+  "You don't have anything that can be used for fusion.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "合成に使えるものがねぇな。",
+   "occurrences": 1
+  },
+  "It'll cost {s_value} to fuse this. If you've got duplicate seals, the better one will stay.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "合成費用は{s_value}だ。重複した印はいい色の方だけ残すぞ。",
+   "occurrences": 1
+  },
+  "Select what to use as raw material. \n This material will disappear upon creation.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "基本素材にする武具を選択してくれ。\n武具作成後、素材にした武具はなくなるぞ。",
+   "occurrences": 1
+  },
+  "Donate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寄贈",
+   "occurrences": 2
+  },
+  "What do you want to donate?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寄贈するものを選択してくれ。",
+   "occurrences": 1
+  },
+  "How Donation Works": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "寄贈説明",
+   "occurrences": 1
+  },
+  "Select what you'd like enhance.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "強化したい武具を選択してくれ。",
+   "occurrences": 1
+  },
+  "Ammo Crafting": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "弾丸作成",
+   "occurrences": 1
+  },
+  "I can enhance some equipment.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手持ちの武具を強化できるぞ。",
+   "occurrences": 1
+  },
+  "I can craft new equipment.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新しい武具を作成できるぞ。",
+   "occurrences": 1
+  },
+  "You can now craft a wider range of equipment.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新しく生成できるものが増えました",
+   "occurrences": 1
+  },
+  "Select what you'd like to make.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新たに作りたい武具を選択してくれ。",
+   "occurrences": 1
+  },
+  "This'll need an upgrade before you can enhance it any.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "更なる強化には格上げが必要だな。",
+   "occurrences": 1
+  },
+  "Are you sure you want to send this to storage?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本当に倉庫に送っても良いですか？",
+   "occurrences": 1
+  },
+  "Are you sure you want to discard this?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本当に捨てても良いですか？",
+   "occurrences": 1
+  },
+  "Are you sure you want to offer this?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "本当に渡しても良いですか？",
+   "occurrences": 1
+  },
+  "Raise Grade": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格上げ",
+   "occurrences": 1
+  },
+  "The cost to upgrade is {s_value}. Okay?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格上げ費用は{s_value}だ。いいか？",
+   "occurrences": 1
+  },
+  "Maximum attack at next grade": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次の格での最大攻撃力",
+   "occurrences": 1
+  },
+  "Maximum defense at next grade": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "次の格での最大防御力",
+   "occurrences": 1
+  },
+  "Requested": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "注",
+   "occurrences": 1
+  },
+  "Select an ability to imbue.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "活かす能力を選択してくれ。",
+   "occurrences": 1
+  },
+  "I can craft special ammunition.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊な弾丸を作成できるぞ。",
+   "occurrences": 1
+  },
+  "Generate": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "生成",
+   "occurrences": 1
+  },
+  "Looks like you don't have enough materials.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "素材が足りねぇようだな。",
+   "occurrences": 1
+  },
+  "Select what to use as material.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "素材に使うものを選択してくれ。",
+   "occurrences": 1
+  },
+  "No materials needed": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "素材不要",
+   "occurrences": 1
+  },
+  "The number of abilities exceeds the number of slots.\nSelect the abilities you wish to keep.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "能力の数が枠を超えています\n残す能力を選んでください",
+   "occurrences": 1
+  },
+  "Given": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "贈",
+   "occurrences": 1
+  },
+  "Looks like you don't have enough money.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "金が足りねぇようだな。",
+   "occurrences": 1
+  },
+  "Tempering": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛錬",
+   "occurrences": 2
+  },
+  "It'll cost {s_value} to temper this. Okay?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鍛錬費用は{s_value}だ。いいか？",
+   "occurrences": 1
+  },
+  "Affix to <Sign:52>, <Sign:53>, or <Sign:54> with a Soulful Strike": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "魂の一打で<Sign:52><Sign:53><Sign:54>のいずれかに確定",
+   "occurrences": 1
+  },
+  "Affix to <Sign:52> or <Sign:53> with a Soulful Strike": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "魂の一打で<Sign:52><Sign:53>のいずれかに確定",
+   "occurrences": 1
+  },
+  "(Not bad.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（いけるな）",
+   "occurrences": 1
+  },
+  "(Good stuff.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（うまいものだな）",
+   "occurrences": 1
+  },
+  "(Tastes good.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（うむ、うまいな）",
+   "occurrences": 1
+  },
+  "(Mm, I'm impressed.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（うむ、なかなかだな）",
+   "occurrences": 1
+  },
+  "(Hmm... That was all right.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（う～ん……　イマイチだな……）",
+   "occurrences": 1
+  },
+  "(This is tasty.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（こいつは、うまいぞ）",
+   "occurrences": 1
+  },
+  "(Throwing this weapon away would be a waste...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（この武器は捨てるには惜しいな……）",
+   "occurrences": 1
+  },
+  "(This is good.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（これは、いいな）",
+   "occurrences": 1
+  },
+  "(Not bad at all...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（これは、なかなか……）",
+   "occurrences": 1
+  },
+  "(I already have one of these.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（これはもう持っているな……）",
+   "occurrences": 2
+  },
+  "(Throwing this away would be a waste...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（これは捨てるには惜しいな……）",
+   "occurrences": 1
+  },
+  "(Couldn't eat another bite.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（これ以上食べられないな……）",
+   "occurrences": 1
+  },
+  "(I'd better not drink any more...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（これ以上飲めないな……）",
+   "occurrences": 2
+  },
+  "(Pretty damn good.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（なかなか、いけるな）",
+   "occurrences": 1
+  },
+  "(This is pretty good.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（なかなかのものだな）",
+   "occurrences": 1
+  },
+  "(Hm, not bad.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（ふむ、いけるな）",
+   "occurrences": 1
+  },
+  "(I haven't picked anything.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（何も選んでいない……）",
+   "occurrences": 5
+  },
+  "(What should I hand over?)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（何を渡そうか……？）",
+   "occurrences": 1
+  },
+  "(I guess it's all sold out.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（売り切れのようだ……）",
+   "occurrences": 1
+  },
+  "(I don't have anything I can sell.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（売れる物を持っていないな……）",
+   "occurrences": 1
+  },
+  "(I'm a little short.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（手持ちが足りないようだな……）",
+   "occurrences": 3
+  },
+  "(I have too much stuff, I have to get rid of something.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（持ち物が一杯だ……　何か捨てよう……）",
+   "occurrences": 1
+  },
+  "(I don't have any space...)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（持ち物が一杯だ……）",
+   "occurrences": 1
+  },
+  "(I can't carry any more stuff.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（持ち物が一杯だな……）",
+   "occurrences": 2
+  },
+  "(I don't have anything I can give.)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "（渡せる物を持っていないな……）",
+   "occurrences": 1
+  },
+  "Downloadable Content": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダウンロード؀コンテンツ",
+   "occurrences": 2
+  },
+  "Photo Mode": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "フォトモード",
+   "occurrences": 1
+  },
+  "Play Time:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイ時間",
+   "occurrences": 2
+  },
+  "Second Home": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "別宅",
+   "occurrences": 37
+  },
+  "Legendary": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最強",
+   "occurrences": 24
+  },
+  "Weapon Savants": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "我流武器戦",
+   "occurrences": 2
+  },
+  "Battle Results": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "戦績",
+   "occurrences": 2
+  },
+  "Fire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "撃つ",
+   "occurrences": 2
+  },
+  "Function": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "機能",
+   "occurrences": 31
+  },
+  "Baptism by Fire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洗礼の間",
+   "occurrences": 2
+  },
+  "Barehanded War": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "無手組戦",
+   "occurrences": 2
+  },
+  "Frenzy of Blades": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "狂剣の宴",
+   "occurrences": 2
+  },
+  "Farm": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "畑",
+   "occurrences": 63
+  },
+  "Speed Challenge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "疾走闘技",
+   "occurrences": 3
+  },
+  "Ultimate Challenge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "究極闘技",
+   "occurrences": 5
+  },
+  "Reputation": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "評判",
+   "occurrences": 1
+  },
+  "Proving Grounds": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "試練の間",
+   "occurrences": 2
+  },
+  "The Loaded Chamber": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "銃撃の宴",
+   "occurrences": 2
+  },
+  "Troopers": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士",
+   "occurrences": 1
+  },
+  "Difficulty:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "プレイ中の難易度",
+   "occurrences": 2
+  },
+  "The Apex": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "頂点の座",
+   "occurrences": 2
+  },
+  "Out of {d_value00} shots, {d_value01} destroyed / {d_value02} deflected": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{d_value00}発中 {d_value01}発破壊 {d_value02}発弾き",
+   "occurrences": 1
+  },
+  "Left": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あと",
+   "occurrences": 1
+  },
+  "Bonus": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おまけ",
+   "occurrences": 1
+  },
+  "Slash": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "斬る",
+   "occurrences": 1
+  },
+  "Cannonballs": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "球",
+   "occurrences": 1
+  },
+  "Level": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "レベル",
+   "occurrences": 3
+  },
+  "Recovery": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "回復力",
+   "occurrences": 1
+  },
+  "Information": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "情報",
+   "occurrences": 5
+  },
+  "Missions Completed": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "達成任務数",
+   "occurrences": 2
+  },
+  "Trooper": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "平隊士",
+   "occurrences": 2
+  },
+  "You can now select ${kind}: ${number}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "${kind}　${number}が選べるようになりました。",
+   "occurrences": 1
+  },
+  "Destroy all scarecrows!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かかしを全て破壊せよ！",
+   "occurrences": 1
+  },
+  "Evade the chickens and collect 10 eggs!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "にわとりに接触しないよう逃げつつ\n卵を１０個集めろ！",
+   "occurrences": 2
+  },
+  "Defeat all enemies using only Heat Actions! Be careful, as you can only use each Heat Action once.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヒートアクションのみで敵を全滅せよ！　\nただし同じヒートアクションではダメージを与えられない。",
+   "occurrences": 1
+  },
+  "Use Swordsman style to defeat all enemies within the time limit!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一刀の型で制限時間内に敵を全滅せよ！",
+   "occurrences": 2
+  },
+  "Combat Challenge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱戦闘技",
+   "occurrences": 2
+  },
+  "Use Wild Dancer style to defeat all enemies within the time limit!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "乱舞の型で制限時間内に敵を全滅せよ！",
+   "occurrences": 2
+  },
+  "Race to the Imperial Palace within the time limit!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "制限時間内に御所前まで疾走せよ！",
+   "occurrences": 2
+  },
+  "Defeat all enemies within the time limit!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "制限時間内に敵を全滅せよ！",
+   "occurrences": 8
+  },
+  "Escape from the Shinsengumi within the time limit and reach your destination!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "制限時間内に新選組から逃げ切り\n目的地へたどり着け！",
+   "occurrences": 2
+  },
+  "Escape from Kochi Castle within the time limit!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "制限時間内に高知城から脱出せよ！",
+   "occurrences": 2
+  },
+  "Defeat 100 enemies using the cannon!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲を使って１００人の敵を倒せ！",
+   "occurrences": 2
+  },
+  "Fight against powerful enemies in back-to-back matches.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "強敵と立て続けに連戦を行うミッションです。",
+   "occurrences": 2
+  },
+  "Defeat all enemies!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "敵を全滅せよ！",
+   "occurrences": 2
+  },
+  "Best": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最上",
+   "occurrences": 100
+  },
+  "Weakest": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最弱",
+   "occurrences": 5
+  },
+  "Weakest Ryoma": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最弱龍馬",
+   "occurrences": 5
+  },
+  "Legendary Ryoma": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最強龍馬",
+   "occurrences": 22
+  },
+  "Use Brawler style to defeat all enemies within the time limit!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "格闘の型で制限時間内に敵を全滅せよ！",
+   "occurrences": 2
+  },
+  "Participate in chase battles under various conditions.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "様々な状況や条件でチェイスバトルを行うミッションです。",
+   "occurrences": 2
+  },
+  "Defeat multiple enemies under various conditions.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "様々な状況や条件で敵を全滅させることを目的としたミッションです。",
+   "occurrences": 2
+  },
+  "A mission with a unique victory condition.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "特殊なクリア条件が設定されたミッションです。",
+   "occurrences": 2
+  },
+  "Use Gunman style to defeat all enemies within the time limit!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "短銃の型で制限時間内に敵を全滅せよ！",
+   "occurrences": 2
+  },
+  "Protect Akimoto from the Shinsengumi!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "秋元を新選組から守れ！",
+   "occurrences": 2
+  },
+  "Catch the Ultimate General!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "究極将軍を捕まえろ！",
+   "occurrences": 2
+  },
+  "Defeat all enemies using special moves with <symbol=button_r2>!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "絶技のみを使用して敵を全滅せよ！",
+   "occurrences": 2
+  },
+  "Fight hard to achieve the Godly rank!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "肩書き\"天下無双\"を獲得せよ！",
+   "occurrences": 1
+  },
+  "Defeat all enemies using only pick-up weapons!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "落ちている武器のみで敵を全滅させろ！",
+   "occurrences": 2
+  },
+  "Reach your destination without getting caught!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "見つからずに目的地までたどり着け！",
+   "occurrences": 2
+  },
+  "Skill Challenge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "試練闘技",
+   "occurrences": 2
+  },
+  "Defeat the red, yellow, and blue ninja in that order! However, you must not harm any other enemy!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "赤い忍者、黄色い忍者、青い忍者の順に敵を倒せ！\nただしそれ以外の敵は傷つけるな！",
+   "occurrences": 1
+  },
+  "Dull": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鈍",
+   "occurrences": 13
+  },
+  "Defeat all enemies within 15 seconds!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１５秒以内に敵を全滅せよ！",
+   "occurrences": 2
+  },
+  "Defeat 2 bosses, 10 British soldiers, and a bear! *25% of player health recovers with each battle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "２人の強敵と英国兵１０名と熊を討ち倒せ！\n※ただし、一戦ごとに体力の２５％回復する",
+   "occurrences": 1
+  },
+  "Defeat 2 bosses and 8 regular enemies! *25% of player health recovers with each battle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "２人の強敵と８人の敵を討ち倒せ！\n※ただし、一戦ごとに体力の２５％回復する",
+   "occurrences": 1
+  },
+  "Defeat the 3 bosses! *25% of player health recovers with each battle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "３人の強敵を討ち倒せ！\n※ただし、一戦ごとに体力の２５％回復する",
+   "occurrences": 4
+  },
+  "Defeat the 8 bosses!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "８人の強敵を討ち倒せ！",
+   "occurrences": 2
+  },
+  "Achieve a 99-hit combo!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "９９連撃を達成せよ！",
+   "occurrences": 1
+  },
+  "New modes have been added to the main menu:\nBakumatsu Premium Adventure\nUltimate Challenge": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": " クリア後モードとして、\n\n幕末漫遊\n究極闘技\n\nがメニューに追加されました。",
+   "occurrences": 1
+  },
+  "You can now select {s_value00}:　{s_value01}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value00}　{s_value01}が選べるようになりました。",
+   "occurrences": 1
+  },
+  "You can now obtain {s_value}.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value}を入手できるようになりました。",
+   "occurrences": 1
+  },
+  "While playing the game or Bakumatsu Premium Adventure with Clear Data,\nyou can receive {s_value} from Bakumatsu Bob Utsunomiya at Teradaya.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「クリアデータ使用で最初から」または、「幕末漫遊」でゲームを開始すると\n寺田屋にいる宇都宮から「{s_value}」を入手することができます。",
+   "occurrences": 1
+  },
+  "For players seeking a challenge.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "このゲームを極めたい方のみ挑戦してください。",
+   "occurrences": 1
+  },
+  "Recommended for players skilled at action games.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アクションに自信のある方におすすめです。",
+   "occurrences": 1
+  },
+  "Recommended for players who are new to action games.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アクションゲームが苦手な方や、\n「龍が如く」シリーズ初心者の方におすすめです。",
+   "occurrences": 1
+  },
+  "Upload": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アップロード",
+   "occurrences": 1
+  },
+  "Retain clear data and explore the game world without following the story.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クリアデータの全要素を引き継いだ状態で                     \nシナリオに関係なく、自由に世界を探索できます。                     ",
+   "occurrences": 1
+  },
+  "Start a new game from the beginning, retaining all abilities,\nitems, and money from clear data.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クリアデータの能力、アイテム、所持金を引き継いで                     \n新たに最初からゲームを始めます。                     ",
+   "occurrences": 1
+  },
+  "Start a new game from scratch without using clear data.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クリアデータは使わずに、完全な初期状態で\n新たに最初からゲームを始めます。",
+   "occurrences": 1
+  },
+  "Start without Clear Data": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クリアデータを使わず始める",
+   "occurrences": 1
+  },
+  "Begin without Clear Data": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クリアデータを使わず最初から",
+   "occurrences": 1
+  },
+  "Start with Clear Data": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クリアデータ使用で始める",
+   "occurrences": 1
+  },
+  "Begin with Clear Data": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クリアデータ使用で最初から",
+   "occurrences": 1
+  },
+  "Level Upon Completion:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クリア時のレベル",
+   "occurrences": 1
+  },
+  "Exit the game and return to the desktop.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ゲームを終了してデスクトップに戻ります。",
+   "occurrences": 1
+  },
+  "Exit the game and return to the desktop?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ゲームを終了してデスクトップに戻りますか？",
+   "occurrences": 1
+  },
+  "Continues Used:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "コンティニュー回数",
+   "occurrences": 1
+  },
+  "Completion Total:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "コンプリートトータル",
+   "occurrences": 1
+  },
+  "System Data": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "システムデータ",
+   "occurrences": 1
+  },
+  "Story Demo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ストーリー体験",
+   "occurrences": 1
+  },
+  "Download": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダウンロード",
+   "occurrences": 1
+  },
+  "Download History": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダウンロード履歴",
+   "occurrences": 1
+  },
+  "Check your download history.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダウンロード履歴を確認します。(仮)",
+   "occurrences": 1
+  },
+  "Receive Downloads and Check Download History": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダウンロード特典の受け取り \nダウンロードの履歴",
+   "occurrences": 1
+  },
+  "Confirm and apply your downloaded bonuses.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダウンロード特典の確認と実行を行います。",
+   "occurrences": 1
+  },
+  "Battle Dungeon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "バトルダンジョン",
+   "occurrences": 1
+  },
+  "Battle Demo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "バトル体験",
+   "occurrences": 1
+  },
+  "Unable to use online services due to parental control restrictions.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ペアレンタルロックが設定されているため\nオンラインサービスを利用できません。",
+   "occurrences": 1
+  },
+  "Experience a part of the story.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "メインストーリーの一部が遊べます。",
+   "occurrences": 1
+  },
+  "Rewatch cutscenes from the story that you've seen before.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一度観たイベントシーンを鑑賞できます。",
+   "occurrences": 1
+  },
+  "Hard": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "上級",
+   "occurrences": 3
+  },
+  "Demo Mode": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "体験モード",
+   "occurrences": 1
+  },
+  "Easy": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "初級",
+   "occurrences": 3
+  },
+  "Start from scratch and explore the game world without following the story.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "完全な初期状態からゲームを始めます。                     \nシナリオに関係なく、自由に世界を探索できます。                     ",
+   "occurrences": 1
+  },
+  "Completion": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "完全達成",
+   "occurrences": 1
+  },
+  "Dishes Completed": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "完成済みの料理品数",
+   "occurrences": 1
+  },
+  "Results:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "成果一覧",
+   "occurrences": 1
+  },
+  "Weak": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最弱",
+   "occurrences": 1
+  },
+  "Types of Crops Harvested": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "栽培した作物の種類",
+   "occurrences": 1
+  },
+  "The standard difficulty level.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "標準的な難易度です。",
+   "occurrences": 1
+  },
+  "Battle enemies that wander around Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外の町を徘徊する敵とバトルすることができます。",
+   "occurrences": 1
+  },
+  "Trooper Cards Acquired:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "獲得隊士カード数",
+   "occurrences": 1
+  },
+  "Diligence Records Completion:": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "精進目録達成数",
+   "occurrences": 1
+  },
+  "Trade Orders Fulfilled": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "納品済みの品物数",
+   "occurrences": 1
+  },
+  "Ishin!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "維新！",
+   "occurrences": 2
+  },
+  "Total Play Time": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "総プレイ時間",
+   "occurrences": 1
+  },
+  "Survive the Bakumatsu period at its bloodiest.\nRecommended for players with previous Clear Data.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "血で血を洗う幕末を生き抜くモードです。\nクリアデータを引継いでプレイすることをおすすめします。",
+   "occurrences": 1
+  },
+  "Legend": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "達人級",
+   "occurrences": 2
+  },
+  "Types of Fish Caught": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "釣り上げた魚の種類",
+   "occurrences": 1
+  },
+  "Trooper Cards Acquired": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士カード数",
+   "occurrences": 1
+  },
+  "Ishin! difficulty has been unlocked.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "難易度設定に維新！が追加されました。",
+   "occurrences": 1
+  },
+  "Legend difficulty has been unlocked.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "難易度設定に達人級が追加されました。",
+   "occurrences": 1
+  },
+  "Like a Dragon: Ishin! system data.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍が如く 維新！ 極のシステムデータです。",
+   "occurrences": 1
+  },
+  "Trips": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アラシ",
+   "occurrences": 1
+  },
+  "Ace Out": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ピンゾロ",
+   "occurrences": 1
+  },
+  "Musashi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ムサシ",
+   "occurrences": 1
+  },
+  "Triple": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "三倍",
+   "occurrences": 1
+  },
+  "Evens": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶",
+   "occurrences": 1
+  },
+  "All-evens": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "偶の音",
+   "occurrences": 1
+  },
+  "Partial": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "分",
+   "occurrences": 1
+  },
+  "Odds": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奇",
+   "occurrences": 1
+  },
+  "All-odds": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "奇の見",
+   "occurrences": 1
+  },
+  "Tags": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "点",
+   "occurrences": 1
+  },
+  "Roll History": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出目の履歴",
+   "occurrences": 1
+  },
+  "Seven": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "七",
+   "occurrences": 3
+  },
+  "Chrysanthemum": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "菊",
+   "occurrences": 2
+  },
+  "Storm": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アラシ",
+   "occurrences": 1
+  },
+  "Eight": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "オイチョ",
+   "occurrences": 1
+  },
+  "Nine": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カブ",
+   "occurrences": 1
+  },
+  "Nine-One": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クッピン",
+   "occurrences": 1
+  },
+  "Five": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ゴケ",
+   "occurrences": 1
+  },
+  "Three": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "サンタ",
+   "occurrences": 1
+  },
+  "Four-One": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "シッピン",
+   "occurrences": 1
+  },
+  "Two": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ニソウ",
+   "occurrences": 1
+  },
+  "One": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ピン",
+   "occurrences": 1
+  },
+  "Zero": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ブタ",
+   "occurrences": 1
+  },
+  "Four": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ヨツヤ",
+   "occurrences": 1
+  },
+  "Six": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ロッポウ",
+   "occurrences": 1
+  },
+  "A battle to the death against five of the strongest competitors, with grand prize on the line!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "5人の猛者と大量の賞金を懸けての死闘！",
+   "occurrences": 1
+  },
+  "Level {2d_value}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "Lv.{2d_value}",
+   "occurrences": 1
+  },
+  "{2d_value00} battles {2d_value01} wins {2d_value02} losses": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{2d_value00}戦{2d_value01}勝{2d_value02}敗",
+   "occurrences": 1
+  },
+  "Rank {2d_value}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{2d_value}位",
+   "occurrences": 1
+  },
+  "{2d_value} wins": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{2d_value}勝",
+   "occurrences": 1
+  },
+  "{2d_value} wins in a row": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{2d_value}連勝",
+   "occurrences": 1
+  },
+  "x {3.2f_value}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{3.2f_value}倍",
+   "occurrences": 1
+  },
+  "Opponents defeated: {3d_value01} out of {3d_value00}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{3d_value00}人中{3d_value01}人撃破",
+   "occurrences": 1
+  },
+  "{3d_value00} battles {3d_value01} wins {3d_value02} losses": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{3d_value00}戦{3d_value01}勝{3d_value02}敗",
+   "occurrences": 1
+  },
+  "{3d_value} times": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{3d_value}回",
+   "occurrences": 1
+  },
+  "{4d_value} points": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{4d_value}点",
+   "occurrences": 1
+  },
+  "x {8d_value}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{8d_value}個",
+   "occurrences": 1
+  },
+  "{d_value00} ryo {04d_value01} mon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{d_value00}両{04d_value01}文",
+   "occurrences": 1
+  },
+  "{d_value00} battles {3d_value01} wins {3d_value02} losses": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{d_value00}戦{3d_value01}勝{3d_value02}敗",
+   "occurrences": 1
+  },
+  "{d_value} defeated": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{d_value}人撃破",
+   "occurrences": 1
+  },
+  "{d_value} combo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{d_value}連撃",
+   "occurrences": 1
+  },
+  "{s_value00} {4d_value01}x{2.1f_value02}": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "{s_value00} {4d_value01}×{2.1f_value02}",
+   "occurrences": 1
+  },
+  "x{d_value} times": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "×{d_value}倍",
+   "occurrences": 1
+  },
+  "You can't earn any more ranking points from this match. Take on stronger foes to further climb the ranks.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "こちらの部門ではこれ以上番付得点は得られません。\n闘技場番付を上げたい場合は上の部門に挑戦してください。",
+   "occurrences": 1
+  },
+  "No items": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アイテムなし",
+   "occurrences": 1
+  },
+  "Round 1": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一回戦",
+   "occurrences": 1
+  },
+  "A challenger has come for the top spot! Who will survive this one-on-one deathmatch!?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一度手に入れたはずの頂点の座を狙うものが現れた！\n一対一の死闘の末に生き残るのはどっちだ！？",
+   "occurrences": 1
+  },
+  "Peerless Competitor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一騎当千の配信者",
+   "occurrences": 1
+  },
+  "Round 3": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "三回戦",
+   "occurrences": 1
+  },
+  "Intermediate Competitor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中堅配信者",
+   "occurrences": 1
+  },
+  "Round 2": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "二回戦",
+   "occurrences": 1
+  },
+  "Knockout match against five competitors. You'll earn more Arena Points and prize money based on your win streak.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "五人との勝ち抜き戦を行います。\n連勝するたびに獲得できる闘玉と賞金が増えます。",
+   "occurrences": 1
+  },
+  "Round 5": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "五回戦",
+   "occurrences": 1
+  },
+  "The strongest in Kyo have gathered, unlocking the Banquet of the Mighty!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京にいる強者達が集まり\n「強者の宴」が解放されました",
+   "occurrences": 1
+  },
+  "The strongest men in all Kyo are waiting.\nPrize: 5000 mon, 300 Arena Points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京にいる猛者たちが集まった、最強を決める闘い。\n賞金　五千文　　闘玉　三百個",
+   "occurrences": 1
+  },
+  "The strongest men in all Kyo are waiting.\nPrize: 5000 mon, 300 Arena Points.\nOnly unlocked once you've encountered them all!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "京にいる猛者たちが集まった、最強を決める闘い。\n賞金　五千文　　闘玉　三百個　\n※京にいる猛者たちと出会うと解放されます。",
+   "occurrences": 1
+  },
+  "Popular Competitor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "人気配信者",
+   "occurrences": 1
+  },
+  "Legendary Competitor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伝説の配信者",
+   "occurrences": 1
+  },
+  "Sword-lovers welcome! Just take care around the odachi-wielders.\nPrize: 2000 mon, 200 Arena Points.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "刀に狂った者たちの宴。　大太刀の一撃に注意せよ。\n賞金　二千文　　闘玉　二百個",
+   "occurrences": 1
+  },
+  "Swordmaster": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "剣豪",
+   "occurrences": 1
+  },
+  "Win Rate: {3d_value}%": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "勝率{3d_value}％",
+   "occurrences": 1
+  }
+ }
+}

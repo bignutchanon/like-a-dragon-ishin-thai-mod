@@ -1,0 +1,2287 @@
+{
+ "batch": "batch_023.json",
+ "readme": "ไฟล์คู่ของ batch — เปิดพร้อมกันเสมอ · neutral:true = ไม่มีป้ายผู้พูดที่พิสูจน์เพศได้ ให้เขียนแบบกลางเพศตาม PRONOUN_MATRIX §1.3 · **ยกเว้นบรรทัดที่มีช่อง evidence_gender** ซึ่งแปลว่ามีหลักฐานจากไฟล์เกมชั้นอื่นรองรับ (from=lead > ja_line > scene) — ชั้น scene ต้องอ่านฉากก่อนใช้ เพราะอาจยืมเพศจากตัวละครอื่น",
+ "lines": {
+  "Pts in possession": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "所持Ｐ",
+   "occurrences": 1
+  },
+  "Points held": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "持ち点",
+   "occurrences": 2
+  },
+  "Balls in possession": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "持ち玉",
+   "occurrences": 1
+  },
+  "mon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "文",
+   "occurrences": 3
+  },
+  "chips": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "枚",
+   "occurrences": 1
+  },
+  "Confirm": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "決定",
+   "occurrences": 21
+  },
+  "Rakunai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛内",
+   "occurrences": 5
+  },
+  "Rakugai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外",
+   "occurrences": 5
+  },
+  "points": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "点",
+   "occurrences": 8
+  },
+  "Pts acquired": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "獲得Ｐ",
+   "occurrences": 1
+  },
+  "shots": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "発",
+   "occurrences": 1
+  },
+  "Gion": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祗園",
+   "occurrences": 5
+  },
+  "Prize Tickets": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "福引き券",
+   "occurrences": 2
+  },
+  "Type": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "種類",
+   "occurrences": 1
+  },
+  "Show": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "表示",
+   "occurrences": 1
+  },
+  "Funds": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "資金",
+   "occurrences": 1
+  },
+  "Proceed": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "進む",
+   "occurrences": 4
+  },
+  "Dojo Fund": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "道場資金",
+   "occurrences": 1
+  },
+  "Arena Points": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "闘玉",
+   "occurrences": 2
+  },
+  "Hide": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "非表示",
+   "occurrences": 3
+  },
+  "Mukurogai": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街",
+   "occurrences": 4
+  },
+  "Share a tender moment while relaxing in the tub, upon reaching a certain level of trust with Haruka.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "別宅のお風呂で発生する和みイベントです。イベント発生で達成です。",
+   "occurrences": 1
+  },
+  "Share a tender moment as you rest by the fire, upon reaching a certain level of trust with Haruka.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "別宅の居間で発生する和みイベントです。イベント発生で達成です。",
+   "occurrences": 1
+  },
+  "Share a tender moment when turning in for the night, upon reaching a certain level of trust with Haruka.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "別宅の布団で発生する和みイベントです。イベント発生で達成です。",
+   "occurrences": 1
+  },
+  "Share a tender moment when leaving for the day, upon reaching a certain level of trust with Haruka.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "別宅の庭で発生する和みイベントです。イベント発生で達成です。",
+   "occurrences": 1
+  },
+  "Slice of Life: Bath": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お風呂でのイベント",
+   "occurrences": 1
+  },
+  "Slice of Life: Den": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "居間でのイベント",
+   "occurrences": 1
+  },
+  "Slice of Life: Futon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "布団でのイベント",
+   "occurrences": 1
+  },
+  "Slice of Life: Garden": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "庭でのイベント",
+   "occurrences": 1
+  },
+  "Essence of Lagoon": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "蹴り落としの極み",
+   "occurrences": 1
+  },
+  "Awarded \"First Class\" or higher on all songs and difficulties.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全ての楽曲＆難易度で「一流」以上の評価獲得で達成です。",
+   "occurrences": 1
+  },
+  "Awarded \"Preferred Performer\" or higher on all songs.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全曲で「当店の看板男」以上の評価獲得で達成です。",
+   "occurrences": 1
+  },
+  "Won every Courtesan Game on every difficulty.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "各お座敷遊びの全ての難易度で勝利すると達成です。",
+   "occurrences": 1
+  },
+  "Won {s_value} times or more in total.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "累計の勝利回数が{s_value}回以上で達成です。",
+   "occurrences": 1
+  },
+  "Earned {s_value} points or more in total.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "累計獲得点数が{s_value}点以上で達成です。",
+   "occurrences": 1
+  },
+  "Awarded \"Divine\" rank.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "総評で「神」ランク取得で達成です。",
+   "occurrences": 1
+  },
+  "Earned {s_value} points in a single match.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "１試合で{s_value}点獲得すると達成です。",
+   "occurrences": 1
+  },
+  "Udon Shop": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "うどん屋手伝い",
+   "occurrences": 2
+  },
+  "Courtesan Games": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "揚屋～お座敷遊び～",
+   "occurrences": 1
+  },
+  "Buyo Dancing": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "日本舞踊",
+   "occurrences": 1
+  },
+  "Chicken Racing": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "競鶏場",
+   "occurrences": 6
+  },
+  "Samurai Enbu: Normal": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さむらい演舞　一般級",
+   "occurrences": 1
+  },
+  "Samurai Enbu: Advanced": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さむらい演舞　上級者級",
+   "occurrences": 1
+  },
+  "Samurai Enbu: Beginner": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さむらい演舞　初心者級",
+   "occurrences": 1
+  },
+  "Samurai Enbu: Geisha": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さむらい演舞　芸者級",
+   "occurrences": 1
+  },
+  "Samurai Ondo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "さむらい音頭",
+   "occurrences": 1
+  },
+  "Rock, Paper, Scissors: Novice": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "じゃんけん勝負　一般級",
+   "occurrences": 1
+  },
+  "Rock, Paper, Scissors: Regular": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "じゃんけん勝負　常連級",
+   "occurrences": 1
+  },
+  "Rock, Paper, Scissors: Asura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "じゃんけん勝負　阿修羅級",
+   "occurrences": 1
+  },
+  "Harapeko Biyori (A Fine Day for Food)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はらぺこ日和",
+   "occurrences": 5
+  },
+  "Sensual Healing: Novice": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "介抱　一般級",
+   "occurrences": 1
+  },
+  "Sensual Healing: Regular": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "介抱　常連級",
+   "occurrences": 1
+  },
+  "Sensual Healing: Asura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "介抱　阿修羅級",
+   "occurrences": 1
+  },
+  "Fubuki Kouta: Normal": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吹雪小唄　一般級",
+   "occurrences": 1
+  },
+  "Fubuki Kouta: Advanced": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吹雪小唄　上級者級",
+   "occurrences": 1
+  },
+  "Fubuki Kouta: Beginner": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吹雪小唄　初心者級",
+   "occurrences": 1
+  },
+  "Fubuki Kouta: Geisha": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吹雪小唄　芸者級",
+   "occurrences": 1
+  },
+  "Iji Sakura (Fighting Sakura)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "意地桜",
+   "occurrences": 3
+  },
+  "Kokyou ni Nishiki o Kazaru Beshi (In Glory I'll Return)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "故郷に錦を飾るべし",
+   "occurrences": 5
+  },
+  "Max Acquired Points": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "最高獲得点数",
+   "occurrences": 1
+  },
+  "Total Number of Victories": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "累計勝利回数",
+   "occurrences": 1
+  },
+  "Total Acquired Points": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "累計獲得点数",
+   "occurrences": 6
+  },
+  "Overall Score": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "総評",
+   "occurrences": 1
+  },
+  "Asura's Beloved": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "阿修羅小町",
+   "occurrences": 1
+  },
+  "Sake Showdown: Novice": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飲み比べ　一般級",
+   "occurrences": 1
+  },
+  "Sake Showdown: Regular": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飲み比べ　常連級",
+   "occurrences": 1
+  },
+  "Sake Showdown: Asura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "飲み比べ　阿修羅級",
+   "occurrences": 1
+  },
+  "Heartbeat: Normal": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鼓動　一般級",
+   "occurrences": 1
+  },
+  "Heartbeat: Advanced": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鼓動　上級者級",
+   "occurrences": 1
+  },
+  "Heartbeat: Beginner": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鼓動　初心者級",
+   "occurrences": 1
+  },
+  "Heartbeat: Geisha": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鼓動　芸者級",
+   "occurrences": 1
+  },
+  "Professor Juubei": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "十兵衛博士",
+   "occurrences": 1
+  },
+  "Professor Shinbei": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "新兵衛博士",
+   "occurrences": 1
+  },
+  "Unlock the Hell Rooms in the Scarecrow Chateau.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かかし屋敷の修羅の間を解放した",
+   "occurrences": 1
+  },
+  "Unlock the Advanced Rooms in the Scarecrow Chateau.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かかし屋敷の応用の間を解放した",
+   "occurrences": 1
+  },
+  "Unlock the Extreme Rooms in the Scarecrow Chateau.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かかし屋敷の極の間を解放した",
+   "occurrences": 1
+  },
+  "Learn Enhanced Rounds Knowhow from William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムから「強化弾心得」を教わった",
+   "occurrences": 1
+  },
+  "Learn the Texas Two-Step from William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムから「旋風撃ち」を教わった",
+   "occurrences": 1
+  },
+  "Learn the Dead Man's Hand from William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムから「籠手砕き」を教わった",
+   "occurrences": 1
+  },
+  "Learn the Scapegrace Shot from William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムから「背面撃ち」を教わった",
+   "occurrences": 1
+  },
+  "Commence your training in the Gunman style under William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムから銃絶技を教わった",
+   "occurrences": 1
+  },
+  "Confront the Urayama Company with William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムと協力して裏山社中と戦った",
+   "occurrences": 1
+  },
+  "Take down the Urayama Company for good with William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムと協力して裏山社中を壊滅させた",
+   "occurrences": 1
+  },
+  "Obtain ★★★ in rooms in the Scarecrow Chateau.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全てのステージで★★★を獲得した",
+   "occurrences": 1
+  },
+  "Learn the Knock Back from Komaki Munemitsu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光から「弾き返し」を教わった",
+   "occurrences": 1
+  },
+  "Learn the Shadow Bind from Komaki Munemitsu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光から「影縛り」を教わった",
+   "occurrences": 1
+  },
+  "Learn Evade and Strike from Komaki Munemitsu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光から「捌き打ち」を教わった",
+   "occurrences": 1
+  },
+  "Learn Cat-Like Reflexes from Komaki Munemitsu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光から「猫返り」を教わった",
+   "occurrences": 1
+  },
+  "Learn the Tiger Drop from Komaki Munemitsu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光から「虎落とし」を教わった",
+   "occurrences": 1
+  },
+  "Learn the Dharma Tumbler from Komaki Munemitsu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光から「達磨避け」を教わった",
+   "occurrences": 1
+  },
+  "Commence your training in the Brawler style under Komaki Munemitsu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光から格闘絶技を教わった",
+   "occurrences": 1
+  },
+  "Defeat Komaki Munemitsu in one-on-one combat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光との戦いに勝った",
+   "occurrences": 1
+  },
+  "Learn Vain Tengu from Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳から「天狗影」を教わった",
+   "occurrences": 1
+  },
+  "Learn Moonlit Sake from Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳から「月見酒」を教わった",
+   "occurrences": 1
+  },
+  "Learn Rustling Leaves from Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳から「枯葉乱れ」を教わった",
+   "occurrences": 1
+  },
+  "Learn Lightning's Glory from Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳から「閃の太刀」を教わった",
+   "occurrences": 1
+  },
+  "Learn Morning Mist from Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳から「霞ノ太刀」を教わった",
+   "occurrences": 1
+  },
+  "Learn Ghostly Wind from Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳から「風流し」を教わった",
+   "occurrences": 1
+  },
+  "Learn Fair Weather from Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳から「風見鶏」を教わった",
+   "occurrences": 1
+  },
+  "Commence your training in the Swordsman and Wild Dancer style under Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳から一刀・乱舞絶技を教わった",
+   "occurrences": 1
+  },
+  "Defeat Master Ginryu in one-on-one combat.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳との戦いに勝った",
+   "occurrences": 1
+  },
+  "Defeat Ginryu's most advanced pupil.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳の一番弟子を倒した",
+   "occurrences": 1
+  },
+  "Score Gold on the advanced level of Cannon Coaching in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き上級を一刀で金評価以上でクリアした",
+   "occurrences": 1
+  },
+  "Score Gold on the advanced level of Cannon Coaching in Gunman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き上級を短銃で金評価以上でクリアした",
+   "occurrences": 1
+  },
+  "Score Gold on the intermediate level of Cannon Coaching in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き中級を一刀で金評価以上でクリアした",
+   "occurrences": 1
+  },
+  "Score Gold on the intermediate level of Cannon Coaching in Gunman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き中級を短銃で金評価以上でクリアした",
+   "occurrences": 1
+  },
+  "Score Gold on the beginner level of Cannon Coaching in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き初級を一刀で金評価以上でクリアした",
+   "occurrences": 1
+  },
+  "Score Gold on the beginner level of Cannon Coaching in Gunman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き初級を短銃で金評価以上でクリアした",
+   "occurrences": 1
+  },
+  "Learned Vain Tengu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「天狗影」を教わった",
+   "occurrences": 1
+  },
+  "Learned Enhanced Rounds Knowhow.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「強化弾心得」を教わった",
+   "occurrences": 1
+  },
+  "Learned Knock Back.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「弾き返し」を教わった",
+   "occurrences": 1
+  },
+  "Learned Shadow Bind.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「影縛り」を教わった",
+   "occurrences": 1
+  },
+  "Learned Evade and Strike.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「捌き打ち」を教わった",
+   "occurrences": 1
+  },
+  "Learned Texas Two-Step.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「旋風撃ち」を教わった",
+   "occurrences": 1
+  },
+  "Learned Moonlit Sake.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「月見酒」を教わった",
+   "occurrences": 1
+  },
+  "Learned Rustling Leaves.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「枯葉乱れ」を教わった",
+   "occurrences": 1
+  },
+  "Learned Cat-Like Reflexes.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「猫返り」を教わった",
+   "occurrences": 1
+  },
+  "Learned Dead Man's Hand.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「籠手砕き」を教わった",
+   "occurrences": 1
+  },
+  "Learned Scapegrace Shot.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「背面撃ち」を教わった",
+   "occurrences": 1
+  },
+  "Learned Tiger Drop.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「虎落とし」を教わった",
+   "occurrences": 1
+  },
+  "Learned Dharma Tumbler.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「達磨避け」を教わった",
+   "occurrences": 1
+  },
+  "Learned Lightning's Glory.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「閃の太刀」を教わった",
+   "occurrences": 1
+  },
+  "Learned Morning Mist.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「霞ノ太刀」を教わった",
+   "occurrences": 1
+  },
+  "Learned Ghostly Wind.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「風流し」を教わった",
+   "occurrences": 1
+  },
+  "Learned Fair Weather.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "「風見鶏」を教わった",
+   "occurrences": 1
+  },
+  "Cleared every Hell Room in the Scarecrow Chateau.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かかし屋敷の修羅の間までを全てクリア",
+   "occurrences": 1
+  },
+  "Cleared four Basic Rooms in the Scarecrow Chateau.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かかし屋敷の基礎の間を４つクリア",
+   "occurrences": 1
+  },
+  "Cleared six Advanced Rooms in the Scarecrow Chateau.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "かかし屋敷の応用の間を６つクリア",
+   "occurrences": 1
+  },
+  "Confronted the Urayama Company with William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムと協力して裏山社中と戦った",
+   "occurrences": 1
+  },
+  "Took down the Urayama Company for good with William Bradley.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ウィリアムと協力して裏山社中を壊滅させた",
+   "occurrences": 1
+  },
+  "Earned ★★★ in every room in the Scarecrow Chateau.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "全てのステージで★★★を獲得した",
+   "occurrences": 1
+  },
+  "Defeated Komaki Munemitsu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "古牧宗光を倒した",
+   "occurrences": 1
+  },
+  "Defeated Ginryu's most advanced pupil.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳の一番弟子を倒した",
+   "occurrences": 1
+  },
+  "Defeated Master Ginryu.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "吟柳を倒した",
+   "occurrences": 1
+  },
+  "Scored Gold on the advanced level of Cannon Coaching in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き上級を一刀で金評価以上",
+   "occurrences": 1
+  },
+  "Scored Gold on the advanced level of Cannon Coaching in Gunman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き上級を短銃で金評価以上",
+   "occurrences": 1
+  },
+  "Scored Gold on the intermediate level of Cannon Coaching in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き中級を一刀で金評価以上",
+   "occurrences": 1
+  },
+  "Scored Gold on the intermediate level of Cannon Coaching in Gunman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き中級を短銃で金評価以上",
+   "occurrences": 1
+  },
+  "Scored Gold on the beginner level of Cannon Coaching in Swordsman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き初級を一刀で金評価以上",
+   "occurrences": 1
+  },
+  "Scored Gold on the beginner level of Cannon Coaching in Gunman style.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大砲玉捌き初級を短銃で金評価以上",
+   "occurrences": 1
+  },
+  "Learned a special move.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "絶技を教わった",
+   "occurrences": 3
+  },
+  "Completed all Substories in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見のサブストーリーをすべてクリアした",
+   "occurrences": 1
+  },
+  "Completed all Substories in Rakunai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛内のサブストーリーをすべてクリアした",
+   "occurrences": 1
+  },
+  "Completed all Substories in Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外のサブストーリーをすべてクリアした",
+   "occurrences": 1
+  },
+  "Complete all Substories in Gion and elsewhere.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "祇園・その他のサブストーリーをすべてクリアした",
+   "occurrences": 2
+  },
+  "Completed all Substories in Mukurogai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街のサブストーリーをすべてクリアした",
+   "occurrences": 1
+  },
+  "Complete all Substories in Fushimi.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "伏見のサブストーリーをすべてクリア",
+   "occurrences": 1
+  },
+  "Complete all Substories in Rakunai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛内のサブストーリーをすべてクリア",
+   "occurrences": 1
+  },
+  "Complete all Substories in Rakugai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "洛外のサブストーリーをすべてクリア",
+   "occurrences": 1
+  },
+  "Complete all Substories in Mukurogai.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "骸街のサブストーリーをすべてクリア",
+   "occurrences": 1
+  },
+  "Win the Weapon Master Championship.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武器王座決定戦で優勝した",
+   "occurrences": 1
+  },
+  "Survive the Hundred-Man Beatdown.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "百人斬りを達成した",
+   "occurrences": 1
+  },
+  "Fight your way to the top of the arena rankings.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "頂点の座に到達した",
+   "occurrences": 1
+  },
+  "Defend your position at the top of the arena rankings.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "頂点の座を初めて死守した",
+   "occurrences": 1
+  },
+  "Weapon Master Championship": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "武器王座決定戦",
+   "occurrences": 2
+  },
+  "The Hundred-Man Beatdown": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "百人斬り達成",
+   "occurrences": 1
+  },
+  "Reach the Apex": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "頂点の座　到達",
+   "occurrences": 1
+  },
+  "Defend the Apex": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "頂点の座　死守戦",
+   "occurrences": 1
+  },
+  "Stop": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やめる",
+   "occurrences": 3
+  },
+  "Cancel": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "キャンセル",
+   "occurrences": 19
+  },
+  "Cancel/Close Screen": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "キャンセル\n画面表示を閉じる",
+   "occurrences": 1
+  },
+  "Sprint": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ダッシュ",
+   "occurrences": 2
+  },
+  "Scissors": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "チョキ",
+   "occurrences": 1
+  },
+  "Care Bomb": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "介抱ボム",
+   "occurrences": 3
+  },
+  "Clap": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手拍子",
+   "occurrences": 1
+  },
+  "Tsukimi": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "月見",
+   "occurrences": 2
+  },
+  "Lower Cup": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "盃を下げる",
+   "occurrences": 1
+  },
+  "Dance (Input)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "舞う（入力）",
+   "occurrences": 10
+  },
+  "Recommendation": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "おすすめ",
+   "occurrences": 1
+  },
+  "Move Camera": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カメラ操作",
+   "occurrences": 6
+  },
+  "Confirm Discard Tiles": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "捨て牌確認",
+   "occurrences": 2
+  },
+  "Walk": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "歩き",
+   "occurrences": 2
+  },
+  "Super Take Back": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "超待った",
+   "occurrences": 2
+  },
+  "Trooper Skill": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隊士スキル",
+   "occurrences": 1
+  },
+  "First-Person View": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "主観モード",
+   "occurrences": 1
+  },
+  "Kitsune": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "きつね",
+   "occurrences": 2
+  },
+  "Action": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アクション",
+   "occurrences": 1
+  },
+  "Paper": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "パー",
+   "occurrences": 1
+  },
+  "Love Beam": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "介抱ショット",
+   "occurrences": 2
+  },
+  "Cut/Pour/Flip/Blow": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "切る/注ぐ/返す/吹く",
+   "occurrences": 1
+  },
+  "Chop": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "割る",
+   "occurrences": 2
+  },
+  "Cast/Raise Rod/Hook": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "投入/竿を上げる/決定",
+   "occurrences": 2
+  },
+  "Raise Cup": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "盃を持ち上げる",
+   "occurrences": 1
+  },
+  "Determine Bet/Throw Dice": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "賭け点決定\nサイコロを投げる",
+   "occurrences": 1
+  },
+  "Hide/Capture/Talk": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "隠れる/捕える/話す",
+   "occurrences": 1
+  },
+  "Drum": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鼓",
+   "occurrences": 1
+  },
+  "Murmur": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "つぶやき",
+   "occurrences": 5
+  },
+  "Showstopper": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "クライマックス演舞",
+   "occurrences": 1
+  },
+  "Special Move": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "絶技",
+   "occurrences": 1
+  },
+  "Display Item Screen": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アイテム使用画面表示",
+   "occurrences": 1
+  },
+  "Sing": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "歌う",
+   "occurrences": 4
+  },
+  "Finishing Blow/Heat Action": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "大攻撃／ヒートアクション",
+   "occurrences": 1
+  },
+  "Tempura": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "天ぷら",
+   "occurrences": 2
+  },
+  "Third Eye": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "心眼",
+   "occurrences": 1
+  },
+  "Bait": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "撒き餌",
+   "occurrences": 6
+  },
+  "How to Play": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "遊び方説明",
+   "occurrences": 6
+  },
+  "Rules": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ルール説明",
+   "occurrences": 9
+  },
+  "Tanuki": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "たぬき",
+   "occurrences": 2
+  },
+  "Hide Results Window": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アクションコマンドの\n表示・非表示",
+   "occurrences": 2
+  },
+  "Rock": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "グー",
+   "occurrences": 1
+  },
+  "Help": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "手伝",
+   "occurrences": 2
+  },
+  "One-roll Triple": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "一振り三倍投げ",
+   "occurrences": 2
+  },
+  "Display Results History": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "出目履歴画面表示",
+   "occurrences": 1
+  },
+  "Slash/Fire": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "弾を斬る・撃つ",
+   "occurrences": 1
+  },
+  "View Hands": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "役一覧",
+   "occurrences": 8
+  },
+  "Take Back": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "待った",
+   "occurrences": 5
+  },
+  "Combo": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "連撃",
+   "occurrences": 3
+  },
+  "Select Fishing Gear/Tackle": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "釣具選択",
+   "occurrences": 2
+  },
+  "Bell": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "鈴",
+   "occurrences": 1
+  },
+  "Select Action": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "アクション選択",
+   "occurrences": 20
+  },
+  "Move Cursor": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "カーソルの移動",
+   "occurrences": 27
+  },
+  "Brawler/Use Weapon Style": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "型の変更　格闘／特殊武器",
+   "occurrences": 1
+  },
+  "Move Hand": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "将棋を指す手の移動",
+   "occurrences": 10
+  },
+  "Tile Selection/Change Category": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "牌の選択／項目の変更",
+   "occurrences": 10
+  },
+  "Change Bet Amount": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ＢＥＴ額変更",
+   "occurrences": 5
+  },
+  "Gunman Style": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "型の変更　短銃",
+   "occurrences": 1
+  },
+  "Move Ryoma": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "龍馬移動",
+   "occurrences": 3
+  },
+  "Swordsman Style": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "型の変更　一刀",
+   "occurrences": 1
+  },
+  "Wild Dancer Style": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "型の変更　乱舞",
+   "occurrences": 1
+  },
+  "Display Map": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "マップ",
+   "occurrences": 3
+  },
+  "Quit": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中断選択",
+   "occurrences": 24
+  },
+  "Quit\n(Can’t be used during game)": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中断選択\n（勝負中使用禁止）",
+   "occurrences": 1
+  },
+  "Quit = Concede": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "中断選択＝投了",
+   "occurrences": 1
+  },
+  "Pause Menu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "メインメニュー",
+   "occurrences": 5
+  },
+  "Display Menu": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "メニュー表示",
+   "occurrences": 21
+  },
+  "Move": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "移動",
+   "occurrences": 5
+  },
+  "Touch tags and selections to make a choice": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "札や選択項目を\nタッチして選択決定",
+   "occurrences": 3
+  },
+  "Touch to select tiles and categories": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "牌や選択項目を\nタッチして選択決定",
+   "occurrences": 1
+  },
+  "Touch piece/selections to make a choice": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "駒の移動／選択項目を\nタッチして選択決定",
+   "occurrences": 1
+  },
+  "Heheheh!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あっはっはっは！",
+   "occurrences": 2
+  },
+  "Ahaha!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "あははははは！",
+   "occurrences": 4
+  },
+  "C'mon, let's go!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ええやないですか",
+   "occurrences": 2
+  },
+  "Oh, you don't really\nmean that, do you?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "お世辞ばっかり",
+   "occurrences": 2
+  },
+  "Yeah, that's right!": {
+   "speakers": [
+    {
+     "name": "Townsperson",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "せやな",
+   "occurrences": 3
+  },
+  "You're right about that!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そうねぇ",
+   "occurrences": 2
+  },
+  "Ain't that the truth.": {
+   "speakers": [
+    {
+     "name": "Townsperson",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (1 จุด)",
+   "chapters": [],
+   "ja": "そうやなぁ",
+   "occurrences": 2
+  },
+  "Need to head home.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "そろそろ帰らな",
+   "occurrences": 1
+  },
+  "Hm, where to now?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "どこや",
+   "occurrences": 2
+  },
+  "Yup!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "なぁ",
+   "occurrences": 2
+  },
+  "Aw, what the hell?": {
+   "speakers": [
+    {
+     "name": "Beggar",
+     "gender": "unknown",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (2 จุด)",
+   "chapters": [],
+   "ja": "なんやねん",
+   "occurrences": 3
+  },
+  "*sigh*": {
+   "speakers": [
+    {
+     "name": "Otose",
+     "gender": "female",
+     "uses": 1
+    },
+    {
+     "name": "Ryoma",
+     "gender": "male",
+     "uses": 1
+    }
+   ],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "สตริงเดียวกันถูกใช้ในที่ที่ไม่รู้ผู้พูดด้วย (15 จุด)",
+   "chapters": [
+    9
+   ],
+   "ja": "はぁ……",
+   "occurrences": 17
+  },
+  "I've got to be going.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "はよ行かんと",
+   "occurrences": 1
+  },
+  "Whew.": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ふぅ",
+   "occurrences": 1
+  },
+  "Let's get a move on!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ほな　行こか",
+   "occurrences": 2
+  },
+  "Say that one more time?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一回言うてよ",
+   "occurrences": 1
+  },
+  "I've still got some coin\nburning a hole in my pocket...": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "もう一軒いきはる？",
+   "occurrences": 2
+  },
+  "Don't worry about it,\nI'll take care of it!": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "やめとけや",
+   "occurrences": 2
+  },
+  "You kiddin' me, man?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ホンマですか？",
+   "occurrences": 2
+  },
+  "It's true, isn't it?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "ホンマやで",
+   "occurrences": 2
+  },
+  "Think we can\ntake a little break?": {
+   "speakers": [],
+   "gender": "unknown",
+   "neutral": true,
+   "why_neutral": "ไม่มีข้อมูลผู้พูดในไฟล์เกม",
+   "chapters": [],
+   "ja": "少し休もうか？",
+   "occurrences": 3
+  }
+ }
+}
