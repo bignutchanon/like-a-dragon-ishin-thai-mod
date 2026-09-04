@@ -68,6 +68,15 @@ DENY_TABLES = {
     "wdr_init_anim", "hact_list",
 }
 
+# คอลัมน์เดี่ยวที่ต้องคง vanilla ทั้งที่ตารางนั้นแปลได้ — ค่าเป็นชื่อโฟลเดอร์/ไอดีที่เกมเอาไปประกอบพาธ
+# (ตาราง, คอลัมน์) · ใช้ร่วมกันโดย build_text._replace_table และ check_armp_translated
+# เคสจริง 4 ก.ย. 2026: tips_category.directory_name = "Battle"/"Adventure"/"Chase" = โฟลเดอร์
+# UI/Textures/Tips/<directory_name>/ ของ texture ประกอบทิปส์ · แปลแล้วภาพทิปส์เป็นสี่เหลี่ยมขาว
+# (คำเดียวกันเป็นข้อความบนจอในคอลัมน์ `name` ข้าง ๆ จึงลบจาก master ไม่ได้ ต้องล็อกที่คอลัมน์)
+DENY_COLUMNS = {
+    ("tips_category", "directory_name"),
+}
+
 # ตารางที่ "คงภาษาอังกฤษ" ตามกติกาเหล็กข้อ 9
 KEEP_EN_TABLES = {
     "staffroll_staffroll_pc", "staffroll_staffroll_pc_en",
@@ -75,6 +84,11 @@ KEEP_EN_TABLES = {
     "staffroll_staffroll_xb", "staffroll_staffroll_xb_en",
     "dlc_package", "dlc_item_pack",             # ชื่อสินค้าบนร้านค้าแพลตฟอร์ม
     "ps5_activity",
+    # นามสกุลลูกกระจ๊อกบน HUD ต่อสู้ — vanilla EN เป็นคันจิ (ไบต์เท่าไฟล์ JA) แต่ทางแสดงผลของชื่อนี้
+    # วาดไทยเป็น "?" ทีละตัว (4 ก.ย. 2026 ภาพจากผู้ใช้ · widget WBP_BtlEnemyEnemyZako ใช้ Font_System
+    # ที่ทับแล้ว แต่ยังขึ้น ? → เกมแปลงสตริงก่อนวาด ไม่ใช่ปัญหาฟอนต์) จึงคง vanilla ไว้ก่อน
+    # ทางเลือกถ้าจะให้อ่านออก: ใส่โรมาจิ (ASCII) แทน — ดู HANDOFF §0.48
+    "stay_enemy_name_all",
 }
 
 TIER_NAMES = {

@@ -34,6 +34,7 @@ Lost Judgment ปล่อยม็อดสำเร็จ ด่านตร�
 """
 import argparse
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -54,7 +55,7 @@ import locres                                       # noqa: E402
 import msg as msgmod                                # noqa: E402
 from pakwrite import write_pak                      # noqa: E402
 from make_worklist_ishin import (                   # noqa: E402
-    DENY_TABLES, KEEP_EN_TABLES, SKIP_TABLES, SKIP_NS,
+    DENY_COLUMNS, DENY_TABLES, KEEP_EN_TABLES, SKIP_TABLES, SKIP_NS,
 )
 
 REARMP = paths.TOOLS / "reARMP_fixed.py"
@@ -113,10 +114,38 @@ def msg_game_paths():
 
 
 # ------------------------------------------------------------------ .msg
+LABEL_KEY_RE = re.compile(r"[_\d]|^[A-Z0-9 ]+$|^dummy$|[一-鿿ぁ-ヿ]")
+
+
+def label_is_text(label):
+    """label ในตาราง .msg ที่เป็น **ข้อความบนจอ** (ชื่อผู้พูด · ตัวเลือกตอบ) ไม่ใช่คีย์ของเอนจิ้น
+
+    หลักฐาน: POC "Young Woman"→"หญิงสาว" (Repak7 · 3 ก.ย. 2026) ขึ้นไทยบนจอจริง = ชื่อผู้พูดเป็นข้อความล้วน
+    เกณฑ์คัด: ไม่มี `_`/ตัวเลข (Talk_Yes · Talk_Ojigi · wepct9000) · ไม่ใช่ตัวพิมพ์ใหญ่ล้วน (ArmsID/ID) ·
+    ไม่ใช่ dummy · ไม่มีอักษรญี่ปุ่น (龍馬 = คีย์ฝั่ง JA) · ขึ้นต้นด้วยตัวพิมพ์ใหญ่หรือเครื่องหมายคำพูด
+    (คิวเสียง `haruka`/`iku` เป็นตัวพิมพ์เล็กล้วน — ห้ามแตะ)
+    """
+    if not label or LABEL_KEY_RE.search(label):
+        return False
+    return label[0].isupper() or label[0] in "\"'("
+
+
+def label_replacements_for(labels, th_map):
+    """{label เดิม: ไทย} เฉพาะ label ที่เป็นข้อความและ master มีคำแปล"""
+    out = {}
+    for lab in labels:
+        if lab in out or not label_is_text(lab):
+            continue
+        th = th_map.get(lab)
+        if th is not None and th != lab:
+            out[lab] = th
+    return out
+
+
 def build_msg(th_map, dry_run=False):
     """ประกอบ `.msg` ใหม่เฉพาะไฟล์ที่มีบรรทัดถูกแปล · คืน {path ในเกม: ไบต์}"""
     game_paths = msg_game_paths()
-    files, n_lines, missing_path = {}, 0, []
+    files, n_lines, n_labels, missing_path = {}, 0, 0, []
     for js in sorted(paths.TEXT_EN.glob("*.json")):
         records = json.loads(js.read_text(encoding="utf-8"))
         repl = {}
@@ -124,28 +153,32 @@ def build_msg(th_map, dry_run=False):
             th = th_map.get(r["en"])
             if th is not None:
                 repl[r["line"]] = th
-        if not repl:
-            continue
         uid = js.stem
         src = paths.MSG_EN / (uid + ".msg")
         if not src.exists():
+            continue
+        m = msgmod.load(src)
+        lab_repl = label_replacements_for(m.labels, th_map)     # ชั้น label (ชื่อผู้พูด/ตัวเลือก)
+        if not repl and not lab_repl:
             continue
         gp = game_paths.get(uid)
         if gp is None:
             missing_path.append(uid)
             continue
         n_lines += len(repl)
+        n_labels += len(lab_repl)
         if dry_run:
             files[gp] = b""
             continue
-        data = msgmod.load(src).rebuild(repl)
+        data = m.rebuild(repl, lab_repl or None)
         STAGE_MSG.mkdir(parents=True, exist_ok=True)
         (STAGE_MSG / (uid + ".msg")).write_bytes(data)
         files[gp] = data
     if missing_path:
         print("!! ไม่พบ path ในเกมของ %d ไฟล์ .msg (ตัวอย่าง: %s)"
               % (len(missing_path), " ".join(missing_path[:3])))
-    print("msg   : ไฟล์ที่เปลี่ยน %d · บรรทัดที่แทนที่ %d" % (len(files), n_lines))
+    print("msg   : ไฟล์ที่เปลี่ยน %d · บรรทัดที่แทนที่ %d · label ที่แทนที่ %d"
+          % (len(files), n_lines, n_labels))
     return files
 
 
@@ -191,7 +224,7 @@ def _table_text_cols(tbl):
     return {c for c, t in (tbl.get("columnTypes") or {}).items() if t == 13}
 
 
-def _replace_table(tbl, th_map, denied):
+def _replace_table(tbl, th_map, denied, table=None):
     """แทนที่ช่องข้อความของตาราง ARMP หนึ่งตาราง **รวมตารางที่ซ้อนอยู่ในแถว**
 
     ⚠ ตาราง ARMP ของภาคนี้ซ้อนกันได้: แถวหนึ่งมีคีย์ `table` ที่เป็นตารางเต็ม ๆ อีกชั้น
@@ -199,6 +232,8 @@ def _replace_table(tbl, th_map, denied):
     เดินแค่ชั้นบน จึงแปลไม่ถึง 968 ช่อง และผู้เล่นเห็นจอทิปส์เป็นอังกฤษ (เจอ 3 ก.ย. 2026)
     """
     cols = _table_text_cols(tbl)
+    if table is not None:                       # ล็อกคอลัมน์ที่เกมใช้ประกอบพาธ (DENY_COLUMNS)
+        cols = {c for c in cols if (table, c) not in DENY_COLUMNS}
     changed = skipped = 0
     for k, v in tbl.items():
         if not k.isdigit() or not isinstance(v, dict):
@@ -240,7 +275,7 @@ def build_db(th_map, dry_run=False):
         denied = table in deny      # ห้ามประกอบกลับ (ดู build/armp_rebuild_report.md)
         if not _table_text_cols(doc):
             continue
-        changed, skipped = _replace_table(doc, th_map, denied)
+        changed, skipped = _replace_table(doc, th_map, denied, table=table)
         n_denied += skipped
         if not changed:
             continue

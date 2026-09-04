@@ -21,6 +21,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import paths                                    # noqa: E402
 import msg as msgmod                            # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from build_text import label_replacements_for   # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8")
 sys.stderr.reconfigure(encoding="utf-8")
@@ -53,7 +55,10 @@ def main() -> int:
             continue
         # label กับบล็อกคำสั่งต้องเหมือน vanilla เป๊ะ — ถ้าเพี้ยน ป้ายฉาก/ท่าทาง/คิวเสียงจะพัง
         # (บั๊กจริง 3 ก.ย. 2026: พอยเตอร์ label ถูกเขียนทับกลางสตริง ทำให้กล้องคัตซีนค้างในเกม)
-        if van.labels != new.labels or van.label_count != new.label_count:
+        # label ชั้นแสดงผล (ชื่อผู้พูด/ตัวเลือก) ถูกแปลได้ตาม build_text.label_replacements_for
+        lab_repl = label_replacements_for(van.labels, master)
+        want_labels = [lab_repl.get(L, L) for L in van.labels]
+        if want_labels != new.labels or van.label_count != new.label_count:
             bad.append((uid, -1, "ตาราง label ไม่ตรง vanilla",
                         "%d labels" % len(van.labels), "%d labels" % len(new.labels)))
             continue

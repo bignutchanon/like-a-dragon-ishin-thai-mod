@@ -20,6 +20,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import paths                                    # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from make_worklist_ishin import DENY_COLUMNS   # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8")
 sys.stderr.reconfigure(encoding="utf-8")
@@ -117,7 +119,11 @@ def main() -> int:
                 continue
             checked += 1
             if vt == 13 and isinstance(vv, str):
-                want = master.get(vv, vv)
+                col = vp.rsplit("/", 1)[-1]
+                # คอลัมน์ที่ล็อกไว้ (DENY_COLUMNS) ต้องเท่า vanilla แม้ master จะมีคำแปล
+                # — ใช้เฉพาะชั้นบน (path ไม่มี /table/) ตรงกับที่ build_text ล็อก
+                locked = (table, col) in DENY_COLUMNS and "/table/" not in vp
+                want = vv if locked else master.get(vv, vv)
                 if nv != want:
                     bad.append((table, vp, "ข้อความไม่ตรงคำแปล", want, nv))
             elif vv != nv:
