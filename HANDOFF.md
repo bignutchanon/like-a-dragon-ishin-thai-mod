@@ -2,7 +2,7 @@
 
 > อ่านคู่กับ `CLAUDE.md` (กติกา) · `docs/research.md` (ข้อเท็จจริงจากไฟล์เกม) · `docs/scope.md` (ขนาดงาน)
 
-**อัปเดตล่าสุด: 4 ก.ย. 2026 — sprint 17 (⭐ ทดสอบในเกมครั้งแรก · ไทยขึ้นจริงทั้งเกม · v1.1 คืนนามสกุลศัตรูเป็นคันจิ)**
+**อัปเดตล่าสุด: 6 ก.ย. 2026 — sprint 18 (v1.2 · ชื่อศัตรู `??????` แก้ที่ต้นเหตุจริง = locres `enemy_name_template` · ด่านใหม่ `check_locres_translated.py`)**
 
 > **ม็อดขึ้นไทยบนจอจริงแล้ว** — จอไตเติล บทสนทนา บอลลูน NPC เมนู ทิปส์ ทั้งหมดเป็นไทย
 > รอบนี้คือรอบแรกที่มีคนเปิดเกมจริง และมันทำให้เจอบั๊กที่ด่านเดิม **รายงานว่าผ่านทั้งที่ไฟล์พัง**
@@ -15,8 +15,8 @@
 ### 0.1 ม็อดที่ติดตั้งอยู่ตอนนี้
 
 ```
-E:\SteamLibrary\...\LikeaDragonIshin\Content\Paks\~mods\IshinThai_P.pak      = v1.1 (4 ก.ย. 2026)
-1,317 ไฟล์ · 20.6 MB · = v1.0 ลบ `stay_enemy_name_all.bin` + คืน `tips_category.directory_name` + ชั้น label 365 คำ/2,172 ช่อง ใน .msg (§0.48) · release/LikeADragonIshinThai-v1.1.zip
+E:\SteamLibrary\...\LikeaDragonIshin\Content\Paks\~mods\IshinThai_P.pak      = v1.2 (6 ก.ย. 2026)
+1,317 ไฟล์ · 20.6 MB · = v1.1 + ล็อก locres namespace `enemy_name_template` 874 คีย์ (§0.49) · release/LikeADragonIshinThai-v1.2.zip
 ```
 
 **ปล่อยแล้ว: GitHub `bignutchanon/like-a-dragon-ishin-thai-mod` release `v1.0`** — `release/LikeADragonIshinThai-v1.0.zip`
@@ -212,6 +212,32 @@ label ข้อความที่ยังไม่มีคำแปล **1,
 ArmsID · Pray · Man's Voice · ชื่อ NPC รอง ฯลฯ) ⚠ ในนั้นมีคีย์ปนอยู่ (`ArmsID` · `Idle` · `Remain`?) ต้องกรองมือก่อนเข้า worklist
 — กติกา: label ที่ไม่ได้อยู่ใน master จะไม่ถูกแตะ จึงยังปลอดภัย
 
+### 0.49 ⭐ รอบทดสอบที่ห้า (6 ก.ย. 2026 · ภาพผู้ใช้ 1 ใบ) — v1.1 ชื่อลูกกระจ๊อกยังเป็น `??????` → แหล่งจริงคือ locres
+
+**ข้อสรุป §0.48 ข้อ 1 ผิดครึ่งหนึ่ง**: `stay_enemy_name_all` (คันจิ) ไม่ใช่ตารางที่ HUD ใช้ — ถอดออกแล้วอาการยังอยู่
+(ยืนยันว่า pak ที่ติดตั้งไม่มี `stay_enemy_name_all.bin` จริง: `repak list` 1,317 ไฟล์ ไม่มีไฟล์ชื่อ enemy)
+
+หลักฐานจากไฟล์:
+- `Game.en.locres` มี namespace **`enemy_name_template`** 874 คีย์ (`enemy_name/0000` … ) ค่า EN = นามสกุลโรมาจิ ASCII ล้วน
+  (Tadokoro · Ehara · Sada · Gondo …) ฝั่ง JA = คันจิ (田所 · 江原 …) · master แปลเป็นไทยครบ 874 คีย์
+- ชื่อไทยยาว 6 ตัวอักษรมี 244 คีย์ (เอฮาระ · โออุจิ · ทามุระ …) ตรงกับ `??????` 6 ตัวในภาพทั้งสองคน
+- ผลจริงจึงเป็น: EN vanilla = โรมาจิ (ไม่ใช่คันจิอย่างที่ §0.48 สรุปจากตาราง ARMP) → ผู้เล่นอังกฤษเห็น "Tamura"
+  · ทางแสดงผลของ widget ลูกกระจ๊อกวาดไทยเป็น `?` ทีละตัว (เหตุผลในไบนารียังไม่ได้พิสูจน์ · บอส/มินิบอสปกติ)
+
+ที่แก้ (v1.2):
+- `make_worklist_ishin.KEEP_EN_NS = {"enemy_name_template"}` → worklist ไม่จัดคิว · `build_text.build_locres` ข้าม namespace นี้
+  (คำแปลใน master ยังอยู่ ไม่ต้องลบ — แค่ไม่ใส่ลง pak)
+- **ด่านใหม่ `scripts/check_locres_translated.py`**: แตก `build/text/locres/Game.locres` ด้วย `locres.dump_full` เทียบทีละคีย์
+  กับ vanilla — namespace ใน `KEEP_EN_NS`/`SKIP_NS` ต้องเท่า vanilla · คีย์อื่นต้องเท่า `master_th[EN]` (หรือเท่า EN ถ้าไม่มีคำแปล)
+  ผลรอบนี้: คีย์ 23,507 · ไทย 21,920 · คง EN ไม่มีคำแปล 713 · ล็อก EN 874 · **ต่าง 0** — เพิ่มเข้า §0.6 แล้ว
+- `stay_enemy_name_all` ยังคงอยู่ใน `KEEP_EN_TABLES` (ไม่มีหลักฐานว่าใช้ที่ไหน · คง vanilla ปลอดภัยสุด)
+
+กวาดทั้งโปรเจกต์หา "ชื่อศัตรู" แหล่งอื่น (ตามที่ผู้ใช้ขอ): namespace ที่เป็นชื่อคนบนจอต่อสู้ทั้งหมดใน locres =
+`enemy_name_template` 874 (ล็อกแล้ว) · `colosseum_participant_name` 38 · `colosseum_participant_another_name` 37 ·
+`otazunemono_name`/`_2` 16+16 (คนร้ายมีค่าหัว) · `btl_caption` 117 (ป้ายชื่อบอส — ผู้ใช้ยืนยันแล้วว่าบอสขึ้นไทยปกติ)
+→ **ยังไม่ล็อก** colosseum/otazunemono เพราะยังไม่มีภาพยืนยันว่าใช้ widget เดียวกับลูกกระจ๊อก (กติกาข้อ 10) — ให้ผู้ใช้ดูสองจอนี้
+· ARMP อื่นในกลุ่ม `battle_*` ไม่มีคอลัมน์ข้อความชื่อศัตรู (ตรวจ `extracted/db_en` แล้ว)
+
 ### 0.5 ~~ปุ่ม ESC บนคีย์บอร์ดไม่ทำงาน~~ → **ไม่ใช่บั๊กม็อด — เกมไม่ได้ผูก ESC กับเมนูหยุดเกมตั้งแต่ต้น** (3 ก.ย. 2026)
 
 ผลไล่ตรวจ:
@@ -250,8 +276,9 @@ python scripts/merge_qc.py --dry-run            ต้อง ตก 0
 python scripts/check_thai_marks.py · check_bond_names.py · check_gender_lines.py · test_qc_tools.py
 python scripts/merge_qc.py                      เขียน master
 python scripts/build_text.py                    (ล้าง stage ให้เองแล้ว)
-python scripts/check_msg_translated.py          ต้อง ต่าง 0   <- ด่านใหม่
-python scripts/check_armp_translated.py         ต้อง ต่าง 0   <- ด่านใหม่
+python scripts/check_msg_translated.py          ต้อง ต่าง 0
+python scripts/check_armp_translated.py         ต้อง ต่าง 0
+python scripts/check_locres_translated.py       ต้อง ต่าง 0   <- ด่านใหม่ (6 ก.ย. · §0.49)
 python scripts/check_msg_roundtrip.py · check_pak_roundtrip.py · check_layout_all.py   ต้อง ต่าง 0
 
 # แพ็กด้วย repak (pakwrite.py เกมไม่โหลด — §0.2)
@@ -289,9 +316,10 @@ batch 169 ก้อน (168 + batch_086 ที่เพิ่งเปิดใ�
 
 ### 1. ~~ปิดเรื่อง ESC ให้จบ~~ — ปิดแล้ว (§0.5) · ทางเลือก: ผู้ใช้ทดสอบเกมเปล่ายืนยันอีกที
 
-### 1.5 ⭐ รอผลทดสอบ v1.1 (§0.48): ชื่อลูกกระจ๊อกเป็นคันจิแล้วไหม · ภาพทิปส์หมวดต่อสู้/ผจญภัย/ไล่ล่าขึ้นไหม · การ์ดทหารหน่วยที่ปลดล็อกแล้วขึ้น `?` ไหม
+### 1.5 ⭐ รอผลทดสอบ v1.2 (§0.49): ชื่อลูกกระจ๊อกเป็นโรมาจิแล้วไหม · จอสังเวียน (colosseum) และคนร้ายมีค่าหัว (otazunemono) ขึ้น `?` ไหม · การ์ดทหารหน่วยที่ปลดล็อกแล้วขึ้น `?` ไหม
 - เซฟทดสอบ: `work/saves/README.md` (วางแล้ว 32 สล็อต · save0029 = เคลียร์เกม)
-- ถ้าจะให้ชื่อศัตรูอ่านออก: ทำโรมาจิ ASCII 466 ชื่อ (ต้องหาแหล่งเสียงอ่านที่เชื่อถือได้) แล้วถอด `stay_enemy_name_all` ออกจาก KEEP_EN
+- ถ้า colosseum/otazunemono ขึ้น `?` → เพิ่ม namespace เข้า `KEEP_EN_NS` แล้วบิลด์ใหม่ (ด่าน `check_locres_translated.py` จะบังคับให้เอง)
+- ~~ทำโรมาจิ 466 ชื่อ~~ ไม่ต้องแล้ว — vanilla EN เป็นโรมาจิอยู่แล้วใน locres
 - ถ้าการ์ดทหารหน่วยขึ้น `?` ที่ชื่อปลดล็อกแล้ว → `taishi_card_list.NAME` เข้าเกณฑ์เดียวกัน
 
 ### 2. รอผลทดสอบ Repak7 (§0.47): บรรทัด "ซากาโมโตะซัง" ครบไหม · จังหวะพิมพ์/เสียงเพี้ยนไหม · ไม้โทบน "งั้น" · ชื่อ "หญิงสาว" ฉากเปิด · **ถอด pak แล้วดูจอการ์ดทหารหน่วยในเกมเปล่า** (ถ้าเหมือนกัน = ดีไซน์เกม ปิดเรื่อง)

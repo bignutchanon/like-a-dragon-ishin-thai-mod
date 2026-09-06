@@ -91,6 +91,14 @@ KEEP_EN_TABLES = {
     "stay_enemy_name_all",
 }
 
+# locres namespace ที่ต้องคง vanilla EN — ทางแสดงผลวาดไทยเป็น "?" ทีละตัว
+# `enemy_name_template` (874 คีย์) = นามสกุลโรมาจิของศัตรูลูกกระจ๊อกบน HUD ต่อสู้ (Tadokoro · Ehara …)
+# v1.1 ถอด stay_enemy_name_all ออกแล้วยังขึ้น "??????" (ภาพผู้ใช้ 6 ก.ย. 2026) → แหล่งจริงคือ namespace นี้
+# คงโรมาจิไว้ = ผ่านทางแสดงผลแน่ (ASCII) และคนไทยอ่านออก · ดู HANDOFF §0.49
+KEEP_EN_NS = {
+    "enemy_name_template",
+}
+
 TIER_NAMES = {
     1: "บทคัตซีนเนื้อเรื่อง (locres มีคู่ _speaker)",
     2: "เรื่องย่อ/คำอธิบายเนื้อเรื่องและตัวละคร",
@@ -190,7 +198,7 @@ def collect():
     speaker_ns = {r["ns"][:-len("_speaker")] for r in loc if r["ns"].endswith("_speaker")}
     for r in loc:
         ns = r["ns"]
-        if SKIP_NS.match(ns):
+        if SKIP_NS.match(ns) or ns in KEEP_EN_NS:
             stats["skip_ns"] += 1
             continue
         if ns.endswith("_speaker"):

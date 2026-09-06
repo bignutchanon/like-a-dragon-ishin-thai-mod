@@ -55,7 +55,7 @@ import locres                                       # noqa: E402
 import msg as msgmod                                # noqa: E402
 from pakwrite import write_pak                      # noqa: E402
 from make_worklist_ishin import (                   # noqa: E402
-    DENY_COLUMNS, DENY_TABLES, KEEP_EN_TABLES, SKIP_TABLES, SKIP_NS,
+    DENY_COLUMNS, DENY_TABLES, KEEP_EN_NS, KEEP_EN_TABLES, SKIP_TABLES, SKIP_NS,
 )
 
 REARMP = paths.TOOLS / "reARMP_fixed.py"
@@ -318,6 +318,8 @@ def build_locres(th_map, dry_run=False):
     for node in doc["namespaces"]:
         ns = node["ns"]
         if SKIP_NS.match(ns):            # staffroll/credit/license/kiyaku คง EN
+            continue
+        if ns in KEEP_EN_NS:             # ชื่อศัตรูลูกกระจ๊อก — HUD วาดไทยเป็น "?" (HANDOFF §0.49)
             continue
         for entry in node["entries"]:
             en = strings[entry["idx"]]
