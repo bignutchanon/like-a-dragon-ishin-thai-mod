@@ -1,4 +1,11 @@
-"""แพ็ก pak ม็อดด้วย repak แล้วประกอบชุดปล่อย (zip) — ขั้นตอน §0.6 ของ HANDOFF ทำเป็นสคริปต์
+"""แพ็ก pak ม็อดด้วย repak — โหมดทดสอบ (`--test`) และโหมดปล่อยจริง (`--version`) — ขั้นตอน §0.6 ของ HANDOFF
+
+⚠ เลขเวอร์ชันของบิลด์ทดสอบกับเลขเวอร์ชันที่ปล่อยสาธารณะ **แยกกันคนละสาย**
+  บิลด์ทดสอบ  = `--test` -> build/IshinThai_test_NN_P.pak (NN นับเอง) ไม่มี zip ไม่แตะ patch.md
+                 ติดตั้งลงเกมด้วยชื่อ IshinThai_P.pak เหมือนเดิม (เกมโหลดไฟล์ชื่อนี้ไฟล์เดียว)
+                 บันทึกไว้ที่ work/testbuilds.md
+  ปล่อยจริง   = `--version vX.Y` -> release/LikeADragonIshinThai-vX.Y.zip ใช้เลขถัดจากที่ปล่อยบน GitHub
+                 ต้องมีหัวข้อของเวอร์ชันนั้นใน patch.md ก่อน ไม่งั้นสคริปต์ไม่ยอมแพ็ก
 
 ทำไมต้อง repak: pak ที่ `tools/pakwrite.py` เขียนเอง เกมไม่โหลด (HANDOFF §0.2) จึงต้อง
   1) แตก build/LikeADragonIshinThai_P.pak (ผลจาก build_text.py) ลง build/stage_pak/ ตาม path ในเกม
@@ -7,17 +14,20 @@
   4) ประกอบ release/LikeADragonIshinThai-<ver>/ (files/IshinThai_P.pak + install/uninstall + README + patch.md)
      แล้ว zip เป็น release/LikeADragonIshinThai-<ver>.zip
 
-ใช้:  python scripts/pack_release.py --version v1.0 [--install]
+ใช้:  python scripts/pack_release.py --test [--note "แก้อะไร"] [--install]
+      python scripts/pack_release.py --version v1.3 [--install]
   --install  คัดลอก pak เข้า ~mods ของเกมด้วย (ลบ IshinThai*_P.pak เวอร์ชันเก่าออกก่อน)
 ไม่แตะไฟล์ต้นฉบับของเกม · ไม่เปิดเกม
 """
 import argparse
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
 import zipfile
+from datetime import datetime
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -30,6 +40,7 @@ from pakfile import PakFile  # noqa: E402
 REPAK = paths.PROJECT / "tools" / "repak" / "repak.exe"
 STAGE = paths.BUILD / "stage_pak"
 OUT_PAK = paths.BUILD / "IshinThai_P.pak"
+TESTLOG = paths.PROJECT / "work" / "testbuilds.md"
 PACKAGING = paths.PROJECT / "packaging"
 RELEASE = paths.PROJECT / "release"
 
@@ -54,20 +65,20 @@ def stage_from_pak(src):
     return n
 
 
-def repak_pack():
-    if OUT_PAK.exists():
-        OUT_PAK.unlink()
-    cmd = [str(REPAK), "pack", "--mount-point", "../../../", "--version", "V11", str(STAGE), str(OUT_PAK)]
+def repak_pack(out_pak=OUT_PAK):
+    if out_pak.exists():
+        out_pak.unlink()
+    cmd = [str(REPAK), "pack", "--mount-point", "../../../", "--version", "V11", str(STAGE), str(out_pak)]
     r = subprocess.run(cmd, capture_output=True, text=True)
-    if r.returncode != 0 or not OUT_PAK.exists():
+    if r.returncode != 0 or not out_pak.exists():
         print(r.stdout, r.stderr)
         raise SystemExit("repak ล้มเหลว")
-    print("repak: %s · %.1f MB" % (OUT_PAK, OUT_PAK.stat().st_size / 1e6))
+    print("repak: %s · %.1f MB" % (out_pak, out_pak.stat().st_size / 1e6))
 
 
-def verify_pak():
+def verify_pak(out_pak=OUT_PAK):
     """เทียบไบต์ทุกไฟล์ใน pak ที่ repak เขียน กับ stage_pak (ไม่ใช่ decode ซ้ำด้วยเครื่องมือเดียวกัน)"""
-    pk = PakFile(OUT_PAK)
+    pk = PakFile(out_pak)
     stage_files = {p.relative_to(STAGE).as_posix(): p for p in STAGE.rglob("*") if p.is_file()}
     same = diff = 0
     seen = set()
@@ -132,20 +143,46 @@ def count_translated():
     return n
 
 
-def install():
+def next_test_number():
+    n = 0
+    for p in paths.BUILD.glob("IshinThai_test_*_P.pak"):
+        m = re.search(r"IshinThai_test_(\d+)_P\.pak$", p.name)
+        if m:
+            n = max(n, int(m.group(1)))
+    return n + 1
+
+
+def log_test_build(pak, note):
+    TESTLOG.parent.mkdir(parents=True, exist_ok=True)
+    if not TESTLOG.exists():
+        TESTLOG.write_text('# บิลด์ทดสอบ (ไม่ใช่เวอร์ชันที่ปล่อย)\n\nเลขชุดนี้แยกจากเลขเวอร์ชันบน GitHub โดยสิ้นเชิง — ปล่อยจริงเมื่อไหร่ค่อยใช้ `--version vX.Y`\n\n| บิลด์ | วันที่ | ขนาด | ไฟล์ | หมายเหตุ |\n|---|---|---|---|---|\n', encoding="utf-8")
+    pk = PakFile(pak)
+    row = "| %s | %s | %.1f MB | %d | %s |\n" % (
+        pak.name, datetime.now().strftime("%Y-%m-%d %H:%M"),
+        pak.stat().st_size / 1e6, len(pk.files), note or "-")
+    with open(TESTLOG, "a", encoding="utf-8") as f:
+        f.write(row)
+    print("บันทึกบิลด์ทดสอบ -> %s" % TESTLOG)
+
+
+def install(pak=OUT_PAK):
     dst = paths.MODS_DIR
     dst.mkdir(parents=True, exist_ok=True)
     for old in dst.glob("*.pak"):
         if old.name.startswith("IshinThai") or old.name == paths.MOD_PAK:
             old.unlink()
             print("  ลบเวอร์ชันเก่า: %s" % old.name)
-    shutil.copy2(OUT_PAK, dst / "IshinThai_P.pak")
-    print("ติดตั้งแล้ว: %s (การทดสอบในเกมเป็นหน้าที่ผู้ใช้)" % (dst / "IshinThai_P.pak"))
+    shutil.copy2(pak, dst / "IshinThai_P.pak")
+    print("ติดตั้งแล้ว: %s <- %s (การทดสอบในเกมเป็นหน้าที่ผู้ใช้)" % (dst / "IshinThai_P.pak", pak.name))
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--version", required=True, help="เช่น v1.0")
+    g = ap.add_mutually_exclusive_group(required=True)
+    g.add_argument("--version", help="เลขเวอร์ชันที่จะปล่อยสาธารณะ เช่น v1.3 (ต้องมีหัวข้อใน patch.md แล้ว)")
+    g.add_argument("--test", action="store_true",
+                   help="บิลด์ทดสอบ — เลขแยกจากเวอร์ชันที่ปล่อย ไม่ทำ zip ไม่แตะ patch.md")
+    ap.add_argument("--note", default="", help="โหมด --test: จดว่าบิลด์นี้แก้อะไร ลง work/testbuilds.md")
     ap.add_argument("--install", action="store_true")
     a = ap.parse_args()
     src = paths.BUILD / paths.MOD_PAK
@@ -153,6 +190,21 @@ def main():
         raise SystemExit("ไม่พบ %s — รัน scripts/build_text.py ก่อน" % src)
     if not REPAK.exists():
         raise SystemExit("ไม่พบ %s" % REPAK)
+
+    if a.test:
+        out = paths.BUILD / ("IshinThai_test_%02d_P.pak" % next_test_number())
+        stage_from_pak(src)
+        repak_pack(out)
+        verify_pak(out)
+        log_test_build(out, a.note)
+        if a.install:
+            install(out)
+        print("นี่คือบิลด์ทดสอบ ไม่ใช่เวอร์ชันปล่อย — ปล่อยจริงใช้ --version vX.Y")
+        return 0
+
+    patch = paths.PROJECT / "patch.md"
+    if patch.exists() and ("## %s " % a.version) not in patch.read_text(encoding="utf-8"):
+        raise SystemExit("ยังไม่มีหัวข้อ '## %s' ใน patch.md — เขียนบันทึกการเปลี่ยนแปลงก่อนปล่อย" % a.version)
     stage_from_pak(src)
     repak_pack()
     verify_pak()

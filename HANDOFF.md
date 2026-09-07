@@ -2,7 +2,7 @@
 
 > อ่านคู่กับ `CLAUDE.md` (กติกา) · `docs/research.md` (ข้อเท็จจริงจากไฟล์เกม) · `docs/scope.md` (ขนาดงาน)
 
-**อัปเดตล่าสุด: 8 ก.ย. 2026 — sprint 19 (v1.4 · จอทหารหน่วยขึ้นไทยแล้ว · DefaultTypeface ต้องใช้สำเนาที่ metric เท่าต้นฉบับ ไม่งั้นบรรทัดห่าง/ล้นกรอบทั้งเกม)**
+**อัปเดตล่าสุด: 8 ก.ย. 2026 — sprint 19 (บิลด์ทดสอบ `test_01` · จอทหารหน่วยขึ้นไทยแล้ว · DefaultTypeface ต้องใช้สำเนาที่ metric เท่าต้นฉบับ ไม่งั้นบรรทัดห่าง/ล้นกรอบทั้งเกม · เตรียมปล่อยเป็น v1.3)**
 
 > **ม็อดขึ้นไทยบนจอจริงแล้ว** — จอไตเติล บทสนทนา บอลลูน NPC เมนู ทิปส์ ทั้งหมดเป็นไทย
 > รอบนี้คือรอบแรกที่มีคนเปิดเกมจริง และมันทำให้เจอบั๊กที่ด่านเดิม **รายงานว่าผ่านทั้งที่ไฟล์พัง**
@@ -15,12 +15,21 @@
 ### 0.1 ม็อดที่ติดตั้งอยู่ตอนนี้
 
 ```
-E:\SteamLibrary\...\LikeaDragonIshin\Content\Paks\~mods\IshinThai_P.pak      = v1.4 (8 ก.ย. 2026)
-1,325 ไฟล์ · 21.3 MB · = v1.2 + ทับ .ufont ที่เป็น DefaultTypeface อีก 8 ไฟล์ ด้วยสำเนา metric เท่าต้นฉบับ (§0.50) · release/LikeADragonIshinThai-v1.4.zip
+E:\SteamLibrary\...\LikeaDragonIshin\Content\Paks\~mods\IshinThai_P.pak      = บิลด์ทดสอบ IshinThai_test_01_P.pak (8 ก.ย. 2026)
+1,325 ไฟล์ · 21.3 MB · = v1.2 + ทับ .ufont ที่เป็น DefaultTypeface อีก 8 ไฟล์ ด้วยสำเนา metric เท่าต้นฉบับ (§0.50)
 ```
 
-**ปล่อยแล้ว: GitHub `bignutchanon/like-a-dragon-ishin-thai-mod` release `v1.0`** — `release/LikeADragonIshinThai-v1.0.zip`
-สคริปต์ปล่อย: `python scripts/pack_release.py --version vX.Y [--install]` = §0.6 ขั้น repak ทั้งสี่ข้อ + ประกอบ zip
+**ปล่อยแล้วบน GitHub `bignutchanon/like-a-dragon-ishin-thai-mod`: `v1.0` · `v1.1` · `v1.2` (ล่าสุด)**
+ของที่ทำอยู่ตอนนี้ยังไม่ปล่อย — จะเป็น `v1.3` เมื่อผ่านการทดสอบในเกม
+
+⚠ **เลขบิลด์ทดสอบกับเลขเวอร์ชันที่ปล่อย แยกกันคนละสาย** (กติกาจากผู้ใช้ 8 ก.ย. 2026)
+
+| อะไร | คำสั่ง | ได้อะไร |
+|---|---|---|
+| บิลด์ทดสอบ (ปกติใช้ตัวนี้) | `python scripts/pack_release.py --test --note "แก้อะไร" --install` | `build/IshinThai_test_NN_P.pak` · จดลง `work/testbuilds.md` · **ไม่มี zip ไม่แตะ patch.md** · ติดตั้งด้วยชื่อ `IshinThai_P.pak` เหมือนเดิม |
+| ปล่อยจริง | `python scripts/pack_release.py --version v1.3 [--install]` | `release/LikeADragonIshinThai-v1.3.zip` · สคริปต์จะไม่ยอมแพ็กถ้ายังไม่มีหัวข้อ `## v1.3` ใน `patch.md` |
+
+เลขเวอร์ชันถัดไปนับต่อจากที่ปล่อยบน GitHub เท่านั้น ห้ามเผาเลขเวอร์ชันไปกับบิลด์ทดสอบ
 (files/IshinThai_P.pak + packaging/install·uninstall + README.txt + patch.md) · บันทึกเวอร์ชันอยู่ที่ `patch.md` ราก
 ตัวติดตั้ง `packaging/install.ps1` เขียนใหม่สำหรับภาคนี้แล้ว (วาง pak ลง ~mods · ลบ IshinThai*_P.pak เก่า · ไม่แตะไฟล์เกม)
 ชื่อ pak ที่ผู้ใช้ปลายทางเห็น = `IshinThai_P.pak` คงที่ทุกเวอร์ชัน · ชื่อ RepakN ใช้เฉพาะรอบทดสอบภายใน
@@ -249,7 +258,7 @@ ArmsID · Pray · Man's Voice · ชื่อ NPC รอง ฯลฯ) ⚠ ใ�
 ตกไปที่ `DefaultTypeface` = ฟอนต์ญี่ปุ่นที่ไม่มีกลิฟไทย → Slate วาดเป็นช่องว่าง
 **ทับ FontFace ชุด EFIGS ครบสามตัวแล้วก็ไม่พอ** — ต้องทับฟอนต์ญี่ปุ่นที่เป็น DefaultTypeface ด้วย
 
-ที่แก้ (v1.3): `build_text.FONT_GAME_PATHS` 3 → 13 ไฟล์ เพิ่ม `DF_GOKUBUTOKAISHO_W12` · `DF_ENKAISHO_W5` ·
+ที่แก้ (บิลด์ทดสอบตัวแรกของ sprint นี้): `build_text.FONT_GAME_PATHS` 3 → 13 ไฟล์ เพิ่ม `DF_GOKUBUTOKAISHO_W12` · `DF_ENKAISHO_W5` ·
 `FOT-UDKakugo_LargePr6N-DB` · `DF-FutoKaiSho-W9` · `DF_REISHO_W6` · `TT_KswHannya` · `TT_KswHiryu` ·
 `TT_KswKaisho` · `TT_KswReisho` · `TT_KokinEdo-EB`
 เว้นไว้โดยตั้งใจ: `DF_KANTEIRYU_W6` (เนื้อเพลงญี่ปุ่น `Font_MgKaraokeLyricJa` ไม่มี sub-font EFIGS เลย) ·
@@ -260,7 +269,7 @@ ArmsID · Pray · Man's Voice · ชื่อ NPC รอง ฯลฯ) ⚠ ใ�
 · ผลข้างเคียงที่คาดไว้: จอกลุ่มนี้เปลี่ยนจากฟอนต์พู่กัน/มินโจเป็น Sarabun · คันจิที่หลงเหลือบนจอกลุ่มนี้จะเป็นกล่องว่าง
 
 
-**ผลทดสอบ v1.3 บนจอ (8 ก.ย. 2026 · ภาพผู้ใช้ 5 ใบ) — ถูกครึ่ง พังครึ่ง**
+**ผลทดสอบบิลด์แรกบนจอ (8 ก.ย. 2026 · ภาพผู้ใช้ 5 ใบ) — ถูกครึ่ง พังครึ่ง**
 
 | จอ | ผล |
 |---|---|
@@ -272,10 +281,10 @@ ArmsID · Pray · Man's Voice · ชื่อ NPC รอง ฯลฯ) ⚠ ใ�
 ⭐ ข้อเท็จจริงใหม่ที่ได้จากรอบนี้: **Slate คิดความสูงบรรทัดและการตัดบรรทัดจาก `DefaultTypeface`
 ของ CompositeFont ไม่ใช่จากฟอนต์ย่อยที่วาดตัวอักษรจริง** (ตัวเลขวัดได้: ฟอนต์ญี่ปุ่นเดิม 880/-144
 ที่ upem 1024 = 1.000 em · Sarabun-ishin 1290/-350 = 1.640 em · +64% ตรงกับที่เห็นบนจอ)
-และสองไฟล์ใน 10 ตัวของ v1.3 (`DF-FutoKaiSho-W9` · `FOT-UDKakugo_LargePr6N-DB`) เป็น DefaultTypeface
+และสองไฟล์ใน 10 ตัวของบิลด์แรก (`DF-FutoKaiSho-W9` · `FOT-UDKakugo_LargePr6N-DB`) เป็น DefaultTypeface
 ของ `Font_System` = ฟอนต์ของเกือบทั้งเกม จึงลามไปทุกจอ
 
-ที่แก้ (v1.4):
+ที่แก้ (บิลด์ `test_01` = ของที่ติดตั้งอยู่ตอนนี้):
 - คืนสองไฟล์นั้นเป็นของเกม (ไม่อยู่ใน pak แล้ว) → จอ `Font_CmnGothic`/`Font_CmnMincho` ยังแสดงไทยไม่ได้ (ยอมไว้ก่อน)
 - อีก 8 ไฟล์ใช้ `scripts/make_default_typeface_fonts.py` สร้างสำเนา Sarabun ที่คัดลอก metric แนวตั้ง
   (hhea · OS/2 typo · win) จากฟอนต์ญี่ปุ่นตัวที่ไปทับ สเกลเป็น upem 1000 → ความสูงบรรทัดเท่าเกมต้นฉบับ
@@ -328,7 +337,10 @@ python scripts/check_armp_translated.py         ต้อง ต่าง 0
 python scripts/check_locres_translated.py       ต้อง ต่าง 0   <- ด่านใหม่ (6 ก.ย. · §0.49)
 python scripts/check_msg_roundtrip.py · check_pak_roundtrip.py · check_layout_all.py   ต้อง ต่าง 0
 
-# แพ็กด้วย repak (pakwrite.py เกมไม่โหลด — §0.2)
+python scripts/pack_release.py --test --note "..." --install    <- บิลด์ทดสอบ (ไม่กินเลขเวอร์ชัน)
+python scripts/pack_release.py --version vX.Y                   <- เฉพาะตอนปล่อยจริง (ต้องมีหัวข้อใน patch.md)
+
+# สิ่งที่ pack_release ทำให้ (เทียบกับขั้นตอนมือเดิม) — แพ็กด้วย repak (pakwrite.py เกมไม่โหลด — §0.2)
 #   1) แตก build/LikeADragonIshinThai_P.pak ลง build/stage_pak/ ตาม path ในเกม
 #   2) tools/repak/repak.exe pack --mount-point ../../../ --version V11 build/stage_pak build/IshinThaiRepak2_P.pak
 #   3) เทียบไบต์ทุกไฟล์กับ stage_pak ต้อง ต่าง 0

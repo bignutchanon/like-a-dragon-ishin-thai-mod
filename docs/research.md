@@ -225,13 +225,13 @@ U+FF1F > U+077F จึงถูกวาดด้วยฟอนต์ญี่�
 **แก้ที่ไหนได้**: `Font_*.uasset` อยู่ใน IoStore (`.utoc/.ucas`) เท่านั้น — pak ม็อดทับไม่ได้
 (ตรวจ `extracted/pak0_files.txt` แล้วไม่มี `UI/Font/Font_*.uasset` เลยสักไฟล์)
 แต่ไฟล์ฟอนต์จริง `.ufont` เป็น loose file ใน pakchunk0 → **ทับ DefaultTypeface ให้เป็น Sarabun ได้**
-ทำแล้วใน v1.3: `build_text.FONT_GAME_PATHS` เพิ่มอีก 10 ไฟล์ (รวม 13) — เว้นไว้สองตัวโดยตั้งใจ
+ทำแล้ว: `build_text.FONT_GAME_PATHS` + `FONT_DEFAULT_FACES` (รวม 11 ไฟล์ในม็อด) — เว้นไว้สองตัวโดยตั้งใจ
 `DF_KANTEIRYU_W6` (เนื้อเพลงญี่ปุ่น `Font_MgKaraokeLyricJa`) และ `Myfont_fude-Regular` (`Font_MacanNum` = ตัวเลข)
 ⏳ รอผู้ใช้ยืนยันบนจอว่าสองจอในภาพขึ้นไทยแล้ว
 
 ### 5.2.1 ⭐ ความสูงบรรทัดมาจาก DefaultTypeface ไม่ใช่ฟอนต์ที่วาดจริง (8 ก.ย. 2026 · ยืนยันบนจอ)
 
-v1.3 ทับ DefaultTypeface ด้วย `Sarabun-Regular-ishin.ttf` (1290/-350 upem 1000 = 1.640 em)
+บิลด์ทดสอบตัวแรกของ sprint 19 ทับ DefaultTypeface ด้วย `Sarabun-Regular-ishin.ttf` (1290/-350 upem 1000 = 1.640 em)
 ผลบนจอ: บรรทัดห่างขึ้นราว 64% ทั้งเกม + ข้อความล้นกรอบในจอสมุดบันทึก/สารานุกรม
 ทั้งที่ตัวอักษรที่วาดจริงมาจาก sub-font EFIGS ไม่ใช่ตัว default
 → Slate ใช้ metric ของ **DefaultTypeface** เป็นตัวตั้งความสูงบรรทัด/การตัดบรรทัดของ CompositeFont
@@ -247,7 +247,7 @@ metric ที่วัดจากไฟล์จริง (hhea ascender/descen
 | `Kuro-Medium` (EFIGS เดิม) | 1000 | 972 / -258 / 0 | 1.230 |
 | `Sarabun-Regular-ishin` | 1000 | 1290 / -350 / 0 | **1.640** |
 
-วิธีที่ใช้ตั้งแต่ v1.4: `scripts/make_default_typeface_fonts.py` สร้างสำเนา Sarabun ต่อ FontFace
+วิธีที่ใช้ตั้งแต่บิลด์ `test_01`: `scripts/make_default_typeface_fonts.py` สร้างสำเนา Sarabun ต่อ FontFace
 โดยคัดลอก metric ของฟอนต์ญี่ปุ่นตัวนั้นมาสเกลเป็น upem 1000 → ความสูงบรรทัดเท่าเกมต้นฉบับ
 และ **ไม่ทับ** `DF-FutoKaiSho-W9` กับ `FOT-UDKakugo_LargePr6N-DB` เลย เพราะเป็น DefaultTypeface
 ของ `Font_System` ด้วย (ต่อให้ metric ตรง ก็เสี่ยงเกินไปกับจอทั้งเกม — ยังไม่มีหลักฐานว่าจำเป็น)
