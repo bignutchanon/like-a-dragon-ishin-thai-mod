@@ -251,11 +251,21 @@ PREBROKEN_MAX = 90     # p99 เกินนี้ = ไม่ใช่บิน
 #   * ใช้ 60 แก้ 268 จุด (บทพูด/ซับ 160) เฉพาะช่วงที่ยาวจนเสี่ยงจริง
 #     ไทยที่ ship อยู่มีบรรทัดยาวถึง 150 ตัว (sound_auth) และ 186 ตัว (talk) ซึ่งอันตรายแน่นอน
 #   * ถ้าเทสแล้วยังเจอจอที่ตัวอักษรเรียงเป็นแนวตั้ง ให้ลดเกณฑ์ลงทีละขั้น: 55 (530 จุด) -> 44 (2,354 จุด)
-FLOOR = 60
+# Ishin! วัดจากภาพจอผู้ใช้ 8 ก.ย. 2026 (จอ "สมุดบันทึก" หน้าเอกสาร "แผนการของนักฆ่า"):
+# บรรทัด "และแม้แคว้นมิโตะจะเป็นหนึ่งในสามตระกูลใหญ่แห่งโทกูงาวะ" = 44 หน่วยที่ตาเห็น พอดีกล่อง
+# ส่วนช่วงที่ยาวกว่านั้นถูกดันเลยขอบขวาแล้วโดน crop (เอนจิ้นตัดบรรทัดที่ช่องว่างเท่านั้น
+# และภาษาไทยไม่มีช่องว่างระหว่างคำ) → ค่าปลอดภัยของภาคนี้คือ 44 ไม่ใช่ 60 แบบ LJ
+FLOOR = 44
 
 
 def box_width_per_bin():
-    sbb = json.loads((PP.EXTRACTED / "strings_by_bin.json").read_text(encoding="utf-8"))
+    # Ishin! ไม่มี `extracted/strings_by_bin.json` (นั่นเป็นของสาย ARMP ใน Y8/LJ ที่จัดกลุ่มข้อความตามบิน)
+    # ไม่มีไฟล์ = ไม่มีข้อมูลประมาณกล่องรายบิน → ใช้เกณฑ์เดียวทั้งโปรเจกต์ (FLOOR หรือ --max-run)
+    sbb_path = PP.EXTRACTED / "strings_by_bin.json"
+    if not sbb_path.exists():
+        print("ไม่มี strings_by_bin.json — ใช้เกณฑ์เดียวทั้งโปรเจกต์ (%d หน่วย)" % FLOOR)
+        return {}, {}
+    sbb = json.loads(sbb_path.read_text(encoding="utf-8"))
     box = {}
     for b, ss in sbb.items():
         lines = sorted(len(l) for s in ss for l in s.split("\n") if l.strip())
@@ -335,9 +345,10 @@ def main():
     box, sbb = box_width_per_bin()
     limit = threshold_per_string(box, sbb)
     wide = {b: w for b, w in box.items() if w > FLOOR}
-    print(f"กล่องกว้างกว่าค่าปลอดภัย {len(wide)} บิน (วัดจากบรรทัดที่ SEGA ตัดไว้เอง): "
-          + " · ".join(f"{b.replace('.bin','')}={w}" for b, w in sorted(wide.items(),
-                                                                        key=lambda x: -x[1])[:8]))
+    if wide:
+        print(f"กล่องกว้างกว่าค่าปลอดภัย {len(wide)} บิน (วัดจากบรรทัดที่ SEGA ตัดไว้เอง): "
+              + " · ".join(f"{b.replace('.bin','')}={w}" for b, w in sorted(wide.items(),
+                                                                            key=lambda x: -x[1])[:8]))
 
     files = changed = 0
     samples = []
