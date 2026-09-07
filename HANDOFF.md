@@ -2,7 +2,7 @@
 
 > อ่านคู่กับ `CLAUDE.md` (กติกา) · `docs/research.md` (ข้อเท็จจริงจากไฟล์เกม) · `docs/scope.md` (ขนาดงาน)
 
-**อัปเดตล่าสุด: 6 ก.ย. 2026 — sprint 18 (v1.2 · ชื่อศัตรู `??????` แก้ที่ต้นเหตุจริง = locres `enemy_name_template` · ด่านใหม่ `check_locres_translated.py`)**
+**อัปเดตล่าสุด: 8 ก.ย. 2026 — sprint 19 (v1.3 · "ข้อความหาย" บนจอทหารหน่วย = `CharacterRanges` ของ sub-font EFIGS หยุดที่ U+077F · ทับ DefaultTypeface เพิ่ม 10 ไฟล์)**
 
 > **ม็อดขึ้นไทยบนจอจริงแล้ว** — จอไตเติล บทสนทนา บอลลูน NPC เมนู ทิปส์ ทั้งหมดเป็นไทย
 > รอบนี้คือรอบแรกที่มีคนเปิดเกมจริง และมันทำให้เจอบั๊กที่ด่านเดิม **รายงานว่าผ่านทั้งที่ไฟล์พัง**
@@ -15,8 +15,8 @@
 ### 0.1 ม็อดที่ติดตั้งอยู่ตอนนี้
 
 ```
-E:\SteamLibrary\...\LikeaDragonIshin\Content\Paks\~mods\IshinThai_P.pak      = v1.2 (6 ก.ย. 2026)
-1,317 ไฟล์ · 20.6 MB · = v1.1 + ล็อก locres namespace `enemy_name_template` 874 คีย์ (§0.49) · release/LikeADragonIshinThai-v1.2.zip
+E:\SteamLibrary\...\LikeaDragonIshin\Content\Paks\~mods\IshinThai_P.pak      = v1.3 (8 ก.ย. 2026)
+1,327 ไฟล์ · 21.5 MB · = v1.2 + ทับ .ufont ที่เป็น DefaultTypeface อีก 10 ไฟล์ (§0.50) · release/LikeADragonIshinThai-v1.3.zip
 ```
 
 **ปล่อยแล้ว: GitHub `bignutchanon/like-a-dragon-ishin-thai-mod` release `v1.0`** — `release/LikeADragonIshinThai-v1.0.zip`
@@ -237,6 +237,27 @@ ArmsID · Pray · Man's Voice · ชื่อ NPC รอง ฯลฯ) ⚠ ใ�
 `otazunemono_name`/`_2` 16+16 (คนร้ายมีค่าหัว) · `btl_caption` 117 (ป้ายชื่อบอส — ผู้ใช้ยืนยันแล้วว่าบอสขึ้นไทยปกติ)
 → **ยังไม่ล็อก** colosseum/otazunemono เพราะยังไม่มีภาพยืนยันว่าใช้ widget เดียวกับลูกกระจ๊อก (กติกาข้อ 10) — ให้ผู้ใช้ดูสองจอนี้
 · ARMP อื่นในกลุ่ม `battle_*` ไม่มีคอลัมน์ข้อความชื่อศัตรู (ตรวจ `extracted/db_en` แล้ว)
+
+### 0.50 ⭐ รอบทดสอบที่หก (8 ก.ย. 2026 · ภาพผู้ใช้ 2 ใบ) — "text หาย" บนจอทหารหน่วย = ช่วงตัวอักษรของ sub-font ไม่ครอบไทย
+
+อาการ: จอ "จัดกองกำลัง" แถบเมนูเหลืองว่างทั้งแถบ · จอ "เลือกจุดหมาย" ชื่อสถานที่หาย (`???` กับตัวเลขยังขึ้น)
+บรรทัดคำอธิบายล่างจอทั้งสองใบเป็นไทยปกติ
+
+ต้นเหตุ (หลักฐานเต็มใน `docs/research.md` §5.2): CompositeSubFont ของ culture `en;fr;it;de;es`
+มีฟิลด์ `CharacterRanges` ด้วย — มีแค่ `Font_System` · `Font_CmnFude` ที่กว้างถึง U+FFFFFF
+ที่เหลือหยุดที่ **U+077F** (`Font_MgKswKaisho` หยุดที่ U+0200) → ไทย (U+0E00) หลุดช่วง
+ตกไปที่ `DefaultTypeface` = ฟอนต์ญี่ปุ่นที่ไม่มีกลิฟไทย → Slate วาดเป็นช่องว่าง
+**ทับ FontFace ชุด EFIGS ครบสามตัวแล้วก็ไม่พอ** — ต้องทับฟอนต์ญี่ปุ่นที่เป็น DefaultTypeface ด้วย
+
+ที่แก้ (v1.3): `build_text.FONT_GAME_PATHS` 3 → 13 ไฟล์ เพิ่ม `DF_GOKUBUTOKAISHO_W12` · `DF_ENKAISHO_W5` ·
+`FOT-UDKakugo_LargePr6N-DB` · `DF-FutoKaiSho-W9` · `DF_REISHO_W6` · `TT_KswHannya` · `TT_KswHiryu` ·
+`TT_KswKaisho` · `TT_KswReisho` · `TT_KokinEdo-EB`
+เว้นไว้โดยตั้งใจ: `DF_KANTEIRYU_W6` (เนื้อเพลงญี่ปุ่น `Font_MgKaraokeLyricJa` ไม่มี sub-font EFIGS เลย) ·
+`Myfont_fude-Regular` (`Font_MacanNum` = ตัวเลขลายพู่กันบน HUD)
+ด่านทั้งชุดผ่าน: msg 53,016 บรรทัด · ARMP 53,256 ช่อง · locres 23,507 คีย์ · roundtrip 1,678 ไฟล์ · pak 1,327 ไฟล์ · ต่าง 0
+
+⏳ **รอผู้ใช้ยืนยันบนจอ**: สองจอในภาพขึ้นไทยหรือยัง · จอไหนที่ยังว่างอยู่ (น่าจะเป็นสองไฟล์ที่เว้นไว้)
+· ผลข้างเคียงที่คาดไว้: จอกลุ่มนี้เปลี่ยนจากฟอนต์พู่กัน/มินโจเป็น Sarabun · คันจิที่หลงเหลือบนจอกลุ่มนี้จะเป็นกล่องว่าง
 
 ### 0.5 ~~ปุ่ม ESC บนคีย์บอร์ดไม่ทำงาน~~ → **ไม่ใช่บั๊กม็อด — เกมไม่ได้ผูก ESC กับเมนูหยุดเกมตั้งแต่ต้น** (3 ก.ย. 2026)
 

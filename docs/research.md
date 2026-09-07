@@ -196,6 +196,39 @@ TABLE_ID 47 · STORAGE_MODE 1)
 (`DF-FutoKaiSho-W9` · `Myfont_fude-Regular`) ที่ก็ไม่มีกลิฟไทย
 ยังไม่ทับเพราะทับแล้วเสียกลิฟคันจิของฟอนต์นั้นไปด้วย — ต้องหาก่อนว่ามีจอไหนใช้จริง
 
+### 5.2 ⭐ CharacterRanges ของ sub-font EFIGS ตัดตัวอักษรไทยทิ้ง (8 ก.ย. 2026)
+
+อาการที่ผู้ใช้ส่งภาพมา: จอ "จัดกองกำลัง" (`WBP_TaishiIkuseiTopMenu`) และ "เลือกจุดหมาย"
+(`WBP_TaishiIkuseiMenu03List`) แถบเมนู**ว่างเปล่าไม่มีตัวหนังสือเลย** แต่บรรทัดคำอธิบายล่างจอเดียวกัน
+(`WBP_TaishiIkuseiTopMenuInfo` · `Font_System`) เป็นไทยปกติ และ `???` ของรายการที่ยังไม่ปลดล็อกก็ขึ้น
+
+ที่วัดจากไฟล์:
+- คำแปลอยู่ครบ — `Game.locres` ที่บิลด์มี namespace `taishi` 152 คีย์ · `soldier_training` 135 คีย์ เป็นไทยทั้งหมด
+- widget ที่วาดแถบเมนูใช้ `Font_MgKaishoUB` (จอแรก) และ `Font_MgEnkaisho` (จอที่สอง) —
+  ทั้งคู่มี CompositeSubFont ของ culture `en;fr;it;de;es` ชี้ไป `EFIGS/Kuro-Medium` ที่ทับเป็น Sarabun แล้ว
+  → **ไม่ใช่เพราะไม่ได้ทับฟอนต์**
+- อ่านค่า `CharacterRanges` ของ CompositeSubFont จาก uasset ตรง ๆ (int32 ตัวสุดท้ายก่อนสตริง culture):
+
+| CompositeFont | upper bound ของช่วง EFIGS | ไทย (U+0E00-U+0E7F) เข้าไหม | DefaultTypeface |
+|---|---|---|---|
+| `Font_System` | U+FFFFFF | ✔ | DF-FutoKaiSho-W9 · FOT-UDKakugo_LargePr6N-DB |
+| `Font_CmnFude` | U+FFFFFF | ✔ | TT_KswHannya |
+| `Font_MgKaraokeFude` | U+206F | ✔ | TT_KswHannya |
+| `Font_MgKswKaisho` | U+0200 | ✘ | TT_KswKaisho |
+| อีก 13 ตัว (`Font_CmnGothic` · `Font_CmnMincho` · `Font_MgEnkaisho` · `Font_MgKaishoUB` · `Font_MgTaishi*` · `Font_MgKaraoke{Enkaisho,Kanteiryu,Kokinedo,Reisho}` · `Font_MgKsw{Hiryu,Reisho}` · `Font_MgNichibuHiryu`) | **U+077F** | ✘ | ฟอนต์ญี่ปุ่นประจำตัว |
+
+ตัวอักษรที่หลุดช่วงของ sub-font จะตกไปที่ `DefaultTypeface` ซึ่งเป็นฟอนต์ญี่ปุ่นที่ไม่มีกลิฟไทย
+→ Slate วาดเป็นช่องว่าง = "ข้อความหาย" · นี่คือเหตุผลที่ **ทับ FontFace ชุด EFIGS ครบสามตัวแล้วก็ยังไม่พอ**
+และยังอธิบายย้อนหลังได้ว่าทำไมการ์ดทหารหน่วยขึ้น `？` ลายพู่กัน (§0.47 ข้อ 6 ของ HANDOFF):
+U+FF1F > U+077F จึงถูกวาดด้วยฟอนต์ญี่ปุ่น ไม่ใช่ `.notdef` ของ Sarabun
+
+**แก้ที่ไหนได้**: `Font_*.uasset` อยู่ใน IoStore (`.utoc/.ucas`) เท่านั้น — pak ม็อดทับไม่ได้
+(ตรวจ `extracted/pak0_files.txt` แล้วไม่มี `UI/Font/Font_*.uasset` เลยสักไฟล์)
+แต่ไฟล์ฟอนต์จริง `.ufont` เป็น loose file ใน pakchunk0 → **ทับ DefaultTypeface ให้เป็น Sarabun ได้**
+ทำแล้วใน v1.3: `build_text.FONT_GAME_PATHS` เพิ่มอีก 10 ไฟล์ (รวม 13) — เว้นไว้สองตัวโดยตั้งใจ
+`DF_KANTEIRYU_W6` (เนื้อเพลงญี่ปุ่น `Font_MgKaraokeLyricJa`) และ `Myfont_fude-Regular` (`Font_MacanNum` = ตัวเลข)
+⏳ รอผู้ใช้ยืนยันบนจอว่าสองจอในภาพขึ้นไทยแล้ว
+
 ### 5.3 metric แนวตั้งของ Sarabun ทำวรรณยุกต์ซ้อนสระโดน crop (3 ก.ย. 2026)
 
 | ฟอนต์ | upem | ascender | descender | กลิฟสูงสุด/ต่ำสุด |
