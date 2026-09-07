@@ -95,8 +95,14 @@ KEEP_EN_TABLES = {
 # `enemy_name_template` (874 คีย์) = นามสกุลโรมาจิของศัตรูลูกกระจ๊อกบน HUD ต่อสู้ (Tadokoro · Ehara …)
 # v1.1 ถอด stay_enemy_name_all ออกแล้วยังขึ้น "??????" (ภาพผู้ใช้ 6 ก.ย. 2026) → แหล่งจริงคือ namespace นี้
 # คงโรมาจิไว้ = ผ่านทางแสดงผลแน่ (ASCII) และคนไทยอ่านออก · ดู HANDOFF §0.49
+# ชื่อย่อในแผนผังความสัมพันธ์ก็ทางแสดงผลเดียวกัน (8 ก.ย. 2026 ภาพจากผู้ใช้): ชื่อใต้รูปขึ้นเป็น
+# กล่อง "?" เท่าจำนวนตัวอักษรไทยพอดี (อิโซ 4 · โอเรียว 7 · นากาโอกะ 8) ส่วนป้ายกลุ่ม/ป้ายเส้น
+# บนจอเดียวกันเป็นไทยปกติ · widget ของจอนี้ทั้ง 90 ไฟล์อ้าง Font_System ตัวเดียว = ไม่ใช่ปัญหาฟอนต์
 KEEP_EN_NS = {
     "enemy_name_template",
+    "correlation_person_name_short",
+    "correlation_diagram_name_short",
+    "correlation_diagram_other_name_short",
 }
 
 TIER_NAMES = {
