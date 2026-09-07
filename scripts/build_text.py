@@ -81,48 +81,36 @@ FONT_DIR_GAME = "LikeaDragonIshin/Content/Projects/Devil2/UI/Font/FontFace/"
 # ทั้งสามตัวในเกมต้นฉบับ **ไม่มีกลิฟไทยเลย** (ตรวจตาราง cmap ของ .ufont ทั้ง 33 ไฟล์แล้ว)
 # ถ้าไม่ทับให้ครบ จอที่ใช้ฟอนต์พู่กัน/มินโจแสดงข้อความไทยไม่ได้
 FONT_GAME_PATHS = [
-    # ชั้นที่ 1 — FontFace ของ culture EFIGS ("en;fr;it;de;es")
+    # ชั้นที่ 1 — FontFace ของ culture EFIGS ("en;fr;it;de;es") ใช้ Sarabun ตัวหลัก
+    # (metric ดัน ascender ไว้ 1290/-350 เพื่อกันวรรณยุกต์โดน crop — research §5.3)
     FONT_DIR_GAME + "EFIGS/Kuro-Medium.ufont",
     FONT_DIR_GAME + "EFIGS/edosz.ufont",
     FONT_DIR_GAME + "EFIGS/FOT-TelopMinProN-D.ufont",
-    # ชั้นที่ 2 — DefaultTypeface (ฟอนต์ญี่ปุ่น) ของ CompositeFont ที่ช่วง CharacterRanges
-    # ของ sub-font EFIGS หยุดที่ U+077F จึงไม่ครอบตัวอักษรไทย (U+0E00-U+0E7F) — ดู FONT_RANGE_NOTE
-    FONT_DIR_GAME + "DF_GOKUBUTOKAISHO_W12.ufont",   # Font_MgKaishoUB · Font_MgTaishiKaisho
-    FONT_DIR_GAME + "DF_ENKAISHO_W5.ufont",          # Font_MgEnkaisho · Font_MgKaraokeEnkaisho
-    FONT_DIR_GAME + "FOT-UDKakugo_LargePr6N-DB.ufont",  # Font_CmnGothic (+ default ของ Font_System)
-    FONT_DIR_GAME + "DF-FutoKaiSho-W9.ufont",        # Font_CmnMincho (+ default ของ Font_System)
-    FONT_DIR_GAME + "DF_REISHO_W6.ufont",            # Font_MgKaraokeReisho
-    FONT_DIR_GAME + "TT_KswHannya.ufont",            # Font_MgTaishiFude · Font_CmnFude · Font_MgKaraokeFude
-    FONT_DIR_GAME + "TT_KswHiryu.ufont",             # Font_MgKswHiryu · Font_MgNichibuHiryu · Font_MgPhotoModeStamp
-    FONT_DIR_GAME + "TT_KswKaisho.ufont",            # Font_MgKswKaisho (ช่วงหยุดที่ U+0200)
-    FONT_DIR_GAME + "TT_KswReisho.ufont",            # Font_MgKswReisho
-    FONT_DIR_GAME + "TT_KokinEdo-EB.ufont",          # Font_MgKaraokeKokinedo
 ]
 
-# ⚠ สองตัวที่ **ตั้งใจไม่ทับ** เพราะเป็นฟอนต์ที่ยังต้องวาดอักษรญี่ปุ่น/เลขแบบพู่กันจริง
-#   DF_KANTEIRYU_W6.ufont      = DefaultTypeface ของ Font_MgKaraokeLyricJa (เนื้อเพลงญี่ปุ่น
-#                                ไม่มี sub-font EFIGS เลย -> ทับแล้วคันจิ/คานะในเพลงหาย)
-#   Myfont_fude-Regular.ufont  = DefaultTypeface ของ Font_MacanNum (ตัวเลขลายพู่กันบน HUD
-#                                ไม่มี sub-font EFIGS -> ทับแล้วเลขทั้งเกมเปลี่ยนเป็น Sarabun)
-#   ถ้าพบข้อความไทยหายบนจอที่ใช้สองตัวนี้ ค่อยชั่งน้ำหนักใหม่
+# ชั้นที่ 2 — DefaultTypeface (ฟอนต์ญี่ปุ่น) ของ CompositeFont ที่ช่วง CharacterRanges ของ
+# sub-font EFIGS หยุดที่ U+077F จึงไม่ครอบตัวอักษรไทย (research §5.2)
+# ⚠ ห้ามใช้ Sarabun ตัวหลักทับช่องพวกนี้ — Slate คิด "ความสูงบรรทัด" และการตัดบรรทัดจาก
+#   DefaultTypeface ไม่ใช่จาก sub-font ที่วาดจริง (พิสูจน์บนจอแล้วใน v1.3: บรรทัดห่างขึ้น ~64%
+#   ทั้งเกม + ข้อความล้นกรอบในจอสมุดบันทึก/สารานุกรม) ต้องใช้สำเนาที่ metric เท่าฟอนต์เดิมเป๊ะ
+#   ซึ่ง `scripts/make_default_typeface_fonts.py` สร้างไว้ที่ font/defaults/
+FONT_DEFAULT_FACES = [
+    "DF_GOKUBUTOKAISHO_W12",   # Font_MgKaishoUB · Font_MgTaishiKaisho
+    "DF_ENKAISHO_W5",          # Font_MgEnkaisho · Font_MgKaraokeEnkaisho
+    "DF_REISHO_W6",            # Font_MgKaraokeReisho
+    "TT_KswHannya",            # Font_MgTaishiFude · Font_CmnFude · Font_MgKaraokeFude
+    "TT_KswHiryu",             # Font_MgKswHiryu · Font_MgNichibuHiryu · Font_MgPhotoModeStamp
+    "TT_KswKaisho",            # Font_MgKswKaisho (ช่วงหยุดที่ U+0200)
+    "TT_KswReisho",            # Font_MgKswReisho
+    "TT_KokinEdo-EB",          # Font_MgKaraokeKokinedo
+]
 
-FONT_RANGE_NOTE = """
-ทำไมต้องทับ DefaultTypeface ด้วย (8 ก.ย. 2026 · ภาพผู้ใช้จอ "จัดกองกำลัง" กับ "เลือกจุดหมาย" ว่างเปล่า):
-CompositeSubFont ของ culture EFIGS ในไฟล์ Font_*.uasset ทุกตัวมีฟิลด์ CharacterRanges
-อ่านค่าจริงจาก uasset (int32 ก่อนสตริง "en;fr;it;de;es") ได้ว่า
-
-  Font_System            upper = U+FFFFFF   -> ไทยเข้าฟอนต์ EFIGS (Sarabun) ปกติ
-  Font_CmnFude           upper = U+FFFFFF
-  Font_MgKaraokeFude     upper = U+206F
-  Font_MgKswKaisho       upper = U+0200     -> ไทยหลุดช่วง
-  ที่เหลืออีก 13 ตัว      upper = U+077F     -> ไทยหลุดช่วง
-
-ตัวอักษรที่หลุดช่วงจะตกไปที่ DefaultTypeface ซึ่งเป็นฟอนต์ญี่ปุ่นที่ไม่มีกลิฟไทยเลย
-Slate จึงวาดออกมาเป็นช่องว่าง (ไม่ใช่กล่อง .notdef เพราะฟอนต์ญี่ปุ่นบางตัว notdef ว่าง)
-= อาการ "ข้อความหาย" บนจอทหารหน่วย/มินิเกม ทั้งที่ locres มีคำแปลไทยครบ
-แก้ไม่ได้ที่ .uasset เพราะ Font_*.uasset อยู่ใน IoStore (.utoc/.ucas) ทับด้วย pak ไม่ได้
-แต่ .ufont เป็น loose file ใน pakchunk0 -> ทับ DefaultTypeface ให้เป็น Sarabun ได้ตรง ๆ
-"""
+# ที่ **ตั้งใจไม่ทับ** (คืนเป็นไฟล์เดิมของเกมตั้งแต่ v1.4):
+#   DF-FutoKaiSho-W9 · FOT-UDKakugo_LargePr6N-DB = DefaultTypeface ของ `Font_System` ด้วย
+#     ซึ่งเป็นฟอนต์ของเกือบทั้งเกม -> v1.3 ทับแล้วบรรทัดห่างขึ้นและข้อความล้นกรอบ
+#     (จอที่ใช้ Font_CmnGothic / Font_CmnMincho จึงยังแสดงไทยไม่ได้ ยังไม่มีทางแก้ที่ปลอดภัย)
+#   DF_KANTEIRYU_W6            = DefaultTypeface ของ Font_MgKaraokeLyricJa (เนื้อเพลงญี่ปุ่น)
+#   Myfont_fude-Regular        = DefaultTypeface ของ Font_MacanNum (ไม่มี sub-font EFIGS เลย)
 
 
 def load_master():
@@ -437,8 +425,21 @@ def main():
             ttf = paths.SARABUN_TTF.read_bytes()
             for gpath in FONT_GAME_PATHS:
                 files[gpath] = ttf
-            print("ฟอนต์: ทับ %d FontFace ด้วย %s"
+            print("ฟอนต์: ทับ %d FontFace ชุด EFIGS ด้วย %s"
                   % (len(FONT_GAME_PATHS), paths.SARABUN_TTF.name))
+            missing = []
+            for face in FONT_DEFAULT_FACES:
+                src = paths.FONT_DEFAULTS_DIR / (face + ".ttf")
+                if src.exists():
+                    files[FONT_DIR_GAME + face + ".ufont"] = src.read_bytes()
+                else:
+                    missing.append(face)
+            print("ฟอนต์: ทับ %d DefaultTypeface ด้วยสำเนา metric เท่าต้นฉบับ (font/defaults/)"
+                  % (len(FONT_DEFAULT_FACES) - len(missing)))
+            if missing:
+                print("!! ไม่พบสำเนา %s — รัน python scripts/make_default_typeface_fonts.py ก่อน"
+                      % ", ".join(missing))
+                return 1
         else:
             print("!! ไม่พบฟอนต์ %s — แพ็กโดยไม่ใส่ฟอนต์" % paths.SARABUN_TTF)
 

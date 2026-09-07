@@ -104,6 +104,11 @@ CARRIER = "en"                                          # ภาษาที่�
 # -> ในเกม Slate ตัดขอบบนตามความสูงบรรทัด ไม้โท/ไม้ตรีบน "งั้น" โดน crop (รายงาน 3 ก.ย. 2026)
 SARABUN_TTF = FONT_DIR / "Sarabun-Regular-ishin.ttf"
 
+# สำเนา Sarabun ที่คัดลอก metric แนวตั้งจากฟอนต์ญี่ปุ่นแต่ละตัวมาใส่ ใช้ทับเฉพาะช่อง
+# DefaultTypeface ของ CompositeFont (สร้างด้วย scripts/make_default_typeface_fonts.py)
+# ต้องแยกไฟล์เพราะ Slate คิดความสูงบรรทัด/การตัดบรรทัดจาก DefaultTypeface ไม่ใช่จากฟอนต์ที่วาดจริง
+FONT_DEFAULTS_DIR = FONT_DIR / "defaults"
+
 # ---- ม็อด ----
 MOD_NAME  = "LikeADragonIshinThai"
 # วิธีติดตั้งม็อดของ Ishin! ตามที่ชุมชน Nexus ใช้กันจริง (ยืนยันจากหน้าม็อดหลายตัว 1 ก.ย. 2026):

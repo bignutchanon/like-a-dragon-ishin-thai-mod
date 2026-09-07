@@ -229,6 +229,29 @@ U+FF1F > U+077F จึงถูกวาดด้วยฟอนต์ญี่�
 `DF_KANTEIRYU_W6` (เนื้อเพลงญี่ปุ่น `Font_MgKaraokeLyricJa`) และ `Myfont_fude-Regular` (`Font_MacanNum` = ตัวเลข)
 ⏳ รอผู้ใช้ยืนยันบนจอว่าสองจอในภาพขึ้นไทยแล้ว
 
+### 5.2.1 ⭐ ความสูงบรรทัดมาจาก DefaultTypeface ไม่ใช่ฟอนต์ที่วาดจริง (8 ก.ย. 2026 · ยืนยันบนจอ)
+
+v1.3 ทับ DefaultTypeface ด้วย `Sarabun-Regular-ishin.ttf` (1290/-350 upem 1000 = 1.640 em)
+ผลบนจอ: บรรทัดห่างขึ้นราว 64% ทั้งเกม + ข้อความล้นกรอบในจอสมุดบันทึก/สารานุกรม
+ทั้งที่ตัวอักษรที่วาดจริงมาจาก sub-font EFIGS ไม่ใช่ตัว default
+→ Slate ใช้ metric ของ **DefaultTypeface** เป็นตัวตั้งความสูงบรรทัด/การตัดบรรทัดของ CompositeFont
+
+metric ที่วัดจากไฟล์จริง (hhea ascender/descender/lineGap):
+
+| .ufont | upem | hhea | (asc-desc+gap)/upem |
+|---|---|---|---|
+| `DF-FutoKaiSho-W9` · `DF_ENKAISHO_W5` · `DF_GOKUBUTOKAISHO_W12` · `DF_REISHO_W6` · `TT_KswHannya/Hiryu/Kaisho` | 1024 | 880 / -144 / 0 | 1.000 |
+| `TT_KswReisho` | 1024 | 880 / -120 / 0 | 0.977 |
+| `TT_KokinEdo-EB` | 1000 | 880 / -120 / 30 | 1.030 |
+| `FOT-UDKakugo_LargePr6N-DB` | 1000 | 880 / -120 / 1000 | 2.000 |
+| `Kuro-Medium` (EFIGS เดิม) | 1000 | 972 / -258 / 0 | 1.230 |
+| `Sarabun-Regular-ishin` | 1000 | 1290 / -350 / 0 | **1.640** |
+
+วิธีที่ใช้ตั้งแต่ v1.4: `scripts/make_default_typeface_fonts.py` สร้างสำเนา Sarabun ต่อ FontFace
+โดยคัดลอก metric ของฟอนต์ญี่ปุ่นตัวนั้นมาสเกลเป็น upem 1000 → ความสูงบรรทัดเท่าเกมต้นฉบับ
+และ **ไม่ทับ** `DF-FutoKaiSho-W9` กับ `FOT-UDKakugo_LargePr6N-DB` เลย เพราะเป็น DefaultTypeface
+ของ `Font_System` ด้วย (ต่อให้ metric ตรง ก็เสี่ยงเกินไปกับจอทั้งเกม — ยังไม่มีหลักฐานว่าจำเป็น)
+
 ### 5.3 metric แนวตั้งของ Sarabun ทำวรรณยุกต์ซ้อนสระโดน crop (3 ก.ย. 2026)
 
 | ฟอนต์ | upem | ascender | descender | กลิฟสูงสุด/ต่ำสุด |
