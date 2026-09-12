@@ -30,7 +30,8 @@ release/LikeADragonIshinThai-v1.5.zip · 4.5 MB · sha256 8259e0e9c34ed1243ce424
 ```
 
 **ปล่อยแล้วบน GitHub `bignutchanon/like-a-dragon-ishin-thai-mod`: `v1.0` · `v1.1` · `v1.2` · `v1.3` · `v1.4`**
-**`v1.5` แพ็กเสร็จแล้ว (13 ก.ย. 2026) — `release/LikeADragonIshinThai-v1.5.zip` · ⏳ ยังไม่ได้อัปขึ้น GitHub/Nexus**
+**`v1.5` (ล่าสุด · 13 ก.ย. 2026) — ปล่อยขึ้น GitHub แล้ว: https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.5**
+⏳ **ยังไม่ได้อัปขึ้น Nexus** — ข้อความหน้าเพจของ v1.4 อยู่ที่ `release/nexus_upload.txt` (ใช้ `/nexus-release` ทำของ v1.5)
 บิลด์ทดสอบ: `test_01` → `test_11` (ดู `work/testbuilds.md`) · v1.4 = เนื้อเดียวกับ `test_07` · v1.5 = เนื้อเดียวกับ `test_11`
 
 ⚠ **เลขบิลด์ทดสอบกับเลขเวอร์ชันที่ปล่อย แยกกันคนละสาย** (กติกาจากผู้ใช้ 8 ก.ย. 2026)
