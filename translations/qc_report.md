@@ -86,6 +86,8 @@
 - `batch_084.done.json`: ผ่าน 250 (คง EN 250) · ตก 0 · ขาด 0
 - `batch_085.done.json`: ผ่าน 196 (คง EN 163) · ตก 0 · ขาด 0
 - `batch_086.done.json`: ผ่าน 429 (คง EN 0) · ตก 0 · ขาด 0
+- `batch_LABEL_001.done.json`: ผ่าน 406 (คง EN 0) · ตก 0 · ขาด 0
+- `batch_LABEL_002.done.json`: ผ่าน 597 (คง EN 0) · ตก 0 · ขาด 0
 - `batch_MSG_001.done.json`: ผ่าน 250 (คง EN 55) · ตก 0 · ขาด 0
 - `batch_MSG_002.done.json`: ผ่าน 250 (คง EN 34) · ตก 0 · ขาด 0
 - `batch_MSG_003.done.json`: ผ่าน 250 (คง EN 5) · ตก 0 · ขาด 0
@@ -170,4 +172,4 @@
 - `batch_MSG_082.done.json`: ผ่าน 250 (คง EN 0) · ตก 0 · ขาด 0
 - `batch_MSG_083.done.json`: ผ่าน 200 (คง EN 0) · ตก 0 · ขาด 0
 
-รวม: ผ่าน 42030 · คง EN 3559 · ตก 0 · master_th ตอนนี้ 42030 คู่
+รวม: ผ่าน 43033 · คง EN 3559 · ตก 0 · master_th ตอนนี้ 43033 คู่

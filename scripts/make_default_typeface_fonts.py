@@ -46,19 +46,30 @@ FACES = [
 
 
 def copy_metrics(src, dst):
-    """คัดลอก metric แนวตั้งจาก src มาใส่ dst โดยสเกลตามอัตราส่วน upem"""
+    """คัดลอก metric แนวตั้งจาก src มาใส่ dst โดยสเกลตามอัตราส่วน upem
+
+    ascender/descender ถูกดันให้ครอบกลิฟสูงสุด/ต่ำสุดของ Sarabun เสมอ (yMax 1265 / yMin -535)
+    แล้วหักส่วนที่เกินคืนที่ `lineGap` (ค่าติดลบ) เพื่อให้ **ความสูงบรรทัดเท่าฟอนต์ญี่ปุ่นต้นฉบับ**
+    FreeType คิด `face->height` = ascender - descender + lineGap จึงคุมระยะบรรทัดได้จากช่องนี้
+    ส่วนกรอบที่ใช้ crop กลิฟมาจาก ascender/descender ตรง ๆ (docs/research.md §5.3)
+    """
     k = dst["head"].unitsPerEm / src["head"].unitsPerEm
+    g_max, g_min = dst["head"].yMax, dst["head"].yMin
 
     def s(v):
         return int(round(v * k))
 
     sh, dh = src["hhea"], dst["hhea"]
-    dh.ascent, dh.descent, dh.lineGap = s(sh.ascent), s(sh.descent), s(sh.lineGap)
+    height = s(sh.ascent) - s(sh.descent) + s(sh.lineGap)   # ความสูงบรรทัดเดิมของเกม
+    asc = max(s(sh.ascent), g_max)
+    desc = min(s(sh.descent), g_min)
+    gap = height - (asc - desc)                              # ติดลบ = ดึงบรรทัดกลับมาชิดเท่าเดิม
+
+    dh.ascent, dh.descent, dh.lineGap = asc, desc, gap
     so, do = src["OS/2"], dst["OS/2"]
-    do.sTypoAscender, do.sTypoDescender = s(so.sTypoAscender), s(so.sTypoDescender)
-    do.sTypoLineGap = s(so.sTypoLineGap)
-    do.usWinAscent, do.usWinDescent = s(so.usWinAscent), s(so.usWinDescent)
-    return (dh.ascent, dh.descent, dh.lineGap)
+    do.sTypoAscender, do.sTypoDescender, do.sTypoLineGap = asc, desc, gap
+    do.usWinAscent, do.usWinDescent = asc, -desc
+    return (asc, desc, gap)
 
 
 def main():
@@ -88,8 +99,8 @@ def main():
     tmp.unlink(missing_ok=True)
     print("เขียน %d ไฟล์ -> %s (metric เท่าต้นฉบับ · กลิฟ/cmap เป็นของ %s)"
           % (len(FACES), OUT_DIR, paths.SARABUN_TTF.name))
-    print("หมายเหตุ: สำเนาพวกนี้ ascender เตี้ยกว่าตัวหลัก จึงอาจ crop วรรณยุกต์ที่ซ้อนสระบน "
-          "(กลิฟ .small ของ Sarabun สูงถึง 1265) — เป็นราคาที่แลกกับความสูงบรรทัดเท่าเกมเดิม")
+    print("หมายเหตุ: ascender/descender ครอบกลิฟเต็ม (1265/-535) แล้วหักคืนที่ lineGap ติดลบ "
+          "→ วรรณยุกต์ซ้อนสระบนไม่โดน crop และความสูงบรรทัดยังเท่าเกมเดิม")
     return 0
 
 

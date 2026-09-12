@@ -20,6 +20,7 @@
 """
 import argparse
 import json
+import os
 import re
 import sys
 from collections import Counter, defaultdict
@@ -104,6 +105,13 @@ KEEP_EN_NS = {
     "correlation_diagram_name_short",
     "correlation_diagram_other_name_short",
 }
+
+# ⚠ สมมติฐานที่ยังไม่ทดสอบ (12 ก.ย. 2026): กล่อง "?" ที่เห็นคือ .notdef ของฟอนต์ที่ไม่มีกลิฟไทย
+# ไม่ใช่สตริงที่ถูกแปลงพัง — ถ้าจริง การทับ DefaultTypeface ด้วยสำเนา Sarabun ตั้งแต่ v1.3 (research §5.2.1)
+# น่าจะทำให้จอพวกนี้ขึ้นไทยได้แล้ว · ตั้ง env `ISHIN_UNLOCK_NS=1` เพื่อบิลด์ทดสอบแบบปลดล็อกทั้งสี่ namespace
+# (ด่าน check_locres_translated.py อ่านค่าเดียวกัน จึงยังตรวจตรงกัน) — ผลบนจอเป็นตัวตัดสิน
+if os.environ.get("ISHIN_UNLOCK_NS") == "1":
+    KEEP_EN_NS = set()
 
 TIER_NAMES = {
     1: "บทคัตซีนเนื้อเรื่อง (locres มีคู่ _speaker)",
