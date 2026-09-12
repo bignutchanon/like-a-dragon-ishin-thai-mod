@@ -9,6 +9,13 @@
    ถูกใช้ซ้ำได้ทั้งเกม การล็อกเพศให้สตริงที่ใช้ร่วมกันจะไปบังคับเพศให้ผู้พูดคนอื่นด้วย
    เจอจริงตอนสร้างไฟล์นี้: `"What?"` โผล่ **57 ครั้ง** ทั่วเกม แต่ถูกล็อกเป็นชายเพราะยามซัตสึมะพูด
 
+   **ข้อยกเว้นเดียว (เพิ่ม 12 ก.ย. 2026 · sprint 21)**: โผล่หลายฉากได้ ถ้า **ต้นฉบับญี่ปุ่นของทุกที่
+   ที่มันโผล่เหมือนกันเป๊ะทุกตัวอักษร** — นั่นคือ "บรรทัดเดียวกันที่เกมทำสำเนาฉากไว้หลายชุด"
+   ไม่ใช่ "คนละคนพูดประโยคอังกฤษเดียวกัน" · เกมนี้ทำสำเนาฉากย่อยไว้เยอะจริง (ฉากอาบน้ำของฮารุกะ
+   มีสามชุด `uid016c00be/c6/c7` · ฉากโรงเรียนวัดมีสามชุด `uid01400014`/`uid016f000b`/`uid0178000a`)
+   ถ้าไม่มีข้อยกเว้นนี้ หลักฐานที่ถูกต้องจะถูกตีตกเพราะวิธีที่ *เกม* จัดไฟล์ ไม่ใช่เพราะเนื้อหา
+   ⚠ ถ้า `ja` ต่างกันแม้แต่ชุดเดียว = คนละบรรทัด ให้ตกเหมือนเดิม (นั่นคือเคส `"What?"` ที่ทำให้มีด่านนี้)
+
 ใช้: python scripts/check_gender_lines.py
 คืนค่า 1 ถ้ามีคีย์ที่ใช้ไม่ได้ (ต้องแก้ก่อนแจกคลื่น)
 """
@@ -32,11 +39,13 @@ def main():
     data = json.loads(p.read_text(encoding="utf-8"))
     rows = json.loads((paths.EXTRACTED / "parallel" / "msg.json").read_text(encoding="utf-8"))
     files = defaultdict(set)
+    jas = defaultdict(set)
     for r in rows:
         if r.get("en"):
             files[r["en"]].add(r["file"])
+            jas[r["en"]].add(r.get("ja") or "")
 
-    bad_why, bad_shared, bad_missing, ok = [], [], [], 0
+    bad_why, bad_shared, bad_missing, dup_scene, ok = [], [], [], [], 0
     for k, v in data.items():
         if k.startswith("_"):
             continue
@@ -47,13 +56,19 @@ def main():
         if not fs:
             bad_missing.append(k)          # อาจเป็นสตริงของชั้น locres/ARMP ไม่ใช่ชั้น .msg
             continue
-        if len(fs) > 1:
+        if len(fs) > 1 and len(jas[k]) > 1:
             bad_shared.append((k, sorted(fs)))
             continue
+        if len(fs) > 1:
+            dup_scene.append((k, sorted(fs)))
         ok += 1
 
-    print("คีย์ที่ใช้ได้ %d · ขาด why/gender %d · ใช้ร่วมหลายฉาก %d · ไม่พบในชั้น .msg %d"
-          % (ok, len(bad_why), len(bad_shared), len(bad_missing)))
+    print("คีย์ที่ใช้ได้ %d · ขาด why/gender %d · ใช้ร่วมหลายฉาก %d · ฉากสำเนา (ยกเว้นได้) %d"
+          " · ไม่พบในชั้น .msg %d"
+          % (ok, len(bad_why), len(bad_shared), len(dup_scene), len(bad_missing)))
+    for k, fs in dup_scene:
+        print("  ~ โผล่ %d ฉากแต่ ja เหมือนกันทุกที่ = ฉากสำเนาของเกม ผ่านตามข้อยกเว้น (%s…): %s"
+              % (len(fs), " ".join(fs[:3]), repr(k)[:55]))
     for k in bad_why:
         print("  ✗ ขาด why/gender: %s" % repr(k)[:70])
     for k, fs in bad_shared:
