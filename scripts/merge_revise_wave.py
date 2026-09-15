@@ -142,6 +142,14 @@ def check_gender(item, line, reject):
     modern = tp.MODERN_SPEECH.findall(th_new)
     if modern and not tp.MODERN_SPEECH.findall(th):
         return reject("ใส่คำของภาคปัจจุบัน %s" % modern[:3])
+    # ข้ามระดับภาษา — ซองนำร่อง gender3 (15 ก.ย. 2026) ใส่ ขอรับ ให้บรรทัดที่เรียกคู่สนทนาว่า เจ้า 5 จาก 30 รายการ
+    if particle in ("ขอรับ", "เจ้าค่ะ", "เจ้าคะ"):
+        rest = th_new.replace(particle, " ")
+        t2 = [name for name, rx in (("เจ้า", tp.RE_CHAO), ("นาย", tp.RE_NAI)) if rx.search(rest)]
+        if t2:
+            return reject("ใส่คำลงท้าย T1 (%s) แต่บรรทัดเรียกคู่สนทนาแบบ T2 (%s)" % (particle, " ".join(t2)))
+    if re.search(r"(ไง|เหรอ|ล่ะ|จ้า)\s*" + re.escape(particle), th_new):
+        return reject("คำลงท้ายต่อท้ายคำกันเอง (ไง/เหรอ/ล่ะ/จ้า) — ต้องถอดคำนั้นก่อน")
     if norm(th_new) == norm(th):
         return reject("th_new เท่ากับคำแปลเดิม")
     return classify(th, th_new, particle)
@@ -227,7 +235,20 @@ def main():
                     help="เขียนคำตัดสินเพศของผู้ตรวจลง translations/gender_lines.json")
     ap.add_argument("--include-rewrite", action="store_true",
                     help="รับชั้น rewrite ด้วย (ใช้เมื่อ lead อ่านรายการใน review.md แล้ว)")
+    ap.add_argument("--wave", default="gender",
+                    help="โฟลเดอร์คลื่นใต้ work/revise_wave/ (gender = §0.59 · gender3 = 15 ก.ย. 2026)")
+    ap.add_argument("--packet", help="เลขซอง เช่น 07 — ผู้ตรวจรันเช็กซองตัวเอง พิมพ์ผล ไม่เขียนไฟล์ใด ๆ")
+    ap.add_argument("--cand", action="store_true",
+                    help="เขียน candidates/packet_NN.json ให้ผู้ยืนยัน (VERIFY_BRIEF.md)")
+    ap.add_argument("--apply-verdict", action="store_true",
+                    help="ลงเฉพาะคำตัดสิน keep/fix ใน verdict/ + คำตัดสิน lead_pilot.json ลง done")
+    ap.add_argument("--dry", action="store_true", help="ใช้กับ --apply-verdict: ตรวจ + รายงาน ไม่เขียน done")
     args = ap.parse_args()
+
+    global WAVE, IN, OUT
+    WAVE = paths.PROJECT / "work" / "revise_wave" / args.wave
+    IN, OUT = WAVE / "in", WAVE / "out"
+    only = "packet_%02d" % int(args.packet) if args.packet else None
 
     lines, in_packet, scene_of = load_packets()
     by_scene = defaultdict(set)
@@ -238,8 +259,11 @@ def main():
     rejects = []
     fixes = defaultdict(list)      # en -> [(cls, th_new, key, packet, why)]
     weird, gwrong = [], []
+    passed = []                    # (packet, key, line, item, cls) — ข้อมูลเข้าของ --cand
 
     for p in sorted(OUT.glob("packet_*.json")):
+        if ".part" in p.name or (only and p.stem != only):
+            continue
         try:
             data = json.loads(p.read_text(encoding="utf-8"))
         except Exception as e:
@@ -270,6 +294,7 @@ def main():
                 continue
             stats["ผ่าน:" + cls] += 1
             fixes[line["en"]].append((cls, item["th_new"], key, p.stem, item.get("why", "")))
+            passed.append((p.stem, key, line, item, cls))
         for item in data.get("weird") or []:
             stats["เสนอคำแปลเพี้ยน"] += 1
             key = item.get("key")
@@ -315,6 +340,16 @@ def main():
             review.append((en, th_new, key, pk, why))
             continue
         accept[en] = th_new
+
+    if only:
+        # ผู้ตรวจเช็กซองตัวเอง — ห้ามเขียนรายงานรวมทับของ lead
+        for k in sorted(stats):
+            print("%-22s %d" % (k, stats[k]))
+        for pk, key, msg in rejects:
+            print("  ตก  %s — %s" % (key, msg))
+        for en, th_new, key, pk, why in review:
+            print("  รอ lead (rewrite)  %s" % key)
+        return
 
     WAVE.mkdir(parents=True, exist_ok=True)
     (WAVE / "accepted.json").write_text(json.dumps(accept, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -390,6 +425,190 @@ def main():
     if args.apply:
         n_files, n_keys = apply_to_done(accept)
         print("เขียนลง done %d ไฟล์ · %d คีย์ — ต่อด้วย python scripts/merge_qc.py" % (n_files, n_keys))
+
+    if args.cand:
+        write_candidates(passed, lines, scene_of)
+    if args.apply_verdict:
+        apply_verdicts(passed, lines, dry=args.dry)
+
+
+# ฉากส่งพัสดุ: NPC ผู้รับตัวเดียวสลับชื่อชาย/หญิง ไฟล์เกมไม่กำหนดเพศ (research §10.2)
+# ผู้ตรวจ gender3 ซอง 09 เสนอ ขอรับ ให้ผู้รับที่ตารางตี male(scene) — ตัดทิ้งทั้งหมด
+PARCEL_FILES = {"uid00160b%02x" % i for i in range(0x22, 0x2d)}
+
+
+def _line_no(key):
+    return int(key.rsplit("#", 1)[1])
+
+
+def _candidate_pool(passed):
+    """ข้อเสนอที่ส่งต่อให้ผู้ยืนยันได้ · คืน (รายการ, เหตุที่ตัดก่อนถึงผู้ยืนยัน)"""
+    import make_revise_packets as R
+    pilot = json.loads((WAVE / "lead_pilot.json").read_text(encoding="utf-8")) \
+        if (WAVE / "lead_pilot.json").exists() else {}
+    lead_keys = set(pilot.get("drop") or {}) | set(pilot.get("fix") or {})
+    # th_new ถูกเขียนทับคำแปล ณ วันสร้างซอง — ถ้า master เปลี่ยนหลังจากนั้น (เช่น rename_swords.py)
+    # การลงจะย้อนงานนั้นทิ้ง จึงตัดออกให้ lead ทำซองใหม่แทน
+    master = json.loads(paths.MASTER_TH.read_text(encoding="utf-8"))
+    # สตริงกว้างที่เพศมาจากชั้น dialogue (ผูก EN) — "Thank you very much. Please come again." ใช้ 6 ฉาก
+    # หลักฐานหญิงมีแค่ฉากโอกามิ แต่ชั้น EN ลากไปทุกฉาก (พนักงานร้าน · ฉากป้ายผิด) → master ผูก EN จึงลงไม่ได้
+    par = json.loads((paths.EXTRACTED / "parallel" / "msg.json").read_text(encoding="utf-8"))
+    occ = defaultdict(list)
+    for r in par:
+        occ[r.get("en") or ""].append(r)
+    wide = set()
+    for en in {l["en"] for _, _, l, _, _ in passed}:
+        rows = occ.get(en, [])
+        if len({r["file"] for r in rows}) > 3 and any(
+                R.gender_of(en, r.get("ja") or "", r["key"])[1] == "dialogue" for r in rows):
+            wide.add(en)
+    keep, cut = [], Counter()
+    for pk, key, line, item, cls in passed:
+        if line["en"] in wide:
+            cut["สตริงกว้าง >3 ฉาก เพศจากชั้น dialogue (EN)"] += 1
+            continue
+        if norm(master.get(line["en"]) or "") != norm(line["th"]):
+            cut["คำแปลใน master เปลี่ยนหลังสร้างซอง"] += 1
+            continue
+        if key in lead_keys:
+            cut["lead ตัดสินแล้ว (lead_pilot)"] += 1
+            continue
+        if key.split("#")[0] in PARCEL_FILES:
+            cut["ฉากส่งพัสดุ เพศไม่กำหนด"] += 1
+            continue
+        g_now, _ = R.gender_of(line["en"], line.get("ja", ""), key)
+        if g_now != line.get("gender"):
+            cut["เพศในซองไม่ตรงตารางปัจจุบัน"] += 1
+            continue
+        keep.append((pk, key, line, item, cls))
+    return keep, cut, pilot
+
+
+def write_candidates(passed, lines, scene_of):
+    """ข้อมูลเข้าผู้ยืนยัน — หนึ่งไฟล์ต่อซองเดิม
+
+    `context` = บรรทัดรอบข้างในฉากเดียวกัน ±3 · `scene_proposals` = คีย์ที่ถูกเสนอคำลงท้ายในฉากเดียวกัน
+    (บรีฟผู้ยืนยันข้อ 4 "ความถี่" — ซอง 03/04/10/29 เสนอหนาแน่นผิดปกติ ต้องเห็นทั้งฉากถึงตัดสินได้)
+    """
+    keep, cut, _ = _candidate_pool(passed)
+    by_scene = defaultdict(list)
+    for k, f in scene_of.items():
+        by_scene[f].append(k)
+    for f in by_scene:
+        by_scene[f].sort(key=_line_no)
+    props_in_scene = defaultdict(list)
+    for pk, key, line, item, cls in keep:
+        props_in_scene[scene_of[key]].append(key)
+
+    out_dir = WAVE / "candidates"
+    out_dir.mkdir(exist_ok=True)
+    for old in out_dir.glob("packet_*.json"):
+        old.unlink()
+    per_packet = defaultdict(list)
+    for pk, key, line, item, cls in keep:
+        order = by_scene[scene_of[key]]
+        i = order.index(key)
+        ctx = [{"key": k, "en": lines[k]["en"], "th": lines[k]["th"],
+                "gender": lines[k].get("gender")} for k in order[max(0, i - 3):i + 4] if k != key]
+        per_packet[pk].append({
+            "key": key, "gender": line.get("gender"), "gender_from": line.get("gender_from"),
+            "labels": line.get("labels") or [], "en": line["en"], "ja": line.get("ja", ""),
+            "th_old": line["th"], "th_new": item["th_new"], "particle": item["particle"],
+            "change": cls, "why": item.get("why", ""),
+            "scene_proposals": sorted(props_in_scene[scene_of[key]], key=_line_no),
+            "context": ctx})
+    for pk, items in sorted(per_packet.items()):
+        (out_dir / (pk + ".json")).write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("candidates: %d รายการ ใน %d ซอง -> %s" % (len(keep), len(per_packet), out_dir))
+    for k, n in cut.most_common():
+        print("  ตัดก่อนถึงผู้ยืนยัน %-32s %d" % (k, n))
+    for pk, items in sorted(per_packet.items()):
+        print("  %s %d" % (pk, len(items)))
+
+
+def apply_verdicts(passed, lines, dry):
+    """คำตัดสินผู้ยืนยัน -> done · รายการที่ไม่มีคำตัดสิน = ไม่ลง (ตั้งต้นไม่รับ)
+
+    `fix` ผ่านด่านเครื่องชุดเดียวกับข้อเสนอเดิม (คำลงท้าย · ขึ้นบรรทัด · ข้ามระดับ · ภาคปัจจุบัน)
+    แล้วยุบตาม EN — ถ้าสองบรรทัดของ EN เดียวกันได้ข้อความต่างกัน = ไม่ลงทั้งคู่ ส่ง lead
+    """
+    keep, cut, pilot = _candidate_pool(passed)
+    verdicts, bad = {}, []
+    for p in sorted((WAVE / "verdict").glob("packet_*.json")):
+        if ".part" in p.name:
+            continue
+        for v in json.loads(p.read_text(encoding="utf-8")):
+            verdicts[v.get("key")] = (p.stem, v)
+    # lead อ่านทวน keep/fix ของผู้ยืนยัน — {คีย์: {"decision": "drop"|"fix", "th_fix"?, "why"}} ชนะคำตัดสินผู้ยืนยัน
+    lo = WAVE / "lead_override.json"
+    for key, v in (json.loads(lo.read_text(encoding="utf-8")) if lo.exists() else {}).items():
+        if not key.startswith("_"):
+            verdicts[key] = ("lead_override", dict(v, key=key))
+    take = defaultdict(list)       # en -> [(th, key, source)]
+    stats = Counter()
+    for pk, key, line, item, cls in keep:
+        got = verdicts.get(key)
+        if not got:
+            stats["ไม่มีคำตัดสิน"] += 1
+            bad.append((pk, key, "ไม่มีคำตัดสิน"))
+            continue
+        v = got[1]
+        d = v.get("decision")
+        if d == "drop":
+            stats["drop"] += 1
+            continue
+        if d == "keep":
+            th = item["th_new"]
+        elif d == "fix" and v.get("th_fix"):
+            fake = dict(item, th_new=v["th_fix"])
+            msgs = []
+            if check_gender(fake, line, lambda m, msgs=msgs: msgs.append(m)) is None:
+                stats["fix ตกด่านเครื่อง"] += 1
+                bad.append((pk, key, "fix ตก: " + "; ".join(msgs)))
+                continue
+            th = v["th_fix"]
+        else:
+            stats["คำตัดสินผิดรูป"] += 1
+            bad.append((pk, key, "decision=%r" % d))
+            continue
+        stats[d] += 1
+        take[line["en"]].append((th, key, pk))
+    for key, th in (pilot.get("fix") or {}).items():
+        if key in lines:
+            take[lines[key]["en"]].append((th, key, "lead_pilot"))
+            stats["lead_pilot fix"] += 1
+
+    accept, conflict = {}, []
+    for en, props in take.items():
+        if len({norm(t) for t, _, _ in props}) > 1:
+            conflict.append((en, props))
+            continue
+        accept[en] = props[0][0]
+
+    rep = WAVE / "verdict_report.md"
+    with rep.open("w", encoding="utf-8") as fh:
+        fh.write("# ผลคำตัดสินผู้ยืนยัน gender3\n\n")
+        for k in sorted(stats):
+            fh.write("- %s: %d\n" % (k, stats[k]))
+        for k, n in cut.most_common():
+            fh.write("- ตัดก่อนถึงผู้ยืนยัน %s: %d\n" % (k, n))
+        fh.write("\n## ลงไม่ได้ %d\n\n" % len(bad))
+        for pk, key, msg in bad:
+            fh.write("- %s `%s` — %s\n" % (pk, key, msg))
+        fh.write("\n## EN เดียวกันได้ข้อความต่างกัน %d\n\n" % len(conflict))
+        for en, props in conflict:
+            fh.write("- EN: %s\n" % flat(en))
+            for th, key, pk in props:
+                fh.write("  - [%s %s] %s\n" % (pk, key, flat(th)))
+        fh.write("\n## ลง %d สตริง\n\n" % len(accept))
+        for en, th in accept.items():
+            fh.write("- %s\n  - %s\n" % (flat(en), flat(th)))
+    for k in sorted(stats):
+        print("%-22s %d" % (k, stats[k]))
+    print("ลง %d สตริง · ขัดกัน %d · ลงไม่ได้ %d · รายงาน %s" % (len(accept), len(conflict), len(bad), rep))
+    if not dry:
+        nf, nk = apply_to_done(accept)
+        print("เขียนลง done %d ไฟล์ · %d คีย์ — ต่อด้วย python scripts/merge_qc.py" % (nf, nk))
 
 
 def apply_to_done(accept):

@@ -75,7 +75,7 @@
 | id:haraguchi | `haraguchi` | **unknown** | none | 2/0 | 20 | - |
 | Serizawa | - | **male** | ja_markers | 4/0 | 19 | สรรพนาม 俺 x4 |
 | Tani | `tani` | **male** | ja_markers | 9/0 | 19 | คำลงท้าย ぞ/ぜ x5 · สรรพนาม 俺 x3 · คำเรียกฝ่ายตรงข้ามแบบชาย x1 |
-| The Real Okita Soji | - | **unknown** | none | 0/0 | 19 | - |
+| The Real Okita Soji | - | **male** | override | 0/0 | 19 | ซับคัตซีน locres s_c10_040 ฉากเดียวกับบทของผู้พูดนี้: /0420 ฮิรามะ "And Goro 'n I stopped him, not you." (沖田を殺したのは俺と五郎や) · /0580-0590 คนโด "Okita Soji is the most feared swordsman... You could even say he's the face of the Mibu Wolves." · /0700 "My beloved apprentice is dead" — lead ตรวจ 15 ก.ย. 2026 |
 | id:bakuto | `bakuto` | **unknown** | none | 0/0 | 19 | - |
 | id:sengoku | `sengoku` | **male** | ja_markers | 4/0 | 19 | สรรพนาม わし (ชายสูงวัย) x4 |
 | id:bushi | `bushi` | **unknown** | none | 0/0 | 18 | - |
@@ -184,8 +184,8 @@
 ## สรุป
 
 - ผู้พูดในทะเบียน: **169** คน
-- ชาย: 44 · หญิง: 19
-- พิสูจน์ไม่ได้: **106** — ทุกคนในกลุ่มนี้ต้องแปลกลางเพศ
+- ชาย: 45 · หญิง: 19
+- พิสูจน์ไม่ได้: **105** — ทุกคนในกลุ่มนี้ต้องแปลกลางเพศ
 
 ## ที่มาของแต่ละชั้น
 

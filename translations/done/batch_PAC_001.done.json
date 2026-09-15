@@ -1,0 +1,35 @@
+{
+ "batch": "PAC_001",
+ "strings": {
+  "Up for a palanquin ride?": "จะเรียกเกี้ยวไหม?",
+  "Have you considered a palanquin ride?": "ลองนั่งเกี้ยวดูไหมล่ะ?",
+  "General Store": "ร้านขายของชำ",
+  "Bar": "ร้านเหล้า",
+  "Sundries Peddler": "พ่อค้าเบ็ดเตล็ด",
+  "Manure Merchant": "พ่อค้าปุ๋ย",
+  "Baitmonger": "พ่อค้าเหยื่อตกปลา",
+  "Recipient": "ผู้รับ",
+  "To Ryoma's villa": "ไปบ้านพักเรียวมะ",
+  "We're the best place to buy medicine in Fushimi.": "ที่นี่คือร้านยาที่ดีที่สุดในฟุชิมิ",
+  "Use your prize tickets here!": "ใช้ตั๋วจับสลากได้ที่นี่เลย!",
+  "Visiting a Shrine": "ไหว้ศาลเจ้า",
+  "Trade Order": "คำสั่งซื้อขาย",
+  "Change Clothes": "เปลี่ยนชุด",
+  "Bakumatsu Bob": "บาคุมัตสึ บ็อบ",
+  "Wanna play some koi-koi?": "อยากเล่นโคอิ-โคอิไหมล่ะ?",
+  "How about some oicho-kabu?": "ลองเล่นโออิโช-คาบุไหมล่ะ?",
+  "Up for some cho-han?": "อยากเล่นโชฮังไหม?",
+  "Cee-lo's fun, you know?": "ซีโลนี่สนุกนะ รู้ไหม?",
+  "Poker's open for play.": "โป๊กเกอร์เปิดให้เล่นแล้วนะ",
+  "I'll trade your points for prizes.": "จะแลกแต้มเป็นของรางวัลให้นะ",
+  "Want any tags?": "เอาป้ายไม้ไหม?",
+  "Combat Training 1": "ฝึกต่อสู้ภาคปฏิบัติ 1",
+  "Combat Training 2": "ฝึกต่อสู้ภาคปฏิบัติ 2",
+  "Goods Exchange": "แลกเปลี่ยนสินค้า"
+ },
+ "notes": [
+  "Oicho-kabu/Koi-koi: ใช้รูปล็อกจาก glossary.md §1.9.6 (โออิโช-คาบุ / โคอิ-โคอิ มีขีดกลาง) แต่พบว่า master_th.json มีบทพูดของบ่อนพนันที่ ST_TOBA (บรรทัดใกล้เคียงกันเป๊ะ เช่น 'You can play oicho-kabu here.' / 'You, there! Interested in a game of koi-koi?') ใช้สะกดไม่มีขีดกลาง ('โออิโจคาบุ' และ 'โคอิโคอิ') อยู่แล้วหลายจุด — เป็นความไม่ตรงกันระหว่างคำล็อกเมนูกับบทพูดจริงในบ่อนเดียวกัน เลือกใช้คำล็อกเป็นหลักตามกติกา ให้ lead ตัดสินว่าจะสวีปบทพูดเก่าให้ตรงคำล็อก หรือกลับกัน",
+  "Recipient (配達先, 52 occurrences) ไม่มีบริบทผู้พูด/หน้าจอแนบมา เดาว่าเป็นหัวข้อ UI ของระบบ Trade Order (ผู้รับของที่ส่ง) แปลเป็น 'ผู้รับ' แบบกลาง ๆ — ถ้าจริง ๆ เป็นชื่อคอลัมน์ตารางที่ต้องสั้นกว่านี้หรือยาวกว่านี้ ขอให้ผู้ตรวจยืนยัน",
+  "Sundries Peddler / Manure Merchant / Baitmonger เป็นป้ายชื่อพ่อค้าเร่ที่ไม่เจอในคำล็อกหรือ master มาก่อน ตั้งชื่อใหม่ตามแพทเทิร์น 'พ่อค้า+ของ' ที่ใช้กับ British Merchant/Mysterious Merchant อยู่แล้ว ไม่ใช่ชื่อตัวละคร จึงไม่เข้าเงื่อนไข new_names"
+ ]
+}

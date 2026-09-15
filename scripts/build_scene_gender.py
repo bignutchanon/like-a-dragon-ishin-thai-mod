@@ -36,6 +36,7 @@ sys.stderr.reconfigure(encoding="utf-8")
 
 MIN_MARKERS = 3
 OUT = paths.TRANSLATIONS / "scene_gender.json"
+DROPPED = paths.TRANSLATIONS / "scene_gender_dropped.json"   # ไฟล์ฉากที่ถูกตัดเพราะมีบรรทัดของอีกเพศ
 
 # บรรทัดที่เป็นข้อความในเครื่องหมายคำพูดล้วน = เสียงของ "คนอื่น" ที่ถูกยกมาอ่าน
 # (จดหมายของโอคินุใน uid000c1432 เป็นเสียงหญิง แต่ถูกอ่านอยู่ในฉากของฟูจิเอะซึ่งเป็นชาย)
@@ -58,6 +59,39 @@ def main():
             scene[f] = "male"
         elif c["female"] >= MIN_MARKERS and not c["male"]:
             scene[f] = "female"
+
+    # ⭐ ตัดฉากที่มี "หลักฐานรายบรรทัด" ของอีกเพศ (15 ก.ย. 2026)
+    # การนับเครื่องหมายทั้งไฟล์พลาดบทของตัวละครที่ไม่มีเครื่องหมายเลย (ฮารุกะ · โอเรียว · อิกุมัตสึ ·
+    # โอกามิ พูดสุภาพไม่มี あたし/かしら) แล้วตีบทของนางเป็นชายทั้งฉาก — งาน C ของคลื่นเกลาเจอ 24+ รายการ
+    # หลักฐานรายบรรทัดที่ใช้: คิวเสียงของบรรทัด (gender_voice_keys) · ผลผู้ตรวจที่ผ่านด่าน (gender_dialogue_keys)
+    # · คำตัดสินของ lead (gender_lines) — ถ้าบรรทัดใดในไฟล์เป็นอีกเพศ = ฉากนี้ไม่ใช่เพศเดียว ห้ามตีทั้งไฟล์
+    per_line = defaultdict(set)
+    for name in ("gender_voice_keys.json", "gender_dialogue_keys.json"):
+        p = paths.TRANSLATIONS / name
+        if p.exists():
+            for k, v in json.loads(p.read_text(encoding="utf-8")).items():
+                if isinstance(v, dict) and v.get("gender") in ("male", "female"):
+                    per_line[k].add(v["gender"])
+    p = paths.TRANSLATIONS / "gender_lines.json"
+    locks = {}
+    if p.exists():
+        locks = {k: v["gender"] for k, v in json.loads(p.read_text(encoding="utf-8")).items()
+                 if not k.startswith("_") and isinstance(v, dict) and v.get("gender") in ("male", "female")}
+    mixed = Counter()
+    for r in rows:
+        f = r["file"]
+        if f not in scene:
+            continue
+        gs = set(per_line.get(r["key"], ()))
+        if r["en"] in locks:
+            gs.add(locks[r["en"]])
+        if any(g != scene[f] for g in gs):
+            mixed[f] += 1
+    for f in mixed:
+        del scene[f]
+    DROPPED.write_text(json.dumps(dict(sorted(mixed.items())), ensure_ascii=False, indent=1), encoding="utf-8")
+    print("ตัดฉากที่มีบรรทัดของอีกเพศ %d ไฟล์ (บรรทัดหลักฐาน %d) -> %s"
+          % (len(mixed), sum(mixed.values()), DROPPED.name))
 
     # สตริงหนึ่งอาจโผล่หลายไฟล์ — ต้องตรงกันทุกไฟล์ ไม่งั้นไม่นับ
     by_key = defaultdict(set)

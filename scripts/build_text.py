@@ -8,6 +8,7 @@
 | `.msg` (บทสนทนา) | `extracted/msg_en/*.msg` | `tools/msg.py` `rebuild()` | `…/data/wdr_en/msg/uid00xxxxxx/<uid>.msg` |
 | ARMP (`db.macan`) | `extracted/db_en/*.bin.json` | `tools/reARMP_fixed.py` | `…/data/db.macan/en/<table>.bin` |
 | `Game.locres` | `extracted/locres/Game.en.json` | `tools/locres.py` `build_full()` | `…/Content/Localization/Game/en/Game.locres` |
+| `pac_STID_*.bin` (บทพูดลอย NPC · ป้ายปุ่ม) | `extracted/pac_en.json` + ไฟล์ vanilla ใน pak | `tools/pac.py` `rebuild()` | `…/data/wdr_en/pac/<file>.bin` |
 
 คำแปลอ้างอิงด้วย **ข้อความอังกฤษ** เป็นกุญแจ (เหมือนทุกภาคในชุดนี้) — สตริงอังกฤษเดียวกัน
 ที่โผล่หลายที่จะถูกแทนที่ทุกที่ที่พบ ยกเว้นตารางที่กติกาสั่งให้คง EN
@@ -53,6 +54,8 @@ import paths
 import armp_graft                                        # noqa: E402
 import locres                                       # noqa: E402
 import msg as msgmod                                # noqa: E402
+import pac as pacmod                                # noqa: E402
+from pakfile import PakFile                         # noqa: E402
 from pakwrite import write_pak                      # noqa: E402
 from make_worklist_ishin import (                   # noqa: E402
     DENY_COLUMNS, DENY_TABLES, KEEP_EN_NS, KEEP_EN_TABLES, SKIP_TABLES, SKIP_NS,
@@ -65,6 +68,8 @@ STAGE = paths.BUILD / "text"
 STAGE_MSG = STAGE / "msg"
 STAGE_DB = STAGE / "db.macan.en"
 STAGE_LOCRES = STAGE / "locres"
+STAGE_PAC = STAGE / "pac"
+PAC_SRC = paths.EXTRACTED / "pac_en.json"
 
 LOCRES_GAME_PATH = "LikeaDragonIshin/Content/Localization/Game/en/Game.locres"
 DB_GAME_DIR = "LikeaDragonIshin/Content/Projects/Devil2/data/db.macan/en/"
@@ -103,12 +108,13 @@ FONT_DEFAULT_FACES = [
     "TT_KswKaisho",            # Font_MgKswKaisho (ช่วงหยุดที่ U+0200)
     "TT_KswReisho",            # Font_MgKswReisho
     "TT_KokinEdo-EB",          # Font_MgKaraokeKokinedo
+    # สองตัวล่างเป็น DefaultTypeface ของ Font_System ด้วย — v1.3 ทับด้วย Sarabun ดิบแล้วบรรทัดห่างทั้งเกม
+    # รอบนี้ใช้สำเนา metric เท่าต้นฉบับ (test_12 · 13 ก.ย. 2026 · เดิมคิดว่าแก้จอแข่งไก่ — ไม่ใช่ ดู HTT-GFKaisho-E ข้างล่าง)
+    # ยังต้องมีสำหรับ widget ที่อ้าง Font_CmnMincho/Gothic ตรง ๆ (14 ตัว) · ถ้าบรรทัดทั้งเกมห่างขึ้นอีก ให้ถอดสองตัวนี้ออก
+    "DF-FutoKaiSho-W9",        # Font_CmnMincho (ไม่มี sub-font EFIGS เลย) · Font_System
+    "FOT-UDKakugo_LargePr6N-DB",  # Font_CmnGothic (ช่วง EFIGS หยุดที่ U+077F) · Font_System
+    "HTT-GFKaisho-E",          # HTT-GFKaisho-E_Font — 38 widget: อุด้ง 11 · แข่งไก่ 20 · โชฮัง 4 · ซีโล 2 · ผ่าฟืน 1 (ช่วง EFIGS หยุดที่ U+077F · research §5.2.2)
 ]
-
-# ที่ **ตั้งใจไม่ทับ** (คืนเป็นไฟล์เดิมของเกมตั้งแต่ v1.4):
-#   DF-FutoKaiSho-W9 · FOT-UDKakugo_LargePr6N-DB = DefaultTypeface ของ `Font_System` ด้วย
-#     ซึ่งเป็นฟอนต์ของเกือบทั้งเกม -> v1.3 ทับแล้วบรรทัดห่างขึ้นและข้อความล้นกรอบ
-#     (จอที่ใช้ Font_CmnGothic / Font_CmnMincho จึงยังแสดงไทยไม่ได้ ยังไม่มีทางแก้ที่ปลอดภัย)
 #   DF_KANTEIRYU_W6            = DefaultTypeface ของ Font_MgKaraokeLyricJa (เนื้อเพลงญี่ปุ่น)
 #   Myfont_fude-Regular        = DefaultTypeface ของ Font_MacanNum (ไม่มี sub-font EFIGS เลย)
 
@@ -137,8 +143,15 @@ def msg_game_paths():
 # ------------------------------------------------------------------ .msg
 LABEL_KEY_RE = re.compile(r"[_\d]|^[A-Z0-9 ]+$|^dummy$|[一-鿿ぁ-ヿ]")
 
+# label ตัวพิมพ์ใหญ่ล้วนที่เป็นข้อความบนจอจริง — ยกเว้นรายไฟล์เท่านั้น (label เดียวกันในไฟล์อื่นอาจเป็นคีย์)
+# เคสจริง 15 ก.ย. 2026 (ภาพผู้ใช้): เควสต์จดหมายโทซะของฟูจิเอะ ตัวเลือก โอ๊ย / I / กิโมโน ขึ้น "I" อังกฤษ
+# ไฟล์ uid006e017b (ตั้งชื่อสุนัข) ก็มี label "I" แต่ยังไม่รู้ว่าเป็นอะไร จึงไม่แตะ
+LABEL_TEXT_ALLOW = {
+    "uid000c1432": {"I"},
+}
 
-def label_is_text(label):
+
+def label_is_text(label, uid=None):
     """label ในตาราง .msg ที่เป็น **ข้อความบนจอ** (ชื่อผู้พูด · ตัวเลือกตอบ) ไม่ใช่คีย์ของเอนจิ้น
 
     หลักฐาน: POC "Young Woman"→"หญิงสาว" (Repak7 · 3 ก.ย. 2026) ขึ้นไทยบนจอจริง = ชื่อผู้พูดเป็นข้อความล้วน
@@ -146,16 +159,23 @@ def label_is_text(label):
     ไม่ใช่ dummy · ไม่มีอักษรญี่ปุ่น (龍馬 = คีย์ฝั่ง JA) · ขึ้นต้นด้วยตัวพิมพ์ใหญ่หรือเครื่องหมายคำพูด
     (คิวเสียง `haruka`/`iku` เป็นตัวพิมพ์เล็กล้วน — ห้ามแตะ)
     """
+    if label and label in LABEL_TEXT_ALLOW.get(uid, ()):
+        return True
+    # ตัวเลือกตอบที่มีตัวเลขปนแต่เป็นประโยคจริง ("Buy 100 tags for 1 ryo" · "100,000 Points" · "Country 1")
+    # เดิมตก `[_\d]` ทั้งหมด (15 ก.ย. 2026) — คีย์ที่มีตัวเลขไม่มีช่องว่าง+คำตัวพิมพ์เล็ก (15,0,0,0 · ACDEV7020 · ENC1)
+    if label and " " in label and "_" not in label and re.search(r"[a-z]{2}", label) \
+            and label[0] not in " ," and not re.search(r"[一-鿿ぁ-ヿ]", label):
+        return True
     if not label or LABEL_KEY_RE.search(label):
         return False
     return label[0].isupper() or label[0] in "\"'("
 
 
-def label_replacements_for(labels, th_map):
-    """{label เดิม: ไทย} เฉพาะ label ที่เป็นข้อความและ master มีคำแปล"""
+def label_replacements_for(labels, th_map, uid=None):
+    """{label เดิม: ไทย} เฉพาะ label ที่เป็นข้อความและ master มีคำแปล · `uid` = ชื่อไฟล์ .msg (ใช้กับ LABEL_TEXT_ALLOW)"""
     out = {}
     for lab in labels:
-        if lab in out or not label_is_text(lab):
+        if lab in out or not label_is_text(lab, uid):
             continue
         th = th_map.get(lab)
         if th is not None and th != lab:
@@ -179,7 +199,7 @@ def build_msg(th_map, dry_run=False):
         if not src.exists():
             continue
         m = msgmod.load(src)
-        lab_repl = label_replacements_for(m.labels, th_map)     # ชั้น label (ชื่อผู้พูด/ตัวเลือก)
+        lab_repl = label_replacements_for(m.labels, th_map, uid)  # ชั้น label (ชื่อผู้พูด/ตัวเลือก)
         if not repl and not lab_repl:
             continue
         gp = game_paths.get(uid)
@@ -200,6 +220,63 @@ def build_msg(th_map, dry_run=False):
               % (len(missing_path), " ".join(missing_path[:3])))
     print("msg   : ไฟล์ที่เปลี่ยน %d · บรรทัดที่แทนที่ %d · label ที่แทนที่ %d"
           % (len(files), n_lines, n_labels))
+    return files
+
+
+# ------------------------------------------------------------------ pac_STID
+def pac_rows_by_file():
+    """{ชื่อไฟล์ pac (ไม่มีนามสกุล): [แถวจาก extracted/pac_en.json]}"""
+    if not PAC_SRC.exists():
+        return {}
+    out = {}
+    for r in json.loads(PAC_SRC.read_text(encoding="utf-8")):
+        out.setdefault(r["file"], []).append(r)
+    return out
+
+
+def pac_replacements(rows, th_map):
+    """{key: ไทย} ของไฟล์ pac หนึ่งไฟล์ — ใช้ร่วมกับ check_pac_translated.py
+
+    แทนเฉพาะแถว `translatable` (หลักฐาน: สตริงนั้นถูกแปลในภาษาอื่นอย่างน้อยหนึ่งภาษา — ไอดีท่าทาง
+    `Talk_Kamae` / คิวเสียง เหมือนกันทุกภาษาจึงไม่ถูกแตะ) และข้ามด่านทดสอบ `pac_STID_TE_*` กับ
+    สตริงที่ไม่ใช่ UTF-8 ตามเกณฑ์เดียวกับ make_pac_worklist.py
+    """
+    out = {}
+    for r in rows:
+        if not r["translatable"] or r["file"].startswith("pac_STID_TE_") or "ไม่ใช่ UTF-8" in r["why"]:
+            continue
+        th = th_map.get(r["en"])
+        if th is not None and th != r["en"]:
+            out[r["key"]] = th
+    return out
+
+
+def build_pac(th_map, dry_run=False):
+    """ประกอบ pac_STID ใหม่เฉพาะไฟล์ที่มีสตริงถูกแปล · คืน {path ในเกม: ไบต์}
+
+    ต้นฉบับอ่านจาก pak ของเกมตรง ๆ (อ่านอย่างเดียว) · retime บล็อกคำสั่งตามจำนวนตัวอักษรไทย
+    ความถูกต้องของตัวประกอบพิสูจน์ด้วย check_pac_roundtrip.py (9 ภาษา × 168 ไฟล์ ต่าง 0)
+    """
+    by_file = pac_rows_by_file()
+    if not by_file:
+        print("pac   : ไม่พบ %s — รัน scripts/extract_pac_text.py ก่อน (ข้ามชั้นนี้)" % PAC_SRC)
+        return {}
+    pak = PakFile(paths.PAK_MAIN)
+    files, n_strings = {}, 0
+    for stem, rows in sorted(by_file.items()):
+        repl = pac_replacements(rows, th_map)
+        if not repl:
+            continue
+        gp = (paths.PAC_DIR % "en") + stem + ".bin"
+        n_strings += len(repl)
+        if dry_run:
+            files[gp] = b""
+            continue
+        data = pacmod.PacFile(pak.read(gp), stem + ".bin").rebuild(repl)
+        STAGE_PAC.mkdir(parents=True, exist_ok=True)
+        (STAGE_PAC / (stem + ".bin")).write_bytes(data)
+        files[gp] = data
+    print("pac   : ไฟล์ที่เปลี่ยน %d · สตริงที่แทนที่ %d" % (len(files), n_strings))
     return files
 
 
@@ -381,8 +458,8 @@ def install(pak):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--layers", default="msg,armp,locres",
-                    help="ชั้นที่จะบิลด์ คั่นด้วยจุลภาค (msg · armp · locres)")
+    ap.add_argument("--layers", default="msg,armp,locres,pac",
+                    help="ชั้นที่จะบิลด์ คั่นด้วยจุลภาค (msg · armp · locres · pac)")
     ap.add_argument("--dry-run", action="store_true", help="นับอย่างเดียว ไม่เขียนไฟล์")
     ap.add_argument("--no-font", action="store_true", help="ไม่ใส่ฟอนต์ไทยลง pak")
     ap.add_argument("--install", action="store_true", help="คัดลอก pak เข้าโฟลเดอร์ ~mods ของเกม")
@@ -401,7 +478,8 @@ def main():
     # (เกิดจริง 3 ก.ย. 2026: ไฟล์จากบิลด์ทดสอบเมื่อ 2 ก.ย. หลุดเข้าม็อด — `battle_bomb_info.bin`
     #  มี asset id เป็น "ทดสอบไทย wepct9000" และ .msg สองไฟล์มีข้อความทดสอบนำหน้า)
     if not a.dry_run:
-        for layer, folder in (("msg", STAGE_MSG), ("armp", STAGE_DB), ("locres", STAGE_LOCRES)):
+        for layer, folder in (("msg", STAGE_MSG), ("armp", STAGE_DB), ("locres", STAGE_LOCRES),
+                              ("pac", STAGE_PAC)):
             if layer in want and folder.exists():
                 shutil.rmtree(folder)
 
@@ -412,6 +490,8 @@ def main():
         files.update(build_db(th_map, a.dry_run))
     if "locres" in want:
         files.update(build_locres(th_map, a.dry_run))
+    if "pac" in want:
+        files.update(build_pac(th_map, a.dry_run))
 
     if a.dry_run:
         print("dry-run: ไฟล์ที่จะเข้า pak %d รายการ (ไม่ได้เขียนอะไร)" % len(files))

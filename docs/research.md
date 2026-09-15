@@ -229,6 +229,51 @@ U+FF1F > U+077F จึงถูกวาดด้วยฟอนต์ญี่�
 `DF_KANTEIRYU_W6` (เนื้อเพลงญี่ปุ่น `Font_MgKaraokeLyricJa`) และ `Myfont_fude-Regular` (`Font_MacanNum` = ตัวเลข)
 ⏳ รอผู้ใช้ยืนยันบนจอว่าสองจอในภาพขึ้นไทยแล้ว
 
+### 5.2.2 ⭐ CompositeFont ที่ชื่อไม่ขึ้นต้น `Font_` หลุดจากรอบไล่ — `HTT-GFKaisho-E_Font` = HUD มินิเกมอุด้ง (15 ก.ย. 2026)
+
+**อาการ** (ภาพผู้ใช้ 2 ใบ · test_23): HUD ระหว่างเสิร์ฟอุด้งไม่มีข้อความเลย (เหลือไอคอน · ตัวเลข "0 1,150" · "1" · บอลลูน LB มีแค่ "!")
+และหน้าสรุปผลมีแต่ ":" กับตัวเลข 56 · 6 · 26,185 — ขณะที่หัวเรื่อง "การประเมิน" กับปุ่ม "ดำเนินการต่อ" (Font_System) เป็นไทยปกติ
+= ASCII วาดได้ ไทยว่าง → อาการเดียวกับ §5.2 (ตัวอักษรหลุดช่วง sub-font ตกไปฟอนต์ญี่ปุ่นที่ไม่มีกลิฟไทย)
+
+**ที่วัดจากไฟล์**
+- widget ของมินิเกม (IoStore `UI/Minigame/Udon/WBP_Mg_Udon_*.uasset` 25 ไฟล์) สแกนสตริง: ตัวที่มีข้อความเกือบทั้งหมดอ้าง
+  `/Game/Projects/Devil2/UI/Font/HTT-GFKaisho-E_Font` — `button_hyouji` (udon/19–22 ชื่อชาม) · `cd_start`/`cd_end` (udon/16–17 เริ่ม!/จบ!) ·
+  `combo` (udon/8, 29) · `emergency` (udon/27 กลุ่มลูกค้ามาแล้ว!) · `gauge_base` (udon/9 เวลาที่เหลือ) · `osusume` (udon/23 แนะนำ!) ·
+  `score_dan` (udon/13, 30–41 ชั้น/ฝีมือลวกเส้น) · `score_money` (udon/26 ยอดขาย + Font_System) · `result01` (`minigame_udon/s_udon_result_item_name/0000–0003` + udon/1–5, 7, 24, 25, 28 + Font_System)
+  ที่ไม่ใช่ตัวนี้: `fukidashi` (บอลลูนลูกค้า) → `Font_MgKswKaisho`/`Font_MgKswReisho` (DefaultTypeface ทับแล้ว) · `level_up` → `Font_CmnFude` (ช่วง U+FFFFFF · EFIGS edosz ทับแล้ว) · ตัวเลขนับถอยหลัง → `Font_MacanNum`
+- `HTT-GFKaisho-E_Font.uasset` (2,093 ไบต์ · IoStore เท่านั้น): CompositeFont · DefaultTypeface → `FontFace/HTT-GFKaisho-E` ·
+  SubTypefaces: `en;fr;it;de;es` → `EFIGS/Kuro-Medium` **ช่วงหยุดที่ U+077F** (int32 ตัวสุดท้ายก่อนสตริง culture = 0x77F) · `ko` → `Korean/AsiaKGD14-R` (U+FFFFFF) · `zh-Hans`/`zh-Hant` → `Chinese/ZhHansSerif`/`ZhHantSerif`
+- `FontFace/HTT-GFKaisho-E.ufont`: upem 1000 · hhea 880/-120/30 · bbox -247/974 · 8,720 กลิฟ · **ไม่มีกลิฟไทย** · เป็น loose file ใน pakchunk0 → ทับได้แบบเดียวกับอีก 10 ตัว
+- ทำไมหลุด: §5.1 แตกเฉพาะ `Font_*.uasset` 21 ตัว — ตัวนี้ชื่อไม่มี prefix
+- **สแกน widget ทั้งเกม 2,061 ไฟล์** (อ่านตรงจาก IoStore · นับ widget ที่อ้าง `/Game/Projects/Devil2/UI/Font/<ชื่อ>`):
+  Font_System 635 · Font_CmnFude 63 · **HTT-GFKaisho-E_Font 38** · Font_MgEnkaisho 18 · Font_MgKswKaisho 15 · Font_MacanNum 15 · Font_CmnMincho 13 ·
+  Font_MgKaishoUB 11 · Font_MgKswReisho 11 · Font_MgKaraoke{Kanteiryu,Reisho,Kokinedo,Fude} 6 ตัวละ · Font_MgNichibuHiryu 5 · Font_MgKaraokeEnkaisho 4 ·
+  Font_MgTaishi{Fude,Kaisho} 3 · Font_MgKswHiryu · Font_MgPhotoModeStamp · Font_MgKaraokeLyricJa · Font_CmnGothic · Font_MgLisence 1 — **ไม่มีฟอนต์นอกรายการตัวอื่นอีก**
+  38 widget ของ HTT-GFKaisho-E_Font = อุด้ง 11 · **แข่งไก่ 20** (`WBP_Mg_Kyoukei_icon_kaku` · `icon_kyori` · `Icon_Kakekata` · `kake_win` · `Kekka_Win` · `haitou_win` · `goal` ฯลฯ) ·
+  โชฮัง 4 (`WBP_MG_Chouhan_deme/money/window03/window05`) · ซีโล 2 (`WBP_MgChinchiro02Deme/Text`) · ผ่าฟืน 1 (`WBP_Makiwari_Renzoku`)
+  ⚠ แก้ข้อสรุปของ HANDOFF §0.60: ป้ายแข่งไก่ที่ว่าง (test_12) **ไม่ได้**มาจาก E_Font → Font_CmnGothic/Mincho — widget เหล่านั้นอ้าง HTT-GFKaisho-E_Font ตรง ๆ
+  (รอบนั้น grep หา `Font_` จึงมองไม่เห็น) · สำเนา FOT-UDKakugo/DF-FutoKaiSho ยังต้องมีสำหรับ 14 widget ที่อ้าง Font_CmnMincho/Gothic ตรง ๆ แต่ไม่ใช่ตัวแก้ป้ายแข่งไก่
+- วิธีสแกนที่ใช้ได้: `IoStoreSet(<path Windows>)` → `glob("WBP_")` → `read()` ทีละไฟล์ใน python (ใน heredoc ของ Git Bash ต้องเขียน `E:/…` — `/e/…` ถูกแปลงให้เฉพาะตอนเป็น argument ของโปรแกรม)
+
+**แก้**: เพิ่ม `HTT-GFKaisho-E` ใน `make_default_typeface_fonts.FACES` (วิธีดัน ascender เหมือนฟอนต์พู่กันอีก 8 ตัว — ไม่ใช่ EXACT_METRICS) + `build_text.FONT_DEFAULT_FACES`
+→ DefaultTypeface ที่ทับรวม 11 ตัว · บิลด์ test_24 · ⏳ รอผู้ใช้ดูว่า HUD/หน้าสรุปผลขึ้นไทย และตัวอักษรไม่หด/ไม่โดน crop
+(ถ้าหด = อาการ test_13 ให้ย้ายไป EXACT_METRICS · ถ้าวรรณยุกต์โดน crop = คงวิธีดัน ascender ไว้)
+
+### 5.2.0 ⭐ FontFace ทุกตัวใช้ `LayoutMethod = BoundingBox` — ความสูงมาจาก `head.yMin/yMax` (13 ก.ย. 2026)
+
+อ่านจาก uasset ของ FontFace จริง (`FOT-UDKakugo_LargePr6N-DB` · `DF-FutoKaiSho-W9` · `EFIGS/Kuro-Medium` ·
+`DF_GOKUBUTOKAISHO_W12`) ทุกตัวมีชื่อ `EFontLayoutMethod::BoundingBox` → Slate คิดความสูงบรรทัด/กล่องจาก
+**bounding box รวมของทั้งฟอนต์** ในตาราง `head` ไม่ใช่ ascender/descender/lineGap ของ hhea/OS/2
+
+| ฟอนต์ | bbox vanilla | bbox สำเนา Sarabun | ผลบนจอ |
+|---|---|---|---|
+| DF-FutoKaiSho-W9 (Font_System `Mincho`) | -144/881 @1024 = 1.00 em | -535/1265 = 1.80 em | test_13 ข้อความเมนูหดทั้งจอ · test_14 หน้าคำเตือนบรรทัดห่าง |
+| FOT-UDKakugo (Font_System `Gothic`) | -460/1327 = 1.79 em | 1.80 em | แทบไม่ต่าง |
+
+→ docstring เดิมของ `make_default_typeface_fonts.py` ("FreeType คิด face->height รวม lineGap จึงคุมระยะบรรทัดได้")
+**ไม่ครบ** — การดัน ascender ไม่ใช่ตัวกำหนด ตัวกำหนดคือ bbox · fontTools คำนวณ bbox ใหม่ตอน save
+ต้องเปิดด้วย `recalcBBoxes=False` · แก้แล้วเฉพาะสองตัวบนใน test_15 (อีก 8 ตัวยังเป็น 1.8 em — ดู HANDOFF §0.60)
+
 ### 5.2.1 ⭐ ความสูงบรรทัดมาจาก DefaultTypeface ไม่ใช่ฟอนต์ที่วาดจริง (8 ก.ย. 2026 · ยืนยันบนจอ)
 
 บิลด์ทดสอบตัวแรกของ sprint 19 ทับ DefaultTypeface ด้วย `Sarabun-Regular-ishin.ttf` (1290/-350 upem 1000 = 1.640 em)
@@ -309,6 +354,88 @@ Slate/FreeType คิดความสูงบรรทัดจาก ascende
 สตริงยาวไม่คงที่ (NUL ปิดท้าย · padding ถึง 4 ไบต์) · ไฟล์ EN/JA ขนาดต่างกัน 40/168 ไฟล์ · ส่วนหัวมีตาราง
 (offset, size) ของแต่ละส่วน (TOSA: จุดต่างแรก @0x353 `72 74 04 68` vs `72 70 04 64`) → ประกอบกลับต้องอัปเดตตาราง
 label "Pray" ใน .msg **ไม่ใช่**แหล่งแสดงผล (แปลแล้วจอไม่เปลี่ยน · ทดสอบ 3 ก.ย. 2026)
+
+ยืนยันเพิ่ม 13 ก.ย. 2026 (ภาพผู้ใช้): บทพูดลอยของ NPC เดินถนนในเกียวโต (`You really saved me last time!` ·
+`Gotta pick a side, you're in the way...` · `Oh no, I should be thanking you.`) ขึ้นอังกฤษบนจอ
+สแกนไบต์ UTF-8/UTF-16 ทุกไฟล์ใน pak ทั้ง 7 ลูก + IoStore 104,581 ไฟล์ → มีใน `pac_STID_ST_KYOTO.bin` ที่เดียว
+(ประโยคสุดท้ายซ้ำกับ `uid00330d54.msg` แต่จอดึงจาก pac)
+
+#### 5.6.1 โครง `pac_STID_*.bin` — แกะครบแล้ว + ด่านตรวจข้ามภาษาผ่าน (13 ก.ย. 2026)
+
+เครื่องมือ `tools/pac.py` · ด่าน `scripts/check_pac_roundtrip.py` · ถอด `scripts/extract_pac_text.py`
+(ไฟล์ทั้งหมดอ่านตรงจาก pakchunk0 · 168 ไฟล์ต่อภาษา · ชื่อ `pac_STID_{ST,MG,TE}_*` ไม่ใช่แค่ `ST_`)
+
+**ชั้นไฟล์** (big-endian)
+| ออฟเซ็ต | ชนิด | ความหมาย |
+|---|---|---|
+| 0x00 | u16 | จำนวนเรคคอร์ด N (KYOTO 7,990) |
+| 0x02 | u16 | 0 |
+| 0x04 | u32 | 8 = ตำแหน่งตาราง |
+| 0x08 | N×16 | u32 record id · u32 offA · u32 offB · u16 lenA · u16 lenB |
+| หลังตาราง | 8 ไบต์ | ศูนย์ (KYOTO ตารางจบ 0x1f368 ข้อมูลเริ่ม 0x1f370) |
+| ต่อไป | | A แล้ว B ของทุกเรคคอร์ดตามลำดับ · แต่ละส่วน pad ถึง 4 · ส่วนยาว 0 → off = 0 |
+
+B (ทุ่น/พิกัด) **เหมือนกันทุกภาษาทุกเรคคอร์ด** · record id ลำดับเดียวกันทุกภาษา · lenA/lenB เป็น u16 (จำกัด 65,535 ไบต์/ส่วน)
+
+**ส่วน A = คอนเทนเนอร์ตระกูลเดียวกับ `.msg`** (ออฟเซ็ตนับจากต้น A) — มี magic 0x20 หรือ 0x40
+| ออฟเซ็ต | ชนิด | ความหมาย |
+|---|---|---|
+| 0x00 | u8 ×4 | magic · ธง 2 ไบต์ (ยังไม่รู้ความหมาย คัดลอกดิบ) · **จำนวนกลุ่ม G** |
+| 0x04 | u32 | 0x18 = ตำแหน่งตารางกลุ่ม |
+| 0x08 | u32 | ตำแหน่งตาราง extra (0 = ไม่มี) |
+| 0x0c | u16+u16 | จำนวน extra · จำนวน label |
+| 0x10 | u32 | ตำแหน่งพอยเตอร์ label (0 = ไม่มี) |
+| 0x14 | u32 | 0 ทุกเรคคอร์ด |
+| 0x18 | G×16 | u32 data_off (ชี้เข้าก้อนข้อมูลกลุ่ม · 0 = ไม่มี) · u32 entry_off · u8[8] ธง (**ธง[1] = จำนวน entry ของกลุ่ม**) |
+| ต่อไป | ×12 | entry: u16 ความยาวสตริง (ไบต์) · u16 จำนวนคำสั่ง<<8 · u32 str_off · u32 cmd_off — ตัวอย่าง KYOTO 0x22214: EN `00 1e 03 00 …c4 …34` / JA `00 2d 02 00 …b4 …34` |
+| ต่อไป | ×16 | บล็อกคำสั่ง ต่อกันตามลำดับ entry (opcode ชุด .msg · ไบต์ [6:8] = ตำแหน่งตัวอักษร) |
+| ต่อไป | ดิบ | ข้อมูลกลุ่ม — ข้างในเก็บ **ดัชนี label** (ไม่มีออฟเซ็ต) |
+| ต่อไป | | สตริง UTF-8 ปิด NUL ต่อกันตามลำดับ entry (สตริงว่าง = NUL ตัวเดียว · 23,908 ตัวใน EN) |
+| pad4 | ×16 | ตาราง extra (float พิกัด) — ถ้ามี |
+| pad4 | ×4 + สตริง | พอยเตอร์ label + สตริง label ต่อกัน — ถ้ามี |
+| ท้าย | | จบด้วยสตริง entry → lenA **รวม** pad ถึง 4 · จบด้วย extra/label → lenA **ไม่รวม** pad |
+
+ส่วนหัว/ตารางกลุ่ม/ตาราง entry ขนาดคงที่ → ฟิลด์ที่ขึ้นกับความยาวสตริงคือ: ความยาวใน entry · str_off ·
+cmd_off (ถ้าบล็อกคำสั่งเปลี่ยนขนาด) · data_off · ตำแหน่ง extra/label · พอยเตอร์ label · lenA · offA/offB ของทุกเรคคอร์ดถัดไป
+ตัวประกอบคำนวณใหม่ทั้งหมดจากเลย์เอาต์ (ไม่ปะทีละฟิลด์)
+⚠ บทเรียนระหว่างทำ: รอบแรกจำ "pad ท้ายหรือไม่" เป็นธงรายเรคคอร์ด → ต้นฉบับที่ยาวหารสี่ลงตัวบังเอิญ
+ถูกจำว่า "ไม่ pad" แล้วพอแทนสตริงก็ได้ขนาดผิด (oracle 1 ผ่านแต่ oracle 2 จับได้) — ที่ถูกคือกฎตายตัว
+
+**ตำแหน่งตัวอักษรในบล็อกคำสั่ง** = หน่วยเดียวกับ .msg (`disp_chars` นับตัว ไม่ใช่ไบต์):
+KYOTO 0x22214 EN `01 01 … 00 1e` (30 ตัว/30 ไบต์) · JA `… 00 0f` (15 ตัว/45 ไบต์) · DE `… 00 27` (39)
+→ ใช้ `msg.retime_cmds` ตัวเดิม
+
+**ผล oracle** (`check_pac_roundtrip.py` · 9 ภาษา en ja de fr it es ko cn tw)
+| ด่าน | ผล |
+|---|---|
+| 1: parse → rebuild ไม่แก้ | **1,512/1,512 ไฟล์ตรงไบต์** · เรคคอร์ดอ่านไม่ได้ 0 (ส่วน A แบบข้อความ 149,643 ก้อน) |
+| 2b: EN + สตริงและบล็อกคำสั่งของภาษา X → == ไฟล์ภาษา X | **168/168 ทุกภาษา** (8 ภาษา) |
+| retime จุดจบบรรทัด (บรรทัดที่คำสั่งตรงกันยกเว้นตำแหน่ง) | ผิด **0** ทุกภาษา · ตรงทุกไบต์ ~24,200 บรรทัด/ภาษา · จุดกลางบรรทัดประมาณ 85–281 บรรทัด/ภาษา |
+| 2a: แทนสตริงอย่างเดียว + retime | ja 147 · de 135 · fr 136 · it 135 · es 131 · ko 135 · cn 136 · tw 136 (/168) |
+
+2a ไม่ผ่านครบ **โดยชอบธรรม** และแยกสาเหตุได้ครบทุกไฟล์ (2b ผ่านหมด = ต่างกันแค่ในบล็อกคำสั่ง/label):
+แต่ละภาษาใส่คำสั่งจังหวะเอง (จำนวนคำสั่งต่าง ja 209 · es 291 · cn 268 · tw 269 · ko 213 · de 80 · fr 76 · it 66 บรรทัด)
+และบางภาษา **รวม label ซ้ำ** (KYOTO 006e030f EN `Have you considered a palanquin ride?`+`Up for a palanquin ride?` → JA `駕籠どうでっか？` ตัวเดียว ·
+DE กลับกันแยก `Trade Order` เป็นสองตัว) ข้อมูลกลุ่มจึงอ้างดัชนี label ต่างกัน → **ห้ามเปลี่ยนจำนวน label ตอนแปล** (`build()` กันไว้)
+
+**สตริง** (`extracted/text_en/pac.json`)
+- สตริงไม่ว่าง 2,724 (unique 1,070) · **ต้องแปล 884 (unique 511)** = บรรทัด 666 + label 218 · มีช่องว่าง 661
+- ไอดี 1,840 (label ทั้งหมด: `Talk_Kamae` · `M_BUS_TLK_*` · `P_MOV_stand_serch_tubo` · `7e008100` · คิวเสียง `majima_adv_*`)
+- ตัวแยก = หลักฐานข้ามภาษา: ต่างจาก EN อย่างน้อยหนึ่งใน 8 ภาษา หรือมีคานะ/คันจิตกค้าง (`く 苦しぃ～`)
+  label ที่จำนวนต่างระหว่างภาษาเทียบแบบ "อยู่ในตารางไหม" ไม่เทียบดัชนี (ไม่งั้น `M_CHO_TLK_seiza_kamae` ดูเหมือนถูกแปล)
+- label ที่ต้องแปลได้แก่ ชื่อร้าน/จุดบริการ (`Blacksmith` · `Uji Tea Parlor` · `Recipient` ×52) · ปุ่ม `Pray` ×14 · ชื่อ NPC (`Harada`) · เสียงตะโกนเรียกเกี้ยว
+- กระจุก: KYOTO 570 · TE_0009 51 · MIBUDERA_SOTO 29 · อื่น ๆ ≤13 · มีข้อความต้องแปล 45/168 ไฟล์
+- ⚠ ตัวเลขนี้ไม่ตรงกับที่นับไว้ก่อนหน้า (~618 ประโยค / KYOTO 416) เพราะนับจากโครงจริง รวม label และบรรทัดไม่มีช่องว่าง (`Dammit!`)
+- smoke test (ไม่อยู่ในสคริปต์): แทนไทยทุกสตริง 2,724 ตัว (มี `<Color:8>`) → parse ใหม่ได้สตริงตรง · เรคคอร์ดที่ไม่แตะตรงไบต์ ·
+  จุดจบ 1,681 จุด = `disp_chars` ใหม่ · ไฟล์รวมโต +155 KB · lenA ใหญ่สุด 8,480 (ยังห่างขีด u16)
+
+**ยังเปิด**
+1. ยังไม่ทดสอบในเกม — pac ที่ขนาดเปลี่ยนน่าจะโหลดได้ (vanilla ต่างขนาดข้ามภาษา 40/168 ไฟล์) แต่ต้องให้ผู้ใช้ยืนยัน
+2. ความหมายของธงในส่วนหัว A/ธงกลุ่ม/ข้อมูลกลุ่ม · magic 0x20 vs 0x40 — ไม่จำเป็นต่อการแปล (คัดลอกดิบ) แต่ยังไม่รู้
+3. label ไม่ใช่ UTF-8 สองตัว (KYOTO 01261563#L0 · 05261213#L0 = Shift-JIS `駕篭の体力` เหมือนทุกภาษา) — จัดเป็นไอดี
+4. `pac.json` วางใน `extracted/text_en/` ซึ่งหลายสคริปต์ glob `*.json`: `build_text.py`/`make_label_poc.py` ข้ามเอง (ไม่มี `pac.msg`)
+   แต่ `scope_report.py` จะนับแถวรวมเข้าไป และ `build_parallel.py` จะรายงาน "ไม่มีฝั่ง ja" — ต้องจัดการตอนผนวกเข้าไปป์ไลน์
+5. ยังไม่ผนวกเข้า `build_text.py` / `pack_release.py` (path ในเกม `data/wdr_en/pac/<ไฟล์>`) · ตำแหน่งกลางบรรทัดหลัง retime เป็นค่าประมาณแบบเดียวกับ .msg
 
 ### 5.2 สองอาการที่รายงานเข้ามาแล้ว **ไม่ใช่บั๊กของม็อด**
 
@@ -486,6 +613,46 @@ API: `tools/msg.py` → `Line.speaker_label_ref()` · ช่อง `voice` ใ�
 
 รายละเอียดรายคน: `docs/reference/gender_evidence_ishin.md` · เครื่องมือ: `scripts/build_speaker_gender.py`
 
+### 10.1 ป้าย (`labels`) ของ `.msg` เป็นหลักฐานเพศได้แค่ไหน — วัดทั้งคลัง (13 ก.ย. 2026)
+
+วิธี: นับบรรทัดที่มีป้ายนั้นและมีเครื่องหมายเพศในตัว (`merge_qc.ja_gender`) แยกชาย/หญิง
+
+| ป้าย | ชาย | หญิง | สรุป |
+|---|---:|---:|---|
+| `Player` | 410 | 9 | ใช้ไม่ได้ — หญิง 9 เช่น โอมัตสึ `uid01160831#038` |
+| `Ryoma` | 289 | 2 | ใช้ไม่ได้ |
+| คิวเสียง `haruka_*` / `oryo_*` / `otose_*` | 7 / 8 / 4 | 0 / 0 / 0 | **ตรงข้ามกับตัวละคร** — ป้ายคิวเกาะบทคนอื่น |
+| คิวเสียง `kiryu_*` · `majima_*` · `kondo_*` | 279 · 60 · 37 | 0 | ตรงเพศ แต่ไม่ได้พิสูจน์ว่าเป็นบทของคนนั้น |
+| ป้ายที่มีคำบอกเพศหญิง (`Old Woman` · `Uchitaro's Mother` ฯลฯ) | 72 | 26 | ใช้ไม่ได้ |
+| ป้ายที่มีคำบอกเพศชาย | 304 | 12 | อ่อน |
+| `Sexy Madam` · `Junk Boy` · `Tom` | 0 · 15 · 14 | 13 · 0 · 0 | ผ่านเกณฑ์ |
+
+เกณฑ์ที่ใช้ใน `merge_gender_wave.py`: ป้ายเดี่ยว ๆ ต้องมีเครื่องหมายเพศที่อ้าง ≥5 และเพศตรงข้าม 0
+
+### 10.2 ⭐ ตารางตัวละคร UE (`DataTable/Characters/info/*.uasset`) มีช่องเพศจริง (13 ก.ย. 2026)
+
+แก้ข้อสรุปเดิมบางส่วน: ARMP ไม่มีตารางเพศก็จริง แต่ **DataTable ของ UE ที่กำหนดหน้าตาตัวละครมี** —
+12 ตาราง (battle · longbattle · macan · minigame · npc · public · scenario* · substory · taisi_ikusei)
+แต่ละแถวมีช่องบอกเพศที่เป็นอิสระต่อกันสามช่อง + โมเดล:
+
+| ช่อง | ค่าที่เจอ |
+|---|---|
+| id แถว | `c_em_*` ชาย · `c_ew_*` หญิง · `c_ek_*` เด็ก |
+| ชนิด | `一般男` · `一般女` · `子供男` · `巨漢男` |
+| ประเภทเสียง | `男性_老人_京都弁` · `女性_若者_普_京都弁` ฯลฯ |
+| โมเดล หน้า/ตัว/ผม | `c_cm_*` ชาย · `c_cw_*` หญิง · `c_ck_*` เด็ก · `c_am/c_aw` ตัวละครหลัก |
+
+ยืนยันวิธีกับเคสที่รู้คำตอบ: お咲/お菊/お鈴 (ชื่อรูปหญิง · EN "his") = `c_em_SS14_man_0x` · 一般男 · `c_cm_x_sumo`
+ผลที่ได้: **คามาโมโตะ** `c_em_SS15_kamatukai` = 一般男 · 男性_老人_京都弁 · `c_cm_f_SS15_kama` → ชาย
+(กลุ่มโอกามะ `オカマ集団１-５` · `このは（オカマver）` เป็น c_em/一般男 ทั้งหมด)
+
+**ข้อจำกัด**: ยังผูกไฟล์บทสนทนากับแถวไม่ได้ — ตัวเลขใน section B ของเรคคอร์ด pac (`0x47a` `0x484` `0x98e`)
+ไม่พบในตารางเหล่านี้ · ใช้ได้เฉพาะตัวละครที่มีชื่อเป็นแถวของตัวเอง
+**ผู้รับพัสดุเควสต์ส่งของ 15 ชื่อ** (トメ · お深 · 三吉 …) ไม่มีแถวของตัวเองในตารางใดเลย และไฟล์บทต่อจุดส่ง
+(`uid00160b22…2c`) มีบทของทั้ง 15 ชื่อ = NPC ตัวเดียวสลับชื่อตามเควสต์ → ไฟล์เกมไม่ได้กำหนดเพศให้ชื่อเหล่านี้
+เครื่องมือ: `scripts/dump_chara_info.py` → `work/chara_info.json`
+ชื่อตัวก็เป็นหลักฐานไม่ได้เช่นกัน — `uid010c13b8` โอกิคุ/โอซากิ/โอสึซุ (รูปชื่อหญิง) เป็นนักซูโม่ชาย (EN "his")
+
 ---
 
 ## 11. คลังคู่ขนาน อังกฤษ↔ญี่ปุ่น (สร้าง 1 ก.ย. 2026)
@@ -599,3 +766,38 @@ Ishin! มีเพิ่มอีกสองชนิดที่ตัวอ�
 
 ผล: DNT ของชั้น `.msg` เพิ่มจาก 2,327 เป็น **2,349 สตริง** · บรรทัดทำอาหารของ Ishin ไม่ถูกตัดสักบรรทัด
 
+## 15. เกม crash ที่เควสต์ร้านอุด้ง = ข้อความหน้าต่างสอนเล่นยาวเกิน buffer 1,024 ไบต์ (15 ก.ย. 2026)
+
+**อาการ**: ผู้ใช้รายงาน "เกม crash ที่ substory ร้านขายอุด้ง" (test_22) — ครั้งแรกที่มีใครเข้าฉากนี้ตั้งแต่แปล label/บรรทัดครบ
+
+**ที่หาหลักฐาน** (เกมไม่เขียน log เอง — `%LOCALAPPDATA%\LikeaDragonIshin\Saved\Logs` มีแต่ NGX · `CrashPadDb` ว่าง):
+- Event Log Application: Id 1000 (Application Error) + Id 1001 (WER) — `LikeaDragonIshin-Win64-Shipping.exe` 4.27.2.0
+  exception `0xc0000409` · exception data `0x2` = **FAST_FAIL_STACK_COOKIE_CHECK_FAILURE** (buffer บน stack ล้น) · fault offset `exe+0x444318d`
+- **minidump**: `%LOCALAPPDATA%\CrashDumps\LikeaDragonIshin-Win64-Shipping.exe.<pid>.dmp` (97.6 MB · Windows LocalDumps
+  เขียนให้ทันทีที่ crash) · แกะด้วย python ตรง ๆ: header `MDMP` → stream directory → ExceptionStream (6) ให้ thread id +
+  CONTEXT (Rsp ที่ +152 · Rip ที่ +248) → ThreadListStream (3) ให้ช่วง stack ของเธรดนั้น → ModuleListStream (4) ให้ฐานของ exe
+  → สแกน stack หา pointer เข้า exe (return address) และสตริง UTF-8 ไทย
+
+**ที่เห็นบน stack ของเธรดที่พัง** (rsp = `0xf7e8a0` · ช่วง stack 0x1760 ไบต์):
+```
+rsp+0x070 .. 0x470   1,024 ไบต์แรกของบรรทัด uid010c16a4#001 (ไทยเต็ม 1,098 ไบต์) ตรงไบต์ต่อไบต์ — ตัดที่ 1,024 พอดี
+rsp+0x470            3c 00 00 2a fe 2e 00 00   <- ช่อง stack cookie: 3 ไบต์ล่างถูกเขียนทับ (ค่าบน 2a fe 2e = เศษ cookie)
+rsp+0x480            pointer heap · rsp+0x488  return address exe+0xf7a269
+```
+→ โค้ดหน้าต่างสอนเล่น (`<kf:N>` = หน้าของหน้าต่าง) คัดลอกข้อความทั้งบรรทัดลง `char[1024]` บน stack แบบจำกัดขนาด
+แล้วเขียนต่อท้ายตามความยาวจริงของสตริง → cookie พัง → `__fastfail(2)` · ไม่ใช่ฟอร์แมตไฟล์พัง (ด่าน roundtrip/translated ผ่านทุกด่านจริง)
+
+**ทำไมภาษาทางการไม่เคยชน** — บรรทัดเดียวกันใน pak ต้นฉบับ: cn 332 · de 513 · en 493 · es 530 · fr 520 · it 572 · ja 434 · ko 423 · tw 338 ไบต์
+ไทย 3 ไบต์/ตัวอักษร + คำแปลขยายความ → 1,098 · ทั้งคลังมีบรรทัด `.msg` ไทยเกิน 1,024 อยู่ **3 บรรทัด**
+(อีกสองคือประกาศ SHARE ของ PlayStation 4 `uid0102220f#000` 1,039 · `uid01160726#013` 1,065 ที่ EN ก็ทิ้งเป็นญี่ปุ่น) · บรรทัดถัดไป 898
+
+**แก้**: `scripts/fix_msg_byte_limit.py` ย่อทั้งสามให้ 854 / 846 / 880 ไบต์ (ยืนยันจากไฟล์ใน pak test_23) · ด่าน `check_byte_limits.py` เพิ่มกฎ **ทุกบรรทัด `.msg` ≤ 1,000 ไบต์**
+(เผื่อ NUL/ไบต์ที่โค้ดเขียนต่อท้าย) · ยืนยันแล้วว่าไบต์ในไฟล์ที่บิลด์ = ไบต์ของคำแปลใน master (198/198 บรรทัดของ uid000c140e)
+
+**ที่ยังไม่รู้** (ห้ามสรุปโดยไม่มีหลักฐานจากจอ): ตาราง `tips.bin` มี 18 แถวไทยเกิน 1,024 ไบต์ (สูงสุด 1,471 "Raising Your Troopers")
+และ locres `rule_*` (กติกามินิเกม) 7 สตริง (สูงสุด 1,539 `rule_chinchiro/page06/word`) — เนื้อหาชนิดเดียวกับหน้าต่างสอนเล่น
+(แถวทิปส์ "Udon Shop" คอลัมน์ 6 ก็ขึ้นต้น `<kf:10>` เหมือนบรรทัดที่ crash) แต่ยังไม่พิสูจน์ว่าผ่าน buffer ตัวเดียวกัน
+→ ทดสอบเปิดทิปส์ "พื้นฐานการต่อสู้: ลักษณะศัตรู" (1,423 ไบต์) จากเมนูทิปส์ · ถ้า crash ให้ย่อทั้ง 18 แถว + 7 สตริง แล้วเพิ่มกฎในด่าน
+
+สิ่งที่ตัดออกจากผู้ต้องสงสัยได้ด้วยหลักฐานเดียวกัน: ชั้น pac (`pac_STID_ST_UDONYA` ไม่ถูกแก้ · สตริง pac ยาวสุด 307 ไบต์) ·
+label ของฉาก (ทั้ง 16 ตัวแปลในทุกภาษาทางการ ยกเว้น `Player` ที่เหมือนกันทุกภาษาแต่ก็ถูกแทนทั้งเกมมาตั้งแต่ v1.5 โดยไม่ crash)

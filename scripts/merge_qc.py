@@ -131,11 +131,13 @@ HONORIFIC_NOT_NAME_EN = re.compile(r"\b(cho|oicho|kabu|ban)-(han|san)\b", re.I)
 # ⚠ わし ต้องตามด้วยคำช่วย ไม่งั้นจะไปตรงกับกลางคำกริยา (交わした = แลกเปลี่ยน/ให้สัญญา)
 #   และ のよ ต้องกัน のような/のように (แปลว่า 'เหมือน' ไม่ใช่คำลงท้ายหญิง)
 #   ทั้งสองเคสเจอจริงตอนลงน้ำเสียงหญิงลำลองในก้อน MSG_005 · MSG_006 (3 ก.ย. 2026)
-JA_MALE_RE = re.compile(r"(拙者|でござる|ござるよ|ござるか|俺|オレ|おれ|オイ(?=[がのは])|僕|ぼく|ワシ|わし(?=[はがのもらやだ、。！？])|だぜ|だぞ|やがる|てめえ|ですぞ|であるか|(?<!だ)(?<!どう)ぞ(?=[。！？…、」』〜～ー\r\n]|$)|(?<!だ)ぜ(?=[。！？…、」』〜～ー\r\n]|$)|あっし)")
+JA_MALE_RE = re.compile(r"(拙者|でござる|ござるよ|ござるか|俺|オレ|(?<![てで])(?<!じゃ)おれ(?!ん)|オイ(?=[がのは])|僕|ぼく|ワシ|わし(?=[はがのもらやだ、。！？])|だぜ|だぞ|やがる|てめえ|ですぞ|であるか|(?<!だ)(?<!どう)(?<!なにと)ぞ(?=[。！？…、」』〜～ー\r\n]|$)|(?<!だ)ぜ(?=[。！？…、」』〜～ー\r\n]|$)|あっし)")
 # ⭐ วัดซ้ำกับป้ายเพศ 4,788 บรรทัดที่ผู้ตรวจ (subagent) ชี้พร้อมหลักฐานตรวจซ้ำได้ (12 ก.ย. 2026):
 #   ぜ ท้ายประโยค ชาย 78 : หญิง 0 · ぞ ท้ายประโยค ชาย 106 : หญิง 2 (ทั้งสองเคสเป็น "どうぞ" = คนละคำ)
 #   あっし ชาย 3 : หญิง 0 -> เพิ่มสามรูปนี้เข้าฝั่งชาย (เดิมมีแค่ だぜ/だぞ จึงพลาดบทที่ลงท้ายด้วย ぜ/ぞ เปล่า)
 #   ที่ตรวจแล้ว **ไม่เพิ่ม**: わい (ชาย 2 : หญิง 0 น้อยเกินไป)
+#   กัน なにとぞ (何卒 = "ขอความกรุณา" คำสุภาพ ไม่ใช่ ぞ ท้ายประโยค) — วัดกับคิวเสียงรายบรรทัด (15 ก.ย. 2026):
+#   บทฮารุกะ `haruka_door_s01_003` 「なにとぞ、お気をつけて。」 ถูกนับเป็นชาย 4 บรรทัด ซึ่งเป็นที่ขัดทั้งหมดของคิวนี้
 # ⚠ วัดกับผู้พูดที่รู้เพศแน่นอน 6,382 บรรทัดแล้ว (3 ก.ย. 2026) — ผลที่ได้บังคับให้ตัดหลายคำทิ้ง:
 #   ですわ / ますわ = **สำเนียงคันไซ ไม่ใช่คำหญิง** (ชาย 25/6 · เรียวมะพูดเองบ่อย) -> เอาออก
 #   わ ท้ายประโยคเดี่ยว ๆ = ชาย 83 หญิง 41 -> ใช้เป็นหลักฐานไม่ได้เลย
@@ -233,7 +235,39 @@ def dialogue_gender(en):
         _DIALOGUE_GENDER = {k: v["gender"] for k, v in raw.items()
                             if isinstance(v, dict) and v.get("gender") in ("male", "female")
                             and v.get("why")}
+        # ตารางนี้ผูกกับ **สตริงอังกฤษ** แต่หลักฐานมาจากบรรทัดเดียว — สตริงที่โผล่หลายฉากและ ja ต่างกัน
+        # คือคนละคนพูด ห้ามลากเพศไปทุกฉาก (15 ก.ย. 2026: "Hm?" 61 ฉากเป็น male · "Oh..." 9 ฉากเป็น female
+        # เพราะหลักฐานฉากเดียว) · เกณฑ์เดียวกับ check_gender_lines.py (ja เหมือนกันทุกที่ = ฉากสำเนา ผ่าน)
+        # หลักฐานรายบรรทัดของสตริงพวกนี้ยังอยู่ใน gender_dialogue_keys.json (ชั้น key)
+        rows = json.loads((paths.EXTRACTED / "parallel" / "msg.json").read_text(encoding="utf-8"))
+        files, jas = {}, {}
+        for r in rows:
+            e = r.get("en")
+            if e in _DIALOGUE_GENDER:
+                files.setdefault(e, set()).add(r["file"])
+                jas.setdefault(e, set()).add(r.get("ja") or "")
+        for e in [e for e in _DIALOGUE_GENDER if len(files.get(e, ())) > 1 and len(jas[e]) > 1]:
+            del _DIALOGUE_GENDER[e]
     return _DIALOGUE_GENDER.get(en)
+
+
+_VOICE_GENDER = None
+
+
+def voice_gender(en):
+    """เพศจากคิวเสียงของบรรทัดนั้นเอง (คำสั่ง 0x03/0x35) — สร้างด้วย `scripts/build_voice_gender.py`
+
+    วัด 15 ก.ย. 2026: 3,700 บรรทัด · เทียบกับเครื่องหมายเพศในบรรทัดเอง ตรง 475 · ขัด 0
+    ยุบเป็นสตริงอังกฤษเฉพาะเมื่อทุกที่ที่สตริงโผล่มีคิวเพศเดียวกัน (หรือเป็นสำเนาฉาก ja ตรงกัน)
+    ชั้นนี้อยู่ **ใต้** gender_lines ของ lead แต่ **เหนือ** ja_gender (ja_gender มีบวกปลอมของ regex ได้)
+    """
+    global _VOICE_GENDER
+    if _VOICE_GENDER is None:
+        p = paths.TRANSLATIONS / "gender_voice.json"
+        raw = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+        _VOICE_GENDER = {k: v["gender"] for k, v in raw.items()
+                         if isinstance(v, dict) and v.get("gender") in ("male", "female") and v.get("why")}
+    return _VOICE_GENDER.get(en)
 
 
 def load_context(batch_id):
@@ -356,7 +390,7 @@ def check_pair(en, th, exceptions=(), ja=None, era=True, neutral=False):
         # (拙者/でござる = ซามูไรชาย · わよ/かしら = หญิง) ซึ่งเป็นหลักฐานจากไฟล์เกมลำดับที่ 2
         # ถ้าคำไทยตรงกับเพศที่ต้นฉบับบอก = ไม่ใช่การเดา -> ปล่อยผ่านเป็นคำเตือน
         # ถ้าสวนทางกับต้นฉบับ = ตกเหมือนเดิม (เป็นการเดาผิดจริง)
-        jg = line_gender(en) or ja_gender(ja) or dialogue_gender(en) or scene_gender(en)
+        jg = line_gender(en) or voice_gender(en) or ja_gender(ja) or dialogue_gender(en) or scene_gender(en)
         if gendered and jg:
             side = TH_MALE_TOKENS if jg == "male" else TH_FEMALE_TOKENS
             other = TH_FEMALE_TOKENS if jg == "male" else TH_MALE_TOKENS

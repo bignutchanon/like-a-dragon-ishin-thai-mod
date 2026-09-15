@@ -56,7 +56,7 @@ def main() -> int:
         # label กับบล็อกคำสั่งต้องเหมือน vanilla เป๊ะ — ถ้าเพี้ยน ป้ายฉาก/ท่าทาง/คิวเสียงจะพัง
         # (บั๊กจริง 3 ก.ย. 2026: พอยเตอร์ label ถูกเขียนทับกลางสตริง ทำให้กล้องคัตซีนค้างในเกม)
         # label ชั้นแสดงผล (ชื่อผู้พูด/ตัวเลือก) ถูกแปลได้ตาม build_text.label_replacements_for
-        lab_repl = label_replacements_for(van.labels, master)
+        lab_repl = label_replacements_for(van.labels, master, uid)
         want_labels = [lab_repl.get(L, L) for L in van.labels]
         if want_labels != new.labels or van.label_count != new.label_count:
             bad.append((uid, -1, "ตาราง label ไม่ตรง vanilla",

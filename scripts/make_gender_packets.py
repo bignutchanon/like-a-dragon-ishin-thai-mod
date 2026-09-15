@@ -14,9 +14,16 @@
 ซองควบคุม (`--control`) สร้างจากไฟล์ที่ `scene_gender.json` ชี้ได้แล้ว เอาไว้วัดว่า agent
 ตอบตรงกับผลที่วัดความแม่นไว้แล้ว 99.2%/100% แค่ไหน — ใช้ตัดสินว่าจะเชื่อทั้งคลื่นหรือไม่
 
+คลื่นสอง (`--audit`) ไล่ไฟล์ที่ `scene_gender.json` ชี้ได้แล้ว **รายบรรทัด** — ชั้นฉากตีทั้งไฟล์เป็น
+เพศเดียว บทของตัวละครอีกเพศในฉากเดียวกันจึงผิดทั้งหมด (HANDOFF §0.59: ผู้ตรวจ 10/36 ซองเจอเอง
+ฮารุกะ · โอกามิ 3 ร้าน · อาการิ · โอมิตสึ ฯลฯ) ผลลงคนละโฟลเดอร์กับคลื่นแรก (`--wave`)
+
+ข้อมูลตายของภาคปัจจุบัน (`DEAD_FILES` · HANDOFF §0.59 ข้อ 1) ถูกตัดออกจากทุกซองเสมอ
+
 ใช้:
   python scripts/make_gender_packets.py --lines 800          # ซองงานจริง
   python scripts/make_gender_packets.py --control 2          # ซองควบคุม 2 ซอง
+  python scripts/make_gender_packets.py --audit --wave gender_wave2   # คลื่นสอง
 """
 import argparse
 import json
@@ -29,13 +36,16 @@ sys.stderr.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import paths  # noqa: E402
 
-OUT = paths.PROJECT / "work" / "gender_wave" / "in"
+# บทคลับโฮสเตสภาคปัจจุบันที่ค้างอยู่ใน .msg ของ Ishin — ไม่มีในเกม ห้ามเสียแรงอ่าน
+DEAD_FILES = {"uid0134003a", "uid01340035", "uid0134003b", "uid0134003c"}
 
 
 def load_files():
     par = json.loads((paths.PROJECT / "extracted" / "parallel" / "msg.json").read_text(encoding="utf-8"))
     by = defaultdict(list)
     for r in par:
+        if r["file"].rsplit("/", 1)[-1] in DEAD_FILES:
+            continue
         if (r.get("en") or "").strip():
             by[r["file"]].append(r)
     return by
@@ -55,14 +65,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--lines", type=int, default=800, help="จำนวนบรรทัดต่อซอง")
     ap.add_argument("--control", type=int, default=0, help="สร้างซองควบคุมกี่ซอง (จากไฟล์ที่ชี้เพศได้แล้ว)")
+    ap.add_argument("--audit", action="store_true", help="ไล่ไฟล์ที่ scene_gender ชี้ได้แล้วรายบรรทัด (คลื่นสอง)")
+    ap.add_argument("--wave", default="gender_wave", help="โฟลเดอร์ใต้ work/ ที่เก็บซอง")
     args = ap.parse_args()
 
     by = load_files()
     scene = json.loads((paths.TRANSLATIONS / "scene_gender.json").read_text(encoding="utf-8"))
     determined = {f for f, rows in by.items() if any(r["en"] in scene for r in rows)}
-    pool = sorted(determined) if args.control else sorted(set(by) - determined)
+    pool = sorted(determined) if (args.control or args.audit) else sorted(set(by) - determined)
     prefix = "control" if args.control else "packet"
 
+    OUT = paths.PROJECT / "work" / args.wave / "in"
     OUT.mkdir(parents=True, exist_ok=True)
     packets, cur, n = [], [], 0
     for f in pool:

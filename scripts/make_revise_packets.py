@@ -36,14 +36,32 @@ import merge_qc as M              # noqa: E402
 import thai_pronouns as tp        # noqa: E402
 
 
-def gender_of(en, ja):
-    """เพศ + ชื่อชั้นหลักฐาน ตามลำดับเดียวกับด่าน G ใน merge_qc.py (ห้ามเรียงใหม่)"""
+def _load_keys(name):
+    p = paths.TRANSLATIONS / name
+    raw = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    return {k: v["gender"] for k, v in raw.items() if isinstance(v, dict) and v.get("gender") in ("male", "female")}
+
+
+# ตารางรายบรรทัด (15 ก.ย. 2026): คิวเสียงของบรรทัด (build_voice_gender.py) · ผลผู้ตรวจที่ผ่านด่าน (merge_gender_wave.py)
+VOICE_KEYS = _load_keys("gender_voice_keys.json")
+DIALOGUE_KEYS = _load_keys("gender_dialogue_keys.json")
+
+
+def gender_of(en, ja, key=None):
+    """เพศ + ชื่อชั้นหลักฐาน ตามลำดับเดียวกับด่าน G ใน merge_qc.py (ห้ามเรียงใหม่)
+    `key` = คีย์บรรทัด ใช้ชั้นรายบรรทัด (คิวเสียง · ผู้ตรวจ) — ไม่ส่ง = ใช้เฉพาะชั้นต่อสตริงเหมือนเดิม"""
     g = M.line_gender(en)
     if g:
         return g, "line"
+    g = VOICE_KEYS.get(key) or M.voice_gender(en)
+    if g:
+        return g, "voice"
     g = M.ja_gender(ja)
     if g:
         return g, "ja"
+    g = DIALOGUE_KEYS.get(key)
+    if g:
+        return g, "key"
     g = M.dialogue_gender(en)
     if g:
         return g, "dialogue"
@@ -106,7 +124,11 @@ def load():
     par = json.loads((paths.PROJECT / "extracted" / "parallel" / "msg.json").read_text(encoding="utf-8"))
     mt = json.loads((paths.TRANSLATIONS / "master_th.json").read_text(encoding="utf-8"))
     byfile = defaultdict(list)
+    # ข้อมูลตายของภาคปัจจุบัน (คลับโฮสเตส) — คลื่น gender3 ส่งซอง 25–26 ไปเสียแรงทั้งตัวเพราะไม่ได้ตัด (15 ก.ย. 2026)
+    from make_gender_packets import DEAD_FILES
     for r in par:
+        if r["file"] in DEAD_FILES:
+            continue
         en = r.get("en") or ""
         if en.strip() and mt.get(en):
             byfile[r["file"]].append(r)
@@ -126,7 +148,7 @@ def build_rows(rows, mt, wave, safe):
         item = OrderedDict(key=r["key"], en=en, ja=ja, th=th)
         if r.get("labels"):
             item["labels"] = r["labels"]
-        g, layer = gender_of(en, ja)
+        g, layer = gender_of(en, ja, r["key"])
         if g:
             item["gender"] = g
             item["gender_from"] = layer
@@ -148,7 +170,7 @@ def safe_keys(byfile, mt):
     for rows in byfile.values():
         for r in rows:
             en, ja = r["en"], (r.get("ja") or "")
-            g, _ = gender_of(en, ja)
+            g, _ = gender_of(en, ja, r["key"])
             g_by_en[en].add(g)
             kind_by_en[en].add(decide_kind(en, ja, mt[en], g))
     return {en for en, kinds in kind_by_en.items()
@@ -188,10 +210,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--wave", choices=("gender", "weird"), required=True)
     ap.add_argument("--lines", type=int, default=0, help="บรรทัดต่อซอง (0 = ค่าตั้งต้นของคลื่น)")
+    ap.add_argument("--out", default="", help="โฟลเดอร์คลื่นใต้ work/revise_wave/ (ว่าง = ชื่อ --wave) — "
+                                              "ตัวสร้างลบซองเก่าในโฟลเดอร์ปลายทาง ห้ามชี้ไปที่คลื่นที่ทำเสร็จแล้ว")
     args = ap.parse_args()
     per = args.lines or (450 if args.wave == "gender" else 1100)
 
-    out_dir = paths.PROJECT / "work" / "revise_wave" / args.wave / "in"
+    out_dir = paths.PROJECT / "work" / "revise_wave" / (args.out or args.wave) / "in"
     out_dir.mkdir(parents=True, exist_ok=True)
     for old in list(out_dir.glob("packet_*.json")) + list(out_dir.glob("packet_*.txt")):
         old.unlink()
