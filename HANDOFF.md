@@ -15,6 +15,12 @@
 
 ### 0.1 ม็อดที่ติดตั้งอยู่ตอนนี้
 
+> **18 ก.ย. 2026: ปล่อย v1.7 แล้ว = เนื้อเดียวกับ `test_28`** (ผู้ใช้ทดสอบในเกมแล้วสั่งปล่อย · เทียบ pak ในชุดปล่อยกับ test_28 รายไฟล์ 1,370 ไฟล์ ต่าง 0)
+> ที่ติดตั้งในเกมเป็นไฟล์ `test_28` (เนื้อเท่า v1.7 ทุกไฟล์ ต่างแค่ไบต์ตัว pak — repak ไม่ reproducible)
+> ตอนสั่ง `--version v1.7 --install` เกมเปิดอยู่ ไฟล์ใน `~mods` ถูกล็อก จึงยังเป็น test_28
+> release/LikeADragonIshinThai-v1.7.zip · 5.3 MB · sha256 ef105ca3ba5992f668172ed660c6c5572dbed7e33898dfdfa193948224203515
+> เนื้อหา: คำเรียก -chan กลับเป็น "…จัง" ทั้งเกม 112 จุด (เลิกใช้ "ไอ้หนู" นำหน้าชื่อ) · ชื่อท่า/อาวุธตรงกับเมนู 55 ข้อความ
+>
 > **16 ก.ย. 2026: ปล่อย v1.6 แล้ว = เนื้อเดียวกับ `test_24`** (ผู้ใช้ทดสอบในเกมแล้วสั่งปล่อย · เทียบ pak ในชุดปล่อยกับ test_24 รายไฟล์ 1,370 ไฟล์ ต่าง 0)
 > ที่ติดตั้งในเกมยังเป็นไฟล์ `test_24` (sha256 `027dfc1d71a77260…`) — ตอนปล่อยเกมเปิดอยู่จึงไม่ได้ `--install` · เนื้อไฟล์เท่า v1.6 ทุกไฟล์ ต่างแค่ไบต์ตัว pak (repak ไม่ reproducible)
 > release/LikeADragonIshinThai-v1.6.zip · 5.6 MB · sha256 f60d37d80af4d61d397e16fc2f61aa0065d5eca8fd92faf2b36b43be0b24ca48 · แปล 39,838 ประโยค
@@ -36,9 +42,10 @@ release/LikeADragonIshinThai-v1.5.zip · 4.5 MB · sha256 8259e0e9c34ed1243ce424
 
 **ปล่อยแล้วบน GitHub `bignutchanon/like-a-dragon-ishin-thai-mod`: `v1.0` · `v1.1` · `v1.2` · `v1.3` · `v1.4`**
 `v1.5` (13 ก.ย. 2026): https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.5
-**`v1.6` (ล่าสุด · 16 ก.ย. 2026) — ปล่อยขึ้น GitHub แล้ว: https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.6**
-⏳ **ยังไม่ได้อัปขึ้น Nexus** — ข้อความหน้าเพจของ v1.4 อยู่ที่ `release/nexus_upload.txt` (ใช้ `/nexus-release` ทำของ v1.6 · ข้าม v1.5 ได้)
-บิลด์ทดสอบ: `test_01` → `test_24` (ดู `work/testbuilds.md`) · v1.4 = `test_07` · v1.5 = `test_11` · v1.6 = `test_24`
+`v1.6` (16 ก.ย. 2026): https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.6
+**`v1.7` (ล่าสุด · 18 ก.ย. 2026) — ปล่อยขึ้น GitHub แล้ว: https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.7**
+⏳ **ยังไม่ได้อัปขึ้น Nexus** — ข้อความหน้าเพจของ v1.4 อยู่ที่ `release/nexus_upload.txt` (ใช้ `/nexus-release` ทำของ v1.7 · ข้าม v1.5/v1.6 ได้ · ข้อความอัปเดตถึง v1.6 แล้วในไฟล์นั้น)
+บิลด์ทดสอบ: `test_01` → `test_28` (ดู `work/testbuilds.md`) · v1.4 = `test_07` · v1.5 = `test_11` · v1.6 = `test_24` · v1.7 = `test_28`
 
 ⚠ **เลขบิลด์ทดสอบกับเลขเวอร์ชันที่ปล่อย แยกกันคนละสาย** (กติกาจากผู้ใช้ 8 ก.ย. 2026)
 
