@@ -13,7 +13,7 @@ Like a Dragon: Ishin! — Thai Translation (แปลไทย)
 Full Thai translation of the 2023 remake: story, cutscene subtitles, substories, menus, items and skills. Ships as a single .pak in ~mods — no original game files are overwritten, no installer, no mod loader.
 
 [ Version ]
-1.4
+1.6
 
 [ Category ]
 Translations   (ถ้าไม่มี ใช้ Miscellaneous)
@@ -30,7 +30,7 @@ Thai, Translation, Localization, Language, Font
 ────────────────────────────────────────
 [size=5]Like a Dragon: Ishin! — Thai Translation / ม็อดแปลไทย[/size]
 
-[b]Full Thai translation[/b] of Like a Dragon: Ishin! (2023 remake) — 38,471 lines: main story, cutscene subtitles, NPC dialogue, substories, menus, item/weapon/skill names, encyclopedia and journal entries.
+[b]Full Thai translation[/b] of Like a Dragon: Ishin! (2023 remake) — 39,838 lines: main story, cutscene subtitles, NPC dialogue, substories, menus, item/weapon/skill names, encyclopedia and journal entries.
 
 [b]What it touches:[/b] the mod is a single [b]IshinThai_P.pak[/b] dropped into [b]Content\Paks\~mods\[/b]. It does not overwrite any original game file, needs no mod loader, and is not removed by Steam's "Verify integrity of game files". To uninstall, delete that one file.
 
@@ -41,6 +41,7 @@ Thai, Translation, Localization, Language, Font
 [size=4]แปลอะไรไปบ้าง[/size]
 [list]
 [*]เนื้อเรื่องหลัก · ซับคัตซีน · บทสนทนา NPC
+[*]บทพูดลอยเหนือหัวชาวเมือง และป้ายกดคุย
 [*]ชื่อผู้พูดในกล่องบทพูด และตัวเลือกตอบ
 [*]เควสเสริม (substories) และภารกิจย่อย
 [*]เมนู · หน้าตั้งค่า · จอทิปส์
@@ -54,13 +55,12 @@ Thai, Translation, Localization, Language, Font
 [list]
 [*]license / EULA / เครดิต — ข้อความกฎหมาย คงต้นฉบับ
 [*]กล่องข้อความของ Windows (เช่นตอนกด Alt+F4) — Windows เป็นคนวาด ไม่ใช่เกม
-[*]ชื่อศัตรูลูกกระจ๊อกบนแถบพลัง — เป็นนามสกุลโรมาจิเหมือนเวอร์ชันอังกฤษของเกมต้นฉบับ ทางแสดงผลของชื่อนี้วาดอักษรไทยออกมาเป็น ?
-[*]ชื่อในแผนผังความสัมพันธ์ — ทางแสดงผลเดียวกัน จึงคงโรมาจิไว้
 [*]ป้ายที่เกมวาดด้วยฟอนต์พู่กันญี่ปุ่น (ชื่อบนการ์ดทหารหน่วย · สแตมป์โหมดถ่ายภาพ) — ฟอนต์ชุดนั้นแสดงไทยไม่ได้
-[*]เสียงตะโกนของ NPC ในเมือง (ป้ายลอยหัว) และป้าย "Pray" หน้าศาลเจ้า — ข้อความชุดนี้ฝังอยู่ในไฟล์วางวัตถุประจำฉาก ยังแกะฟอร์แมตไม่ได้
+[*]ป้าย "New Record!" ในมินิเกม — เป็นรูปภาพ
+[*]ป้าย "Pray" หน้าศาลเจ้า — อาจยังเป็นอังกฤษ
 [/list]
 
-[i]English:[/i] Legal text, credits, Windows message boxes, mook enemy names on the health bar, relationship-chart names, and brush-font signage stay in English/romaji on purpose — those display paths draw Thai glyphs as "?" or use a Japanese brush font with no Thai coverage.
+[i]English:[/i] Legal text, credits, Windows message boxes, brush-font signage, the "New Record!" minigame banner (an image) and possibly the shrine "Pray" prompt stay in English on purpose.
 
 [size=4]การติดตั้ง / Installation[/size]
 [list=1]
@@ -113,6 +113,22 @@ Thai, Translation, Localization, Language, Font
 ────────────────────────────────────────
  Changelog  (ช่อง Changelog)
 ────────────────────────────────────────
+[b]v1.6[/b]
+- แก้เกมเด้งปิดตอนเปิดหน้าต่างสอนเล่นเควสต์ร้านอุด้ง
+- ป้าย HUD และหน้าสรุปผลของมินิเกม ร้านอุด้ง · แข่งไก่ · โชฮัง · ซีโล · ผ่าฟืน ขึ้นไทยแล้ว (เดิมขึ้นแค่ตัวเลข)
+- บทพูดลอยเหนือหัวชาวเมืองเกียวโตและป้ายกดคุยเป็นไทย
+- สรุปเนื้อเรื่องตอนเริ่มบทไม่ขาดกลางคำแล้ว
+- ชื่อดาบแบบซามูไร: ดาบในประวัติศาสตร์ใช้ชื่อญี่ปุ่นจริง (โฮตารุมารุ · ฮิเงะกิริ) ดาบที่เกมตั้งเองแปลความหมาย (ดาบฝนพรำ)
+- คำลงท้ายบอกเพศแม่นขึ้น · เกลาสำนวนบทพูด · มุกทายคำในเควสต์จดหมายของฟุจิเอะเล่นกันรู้เรื่อง
+- วางไฟล์ .pak ทับของเดิมได้เลย เซฟเดิมใช้ต่อได้
+
+[b]v1.5[/b]
+- ชื่อผู้พูดเหนือกล่องข้อความและตัวเลือกตอบเป็นไทยแล้ว (เดิมยังเป็นอังกฤษ เช่น Shinto Priest · Just passing by.)
+- ชื่อศัตรูบนแถบพลังและชื่อใต้รูปในแผนผังความสัมพันธ์เป็นไทยแล้ว (เดิมคงอังกฤษ/โรมาจิไว้เพราะเคยขึ้นเป็นกล่อง ?)
+- วรรณยุกต์ที่ซ้อนบนสระบนไม่หายจากจอบนฟอนต์พู่กันแล้ว (ซับคัตซีน · จอไตเติล)
+- ใส่คำลงท้ายบอกเพศผู้พูดเพิ่ม 278 บรรทัด หลังยืนยันเพศผู้พูดได้จาก 46% เป็น 67% ของบทพูด
+- Tosa Loyalist Party เปลี่ยนเป็น "พรรคกินโนโทซะ" และแก้คำแปลที่ความหมายเพี้ยนอีก 9 จุด
+
 [b]v1.4[/b]
 - แก้ตัวอักษรตัวสุดท้ายของบรรทัดที่หายไปจากจอ (คำลงท้ายอย่าง "แล้ว" · "นะ" · "ล่ะ" หายบ่อยสุด) และช่วงสีในบรรทัดที่เคยเลื่อนผิดตำแหน่ง
 - กวาดคำแปลเทียบต้นฉบับอังกฤษทั้งเกม แก้จุดที่ความหมายเพี้ยน 34 จุด (เช่น ภารกิจลับของหน่วยสามที่มาจากราชสำนักไม่ใช่รัฐบาลโชกุน · ประโยคที่ความหมายกลับด้าน · ชื่อดาบโอดาจิ)
@@ -137,7 +153,7 @@ Thai, Translation, Localization, Language, Font
 ────────────────────────────────────────
  ไฟล์ที่อัป
 ────────────────────────────────────────
-C:\Users\BigNut\Desktop\nexus_upload\ishin\LikeADragonIshinThai-v1.4-nexus.zip   (4.3 MB)
+C:\Users\BigNut\Desktop\nexus_upload\ishin\LikeADragonIshinThai-v1.6-nexus.zip   (5.3 MB)
 (แพ็กสำหรับ Nexus โดยเฉพาะ: ไม่มี .bat/.ps1 — ตัวติดตั้งคือสิ่งที่ทำให้ไฟล์โดน quarantine รอบแรก)
 
 
