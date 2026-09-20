@@ -15,6 +15,11 @@
 
 ### 0.1 ม็อดที่ติดตั้งอยู่ตอนนี้
 
+> **21 ก.ย. 2026: ปล่อย v1.8 แล้ว = เนื้อเดียวกับ `test_29`** (ผู้ใช้สั่งปล่อยเลยโดยยังไม่ได้ทดสอบฉากในเกม · เทียบ pak ที่ติดตั้งกับ test_29 รายไฟล์ 1,360 ไฟล์ ต่าง 0)
+> **ติดตั้งลงเกมแล้ว** (เกมปิดอยู่ตอนปล่อย) · release/LikeADragonIshinThai-v1.8.zip · 5.6 MB · sha256 7f3ac31e92e080d31258cd8294bdad15c7ec92bd571dad0ed6e0371eddce1744
+> เนื้อหา: label ที่เป็นคีย์เอนจิ้นไม่ถูกแปลอีก (`Player` 671 ไฟล์ · `Information` 2 · `Attack` 1) — แก้กล้องค้างในผนังฉากเข้านอนกับฮารุกะ (§0.68) · คำแปลเท่า v1.7 ทุกประโยค
+> ⏳ **ยังไม่มีใครยืนยันบนจอว่ากล้องหายค้าง** — ให้ผู้ใช้เข้าฉากเข้านอนกับฮารุกะอีกครั้ง ถ้ายังค้างต้องไล่ label ตัวเลือกต่อ
+>
 > **18 ก.ย. 2026: ปล่อย v1.7 แล้ว = เนื้อเดียวกับ `test_28`** (ผู้ใช้ทดสอบในเกมแล้วสั่งปล่อย · เทียบ pak ในชุดปล่อยกับ test_28 รายไฟล์ 1,370 ไฟล์ ต่าง 0)
 > ที่ติดตั้งในเกมเป็นไฟล์ `test_28` (เนื้อเท่า v1.7 ทุกไฟล์ ต่างแค่ไบต์ตัว pak — repak ไม่ reproducible)
 > ตอนสั่ง `--version v1.7 --install` เกมเปิดอยู่ ไฟล์ใน `~mods` ถูกล็อก จึงยังเป็น test_28
@@ -43,9 +48,10 @@ release/LikeADragonIshinThai-v1.5.zip · 4.5 MB · sha256 8259e0e9c34ed1243ce424
 **ปล่อยแล้วบน GitHub `bignutchanon/like-a-dragon-ishin-thai-mod`: `v1.0` · `v1.1` · `v1.2` · `v1.3` · `v1.4`**
 `v1.5` (13 ก.ย. 2026): https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.5
 `v1.6` (16 ก.ย. 2026): https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.6
-**`v1.7` (ล่าสุด · 18 ก.ย. 2026) — ปล่อยขึ้น GitHub แล้ว: https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.7**
+`v1.7` (18 ก.ย. 2026): https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.7
+**`v1.8` (ล่าสุด · 21 ก.ย. 2026) — ปล่อยขึ้น GitHub แล้ว: https://github.com/bignutchanon/like-a-dragon-ishin-thai-mod/releases/tag/v1.8**
 ⏳ **ยังไม่ได้อัปขึ้น Nexus** — ข้อความหน้าเพจของ v1.4 อยู่ที่ `release/nexus_upload.txt` (ใช้ `/nexus-release` ทำของ v1.7 · ข้าม v1.5/v1.6 ได้ · ข้อความอัปเดตถึง v1.6 แล้วในไฟล์นั้น)
-บิลด์ทดสอบ: `test_01` → `test_28` (ดู `work/testbuilds.md`) · v1.4 = `test_07` · v1.5 = `test_11` · v1.6 = `test_24` · v1.7 = `test_28`
+บิลด์ทดสอบ: `test_01` → `test_29` (ดู `work/testbuilds.md`) · v1.4 = `test_07` · v1.5 = `test_11` · v1.6 = `test_24` · v1.7 = `test_28` · v1.8 = `test_29`
 
 ⚠ **เลขบิลด์ทดสอบกับเลขเวอร์ชันที่ปล่อย แยกกันคนละสาย** (กติกาจากผู้ใช้ 8 ก.ย. 2026)
 
@@ -1106,8 +1112,8 @@ check_gender_lines ใช้ร่วมหลายฉาก 0 · check_thai_ma
 ตัดออก 3 คำ: `Player` 671 ไฟล์ · `Information` 2 · `Attack` 1 (สองคำหลังอยู่กลางคีย์ท่าทาง `Talk_Angry`/`Idle`) · label ไทยที่เหลือ 3,333 จุด
 `check_msg_translated.py` เรียกฟังก์ชันเดียวกันจึงตามให้เอง · 10 ไฟล์ที่เคยต่างแค่ `Player` กลับเป็น vanilla (pak 1,370 → 1,360 ไฟล์)
 
-**บิลด์ `test_29`** = v1.7 + กฎนี้ · ด่านบังคับครบ ต่าง 0 · ⚠ **ยังไม่ติดตั้ง** (เกมเปิดอยู่ ไฟล์ใน `~mods` ถูกล็อก)
-→ ปิดเกมแล้วคัดลอก `build/IshinThai_test_29_P.pak` ทับ `~mods/IshinThai_P.pak` (อย่ารัน pack_release ซ้ำ — จะได้เลข test_30)
+**บิลด์ `test_29`** = v1.7 + กฎนี้ · ด่านบังคับครบ ต่าง 0 · **ปล่อยเป็น v1.8 แล้ว (21 ก.ย. 2026) และติดตั้งลงเกมแล้ว**
+(ผู้ใช้สั่ง "release เลย" โดยยังไม่ได้ทดสอบในเกม · เทียบ pak ที่ติดตั้งกับ test_29 รายไฟล์ 1,360 ไฟล์ ต่าง 0)
 ⏳ ผู้ใช้ทดสอบฉากเข้านอนกับฮารุกะซ้ำ: กล้องปกติ = ยืนยันต้นเหตุ · ยังค้าง = ไม่ใช่ `Player` ต้องไล่ label ตัวเลือก (`Come rest with me.` ฯลฯ) ต่อ
 
 ### 0.67 ⭐ HUD/หน้าสรุปผลมินิเกมอุด้งไม่มีข้อความไทย = CompositeFont `HTT-GFKaisho-E_Font` ไม่เคยถูกทับ (16 ก.ย. 2026 เช้ามืด)
