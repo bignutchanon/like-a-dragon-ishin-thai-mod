@@ -171,11 +171,31 @@ def label_is_text(label, uid=None):
     return label[0].isupper() or label[0] in "\"'("
 
 
+def engine_key_labels(labels, uid):
+    """label ที่ไฟล์ JA ตำแหน่งเดียวกันเขียนเหมือน EN เป๊ะ = คีย์ของเอนจิ้น ไม่ใช่ข้อความบนจอ
+
+    เกณฑ์เดียวกับ HANDOFF §0.56 (ArmsID/Idle/Ｂ) แต่เดิมไม่ได้เช็กจริงในตัวคัด → `Player` ถูกแทนเป็น
+    "ผู้เล่น" ใน 671 ไฟล์ · เคสจริง 19 ก.ย. 2026 (ภาพผู้ใช้): ฉากเข้านอนกับฮารุกะ `uid016c00c3`
+    กล้องไปค้างในผนัง กล่องบทพูดขึ้นชื่อแต่เนื้อว่าง — ไฟล์นั้นต่างจาก vanilla แค่ข้อความกับ label
+    และ `Player` เป็น label ตัวเดียวที่ภาษาญี่ปุ่นก็เขียนเป็นอังกฤษ
+    """
+    if not uid:
+        return set()
+    ja = paths.MSG_JA / (uid + ".msg")
+    if not ja.exists():
+        return set()
+    ja_labels = msgmod.load(ja).labels
+    return {lab for lab, jl in zip(labels, ja_labels) if lab == jl}
+
+
 def label_replacements_for(labels, th_map, uid=None):
     """{label เดิม: ไทย} เฉพาะ label ที่เป็นข้อความและ master มีคำแปล · `uid` = ชื่อไฟล์ .msg (ใช้กับ LABEL_TEXT_ALLOW)"""
     out = {}
+    keys = engine_key_labels(labels, uid)
     for lab in labels:
         if lab in out or not label_is_text(lab, uid):
+            continue
+        if lab in keys and lab not in LABEL_TEXT_ALLOW.get(uid, ()):
             continue
         th = th_map.get(lab)
         if th is not None and th != lab:
